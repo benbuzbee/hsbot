@@ -1,6 +1,0 @@
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.exe.config
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.exe
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.pdb
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.exe
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.pdb
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
