@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_244">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Totemic Might</enUS>
+    <frFR>Puissance totémique</frFR>
+    <zhTW>圖騰之力</zhTW>
+    <zhCN>图腾之力</zhCN>
+    <ruRU>Сила тотемов</ruRU>
+    <ptBR>Poder Totêmico</ptBR>
+    <plPL>Moc totemu</plPL>
+    <koKR>토템의 힘</koKR>
+    <itIT>Vigore Totemico</itIT>
+    <esMX>Poderío totémico</esMX>
+    <esES>Poderío totémico</esES>
+    <enGB>Totemic Might</enGB>
+    <deDE>Macht der Totems</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give your Totems +2 Health.</enUS>
+    <frFR>Confère +2 PV à vos totems.</frFR>
+    <zhTW>賦予你的圖騰+2生命值。</zhTW>
+    <zhCN>使你的图腾获得+2生命值。</zhCN>
+    <ruRU>Ваши тотемы получают +2 к здоровью.</ruRU>
+    <ptBR>Conceda +2 de Vida aos seus Totens.</ptBR>
+    <plPL>Daj swoim totemom +2 do zdrowia.</plPL>
+    <koKR>당신의 토템들에게 생명력을 +2 부여합니다.</koKR>
+    <itIT>Fornisce +2 Salute ai tuoi Totem.</itIT>
+    <esMX>Otorga +2 de Salud a tus tótems.</esMX>
+    <esES>Otorga +2 p. de salud a tus tótems.</esES>
+    <enGB>Give your Totems +2 Health.</enGB>
+    <deDE>Verleiht Euren Totems +2 Leben.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Trent Kaniuga</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="d54b1cd0-7ad9-4e37-bae2-203ab1646efe" />
+</Entity>

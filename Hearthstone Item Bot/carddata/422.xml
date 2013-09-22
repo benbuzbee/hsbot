@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_507">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Murloc Warleader</enUS>
+    <frFR>Chef de guerre murloc</frFR>
+    <zhTW>魚人領軍</zhTW>
+    <zhCN>鱼人领军</zhCN>
+    <ruRU>Мурлок-полководец</ruRU>
+    <ptBR>Líder Guerreiro Murloc</ptBR>
+    <plPL>Murlok herszt</plPL>
+    <koKR>멀록 전투대장</koKR>
+    <itIT>Gran Condottiero Murloc</itIT>
+    <esMX>Líder de guerra múrloc</esMX>
+    <esES>Líder de guerra múrloc</esES>
+    <enGB>Murloc Warleader</enGB>
+    <deDE>Murlocanführer</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>ALL other Murlocs have +2/+1.</enUS>
+    <frFR>TOUS les autres murlocs ont +2/+1.</frFR>
+    <zhTW>全部其他魚人獲得+2/+1。</zhTW>
+    <zhCN>所有其他鱼人获得+2/+1。</zhCN>
+    <ruRU>ВСЕ прочие мурлоки получают +2/+1.</ruRU>
+    <ptBR>TODOS os outros Murlocs têm +2/+1.</ptBR>
+    <plPL>Wszystkie pozostałe murloki otrzymują +2/+1.</plPL>
+    <koKR>다른 모든 멀록이 +2/+1을 얻습니다.</koKR>
+    <itIT>TUTTI gli altri Murloc ottengono +2/+1.</itIT>
+    <esMX>TODOS los otros múrlocs tienen +2/+1.</esMX>
+    <esES>Todos los demás múrlocs tienen +2/+1.</esES>
+    <enGB>ALL other Murlocs have +2/+1.</enGB>
+    <deDE>ALLE anderen Murlocs haben +2/+1.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Tim McBurnie</enUS>
+  </Tag>
+  <Power definition="58695e7b-cec4-4333-9dc5-26bebcef653f" />
+</Entity>

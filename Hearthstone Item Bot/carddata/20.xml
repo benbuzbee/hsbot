@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_012">
+  <MasterPower>754440d0-0f8f-45a2-bd5d-e350aa2daf71</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Swipe</enUS>
+    <frFR>Balayage</frFR>
+    <zhTW>揮擊</zhTW>
+    <zhCN>横扫</zhCN>
+    <ruRU>Размах</ruRU>
+    <ptBR>Patada</ptBR>
+    <plPL>Zamaszysty cios</plPL>
+    <koKR>휘둘러치기</koKR>
+    <itIT>Spazzata</itIT>
+    <esMX>Flagelo</esMX>
+    <esES>Flagelo</esES>
+    <enGB>Swipe</enGB>
+    <deDE>Prankenhieb</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Deal $4 damage to an enemy and $1 damage to all other enemies.</enUS>
+    <frFR>Inflige $4 point(s) de dégâts à un adversaire et $1 point(s) de dégâts à tous les autres adversaires.</frFR>
+    <zhTW>對一個敵人造成$4點傷害，並對其他全部敵人造成$1點傷害。</zhTW>
+    <zhCN>对一个敌人造成$4点伤害，并对所有其他敌人造成$1点伤害。</zhCN>
+    <ruRU>Наносит $4 ед. урона выбранному персонажу противника и $1 ед. урона остальным персонажам противника.</ruRU>
+    <ptBR>Cause $4 de dano a um inimigo e $1 de dano a todos os outros inimigos.</ptBR>
+    <plPL>Zadaj $4 pkt. obrażeń wrogowi i $1 pkt. obrażeń wszystkim pozostałym wrogom.</plPL>
+    <koKR>적에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다.</koKR>
+    <itIT>Infligge $4 danni a un singolo nemico e $1 danni a tutti gli altri nemici.</itIT>
+    <esMX>Inflige $4 de daño a un enemigo y $1 de daño a todos los otros enemigos.</esMX>
+    <esES>Inflige $4 p. de daño a un enemigo y $1 p. de daño a todos los demás enemigos.</esES>
+    <enGB>Deal $4 damage to an enemy and $1 damage to all other enemies.</enGB>
+    <deDE>Fügt einem Feind $4 Schaden und allen anderen Feinden $1 Schaden zu.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Sean O’Daniels</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Goblins used to export Claw-Sharpeners to the Barrow Dens before the Cataclysm.</enUS>
+    <zhTW>在大災變以前，哥布林會出口磨爪器給各大獸穴。</zhTW>
+    <zhCN>直到大灾变之前，地精们还向怒风兽穴出口过让指甲变得更锋利的修磨器。</zhCN>
+    <ruRU>До Катаклизма гоблины поставляли точилки для когтей в Кельи Хиджала.</ruRU>
+    <ptBR>Os goblins costumavam exportar afiadores de garras para o Retiro antes do Cataclismo.</ptBR>
+    <plPL>Przed Kataklizmem gobliny wysyłały do Kurhanów ostrzałki do pazurów.</plPL>
+    <koKR>대격변 이전에 고블린들은 지하굴에 있는 드루이드들에게 발톱깎이를 팔았다고 합니다.</koKR>
+    <itIT>I Goblin esportavano tagliaunghie negli Eremi, prima del Cataclisma.</itIT>
+    <frFR>Avant le cataclysme, les gobelins exportaient des aiguise-griffes au refuge des saisons.</frFR>
+    <esMX>Los goblins exportaban unos afiladores de zarpas muy buenos a los Túmulos antes del Cataclismo.</esMX>
+    <esES>Antes del Cataclismo, los goblins solían exportar afiladores de garras a los túmulos.</esES>
+    <enGB>Goblins used to export Claw-Sharpeners to the Barrow Dens before the Cataclysm.</enGB>
+    <deDE>Goblins pflegten vor dem Kataklysmus, Klauenschärfer zu den druidischen Grabhügeln zu exportieren.</deDE>
+  </Tag>
+  <Power definition="754440d0-0f8f-45a2-bd5d-e350aa2daf71">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="3" param="" />
+  </Power>
+</Entity>

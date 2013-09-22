@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_024o">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Greenskin's Command</enUS>
+    <frFR>Ordres de Vertepeau</frFR>
+    <zhTW>綠皮的指揮</zhTW>
+    <zhCN>绿皮的命令</zhCN>
+    <ruRU>Приказ Зеленямса</ruRU>
+    <ptBR>Comando Peleverde</ptBR>
+    <plPL>Rozkaz Zielonoskórego</plPL>
+    <koKR>그린스킨의 지휘</koKR>
+    <itIT>Ordine di Pelleverde</itIT>
+    <esMX>Orden de Verdetez</esMX>
+    <esES>Orden de Verdetez</esES>
+    <enGB>Greenskin's Command</enGB>
+    <deDE>Grünhauts Befehl</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>+2/+2.</enUS>
+    <frFR>+2/+2.</frFR>
+    <zhTW>+2/+2。</zhTW>
+    <zhCN>+2/+2。</zhCN>
+    <ruRU>+2/+2.</ruRU>
+    <ptBR>+2/+2.</ptBR>
+    <plPL>+2/+2.</plPL>
+    <koKR>+2/+2</koKR>
+    <itIT>+2/+2.</itIT>
+    <esMX>+2/+2.</esMX>
+    <esES>+2/+2.</esES>
+    <enGB>+2/+2.</enGB>
+    <deDE>+2/+2.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="db658efa-6c95-4e02-90a7-c824c0b2283a" />
+</Entity>

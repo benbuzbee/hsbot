@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_027e">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Yarrr!</enUS>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Southsea Captain is granting +1/+1.</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="dd5a3bcb-bd25-444f-a1fd-906a5613bd36" />
+</Entity>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_065">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Voidwalker</enUS>
+    <frFR>Marcheur du Vide</frFR>
+    <zhTW>虛無行者</zhTW>
+    <zhCN>虚空行者</zhCN>
+    <ruRU>Демон Бездны</ruRU>
+    <ptBR>Emissário do Caos</ptBR>
+    <plPL>Wędrowiec Pustki</plPL>
+    <koKR>공허방랑자</koKR>
+    <itIT>Ombra del Vuoto</itIT>
+    <esMX>Abisario</esMX>
+    <esES>Abisario</esES>
+    <enGB>Voidwalker</enGB>
+    <deDE>Leerwandler</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Race" enumID="200" type="Race" value="15" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Robb Shoberg</enUS>
+  </Tag>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="63c14a54-2a4b-4a67-9016-8236368bc9ba" />
+</Entity>

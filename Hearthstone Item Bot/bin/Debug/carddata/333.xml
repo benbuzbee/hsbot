@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_274e">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Raw Power!</enUS>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Increased Attack and Health.</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="76bcdf8d-f44d-45fd-970b-25f5e65bbf3f" />
+</Entity>

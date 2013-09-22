@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_616">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Mana Wraith</enUS>
+    <frFR>Âme en peine de mana</frFR>
+    <zhTW>法力怨靈</zhTW>
+    <zhCN>法力怨魂</zhCN>
+    <ruRU>Магический призрак</ruRU>
+    <ptBR>Aparição de Mana</ptBR>
+    <plPL>Upiór many</plPL>
+    <koKR>마나 망령</koKR>
+    <itIT>Presenza di Mana</itIT>
+    <esMX>Ánima de maná</esMX>
+    <esES>Ánima de maná</esES>
+    <enGB>Mana Wraith</enGB>
+    <deDE>Managespenst</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>ALL minions cost (1) more.</enUS>
+    <frFR>TOUS les serviteurs coûtent (1) cristal de plus.</frFR>
+    <zhTW>全部手下額外消耗(1)點。</zhTW>
+    <zhCN>召唤所有随从的法力值消耗增加（1）点。</zhCN>
+    <ruRU>Все существа стоят на (1) ману больше.</ruRU>
+    <ptBR>TODOS os lacaios custam (1) a mais.</ptBR>
+    <plPL>WSZYSCY stronnicy kosztują (1) więcej.</plPL>
+    <koKR>모든 하수인의 비용이 (1) 증가합니다.</koKR>
+    <itIT>TUTTI i servitori costano (1) Mana in più.</itIT>
+    <esMX>TODOS los esbirros cuestan (1) más.</esMX>
+    <esES>Todos los esbirros cuestan (1) p. más.</esES>
+    <enGB>ALL minions cost (1) more.</enGB>
+    <deDE>ALLE Diener kosten (1) mehr.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Luca Zontini</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="f10bd736-54f1-405b-8fd7-bbffc0465403" />
+</Entity>

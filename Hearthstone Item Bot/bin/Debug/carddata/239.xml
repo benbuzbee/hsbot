@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_083">
+  <MasterPower>b93e771a-10ce-47cb-92f4-8089be5d2832</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Tinkmaster Overspark</enUS>
+    <frFR>Suprétincelle</frFR>
+    <zhTW>技工大師歐沃斯巴克</zhTW>
+    <zhCN>工匠大师欧沃斯巴克</zhCN>
+    <ruRU>Мехмастер Замыкалец</ruRU>
+    <ptBR>Mestre-faz-tudo Superchispa</ptBR>
+    <plPL>Nadiskrownik Opiłek</plPL>
+    <koKR>수석땜장이 오버스파크</koKR>
+    <itIT>Meccanista Granfavilla</itIT>
+    <esMX>Maestro manitas Sobrechispa</esMX>
+    <esES>Maestro manitas Sobrechispa</esES>
+    <enGB>Tinkmaster Overspark</enGB>
+    <deDE>Tüftlermeister Oberfunks</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Transform a minion into a 5/5 Devilsaur or a 1/1 Squirrel at random.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; transforme un serviteur soit en diablosaure 5/5, soit en écureuil 1/1 .</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;隨機將一個手下變形為一隻5/5魔暴龍或一隻1/1松鼠。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从随机变形成为一个5/5的恐龙或一个1/1的松鼠。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; превращает существо в дьявозавра 5/5 или белку 1/1.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Transforme um lacaio em um Demossauro 5/5 ou em um Esquilo 1/1 aleatoriamente.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Losowo przekształć stronnika w diabłozaura 5/5 lub wiewiórkę 1/1.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인을 무작위로 5/5 데빌사우루스 또는 1/1 다람쥐로 변신시킵니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; trasforma casualmente un servitore in un Gigantosauro 5/5 o in uno Scoiattolo 1/1.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; convierte un esbirro al azar en Demosaurio 5/5 o ardilla 1/1.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Transforma un esbirro en un demosaurio 5/5 o en una ardilla 1/1, al azar.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Transform a minion into a 5/5 Devilsaur or a 1/1 Squirrel at random.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verwandelt einen Diener per Zufall in einen Teufelssaurier (5/5) oder ein Eichhörnchen (1/1).</deDE>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Transform a minion into a 5/5 or a 1/1 at random.</enUS>
+    <frFR>Transforme au hasard un serviteur en 5/5 ou 1/1.</frFR>
+    <zhTW>隨機把一個手下變形成5/5或1/1。</zhTW>
+    <zhCN>随机将一个随从变形成为5/5或者1/1。</zhCN>
+    <ruRU>Случайно превратить существо в 5/5 или 1/1</ruRU>
+    <ptBR>Transforma um lacaio em 5/5 ou em 1/1 aleatoriamente.</ptBR>
+    <plPL>Losowo przekształć stronnika w diabłozaura 5/5 lub wiewiórkę 1/1.</plPL>
+    <koKR>무작위로 5/5 또는 1/1 하수인으로 변신시키기</koKR>
+    <itIT>Trasforma casualmente un servitore in un Gigantosauro 5/5 o in uno Scoiattolo 1/1.</itIT>
+    <esMX>Transforma a un esbirro en un 5/5 o un 1/1 aleatoriamente.</esMX>
+    <esES>Transforma a un esbirro en 5/5 o 1/1, al azar.</esES>
+    <enGB>Transform a minion into a 5/5 or a 1/1 at random.</enGB>
+    <deDE>Verwandelt einen Diener zufällig in eine Kreatur mit 5/5 oder 1/1.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Tom Baxa</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>There is a reeeeeeeeeally small chance that instead of a Devilsaur it'll become The Lich King.  Reeeeeeeally small.</enUS>
+    <zhTW>還有很小很小的機率不會變成魔暴龍，而變成巫妖王。機率真的很小很小很小。</zhTW>
+    <zhCN>它会有非常非常非常非常小的几率变成巫妖王，而不是魔暴龙。几率非常非常非常非常小。</zhCN>
+    <ruRU>Есть о-очень маленькая вероятность, что существо вместо дьявозавра превратится в Короля-лича. Но не стоит слишком на это надеяться.</ruRU>
+    <ptBR>Há uma pequeeeeeena possibilidade do lacaio virar o Lich Rei ao invés de um Demossauro. Beeeeeeeem pequena.</ptBR>
+    <plPL>Istnieje maleeeeeeeńka szansa, że zamiast diabłozaura, pojawi się Król Lisz. Naprawdę maleeeeńka.</plPL>
+    <koKR>데빌사우루스 대신 리치 왕으로 변신할 가능성이 조오오오오금 있습니다. 아주 조오오오오오금.</koKR>
+    <itIT>C'è una piiiiiiiiiiccolissima probabilità che anziché diventare un gigantosauro, si trasformi nel Re dei Lich. Piiiiiiiiiiccolissima.</itIT>
+    <frFR>Il y a une trèèèèèèès faible chance qu’il se transforme en roi-liche au lieu d’un diablosaure, mais vraiment trèèèèèèès faible.</frFR>
+    <esMX>Existe una posibilidad muuuuuuy remota de que en lugar de un Demosaurio se convierta en el Rey Exánime. Muuuuuuy remota.</esMX>
+    <esES>Hay una probabilidad muuuuuuuuy pequeña de que en lugar de convertirse en un demosaurio, se convierta en el Rey Exánime. Muuuuuuuy pequeña.</esES>
+    <enGB>There is a reeeeeeeeeally small chance that instead of a Devilsaur it'll become The Lich King.  Reeeeeeeally small.</enGB>
+    <deDE>Es besteht eine wiiiinzig kleine Chance, dass aus dem Teufelssaurier der Lichkönig wird. Aber wie gesagt: wiiiiiinzig klein. </deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="b93e771a-10ce-47cb-92f4-8089be5d2832">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="9" param="" />
+  </Power>
+</Entity>

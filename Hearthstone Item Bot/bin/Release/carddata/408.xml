@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_405">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Shieldbearer</enUS>
+    <frFR>Porte-bouclier</frFR>
+    <zhTW>負盾兵</zhTW>
+    <zhCN>持盾卫士</zhCN>
+    <ruRU>Щитоносец</ruRU>
+    <ptBR>Carrega-escudo</ptBR>
+    <plPL>Tarczownik</plPL>
+    <koKR>방패병</koKR>
+    <itIT>Portascudi</itIT>
+    <esMX>Portaescudos</esMX>
+    <esES>Portaescudos</esES>
+    <enGB>Shieldbearer</enGB>
+    <deDE>Schildträger</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Carl Critchlow</enUS>
+  </Tag>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="805b7122-5303-457e-b20f-b9c6594a252b" />
+</Entity>

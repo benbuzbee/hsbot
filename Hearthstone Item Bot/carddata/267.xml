@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_131">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Defias Ringleader</enUS>
+    <frFR>Meneur défias</frFR>
+    <zhTW>迪菲亞頭目</zhTW>
+    <zhCN>迪菲亚头目</zhCN>
+    <ruRU>Главарь Братства</ruRU>
+    <ptBR>Líder Défias</ptBR>
+    <plPL>Przywódca kręgu Nieskornych</plPL>
+    <koKR>데피아즈단 두목</koKR>
+    <itIT>Capo dei Defias</itIT>
+    <esMX>Gerifalte Defias</esMX>
+    <esES>Gerifalte Defias</esES>
+    <enGB>Defias Ringleader</enGB>
+    <deDE>Rädelsführer der Defias</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Combo:&lt;/b&gt; Summon a 2/1 Defias Bandit.</enUS>
+    <frFR>&lt;b&gt;Combo :&lt;/b&gt; invoque un bandit défias 2/1.</frFR>
+    <zhTW>&lt;b&gt;連擊:&lt;/b&gt;召喚一個2/1的迪菲亞強盜。</zhTW>
+    <zhCN>&lt;b&gt;连击：&lt;/b&gt;召唤一个2/1的迪菲亚强盗。</zhCN>
+    <ruRU>&lt;b&gt;Серия приемов:&lt;/b&gt; призывает на поле боя бандита Братства 2/1.</ruRU>
+    <ptBR>&lt;b&gt;Combo:&lt;/b&gt; Evoque um Bandido Défias 2/1.</ptBR>
+    <plPL>&lt;b&gt;Kombinacja:&lt;/b&gt; Przyzwij Bandytę Nieskornych 2/1.</plPL>
+    <koKR>&lt;b&gt;연계:&lt;/b&gt; 2/1 데피아즈단 무법자를 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Combo:&lt;/b&gt; evoca un Bandito dei Defias 2/1.</itIT>
+    <esMX>&lt;b&gt;Combo:&lt;/b&gt; invoca un Bandido Defias 2/1.</esMX>
+    <esES>&lt;b&gt;Combo:&lt;/b&gt; Invoca a un bandido Defias 2/1.</esES>
+    <enGB>&lt;b&gt;Combo:&lt;/b&gt; Summon a 2/1 Defias Bandit.</enGB>
+    <deDE>&lt;b&gt;Combo:&lt;/b&gt; Ruft einen Banditen der Defias (2/1) herbei.</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Efrem Palacios</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>A good ringleader will &lt;i&gt;always&lt;/i&gt; have a few bandits working for him.</enUS>
+    <zhTW>A good ringleader will &lt;i&gt;always&lt;/i&gt; have a few bandits working for him.</zhTW>
+    <zhCN>A good ringleader will &lt;i&gt;always&lt;/i&gt; have a few bandits working for him.</zhCN>
+    <ruRU>У хорошего главаря &lt;i&gt;всегда&lt;/i&gt; под рукой пара бандитов.</ruRU>
+    <ptBR>Um bom líder &lt;i&gt;sempre&lt;/i&gt; tem alguns bandidos trabalhando para ele.</ptBR>
+    <plPL>Dobry przywódca &lt;i&gt;zawsze&lt;/i&gt; ma pod ręką paru zbirów.</plPL>
+    <koKR>좋은 두목은 &lt;i&gt;항상&lt;/i&gt; 부하 몇 명을 대동하죠.</koKR>
+    <itIT>Un buon capobanda ha &lt;i&gt;sempre&lt;/i&gt; qualche bandito pronto a combattere per lui.</itIT>
+    <frFR>Un bon meneur aura &lt;i&gt;toujours&lt;/i&gt; quelques bandits à son service.</frFR>
+    <esMX>Un buen gerifalte &lt;i&gt;siempre&lt;/i&gt; tiene algunos bandidos que trabajan para él.</esMX>
+    <esES>Un buen cabecilla &lt;i&gt;siempre&lt;/i&gt; tendrá a algunos bandidos bajo su mando.</esES>
+    <deDE>Ein guter Rädelsführer hat &lt;i&gt;immer&lt;/i&gt; ein paar Schergen dabei.</deDE>
+  </Tag>
+  <Tag name="Combo" enumID="220" type="Bool" value="1" />
+  <Power definition="20575742-50c8-47d7-a05e-82322beae882" />
+</Entity>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_053">
+  <MasterPower>8e067525-a507-46cd-ba14-f51f55d96303</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Far Sight</enUS>
+    <frFR>Double vue</frFR>
+    <zhTW>視界術</zhTW>
+    <zhCN>视界术</zhCN>
+    <ruRU>Дальнее зрение</ruRU>
+    <ptBR>Visão Distante</ptBR>
+    <plPL>Dalekowidzenie</plPL>
+    <koKR>천리안</koKR>
+    <itIT>Sguardo Lontano</itIT>
+    <esMX>Visión lejana</esMX>
+    <esES>Visión lejana</esES>
+    <enGB>Far Sight</enGB>
+    <deDE>Fernsicht</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Draw a card. That card costs (3) less.</enUS>
+    <frFR>Vous piochez une carte. Elle coûte (3) cristaux de moins.</frFR>
+    <zhTW>抽一張牌。該卡片消耗減少(3)點。</zhTW>
+    <zhCN>抽一张牌。该牌的法力值消耗减少（3）点。</zhCN>
+    <ruRU>Вы берете карту. Эта карта стоит на (3) маны меньше.</ruRU>
+    <ptBR>Compre um card. Este card custa (3) a menos.</ptBR>
+    <plPL>Dobierz kartę. Ta karta kosztuje (3) mniej.</plPL>
+    <koKR>카드를 한 장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.</koKR>
+    <itIT>Pesca una carta: la carta pescata costa (3) Mana in meno.</itIT>
+    <esMX>Roba una carta. Esa carta cuesta (3) menos.</esMX>
+    <esES>Roba una carta. Esa carta cuesta (3) p. menos.</esES>
+    <enGB>Draw a card. That card costs (3) less.</enGB>
+    <deDE>Zieht eine Karte. Diese Karte kostet (3) weniger.</deDE>
+  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="8e067525-a507-46cd-ba14-f51f55d96303" />
+</Entity>

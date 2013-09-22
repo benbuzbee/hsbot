@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_020">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Wild Pyromancer</enUS>
+    <frFR>Pyromancien sauvage</frFR>
+    <zhTW>狂野火占師</zhTW>
+    <zhCN>狂野炎术师</zhCN>
+    <ruRU>Яростный пиромант</ruRU>
+    <ptBR>Piromante Selvagem</ptBR>
+    <plPL>Dziki piromanta</plPL>
+    <koKR>광기의 화염술사</koKR>
+    <itIT>Piromante Selvaggio</itIT>
+    <esMX>Piromántico salvaje</esMX>
+    <esES>Piromántico salvaje</esES>
+    <enGB>Wild Pyromancer</enGB>
+    <deDE>Wilder Pyromant</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>After you cast a spell, deal 1 damage to ALL minions.</enUS>
+    <frFR>Chaque fois que vous lancez un sort, inflige 1 point de dégâts à TOUS les serviteurs.</frFR>
+    <zhTW>在你施放法術之後，對全部手下造成1點傷害。</zhTW>
+    <zhCN>每当你施放一个法术时，对所有随从造成1点伤害。</zhCN>
+    <ruRU>Каждый раз, когда вы разыгрываете карту заклинания, наносит 1 ед. урона ВСЕМ существам.</ruRU>
+    <ptBR>Depois de lançar um feitiço, cause 1 de dano a TODOS os lacaios.</ptBR>
+    <plPL>Kiedy rzucisz zaklęcie, zadaj 1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
+    <koKR>당신이 주문을 시전한 후, 모든 하수인에게 피해를 1 줍니다.</koKR>
+    <itIT>Dopo aver lanciato una Magia, infligge 1 danno a TUTTI i servitori.</itIT>
+    <esMX>Después de lanzar un hechizo, inflige 1 de daño a TODOS los esbirros.</esMX>
+    <esES>Cuando lanzas un hechizo, inflige 1 p. de daño a todos los esbirros.</esES>
+    <enGB>After you cast a spell, deal 1 damage to ALL minions.</enGB>
+    <deDE>Fügt ALLEN Dienern 1 Schaden zu, nachdem Ihr einen Zauber gewirkt habt.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Alex Horley Orlandelli</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Don't invite this guy to your house!</enUS>
+    <zhTW>別讓這個傢伙進你的屋子裡!</zhTW>
+    <zhCN>别让这个家伙参加聚会！</zhCN>
+    <ruRU>Не приглашайте его к себе домой!</ruRU>
+    <ptBR>Não convide esse cara para a sua casa!</ptBR>
+    <plPL>Nie zapraszaj tego gościa do domu!</plPL>
+    <koKR>절대 집에 초대하지 마세요!</koKR>
+    <itIT>Ti conviene non invitarlo a casa tua!</itIT>
+    <frFR>Ne l’invitez surtout pas chez vous !</frFR>
+    <esMX>¡No lo invites a tu casa!</esMX>
+    <esES>¡A este no lo invites a tu casa!</esES>
+    <enGB>Don't invite this guy to your house!</enGB>
+    <deDE>Ladet diesen Kerl nicht in Euer Haus ein!</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="9aa2e6a5-eadf-4215-84b2-a8da1a75f6db" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
+    <enUS>Wild Pyromancer did 1 Random Damage.</enUS>
+    <frFR>Le pyromancien sauvage a infligé 1 point de dégâts aléatoire.</frFR>
+    <zhTW>狂野火占師造成1點隨機傷害。</zhTW>
+    <zhCN>每当你施放一个法术，狂野炎术师随机对一个敌人造成1点伤害。</zhCN>
+    <ruRU>&lt;i&gt;Яростный пиромант&lt;/i&gt; нанес 1 ед. урона случайному персонажу.</ruRU>
+    <ptBR>Piromante Selvagem causou 1 de dano aleatório.</ptBR>
+    <plPL>Dziki piromanta zadał losowo 1 pkt. obrażeń.</plPL>
+    <koKR>광기의 화염술사가 무작위 적에게 피해 1 줌</koKR>
+    <itIT>Il Piromante Selvaggio infligge 1 danno casuale.</itIT>
+    <esMX>Piromántico salvaje infligió 1 de daño a un enemigo aleatorio.</esMX>
+    <esES>El piromántico salvaje ha infligido 1 p. de daño aleatorio.</esES>
+    <enGB>Wild Pyromancer did 1 Random Damage.</enGB>
+    <deDE>Wilder Pyromant hat 1 zufälligen Schaden verursacht.</deDE>
+  </TriggeredPowerHistoryInfo>
+</Entity>

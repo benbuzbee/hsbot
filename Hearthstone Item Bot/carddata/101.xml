@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_108">
+  <MasterPower>d1cb4bf4-f913-4976-b51e-0639bb9d9227</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Execute</enUS>
+    <frFR>Exécution</frFR>
+    <zhTW>斬殺</zhTW>
+    <zhCN>斩杀</zhCN>
+    <ruRU>Казнь</ruRU>
+    <ptBR>Executar</ptBR>
+    <plPL>Egzekucja</plPL>
+    <koKR>마무리 일격</koKR>
+    <itIT>Esecuzione</itIT>
+    <esMX>Ejecutar</esMX>
+    <esES>Ejecutar</esES>
+    <enGB>Execute</enGB>
+    <deDE>Hinrichten</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Destroy a damaged enemy minion.</enUS>
+    <frFR>Détruit un serviteur adverse blessé.</frFR>
+    <zhTW>摧毀一個已經受傷的敵方手下。</zhTW>
+    <zhCN>消灭一个受过伤害的敌方随从。</zhCN>
+    <ruRU>Уничтожает существо противника с неполным здоровьем.</ruRU>
+    <ptBR>Destrua um lacaio inimigo que tenha recebido dano.</ptBR>
+    <plPL>Niszczysz rannego wrogiego stronnika.</plPL>
+    <koKR>피해를 입은 적 하수인을 파괴합니다.</koKR>
+    <itIT>Distrugge un servitore nemico danneggiato.</itIT>
+    <esMX>Destruye un esbirro enemigo dañado.</esMX>
+    <esES>Destruye a un esbirro enemigo dañado.</esES>
+    <enGB>Destroy a damaged enemy minion.</enGB>
+    <deDE>Vernichtet einen verletzten feindlichen Diener.</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dany Orizio</enUS>
+  </Tag>
+  <Power definition="d1cb4bf4-f913-4976-b51e-0639bb9d9227">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="3" param="" />
+    <PlayRequirement reqID="4" param="" />
+  </Power>
+</Entity>

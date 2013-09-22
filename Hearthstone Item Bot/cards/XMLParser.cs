@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 
-namespace hsbot.cards
+namespace HSBot.Cards
 {
     class XMLParser
     {

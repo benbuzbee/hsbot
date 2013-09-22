@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_008b">
+  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Ancient Secrets</enUS>
+    <frFR>Secrets anciens</frFR>
+    <zhTW>古老的秘密</zhTW>
+    <zhCN>古老的秘密</zhCN>
+    <ruRU>Древние тайны</ruRU>
+    <ptBR>Segredos Ancestrais</ptBR>
+    <plPL>Pradawne tajemnice</plPL>
+    <koKR>고대의 비밀</koKR>
+    <itIT>Segreti Antichi</itIT>
+    <esMX>Secretos ancestrales</esMX>
+    <esES>Secretos antiguos</esES>
+    <enGB>Ancient Secrets</enGB>
+    <deDE>Uralte Geheimnisse</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Restore 8 Health.</enUS>
+    <frFR>Rend 8 points de vie.</frFR>
+    <zhTW>恢復8點生命值。</zhTW>
+    <zhCN>恢复8点生命值。</zhCN>
+    <ruRU>Восстанавливает 8 ед. здоровья.</ruRU>
+    <ptBR>Restaure 8 de Vida.</ptBR>
+    <plPL>Przywróć 8 pkt. zdrowia.</plPL>
+    <koKR>생명력을 8 회복시킵니다.</koKR>
+    <itIT>Rigenera 8 Salute.</itIT>
+    <esMX>Restaura 8 de Salud.</esMX>
+    <esES>Restaura 8 p. de salud.</esES>
+    <enGB>Restore 8 Health.</enGB>
+    <deDE>Stellt 8 Leben wieder her.</deDE>
+  </Tag>
+  <Power definition="86973367-f3b2-4554-888d-21faf7cc09fe">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
+</Entity>

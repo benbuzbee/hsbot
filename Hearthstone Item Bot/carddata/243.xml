@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_089">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Arcane Golem</enUS>
+    <frFR>Golem arcanique</frFR>
+    <zhTW>秘法魔像</zhTW>
+    <zhCN>奥术傀儡</zhCN>
+    <ruRU>Чародейский голем</ruRU>
+    <ptBR>Golem Arcano</ptBR>
+    <plPL>Tajemny golem</plPL>
+    <koKR>비전 골렘 </koKR>
+    <itIT>Golem Arcano</itIT>
+    <esMX>Gólem arcano</esMX>
+    <esES>Gólem Arcano</esES>
+    <enGB>Arcane Golem</enGB>
+    <deDE>Arkangolem</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent a Mana Crystal.</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Cri de guerre :&lt;/b&gt; donne à votre adversaire un cristal de mana.</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。&lt;b&gt;戰吼:&lt;/b&gt;給你的對手一顆法力水晶。</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;。&lt;b&gt;战吼：&lt;/b&gt;使你的对手获得一个法力水晶。</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Боевой клич:&lt;/b&gt; ваш противник получает кристалл маны.</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. &lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda um Cristal de Mana ao seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. &lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj swojemu przeciwnikowi kryształ many.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;. &lt;b&gt;전투의 함성:&lt;/b&gt; 상대편에게 마나 수정을 하나 줍니다.</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce un Cristallo di Mana all'avversario.</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; otorga un Cristal de maná a tu adversario.</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; Da un cristal de maná a tu oponente.</esES>
+    <enGB>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent a Mana Crystal.</enGB>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;. &lt;b&gt;Kampfschrei:&lt;/b&gt; Gebt Eurem Gegner einen Manakristall.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Velvet Engine</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Golems are wonderful henchmen.  They don't eat or complain, and they look imposing.</enUS>
+    <zhTW>魔像是很棒的保鏢。他們不吃不喝不抱怨，而且看起來很威風。</zhTW>
+    <zhCN>傀儡们是非常出色的侍从。它们既不用吃东西，也不会抱怨，而且看起来又威风。</zhCN>
+    <ruRU>Големы – прекрасные оруженосцы. Им не нужна пища, они ни на что не жалуются, и к тому же солидно выглядят.</ruRU>
+    <ptBR>Golens são capangas formidáveis. Eles não comem nem reclamam. E são imponentes.</ptBR>
+    <plPL>Golemy to wspaniali najemnicy. Nie jedzą, nie narzekają i robią wrażenie wyglądem.</plPL>
+    <koKR>골렘은 멋진 심복입니다. 밥도 안 먹지, 불평도 안 하지, 거기에다 위엄도 넘치니까요.</koKR>
+    <itIT>I Golem sono degli sgherri fantastici. Non mangiano, non si lamentano e sono minacciosi.</itIT>
+    <frFR>Les golems sont de fabuleux hommes de main. Ils ne mangent pas et ne se plaignent pas, et ils en imposent.</frFR>
+    <esMX>Los gólems son muy buenos secuaces. No comen, no se quejan y tienen un aspecto imponente.</esMX>
+    <esES>Los gólems son unos secuaces magníficos. No comen, no se quejan y tienen un aspecto imponente.</esES>
+    <enGB>Golems are wonderful henchmen.  They don't eat or complain, and they look imposing.</enGB>
+    <deDE>Golems sind wunderbare Schergen. Sie essen nichts und beschweren sich nicht, und darüber hinaus sehen sie ziemlich einschüchternd aus.</deDE>
+  </Tag>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="e6bca2c3-0262-4650-8145-f4deed0c397f" />
+  <Power definition="8acd3349-c25f-42d3-ad30-c60d04ac48cb" />
+</Entity>

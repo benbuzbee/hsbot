@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_040t">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Gnoll</enUS>
+    <frFR>Gnoll</frFR>
+    <zhTW>豺狼人</zhTW>
+    <zhCN>豺狼人</zhCN>
+    <ruRU>Гнолл</ruRU>
+    <ptBR>Gnoll</ptBR>
+    <plPL>Gnol</plPL>
+    <koKR>놀</koKR>
+    <itIT>Gnoll</itIT>
+    <esMX>Gnoll</esMX>
+    <esES>Gnoll</esES>
+    <enGB>Gnoll</enGB>
+    <deDE>Gnoll</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Taunt</enUS>
+    <frFR>Provocation</frFR>
+    <zhTW>嘲諷</zhTW>
+    <zhCN>嘲讽</zhCN>
+    <ruRU>Провокация</ruRU>
+    <ptBR>Provocar</ptBR>
+    <plPL>Prowokacja</plPL>
+    <koKR>도발</koKR>
+    <itIT>Provocazione</itIT>
+    <esMX>Provocación</esMX>
+    <esES>Provocar</esES>
+    <enGB>Taunt</enGB>
+    <deDE>Spott</deDE>
+  </Tag>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="6f058cac-9d51-49ea-9704-35959c9f8af8" />
+</Entity>

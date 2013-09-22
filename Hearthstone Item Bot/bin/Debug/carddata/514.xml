@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_623">
+  <MasterPower>24ff2fd3-224e-439c-830c-742e5cb7be88</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Temple Enforcer</enUS>
+    <frFR>Massacreur du temple</frFR>
+    <zhTW>神殿執行者</zhTW>
+    <zhCN>圣殿执行者</zhCN>
+    <ruRU>Храмовый боец</ruRU>
+    <ptBR>Impositor do Templo</ptBR>
+    <plPL>Świątynny nadzorca</plPL>
+    <koKR>사원 집행자</koKR>
+    <itIT>Protettore del Tempio</itIT>
+    <esMX>Déspota del templo</esMX>
+    <esES>Déspota del templo</esES>
+    <enGB>Temple Enforcer</enGB>
+    <deDE>Vollstrecker des Tempels</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +3 PV à un serviteur allié.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+3生命值。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得+3生命值。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; увеличивает здоровье вашего выбранного существа на 3.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +3 de Vida a um lacaio aliado.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +3 do zdrowia.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인에게 생명력을 +3 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +3 Salute a un tuo servitore.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +3 de Salud a un esbirro aliado.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +3 p. de salud a un esbirro amistoso.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +3 Leben.</deDE>
+  </Tag>
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Give +3 Health.</enUS>
+    <enGB>Give +3 Health.</enGB>
+    <zhTW>賦予+3生命值。</zhTW>
+    <zhCN>获得+3生命值。</zhCN>
+    <ruRU>+3 к здоровью</ruRU>
+    <ptBR>Conceda +3 de Vida.</ptBR>
+    <plPL>Daj +3 do zdrowia.</plPL>
+    <koKR>생명력 +3</koKR>
+    <itIT>Fornisce +3 Salute.</itIT>
+    <frFR>Donne +3 PV.</frFR>
+    <esMX>Otorga +3 de Salud.</esMX>
+    <esES>Otorga +3 p. de salud.</esES>
+    <deDE>Verleiht +3 Leben.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Daren Bader</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="24ff2fd3-224e-439c-830c-742e5cb7be88">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="2" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
+</Entity>

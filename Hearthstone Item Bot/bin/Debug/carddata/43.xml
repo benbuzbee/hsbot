@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_041e">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Ancestral Infusion</enUS>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Taunt.</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="0627b4a6-f5fb-447c-94ee-6fda016fca3d" />
+</Entity>

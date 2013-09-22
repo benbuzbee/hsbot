@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_076">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Pint-Sized Summoner</enUS>
+    <frFR>Minuscule invocatrice</frFR>
+    <zhTW>迷你召喚師</zhTW>
+    <zhCN>小个子召唤师</zhCN>
+    <ruRU>Гном-призыватель</ruRU>
+    <ptBR>Evocadora Diminuta</ptBR>
+    <plPL>Tycia przywoływaczka</plPL>
+    <koKR>자그마한 소환사</koKR>
+    <itIT>Evocatrice Minuta</itIT>
+    <esMX>Invocadora tamaño pinta</esMX>
+    <esES>Invocadora tamaño bolsillo</esES>
+    <enGB>Pint-Sized Summoner</enGB>
+    <deDE>Winzige Beschwörerin</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Ritual</enUS>
+  </Tag>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>The first minion you play each turn costs (2) less.</enUS>
+    <frFR>Le premier serviteur que vous jouez à chaque tour coûte (2) cristaux de moins.</frFR>
+    <zhTW>你每回合第一個召喚的手下其消耗減少(2)點。</zhTW>
+    <zhCN>你每个回合使用的第一张随从牌的法力值消耗减少（2）点。</zhCN>
+    <ruRU>Первое существо, которое вы разыгрываете на каждом ходу, стоит на (2) маны меньше.</ruRU>
+    <ptBR>O primeiro lacaio que você joga a cada turno custa (2) a menos.</ptBR>
+    <plPL>Pierwszy stronnik zagrany w każdej turze kosztuje (2) mniej.</plPL>
+    <koKR>당신의 턴마다 처음 내는 하수인은 비용이 (2) 감소합니다.</koKR>
+    <itIT>Il primo servitore che giochi ogni turno costa (2) Mana in meno.</itIT>
+    <esMX>El primer esbirro que juegas en cada turno cuesta (2) menos.</esMX>
+    <esES>El primer esbirro que juegues cada turno cuesta (2) p. menos.</esES>
+    <enGB>The first minion you play each turn costs (2) less.</enGB>
+    <deDE>Der erste Diener, den Ihr in einem Zug ausspielt, kostet (2) weniger.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ron Spears</enUS>
+  </Tag>
+  <Power definition="6c2898ab-5311-4725-b667-e8a752342493" />
+</Entity>

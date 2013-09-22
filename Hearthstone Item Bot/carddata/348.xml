@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_303">
+  <MasterPower>b29c5f96-4cf9-4618-a02b-3d27abac9088</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Shadowflame</enUS>
+    <frFR>Ombreflamme</frFR>
+    <zhTW>暗影之焰</zhTW>
+    <zhCN>暗影烈焰</zhCN>
+    <ruRU>Пламя Тьмы</ruRU>
+    <ptBR>Chama Sombria</ptBR>
+    <plPL>Cienisty płomień</plPL>
+    <koKR>암흑불길</koKR>
+    <itIT>Ombrofuoco</itIT>
+    <esMX>Llama de las sombras</esMX>
+    <esES>Llama de las Sombras</esES>
+    <enGB>Shadowflame</enGB>
+    <deDE>Schattenflamme</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Destroy a friendly minion and deal its Attack damage to all enemy minions.</enUS>
+    <frFR>Détruit un serviteur allié et inflige des dégâts équivalents à ses points d’attaque à tous les serviteurs adverses.</frFR>
+    <zhTW>摧毀一個友方手下，並對全部敵方手下造成相當於其攻擊力的傷害。</zhTW>
+    <zhCN>消灭一个友方随从，对所有敌方随从造成等同于其攻击力的伤害。</zhCN>
+    <ruRU>Уничтожает ваше существо и наносит урон, равный его атаке, всем существам противника.</ruRU>
+    <ptBR>Destrua um lacaio aliado e cause seu dano de ataque a todos os lacaios inimigos.</ptBR>
+    <plPL>Zniszcz przyjaznego stronnika i zadaj obrażenia o wartości jego ataku wszystkim wrogim stronnikom.</plPL>
+    <koKR>아군 하수인을 파괴하고 그 하수인의 공격력만큼 모든 적 하수인에게 피해를 줍니다.</koKR>
+    <itIT>Distrugge un tuo servitore e infligge danni pari al suo Attacco a tutti i servitori nemici.</itIT>
+    <esMX>Destruye un esbirro aliado e inflige su daño de Ataque a todos los esbirros enemigos.</esMX>
+    <esES>Destruye a un esbirro amistoso e inflige un daño equivalente a su ataque a todos los esbirros enemigos.</esES>
+    <enGB>Destroy a friendly minion and deal its Attack damage to all enemy minions.</enGB>
+    <deDE>Vernichtet einen befreundeten Diener und fügt allen feindlichen Dienern Schaden zu, der seinem Angriff entspricht.</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dave Kendall</enUS>
+  </Tag>
+  <Power definition="b29c5f96-4cf9-4618-a02b-3d27abac9088">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="2" param="" />
+  </Power>
+</Entity>

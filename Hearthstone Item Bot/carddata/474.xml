@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_584e">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Teachings of the Kirin Tor</enUS>
+    <frFR>Enseignements du Kirin Tor</frFR>
+    <zhTW>祈倫托的教誨</zhTW>
+    <zhCN>肯瑞托的教诲</zhCN>
+    <ruRU>Учения Кирин-Тора</ruRU>
+    <ptBR>Ensinamentos do Kirin Tor</ptBR>
+    <plPL>Nauki Kirin Toru</plPL>
+    <koKR>키린 토의 가르침</koKR>
+    <itIT>Insegnamenti del Kirin Tor</itIT>
+    <esMX>Enseñanzas del Kirin Tor</esMX>
+    <esES>Enseñanzas del Kirin Tor</esES>
+    <enGB>Teachings of the Kirin Tor</enGB>
+    <deDE>Lehren der Kirin Tor</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>This minion has &lt;b&gt;Spell Power +1&lt;/b&gt;.</enUS>
+    <frFR>Ce serviteur a &lt;b&gt;+1 Puissance des sorts&lt;/b&gt;.</frFR>
+    <zhTW>這個手下擁有&lt;b&gt;法術能量+1&lt;/b&gt;。</zhTW>
+    <zhCN>该随从获得&lt;b&gt;法术强度+1&lt;/b&gt;。</zhCN>
+    <ruRU>Это существо получило способность «Сила заклинаний +1».</ruRU>
+    <ptBR>Este lacaio tem &lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;.</ptBR>
+    <plPL>Ten stronnik ma &lt;b&gt;Moc zaklęć +1&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;.</itIT>
+    <esMX>Este esbirro tiene &lt;b&gt;Poder de hechizo +1&lt;/b&gt;.</esMX>
+    <esES>Este esbirro tiene &lt;b&gt;+1 p. de poder con hechizos&lt;/b&gt;.</esES>
+    <enGB>This minion has &lt;b&gt;Spell Power +1&lt;/b&gt;.</enGB>
+    <deDE>Dieser Diener hat &lt;b&gt;Zaubermacht +1&lt;/b&gt;.</deDE>
+  </Tag>
+  <Power definition="12c466ea-211f-45a6-ad68-d895339b90e6" />
+</Entity>

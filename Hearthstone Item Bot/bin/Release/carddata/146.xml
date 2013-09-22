@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_221">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Spiteful Smith</enUS>
+    <zhTW>惡毒的鐵匠</zhTW>
+    <zhCN>恶毒铁匠</zhCN>
+    <ruRU>Зловещий кузнец</ruRU>
+    <ptBR>Ferreiro Rancoroso</ptBR>
+    <plPL>Mściwy kowal</plPL>
+    <koKR>원한 맺힌 대장장이</koKR>
+    <itIT>Fabbro Astioso</itIT>
+    <frFR>Forgeron malveillant</frFR>
+    <esMX>Herrera maliciosa</esMX>
+    <esES>Herrera maliciosa</esES>
+    <enGB>Spiteful Smith</enGB>
+    <deDE>Hasserfüllte Schmiedin</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Summoning</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Enrage:&lt;/b&gt; Your weapon has +2 Attack.</enUS>
+    <zhTW>&lt;b&gt;狂怒:&lt;/b&gt;使你的武器+2攻擊力。</zhTW>
+    <zhCN>&lt;b&gt;激怒：&lt;/b&gt;你的武器获得+2攻击力。</zhCN>
+    <ruRU>&lt;b&gt;Исступление:&lt;/b&gt; ваше оружие получает +2 к атаке.</ruRU>
+    <ptBR>&lt;b&gt;Enfurecer:&lt;/b&gt; Sua arma está com +2 de Ataque.</ptBR>
+    <plPL>&lt;b&gt;Szał:&lt;/b&gt; Twoja broń ma +2 do ataku.</plPL>
+    <koKR>&lt;b&gt;격노:&lt;/b&gt; 당신의 무기가 공격력을 +2 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Rabbia:&lt;/b&gt; la tua arma ottiene +2 Attacco.</itIT>
+    <frFR>&lt;b&gt;Accès de rage :&lt;/b&gt; votre arme a +2 ATQ.</frFR>
+    <esMX>&lt;b&gt;Enfurecer:&lt;/b&gt; tu arma tiene +2 de Ataque.</esMX>
+    <esES>&lt;b&gt;Enfurecer:&lt;/b&gt; Tu arma tiene +2 p. de ataque.</esES>
+    <enGB>&lt;b&gt;Enrage:&lt;/b&gt; Your weapon has +2 Attack.</enGB>
+    <deDE>&lt;b&gt;Wutanfall:&lt;/b&gt; Eure Waffe hat +2 Angriff.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Justin Sweet</enUS>
+  </Tag>
+  <Tag name="Enrage" enumID="212" type="Bool" value="1" />
+  <Power definition="259960d1-a94e-4ba4-9160-88163a7fb224" />
+</Entity>

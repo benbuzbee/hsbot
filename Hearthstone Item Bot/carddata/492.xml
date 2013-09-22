@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_606">
+  <MasterPower>1483cbb5-5431-4468-a6a6-91331623cb53</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Shield Block</enUS>
+    <frFR>Maîtrise du blocage</frFR>
+    <zhTW>盾牌格擋</zhTW>
+    <zhCN>盾牌格挡</zhCN>
+    <ruRU>Блок щитом</ruRU>
+    <ptBR>Levantar Escudo</ptBR>
+    <plPL>Blok tarczą</plPL>
+    <koKR>방패 막기</koKR>
+    <itIT>Scudo Saldo</itIT>
+    <esMX>Bloquear con escudo</esMX>
+    <esES>Bloquear con escudo</esES>
+    <enGB>Shield Block</enGB>
+    <deDE>Schildblock</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Gain 5 Armor.  Draw a card.</enUS>
+    <frFR>Vous gagnez 5 points d’armure et vous piochez une carte.</frFR>
+    <zhTW>獲得5點護甲值。抽一張牌。</zhTW>
+    <zhCN>获得5点护甲值。抽一张牌。</zhCN>
+    <ruRU>Вы получаете +5 к броне и берете карту.</ruRU>
+    <ptBR>Receba 5 de Armadura. Compre um card.</ptBR>
+    <plPL>Otrzymujesz 5 pkt. pancerza. Dobierz kartę.</plPL>
+    <koKR>방어도를 5 얻습니다. 카드를 한 장 뽑습니다.</koKR>
+    <itIT>Ottieni 5 Armatura. Pesca una carta.</itIT>
+    <esMX>Obtienes 5 de Armadura. Roba una carta.</esMX>
+    <esES>Otorga 5 p. de armadura. Roba una carta.</esES>
+    <enGB>Gain 5 Armor.  Draw a card.</enGB>
+    <deDE>Erhaltet 5 Rüstung. Zieht eine Karte.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Michael Komarck</enUS>
+  </Tag>
+  <Power definition="1483cbb5-5431-4468-a6a6-91331623cb53" />
+</Entity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_509">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Murloc Tidecaller</enUS>
+    <frFR>Maître des flots murloc</frFR>
+    <zhTW>魚人招潮者</zhTW>
+    <zhCN>鱼人招潮者</zhCN>
+    <ruRU>Мурлок-волномут</ruRU>
+    <ptBR>Chamaré Murloc</ptBR>
+    <plPL>Poskramiacz fal</plPL>
+    <koKR>멀록 파도술사</koKR>
+    <itIT>Murloc Invocamaree</itIT>
+    <esMX>Clamamareas múrloc</esMX>
+    <esES>Clamamareas múrloc</esES>
+    <enGB>Murloc Tidecaller</enGB>
+    <deDE>Murlocgezeitenrufer</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever a Murloc is summoned, gain +1 Attack.</enUS>
+    <frFR>Chaque fois qu’un murloc est invoqué, gagne +1 ATQ.</frFR>
+    <zhTW>每當一個魚人被召喚，獲得+1攻擊力。</zhTW>
+    <zhCN>每当有玩家召唤一个鱼人时，便获得+1攻击力。</zhCN>
+    <ruRU>Каждый раз, когда на поле боя призывается мурлок, это существо получает +1 к атаке.</ruRU>
+    <ptBR>Sempre que um Murloc for evocado, receba +1 de Ataque.</ptBR>
+    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy zostaje przyzwany murlok.</plPL>
+    <koKR>멀록이 소환될 때마다 공격력을 +1 얻습니다.</koKR>
+    <itIT>Quando un Murloc viene evocato, il Murloc Invocamaree ottiene +1 Attacco.</itIT>
+    <esMX>Cada vez que se invoca a un múrloc, obtiene +1 de Ataque.</esMX>
+    <esES>Obtiene +1 p. de ataque cada vez que se invoca a un múrloc.</esES>
+    <enGB>Whenever a Murloc is summoned, gain +1 Attack.</enGB>
+    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Murloc herbeigerufen wird.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Jaemin Kim</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="32ccddc7-49a5-43bf-bd9b-25c5d098eeab" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False">
+    <enUS>Dealt 1 damage to a random enemy.</enUS>
+    <frFR>A infligé 1 point de dégâts à un adversaire aléatoire.</frFR>
+    <zhTW>對一個隨機敵人造成1點傷害。</zhTW>
+    <zhCN>对一个随机敌人造成1点伤害。</zhCN>
+    <ruRU>Случайный персонаж противника получил 1 ед. урона.</ruRU>
+    <ptBR>Causou 1 de dano a um inimigo aleatório.</ptBR>
+    <plPL>Zadano 1 pkt. obrażeń losowemu wrogowi.</plPL>
+    <koKR>무작위 적에게 피해 1 줌</koKR>
+    <itIT>Il Murloc Invocamaree ha inflitto 1 danno a un nemico casuale.</itIT>
+    <esMX>Infligió 1 de daño a un enemigo aleatorio.</esMX>
+    <esES>El clamamareas múrloc ha infligido 1 p. de daño a un enemigo aleatorio.</esES>
+    <enGB>Dealt 1 damage to a random enemy.</enGB>
+    <deDE>Fügt einem zufälligen Feind 1 Schaden zu.</deDE>
+  </TriggeredPowerHistoryInfo>
+</Entity>

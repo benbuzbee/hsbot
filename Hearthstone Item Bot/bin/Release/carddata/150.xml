@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_226">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Frostwolf Warlord</enUS>
+    <frFR>Chef de guerre loup-de-givre</frFR>
+    <zhTW>霜狼督軍</zhTW>
+    <zhCN>霜狼督军</zhCN>
+    <ruRU>Вождь Северного Волка</ruRU>
+    <ptBR>Senhor da Guerra Lobo do Gelo</ptBR>
+    <plPL>Herszt Mroźnych Wilków</plPL>
+    <koKR>서리늑대 전쟁군주</koKR>
+    <itIT>Signore dei Lupi Bianchi</itIT>
+    <esMX>Señor de la guerra Lobo gélido</esMX>
+    <esES>Señor Lobo Gélido</esES>
+    <enGB>Frostwolf Warlord</enGB>
+    <deDE>Frostwolfkriegsfürst</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Has +1/+1 for each other friendly minion on the battlefield.</enUS>
+    <frFR>A +1/+1 pour chaque autre serviteur allié sur le champ de bataille.</frFR>
+    <zhTW>戰場上每一個友方手下都使它+1/+1。</zhTW>
+    <zhCN>战场上每有1个其他友方随从，便获得+1/+1。</zhCN>
+    <ruRU>Получает +1/+1 за каждое другое ваше существо на поле боя.</ruRU>
+    <ptBR>Tem +1/+1 para cada outro lacaio aliado no campo de batalha.</ptBR>
+    <plPL>Otrzymuje +1/+1 za każdego innego przyjaznego stronnika na polu bitwy.</plPL>
+    <koKR>전장의 다른 아군 하수인 하나당 +1/+1을 얻습니다.</koKR>
+    <itIT>Ottiene +1/+1 per ogni altro tuo servitore sul campo di battaglia.</itIT>
+    <esMX>Tiene +1/+1 por cada uno de los demás esbirros aliados en el campo de batalla.</esMX>
+    <esES>Tiene +1/+1 por cada esbirro amistoso adicional en el campo de batalla.</esES>
+    <enGB>Has +1/+1 for each other friendly minion on the battlefield.</enGB>
+    <deDE>Hat für jeden anderen befreundeten Diener auf dem Schlachtfeld +1/+1.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Warlord</enUS>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>James Ryman</enUS>
+  </Tag>
+  <Power definition="fbc15b60-9aa5-4ba7-89cd-22d3ce47ade1" />
+</Entity>

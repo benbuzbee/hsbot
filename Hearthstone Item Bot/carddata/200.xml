@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_015">
+  <MasterPower>4295b5dc-4faa-43ab-b755-00d8c5f1b91f</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Novice Engineer</enUS>
+    <frFR>Ingénieur novice</frFR>
+    <zhTW>見習工程師</zhTW>
+    <zhCN>工程师学徒</zhCN>
+    <ruRU>Инженер-новичок</ruRU>
+    <ptBR>Engenheira Novata</ptBR>
+    <plPL>Młodsza inżynier</plPL>
+    <koKR>풋내기 기술자</koKR>
+    <itIT>Ingegnere Novizio</itIT>
+    <esMX>Ingeniera novicia</esMX>
+    <esES>Ingeniera novata</esES>
+    <enGB>Novice Engineer</enGB>
+    <deDE>Ingenieurslehrling</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous piochez une carte.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 한 장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; roba una carta.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Roba una carta.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht eine Karte.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Karl Richardson</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="4295b5dc-4faa-43ab-b755-00d8c5f1b91f" />
+</Entity>

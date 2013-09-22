@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="FP1_001">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Festering Pestilence</enUS>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Debug text</enUS>
+  </Tag>
+</Entity>

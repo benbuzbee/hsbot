@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_582">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Dalaran Mage</enUS>
+    <frFR>Mage de Dalaran</frFR>
+    <zhTW>達拉然法師</zhTW>
+    <zhCN>达拉然法师</zhCN>
+    <ruRU>Маг Даларана</ruRU>
+    <ptBR>Mago de Dalaran</ptBR>
+    <plPL>Mag z Dalaranu</plPL>
+    <koKR>달라란 마법사</koKR>
+    <itIT>Mago di Dalaran</itIT>
+    <esMX>Mago de Dalaran</esMX>
+    <esES>Mago de Dalaran</esES>
+    <enGB>Dalaran Mage</enGB>
+    <deDE>Magier von Dalaran</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Spell Power +1&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;+1 Puissance des sorts&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;法術能量+1&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;法术强度+1&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Сила заклинаний +1&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Moc zaklęć +1&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Poder de hechizo +1&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;+1 p. de poder con hechizos&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Spell Power +1&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Zaubermacht +1&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Jim Nelson</enUS>
+  </Tag>
+  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
+  <Power definition="10816d56-678d-4714-bd57-ddff634d7a20" />
+</Entity>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_007b">
+  <MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Starfall</enUS>
+    <frFR>Météores</frFR>
+    <zhTW>星殞術</zhTW>
+    <zhCN>星辰坠落</zhCN>
+    <ruRU>Звездопад</ruRU>
+    <ptBR>Chuva Estelar</ptBR>
+    <plPL>Spadające gwiazdy</plPL>
+    <koKR>별똥별</koKR>
+    <itIT>Pioggia di Stelle</itIT>
+    <esMX>Lluvia de estrellas</esMX>
+    <esES>Lluvia de estrellas</esES>
+    <enGB>Starfall</enGB>
+    <deDE>Sternenregen</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Deal $5 damage.</enUS>
+    <frFR>Inflige $5 point(s) de dégâts.</frFR>
+    <zhTW>造成$5點傷害。</zhTW>
+    <zhCN>造成$5点伤害。</zhCN>
+    <ruRU>Наносит $5 ед. урона.</ruRU>
+    <ptBR>Cause $5 de dano.</ptBR>
+    <plPL>Zadaj $5 pkt. obrażeń.</plPL>
+    <koKR>피해를 $5 줍니다.</koKR>
+    <itIT>Infligge $5 danni.</itIT>
+    <esMX>Inflige $5 de daño.</esMX>
+    <esES>Inflige $5 p. de daño.</esES>
+    <enGB>Deal $5 damage.</enGB>
+    <deDE>Verursacht $5 Schaden.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="90885d05-d9e7-4275-a327-80239b5cae8b">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
+</Entity>

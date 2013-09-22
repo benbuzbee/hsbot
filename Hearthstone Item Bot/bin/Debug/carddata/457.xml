@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_567">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Doomhammer</enUS>
+    <frFR>Marteau-du-Destin</frFR>
+    <zhTW>末日錘</zhTW>
+    <zhCN>毁灭之锤</zhCN>
+    <ruRU>Молот Рока</ruRU>
+    <ptBR>Martelo da Perdição</ptBR>
+    <plPL>Śmierciobójca</plPL>
+    <koKR>둠해머</koKR>
+    <itIT>Martelfato</itIT>
+    <esMX>Martillo maldito</esMX>
+    <esES>Martillo maldito</esES>
+    <enGB>Doomhammer</enGB>
+    <deDE>Schicksalshammer</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Durability" enumID="187" type="Number" value="8" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Windfury, Overload:&lt;/b&gt; (2)</enUS>
+    <frFR>&lt;b&gt;Furie des vents. Surcharge :&lt;/b&gt; (2)</frFR>
+    <zhTW>&lt;b&gt;風怒，超載:&lt;/b&gt;(2)</zhTW>
+    <zhCN>&lt;b&gt;风怒，过载：&lt;/b&gt;（2）</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos, Sobrecarga:&lt;/b&gt; (2)</ptBR>
+    <plPL>&lt;b&gt;Furia wichru, Przeładowanie:&lt;/b&gt; (2)</plPL>
+    <koKR>&lt;b&gt;질풍, 과부하:&lt;/b&gt; (2)</koKR>
+    <itIT>&lt;b&gt;Furia del Vento, Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
+    <esMX>&lt;b&gt;Viento furioso, Sobrecarga:&lt;/b&gt; (2)</esMX>
+    <esES>&lt;b&gt;Viento Furioso, Sobrecarga:&lt;/b&gt; (2)</esES>
+    <enGB>&lt;b&gt;Windfury, Overload:&lt;/b&gt; (2)</enGB>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;, &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>John "JP" Polidora</enUS>
+  </Tag>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="56d28c52-0f37-4b9d-a820-f2da1a249071" />
+  <Power definition="30c7ff8d-c1fc-426a-8b8c-60f53440e00e" />
+</Entity>

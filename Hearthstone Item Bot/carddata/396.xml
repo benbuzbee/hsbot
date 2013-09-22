@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_384">
+  <MasterPower>6b2a252b-6666-4520-a960-fbe88a54aafd</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Avenging Wrath</enUS>
+    <frFR>Courroux vengeur</frFR>
+    <zhTW>復仇之怒</zhTW>
+    <zhCN>复仇之怒</zhCN>
+    <ruRU>Гнев карателя</ruRU>
+    <ptBR>Ira Vingativa</ptBR>
+    <plPL>Gniew zemsty</plPL>
+    <koKR>응징의 격노</koKR>
+    <itIT>Ira Vendicatrice</itIT>
+    <esMX>Cólera vengativa</esMX>
+    <esES>Cólera vengativa</esES>
+    <enGB>Avenging Wrath</enGB>
+    <deDE>Zornige Vergeltung</deDE>
+  </Tag>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Shoot $8 missiles at random enemies for 1 damage each.</enUS>
+    <frFR>Lance $8 missiles infligeant chacun 1 point de dégâts à des adversaires aléatoires.</frFR>
+    <zhTW>發射$8顆飛彈攻擊隨機的敵人，每一顆造成1點傷害。</zhTW>
+    <zhCN>随机对敌人发射$8枚飞弹，每枚飞弹造成1点伤害。</zhCN>
+    <ruRU>Выстреливает в случайных персонажей противника заряды энергии ($8), каждый из которых наносит 1 ед. урона.</ruRU>
+    <ptBR>Dispare $8 mísseis em inimigos aleatórios, causando 1 de dano a cada um deles.</ptBR>
+    <plPL>Wystrzel $8 pocisków w losowych przeciwników, zadając każdemu 1 pkt. obrażeń.</plPL>
+    <koKR>피해를 1 주는 화살 $8개를 무작위 적들에게 발사합니다.</koKR>
+    <itIT>Lancia $8 missili infliggendo 1 danno ciascuno a nemici casuali.</itIT>
+    <esMX>Dispara $8 misiles a enemigos aleatorios que infligen 1 de daño cada uno.</esMX>
+    <esES>Dispara $8 misiles a enemigos aleatorios. Cada uno inflige 1 p. de daño.</esES>
+    <enGB>Shoot $8 missiles at random enemies for 1 damage each.</enGB>
+    <deDE>Verschießt $8 Geschosse auf zufällige Feinde und verursacht jeweils 1 Schaden.</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ryan Church</enUS>
+  </Tag>
+  <Tag name="ImmuneToSpellpower" enumID="349" type="Bool" value="1" />
+  <Power definition="6b2a252b-6666-4520-a960-fbe88a54aafd" />
+</Entity>

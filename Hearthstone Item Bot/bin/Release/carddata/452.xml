@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_562">
+  <MasterPower>cde7eb0e-6173-490f-8901-5799cd878305</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Onyxia</enUS>
+    <frFR>Onyxia</frFR>
+    <zhTW>奧妮克希亞</zhTW>
+    <zhCN>奥妮克希亚</zhCN>
+    <ruRU>Ониксия</ruRU>
+    <ptBR>Onyxia</ptBR>
+    <plPL>Onyxia</plPL>
+    <koKR>오닉시아</koKR>
+    <itIT>Onyxia</itIT>
+    <esMX>Onyxia</esMX>
+    <esES>Onyxia</esES>
+    <enGB>Onyxia</enGB>
+    <deDE>Onyxia</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="24" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque des dragonnets 1/1 jusqu’à remplir votre côté du plateau.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚1/1幼龍直到你戰場的位置全滿。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤数个1/1的雏龙，直到你的随从数量达到上限。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на вашу сторону дракончиков 1/1, пока поле боя не заполнится.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque Dragonetes 1/1 até seu lado do campo de batalha estar cheio.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pisklęta 1/1, aż zapełnią twoje pole bitwy.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 당신의 전장이 다 찰 때까지 1/1 새끼용을 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca Draghetti 1/1 fino a riempire il tuo lato del campo di battaglia.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca Crías 1/1 hasta que tu lado del campo de batalla esté completo.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca crías 1/1 hasta que tu lado del campo de batalla esté lleno.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft Welpen (1/1) herbei, bis Eure Seite des Schlachtfelds voll ist.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dany Orizio</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="cde7eb0e-6173-490f-8901-5799cd878305" />
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_561">
+  <MasterPower>b44631dc-eec1-434a-a172-04bce74970c7</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Alexstrasza</enUS>
+    <frFR>Alexstrasza</frFR>
+    <zhTW>雅立史卓莎</zhTW>
+    <zhCN>阿莱克丝塔萨</zhCN>
+    <ruRU>Алекстраза</ruRU>
+    <ptBR>Alexstrasza</ptBR>
+    <plPL>Alexstraza</plPL>
+    <koKR>알렉스트라자</koKR>
+    <itIT>Alexstrasza</itIT>
+    <esMX>Alexstrasza</esMX>
+    <esES>Alexstrasza</esES>
+    <enGB>Alexstrasza</enGB>
+    <deDE>Alexstrasza</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Set a hero's remaining Health to 15.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; fixe les points de vie restants d’un héros à 15.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;把一個英雄剩餘的生命值設為15點。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个英雄的剩余生命值成为15。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; текущее здоровье выбранного героя становится равно 15.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Defina a vida remanescente do herói para 15.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Ustaw pozostałe zdrowie bohatera na 15.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 영웅의 남은 생명력을 15로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; la Salute restante di un eroe diventa pari a 15.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; establece la Salud restante de un héroe en 15.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Fija la salud restante de un héroe en 15 p.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Set a hero's remaining Health to 15.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Setzt das verbleibende Leben eines Helden auf 15.</deDE>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="24" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Alexstrasza was enslaved by the orc Nekros Skullcrusher just before the Second War.  When she was freed, she swallowed him whole. Yum!</enUS>
+    <zhTW>雅立史卓莎在第二次獸人戰爭之前曾被獸人耐克魯斯·碎顱者所俘虜。她在獲得自由的時候把他整個吞了下去。好吃!</zhTW>
+    <zhCN>在第二次兽人大战中，阿莱克丝塔萨曾被兽人碎颅者耐克鲁斯所奴役。在她挣脱奴役之后，她把耐克鲁斯整个人吞下了肚子。味道不错！</zhCN>
+    <ruRU>Перед второй войной Алекстраза попала в плен к орку Некросу Дробителю Черепов. Когда ее освободили, она проглотила своего тюремщика целиком. Ням! </ruRU>
+    <ptBR>Alexstrasza foi escravizada pelo orc Nekros Esmaga-crânios pouco antes da Segunda Guerra. Quando ela foi libertada, engoliu ele inteiro. Delícia!</ptBR>
+    <plPL>Podczas drugiej wojny Alexstraza została schwytana przez orka, Nekrosa Miażdżyczerpa. Po uwolnieniu, połknęła go w całości. Mniam!</plPL>
+    <koKR>2차 대전쟁 직전에 알렉스트라자는 네크로스 스컬크러셔라는 오크에게 노예로 붙잡혀 있었습니다. 풀려난 뒤엔 통째로 삼켜버리죠. 냠냠!</koKR>
+    <itIT>Alexstrasza fu schiavizzata dall'Orco Nekros Spaccateschi prima della Seconda Guerra. Quando venne liberata, lo divorò in un sol boccone. Gnam!</itIT>
+    <frFR>Juste avant la Deuxième guerre, Alexstrasza était réduite en esclavage par l’orc Nekros Brise-Tête. Quand elle fut libérée, elle l’avala d’un coup. Miam !</frFR>
+    <esMX>Alexstrasza fue apresada por el orco Nekros Aplastacráneos justo antes de la Segunda Guerra. Cuando quedó libre, se lo tragó de un bocado. ¡Una verdadera delicia!</esMX>
+    <esES>Alexstrasza fue esclavizada por el orco Nekros Aplastacráneos justo antes de la Segunda Guerra. Cuando se liberó, lo devoró de un bocado. ¡Ñam!</esES>
+    <enGB>Alexstrasza was enslaved by the orc Nekros Skullcrusher just before the Second War.  When she was freed, she swallowed him whole. Yum!</enGB>
+    <deDE>Alexstrasza wurde kurz vor Beginn des zweiten Krieges vom Orc Nekros Schädelberster versklavt. Als sie befreit wurde, schluckte sie ihn in einem Stück herunter. Lecker!</deDE>
+  </Tag>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Set Health to 15.</enUS>
+    <zhTW>將生命值設為15點。</zhTW>
+    <zhCN>使生命值成为15。</zhCN>
+    <ruRU>Текущее здоровье этого героя будет равно 15</ruRU>
+    <ptBR>Defina Vida para 15.</ptBR>
+    <plPL>Ustaw zdrowie na 15.</plPL>
+    <koKR>생명력 15로 바꾸기</koKR>
+    <itIT>Imposta la Salute a 15.</itIT>
+    <frFR>Fixe les PV à 15.</frFR>
+    <esMX>Establece la Salud en 15.</esMX>
+    <esES>Establece la salud en 15 p.</esES>
+    <enGB>Set Health to 15.</enGB>
+    <deDE>Setzt das Leben auf 15.</deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="b44631dc-eec1-434a-a172-04bce74970c7">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="17" param="" />
+  </Power>
+</Entity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_120">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>River Crocolisk</enUS>
+    <frFR>Crocilisque des rivières</frFR>
+    <zhTW>淡水鱷</zhTW>
+    <zhCN>淡水鳄</zhCN>
+    <ruRU>Речной кроколиск</ruRU>
+    <ptBR>Crocolisco do Rio</ptBR>
+    <plPL>Rzeczny krokoliszek</plPL>
+    <koKR>민물악어</koKR>
+    <itIT>Crocolisco di Fiume</itIT>
+    <esMX>Crocolisco fluvial</esMX>
+    <esES>Crocolisco fluvial</esES>
+    <enGB>River Crocolisk</enGB>
+    <deDE>Flusskrokilisk</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Daren Bader</enUS>
+  </Tag>
+</Entity>

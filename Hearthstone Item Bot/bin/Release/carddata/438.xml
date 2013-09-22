@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_538t">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Unleashed</enUS>
+    <frFR>Lâchés</frFR>
+    <zhTW>被放出來</zhTW>
+    <zhCN>解禁</zhCN>
+    <ruRU>Спущенный с цепи</ruRU>
+    <ptBR>Sem Coleira</ptBR>
+    <plPL>Bez łańcucha</plPL>
+    <koKR>풀려남</koKR>
+    <itIT>Sguinzagliati</itIT>
+    <esMX>Desatado</esMX>
+    <esES>Suelto</esES>
+    <enGB>Unleashed</enGB>
+    <deDE>Losgelassen</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>+1 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>+1 ATQ et &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>+1攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
+    <zhCN>+1攻击力并具有&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>+1 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>+1 de Ataque e &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>+1 do ataku oraz &lt;b&gt;Szarża&lt;/b&gt;.</plPL>
+    <koKR>공격력 +1, &lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>+1 Attacco e &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+    <esMX>+1 de Ataque y &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>+1 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <enGB>+1 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enGB>
+    <deDE>+1 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="43d7af60-1eb1-4f56-a9bb-4e38f05bc4da" />
+</Entity>

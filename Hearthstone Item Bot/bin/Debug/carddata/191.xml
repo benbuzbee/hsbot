@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_007">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Acolyte of Pain</enUS>
+    <frFR>Acolyte de la souffrance</frFR>
+    <zhTW>苦痛侍僧</zhTW>
+    <zhCN>苦痛侍僧</zhCN>
+    <ruRU>Служитель боли</ruRU>
+    <ptBR>Acólito da Dor</ptBR>
+    <plPL>Akolita bólu</plPL>
+    <koKR>고통의 수행사제</koKR>
+    <itIT>Accolito del Dolore</itIT>
+    <esMX>Acólito de dolor</esMX>
+    <esES>Acólito de dolor</esES>
+    <enGB>Acolyte of Pain</enGB>
+    <deDE>Akolyth des Schmerzes</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever this minion takes damage, draw a card.</enUS>
+    <frFR>Vous piochez une carte chaque fois que ce serviteur subit des dégâts.</frFR>
+    <zhTW>每當此手下受到傷害，抽一張牌。</zhTW>
+    <zhCN>每当该随从受到伤害时，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда это существо получает урон, вы берете карту.</ruRU>
+    <ptBR>Sempre que este lacaio receber dano, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy ten stronnik otrzyma obrażenia.</plPL>
+    <koKR>이 하수인이 피해를 입을 때마다 카드를 한 장 뽑습니다.</koKR>
+    <itIT>Quando questo servitore subisce danni, pesca una carta.</itIT>
+    <esMX>Cada vez que este esbirro recibe daño, roba una carta.</esMX>
+    <esES>Roba una carta cada vez que este esbirro recibe daño.</esES>
+    <enGB>Whenever this minion takes damage, draw a card.</enGB>
+    <deDE>Zieht jedes Mal eine Karte, wenn dieser Diener Schaden erleidet.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dave Kendall</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"That was uncomfortable...  Every time I landed a blow, he squeeled in delight."</enUS>
+    <zhTW>「這真是令人不舒服...每次我打在他身上，他就開心地大叫。」</zhTW>
+    <zhCN>“那可真让人不舒服...每次我揍他一拳，他都要发出愉快的呻吟。”</zhCN>
+    <ruRU>«Мне это не по душе... Стоит мне ударить его, как он визжит от радости.»</ruRU>
+    <ptBR>"Aquilo foi desagradável... todas as vezes que eu acertava um golpe, ele guinchava de satisfação."</ptBR>
+    <plPL>„Dziwnie się z tym czułem... za każdym razem, gdy zadawałem mu cios, jęczał z rozkoszy.”</plPL>
+    <koKR>"불쾌함 그 자체였어... 내 주먹에 맞을 때마다 뭐가 좋은지 낄낄댔거든."</koKR>
+    <itIT>"È stato imbarazzante... Ogni volta che subiva un colpo, gli scappavano dei gridolini di piacere."</itIT>
+    <frFR>« C’était vraiment gênant... Chaque fois que je lui portais un coup, il poussait un cri de plaisir. »</frFR>
+    <esMX>"Fue un poco incómodo... Cada vez que lo golpeaba, chillaba de placer".</esMX>
+    <esES>"Ha sido de lo más incómodo... Cada vez que le daba un golpe, parecía que le gustaba".</esES>
+    <enGB>"That was uncomfortable...  Every time I landed a blow, he squeeled in delight."</enGB>
+    <deDE>„Das war vielleicht eigenartig ... Jedes Mal, wenn ich ihn traf, juchzte er vor Freude.“</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="2a056b4e-d140-469c-a114-3093f89a45d4" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

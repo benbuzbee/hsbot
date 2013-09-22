@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_169">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Young Dragonhawk</enUS>
+    <frFR>Jeune faucon-dragon</frFR>
+    <zhTW>小龍鷹</zhTW>
+    <zhCN>幼龙鹰</zhCN>
+    <ruRU>Молодой дракондор</ruRU>
+    <ptBR>Falcodrago Jovem</ptBR>
+    <plPL>Młody smoczy jastrząb</plPL>
+    <koKR>어린 용매</koKR>
+    <itIT>Dragofalco Giovane</itIT>
+    <esMX>Dracohalcón joven</esMX>
+    <esES>Dracohalcón joven</esES>
+    <enGB>Young Dragonhawk</enGB>
+    <deDE>Junger Drachenfalke</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Windfury&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Greg Hildebrandt</enUS>
+  </Tag>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="3d475a80-25de-4b52-8c22-baecfa5bff4f" />
+</Entity>

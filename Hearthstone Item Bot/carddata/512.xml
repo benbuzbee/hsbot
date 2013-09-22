@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_622">
+  <MasterPower>af8152e7-6136-43c5-bf1d-7fdeb5e92066</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Fade</enUS>
+    <zhTW>漸隱術</zhTW>
+    <zhCN>渐隐术</zhCN>
+    <ruRU>Уход в тень</ruRU>
+    <ptBR>Desvanecer</ptBR>
+    <plPL>Wygaśnięcie</plPL>
+    <koKR>소실</koKR>
+    <itIT>Trasparenza</itIT>
+    <frFR>Oubli</frFR>
+    <esMX>Desvanecerse</esMX>
+    <esES>Desvanecerse</esES>
+    <deDE>Verblassen</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give your minions &lt;b&gt;Taunt&lt;/b&gt;. Draw a card.</enUS>
+    <zhTW>賦予你的手下&lt;b&gt;嘲諷&lt;/b&gt;。抽一張牌。</zhTW>
+    <zhCN>使你的随从获得&lt;b&gt;嘲讽&lt;/b&gt;。抽一张牌。</zhCN>
+    <ruRU>Ваши существа получают способность &lt;b&gt;«Провокация»&lt;/b&gt;. Вы берете карту.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Provocar&lt;/b&gt; aos seus lacaios. Compre um card.</ptBR>
+    <plPL>Daj swoim stronnikom &lt;b&gt;Prowokację&lt;/b&gt;. Dobierz kartę.</plPL>
+    <koKR>당신의 하수인들에게 &lt;b&gt;도발&lt;/b&gt;을 부여합니다. 카드를 한 장 뽑습니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Provocazione&lt;/b&gt; ai tuoi servitori. Pesca una carta.</itIT>
+    <frFR>Confère &lt;b&gt;Provocation&lt;/b&gt; à vos serviteurs. Pioche une carte.</frFR>
+    <esMX>Otorga &lt;b&gt;Provocación&lt;/b&gt; a tus esbirros. Roba una carta.</esMX>
+    <esES>Otorga &lt;b&gt;Provocar&lt;/b&gt; a tus esbirros. Roba una carta.</esES>
+    <deDE>Verleiht Euren Dienern &lt;b&gt;Spott&lt;/b&gt;. Zieht eine Karte.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ittoku Seta</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"Where'd he go?" "Forget about him! Help me with this murloc!"</enUS>
+    <zhTW>"Where'd he go?" "Forget about him! Help me with this murloc!"</zhTW>
+    <zhCN>“他去哪儿了？”“先别管他！帮我解决这个鱼人！”</zhCN>
+    <ruRU>Это заклинание не работает в полдень.</ruRU>
+    <ptBR>"Aonde ele foi?" "Deixa ele pra lá! Me ajuda com esse murloc!"</ptBR>
+    <plPL>„Gdzie on się podział?” „Zapomnij o nim! Pomóż mi z tym murlokiem!”</plPL>
+    <koKR>"그놈 어디 갔지?" "그냥 잊어버리고 이 멀록 처치나 도와줘!"</koKR>
+    <itIT>"Dov'è andato?" "Lascialo perdere e aiutami con questo Murloc!"</itIT>
+    <frFR>Hé ben, si un jour j’oublie que je suis serviteur, vous serez gentils de me le rappeler !</frFR>
+    <esMX>"¡Ey! ¿A dónde fue?" "¡Qué importa! Ayúdame con este múrloc".</esMX>
+    <esES>Un buen sacerdote sabe cuándo retirarse: en cuanto un enemigo se fija en él.</esES>
+    <deDE>Unangenehmer Nebeneffekt für Priester: Sie werden oft als unscheinbare Persönlichkeiten wahrgenommen.</deDE>
+  </Tag>
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="af8152e7-6136-43c5-bf1d-7fdeb5e92066" />
+</Entity>

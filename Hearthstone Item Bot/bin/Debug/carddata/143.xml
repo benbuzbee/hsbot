@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_201">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Core Hound</enUS>
+    <frFR>Chien du Magma</frFR>
+    <zhTW>熔核犬</zhTW>
+    <zhCN>熔火恶犬</zhCN>
+    <ruRU>Гончая Недр</ruRU>
+    <ptBR>Cão-magma</ptBR>
+    <plPL>Ognisty ogar</plPL>
+    <koKR>심장부 사냥개</koKR>
+    <itIT>Segugio del Nucleo</itIT>
+    <esMX>Can del núcleo</esMX>
+    <esES>Can del Núcleo</esES>
+    <enGB>Core Hound</enGB>
+    <deDE>Kernhund</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="Atk" enumID="47" type="Number" value="9" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>E.M. Gist</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>You don’t tame a core hound. You just train it not to eat you.</enUS>
+    <zhTW>你沒辦法馴服熔核犬。你只能訓練牠別吃掉你。</zhTW>
+    <zhCN>你无法驯服一头熔火恶犬。你只能通过训练让它不要吃掉你。</zhCN>
+    <ruRU>Гончую Недр нельзя приручить – только выдрессировать так, чтобы она перестала пытаться сожрать вас.</ruRU>
+    <ptBR>Não se adestra um cão-magma. A gente só ensina ele a não comer o dono.</ptBR>
+    <plPL>Nie da się obłaskawić ognistych ogarów. Po prostu szkolisz je, żeby cię nie zżarły.</plPL>
+    <koKR>심장부 사냥개를 길들이는 것은 불가능합니다. 당신을 잡아먹지 않도록 훈련시킬 뿐이죠.</koKR>
+    <itIT>Non puoi addomesticare un Segugio del Nucleo. Al massimo puoi addestrarlo a non mangiarti.</itIT>
+    <frFR>Un chien du Magma, ça ne se dompte pas, on peut juste lui apprendre à ne pas nous dévorer.</frFR>
+    <esMX>No intentes domesticar a un can del núcleo. Confórmate con entrenarlo para que no te coma.</esMX>
+    <esES>Los canes del Núcleo no se pueden domar. Lo único que puedes hacer es entrenarlos para que no se te coman.</esES>
+    <enGB>You don’t tame a core hound. You just train it not to eat you.</enGB>
+    <deDE>Einen Kernhund zähmt man nicht, man bringt ihm nur bei, sein Herrchen nicht zu fressen.</deDE>
+  </Tag>
+</Entity>

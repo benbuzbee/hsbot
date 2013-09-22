@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using IrcDotNet;
 using System.Text.RegularExpressions;
 
-namespace hsbot
+namespace HSBot
 {
     class IRC : IrcClient
     {
@@ -15,20 +15,37 @@ namespace hsbot
             RefreshList();
         }
 
+        /**
+         * Starts a thread that tries to keep the bot connected
+         * */
         public void StartConnect()
         {
-            var registration = new IrcUserRegistrationInfo();
-            registration.NickName = "HearthBot";
-            registration.RealName = "Hearthstone IRC Bot";
-            registration.UserName = "HearthBot";
-            
-            
+            new System.Threading.Thread(() => {
 
-            this.Connect("irc.quakenet.org", false, registration);
-            
-            this.Registered += new EventHandler<EventArgs>(OnRegistered);
+                while (true)
+                {
+                    if (!this.IsConnected)
+                    {
+                        Console.WriteLine("Not connected...attempting to connect...");
+                        var registration = new IrcUserRegistrationInfo();
+                        registration.NickName = Config.IRCNick;
+                        registration.RealName = Config.IRCName;
+                        registration.UserName = Config.IRCUser;
 
-            Console.In.ReadLine();
+
+
+                        this.Connect(Config.IRCHost, false, registration);
+
+                        this.Registered += new EventHandler<EventArgs>(OnRegistered);
+                    }
+                    System.Threading.Thread.Sleep(Config.IRCReconnectTime);
+
+                }
+            
+            
+            }).Start();
+            
+            
             
         }
         private void OnRawMessageReceived(IrcRawMessageEventArgs args)
@@ -38,9 +55,10 @@ namespace hsbot
         }
         private void OnRegistered(Object sender, EventArgs e)
         {
-            
-         
-            this.SendMessageJoin(new String[] { "#hearthstone" });
+
+            String[] channels = new String[1];
+            channels[0] = Config.IRCChannel;
+            this.SendMessageJoin(channels);
             new System.Threading.Thread(() => {
 
                 while (Channels.Count == 0)
@@ -74,7 +92,7 @@ namespace hsbot
 
         private void LookupCardNameFor(IIrcMessageTarget source, String cardname)
         {
-            cards.Card c = LookupCard(cardname);
+            Cards.Card c = LookupCard(cardname);
             if (c == null)
                 this.Message(source.Name, "The card was not found.");
             else
@@ -90,27 +108,27 @@ namespace hsbot
             SendMessagePrivateMessage(targets, String.Format(message, format));
         }
 
-        private cards.Card LookupCard(String cardname)
+        private Cards.Card LookupCard(String cardname)
         {
             // look for exact match
-            cards.Card match;
+            Cards.Card match;
             if (cards.TryGetValue(cardname.ToLower(), out match))
                 return match;
             
             // Otherwise search using contains
 
-            foreach (cards.Card c in cards.Values)
+            foreach (Cards.Card c in cards.Values)
                 if (c.Name.ToLower().Contains(cardname)) return c;
             return null;
 
         }
-        private System.Collections.Generic.Dictionary<String, cards.Card> cards = new System.Collections.Generic.Dictionary<String, cards.Card>();
+        private System.Collections.Generic.Dictionary<String, Cards.Card> cards = new System.Collections.Generic.Dictionary<String, Cards.Card>();
         private void RefreshList()
         {
-            var parser = new cards.XMLParser(@"C:\Users\Ben\Desktop\carddata");
-            List<cards.Card> list = parser.GetCards();
+            var parser = new Cards.XMLParser(@"C:\Users\Ben\Desktop\carddata");
+            List<Cards.Card> list = parser.GetCards();
             cards.Clear();
-            foreach (cards.Card c in list)
+            foreach (Cards.Card c in list)
             {
                 try
                 {

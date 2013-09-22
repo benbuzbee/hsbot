@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace hsbot.cards
+namespace HSBot.Cards
 {
     class Card
     {

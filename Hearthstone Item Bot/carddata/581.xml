@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_024">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Captain Greenskin</enUS>
+    <frFR>Capitaine Vertepeau</frFR>
+    <zhTW>綠皮隊長</zhTW>
+    <zhCN>绿皮船长</zhCN>
+    <ruRU>Капитан Зеленямс</ruRU>
+    <ptBR>Capitão Peleverde</ptBR>
+    <plPL>Kapitan Zielonoskóry</plPL>
+    <koKR>선장 그린스킨</koKR>
+    <itIT>Capitano Pelleverde</itIT>
+    <esMX>Capitán Verdetez</esMX>
+    <esES>Capitán Verdetez</esES>
+    <enGB>Captain Greenskin</enGB>
+    <deDE>Kapitän Grünhaut</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever you attack with your hero, draw a card.</enUS>
+    <frFR>Vous piochez une carte chaque fois que vous attaquez avec votre héros.</frFR>
+    <zhTW>每當你用英雄進行攻擊，抽一張牌。</zhTW>
+    <zhCN>每当你的英雄进行攻击，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда ваш герой атакует, вы берете карту.</ruRU>
+    <ptBR>Ao atacar com seu herói, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy zatakujesz swoim bohaterem.</plPL>
+    <koKR>당신이 영웅으로 공격할 때마다 카드를 한 장 뽑습니다.</koKR>
+    <itIT>Quando attacchi col tuo eroe, pesca una carta.</itIT>
+    <esMX>Cada vez que atacas con tu héroe, roba una carta.</esMX>
+    <esES>Cada vez que atacas con tu héroe, roba una carta.</esES>
+    <enGB>Whenever you attack with your hero, draw a card.</enGB>
+    <deDE>Zieht jedes Mal eine Karte, wenn Euer Held angreift.</deDE>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dan Scott</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="327621cf-6cd9-41e1-a4a6-736b68984b7e" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

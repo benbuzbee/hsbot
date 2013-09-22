@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_508">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Grimscale Oracle</enUS>
+    <frFR>Oracle sinistrécaille</frFR>
+    <zhTW>厲鱗神諭者</zhTW>
+    <zhCN>暗鳞先知</zhCN>
+    <ruRU>Оракул Темной Чешуи</ruRU>
+    <ptBR>Oráculo Escamatroz</ptBR>
+    <plPL>Wyrocznia Burych Łusek</plPL>
+    <koKR>성난비늘 수련사</koKR>
+    <itIT>Oracolo Scagliasalda</itIT>
+    <esMX>Oráculo malaescama</esMX>
+    <esES>Oráculo Malaescama</esES>
+    <enGB>Grimscale Oracle</enGB>
+    <deDE>Grimmschuppenorakel</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Argalagblbl</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>ALL other Murlocs have +1 Attack.</enUS>
+    <frFR>TOUS les autres murlocs ont +1 ATQ.</frFR>
+    <zhTW>全部其他魚人獲得+1攻擊力。</zhTW>
+    <zhCN>所有其他鱼人获得+1攻击力。</zhCN>
+    <ruRU>ВСЕ прочие мурлоки получают +1 к атаке.</ruRU>
+    <ptBR>TODOS os outros Murlocs têm +1 de Ataque.</ptBR>
+    <plPL>Wszystkie pozostałe murloki otrzymują +1 do ataku.</plPL>
+    <koKR>다른 모든 멀록이 공격력을 +1 얻습니다.</koKR>
+    <itIT>TUTTI gli altri Murloc ottengono +1 Attacco.</itIT>
+    <esMX>TODOS los otros múrlocs tienen +1 de Ataque.</esMX>
+    <esES>Todos los demás múrlocs tienen +1 p. de ataque.</esES>
+    <enGB>ALL other Murlocs have +1 Attack.</enGB>
+    <deDE>ALLE anderen Murlocs haben +1 Angriff.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Phil Saunders</enUS>
+  </Tag>
+  <Power definition="21969ec7-342e-480e-9cfe-6ba9afc9a2e5" />
+</Entity>

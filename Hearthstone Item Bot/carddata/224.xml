@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_050">
+  <MasterPower>b79228a3-8978-4ac2-8a48-32b06b2fd849</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Coldlight Oracle</enUS>
+    <frFR>Oracle froide-lumière</frFR>
+    <zhTW>冷光神諭者</zhTW>
+    <zhCN>寒光智者</zhCN>
+    <ruRU>Вайш'ирский оракул</ruRU>
+    <ptBR>Oráculo de Luz Fria</ptBR>
+    <plPL>Wyrocznia Światłociemnych</plPL>
+    <koKR>시린빛 점쟁이</koKR>
+    <itIT>Oracolo Lucefredda</itIT>
+    <esMX>Oráculo luz fría</esMX>
+    <esES>Oráculo Luz Fría</esES>
+    <enGB>Coldlight Oracle</enGB>
+    <deDE>Tiefenlichtorakel</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Each player draws 2 cards.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; chaque joueur pioche 2 cartes.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;每一個玩家抽2張牌。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;每个玩家抽2张牌。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; каждый игрок берет 2 карты.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cada jogador compra 2 cards.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Każdy gracz dobiera 2 karty.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 모든 플레이어가 카드를 두 장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; ogni giocatore pesca 2 carte.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; cada jugador roba 2 cartas.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Cada jugador roba 2 cartas.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Each player draws 2 cards.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Jeder Spieler zieht 2 Karten.</deDE>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Steve Prescott</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="b79228a3-8978-4ac2-8a48-32b06b2fd849" />
+</Entity>

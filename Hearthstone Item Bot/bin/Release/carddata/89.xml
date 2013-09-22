@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_097">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Truesilver Champion</enUS>
+    <frFR>Championne en vrai-argent</frFR>
+    <zhTW>真銀勇士劍</zhTW>
+    <zhCN>真银圣剑</zhCN>
+    <ruRU>Серебряный клинок</ruRU>
+    <ptBR>Campeão Veraprata</ptBR>
+    <plPL>Czempion srebrytu</plPL>
+    <koKR>용사의 진은검</koKR>
+    <itIT>Campione di Verargento</itIT>
+    <esMX>Campeón de veraplata</esMX>
+    <esES>Campeón de veraplata</esES>
+    <enGB>Truesilver Champion</enGB>
+    <deDE>Echtsilberchampion</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Durability" enumID="187" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever your hero attacks, restore 2 Health to it.</enUS>
+    <frFR>Chaque fois que votre héros attaque, lui rend 2 PV.</frFR>
+    <zhTW>每當你的英雄進行攻擊，使其恢復2點生命值。</zhTW>
+    <zhCN>每当你的英雄进攻时，为其恢复2点生命值。</zhCN>
+    <ruRU>Каждый раз, когда ваш герой атакует, восстанавливает ему 2 ед. здоровья.</ruRU>
+    <ptBR>Quando seu herói atacar, restaure 2 de Vida dele.</ptBR>
+    <plPL>Za każdym razem, gdy twój bohater atakuje, przywróć mu 2 pkt. zdrowia.</plPL>
+    <koKR>당신의 영웅이 공격할 때마다 생명력을 2 회복합니다.</koKR>
+    <itIT>Quando il tuo eroe attacca, rigenera 2 Salute.</itIT>
+    <esMX>Cada vez que tu héroe ataca, restáurale 2 de Salud.</esMX>
+    <esES>Cada vez que tu héroe ataca, recupera 2 p. de salud.</esES>
+    <enGB>Whenever your hero attacks, restore 2 Health to it.</enGB>
+    <deDE>Stellt bei Eurem Helden jedes Mal 2 Leben wieder her, wenn er angreift.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ryan Sook</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="4ac188d4-2642-45c1-9194-7313f552f9d2" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

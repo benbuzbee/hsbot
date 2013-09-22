@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_142">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Kobold Geomancer</enUS>
+    <frFR>Géomancien kobold</frFR>
+    <zhTW>狗頭人地卜師</zhTW>
+    <zhCN>狗头人地卜师</zhCN>
+    <ruRU>Кобольд-геомант</ruRU>
+    <ptBR>Geomante Kobold</ptBR>
+    <plPL>Kobold geomanta</plPL>
+    <koKR>코볼트 흙점쟁이</koKR>
+    <itIT>Coboldo Geomante</itIT>
+    <esMX>Geomántico kóbold</esMX>
+    <esES>Geomántico kóbold</esES>
+    <enGB>Kobold Geomancer</enGB>
+    <deDE>Koboldgeomant</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Spell Power +1&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;+1 Puissance des sorts&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;法術能量+1&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;法术强度+1&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Сила заклинаний +1&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Moc zaklęć +1&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Poder de hechizo +1&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;+1 p. de poder con hechizos&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Spell Power +1&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Zaubermacht +1&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Gabor Szikszai</enUS>
+  </Tag>
+  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
+  <Power definition="fae6d4e1-a5d3-49d4-9a7f-43ec4bbed5b4" />
+</Entity>

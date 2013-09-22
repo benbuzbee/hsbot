@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_578">
+  <MasterPower>df2d11fa-bec4-4185-960b-fe0045645279</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Savagery</enUS>
+    <frFR>Sauvagerie</frFR>
+    <zhTW>兇蠻</zhTW>
+    <zhCN>野蛮之击</zhCN>
+    <ruRU>Дикость</ruRU>
+    <ptBR>Selvageria</ptBR>
+    <plPL>Dzikość</plPL>
+    <koKR>야생성</koKR>
+    <itIT>Ferocia</itIT>
+    <esMX>Salvajismo</esMX>
+    <esES>Salvajismo</esES>
+    <enGB>Savagery</enGB>
+    <deDE>Unbändigkeit</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Deal damage equal to your hero's Attack to all enemy minions.</enUS>
+    <frFR>Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à tous les serviteurs adverses.</frFR>
+    <zhTW>對全部敵方手下造成等同於你英雄攻擊力的傷害。</zhTW>
+    <zhCN>对所有敌方随从造成等同于你的英雄攻击力的伤害。</zhCN>
+    <ruRU>Наносит всем существам противника урон, равный силе атаки вашего героя.</ruRU>
+    <ptBR>Cause dano equivalente ao Ataque do seu herói a todos os lacaios inimigos.</ptBR>
+    <plPL>Wszystkim wrogim stronnikom zadaj obrażenia równe atakowi twojego bohatera.</plPL>
+    <koKR>당신 영웅의 공격력만큼 모든 적 하수인에게 피해를 줍니다.</koKR>
+    <itIT>Infligge danni pari all'Attacco del tuo eroe a tutti i servitori nemici.</itIT>
+    <esMX>Inflige daño equivalente al Ataque de tu héroe a todos los esbirros enemigos.</esMX>
+    <esES>Inflige un daño equivalente al ataque de tu héroe a todos los esbirros enemigos.</esES>
+    <enGB>Deal damage equal to your hero's Attack to all enemy minions.</enGB>
+    <deDE>Fügt allen feindlichen Dienern Schaden zu, der dem Angriff Eures Helden entspricht.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dave Rapoza</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Even the most timid druid becomes a savage beast when you take away his honey.</enUS>
+    <zhTW>即使是最膽小的德魯伊也會因為被你偷走蜂蜜而化身為狂暴的野獸。</zhTW>
+    <zhCN>确实有些德鲁伊野性十足，但仍有些喜欢在恬静的时刻品上一壶好茶。</zhCN>
+    <ruRU>Конечно, встречаются и дикие друиды, но есть и такие, которым больше по душе чашечка чая в спокойной обстановке.</ruRU>
+    <ptBR>É verdade que alguns druidas são selvagens, mas outros ainda apreciam um momento de paz e um bom chá.</ptBR>
+    <plPL>To prawda, że niektórzy druidzi są dość dzicy, ale inni lubią posiedzieć w ciszy i wypić filiżankę herbatki.</plPL>
+    <koKR>아무리 온순한 드루이드라도 꿀을 빼앗기면 포악해집니다.</koKR>
+    <itIT>È vero che alcuni Druidi sono selvaggi, ma altri adorano godersi un po' di pace e sorseggiare un buon tè.</itIT>
+    <frFR>Même le plus timide des druides se transforme en bête sauvage quand on lui prend son miel.</frFR>
+    <esMX>Es cierto, algunos druidas son salvajes, pero también hay otros que disfrutan los momentos de paz con una taza de té.</esMX>
+    <esES>Es cierto que algunos druidas reaccionan así cuando ven una cesta de pícnic, pero otros saben apreciar la tranquilidad y una buena taza de té.</esES>
+    <enGB>Even the most timid druid becomes a savage beast when you take away his honey.</enGB>
+    <deDE>Es stimmt schon, dass einige Druiden ganz schön wild sind, aber es gibt auch andere, die gern in Ruhe eine Tasse Tee trinken.</deDE>
+  </Tag>
+  <Power definition="df2d11fa-bec4-4185-960b-fe0045645279">
+    <PlayRequirement reqID="1" param="" />
+  </Power>
+</Entity>

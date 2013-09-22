@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="Mekka4t">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Chicken</enUS>
+    <frFR>Poulet</frFR>
+    <zhTW>雞</zhTW>
+    <zhCN>小鸡</zhCN>
+    <ruRU>Курица</ruRU>
+    <ptBR>Galinha</ptBR>
+    <plPL>Kurczak</plPL>
+    <koKR>닭</koKR>
+    <itIT>Gallina</itIT>
+    <esMX>Pollo</esMX>
+    <esES>Pollo</esES>
+    <enGB>Chicken</enGB>
+    <deDE>Huhn</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enUS>
+    <frFR>&lt;i&gt;Viens mon poulet !&lt;/i&gt;</frFR>
+    <zhTW>&lt;i&gt;嗨，弱雞!&lt;/i&gt;</zhTW>
+    <zhCN>&lt;i&gt;小鸡快跑！&lt;/i&gt;</zhCN>
+    <ruRU>&lt;i&gt;Эй, цыпа!&lt;/i&gt;</ruRU>
+    <ptBR>&lt;i&gt;Frangote!&lt;/i&gt;</ptBR>
+    <plPL>&lt;i&gt;Hej, kurczaku!&lt;/i&gt;</plPL>
+    <koKR>&lt;i&gt;오, 닭이다!&lt;/i&gt;</koKR>
+    <itIT>&lt;i&gt;Ehi gallina!&lt;/i&gt;</itIT>
+    <esMX>&lt;i&gt;¡Ey, pollo!&lt;/i&gt;</esMX>
+    <esES>&lt;i&gt;¡Hola, pollo!&lt;/i&gt;</esES>
+    <enGB>&lt;i&gt;Hey Chicken!&lt;/i&gt;</enGB>
+    <deDE>&lt;i&gt;Put, put, put!&lt;/i&gt;</deDE>
+  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+</Entity>

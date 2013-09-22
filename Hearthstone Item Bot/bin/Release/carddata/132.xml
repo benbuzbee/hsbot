@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_181">
+  <MasterPower>6b4c2fa7-4dfe-497f-b662-0968a935ea70</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Injured Blademaster</enUS>
+    <frFR>Maître-lame blessé</frFR>
+    <zhTW>受傷的大劍師</zhTW>
+    <zhCN>无畏剑圣</zhCN>
+    <ruRU>Раненый рубака</ruRU>
+    <ptBR>Mestre de Espadas Ferido</ptBR>
+    <plPL>Ranny mistrz ostrzy</plPL>
+    <koKR>부상당한 검귀</koKR>
+    <itIT>Maestro di Spade Ferito</itIT>
+    <esMX>Maestro del acero herido</esMX>
+    <esES>Maestro del acero herido</esES>
+    <enGB>Injured Blademaster</enGB>
+    <deDE>Verletzter Klingenmeister</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 4 damage to HIMSELF.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; s'inflige 4 points de dégâts.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;對他自己造成4點傷害。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;对自身造成4点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 4 ед. урона самому себе.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 4 de dano a ELE MESMO.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaje SOBIE 4 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 자신에게 피해를 4 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 4 danni a SE STESSO.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; se AUTOINFLIGE 4 de daño.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Se inflige 4 p. de daño a sí mismo.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 4 damage to HIMSELF.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Fügt SICH SELBST 4 Schaden zu.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Weakened</enUS>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Samwise Didier</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="6b4c2fa7-4dfe-497f-b662-0968a935ea70" />
+</Entity>

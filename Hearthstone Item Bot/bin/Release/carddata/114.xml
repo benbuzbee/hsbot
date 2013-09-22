@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_131">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Stormwind Knight</enUS>
+    <frFR>Chevalier de Hurlevent</frFR>
+    <zhTW>暴風城騎士</zhTW>
+    <zhCN>暴风城骑士</zhCN>
+    <ruRU>Рыцарь Штормграда</ruRU>
+    <ptBR>Cavaleiro de Ventobravo</ptBR>
+    <plPL>Rycerz z Wichrogrodu</plPL>
+    <koKR>스톰윈드 기사</koKR>
+    <itIT>Cavaliere di Roccavento</itIT>
+    <esMX>Caballero de Ventormenta</esMX>
+    <esES>Caballero de Ventormenta</esES>
+    <enGB>Stormwind Knight</enGB>
+    <deDE>Ritter von Sturmwind</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Charge&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ladronn</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He's a little embarrassed about that one time Stormwind was destroyed.</enUS>
+    <zhTW>他對那次暴風城被摧毀感到有點羞愧。</zhTW>
+    <zhCN>暴风城曾被摧毁，他对此略感尴尬。</zhCN>
+    <ruRU>Ему немного стыдно за тот раз, когда Штормград был разрушен.</ruRU>
+    <ptBR>Ele está um pouco envergonhado por causa daquela vez que Ventobravo foi destruída.</ptBR>
+    <plPL>Trochę mu wstyd, że kiedyś nie zapobiegł zniszczeniu Wichrogrodu.</plPL>
+    <koKR>스톰윈드가 파괴된 사건은 그에게 모욕감을 주었습니다.</koKR>
+    <itIT>Si sente un po' a disagio dopo quella volta in cui Roccavento venne distrutta.</itIT>
+    <frFR>Il est un peu gêné pour la fois où Hurlevent a été détruite.</frFR>
+    <esMX>Se siente un poco avergonzado por la vez que destruyeron Ventormenta.</esMX>
+    <esES>¿Por qué dicen los humanos que va a llover? ¡Porque ven tormenta!</esES>
+    <enGB>He's a little embarrassed about that one time Stormwind was destroyed.</enGB>
+    <deDE>Das eine Mal, als Sturmwind zerstört wurde, ist ihm ein bisschen peinlich.</deDE>
+  </Tag>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="1abb5974-43df-4f5d-aa49-da323f9bfc1a" />
+</Entity>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_622e">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Draw Aggro</enUS>
+    <frFR>Attirer l’attention</frFR>
+    <zhTW>吸引仇恨</zhTW>
+    <zhCN>获得仇恨</zhCN>
+    <ruRU>Отвлечение противника</ruRU>
+    <ptBR>Puxar Agro</ptBR>
+    <plPL>Ściągnięcie agresji</plPL>
+    <koKR>주의 끌기</koKR>
+    <itIT>Deviazione della Minaccia</itIT>
+    <esMX>Atraer agro</esMX>
+    <esES>Atraer agro</esES>
+    <enGB>Draw Aggro</enGB>
+    <deDE>Aggro ziehen</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Taunt</enUS>
+    <frFR>Provocation</frFR>
+    <zhTW>嘲諷</zhTW>
+    <zhCN>嘲讽</zhCN>
+    <ruRU>Провокация</ruRU>
+    <ptBR>Provocar</ptBR>
+    <plPL>Prowokacja</plPL>
+    <koKR>도발</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>Provocación</esMX>
+    <esES>Provocar</esES>
+    <enGB>Taunt</enGB>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+</Entity>

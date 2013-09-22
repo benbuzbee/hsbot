@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<config>
+
+  <cards>
+    <datadir>carddata</datadir>
+    
+  </cards>
+  
+  <irc>
+    <host>irc.quakenet.org</host>
+    <!-- Not used yet...-->
+    <port>6667</port>
+
+
+    <nick>HearthBot2</nick>
+    <name>Hearthstone IRC Bot</name>
+    <user>HearthBot</user>
+    <channel>#foobarsda</channel>
+    <!-- Time to wait between reconnect attempts -->
+    <reconnecttime>5000</reconnecttime>
+  </irc>
+  
+</config>

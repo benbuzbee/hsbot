@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_013">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Wild Growth</enUS>
+    <frFR>Croissance sauvage</frFR>
+    <zhTW>野性成長</zhTW>
+    <zhCN>野性成长</zhCN>
+    <ruRU>Буйный рост</ruRU>
+    <ptBR>Crescimento Silvestre</ptBR>
+    <plPL>Gwałtowny wzrost</plPL>
+    <koKR>급속 성장</koKR>
+    <itIT>Crescita Rigogliosa</itIT>
+    <esMX>Crecimiento salvaje</esMX>
+    <esES>Crecimiento salvaje</esES>
+    <enGB>Wild Growth</enGB>
+    <deDE>Wildwuchs</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Gain an empty Mana Crystal.</enUS>
+    <frFR>Confère un cristal de mana vide.</frFR>
+    <zhTW>獲得一顆空的法力水晶。</zhTW>
+    <zhCN>获得一个空的法力水晶。</zhCN>
+    <ruRU>Вы получаете пустой кристалл маны.</ruRU>
+    <ptBR>Receba um Cristal de Mana vazio.</ptBR>
+    <plPL>Otrzymujesz pusty kryształ many.</plPL>
+    <koKR>빈 마나 수정을 획득합니다.</koKR>
+    <itIT>Fornisce un Cristallo di Mana vuoto.</itIT>
+    <esMX>Obtienes un Cristal de maná vacío.</esMX>
+    <esES>Obtienes un cristal de maná vacío.</esES>
+    <enGB>Gain an empty Mana Crystal.</enGB>
+    <deDE>Ihr erhaltet einen leeren Manakristall.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>James Ryman</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!</enUS>
+    <zhTW>這個法術有機率會非常糟糕地出錯，製造出數以百計滿滿的法力水晶。聽起來好像很不賴，但是歷史告訴我們其實這並非好事。</zhTW>
+    <zhCN>使用法力水晶增长装置增加你的法力值，只要399！</zhCN>
+    <ruRU>С помощью этого набора вы сможете выращивать собственные кристаллы маны! Всего за 39,99!</ruRU>
+    <ptBR>Crie seus próprios cristais de mana com esse Kit de Criação de Cristais de Mana, só 39,99!</ptBR>
+    <plPL>Wyhoduj własne kryształy many za pomocą naszego zestawu! Tylko 49,90 + VAT!</plPL>
+    <koKR>재수 없으면 수백 개의 마나 수정을 창조하기도 합니다. 좋을 것 같아도, 과거의 사례들을 보면 결코 그렇지만은 않습니다.</koKR>
+    <itIT>Produci in casa i tuoi Cristalli di Mana con questo stupendo kit pronto all'uso, solo 39,99!</itIT>
+    <frFR>Faites pousser vos propres cristaux de mana avec ce set de croissance au prix défiant toute concurrence de 39,99 pièces d’or !</frFR>
+    <esMX>Gracias a este revolucionario equipo de crecimiento de cristales de maná, tus cristales se verán más lindos que nunca por solo $39,99.</esMX>
+    <esES>Cultiva tus propios cristales de maná con este kit de cultivo de cristales de maná, ¡por solo 39,99!</esES>
+    <enGB>This spell has a chance of going horribly wrong and creating hundreds of full mana crystals.  It sounds good, but history tells us otherwise.</enGB>
+    <deDE>Züchtet Euren eigenen Manakristall mit diesem Manakristallzüchtset – nur 39,99!</deDE>
+  </Tag>
+  <Power definition="8b5c8d41-e080-44c4-9858-c23777be8b4c" />
+</Entity>

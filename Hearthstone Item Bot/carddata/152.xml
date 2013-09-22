@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_227">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Venture Co. Mercenary</enUS>
+    <frFR>Nervi de la KapitalRisk</frFR>
+    <zhTW>風險投資公司雇傭兵</zhTW>
+    <zhCN>风险投资公司雇佣兵</zhCN>
+    <ruRU>Алчный наемник</ruRU>
+    <ptBR>Mercenário da Empreendimentos S.A.</ptBR>
+    <plPL>Zbir spółki Gigeszeft</plPL>
+    <koKR>투자개발회사 용병</koKR>
+    <itIT>Sgherro della S.P.R. &amp; Co.</itIT>
+    <esMX>Mercenario de Ventura y Cía.</esMX>
+    <esES>Mercenario Ventura y Cía.</esES>
+    <enGB>Venture Co. Mercenary</enGB>
+    <deDE>Söldner der Venture Co.</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Power</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Your minions cost (3) more.</enUS>
+    <frFR>Vos serviteurs coûtent (3) cristaux de plus.</frFR>
+    <zhTW>你的手下消耗增加(3)點。</zhTW>
+    <zhCN>你的随从牌的法力值消耗增加（3）点。</zhCN>
+    <ruRU>Ваши существа стоят на (3) маны больше.</ruRU>
+    <ptBR>Seus lacaios custam (3) a mais.</ptBR>
+    <plPL>Twoi stronnicy kosztują (3) więcej.</plPL>
+    <koKR>당신 하수인들의 비용이 (3) 증가합니다.</koKR>
+    <itIT>I tuoi servitori costano (3) Mana in più.</itIT>
+    <esMX>Tus esbirros cuestan (3) más.</esMX>
+    <esES>Tus esbirros cuestan (3) p. más.</esES>
+    <enGB>Your minions cost (3) more.</enGB>
+    <deDE>Eure Diener kosten (3) mehr.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>John "JP" Polidora</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>This card would disenchant itself if it could pocket the Arcane Dust.  Those goblins love currency!</enUS>
+    <zhTW>如果有辦法把魔塵暗槓下來的話，這張卡片一定會自己把自己給分解掉。那些哥布林可真貪啊!</zhTW>
+    <zhCN>如果这地精能把奥术之尘归为己有的话，他肯定会自己把这张牌分解掉的。这些地精们都是财迷。</zhCN>
+    <ruRU>Он бы самораспылился, если бы смог потом украсть чародейную пыль. Гоблины просто обожают наличность!</ruRU>
+    <ptBR>Este card se desencantaria a si mesmo se pudesse ficar com o Pó Arcano. Esses goblins adoram dinheiro!</ptBR>
+    <plPL>Ta karta sama by się odmagiczniła, gdyby miała gdzie schować tajemny pył. Gobliny kochają walutę!</plPL>
+    <koKR>신비한 가루를 얻을 수 있다면 아마 자기 자신도 마력 추출해버릴 겁니다. 고블린들이 다 그렇죠, 뭐.</koKR>
+    <itIT>Questa carta si disincanterebbe da sola se potesse intascarsi della Polvere Arcana. Questi Goblin amano davvero ogni valuta!</itIT>
+    <frFR>Cette carte se désenchanterait elle-même si elle pouvait empocher la poussière arcanique qu’elle en tirerait. Les gobelins adorent commercer !</frFR>
+    <esMX>Esta carta se desencantaría a sí misma si pudiera quedarse con el Polvo arcano. ¡Esos goblin son insaciables!</esMX>
+    <esES>Esta carta se desencantaría a sí misma si pudiera quedarse con el polvo arcano. ¡A los goblins les encanta el comercio!</esES>
+    <enGB>This card would disenchant itself if it could pocket the Arcane Dust.  Those goblins love currency!</enGB>
+    <deDE>Diese Karte würde sich glatt selbst entzaubern, wenn sie Taschen hätte, um den Arkanstaub zu verstauen. Diese Goblins lieben Währung über alles!</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="79506256-a5e7-44bc-ba14-41765584d134" />
+</Entity>

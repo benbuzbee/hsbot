@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_178be">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Uprooted</enUS>
+    <frFR>Déraciné</frFR>
+    <zhTW>拔根</zhTW>
+    <zhCN>拔根</zhCN>
+    <ruRU>Вытянувший корни</ruRU>
+    <ptBR>Desarraigado</ptBR>
+    <plPL>Wyjęte korzenie</plPL>
+    <koKR>뿌리 들기</koKR>
+    <itIT>Sradicato</itIT>
+    <esMX>Desarraigado</esMX>
+    <esES>Desarraigado</esES>
+    <enGB>Uprooted</enGB>
+    <deDE>Entwurzelt</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>This minion has +5 Attack.</enUS>
+    <frFR>Ce serviteur a +5 ATQ.</frFR>
+    <zhTW>這個手下擁有+5攻擊力。</zhTW>
+    <zhCN>该随从获得+5攻击力。</zhCN>
+    <ruRU>Это существо получило +5 к атаке.</ruRU>
+    <ptBR>Este lacaio tem +5 de Ataque.</ptBR>
+    <plPL>Ten stronnik ma +5 do ataku.</plPL>
+    <koKR>공격력 +5</koKR>
+    <itIT>+5 Attacco.</itIT>
+    <esMX>Este esbirro tiene +5 de Ataque.</esMX>
+    <esES>Este esbirro tiene +5 p. de ataque.</esES>
+    <enGB>This minion has +5 Attack.</enGB>
+    <deDE>Dieser Diener hat +5 Angriff.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="48a42a74-5748-4f8c-88b7-47495f34e88e" />
+</Entity>

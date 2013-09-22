@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_179">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Sen'jin Shieldmasta</enUS>
+    <frFR>Maître-bouclier de Sen’jin</frFR>
+    <zhTW>森金禦盾大師</zhTW>
+    <zhCN>森金持盾卫士</zhCN>
+    <ruRU>Щитоносец Сен'джин</ruRU>
+    <ptBR>Mestre Escudeiro de Sen'jin</ptBR>
+    <plPL>Tarczewnik Sen'jina</plPL>
+    <koKR>센진 방패대가</koKR>
+    <itIT>Guardiano di Sen'jin</itIT>
+    <esMX>Sen'jin Maestro de escudos</esMX>
+    <esES>Maestro de escudos Sen'jin</esES>
+    <enGB>Sen'jin Shieldmasta</enGB>
+    <deDE>Schildmeista von Sen'jin</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Brian Despain</enUS>
+  </Tag>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="57fb63a6-5259-468c-bf47-e74a08754c02" />
+</Entity>

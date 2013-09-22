@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_021">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Thrallmar Farseer</enUS>
+    <frFR>Long-voyant de Thrallmar</frFR>
+    <zhTW>索爾瑪先知</zhTW>
+    <zhCN>萨尔玛先知</zhCN>
+    <ruRU>Провидец Траллмара</ruRU>
+    <ptBR>Clarividente de Thrallmar</ptBR>
+    <plPL>Wieszcz z Tralmaru</plPL>
+    <koKR>스랄마 선견자</koKR>
+    <itIT>Veggente di Thrallmar</itIT>
+    <esMX>Clarividente de Thrallmar</esMX>
+    <esES>Clarividente de Thrallmar</esES>
+    <enGB>Thrallmar Farseer</enGB>
+    <deDE>Scharfseher von Thrallmar</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento furioso&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Windfury&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Efrem Palacios</enUS>
+  </Tag>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="52171593-d4a9-49e2-a647-d5e3dbc63aea" />
+</Entity>

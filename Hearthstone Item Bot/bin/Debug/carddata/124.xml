@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_161">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Ravenholdt Assassin</enUS>
+    <frFR>Assassin de Ravenholdt</frFR>
+    <zhTW>拉文霍德刺客</zhTW>
+    <zhCN>拉文霍德刺客</zhCN>
+    <ruRU>Скрытный убийца</ruRU>
+    <ptBR>Assassino do Corvoforte</ptBR>
+    <plPL>Zabójca z Krukowiska</plPL>
+    <koKR>라벤홀트 암살자</koKR>
+    <itIT>Assassino di Corvolesto</itIT>
+    <esMX>Asesino de Ravenholdt</esMX>
+    <esES>Asesino de Ravenholdt</esES>
+    <enGB>Ravenholdt Assassin</enGB>
+    <deDE>Rabenholdtassassine</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Stealth&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ralph Horsley</enUS>
+  </Tag>
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="fab16c8e-b0c9-45ff-a3cb-6d017b8d070c" />
+</Entity>

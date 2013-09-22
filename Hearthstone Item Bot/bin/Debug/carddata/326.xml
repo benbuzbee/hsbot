@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_249">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Baron Geddon</enUS>
+    <frFR>Baron Geddon</frFR>
+    <zhTW>迦頓男爵</zhTW>
+    <zhCN>迦顿男爵</zhCN>
+    <ruRU>Барон Геддон</ruRU>
+    <ptBR>Barão Geddon</ptBR>
+    <plPL>Baron Geddon</plPL>
+    <koKR>남작 게돈</koKR>
+    <itIT>Barone Geddon</itIT>
+    <esMX>Barón Geddon</esMX>
+    <esES>Barón Geddon</esES>
+    <enGB>Baron Geddon</enGB>
+    <deDE>Baron Geddon</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>At the end of your turn, deal 2 damage to ALL other characters.</enUS>
+    <frFR>À la fin de votre tour, inflige 2 points de dégâts à TOUS les autres personnages.</frFR>
+    <zhTW>在你的回合結束時，對全部其他角色造成2點傷害。</zhTW>
+    <zhCN>在你的回合结束时，对所有其他角色造成2点伤害。</zhCN>
+    <ruRU>В конце вашего хода наносит 2 ед. урона ВСЕМ остальным персонажам.</ruRU>
+    <ptBR>No final do seu turno, cause 2 de dano a TODOS os outros personagens.</ptBR>
+    <plPL>Na koniec swojej tury zadaj 2 pkt. obrażeń WSZYSTKIM innym postaciom.</plPL>
+    <koKR>당신의 턴이 끝날 때, 다른 모든 캐릭터에게 피해를 2 줍니다.</koKR>
+    <itIT>Alla fine del tuo turno, infligge 2 danni a TUTTI gli altri personaggi.</itIT>
+    <esMX>Al final de tu turno, inflige 2 de daño a TODOS los otros personajes.</esMX>
+    <esES>Al final de tu turno, inflige 2 p. de daño a todos los demás personajes.</esES>
+    <enGB>At the end of your turn, deal 2 damage to ALL other characters.</enGB>
+    <deDE>Fügt am Ende Eures Zuges ALLEN anderen Charakteren 2 Schaden zu.</deDE>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ian Ameling</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="a63ac6ab-34d7-458f-9dcc-04af6b2bcf4f" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

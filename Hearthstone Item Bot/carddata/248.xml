@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_095">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Gadgetzan Auctioneer</enUS>
+    <frFR>Commissaire-priseur</frFR>
+    <zhTW>加基森拍賣師</zhTW>
+    <zhCN>加基森拍卖师</zhCN>
+    <ruRU>Гоблин-аукционист</ruRU>
+    <ptBR>Leiloeiro de Geringontzan</ptBR>
+    <plPL>Licytator z Gadżetonu</plPL>
+    <koKR>가젯잔 경매인</koKR>
+    <itIT>Banditore di Meccania</itIT>
+    <esMX>Subastador de Gadgetzan</esMX>
+    <esES>Subastador de Gadgetzan</esES>
+    <enGB>Gadgetzan Auctioneer</enGB>
+    <deDE>Goblinauktionator</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Auctioning</enUS>
+  </Tag>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever you cast a spell, draw a card.</enUS>
+    <frFR>Vous piochez une carte quand vous lancez un sort.</frFR>
+    <zhTW>每當你施放法術，抽一張牌。</zhTW>
+    <zhCN>每当你施放一个法术时，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда вы разыгрываете заклинание, вы берете карту.</ruRU>
+    <ptBR>Ao lançar um feitiço, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy rzucisz zaklęcie.</plPL>
+    <koKR>당신이 주문을 시전할 때마다 카드를 한 장 뽑습니다.</koKR>
+    <itIT>Ogni volta che lanci una Magia, pesca una carta.</itIT>
+    <esMX>Cada vez que lanzas un hechizo, roba una carta.</esMX>
+    <esES>Cuando lanzas un hechizo, roba una carta.</esES>
+    <enGB>Whenever you cast a spell, draw a card.</enGB>
+    <deDE>Zieht jedes Mal eine Karte, wenn Ihr einen Zauber wirkt.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Matt Dixon</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="7352f544-1894-4ec6-a5a0-1c51b3ef8535" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

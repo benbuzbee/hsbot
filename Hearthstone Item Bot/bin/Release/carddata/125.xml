@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_162">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Lord of the Arena</enUS>
+    <frFR>Seigneur de l’arène</frFR>
+    <zhTW>競技場之王</zhTW>
+    <zhCN>竞技场主宰</zhCN>
+    <ruRU>Повелитель арены</ruRU>
+    <ptBR>Lorde da Arena</ptBR>
+    <plPL>Władca Areny</plPL>
+    <koKR>투기장의 제왕</koKR>
+    <itIT>Campione dell'Arena</itIT>
+    <esMX>Señor de la Arena</esMX>
+    <esES>Señor de la arena</esES>
+    <enGB>Lord of the Arena</enGB>
+    <deDE>Herr der Arena</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>E.M. Gist</enUS>
+  </Tag>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="c5a15a2b-9f3b-4b96-aa9c-cad2d9de75ad" />
+</Entity>

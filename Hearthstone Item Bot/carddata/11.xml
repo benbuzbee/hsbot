@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_004e">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Power Word: Shield</enUS>
+    <frFR>Mot de pouvoir : Bouclier</frFR>
+    <zhTW>真言術:盾</zhTW>
+    <zhCN>真言术：盾</zhCN>
+    <ruRU>Слово силы: Щит</ruRU>
+    <ptBR>Palavra de Poder: Escudo</ptBR>
+    <plPL>Słowo mocy: Tarcza</plPL>
+    <koKR>신의 권능: 보호막</koKR>
+    <itIT>Parola del Potere: Scudo</itIT>
+    <esMX>Palabra de poder: Escudo</esMX>
+    <esES>Palabra de poder: escudo</esES>
+    <enGB>Power Word: Shield</enGB>
+    <deDE>Machtwort: Schild</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>This minion has +3 Health.</enUS>
+    <frFR>Ce serviteur a +3 PV.</frFR>
+    <zhTW>這個手下擁有+3生命值。</zhTW>
+    <zhCN>该随从获得+3生命值。</zhCN>
+    <ruRU>Это существо получило +3 к здоровью.</ruRU>
+    <ptBR>Este lacaio está com +3 de Vida.</ptBR>
+    <plPL>Ten stronnik ma +3 do zdrowia.</plPL>
+    <koKR>생명력 +3</koKR>
+    <itIT>+3 Salute.</itIT>
+    <esMX>Este esbirro tiene +3 de Salud.</esMX>
+    <esES>Este esbirro tiene +3 p. de salud.</esES>
+    <enGB>This minion has +3 Health.</enGB>
+    <deDE>Dieser Diener hat +3 Leben.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="63ad19bd-9009-406a-a3dd-e5bff62e705f" />
+</Entity>

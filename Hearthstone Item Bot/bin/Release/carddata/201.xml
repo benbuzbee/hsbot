@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_016">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Sylvanas Windrunner</enUS>
+    <zhTW>希瓦娜斯·風行者</zhTW>
+    <zhCN>希尔瓦娜斯·风行者</zhCN>
+    <ruRU>Сильвана Ветрокрылая</ruRU>
+    <ptBR>Sylvana Correventos</ptBR>
+    <plPL>Sylwana Wichronoga</plPL>
+    <koKR>실바나스 윈드러너</koKR>
+    <itIT>Sylvanas Ventolesto</itIT>
+    <frFR>Sylvanas Coursevent</frFR>
+    <esMX>Sylvanas Brisaveloz</esMX>
+    <esES>Sylvanas Brisaveloz</esES>
+    <enGB>Sylvanas Windrunner</enGB>
+    <deDE>Sylvanas Windläufer</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Take control of a random enemy minion.</enUS>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;控制一個隨機敵方手下。</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;控制一个随机敌方随从。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы получаете контроль над случайным существом противника.</ruRU>
+    <ptBR>&lt;b&gt;Estertor de Morte:&lt;/b&gt; Assuma o controle de um lacaio inimigo aleatório.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przejmij kontrolę nad losowym stronnikiem przeciwnika.</plPL>
+    <koKR>&lt;b&gt;죽음의 신음:&lt;/b&gt; 무작위 적 하수인을 우리편으로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; prendi il controllo di un servitore nemico.</itIT>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; prend le contrôle d’un serviteur adverse.</frFR>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; toma el control de un esbirro enemigo aleatorio.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Toma el control de un esbirro enemigo aleatorio.</esES>
+    <enGB>&lt;b&gt;Deathrattle:&lt;/b&gt; Take control of a random enemy minion.</enGB>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Übernehmt die Kontrolle über einen zufälligen feindlichen Diener.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Glenn Rane</enUS>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="39d82d66-8d37-436c-80ed-d1fd3741eaa9" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="NEW1_014">
+  <MasterPower>770c5fd9-e0e9-4bc5-b358-52479bdf722e</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Master of Disguise</enUS>
+    <frFR>Maîtresse du déguisement</frFR>
+    <zhTW>偽裝大師</zhTW>
+    <zhCN>伪装大师</zhCN>
+    <ruRU>Мастер маскировки</ruRU>
+    <ptBR>Mestra dos Disfarces</ptBR>
+    <plPL>Mistrz kamuflażu</plPL>
+    <koKR>위장의 대가</koKR>
+    <itIT>Maestra dell'Inganno</itIT>
+    <esMX>Maestra del disfraz</esMX>
+    <esES>Maestra del disfraz</esES>
+    <enGB>Master of Disguise</enGB>
+    <deDE>Meisterin der Tarnung</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Stealth&lt;/b&gt;.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère &lt;b&gt;Camouflage&lt;/b&gt; à un serviteur allié.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;使一個友方手下獲得&lt;b&gt;潛行&lt;/b&gt;。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得&lt;b&gt;潜行&lt;/b&gt;。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше существо получает &lt;b&gt;«Маскировку»&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda &lt;b&gt;Furtividade&lt;/b&gt; a um lacaio aliado.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi &lt;b&gt;Ukrycie&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인에게 &lt;b&gt;은신&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce &lt;b&gt;Furtività&lt;/b&gt; a un tuo servitore.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga &lt;b&gt;Sigilo&lt;/b&gt; a un esbirro aliado.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga &lt;b&gt;Sigilo&lt;/b&gt; a un esbirro amistoso.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Stealth&lt;/b&gt;.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener &lt;b&gt;Verstohlenheit&lt;/b&gt;.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Give &lt;b&gt;Stealth&lt;/b&gt;.</enUS>
+    <frFR>Confère &lt;b&gt;Camouflage&lt;/b&gt;.</frFR>
+    <zhTW>賦予&lt;b&gt;潛行&lt;/b&gt;。</zhTW>
+    <zhCN>使一个友方随从获得&lt;b&gt;潜行&lt;/b&gt;。</zhCN>
+    <ruRU>Получит &lt;b&gt;«Маскировку»&lt;/b&gt;</ruRU>
+    <ptBR>Conceda &lt;b&gt;Furtividade&lt;/b&gt;.</ptBR>
+    <plPL>Daj Ukrycie.</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
+    <itIT>Fornisce &lt;b&gt;Furtività&lt;/b&gt;.</itIT>
+    <esMX>Otorga &lt;b&gt;Sigilo&lt;/b&gt;.</esMX>
+    <esES>Otorga &lt;b&gt;Sigilo&lt;/b&gt;.</esES>
+    <enGB>Give &lt;b&gt;Stealth&lt;/b&gt;.</enGB>
+    <deDE>Verleiht &lt;b&gt;Verstohlenheit&lt;/b&gt;.</deDE>
+  </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ron Spencer</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <ReferencedTag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="770c5fd9-e0e9-4bc5-b358-52479bdf722e">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="9" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="2" param="" />
+  </Power>
+</Entity>

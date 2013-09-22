@@ -5,8 +5,9 @@ d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item B
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot2.exe
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot2.pdb
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\Meebey.SmartIrc4net.dll
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\StarkSoftProxy.dll
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.dll
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.pdb
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.xml
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache

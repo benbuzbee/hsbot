@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_595">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Cult Master</enUS>
+    <frFR>Maître de culte</frFR>
+    <zhTW>教派宗師</zhTW>
+    <zhCN>诅咒教派领袖</zhCN>
+    <ruRU>Глава культа</ruRU>
+    <ptBR>Mestra do Culto</ptBR>
+    <plPL>Mistrz kultu</plPL>
+    <koKR>이교도 지도자</koKR>
+    <itIT>Maestro del Culto</itIT>
+    <esMX>Maestra de secta</esMX>
+    <esES>Maestra de secta</esES>
+    <enGB>Cult Master</enGB>
+    <deDE>Kultmeisterin</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever one of your other minions dies, draw a card.</enUS>
+    <frFR>Vous piochez une carte quand un de vos autres serviteurs meurt.</frFR>
+    <zhTW>每當你其他的手下死亡，抽一張牌。</zhTW>
+    <zhCN>每当你的其他随从死亡时，抽一张牌。</zhCN>
+    <ruRU>Когда одно из ваших существ умирает, вы берете карту.</ruRU>
+    <ptBR>Quando um de seus outros lacaios morrer, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy zginie jeden z twoich stronników.</plPL>
+    <koKR>당신의 다른 하수인 하나가 죽을 때마다 카드를 한 장 뽑습니다.</koKR>
+    <itIT>Quando uno degli altri tuoi servitori muore, pesca una carta.</itIT>
+    <esMX>Cada vez que muere uno de tus otros esbirros, roba una carta.</esMX>
+    <esES>Cuando uno de tus otros esbirros muere, roba una carta.</esES>
+    <enGB>Whenever one of your other minions dies, draw a card.</enGB>
+    <deDE>Zieht jedes Mal eine Karte, wenn einer Eurer anderen Diener stirbt.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Cultist</enUS>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="eb6fb68c-f67e-4804-8096-405d33e32a6b" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>

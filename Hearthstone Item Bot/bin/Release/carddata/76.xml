@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_083b">
+  <MasterPower>43361d24-86c6-42a3-b9ea-1320bdf35997</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Dagger Mastery</enUS>
+    <frFR>Maîtrise des dagues</frFR>
+    <zhTW>匕首專精</zhTW>
+    <zhCN>匕首精通</zhCN>
+    <ruRU>Мастер клинков</ruRU>
+    <ptBR>Maestria em Adagas</ptBR>
+    <plPL>Mistrzyni sztyletów</plPL>
+    <koKR>단검의 대가</koKR>
+    <itIT>Maestria nei Pugnali</itIT>
+    <esMX>Maestría en dagas</esMX>
+    <esES>Maestría en dagas</esES>
+    <enGB>Dagger Mastery</enGB>
+    <deDE>Dolchbeherrschung</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Equip a 1/2 Dagger; or Give your weapon +1 Attack this turn.</enUS>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nÉquipe une dague 1/2 ou confère +1 ATQ à votre arme pendant ce tour.</frFR>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;裝備一把1/2匕首，或在本回合內賦予你的武器+1攻擊力。</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n装备一把1/2的匕首；或者使你的武器本回合获得+1攻击力。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n Получить оружие 1/2; или добавить оружию +1 к атаке до конца хода.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Equipe uma Adaga 1/2; ou conceda +1 de Ataque à sua arma neste turno.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Otrzymujesz sztylet 1/2; lub dajesz swojej broni +1 do ataku w tej turze.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 1/2 단검을 장비합니다. 또는 이번 턴에 당신의 무기에 공격력을 +1 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nEquipaggia un Pugnale 1/2 o fornisce +1 Attacco alla tua arma in questo turno.</itIT>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Equipa una daga 1/2 o le otorga +1 de Ataque a tu arma en este turno.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Equipa una daga 1/2, o bien otorga +1 p. de ataque a tu arma este turno.</esES>
+    <enGB>&lt;b&gt;Hero Power&lt;/b&gt; \n Equip a 1/2 Dagger; or Give your weapon +1 Attack this turn.</enGB>
+    <deDE>&lt;b&gt;Heldenfähgkeit&lt;/b&gt; \n Legt einen Dolch (1/2) an; oder Eure Waffe erhält +1 Angriff in diesem Zug.</deDE>
+  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Power definition="43361d24-86c6-42a3-b9ea-1320bdf35997" />
+</Entity>

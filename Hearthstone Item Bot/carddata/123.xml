@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_155">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Archmage</enUS>
+    <frFR>Archimage</frFR>
+    <zhTW>大法師</zhTW>
+    <zhCN>大法师</zhCN>
+    <ruRU>Верховный маг</ruRU>
+    <ptBR>Arquimago</ptBR>
+    <plPL>Arcymag</plPL>
+    <koKR>대마법사</koKR>
+    <itIT>Arcimago</itIT>
+    <esMX>Archimago</esMX>
+    <esES>Archimago</esES>
+    <enGB>Archmage</enGB>
+    <deDE>Erzmagier</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Spell Power +1&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;+1 Puissance des sorts&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;法術能量+1&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;法术强度+1&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Сила заклинаний +1&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Moc zaklęć +1&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Poder de hechizo +1&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;+1 p. de poder con hechizos&lt;/b&gt;</esES>
+    <enGB>&lt;b&gt;Spell Power +1&lt;/b&gt;</enGB>
+    <deDE>&lt;b&gt;Zaubermacht +1&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Steve Ellis</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Archmagi have access to a special room in Dalaran. Nobody knows what happens there, but it definitely is NOT a party, despite the shipments of D.I.S.C.O. balls.</enUS>
+    <zhTW>大法師可以進入達拉然的一個特別房間。沒有人知道裡面在做什麼，雖然有舞廳器材的運送記錄單，但絕對不是派對!</zhTW>
+    <zhCN>达拉然的大法师们有权进入一个非常特别的房间。没人知道这房间里有什么，但这肯定不是开舞会用的。别用普通人的想法来评价大法师们的社交方式。</zhCN>
+    <ruRU>У верховных магов есть доступ в особую комнату в Даларане. Никто не знает, что происходит за ее дверями, но это точно не вечеринка, несмотря на то, что туда регулярно доставляют диско-шары.</ruRU>
+    <ptBR>Os Arquimagos têm acesso a uma sala especial em Dalaran. Ninguém sabe o que acontece lá, mas definitivamente NÃO É uma festa, apesar das entregas de bolas D.I.S.C.O.</ptBR>
+    <plPL>Arcymagowie mają w Dalaranie specjalną salę. Nikt nie wie, co się tam dzieje, ale na pewno nie imprezują, mimo że zawsze wynosi się stamtąd mnóstwo butelek.</plPL>
+    <koKR>대마법사들은 달라란에 있는 제한 구역에 출입할 수 있습니다. 그 안에서 무슨 일이 일어나는진 몰라도, 절대 파티는 아닐 겁니다. 디스코 볼이 배송되긴 했지만요.</koKR>
+    <itIT>Gli Arcimaghi hanno accesso a una stanza speciale a Dalaran. Nessuno sa cosa succeda là dentro, ma di certo NON organizzano feste, nonostante vengano consegnate numerose sfere D.I.S.C.O..</itIT>
+    <frFR>Les archimages peuvent accéder à une salle spéciale dans Dalaran. Personne ne sait ce qui s’y passe, mais ce n’est sûrement PAS la fête, malgré les livraisons de boules D.I.S.C.O.</frFR>
+    <esMX>Los archimagos tienen acceso a una habitación especial en Dalaran. Nadie sabe qué sucede ahí, pero sin dudas NO ES una fiesta, a pesar de los cargamentos de bolas D.I.S.C.O.</esMX>
+    <esES>Los archimagos tienen acceso a una sala especial en Dalaran. Nadie sabe qué sucede en su interior, pero desde luego NO es una fiesta, a pesar de los cargamentos de bolas D.I.S.C.O.</esES>
+    <enGB>Archmagi have access to a special room in Dalaran. Nobody knows what happens there, but it definitely is NOT a party, despite the shipments of D.I.S.C.O. balls.</enGB>
+    <deDE>Erzmagier können einen speziellen Raum in Dalaran betreten. Niemand weiß, was dort passiert, aber definitiv findet dort KEINE Party statt, trotz der ganzen Lieferungen an D.I.S.C.O.-Kugeln.</deDE>
+  </Tag>
+  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
+  <Power definition="b5764d75-7534-4ec2-af9a-ecfc246edbd9" />
+</Entity>

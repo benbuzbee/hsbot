@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_128">
+  <MasterPower>b5a3da15-a174-4572-8f8e-d17a871066d9</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Conceal</enUS>
+    <frFR>Dissimuler</frFR>
+    <zhTW>遮蔽</zhTW>
+    <zhCN>隐藏</zhCN>
+    <ruRU>Замаскировать</ruRU>
+    <ptBR>Ocultar</ptBR>
+    <plPL>Ukrycie</plPL>
+    <koKR>은폐</koKR>
+    <itIT>Copertura</itIT>
+    <esMX>Encubrir</esMX>
+    <esES>Embozo</esES>
+    <enGB>Conceal</enGB>
+    <deDE>Verhüllen</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give your minions &lt;b&gt;Stealth&lt;/b&gt; until your next turn.</enUS>
+    <frFR>Confère &lt;b&gt;Camouflage&lt;/b&gt; à vos serviteurs jusqu’à votre prochain tour.</frFR>
+    <zhTW>賦予一個友方手下&lt;b&gt;潛行&lt;/b&gt;直到你的下一個回合。</zhTW>
+    <zhCN>直到你的下个回合，使所有友方随从获得&lt;b&gt;潜行&lt;/b&gt;。</zhCN>
+    <ruRU>Ваши существа получают способность &lt;b&gt;«Маскировка»&lt;/b&gt; до вашего следующего хода.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Furtividade&lt;/b&gt; aos seus lacaios até o próximo turno.</ptBR>
+    <plPL>Daj swoim stronnikom &lt;b&gt;Ukrycie&lt;/b&gt; do twojej następnej tury.</plPL>
+    <koKR>당신의 다음 턴까지 아군 하수인에게 &lt;b&gt;은신&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Furtività&lt;/b&gt; ai tuoi servitori fino al tuo turno successivo.</itIT>
+    <esMX>Otorga &lt;b&gt;Sigilo&lt;/b&gt; a tus esbirros hasta tu próximo turno.</esMX>
+    <esES>Otorga &lt;b&gt;Sigilo&lt;/b&gt; a tus esbirros hasta tu siguiente turno.</esES>
+    <enGB>Give a friendly minion &lt;b&gt;Stealth&lt;/b&gt;.</enGB>
+    <deDE>Verleiht Euren Dienern bis zu Eurem nächsten Zug &lt;b&gt;Verstohlenheit&lt;/b&gt;.</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Steve Hui</enUS>
+  </Tag>
+  <ReferencedTag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="b5a3da15-a174-4572-8f8e-d17a871066d9" />
+</Entity>

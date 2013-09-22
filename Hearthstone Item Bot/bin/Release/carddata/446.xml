@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_556">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Harvest Golem</enUS>
+    <frFR>Golem des moissons</frFR>
+    <zhTW>麥田魔像</zhTW>
+    <zhCN>麦田傀儡</zhCN>
+    <ruRU>Уборочный голем</ruRU>
+    <ptBR>Golem Colheiteiro</ptBR>
+    <plPL>Golem zbożowy</plPL>
+    <koKR>허수아비골렘</koKR>
+    <itIT>Golem Mietitore</itIT>
+    <esMX>Gólem de la cosecha</esMX>
+    <esES>Gólem de la cosecha</esES>
+    <enGB>Harvest Golem</enGB>
+    <deDE>Erntegolem</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 2/1 Damaged Golem.</enUS>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; invoque un golem endommagé 2/1.</frFR>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;召喚一個2/1受損的魔像。</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;召唤一个2/1的损坏的傀儡。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; призывает на поле боя поврежденного голема 2/1.</ruRU>
+    <ptBR>&lt;b&gt;Estertor de Morte:&lt;/b&gt; Evoque um Golem Danificado 2/1.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przyzwij uszkodzonego golema 2/1.</plPL>
+    <koKR>&lt;b&gt;죽음의 신음:&lt;/b&gt; 2/1 손상된 골렘을 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; evoca un Golem Danneggiato 2/1.</itIT>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; invoca un Gólem dañado 2/1.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Invoca un gólem dañado 2/1.</esES>
+    <enGB>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 2/1 Damaged Golem.</enGB>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft einen Beschädigten Golem (2/1) herbei.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Brian Despain</enUS>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="837641e8-178f-4945-8e41-ceb04131c9d4" />
+  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
+</Entity>

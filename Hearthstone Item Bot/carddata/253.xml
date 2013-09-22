@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_103">
+  <MasterPower>ed1b6657-9a0f-4737-ad76-4cd4e95835fe</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Coldlight Seer</enUS>
+    <frFR>Voyant froide-lumière</frFR>
+    <zhTW>冷光先知</zhTW>
+    <zhCN>寒光先知</zhCN>
+    <ruRU>Вайш'ирский провидец</ruRU>
+    <ptBR>Vidente da Luz Fria</ptBR>
+    <plPL>Prorok Światłociemnych</plPL>
+    <koKR>시린빛 예언자</koKR>
+    <itIT>Veggente Lucefredda</itIT>
+    <esMX>Vidente Luz fría</esMX>
+    <esES>Vidente Luz Fría</esES>
+    <enGB>Coldlight Seer</enGB>
+    <deDE>Tiefenlichtseher</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 PV à TOUS les autres murlocs.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予全部其他魚人+2生命值。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使所有其他鱼人获得+2生命值。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все прочие мурлоки получают +2 к здоровью.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Vida a TODOS os outros Murlocs.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj wszystkim pozostałym murlokom +2 do zdrowia.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 모든 멀록에게 생명력을 +2 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Salute a TUTTI gli altri Murloc.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Salud a TODOS los otros múrlocs.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de salud a todos los demás múrlocs.</esES>
+    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</enGB>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht ALLEN anderen Murlocs +2 Leben.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Arthur Gimaldinov</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="ed1b6657-9a0f-4737-ad76-4cd4e95835fe" />
+</Entity>

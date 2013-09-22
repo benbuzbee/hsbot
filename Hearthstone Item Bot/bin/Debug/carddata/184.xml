@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_001">
+  <MasterPower>
+  </MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Lightwarden</enUS>
+    <frFR>Gardelumière</frFR>
+    <zhTW>護光者</zhTW>
+    <zhCN>圣光护卫者</zhCN>
+    <ruRU>Стражница Света</ruRU>
+    <ptBR>Guardiã da Luz</ptBR>
+    <plPL>Strażniczka światłości</plPL>
+    <koKR>빛의 감시자</koKR>
+    <itIT>Custode della Luce</itIT>
+    <esMX>Celadora de la luz</esMX>
+    <esES>Celadora de la Luz</esES>
+    <enGB>Lightwarden</enGB>
+    <deDE>Lichtwächterin</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever a character is healed, gain +1 Attack.</enUS>
+    <frFR>Chaque fois qu’un personnage est soigné, gagne +1 ATQ.</frFR>
+    <zhTW>每當一個角色受到治療，獲得+1攻擊力。</zhTW>
+    <zhCN>每当一个角色获得治疗时，便获得+1攻击力。</zhCN>
+    <ruRU>Каждый раз, когда персонаж восстанавливает здоровье, &lt;i&gt;Стражница Света&lt;/i&gt; получает +1 к атаке.</ruRU>
+    <ptBR>Sempre que um personagem for curado, receba +1 de Ataque.</ptBR>
+    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy jakaś postać zostanie uzdrowiona.</plPL>
+    <koKR>캐릭터가 치유될 때마다 공격력을 +1 얻습니다.</koKR>
+    <itIT>Quando un personaggio viene curato, il Custode della Luce ottiene +1 Attacco.</itIT>
+    <esMX>Cada vez que se sana a un personaje, obtiene +1 de Ataque.</esMX>
+    <esES>Obtiene +1 p. de ataque cada vez que se sana a un personaje.</esES>
+    <enGB>Whenever a character is healed, gain +1 Attack.</enGB>
+    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Charakter geheilt wird.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Erik Ko</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="564f5041-9554-4f62-be60-a4230c9ca64b" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+</Entity>
