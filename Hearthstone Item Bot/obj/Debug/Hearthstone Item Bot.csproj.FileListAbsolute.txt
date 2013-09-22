@@ -1,13 +1,12 @@
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot2.exe.config
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot2.exe
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot2.pdb
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot2.exe
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot2.pdb
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.dll
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.pdb
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.xml
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe.config
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.pdb
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.dll
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.pdb
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\IrcDotNet.xml
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
