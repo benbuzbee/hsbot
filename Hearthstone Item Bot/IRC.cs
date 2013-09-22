@@ -20,7 +20,7 @@ namespace HSBot
          * */
         public void StartConnect()
         {
-            new System.Threading.Thread(() => {
+            var t = new System.Threading.Thread(() => {
                 int registrationTimeout = 0;
                 
                 while (true)
@@ -36,7 +36,6 @@ namespace HSBot
                         registration.UserName = Config.IRCUser;
 
 
-
                         this.Connect(Config.IRCHost, false, registration);
 
                         this.Registered += new EventHandler<EventArgs>(OnRegistered);
@@ -46,7 +45,9 @@ namespace HSBot
                 }
             
             
-            }).Start();
+            });
+            t.Name = "Reconnect Thread";
+            t.Start();
             
             
             
@@ -128,7 +129,7 @@ namespace HSBot
         private System.Collections.Generic.Dictionary<String, Cards.Card> cards = new System.Collections.Generic.Dictionary<String, Cards.Card>();
         private void RefreshList()
         {
-            var parser = new Cards.XMLParser(@"C:\Users\Ben\Desktop\carddata");
+            var parser = new Cards.XMLParser(Config.DataDirectory);
             List<Cards.Card> list = parser.GetCards();
             cards.Clear();
             foreach (Cards.Card c in list)
