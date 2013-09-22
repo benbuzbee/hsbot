@@ -21,11 +21,14 @@ namespace HSBot
         public void StartConnect()
         {
             new System.Threading.Thread(() => {
-
+                int registrationTimeout = 0;
+                
                 while (true)
                 {
-                    if (!this.IsConnected)
+                    
+                    if (!this.IsConnected || registrationTimeout++ > 5)
                     {
+                        registrationTimeout = 0;
                         Console.WriteLine("Not connected...attempting to connect...");
                         var registration = new IrcUserRegistrationInfo();
                         registration.NickName = Config.IRCNick;
