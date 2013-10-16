@@ -1,63 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_005">
-  <MasterPower>a871043b-5755-4b92-85e1-a831512f8099</MasterPower>
+<Entity version="2" CardID="CRED_13">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Claw</enUS>
-    <frFR>Griffe</frFR>
-    <zhTW>爪擊</zhTW>
-    <zhCN>爪击</zhCN>
-    <ruRU>Коготь</ruRU>
-    <ptBR>Garra</ptBR>
-    <plPL>Pazur</plPL>
-    <koKR>할퀴기</koKR>
-    <itIT>Sfregio</itIT>
-    <esMX>Zarpa</esMX>
-    <esES>Zarpa</esES>
-    <enGB>Claw</enGB>
-    <deDE>Klaue</deDE>
+    <enUS>Brian Schwab</enUS>
+    <zhTW>Brian Schwab</zhTW>
+    <zhCN>Brian Schwab</zhCN>
+    <ruRU>Brian Schwab</ruRU>
+    <ptBR>Brian Schwab</ptBR>
+    <plPL>Brian Schwab</plPL>
+    <koKR>브라이언 슈와브</koKR>
+    <itIT>Brian Schwab</itIT>
+    <frFR>Brian Schwab</frFR>
+    <esMX>Brian Schwab</esMX>
+    <esES>Brian Schwab</esES>
+    <deDE>Brian Schwab</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="10" />
+  <Tag name="Atk" enumID="47" type="Number" value="10" />
+  <Tag name="Health" enumID="45" type="Number" value="10" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your hero +2 Attack this turn and 2 Armor.</enUS>
-    <frFR>Confère à votre héros +2 ATQ pendant ce tour et +2 Armure.</frFR>
-    <zhTW>賦予你的英雄2點護甲值並在本回合內賦予他+2攻擊力。</zhTW>
-    <zhCN>使你的英雄获得2点护甲值，并在本回合中获得+2攻击力。</zhCN>
-    <ruRU>Ваш герой получает +2 к атаке до конца хода и +2 к броне.</ruRU>
-    <ptBR>Conceda +2 de Ataque ao seu herói neste turno e 2 de Armadura.</ptBR>
-    <plPL>W tej turze daj swojemu bohaterowi +2 do ataku i +2 do pancerza.</plPL>
-    <koKR>당신의 영웅에게 방어도를 +2 부여하고, 이번 턴에만 공격력을 +2 부여합니다.</koKR>
-    <itIT>Fornisce +2 Attacco al tuo eroe in questo turno e +2 Armatura.</itIT>
-    <esMX>Otorga a tu héroe +2 de Ataque en este turno y 2 de Armadura.</esMX>
-    <esES>Otorga a tu héroe +2 p. de ataque este turno y 2 p. de armadura.</esES>
-    <enGB>Give your hero +2 Attack this turn and 2 Armor.</enGB>
-    <deDE>Verleiht Eurem Helden +2 Angriff in diesem Zug und 2 Rüstung.</deDE>
+    <enUS>At the end of your turn, give a random minion +1 Attack.</enUS>
+    <zhTW>在你的回合結束時，賦予一個隨機手下+1攻擊力。</zhTW>
+    <zhCN>在你的回合结束时，给一个随机随从+1攻击力。</zhCN>
+    <ruRU>В конце вашего хода случайное существо получает +1 к атаке.</ruRU>
+    <ptBR>No final do seu turno, conceda +1 de Ataque a um lacaio aleatório.</ptBR>
+    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1 do ataku.</plPL>
+    <koKR>내 턴이 끝날 때, 무작위 하수인에게 공격력을 +1 부여합니다.</koKR>
+    <itIT>Alla fine del tuo turno, fornisce +1 Attacco a un servitore casuale.</itIT>
+    <frFR>À la fin de votre tour, confère +1 Attaque à un serviteur aléatoire.</frFR>
+    <esMX>Al final de tu turno, otorga +1 de Ataque a un esbirro aleatorio.</esMX>
+    <esES>Al final de tu turno, otorga +1 p. de ataque a un esbirro aleatorio.</esES>
+    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1 Angriff.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dany Orizio</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The claw decides who will stay and who will go.</enUS>
-    <zhTW>等爪子露出來的時候，你就會知道誰才是老大。</zhTW>
-    <zhCN>是去是留，谁去谁留，都由爪子决定。</zhCN>
-    <ruRU>Если хотите отвлечь друида в облике кошки, возьмите гномский лазер и посветите им на землю.</ruRU>
-    <ptBR>A garra decide quem fica e quem vai.</ptBR>
-    <plPL>Tak to się robi na 13 posterunku!</plPL>
-    <koKR>남자 캐릭터에겐 민망함을 무릅쓰고 상대를 할퀼 용기를 주는 카드입니다.</koKR>
-    <itIT>Se vuoi distrarre un Druido in Forma Felina, basta agitargli un Laser Gnomesco sotto il muso.</itIT>
-    <frFR>La griffe est notre maîtresse, elle choisit ceux qui s'en vont et ceux qui restent.</frFR>
-    <esMX>La zarpa decide quién se queda y quién se va.</esMX>
-    <esES>Para distraer a un druida en forma felina, prueba a apuntar un láser gnómico al suelo y moverlo en círculos.</esES>
-    <enGB>If you want to distract a Druid in Cat Form, shine a Gnomish Laser at the ground and move it around.</enGB>
-    <deDE>Die Klaue bestimmt, wer geht und wer bleibt.</deDE>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="a871043b-5755-4b92-85e1-a831512f8099" />
 </Entity>

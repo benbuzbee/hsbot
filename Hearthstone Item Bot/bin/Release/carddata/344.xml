@@ -1,43 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_295o">
+<Entity version="2" CardID="EX1_249">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ice Block</enUS>
-    <frFR>Bloc de glace</frFR>
-    <zhTW>寒冰屏障</zhTW>
-    <zhCN>寒冰屏障</zhCN>
-    <ruRU>Ледяная глыба</ruRU>
-    <ptBR>Bloco de Gelo</ptBR>
-    <plPL>Lodowy blok</plPL>
-    <koKR>얼음 방패</koKR>
-    <itIT>Blocco di Ghiaccio</itIT>
-    <esMX>Bloque de hielo</esMX>
-    <esES>Bloque de hielo</esES>
-    <enGB>Ice Block</enGB>
-    <deDE>Eisblock</deDE>
+    <enUS>Baron Geddon</enUS>
+    <frFR>Baron Geddon</frFR>
+    <zhTW>迦頓男爵</zhTW>
+    <zhCN>迦顿男爵</zhCN>
+    <ruRU>Барон Геддон</ruRU>
+    <ptBR>Barão Geddon</ptBR>
+    <plPL>Baron Geddon</plPL>
+    <koKR>남작 게돈</koKR>
+    <itIT>Barone Geddon</itIT>
+    <esMX>Barón Geddon</esMX>
+    <esES>Barón Geddon</esES>
+    <deDE>Baron Geddon</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your hero is &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
-    <frFR>Votre héros est &lt;b&gt;Insensible&lt;/b&gt; pour ce tour.</frFR>
-    <zhTW>你的英雄在本回合內&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
-    <zhCN>在本回合中，你的英雄获得&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>Ваш герой &lt;b&gt;неуязвим&lt;/b&gt; до конца хода.</ruRU>
-    <ptBR>Seu herói fica &lt;b&gt;Imune&lt;/b&gt; até o final do turno.</ptBR>
-    <plPL>Twój bohater ma w tej turze &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
-    <koKR>이번 턴에 &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
-    <itIT>Il tuo eroe è &lt;b&gt;Immune&lt;/b&gt; in questo turno.</itIT>
-    <esMX>Tu héroe es &lt;b&gt;Inmune&lt;/b&gt; en este turno.</esMX>
-    <esES>Tu héroe es &lt;b&gt;inmune&lt;/b&gt; este turno.</esES>
-    <enGB>Your hero is &lt;b&gt;Immune&lt;/b&gt; this turn.</enGB>
-    <deDE>Euer Held ist &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>
+    <enUS>At the end of your turn, deal 2 damage to ALL other characters.</enUS>
+    <frFR>À la fin de votre tour, inflige 2 points de dégâts à TOUS les autres personnages.</frFR>
+    <zhTW>在你的回合結束時，對全部其他角色造成2點傷害。</zhTW>
+    <zhCN>在你的回合结束时，对所有其他角色造成2点伤害。</zhCN>
+    <ruRU>В конце вашего хода наносит 2 ед. урона ВСЕМ остальным персонажам.</ruRU>
+    <ptBR>No final do seu turno, cause 2 de dano a TODOS os outros personagens.</ptBR>
+    <plPL>Na koniec swojej tury zadaj 2 pkt. obrażeń WSZYSTKIM innym postaciom.</plPL>
+    <koKR>내 턴이 끝날 때, 다른 모든 캐릭터에게 피해를 2 줍니다.</koKR>
+    <itIT>Alla fine del tuo turno, il Barone Geddon infligge 2 danni a TUTTI gli altri personaggi.</itIT>
+    <esMX>Al final de tu turno, inflige 2 de daño a TODOS los otros personajes.</esMX>
+    <esES>Al final de tu turno, inflige 2 p. de daño a todos los demás personajes.</esES>
+    <deDE>Fügt am Ende Eures Zuges ALLEN anderen Charakteren 2 Schaden zu.</deDE>
   </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="fd459f8c-fbe3-4061-a822-6b4ba39fe3a8" />
-  <Power definition="aa276b35-83b1-4158-8288-57b75c6744a2" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ian Ameling</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.</enUS>
+    <zhTW>迦頓男爵曾是拉格納羅斯手下的首席軍官。直到他被「火」掉。</zhTW>
+    <zhCN>迦顿男爵曾经是拉格纳罗斯的首席副官，因为他实在太“火”了。</zhCN>
+    <ruRU>В детстве его дразнили «Геддон-армагеддон». Он вырос и пошел работать на Рагнароса.</ruRU>
+    <ptBR>O Barão Geddon era o primeiro tenente de Ragnaros, até que ele ficou QUEIMADO com o chefe.</ptBR>
+    <plPL>Baron Geddon był pierwszym przybocznym Ragnarosa, ale stosunki między nimi się ZAOGNIŁY.</plPL>
+    <koKR>한때 라그나로스의 충직한 부관이었지만, 지금은 실직자입니다.</koKR>
+    <itIT>Il Barone Geddon era il primo luogotenente di Ragnaros, finché un giorno non l'ha svegliato TROPPO PRESTO.</itIT>
+    <frFR>Le baron Geddon était le premier lieutenant de Ragnaros, mais il s’enflammait trop vite, et il a été viré.</frFR>
+    <esMX>Y después se pregunta por qué nadie lo quiere...</esMX>
+    <esES>El barón Geddon era el teniente de Ragnaros, pero el puesto le daba ardores.</esES>
+    <deDE>Baron Geddon war Ragnaros' oberster Leutnant, bevor er GEFEUERT wurde.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="a63ac6ab-34d7-458f-9dcc-04af6b2bcf4f" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

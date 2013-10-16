@@ -1,63 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_570">
-  <MasterPower>1343f2e6-ff78-411d-8677-a9c2e45e0baa</MasterPower>
+<Entity version="2" CardID="EX1_543">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bite</enUS>
-    <frFR>Morsure</frFR>
-    <zhTW>撕咬</zhTW>
-    <zhCN>撕咬</zhCN>
-    <ruRU>Укус</ruRU>
-    <ptBR>Morder</ptBR>
-    <plPL>Ugryzienie</plPL>
-    <koKR>물기</koKR>
-    <itIT>Morso</itIT>
-    <esMX>Mordedura</esMX>
-    <esES>Mordedura</esES>
-    <enGB>Bite</enGB>
-    <deDE>Biss</deDE>
+    <enUS>King Krush</enUS>
+    <frFR>Roi Krush</frFR>
+    <zhTW>克洛許王</zhTW>
+    <zhCN>暴龙王克鲁什</zhCN>
+    <ruRU>Король Круш</ruRU>
+    <ptBR>Rei Mó</ptBR>
+    <plPL>Król Kruszor</plPL>
+    <koKR>왕 크루쉬</koKR>
+    <itIT>Re Krush</itIT>
+    <esMX>Rey Krush</esMX>
+    <esES>Rey Krush</esES>
+    <deDE>König Knirsch</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your hero +4 Attack this turn and 4 Armor.</enUS>
-    <frFR>Confère +4 ATQ et +4 Armure au héros pendant ce tour.</frFR>
-    <zhTW>賦予你的英雄4點護甲值並在本回合內賦予他+4攻擊力。</zhTW>
-    <zhCN>在本回合中，使你的英雄获得+4攻击力和4点护甲值。</zhCN>
-    <ruRU>Ваш герой получает +4 к атаке до конца хода и +4 к броне.</ruRU>
-    <ptBR>Conceda +4 de Ataque ao seu herói neste turno e 4 de Armadura.</ptBR>
-    <plPL>W tej turze daj swojemu bohaterowi +4 do ataku i do pancerza.</plPL>
-    <koKR>당신의 영웅에게 방어도를 +4 부여하고, 이번 턴에만 공격력을 +4 부여합니다.</koKR>
-    <itIT>Fornisce +4 Attacco al tuo eroe in questo turno e +4 Armatura.</itIT>
-    <esMX>Otorga a tu héroe +4 de Ataque en este turno y 4 de Armadura.</esMX>
-    <esES>Otorga a tu héroe +4 p. de ataque este turno y 4 p. de armadura.</esES>
-    <enGB>Give your hero +4 Attack this turn and 4 Armor.</enGB>
-    <deDE>Verleiht Eurem Helden +4 Angriff in diesem Zug und 4 Rüstung.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tom Baxa</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Chew your food!</enUS>
-    <zhTW>要咀嚼食物!</zhTW>
-    <zhCN>一般说来，你不把嘴里的肉嚼完，是不舍得变回人形态的。</zhCN>
-    <ruRU>Не разговаривай с набитым ртом!</ruRU>
-    <ptBR>Mastigue sua comida!</ptBR>
-    <plPL>Pamiętaj, żeby przeżuwać jedzenie!</plPL>
-    <koKR>꼭꼭 씹으세요!</koKR>
-    <itIT>Mastica il cibo!</itIT>
-    <frFR>J’ai une faim de loup !</frFR>
-    <esMX>Te lo he dicho mil veces: ¡mastica la comida!</esMX>
-    <esES>¡Mastica la comida!</esES>
-    <enGB>Chew your food!</enGB>
-    <deDE>Das Kauen nicht vergessen!</deDE>
+    <enUS>The best defense against King Krush is to have someone you don’t like standing in front of you.</enUS>
+    <zhTW>要防禦克洛許王最好的辦法就是讓你討厭的某個人站在你前面。</zhTW>
+    <zhCN>对付暴龙王克鲁什最好的办法就是让某个你讨厌的人站在你前面。</zhCN>
+    <ruRU>Лучшая защита от короля Круша – встать за спиной у какого-нибудь неприятного вам существа.</ruRU>
+    <ptBR>A melhor defesa contra o Rei Mó é botar alguém de quem você não gosta na sua frente.</ptBR>
+    <plPL>Najlepsza obrona przed Królem Kruszorem to umieszczenie przed sobą kogoś, kogo nie lubisz.</plPL>
+    <koKR>왕 크루쉬에게서 자신을 보호하는 가장 좋은 방법은 싫어하는 누군가를 앞에 세워놓는 것입니다.</koKR>
+    <itIT>La miglior difesa contro Re Krush è mettere qualcuno che non ti piace tra te e lui.</itIT>
+    <frFR>Le meilleur moyen de se protéger contre Krush, c’est de se cacher derrière quelqu’un qu’on aime pas.</frFR>
+    <esMX>La mejor defensa contra el Rey Krush es buscar a alguien que te caiga mal y usarlo de escudo.</esMX>
+    <esES>La mejor defensa contra el rey Krush es ponerte detrás de alguien que te caiga mal.</esES>
+    <deDE>Die beste Verteidigung gegen König Knirsch ist, sich hinter jemandem zu positionieren, den man nicht besonders mag.</deDE>
   </Tag>
-  <Power definition="1343f2e6-ff78-411d-8677-a9c2e45e0baa" />
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="949e2fe5-a42d-48ad-a25a-89e4942dec8b" />
 </Entity>

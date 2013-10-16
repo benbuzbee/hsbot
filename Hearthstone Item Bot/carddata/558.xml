@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_006">
+<Entity version="2" CardID="HERO_03">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Adrenaline Rush</enUS>
-    <frFR>Adrenaline Rush</frFR>
-    <zhTW>Adrenaline Rush</zhTW>
-    <zhCN>Adrenaline Rush</zhCN>
-    <ruRU>Adrenaline Rush</ruRU>
-    <ptBR>Adrenaline Rush</ptBR>
-    <plPL>Adrenaline Rush</plPL>
-    <koKR>Adrenaline Rush</koKR>
-    <itIT>Adrenaline Rush</itIT>
-    <esMX>Adrenaline Rush</esMX>
-    <esES>Adrenaline Rush</esES>
-    <enGB>Adrenaline Rush</enGB>
-    <deDE>Adrenaline Rush</deDE>
+    <enUS>Valeera Sanguinar</enUS>
+    <zhTW>瓦麗拉·桑古納爾</zhTW>
+    <zhCN>瓦莉拉·萨古纳尔</zhCN>
+    <ruRU>Валира Сангвинар</ruRU>
+    <ptBR>Valira Sanguinar</ptBR>
+    <plPL>Valeera Sangwinar</plPL>
+    <koKR>발리라 생귀나르</koKR>
+    <itIT>Valeera Sanguinar</itIT>
+    <frFR>Valeera Sanguinar</frFR>
+    <esMX>Valeera Sanguinar</esMX>
+    <esES>Valeera Sanguinar</esES>
+    <deDE>Valeera Sanguinar</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</enUS>
-    <frFR>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</frFR>
-    <zhTW>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</zhTW>
-    <zhCN>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</zhCN>
-    <ruRU>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</ruRU>
-    <ptBR>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</ptBR>
-    <plPL>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</plPL>
-    <koKR>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</koKR>
-    <itIT>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</itIT>
-    <esMX>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</esMX>
-    <esES>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</esES>
-    <enGB>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</enGB>
-    <deDE>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</deDE>
-  </Tag>
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="30" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jonboy Meyers</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Rogues don't need to jump from the top of the 1000 Needles to get a burst of adrenaline.</enUS>
-  </Tag>
-  <Tag name="Combo" enumID="220" type="Bool" value="1" />
-  <Power definition="7ddda14b-74c4-4d1c-93f7-d7f8c6aa31a2" />
+  <Power definition="fa70116c-dccd-4283-8f09-dfda53854b79" />
 </Entity>

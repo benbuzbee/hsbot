@@ -1,25 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4a_006">
+<Entity version="2" CardID="NEW1_038">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Jaina Proudmoore</enUS>
-    <frFR>Jaina Portvaillant</frFR>
-    <zhTW>珍娜·普勞德摩爾</zhTW>
-    <zhCN>吉安娜·普罗德摩尔</zhCN>
-    <ruRU>Джайна Праудмур</ruRU>
-    <ptBR>Jaina Proudmore</ptBR>
-    <plPL>Jaina Proudmoore</plPL>
-    <koKR>제이나 프라우드무어</koKR>
-    <itIT>Jaina Marefiero</itIT>
-    <esMX>Jaina Valiente</esMX>
-    <esES>Jaina Valiente</esES>
-    <enGB>Jaina Proudmoore</enGB>
-    <deDE>Jaina Prachtmeer</deDE>
+    <enUS>Gruul</enUS>
+    <zhTW>戈魯爾</zhTW>
+    <zhCN>格鲁尔</zhCN>
+    <ruRU>Груул</ruRU>
+    <ptBR>Gruul</ptBR>
+    <plPL>Gruul</plPL>
+    <koKR>그룰</koKR>
+    <itIT>Gruul</itIT>
+    <frFR>Gruul</frFR>
+    <esMX>Gruul</esMX>
+    <esES>Gruul</esES>
+    <deDE>Gruul</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="27" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>At the end of each turn, gain +1/+1 .</enUS>
+    <zhTW>在每個回合結束時獲得+1/+1。</zhTW>
+    <zhCN>在每个回合结束时，获得+1/+1。</zhCN>
+    <ruRU>В конце каждого хода получает +1/+1.</ruRU>
+    <ptBR>Ao fim de cada turno, receba +1/+1.</ptBR>
+    <plPL>Na koniec każdej tury otrzymujesz +1/+1.</plPL>
+    <koKR>각 턴이 끝날 때마다 +1/+1을 얻습니다.</koKR>
+    <itIT>Alla fine del tuo turno, Gruul ottiene +1/+1.</itIT>
+    <frFR>À la fin de chaque tour, gagne +1/+1.</frFR>
+    <esMX>Al final de cada turno, obtiene +1/+1.</esMX>
+    <esES>Al final de cada turno, obtiene +1/+1.</esES>
+    <deDE>Erhält am Ende jedes Zuges +1/+1.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Growth</enUS>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Kev Walker</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He's Gruul "the Dragonkiller".  He just wanted to cuddle them… he never meant to… </enUS>
+    <zhTW>他是『弒龍者』戈魯爾。其實他只是想要抱抱那些龍，並沒有真的想...</zhTW>
+    <zhCN>人们叫他“屠龙者”格鲁尔。其实他只是想抱抱它们...他不是故意要...</zhCN>
+    <ruRU>Груул Драконобой просто хотел их погладить... но не получилось...</ruRU>
+    <ptBR>Ele é Gruul, o Matador de Dragões. Ele só queria abraçá-los... nunca quis que... </ptBR>
+    <plPL>Choć Gruul ma przydomek „Smokobójca”, to tak naprawdę bardzo je lubi. </plPL>
+    <koKR>그룰은 "용학살자"입니다만, 사실 용들을 꼭 안아주고 싶었을 뿐입니다.</koKR>
+    <itIT>È noto come Gruul "l'Ammazzadraghi". In realtà voleva solo coccolarli... è stato un terribile incidente... </itIT>
+    <frFR>Son nom est Gruul, « le tueur de dragons ». Il voulait juste les câliner... Il ne pensait pas que...</frFR>
+    <esMX>Él es Gruul, "el Asesino de Dragones". Él solo quería abrazarlos... nunca tuvo la intención de... </esMX>
+    <esES>Es Gruul, el Asesino de Dragones. Él solo quería acariciarlos... nunca tuvo intención de...</esES>
+    <deDE>Gruul der Drachentöter hat seinen Namen verdient, und das, obwohl er eigentlich nur kuscheln wollte.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="361ee1fb-ee37-43c1-a4b6-bcf1a1247574" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

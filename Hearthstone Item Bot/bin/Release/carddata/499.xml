@@ -1,40 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_611e">
+<Entity version="2" CardID="EX1_591">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Trapped</enUS>
-    <frFR>Pris au piège</frFR>
-    <zhTW>被困住</zhTW>
-    <zhCN>触发陷阱</zhCN>
-    <ruRU>В ловушке</ruRU>
-    <ptBR>Capturado</ptBR>
-    <plPL>W pułapce</plPL>
-    <koKR>덫에 걸림</koKR>
-    <itIT>Intrappolato</itIT>
-    <esMX>Atrapado</esMX>
-    <esES>Atrapado</esES>
-    <enGB>Trapped</enGB>
-    <deDE>Gefangen</deDE>
+    <enUS>Auchenai Soulpriest</enUS>
+    <frFR>Prêtresse auchenaï</frFR>
+    <zhTW>奧奇奈靈魂牧師</zhTW>
+    <zhCN>奥金尼灵魂祭司</zhCN>
+    <ruRU>Аукенайская жрица</ruRU>
+    <ptBR>Sacerdalma Auchenai</ptBR>
+    <plPL>Kapłanka Auchenaiów</plPL>
+    <koKR>아키나이 영혼사제</koKR>
+    <itIT>Sacerdotessa delle Anime</itIT>
+    <esMX>Sacerdotisa de almas auchenai</esMX>
+    <esES>Sacerdotisa Auchenai</esES>
+    <deDE>Auchenaiseelenpriesterin</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Will be &lt;b&gt;Frozen&lt;/b&gt; again at the start of the next turn.</enUS>
-    <frFR>Sera &lt;b&gt;Gelé&lt;/b&gt; à nouveau au début du tour suivant.</frFR>
-    <zhTW>在下一個回合開始時，將會再被&lt;b&gt;凍結&lt;/b&gt;。</zhTW>
-    <zhCN>在下个回合开始时，会被再次&lt;b&gt;冻结&lt;/b&gt;。</zhCN>
-    <ruRU>Это существо будет &lt;b&gt;заморожено&lt;/b&gt; в начале следующего хода.</ruRU>
-    <ptBR>Ficará &lt;b&gt;Congelado&lt;/b&gt; novamente no início do próximo turno.</ptBR>
-    <plPL>Karta ta będzie &lt;b&gt;Zamrożona&lt;/b&gt; ponownie na początku kolejnej tury.</plPL>
-    <koKR>다음 턴이 시작될 때 다시 &lt;b&gt;얼어붙음&lt;/b&gt; 상태가 됨</koKR>
-    <itIT>&lt;b&gt;Congelato&lt;/b&gt; nuovamente all'inizio del turno successivo.</itIT>
-    <esMX>Quedará &lt;b&gt;Congelado&lt;/b&gt; nuevamente al comienzo del próximo turno.</esMX>
-    <esES>Seguirá &lt;b&gt;congelado&lt;/b&gt; al comienzo del siguiente turno.</esES>
-    <enGB>Will be &lt;b&gt;Frozen&lt;/b&gt; again at the start of the next turn.</enGB>
-    <deDE>Wird zu Beginn des nächsten Zuges wieder &lt;b&gt;eingefroren&lt;/b&gt;.</deDE>
+    <enUS>Your cards and powers that restore Health now deal damage instead.</enUS>
+    <frFR>Vos cartes et pouvoirs rendant de la Vie infligent désormais des dégâts à la place.</frFR>
+    <zhTW>你原本用來恢復生命值的卡片和能力現在改為造成傷害。</zhTW>
+    <zhCN>你的恢复生命值的牌和技能改为造成等量的伤害。</zhCN>
+    <ruRU>Ваши карты и способности, восстанавливающие здоровье, вместо этого наносят урон.</ruRU>
+    <ptBR>Seus cards e poderes que restauram Vida agora deixam de restaurar e causam dano.</ptBR>
+    <plPL>Twoje karty i moce zamiast przywracać zdrowie, zadają teraz obrażenia.</plPL>
+    <koKR>생명력을 회복시키는 내 카드와 능력들이 이제 그만큼의 피해를 줍니다.</koKR>
+    <itIT>Le tue carte e i tuoi poteri che rigenerano Salute ora infliggono danni.</itIT>
+    <esMX>Tus cartas y poderes que restauran Salud ahora infligen daño.</esMX>
+    <esES>Tus cartas y poderes que restauran salud ahora infligen daño.</esES>
+    <deDE>Eure Karten und Fähigkeiten, die Leben wiederherstellen, verursachen stattdessen nun Schaden.</deDE>
   </Tag>
-  <Power definition="f3623d07-627a-467d-949a-6cc216354bea" />
-  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Doug Alexander</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Auchenai know the end is coming, but they're not sure when.</enUS>
+    <zhTW>奧奇奈知道末日即將來臨，但是他們不知道何時會發生。</zhTW>
+    <zhCN>奥金尼的人们知道末日即将来临，只是不确定它到来的时间。</zhCN>
+    <ruRU>Аукенайские жрецы знают, что конец близок, но не уверены, насколько.</ruRU>
+    <ptBR>Os Auchenai sabem que o fim está chegando, mas não sabem exatamente quando.</ptBR>
+    <plPL>Auchenaiowie wiedzą, że nadchodzi koniec. Nie są tylko pewni, kiedy to nastąpi.</plPL>
+    <koKR>아키나이들은 세상에 종말이 온다는 걸 알고 있습니다. 언제 오는진 잘 모르지만요.</koKR>
+    <itIT>Gli Auchenai sanno che la fine si avvicina, ma non conoscono la data precisa.</itIT>
+    <frFR>La fin des temps, c’est maintenant ! ... Ou pas.</frFR>
+    <esMX>Los Auchenai saben que se acerca el fin, pero no están seguros de cuándo será.</esMX>
+    <esES>No hay dos personas que pronuncien "Auchenai" de la misma forma.</esES>
+    <deDE>Die Auchenai sind sich sicher, dass das Ende kommen wird, allerdings wissen sie nicht genau wann.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="bffdccbc-c186-43e5-93e1-ab25b092dbc2" />
 </Entity>

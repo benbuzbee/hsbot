@@ -1,51 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka4">
+<Entity version="2" CardID="GAME_004">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Poultryizer</enUS>
-    <frFR>Pouletisateur</frFR>
-    <zhTW>變形器</zhTW>
-    <zhCN>变鸡器</zhCN>
-    <ruRU>Птицефикатор</ruRU>
-    <ptBR>Galinhaitor</ptBR>
-    <plPL>Drobiozator</plPL>
-    <koKR>꼬꼬댁 변신장치</koKR>
-    <itIT>Pollizzatore</itIT>
-    <esMX>Pollotizador</esMX>
-    <esES>Pollificador</esES>
-    <enGB>Poultryizer</enGB>
-    <deDE>Geflügelisierer</deDE>
+    <enUS>AFK</enUS>
+    <zhTW>不在電腦前</zhTW>
+    <zhCN>暂离</zhCN>
+    <ruRU>Отсутствует</ruRU>
+    <ptBR>LDT</ptBR>
+    <plPL>Zaraz wracam</plPL>
+    <koKR>자리 비움</koKR>
+    <itIT>Assente</itIT>
+    <frFR>ABS</frFR>
+    <esMX>No disponible</esMX>
+    <esES>AUS</esES>
+    <deDE>AFK</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Poultryizing</enUS>
-  </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>
-    <frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>
-    <zhTW>在你的回合開始時，將隨機一個手下變形為一隻1/1的雞。</zhTW>
-    <zhCN>在你的回合开始时，随机将另一个随从变为1/1的小鸡。</zhCN>
-    <ruRU>В начале вашего хода случайное существо превращается в курицу 1/1.</ruRU>
-    <ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>
-    <plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>
-    <koKR>당신의 턴이 시작될 때, 무작위 하수인을 1/1 닭으로 변신시킵니다.</koKR>
-    <itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>
-    <esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>
-    <esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>
-    <enGB>At the start of your turn, transform a random minion into a 1/1 Chicken.</enGB>
-    <deDE>Verwandelt zu Beginn Eures Zuges einen zufälligen Diener in ein Huhn (1/1).</deDE>
+    <enUS>Your turns are shorter.</enUS>
+    <zhTW>你的回合時間變短了。</zhTW>
+    <zhCN>你的回合时间减少。</zhCN>
+    <ruRU>У вас становится меньше времени на ход.</ruRU>
+    <ptBR>Seus turnos são mais curtos.</ptBR>
+    <plPL>Twoje tury są krótsze.</plPL>
+    <koKR>내 턴이 짧아집니다.</koKR>
+    <itIT>I tuoi turni sono più corti.</itIT>
+    <frFR>Vos tours sont plus courts.</frFR>
+    <esMX>Tus turnos son más cortos.</esMX>
+    <esES>Tus turnos son más cortos.</esES>
+    <deDE>Eure Züge sind kürzer.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="391ed733-5e17-4c84-bd7a-00f4f5293de5" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
+  <Power definition="754e9084-d614-43c7-92a6-1fd4bf32accc" />
+  <Power definition="53b60f51-f1b9-439c-b0d1-5bd62888d8fe" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

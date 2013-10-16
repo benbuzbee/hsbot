@@ -1,68 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_623">
-  <MasterPower>24ff2fd3-224e-439c-830c-742e5cb7be88</MasterPower>
+<Entity version="2" CardID="EX1_608">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Temple Enforcer</enUS>
-    <frFR>Massacreur du temple</frFR>
-    <zhTW>神殿執行者</zhTW>
-    <zhCN>圣殿执行者</zhCN>
-    <ruRU>Храмовый боец</ruRU>
-    <ptBR>Impositor do Templo</ptBR>
-    <plPL>Świątynny nadzorca</plPL>
-    <koKR>사원 집행자</koKR>
-    <itIT>Protettore del Tempio</itIT>
-    <esMX>Déspota del templo</esMX>
-    <esES>Déspota del templo</esES>
-    <enGB>Temple Enforcer</enGB>
-    <deDE>Vollstrecker des Tempels</deDE>
+    <enUS>Sorcerer's Apprentice</enUS>
+    <frFR>Apprentie du sorcier</frFR>
+    <zhTW>巫士的學徒</zhTW>
+    <zhCN>巫师学徒</zhCN>
+    <ruRU>Ученица чародея</ruRU>
+    <ptBR>Aprendiz de Feiticeiro</ptBR>
+    <plPL>Uczennica czarownika</plPL>
+    <koKR>마술사의 수습생</koKR>
+    <itIT>Apprendista Occultista</itIT>
+    <esMX>Aprendiz de hechicero</esMX>
+    <esES>Aprendiza de hechicera</esES>
+    <deDE>Zauberlehrling</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +3 PV à un serviteur allié.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+3生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得+3生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; увеличивает здоровье вашего выбранного существа на 3.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +3 de Vida a um lacaio aliado.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +3 do zdrowia.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인에게 생명력을 +3 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +3 Salute a un tuo servitore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +3 de Salud a un esbirro aliado.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +3 p. de salud a un esbirro amistoso.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +3 Leben.</deDE>
+    <enUS>Your spells cost (1) less.</enUS>
+    <frFR>Vos sorts coûtent (1) cristal de moins.</frFR>
+    <zhTW>你的法術消耗減少(1)點。</zhTW>
+    <zhCN>你的法术的法力值消耗减少（1）点。</zhCN>
+    <ruRU>Ваши заклинания стоят на (1) ману меньше.</ruRU>
+    <ptBR>Seus feitiços custam (1) a menos.</ptBR>
+    <plPL>Twoje zaklęcia kosztują (1) mniej.</plPL>
+    <koKR>내가 쓰는 주문의 비용이 (1) 감소합니다.</koKR>
+    <itIT>Le Magie costano (1) Mana in meno.</itIT>
+    <esMX>Tus hechizos cuestan (1) menos.</esMX>
+    <esES>Tus hechizos cuestan (1) cristal menos.</esES>
+    <deDE>Eure Zauber kosten (1) weniger.</deDE>
   </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Give +3 Health.</enUS>
-    <enGB>Give +3 Health.</enGB>
-    <zhTW>賦予+3生命值。</zhTW>
-    <zhCN>获得+3生命值。</zhCN>
-    <ruRU>+3 к здоровью</ruRU>
-    <ptBR>Conceda +3 de Vida.</ptBR>
-    <plPL>Daj +3 do zdrowia.</plPL>
-    <koKR>생명력 +3</koKR>
-    <itIT>Fornisce +3 Salute.</itIT>
-    <frFR>Donne +3 PV.</frFR>
-    <esMX>Otorga +3 de Salud.</esMX>
-    <esES>Otorga +3 p. de salud.</esES>
-    <deDE>Verleiht +3 Leben.</deDE>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Apprentices are great for bossing around.  "Conjure me some mana buns! And a coffee!  Make that a mana coffee!"</enUS>
+    <zhTW>學徒非常好使喚。「幫我做些法力麵包!和一杯咖啡!不然乾脆做杯法力咖啡好了!」</zhTW>
+    <zhCN>学徒们就是用来到处使唤的。“给我做点魔法面包，再来被咖啡！我要魔法咖啡！”</zhCN>
+    <ruRU>Маги обожают командовать своими учениками. «Сотвори-ка мне булочки из маны! И кофе! С маной!»</ruRU>
+    <ptBR>Aprendizes servem para obedecer. "Conjure uns pãezinhos de mana para mim! E um café! Ou melhor, um café de mana!"</ptBR>
+    <plPL>Uczniowie świetnie się nadają do wykorzystywania. „Hej, przyzwij mi trochę tych bułeczek z maną! I kawy! A właściwie to kawy z maną!”</plPL>
+    <koKR>수습생들은 이래라 저래라 시키기 좋습니다. 마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!"</koKR>
+    <itIT>È divertente dare ordini agli Apprendisti: "Evocami una Ciambella di Mana! E un caffè! Anzi, voglio un Caffè al Mana!"</itIT>
+    <frFR>Les apprentis, c’est utile pour les basses besognes. «  Invoque-moi des pains de manne ! Et un café ! Non, plutôt un café de manne ! »</frFR>
+    <esMX>No hay nada como mandonear aprendices. "¡Que aparezcan unas tostadas de maná! ¡Y un café! ¡Que sea un café de maná!".</esMX>
+    <esES>Tiene prohibido encantar escobas.</esES>
+    <deDE>Lehrlinge eignen sich prima zum Herumkommandieren. „Zauber mir ein paar Manabrötchen herbei! Und einen Kaffee! Ach was, mach' einen Manakaffee draus!“ </deDE>
   </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Daren Bader</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="24ff2fd3-224e-439c-830c-742e5cb7be88">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="2" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="05da507e-472c-489d-9c9d-2bbd7608846d" />
 </Entity>

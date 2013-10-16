@@ -1,51 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_058">
-  <MasterPower>d975806e-3372-4a54-860f-4b046ee22f56</MasterPower>
+<Entity version="2" CardID="EX1_025t">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sunfury Protector</enUS>
-    <frFR>Protectrice solfurie</frFR>
-    <zhTW>日怒保衛者</zhTW>
-    <zhCN>日怒保卫者</zhCN>
-    <ruRU>Заступница син'дорай</ruRU>
-    <ptBR>Protetora Solfúria</ptBR>
-    <plPL>Protektor Słonecznej Furii</plPL>
-    <koKR>성난태양 파수병</koKR>
-    <itIT>Guardiana della Furia del Sole</itIT>
-    <esMX>Protectora Furia del Sol</esMX>
-    <esES>Protectora Furia del Sol</esES>
-    <enGB>Sunfury Protector</enGB>
-    <deDE>Sonnenzornbeschützerin</deDE>
+    <enUS>Mechanical Dragonling</enUS>
+    <frFR>Petit dragon mécanique</frFR>
+    <zhTW>機械幼龍</zhTW>
+    <zhCN>机械幼龙</zhCN>
+    <ruRU>Механодракончик</ruRU>
+    <ptBR>Dragonete Mecânico</ptBR>
+    <plPL>Mechaniczny smokor</plPL>
+    <koKR>소형 기계용</koKR>
+    <itIT>Minidrago Meccanico</itIT>
+    <esMX>Dragonizo mecánico</esMX>
+    <esES>Dragonizo mecánico</esES>
+    <deDE>Mechanischer Drachling</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Your other minions gain &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; Confère &lt;b&gt;Provocation&lt;/b&gt; à vos autres serviteurs.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你的其他手下獲得&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;你的其他随从获得&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; другие ваши существа получают способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Seus outros lacaios recebem &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Twoi pozostali stronnicy otrzymują &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 당신의 다른 하수인들이 &lt;b&gt;도발&lt;/b&gt;을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce &lt;b&gt;Provocazione&lt;/b&gt; a tutti gli altri servitori.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; tus otros esbirros obtienen &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Tus demás esbirros obtienen &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Your other minions gain &lt;b&gt;Taunt&lt;/b&gt;.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Eure anderen Diener erhalten &lt;b&gt;Spott&lt;/b&gt;.</deDE>
-  </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="d975806e-3372-4a54-860f-4b046ee22f56" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
 </Entity>

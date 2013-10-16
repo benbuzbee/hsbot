@@ -1,68 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_059">
-  <MasterPower>dd84de4e-d751-4fa5-b7ac-b1b8042dd7ad</MasterPower>
+<Entity version="2" CardID="EX1_028">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Crazed Alchemist</enUS>
-    <frFR>Alchimiste dément</frFR>
-    <zhTW>瘋狂的鍊金師</zhTW>
-    <zhCN>疯狂的炼金师</zhCN>
-    <ruRU>Безумный алхимик</ruRU>
-    <ptBR>Alquimista Enlouquecido</ptBR>
-    <plPL>Szalony alchemik</plPL>
-    <koKR>광기의 연금술사</koKR>
-    <itIT>Alchimista Folle</itIT>
-    <esMX>Alquimista enloquecido</esMX>
-    <esES>Alquimista loco</esES>
-    <enGB>Crazed Alchemist</enGB>
-    <deDE>Verrückter Alchemist</deDE>
+    <enUS>Stranglethorn Tiger</enUS>
+    <frFR>Tigre de Strangleronce</frFR>
+    <zhTW>荊棘谷猛虎</zhTW>
+    <zhCN>荆棘谷猛虎</zhCN>
+    <ruRU>Тигр Тернистой долины</ruRU>
+    <ptBR>Tigre-do-espinhaço</ptBR>
+    <plPL>Tygrys z Cierniodławów</plPL>
+    <koKR>가시덤불 호랑이</koKR>
+    <itIT>Tigre di Rovotorto</itIT>
+    <esMX>Tigre de Tuercespina</esMX>
+    <esES>Tigre de Tuercespina</esES>
+    <deDE>Schlingendorntiger</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Swap the Attack and Health of a minion.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; échange l’Attaque et la Vie d’un serviteur.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;調換一個手下的攻擊力及生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从的攻击力和生命值互换。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; меняет местами атаку и здоровье выбранного существа. </ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Troque o Ataque pela Vida de um lacaio.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zamień atak i zdrowie wybranego stronnika.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인의 공격력과 생명력을 바꿉니다. </koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; scambia Attacco e Salute di un servitore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; intercambia el Ataque y la Salud de un esbirro.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Intercambia el ataque y la salud de un esbirro.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Swap the Attack and Health of a minion.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vertauscht Angriff und Leben eines Dieners.</deDE>
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Swap Attack and Health of a minion.</enUS>
-    <frFR>Échange l’Attaque et la Vie d’un serviteur.</frFR>
-    <zhTW>調換一個手下的攻擊力及生命值。</zhTW>
-    <zhCN>将一个随从的攻击力和生命值互换。</zhCN>
-    <ruRU>Поменять местами атаку и здоровье существа</ruRU>
-    <ptBR>Troque o Ataque pela Vida de um lacaio.</ptBR>
-    <plPL>Zamień atak i zdrowie stronnika.</plPL>
-    <koKR>하수인의 공격력과 생명력 바꾸기</koKR>
-    <itIT>Scambia Attacco e Salute di un servitore.</itIT>
-    <esMX>Intercambia el Ataque y la Salud de un esbirro.</esMX>
-    <esES>Intercambia el ataque y la salud de un esbirro.</esES>
-    <enGB>Swap Attack and Health of a minion.</enGB>
-    <deDE>Vertauscht Angriff und Leben eines Dieners.</deDE>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tom Fleming</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The wonderful thing about tigers is tigers are wonderful things!</enUS>
+    <zhTW>老虎最棒的地方就是牠們棒透了!</zhTW>
+    <zhCN>这些美丽的大猫是荆棘谷一道亮丽的风景！</zhCN>
+    <ruRU>«Чей бессмертный взор, любя, создал страшного тебя?»</ruRU>
+    <ptBR>O mais legal dos tigres é que os tigres são muito legais!</ptBR>
+    <plPL>Tygrysy często mylone są z Jagrysami i Ongrysami. Choć wiadomo, że to Ongrys gryzł!</plPL>
+    <koKR>호랑이에 대한 멋진 사실은 호랑이가 멋지다는 사실입니다!</koKR>
+    <itIT>Il bello delle tigri è che le tigri sono belle!</itIT>
+    <frFR>Quand on parle du tigre, le tigre apparaît... Euh, non c’est pas ça.</frFR>
+    <esMX>¡Lo más maravilloso de los tigres es que los tigres son maravillosos!</esMX>
+    <esES>Hemet Nesingwary ya tiene pensada la cartera que se quiere hacer con él.</esES>
+    <deDE>Das Tolle an Tigern ist, dass Tiger toll sind.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="dd84de4e-d751-4fa5-b7ac-b1b8042dd7ad">
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="22" param="" />
-  </Power>
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="78668f7d-b44e-43bd-8faf-3a55df3dd8fe" />
 </Entity>

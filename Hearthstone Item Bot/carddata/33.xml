@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_029">
-  <MasterPower>436aaafa-1a04-4392-9ba5-cea496ddd86d</MasterPower>
+<Entity version="2" CardID="CS2_009">
+  <MasterPower>12d263a6-bdff-4ce1-af5f-cbd7e5ac7806</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Fireball</enUS>
-    <frFR>Boule de feu</frFR>
-    <zhTW>火球術</zhTW>
-    <zhCN>火球术</zhCN>
-    <ruRU>Огненный шар</ruRU>
-    <ptBR>Bola de Fogo</ptBR>
-    <plPL>Kula ognia</plPL>
-    <koKR>화염구</koKR>
-    <itIT>Palla di Fuoco</itIT>
-    <esMX>Bola de fuego</esMX>
-    <esES>Bola de Fuego</esES>
-    <enGB>Fireball</enGB>
-    <deDE>Feuerball</deDE>
+    <enUS>Mark of the Wild</enUS>
+    <frFR>Marque du fauve</frFR>
+    <zhTW>野性印記</zhTW>
+    <zhCN>野性印记</zhCN>
+    <ruRU>Знак дикой природы</ruRU>
+    <ptBR>Marca do Indomado</ptBR>
+    <plPL>Znak ostępów</plPL>
+    <koKR>야생의 징표</koKR>
+    <itIT>Marchio Selvaggio</itIT>
+    <esMX>Marca de lo salvaje</esMX>
+    <esES>Marca de lo Salvaje</esES>
+    <deDE>Mal der Wildnis</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $6 damage.</enUS>
-    <frFR>Inflige $6 point(s) de dégâts.</frFR>
-    <zhTW>造成$6點傷害。</zhTW>
-    <zhCN>造成$6点伤害。</zhCN>
-    <ruRU>Наносит $6 ед. урона.</ruRU>
-    <ptBR>Cause $6 de dano.</ptBR>
-    <plPL>Zadaj $6 pkt. obrażeń.</plPL>
-    <koKR>피해를 $6 줍니다.</koKR>
-    <itIT>Infligge $6 danni.</itIT>
-    <esMX>Inflige $6 de daño.</esMX>
-    <esES>Inflige $6 p. de daño.</esES>
-    <enGB>Deal $6 damage.</enGB>
-    <deDE>Verursacht $6 Schaden.</deDE>
+    <enUS>Give a minion &lt;b&gt;Taunt&lt;/b&gt; and +2/+2.&lt;i&gt; (+2 Attack/+2 Health)&lt;/i&gt;</enUS>
+    <frFR>Confère &lt;b&gt;Provocation&lt;/b&gt; et +2/+2 à un serviteur.&lt;i&gt; (+2 ATQ/+2 PV)&lt;/i&gt;</frFR>
+    <zhTW>賦予一個手下&lt;b&gt;嘲諷&lt;/b&gt;及+2/+2&lt;i&gt;(+2攻擊力及+2生命值)&lt;/i&gt;</zhTW>
+    <zhCN>使一个随从获得&lt;b&gt;嘲讽&lt;/b&gt;和+2/+2。&lt;i&gt;（+2攻击力/+2生命值）&lt;/i&gt;</zhCN>
+    <ruRU>Выбранное существо получает способность &lt;b&gt;«Провокация»&lt;/b&gt; и +2/+2.&lt;i&gt; (+2 к атаке и +2 к здоровью)&lt;/i&gt; </ruRU>
+    <ptBR>Conceda &lt;b&gt;Provocar&lt;/b&gt; e +2/+2 a um lacaio.&lt;i&gt; (+2 de Ataque/+2 de Vida)&lt;/i&gt;</ptBR>
+    <plPL>Daj stronnikowi &lt;b&gt;Prowokację&lt;/b&gt; oraz +2/+2.&lt;i&gt; (+2 do ataku/+2 do zdrowia)&lt;/i&gt;</plPL>
+    <koKR>하수인에게 &lt;b&gt;도발&lt;/b&gt;과 +2/+2를 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Provocazione&lt;/b&gt; e +2/+2 a un servitore.</itIT>
+    <esMX>Otorga &lt;b&gt;Provocación&lt;/b&gt; y +2/+2 a un esbirro.&lt;i&gt; (+2 de Ataque y +2 de Salud)&lt;/i&gt;</esMX>
+    <esES>Otorga &lt;b&gt;Provocar&lt;/b&gt; y +2/+2 a un esbirro. &lt;i&gt;(+2 p. de ataque/+2 p. de salud)&lt;/i&gt;</esES>
+    <deDE>Verleiht einem Diener &lt;b&gt;Spott&lt;/b&gt; und +2/+2.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.</enUS>
-    <zhTW>這個法術用來燒東西很有用。如果你在找可以烘東西的法術，或者用來稍微取暖，你就找錯地方了。</zhTW>
-    <zhCN>这个法术会让东西烧起来。如果你是在寻找能把东西烤熟，或者只是加热的法术，你就找错对象了。</zhCN>
-    <ruRU>Этим заклинанием можно сжечь что угодно. Или кого угодно. Если вам надо приготовить жаркое или просто согреться, вы ошиблись адресом.</ruRU>
-    <ptBR>Este feitiço é útil para queimar coisas. Se você está procurando meios de fazer torrada ou só quer se aquecer um pouquinho, está no lugar errado.</ptBR>
-    <plPL>To zaklęcie pali, że aż miło. Jeśli jednak potrzebujesz czegoś do lekkiego przypiekania lub podgrzewania, to szukasz w złym miejscu.</plPL>
-    <koKR>이 주문은 뭐든 불태울 때 좋습니다. 혹시 뭔가 살짝 굽거나 따뜻하게 만드는 주문을 찾으셨다면 죄송합니다.</koKR>
-    <itIT>Questo incantesimo è perfetto per bruciare le cose. Se cerchi una magia per abbrustolire o semplicemente scaldare, sei nel posto sbagliato.</itIT>
-    <frFR>Ce sort est utile pour faire brûler des choses. Si vous cherchez un sort pour griller ou juste réchauffer, vous n'êtes pas au bon endroit.</frFR>
-    <esMX>Este hechizo sirve para quemar cosas. Si necesitas algún hechizo para tostar o para calentar un poco, te recomendamos que busques en otro lado.</esMX>
-    <esES>Este hechizo viene bien para quemar cosas. Si solo te interesan hechizos que tuestan o recalientan cosas, te has equivocado de carta.</esES>
-    <enGB>This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.</enGB>
-    <deDE>Dieser Zauber ist nützlich, um Dinge zu verbrennen. Wenn Ihr nach Zaubern sucht, die Dinge rösten oder sie einfach nur aufwärmen, seid Ihr an der falschen Adresse.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ralph Horsley</enUS>
+    <enUS>Brad Vancata</enUS>
   </Tag>
-  <Power definition="436aaafa-1a04-4392-9ba5-cea496ddd86d">
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 28.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Not to be confused with Jim of the Wild.</enUS>
+    <zhTW>不要搞錯。不是水性，也不是油性，是野性。</zhTW>
+    <zhCN>这种爪子形状的印记如果纹在身上，人们一定知道你是德鲁伊玩家。</zhCN>
+    <ruRU>Не путать со знаком «Осторожно, дикие животные».</ruRU>
+    <ptBR>Não confundir com Marca do Lindonaldo.</ptBR>
+    <plPL>Nie należy mylić tej karty ze „Znakiem postępów”.</plPL>
+    <koKR>드루이드가 아닌 사람들은 그냥 다 '발바닥'이라고 부르더군요.</koKR>
+    <itIT>Da non confondere con il Mucchio Selvaggio.</itIT>
+    <frFR>À ne pas confondre avec la marque du chauve.</frFR>
+    <esMX>Este es el hechizo preferido de Jake La Motta.</esMX>
+    <esES>No confudir con la Marca del cazador.</esES>
+    <deDE>Nicht zu verwechseln mit Malle der Wildnis, dem Lieblingsurlaubsort der Druiden von Nachthafen.</deDE>
+  </Tag>
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="12d263a6-bdff-4ce1-af5f-cbd7e5ac7806">
     <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
   </Power>
 </Entity>

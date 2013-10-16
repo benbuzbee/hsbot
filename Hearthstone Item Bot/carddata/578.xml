@@ -1,65 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_021">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_007a">
+  <MasterPower>4cec1d62-00e3-41f3-9d43-2cbc6550656d</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Doomsayer</enUS>
-    <frFR>Auspice funeste</frFR>
-    <zhTW>末日預言者</zhTW>
-    <zhCN>末日预言者</zhCN>
-    <ruRU>Вестник рока</ruRU>
-    <ptBR>Agoureiro</ptBR>
-    <plPL>Prorok zagłady</plPL>
-    <koKR>파멸의 예언자</koKR>
-    <itIT>Vate della Rovina</itIT>
-    <esMX>Orador del sino</esMX>
-    <esES>Orador del Sino</esES>
-    <enGB>Doomsayer</enGB>
-    <deDE>Untergangsverkünder</deDE>
+    <enUS>Starfall</enUS>
+    <frFR>Météores</frFR>
+    <zhTW>星殞術</zhTW>
+    <zhCN>星辰坠落</zhCN>
+    <ruRU>Звездопад</ruRU>
+    <ptBR>Chuva Estelar</ptBR>
+    <plPL>Spadające gwiazdy</plPL>
+    <koKR>별똥별</koKR>
+    <itIT>Pioggia di Stelle</itIT>
+    <esMX>Lluvia de estrellas</esMX>
+    <esES>Lluvia de estrellas</esES>
+    <deDE>Sternenregen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, destroy ALL minions.</enUS>
-    <frFR>Au début de votre tour, détruit TOUS les serviteurs.</frFR>
-    <zhTW>在你的回合開始時，摧毀全部手下。</zhTW>
-    <zhCN>在你的回合开始时，消灭所有随从。</zhCN>
-    <ruRU>В начале вашего хода уничтожает ВСЕХ существ.</ruRU>
-    <ptBR>No início do seu turno, destrua TODOS os lacaios.</ptBR>
-    <plPL>Na początku swojej tury niszczysz WSZYSTKICH stronników.</plPL>
-    <koKR>당신의 턴이 시작될 때, 모든 하수인을 파괴합니다.</koKR>
-    <itIT>All'inizio del tuo turno, distrugge TUTTI i servitori.</itIT>
-    <esMX>Al comienzo de tu turno, destruye a TODOS los esbirros.</esMX>
-    <esES>Al comienzo de tu turno, destruye a todos los esbirros.</esES>
-    <enGB>At the start of your turn, destroy ALL minions.</enGB>
-    <deDE>Vernichtet zu Beginn Eures Zuges ALLE Diener.</deDE>
+    <enUS>Deal $2 damage to all enemy minions.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
+    <zhTW>對全部敵方手下造成$2點傷害。</zhTW>
+    <zhCN>对所有敌方随从造成$2点伤害。</zhCN>
+    <ruRU>Наносит $2 ед. урона всем существам противника. </ruRU>
+    <ptBR>Cause $2 de dano a todos os lacaios inimigos.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
+    <koKR>모든 적 하수인에게 피해를 $2 줍니다.</koKR>
+    <itIT>Infligge $2 danni a tutti i servitori nemici.</itIT>
+    <esMX>Inflige $2 de daño a todos los esbirros enemigos.</esMX>
+    <esES>Inflige $2 p. de daño a todos los esbirros enemigos.</esES>
+    <deDE>Fügt allen feindlichen Dienern $2 Schaden zu.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="dfe6cdc8-d829-4b55-8265-516985561961" />
-  <Power definition="0efe54a7-e587-4b09-aa2d-163458ab6275" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Doomsayer has destroyed all minions</enUS>
-    <frFR>L’auspice funeste a détruit tous les serviteurs.</frFR>
-    <zhTW>末日預言者摧毀了全部的手下</zhTW>
-    <zhCN>末日预言者消灭了所有随从。</zhCN>
-    <ruRU>Вестник рока уничтожил всех существ.</ruRU>
-    <ptBR>Agoureiro destruiu todos os lacaios</ptBR>
-    <plPL>Prorok zagłady zniszczył wszystkich stronników.</plPL>
-    <koKR>파멸의 예언자가 모든 하수인을 파괴함</koKR>
-    <itIT>Il Vate della Rovina ha distrutto tutti i servitori.</itIT>
-    <esMX>El orador del sino ha destruido a todos los esbirros</esMX>
-    <esES>El orador del Sino ha destruido a todos los esbirros.</esES>
-    <enGB>Doomsayer has destroyed all minions</enGB>
-    <deDE>Der Weltuntergangsverkünder hat alle Diener vernichtet.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Power definition="4cec1d62-00e3-41f3-9d43-2cbc6550656d" />
 </Entity>

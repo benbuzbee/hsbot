@@ -35,12 +35,6 @@
     <Reference Include="IrcDotNet">
       <HintPath>lib\IrcDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Meebey.SmartIrc4net">
-      <HintPath>lib\Meebey.SmartIrc4net.dll</HintPath>
-    </Reference>
-    <Reference Include="StarkSoftProxy">
-      <HintPath>lib\StarkSoftProxy.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

@@ -1,52 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_245">
-  <MasterPower>5b15512a-0fc5-464c-a57c-47d7899fd4f6</MasterPower>
+<Entity version="2" CardID="EX1_165t1">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Earth Shock</enUS>
-    <frFR>Horion de terre</frFR>
-    <zhTW>大地震擊</zhTW>
-    <zhCN>大地震击</zhCN>
-    <ruRU>Земной шок</ruRU>
-    <ptBR>Choque Terreno</ptBR>
-    <plPL>Wstrząs ziemi</plPL>
-    <koKR>대지 충격</koKR>
-    <itIT>Folgore della Terra</itIT>
-    <esMX>Choque de tierra</esMX>
-    <esES>Choque de tierra</esES>
-    <enGB>Earth Shock</enGB>
-    <deDE>Erdschock</deDE>
+    <enUS>Druid of the Claw</enUS>
+    <frFR>Druide de la Griffe</frFR>
+    <zhTW>利爪德魯伊</zhTW>
+    <zhCN>利爪德鲁伊</zhCN>
+    <ruRU>Друид когтя</ruRU>
+    <ptBR>Druida da Garra</ptBR>
+    <plPL>Druid Szponów</plPL>
+    <koKR>발톱의 드루이드</koKR>
+    <itIT>Druido dell'Unghia</itIT>
+    <esMX>Druida de la Zarpa</esMX>
+    <esES>Druida de la Zarpa</esES>
+    <deDE>Druide der Klaue</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion, then deal $1 damage to it.</enUS>
-    <frFR>Réduit un serviteur au &lt;b&gt;Silence&lt;/b&gt;, puis lui inflige $1 point(s) de dégâts. </frFR>
-    <zhTW>沉默一個手下，然後對它造成$1點傷害。</zhTW>
-    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从，然后对其造成$1点伤害。</zhCN>
-    <ruRU>Накладывает на выбранное существо эффект &lt;b&gt;«Безмолвие»&lt;/b&gt; и наносит ему $1 ед. урона. </ruRU>
-    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio, então cause $1 de dano a ele.</ptBR>
-    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika, a następnie zadaj mu $1 pkt. obrażeń.</plPL>
-    <koKR>하수인을 &lt;b&gt;침묵&lt;/b&gt;시키고, 피해를 $1 줍니다.</koKR>
-    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore e gli infligge $1 danni.</itIT>
-    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 de daño.</esMX>
-    <esES>Inflige $1 p. de daño a un esbirro y lo &lt;b&gt;silencia&lt;/b&gt;.</esES>
-    <enGB>&lt;b&gt;Silence&lt;/b&gt; a minion, then deal $1 damage to it.</enGB>
-    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt; und fügt ihm dann $1 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Kevin Chin</enUS>
-  </Tag>
-  <Tag name="Silence" enumID="339" type="Bool" value="1" />
-  <Power definition="5b15512a-0fc5-464c-a57c-47d7899fd4f6">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="390d7191-e47a-4e87-a4f1-b621da9a6051" />
 </Entity>

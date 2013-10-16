@@ -1,67 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_287">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_246">
+  <MasterPower>800a56dc-97e6-4dba-b594-28eb024b83cd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Counterspell</enUS>
-    <frFR>Contresort</frFR>
-    <zhTW>法術反制</zhTW>
-    <zhCN>法术反制</zhCN>
-    <ruRU>Антимагия</ruRU>
-    <ptBR>Contrafeitiço</ptBR>
-    <plPL>Kontr-zaklęcie</plPL>
-    <koKR>마법 차단</koKR>
-    <itIT>Controincantesimo</itIT>
-    <esMX>Contrahechizo</esMX>
-    <esES>Contrahechizo</esES>
-    <enGB>Counterspell</enGB>
-    <deDE>Gegenzauber</deDE>
+    <enUS>Hex</enUS>
+    <frFR>Maléfice</frFR>
+    <zhTW>妖術</zhTW>
+    <zhCN>妖术</zhCN>
+    <ruRU>Сглаз</ruRU>
+    <ptBR>Bagata</ptBR>
+    <plPL>Zły urok</plPL>
+    <koKR>사술</koKR>
+    <itIT>Maleficio</itIT>
+    <esMX>Maleficio</esMX>
+    <esES>Maleficio</esES>
+    <deDE>Verhexung</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent casts a spell, &lt;b&gt;Counter&lt;/b&gt; it.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre adversaire lance un sort, le &lt;b&gt;contre&lt;/b&gt;.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的對手施展法術時，&lt;b&gt;反制&lt;/b&gt;它。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的对手施放法术时，&lt;b&gt;反制&lt;/b&gt;该法术。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда противник разыгрывает заклинание, вы &lt;b&gt;отменяете&lt;/b&gt; его.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu oponente lançar um feitiço, &lt;b&gt;Anule&lt;/b&gt;-o.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy przeciwnik rzuci zaklęcie, &lt;b&gt;Kontrujesz&lt;/b&gt; je.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 상대편이 주문을 시전하면 &lt;b&gt;차단&lt;/b&gt;합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando l'avversario usa una Magia, questa subisce &lt;b&gt;Contrasto&lt;/b&gt;.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu adversario juegue un hechizo, &lt;b&gt;contrarréstalo&lt;/b&gt;.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu oponente lanza un hechizo, lo &lt;b&gt;contrarrestas&lt;/b&gt;.</esES>
-    <enGB>&lt;b&gt;Secret:&lt;/b&gt; When your opponent casts a spell, &lt;b&gt;Counter&lt;/b&gt; it.</enGB>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Gegner einen Zauber wirkt, &lt;b&gt;kontert&lt;/b&gt; Ihr ihn.</deDE>
+    <enUS>Transform a minion into a 0/1 Frog with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>Transforme un serviteur en grenouille 0/1 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>將一個手下變形為一隻0/1及有&lt;b&gt;嘲諷&lt;/b&gt;的青蛙。</zhTW>
+    <zhCN>使一个随从变形成为一个0/1并具有&lt;b&gt;嘲讽&lt;/b&gt;的青蛙。</zhCN>
+    <ruRU>Превращает выбранное существо в лягушку 0/1 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>Transforme um lacaio num Sapo 0/1 com &lt;B&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>Przemień stronnika w żabę 0/1 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>
+    <koKR>하수인을 &lt;b&gt;도발&lt;/b&gt; 능력이 있는 0/1 개구리로 변신시킵니다.</koKR>
+    <itIT>Trasforma un servitore in una Rana 0/1 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>Transforma a un esbirro en una Rana 0/1 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>Transforma a un esbirro en una rana 0/1 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>Verwandelt einen Diener in einen Frosch (0/1) mit &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.</enUS>
-    <zhTW>使用法術反制和沒使用反制法術的法師之間有什麼不同?沒使用反制法術的法師會被炎爆術直接打在臉上。</zhTW>
-    <zhCN>一个会法术反制的法师和一个不会法术反制的法师之间有什么区别？那个不会的法师被炎爆术炸了一脸。</zhCN>
-    <ruRU>Чем отличается маг, пользующийся &lt;i&gt;Антимагией&lt;/i&gt;, от мага, пренебрегающего этим заклинанием? Первый никогда не получит &lt;i&gt;Огненной глыбой&lt;/i&gt; по физиономии.</ruRU>
-    <ptBR>Qual a diferença entre um mago que está usando Contrafeitiço e um mago que não está? O que não está vai levar um Ignimpacto na cara.</ptBR>
-    <plPL>Jaka jest różnica pomiędzy magiem stosującym kontr-zaklęcie, a takim, który tego nie robi? Ten drugi obrywa pirowybuchem po buzi.</plPL>
-    <koKR>마법 차단을 쓰는 마법사와 안 쓰는 마법사의 차이요? 안 쓰는 마법사는 얼굴에 불덩이 작렬을 맞는다는 거?</koKR>
-    <itIT>Qual è la differenza tra un Mago con Controincantesimo e un Mago senza? Il Mago senza si becca una Pirosfera sui denti.</itIT>
-    <frFR>Quelle est la différence entre un mage jouant avec Contresort et un autre ? Le second se prend une explosion pyrotechnique dans la figure !</frFR>
-    <esMX>¿Cuál la diferencia entre un mago que juega con contrahechizo y uno que no? Que al mago que no lo usa acaba de piroexplotarle la cara.</esMX>
-    <esES>¿En qué se diferencian un mago que tiene Contrahechizo y otro que no? El que no lo tiene está a punto de recibir una Piroexplosión en toda la cara.</esES>
-    <enGB>What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.</enGB>
-    <deDE>Was ist der Unterschied zwischen einem Magier, der Gegenzauber verwendet, und einem, der dies nicht tut? Letzterer bekommt öfters Pyroschläge ins Gesicht.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jason Chan</enUS>
+    <enUS>Steve Hui</enUS>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <ReferencedTag name="Counter" enumID="340" type="Bool" value="1" />
-  <Power definition="e540db1c-8a78-452e-bb85-4ef0798f6e94" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>If you Hex a Murloc... it really isn't much of a change, is it?</enUS>
+    <zhTW>如果用妖術在魚人身上的話...好像沒什麼差別，對吧?</zhTW>
+    <zhCN>如果你对一个鱼人使用妖术...其实结果也没什么变化，对不对？</zhCN>
+    <ruRU>Если сглазить мурлока, можно и не заметить разницы.</ruRU>
+    <ptBR>Se você lança uma Bagata em um Murloc... não muda muita coisa, né?</ptBR>
+    <plPL>Jeśli rzucisz zły urok na murloka... to chyba wiele nie zmienisz, co?</plPL>
+    <koKR>멀록에게 사술을 써보셨나요?... 네, 외관 상 큰 변화는 없을 겁니다.</koKR>
+    <itIT>Se si lanciasse un maleficio su un Murloc... chi si accorgerebbe della differenza?</itIT>
+    <frFR>Si vous maléficiez un murloc... peut-on vraiment considérer que c’est une transformation ?</frFR>
+    <esMX>Si le lanzaras maleficio a un múrloc... el cambio no se notaría demasiado, ¿no?</esMX>
+    <esES>¿No lo irás a usar contra un múrloc, no? ¿No crees que ya tienen bastante?</esES>
+    <deDE>Wenn man einen Murloc in einen Frosch verwandelt, dann hat man nicht wirklich etwas erreicht, oder?</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 36.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="800a56dc-97e6-4dba-b594-28eb024b83cd">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

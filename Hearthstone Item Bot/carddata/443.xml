@@ -1,43 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_549o">
+<Entity version="2" CardID="EX1_508o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bestial Wrath</enUS>
-    <frFR>Courroux bestial</frFR>
-    <zhTW>狂野怒火</zhTW>
-    <zhCN>狂野怒火</zhCN>
-    <ruRU>Звериный гнев</ruRU>
-    <ptBR>Ira Bestial</ptBR>
-    <plPL>Bestialski gniew</plPL>
-    <koKR>야수의 격노</koKR>
-    <itIT>Ira Bestiale</itIT>
-    <esMX>Cólera de las bestias</esMX>
-    <esES>Cólera de las bestias</esES>
-    <enGB>Bestial Wrath</enGB>
-    <deDE>Zorn des Wildtiers</deDE>
+    <enUS>Mlarggragllabl!</enUS>
+    <frFR>Mlarggragllabl !</frFR>
+    <zhTW>啦嘎咕啦布啦!</zhTW>
+    <zhCN>姆啦咯咯若啦咯啦啦哔！</zhCN>
+    <ruRU>Мларгграгллаб!</ruRU>
+    <ptBR>Mlarggragllabl!</ptBR>
+    <plPL>Mlarggragllabl!</plPL>
+    <koKR>아옳옳옳옳옳옳옳!</koKR>
+    <itIT>Mlarggragllabl!</itIT>
+    <esMX>¡Mlarggragllabl!</esMX>
+    <esES>¡Mlarggragllabl!</esES>
+    <deDE>Mlarggragllabl!</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
-    <frFR>+2 ATQ et &lt;b&gt;Insensible&lt;/b&gt; pendant ce tour.</frFR>
-    <zhTW>+2攻擊力及本回合&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
-    <zhCN>在本回合中，+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>+2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
-    <ptBR>+2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; neste turno.</ptBR>
-    <plPL>+2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt; w tej turze.</plPL>
-    <koKR>이번 턴에 공격력 +2, &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
-    <itIT>+2 Attacco e &lt;b&gt;Immune&lt;/b&gt; in questo turno.</itIT>
-    <esMX>+2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; en este turno.</esMX>
-    <esES>+2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; este turno.</esES>
-    <enGB>+2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enGB>
-    <deDE>+2 Angriff und &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>
+    <enUS>This Murloc has +1 Attack.</enUS>
+    <frFR>Ce murloc a +1 ATQ.</frFR>
+    <zhTW>這個魚人+1攻擊力。</zhTW>
+    <zhCN>该鱼人获得+1攻击力。</zhCN>
+    <ruRU>Этот мурлок получил +1 к атаке.</ruRU>
+    <ptBR>Este Murloc tem +1 de Ataque.</ptBR>
+    <plPL>Ten murlok ma +1 do ataku.</plPL>
+    <koKR>공격력 +1</koKR>
+    <itIT>+1 Attacco.</itIT>
+    <esMX>Este múrloc tiene +1 de Ataque.</esMX>
+    <esES>Este múrloc tiene +1 p. de ataque.</esES>
+    <deDE>Dieser Murloc hat +1 Angriff.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="a2f2b681-972d-4d7d-8504-f1aa88cf266b" />
-  <Power definition="42c58fd4-9ee3-4df1-a39c-069ddd478179" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="69972a5d-2ba5-4c5e-98d6-3c904b6bc1ea" />
 </Entity>

@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_055">
+<Entity version="2" CardID="EX1_021">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mana Addict</enUS>
-    <frFR>Accro au mana</frFR>
-    <zhTW>魔法成癮者</zhTW>
-    <zhCN>魔瘾者</zhCN>
-    <ruRU>Любительница маны</ruRU>
-    <ptBR>Viciada em Mana</ptBR>
-    <plPL>Manoholiczka</plPL>
-    <koKR>마나 중독자</koKR>
-    <itIT>Manadipendente</itIT>
-    <esMX>Adicta al maná</esMX>
-    <esES>Adicta al maná</esES>
-    <enGB>Mana Addict</enGB>
-    <deDE>Manasüchtige</deDE>
+    <enUS>Thrallmar Farseer</enUS>
+    <frFR>Long-voyant de Thrallmar</frFR>
+    <zhTW>索爾瑪先知</zhTW>
+    <zhCN>萨尔玛先知</zhCN>
+    <ruRU>Провидец Траллмара</ruRU>
+    <ptBR>Clarividente de Thrallmar</ptBR>
+    <plPL>Wieszcz z Thrallmaru</plPL>
+    <koKR>스랄마 선견자</koKR>
+    <itIT>Veggente di Thrallmar</itIT>
+    <esMX>Clarividente de Thrallmar</esMX>
+    <esES>Clarividente de Thrallmar</esES>
+    <deDE>Scharfseher von Thrallmar</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Addicted</enUS>
-  </Tag>
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you cast a spell, gain +2 Attack this turn.</enUS>
-    <frFR>Chaque fois que vous lancez un sort, gagne +2 ATQ pendant ce tour.</frFR>
-    <zhTW>在本回合中，每當你施展法術，就獲得+2攻擊力。</zhTW>
-    <zhCN>在本回合中，每当你施放一个法术，便获得+2攻击力。</zhCN>
-    <ruRU>Каждый раз, когда вы разыгрываете карту заклинания, получает +2 к атаке до конца хода.</ruRU>
-    <ptBR>Sempre que você lançar um feitiço, receba +2 de Ataque no mesmo turno.</ptBR>
-    <plPL>Otrzymujesz +2 do ataku w tej turze za każdym razem, gdy rzucisz zaklęcie.</plPL>
-    <koKR>당신이 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다.</koKR>
-    <itIT>Ogni volta che lanci una Magia, ottiene +2 Attacco in questo turno.</itIT>
-    <esMX>Cada vez que lanzas un hechizo, obtiene +2 de Ataque en este turno.</esMX>
-    <esES>Cada vez que lanzas un hechizo, obtiene +2 p. de ataque este turno.</esES>
-    <enGB>Whenever you cast a spell, gain +2 Attack this turn.</enGB>
-    <deDE>Erhält jedes Mal +2 Angriff in diesem Zug, wenn Ihr einen Zauber wirkt.</deDE>
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento furioso&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Hideaki Takamura</enUS>
+    <enUS>Efrem Palacios</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>She’s trying to kick the habit, but still takes some mana whenever she has a stressful day.</enUS>
-    <zhTW>她有試著戒除這個惡習，不過在壓力過大的日子她還是會吸點法力。</zhTW>
-    <zhCN>她很想戒掉这嗜好，但是每当她感到压力很大的时候，她总是会吸上几口。</zhCN>
-    <ruRU>Она пытается побороть эту дурную привычку, но после долгого и трудного дня как отказаться от глоточка маны?</ruRU>
-    <ptBR>Ela está tentando parar, mas ainda precisa de um pouco de mana para encarar um dia estressante.</ptBR>
-    <plPL>Stara się zerwać z nałogiem, ale wciąż szprycuje się maną gdy ma stresujący dzień.</plPL>
-    <koKR>끊으려고 노력하는 그녀지만 스트레스 받은 날에는 참기 힘들답니다.</koKR>
-    <itIT>Sta cercando di smettere, ma fa ancora uso di Mana quando la giornata è stata particolarmente pesante.</itIT>
-    <frFR>Elle tente de se défaire de cette mauvaise habitude, mais après une mauvaise journée, c’est dur de résister.</frFR>
-    <esMX>Está tratando de dejar el hábito. Pero todavía toma un poco de maná de vez en cuando, si tiene un día difícil.</esMX>
-    <esES>Está intentando dejarlo, pero sigue tomando maná cuando tiene un día duro.</esES>
-    <enGB>She’s trying to kick the habit, but still takes some mana whenever she has a stressful day.</enGB>
-    <deDE>Sie versucht vom Mana weg zu kommen, aber sie nimmt immer noch ein wenig, wenn sie einen stressigen Tag hat.</deDE>
+    <enUS>He's stationed in the Hellfire Peninsula, but he's hoping for a reassignment closer to Orgrimmar, or really anywhere the ground is less on fire.</enUS>
+    <zhTW>他被派駐在地獄火半島，但是他很希望能轉調到靠近奧格瑪的地方，或者只要地上沒著火的地方就好。</zhTW>
+    <zhCN>他受命驻扎在地狱火半岛，但他很希望能够被调配到奥格瑞玛附近，或者随便什么地方，只要那里的土地不要老是着火就行。</zhCN>
+    <ruRU>Он служит на Полуострове Адского Пламени, но мечтает, чтобы его перевели в Оргриммар или в какую-нибудь не столь огневую точку.</ruRU>
+    <ptBR>Ele está alocado na Península Fogo do Inferno, mas tem esperanças de ser transferido para algum lugar mais perto de Orgrimmar... ou em qualquer lugar que o chão não esteja pegando fogo.</ptBR>
+    <plPL>Postanowił napisać epicki poemat. Ma już pierwszy wers: „Thrallmarze, ojczyzno moja, ty jesteś jak zdrowie.”</plPL>
+    <koKR>지금은 지옥불 반도에서 근무 중이지만, 오그리마에 더 가까운 곳으로 배치되길 원합니다. 최소한 땅에서 불을 뿜지는 않은 곳으로요.</koKR>
+    <itIT>Attualmente è di stanza nella Penisola del Fuoco Infernale, ma spera di essere riassegnato più vicino a Orgrimmar... o da qualsiasi parte in cui la terra non sia in fiamme.</itIT>
+    <frFR>Il est en poste dans la péninsule des Flammes infernales, mais il espère être réaffecté plus près d’Orgrimmar, ou à tout autre endroit qui ne soit pas en feu.</frFR>
+    <esMX>Lo enviaron a la Península del Fuego Infernal, pero pidió que lo reasignaran más cerca de Orgrimmar... o, para ser sinceros, a cualquier otro lugar donde no se le quemaran los pies.</esMX>
+    <esES>Trabaja en la Península del Fuego Infernal, pero le gustaría que lo destacaran en Orgrimmar, o en cualquier otro sitio que no esté ardiendo permanentemente.</esES>
+    <deDE>Er ist momentan auf der Höllenfeuerhalbinsel stationiert, hofft aber darauf, nach Orgrimmar verlegt zu werden – oder an irgendeinen anderen Ort, an dem der Boden weniger brennt.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="01a150d7-8384-46a0-8cb8-e54b24c2b0cf" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="52171593-d4a9-49e2-a647-d5e3dbc63aea" />
 </Entity>

@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_549">
-  <MasterPower>ec001c18-5106-4cd3-a9c3-fb35a1153440</MasterPower>
+<Entity version="2" CardID="EX1_508">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bestial Wrath</enUS>
-    <frFR>Courroux bestial</frFR>
-    <zhTW>狂野怒火</zhTW>
-    <zhCN>狂野怒火</zhCN>
-    <ruRU>Звериный гнев</ruRU>
-    <ptBR>Ira Bestial</ptBR>
-    <plPL>Bestialski gniew</plPL>
-    <koKR>야수의 격노</koKR>
-    <itIT>Ira Bestiale</itIT>
-    <esMX>Cólera de las bestias</esMX>
-    <esES>Cólera de las bestias</esES>
-    <enGB>Bestial Wrath</enGB>
-    <deDE>Zorn des Wildtiers</deDE>
+    <enUS>Grimscale Oracle</enUS>
+    <frFR>Oracle sinistrécaille</frFR>
+    <zhTW>厲鱗神諭者</zhTW>
+    <zhCN>暗鳞先知</zhCN>
+    <ruRU>Оракул Темной Чешуи</ruRU>
+    <ptBR>Oráculo Escamatroz</ptBR>
+    <plPL>Wyrocznia Burych Łusek</plPL>
+    <koKR>성난비늘 수련사</koKR>
+    <itIT>Oracolo Scagliasalda</itIT>
+    <esMX>Oráculo malaescama</esMX>
+    <esES>Oráculo Malaescama</esES>
+    <deDE>Grimmschuppenorakel</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Argalagblbl</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a Beast +2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
-    <frFR>Confère +2 ATQ et l’effet &lt;b&gt;Insensible&lt;/b&gt; à une Bête pendant ce tour.</frFR>
-    <zhTW>賦予一隻野獸+2攻擊力，及本回合&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
-    <zhCN>在本回合中，使一只野兽获得+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>Выбранный зверь получает +2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
-    <ptBR>Conceda +2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; a uma Fera neste turno.</ptBR>
-    <plPL>W tej turze daj Bestii +2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
-    <koKR>이번 턴에 야수에게 공격력 +2와 &lt;b&gt;피해 면역&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce +2 Attacco e &lt;b&gt;Immune&lt;/b&gt; a una Bestia in questo turno.</itIT>
-    <esMX>Otorga +2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; a una Bestia en este turno.</esMX>
-    <esES>Otorga +2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; a una bestia este turno.</esES>
-    <enGB>Give a Beast +2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enGB>
-    <deDE>Verleiht einem Wildtier +2 Angriff und &lt;b&gt;Immunität&lt;/b&gt; in diesem Zug.</deDE>
+    <enUS>ALL other Murlocs have +1 Attack.</enUS>
+    <frFR>TOUS les autres murlocs ont +1 ATQ.</frFR>
+    <zhTW>全部其他魚人獲得+1攻擊力。</zhTW>
+    <zhCN>所有其他鱼人获得+1攻击力。</zhCN>
+    <ruRU>ВСЕ прочие мурлоки получают +1 к атаке.</ruRU>
+    <ptBR>TODOS os outros Murlocs têm +1 de Ataque.</ptBR>
+    <plPL>Wszystkie pozostałe murloki otrzymują +1 do ataku.</plPL>
+    <koKR>다른 &lt;b&gt;모든&lt;/b&gt; 멀록이 공격력을 +1 얻습니다.</koKR>
+    <itIT>TUTTI gli altri Murloc hanno +1 Attacco.</itIT>
+    <esMX>TODOS los otros múrlocs tienen +1 de Ataque.</esMX>
+    <esES>Todos los demás múrlocs tienen +1 p. de ataque.</esES>
+    <deDE>ALLE anderen Murlocs haben +1 Angriff.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Phil Saunders</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Warlock Level 52.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.</enUS>
-    <enGB>The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.</enGB>
-    <zhTW>沸騰的憤怒僅僅是表面。在那之下是狂亂的自我解放，隨之而來的是輕微的不快。</zhTW>
-    <zhCN>盛燃的愤怒掩藏于表面之下，同时还伴随着野性的狂放不羁和些许傲慢。</zhCN>
-    <ruRU>Безудержный гнев - лишь внешнее проявление чувств. Под ним скрывается дикая вспыльчивость и легкое недовольство.</ruRU>
-    <ptBR>A ira fervilhante está logo abaixo da superfície. Abaixo dela, fica o abandono selvagem, seguido por uma ligeira irritação.</ptBR>
-    <plPL>Bestialski to on jest tylko z nazwy.</plPL>
-    <koKR>표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.</koKR>
-    <itIT>La rabbia ribolle sotto la superficie e sotto di essa c'è l'abbandono selvaggio. Poco più sotto, un leggero fastidio.</itIT>
-    <frFR>Courroux coucou, ça tache ça tache !</frFR>
-    <esMX>Bajo la superficie habita una cólera hirviente. Y bajo esa cólera yace un abandono salvaje, seguido de un ligero fastidio.</esMX>
-    <esES>Es una cólera que está en tu interior, por debajo de las costillas, entre la tostada del desayuno y el pescado del almuerzo.</esES>
-    <deDE>Na toll, jetzt habt Ihr es wütend gemacht!</deDE>
+    <enUS>These are the brainy murlocs.  It turns out that doesn’t mean much.</enUS>
+    <zhTW>這些神諭者算是比較聰明的魚人。結果其實也沒聰明到哪去。</zhTW>
+    <zhCN>这些算是有头脑的鱼人。但仍然有些名不副实。</zhCN>
+    <ruRU>Иногда среди мурлоков попадаются очень умные. Но кого это волнует?</ruRU>
+    <ptBR>Esses são murlocs espertos. Mas parece que isso não quer dizer muita coisa.</ptBR>
+    <plPL>Te te cwańsze murloki. Co wcale wiele nie znaczy.</plPL>
+    <koKR>아주 똑똑한 멀록입니다. 그래도 다른 멀록들과 크게 다르지는 않습니다.</koKR>
+    <itIT>Questi sono i Murloc intelligenti. Non che cambi molto da quelli normali...</itIT>
+    <frFR>Ce sont les plus intelligents de tous les murlocs. Mais ça ne veut pas dire grand-chose...</frFR>
+    <esMX>Estos son los múrlocs más inteligentes. Bueno, en este caso "inteligentes" es una forma de decir.</esMX>
+    <esES>Estos son los múrlocs más listos. Aunque eso no es decir mucho.</esES>
+    <deDE>Sie sind die Genies unter den Murlocs. Aber auch das will nicht viel heißen.</deDE>
   </Tag>
-  <ReferencedTag name="Cant Be Damaged" enumID="240" type="Bool" value="1" />
-  <Power definition="ec001c18-5106-4cd3-a9c3-fb35a1153440">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="10" param="20" />
-  </Power>
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="21969ec7-342e-480e-9cfe-6ba9afc9a2e5" />
 </Entity>

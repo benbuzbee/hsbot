@@ -1,66 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_279">
-  <MasterPower>89cdadf1-6077-479c-b2e8-4ecec39cfe07</MasterPower>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $10 damage.</enUS>
-    <frFR>Inflige $10 point(s) de dégâts.</frFR>
-    <zhTW>造成$10點傷害。</zhTW>
-    <zhCN>造成$10点伤害。</zhCN>
-    <ruRU>Наносит $10 ед. урона.</ruRU>
-    <ptBR>Cause $10 de dano.</ptBR>
-    <plPL>Zadaj $10 pkt. obrażeń.</plPL>
-    <koKR>피해를 $10 줍니다.</koKR>
-    <itIT>Infligge $10 danni.</itIT>
-    <esMX>Inflige $10 de daño.</esMX>
-    <esES>Inflige $10 p. de daño.</esES>
-    <enGB>Deal $9 damage.</enGB>
-    <deDE>Verursacht $10 Schaden.</deDE>
-  </Tag>
+<Entity version="2" CardID="EX1_244">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Pyroblast</enUS>
-    <frFR>Explosion pyrotechnique</frFR>
-    <zhTW>炎爆術</zhTW>
-    <zhCN>炎爆术</zhCN>
-    <ruRU>Огненная глыба</ruRU>
-    <ptBR>Ignimpacto</ptBR>
-    <plPL>Pirowybuch</plPL>
-    <koKR>불덩이 작렬</koKR>
-    <itIT>Pirosfera</itIT>
-    <esMX>Piroexplosión</esMX>
-    <esES>Piroexplosión</esES>
-    <enGB>Pyroblast</enGB>
-    <deDE>Pyroschlag</deDE>
+    <enUS>Totemic Might</enUS>
+    <frFR>Puissance totémique</frFR>
+    <zhTW>圖騰之力</zhTW>
+    <zhCN>图腾之力</zhCN>
+    <ruRU>Сила тотемов</ruRU>
+    <ptBR>Poder Totêmico</ptBR>
+    <plPL>Wzmocnienie totemów</plPL>
+    <koKR>토템의 힘</koKR>
+    <itIT>Vigore Totemico</itIT>
+    <esMX>Poderío totémico</esMX>
+    <esES>Poderío totémico</esES>
+    <deDE>Macht der Totems</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="8" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give your Totems +2 Health.</enUS>
+    <frFR>Confère +2 PV à vos totems.</frFR>
+    <zhTW>賦予你的圖騰+2生命值。</zhTW>
+    <zhCN>使你的图腾获得+2生命值。</zhCN>
+    <ruRU>Ваши тотемы получают +2 к здоровью.</ruRU>
+    <ptBR>Conceda +2 de Vida aos seus Totens.</ptBR>
+    <plPL>Daj swoim totemom +2 do zdrowia.</plPL>
+    <koKR>내 토템들에게 생명력을 +2 부여합니다.</koKR>
+    <itIT>Fornisce +2 Salute ai tuoi Totem.</itIT>
+    <esMX>Otorga +2 de Salud a tus tótems.</esMX>
+    <esES>Otorga +2 p. de salud a tus tótems.</esES>
+    <deDE>Verleiht Euren Totems +2 Leben.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Trent Kaniuga</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 44.</enUS>
+  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Take the time for an evil laugh after you draw this card.</enUS>
-    <zhTW>抽到這張牌以後，記得花點時間來發出邪惡的笑聲。</zhTW>
-    <zhCN>抽到这张牌的时候，发出一阵邪恶的狂笑吧。</zhCN>
-    <ruRU>Не забудьте злобно рассмеяться, вытащив эту карту из колоды!</ruRU>
-    <ptBR>Prepare uma risada maligna para quando comprar este card.</ptBR>
-    <plPL>Pamiętaj, by po dobraniu tej karty zaśmiać się diabolicznie.</plPL>
-    <koKR>이 카드를 뽑으면 잠시 시간을 내어 한 번 사악하게 웃어주십시오.</koKR>
-    <itIT>Prenditi il tempo per una malefica risata quando giochi questa carta.</itIT>
-    <frFR>Prenez le temps d’éclater d’un rire démoniaque après avoir pioché cette carte.</frFR>
-    <esMX>Cuando robes esta carta, tómate un momento para lanzar una carcajada diabólica.</esMX>
-    <esES>Tómate la libertad de soltar una carcajada malvada cuando robes esta carta.</esES>
-    <enGB>Take the time for an evil laugh after you draw this card.</enGB>
-    <deDE>Nehmt Euch die Zeit für ein fieses Lachen, wenn Ihr diese Karte gerade gezogen habt.</deDE>
+    <enUS>Totem-stomping is no longer recommended.</enUS>
+    <zhTW>我們建議從現在起最好停止踩圖騰的行為。</zhTW>
+    <zhCN>禁止踩踏图腾。</zhCN>
+    <ruRU>Топтать тотемы больше не рекомендуется.</ruRU>
+    <ptBR>Pisar no totem não é mais recomendado.</ptBR>
+    <plPL>Chroni totem przed łomotem.</plPL>
+    <koKR>이 정도면 이제 밟아 꺼트릴 수준이 아닙니다.</koKR>
+    <itIT>La distruzione dei totem non è più un'attività ricreativa.</itIT>
+    <frFR>Désormais, plus besoin de ressortir ses totems toutes les deux minutes !</frFR>
+    <esMX>La administración desaconseja el aplastamiento de tótems.</esMX>
+    <esES>Los tótems no se tocan.</esES>
+    <deDE>Und da ist er wieder – der Moment, in dem der Gegner zu der Erkenntnis kommt, dass er dieses Totem besser in der letzten Runde hätte vernichten sollen.</deDE>
   </Tag>
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Luca Zontini</enUS>
-  </Tag>
-  <Power definition="89cdadf1-6077-479c-b2e8-4ecec39cfe07">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Power definition="d54b1cd0-7ad9-4e37-bae2-203ab1646efe" />
 </Entity>

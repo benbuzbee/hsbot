@@ -1,68 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_243">
+<Entity version="2" CardID="EX1_165">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dust Devil</enUS>
-    <frFR>Diable de poussière</frFR>
-    <zhTW>塵魔</zhTW>
-    <zhCN>尘魔</zhCN>
-    <ruRU>Пыледемон</ruRU>
-    <ptBR>Redemoinho de Poeira</ptBR>
-    <plPL>Pyłowy diablik</plPL>
-    <koKR>먼지 악령</koKR>
-    <itIT>Diavolo di Sabbia</itIT>
-    <esMX>Diablo de polvo</esMX>
-    <esES>Diablo de polvo</esES>
-    <enGB>Dust Devil</enGB>
-    <deDE>Staubteufel</deDE>
+    <enUS>Druid of the Claw</enUS>
+    <frFR>Druide de la Griffe</frFR>
+    <zhTW>利爪德魯伊</zhTW>
+    <zhCN>利爪德鲁伊</zhCN>
+    <ruRU>Друид когтя</ruRU>
+    <ptBR>Druida da Garra</ptBR>
+    <plPL>Druid Szponów</plPL>
+    <koKR>발톱의 드루이드</koKR>
+    <itIT>Druido dell'Unghia</itIT>
+    <esMX>Druida de la Zarpa</esMX>
+    <esES>Druida de la Zarpa</esES>
+    <deDE>Druide der Klaue</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Windfury&lt;/b&gt;. &lt;b&gt;Overload:&lt;/b&gt; (2)</enUS>
-    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;. &lt;b&gt;Surcharge :&lt;/b&gt; (2)</frFR>
-    <zhTW>&lt;b&gt;風怒&lt;/b&gt;。&lt;b&gt;超載:&lt;/b&gt;(2)</zhTW>
-    <zhCN>&lt;b&gt;风怒&lt;/b&gt;。&lt;b&gt;过载：&lt;/b&gt;（2）</zhCN>
-    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
-    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</ptBR>
-    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;. &lt;b&gt;Przeładowanie:&lt;/b&gt; (2)</plPL>
-    <koKR>&lt;b&gt;질풍&lt;/b&gt;. &lt;b&gt;과부하:&lt;/b&gt; (2)</koKR>
-    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;. &lt;b&gt;Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
-    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esMX>
-    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esES>
-    <enGB>&lt;b&gt;Windfury&lt;/b&gt;. &lt;b&gt;Overload:&lt;/b&gt; (2)</enGB>
-    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;, &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
+    <enUS>&lt;b&gt;Choose One -&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt;; or +2 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt; ou confère +2 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;&lt;b&gt;衝鋒&lt;/b&gt;，或+2生命值及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
+    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：&lt;b&gt;冲锋&lt;/b&gt;；或者+2生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; &lt;b&gt;Рывок&lt;/b&gt;; или +2 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Escolha Um -&lt;/b&gt; &lt;b&gt;Investida&lt;/b&gt;; ou +2 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; &lt;b&gt;Szarża&lt;/b&gt;; lub +2 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;선택 - &lt;/b&gt;\n&lt;b&gt;돌진&lt;/b&gt; 또는 생명력 +2와 &lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; ottiene &lt;b&gt;Carica&lt;/b&gt; o +2 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; &lt;b&gt;Carga&lt;/b&gt; o +2 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>&lt;b&gt;Elige una:&lt;/b&gt; &lt;b&gt;Cargar&lt;/b&gt;, o bien + 2 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; &lt;b&gt;Ansturm&lt;/b&gt;; oder +2 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>James Brady</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Westfall is full of dust devils. And buzzards. And crazed golems. And pirates. Why does anyone live here?</enUS>
-    <zhTW>西部荒野到處都是塵魔。還有禿鷲。還有瘋狂的魔像。還有海盜。怎麼會有人想住在這種地方?</zhTW>
-    <zhCN>西部荒野满是尘魔。还有秃鹰。还有失控的傀儡。还有海盗。为什么谁都喜欢住在这地方？</zhCN>
-    <ruRU>В Западном Крае живут пыледемоны. И канюки. А еще бешеные големы и пираты. В общем, это не лучшее место для отпуска.</ruRU>
-    <ptBR>O Cerro Oeste é cheio de redemoinhos de poeira. E urubus. E golens enlouquecidos. E piratas. Por que ainda tem gente morando lá?</ptBR>
-    <plPL>Zachodnica pełna jest pyłowych diabłów. I myszołowów. I szalonych golemów. I piratów. Po kiego ktoś chciałby tam mieszkać?</plPL>
-    <koKR>서부 몰락지대는 먼지 악령, 대머리수리, 미친 골렘, 해적으로 가득합니다. 대체 왜 여기 사람이 살까요?</koKR>
-    <itIT>Le Marche Occidentali sono piene di Diavoli di Sabbia. E di Condor. E di Golem Impazziti. E di pirati. Perché uno dovrebbe vivere lì?</itIT>
-    <frFR>Comme un ouragan, la tempête en moi a balayé le passé...</frFR>
-    <esMX>Páramos de Poniente está lleno de diablos de polvo. Y águilas ratoneras. Y gólems enloquecidos. Y piratas. ¿A quién se le ocurre vivir aquí?</esMX>
-    <esES>Entre los diablos de polvo, las águilas, los gólems de la cosecha y los piratas, los Páramos de Poniente han perdido mucho últimamente.</esES>
-    <deDE>Westfall ist voller Staubteufel, Bussarde, Banditen und wildgewordener Golems. Warum sollte dort jemand wohnen wollen?</deDE>
+    <enUS>Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!</enUS>
+    <zhTW>獵豹還是熊?獵豹還是熊?我沒辦法決定啦!</zhTW>
+    <zhCN>猫还是熊？猫还是熊？真是艰难的抉择！</zhCN>
+    <ruRU>Кошка или не кошка? Медведь или не медведь? Вот в чем вопрос.</ruRU>
+    <ptBR>Felino ou Urso? Felino ou Urso?! Eu não consigo ESCOLHER!</ptBR>
+    <plPL>„Wcześniej nazywaliśmy się Druidami Pazura, ale wciąż pytano nas o pokrewieństwo z jakimś Czarkiem”. - Starszy Druid Szponów</plPL>
+    <koKR>표범이냐, 곰이냐, 그것이 문제로다.</koKR>
+    <itIT>Forma Felina o Forma d'Orso? Difficile scegliere!</itIT>
+    <frFR>Félin ou ours ? Ours ou félin ?! Je n’arrive PAS à décider !</frFR>
+    <esMX>¿Oso o felino? ¿Oso o felino? ¡No puedo DECIDIRME!</esMX>
+    <esES>¿Gato u oso? ¡¿Gato u oso?! ¡Decisiones! ¡Decisiones!</esES>
+    <deDE>Katze? Bär? Katze? Bär? Katze? Bär? Oh Mann, ich kann mich einfach nicht entscheiden!</deDE>
   </Tag>
-  <Tag name="Recall" enumID="215" type="Number" value="1" />
-  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
-  <Power definition="ab520dd6-1fb5-4f6b-a815-f4e6d5a41101" />
-  <Power definition="f63a2438-edbe-46cd-8478-777d6335e112" />
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
 </Entity>

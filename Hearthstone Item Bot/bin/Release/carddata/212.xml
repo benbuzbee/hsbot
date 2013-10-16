@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_029">
+<Entity version="2" CardID="EX1_010">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Leper Gnome</enUS>
-    <frFR>Gnome lépreux</frFR>
-    <zhTW>麻瘋地精</zhTW>
-    <zhCN>麻疯侏儒</zhCN>
-    <ruRU>Лепрогном</ruRU>
-    <ptBR>Gnomo Leproso</ptBR>
-    <plPL>Trędowaty gnom</plPL>
-    <koKR>오염된 노움</koKR>
-    <itIT>Gnomo Contaminato</itIT>
-    <esMX>Gnomo paria</esMX>
-    <esES>Gnomo paria</esES>
-    <enGB>Leper Gnome</enGB>
-    <deDE>Lepragnom</deDE>
+    <enUS>Worgen Infiltrator</enUS>
+    <frFR>Infiltrateur worgen</frFR>
+    <zhTW>狼人滲透者</zhTW>
+    <zhCN>狼人渗透者</zhCN>
+    <ruRU>Ворген-разведчик</ruRU>
+    <ptBR>Infiltrador Worgen</ptBR>
+    <plPL>Worgen dywersant</plPL>
+    <koKR>늑대인간 침투요원</koKR>
+    <itIT>Infiltrato Worgen</itIT>
+    <esMX>Infiltrado huargen</esMX>
+    <esES>Infiltrado huargen</esES>
+    <deDE>Worgenspitzel</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to the enemy hero.</enUS>
-    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; inflige 2 points de dégâts au héros adverse.</frFR>
-    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;對敵方英雄造成2點傷害。</zhTW>
-    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;对敌方英雄造成2点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; наносит 2 ед. урона герою противника.</ruRU>
-    <ptBR>&lt;b&gt;Estertor de Morte:&lt;/b&gt; Cause 2 de dano ao herói inimigo.</ptBR>
-    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Zadaj 2 pkt. obrażeń wrogiemu bohaterowi.</plPL>
-    <koKR>&lt;b&gt;죽음의 신음:&lt;/b&gt; 적 영웅에게 피해를 2 줍니다.</koKR>
-    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; infligge 2 danni all'eroe nemico.</itIT>
-    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; inflige 2 de daño al héroe enemigo.</esMX>
-    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Inflige 2 p. de daño al héroe enemigo.</esES>
-    <enGB>&lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to the enemy hero.</enGB>
-    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Fügt dem feindlichen Helden 2 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
-  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
-  <Power definition="35c3329b-ffac-4188-86d3-18e0f0636816" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Leper Gnome dealt 2 damage.</enUS>
-    <frFR>Le gnome lépreux a infligé 2 points de dégâts.</frFR>
-    <zhTW>麻瘋地精造成2點傷害。</zhTW>
-    <zhCN>麻疯侏儒造成了2点伤害。</zhCN>
-    <ruRU>&lt;i&gt;Лепрогном&lt;/i&gt; нанес 2 ед. урона.</ruRU>
-    <ptBR>Gnomo Leproso causou 2 de dano.</ptBR>
-    <plPL>Trędowaty gnom zadał 2 pkt. obrażeń.</plPL>
-    <koKR>오염된 노움이 피해 2 줌</koKR>
-    <itIT>Lo Gnomo Contaminato ha inflitto 2 danni.</itIT>
-    <esMX>El Gnomo paria inflige 2 de daño.</esMX>
-    <esES>El gnomo paria ha infligido 2 p. de daño.</esES>
-    <enGB>Leper Gnome dealt 2 damage.</enGB>
-    <deDE>Der Lepragnom hat 2 Schaden verursacht.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>If you want to stop a worgen from infiltrating, just yell, "No! Bad boy!"</enUS>
+    <zhTW>你不想被狼人滲透的話，只要大喊「不可以!壞壞!」就好。</zhTW>
+    <zhCN>他们原本都是人类，他们更知道怎样悄无声息地进入某些人类的居所中。</zhCN>
+    <ruRU>Если вы хотите прогнать воргена, который лезет к вам в дом на разведку, просто крикните ему: «Фу! Плохой песик!»</ruRU>
+    <ptBR>Se quiser impedir um worgen de se infiltrar, é só gritar: "Não! Cahcorro feio!"</ptBR>
+    <plPL>Jeśli chcesz powstrzymać dywersję worgenów, wystarczy krzyknąć „Do budy!”</plPL>
+    <koKR>늑대인간이 침투하지 못하게 만드는 방법은 간단합니다. 함정 위에 개껌을 던져두세요.</koKR>
+    <itIT>Se vuoi fermare un Worgen dall'infiltrarsi basta urlare: "No! Cane cattivo!"</itIT>
+    <frFR>Si vous ne voulez pas que des worgens vous infiltrent, vous n’avez qu’à crier : « Non ! Méchant loup ! »</frFR>
+    <esMX>Si quieres evitar que un huargen se infiltre, grítale: "¡No! ¡Perro malo!".</esMX>
+    <esES>Para detener a los infiltrados huargen hay que gritar "¡No! ¡Chico malo!".</esES>
+    <deDE>Wenn Ihr einen Worgen daran hindern wollt, Euch zu bespitzeln, ruft einfach laut: „Aus! Pfui!“</deDE>
+  </Tag>
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="324edfa7-0e28-4254-aa78-163883caf0a9" />
 </Entity>

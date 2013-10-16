@@ -1,51 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_022">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_007b">
+  <MasterPower>90885d05-d9e7-4275-a327-80239b5cae8b</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dread Corsair</enUS>
-    <zhTW>驚懼海盜</zhTW>
-    <zhCN>恐怖海盗</zhCN>
-    <ruRU>Жуткий корсар</ruRU>
-    <ptBR>Corsário Terrível</ptBR>
-    <plPL>Straszliwy korsarz</plPL>
-    <koKR>공포의 해적</koKR>
-    <itIT>Corsaro del Terrore</itIT>
-    <frFR>Corsaire de l’effroi</frFR>
-    <esMX>Corsario aterrador</esMX>
-    <esES>Corsario aterrador</esES>
-    <enGB>Dread Corsair</enGB>
-    <deDE>Schreckenskorsar</deDE>
+    <enUS>Starfall</enUS>
+    <frFR>Météores</frFR>
+    <zhTW>星殞術</zhTW>
+    <zhCN>星辰坠落</zhCN>
+    <ruRU>Звездопад</ruRU>
+    <ptBR>Chuva Estelar</ptBR>
+    <plPL>Spadające gwiazdy</plPL>
+    <koKR>별똥별</koKR>
+    <itIT>Pioggia di Stelle</itIT>
+    <esMX>Lluvia de estrellas</esMX>
+    <esES>Lluvia de estrellas</esES>
+    <deDE>Sternenregen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt.&lt;/b&gt; Costs (1) less per Attack of your weapon.</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。隨你武器的攻擊力而減少消耗(1)點。</zhTW>
-    <zhCN>&lt;b&gt;嘲讽。&lt;/b&gt;你的武器每有1点攻击力，该牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. Стоит на (1) ману меньше за каждую единицу атаки вашего оружия.</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. Custa (1) a menos por Ataque da sua arma.</ptBR>
-    <plPL>&lt;b&gt;Prowokacja.&lt;/b&gt; Kosztuje (1) mniej za każdy punkt ataku twojej broni.</plPL>
-    <koKR>&lt;b&gt;도발.&lt;/b&gt; 당신의 무기 공격력만큼 비용이 감소합니다.</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. Costa (1) Mana in meno per ogni punto Attacco della tua arma.</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. Coûte (1) cristal de moins par Attaque de votre arme.</frFR>
-    <esMX>&lt;b&gt;Provocación.&lt;/b&gt; Cuesta (1) menos por cada punto de Ataque de tu arma.</esMX>
-    <esES>&lt;b&gt;Provocar.&lt;/b&gt; Cuesta (1) p. menos por cada punto de ataque de tu arma.</esES>
-    <enGB>&lt;b&gt;Taunt.&lt;/b&gt; Costs (1) less per Attack of your weapon.</enGB>
-    <deDE>&lt;b&gt;Spott.&lt;/b&gt; Kostet (1) weniger für jeden Angriffspunkt Eurer Waffe.</deDE>
+    <enUS>Deal $5 damage to a minion.</enUS>
+    <frFR>Inflige $5 |4(point,points) de dégâts à un serviteur.</frFR>
+    <zhTW>對一個手下造成$5點傷害。</zhTW>
+    <zhCN>对一个随从造成$5点伤害。</zhCN>
+    <ruRU>Наносит существу $5 ед. урона.</ruRU>
+    <ptBR>Cause $5 de dano a um lacaio.</ptBR>
+    <plPL>Zadaj $5 pkt. obrażeń stronnikowi.</plPL>
+    <koKR>하수인에게 피해를 $5 줍니다.</koKR>
+    <itIT>Infligge $5 danni a un servitore.</itIT>
+    <esMX>Inflige $5 de daño a un esbirro.</esMX>
+    <esES>Inflige $5 p. de daño a un esbirro.</esES>
+    <deDE>Fügt einem Diener $5 Schaden zu.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trent Kaniuga</enUS>
-  </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="6dfc62b8-15d6-4a90-9717-f31bf1c57236" />
-  <Power definition="94961708-4c62-4f7b-a634-fdae1b555f90" />
+  <Power definition="90885d05-d9e7-4275-a327-80239b5cae8b">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

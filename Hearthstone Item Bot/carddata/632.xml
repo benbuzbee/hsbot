@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4d_001">
+<Entity version="2" CardID="tt_010a">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hemet Nesingwary</enUS>
-    <frFR>Hemet Nesingwary</frFR>
-    <zhTW>赫米特·奈辛瓦里</zhTW>
-    <zhCN>赫米特·奈辛瓦里</zhCN>
-    <ruRU>Хеминг Эрнестуэй</ruRU>
-    <ptBR>Rosarães Guima</ptBR>
-    <plPL>Hemet Nesingwary</plPL>
-    <koKR>헤멧 네싱워리</koKR>
-    <itIT>Hemet Nesingwary</itIT>
-    <esMX>Hemet Nesingwary</esMX>
-    <esES>Hemet Nesingwary</esES>
-    <enGB>Hemet Nesingwary</enGB>
-    <deDE>Hemet Nesingwary</deDE>
+    <enUS>Spellbender</enUS>
+    <frFR>Courbe-sort</frFR>
+    <zhTW>法術扭曲者</zhTW>
+    <zhCN>扰咒师</zhCN>
+    <ruRU>Чароплет</ruRU>
+    <ptBR>Dobradora de Feitiços</ptBR>
+    <plPL>Naginaczka zaklęć</plPL>
+    <koKR>주문왜곡사</koKR>
+    <itIT>Flettimagie</itIT>
+    <esMX>Dominahechizos</esMX>
+    <esES>Tuercehechizos</esES>
+    <deDE>Zauberformerin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="20" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="cd302b47-53b2-4ee8-8add-d5a85e6a6704" />
-  <Power definition="e0d17923-1143-4688-a85b-ffb152d017c2" />
-  <Power definition="a65cfd5e-72eb-40b8-a720-c1ec84aed903" />
-  <Power definition="1e4ebe04-94d5-460b-ae21-f417f4bc4a1b" />
-  <Power definition="b653b5a7-382c-4976-92e4-e38c771e2fe1" />
-  <Power definition="cbc3fa9d-e4f3-442b-9816-fffc6e933895" />
-  <Power definition="f88d562b-91d2-4e79-a0a2-983a74669f25" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>
+    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>
+    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>
+  </Tag>
 </Entity>

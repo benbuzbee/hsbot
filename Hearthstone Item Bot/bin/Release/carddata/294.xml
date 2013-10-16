@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_161o">
+<Entity version="2" CardID="EX1_145o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Demoralizing Roar</enUS>
-    <frFR>Rugissement démoralisant</frFR>
-    <zhTW>挫志咆哮</zhTW>
-    <zhCN>挫志咆哮</zhCN>
-    <ruRU>Устрашающий рев</ruRU>
-    <ptBR>Rugido Desmoralizante</ptBR>
-    <plPL>Demoralizujący ryk</plPL>
-    <koKR>위협의 포효</koKR>
-    <itIT>Ruggito Demoralizzante</itIT>
-    <esMX>Rugido desmoralizador</esMX>
-    <esES>Rugido desmoralizador</esES>
-    <enGB>Demoralizing Roar</enGB>
-    <deDE>Demoralisierendes Gebrüll</deDE>
+    <enUS>Preparation</enUS>
+    <zhTW>準備</zhTW>
+    <zhCN>伺机待发</zhCN>
+    <ruRU>Подготовка</ruRU>
+    <ptBR>Preparação</ptBR>
+    <plPL>Przygotowanie</plPL>
+    <koKR>마음가짐</koKR>
+    <itIT>Preparazione</itIT>
+    <frFR>Préparation</frFR>
+    <esMX>Preparación</esMX>
+    <esES>Preparación</esES>
+    <deDE>Vorbereitung</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has -3 Attack this turn.</enUS>
-    <frFR>Ce serviteur a -3 ATQ pendant ce tour.</frFR>
-    <zhTW>本回合這個手下-3攻擊力。</zhTW>
-    <zhCN>在本回合中，该随从获得-3攻击力。</zhCN>
-    <ruRU>Это существо получило -3 к атаке до конца хода.</ruRU>
-    <ptBR>Este lacaio está com -3 de Ataque neste turno.</ptBR>
-    <plPL>Ten stronnik ma w tej turze -3 do ataku.</plPL>
-    <koKR>이번 턴에 공격력 -3</koKR>
-    <itIT>-3 Attacco in questo turno.</itIT>
-    <esMX>Este esbirro tiene -3 de Ataque en este turno.</esMX>
-    <esES>Este esbirro tiene -3 p. de ataque este turno.</esES>
-    <enGB>This minion has -3 Attack this turn.</enGB>
-    <deDE>Dieser Diener hat -3 Angriff in diesem Zug.</deDE>
+    <enUS>The next spell you cast this turn costs (3) less.</enUS>
+    <zhTW>你在本回合內施放的下一個法術消耗減少(3)點。</zhTW>
+    <zhCN>你的下一个法术牌的法力值消耗减少（3）点。</zhCN>
+    <ruRU>Следующее заклинание, которое вы разыграете в этот ход, стоит на (3) маны меньше.</ruRU>
+    <ptBR>O próximo feitiço que você lançar custará (3) a menos.</ptBR>
+    <plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (3) mniej.</plPL>
+    <koKR>이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.</koKR>
+    <itIT>La prossima Magia che lanci in questo turno costa (3) Mana in meno.</itIT>
+    <frFR>Le prochain sort que vous lancez coûte (3) cristaux de moins.</frFR>
+    <esMX>El próximo hechizo que juegues en este turno cuesta (3) menos.</esMX>
+    <esES>El próximo hechizo que lances este turno costará (3) cristales menos.</esES>
+    <deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (3) weniger.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="83b3bfe2-8601-42df-b94f-0e6f1d884ae1" />
-  <Power definition="0657f370-9ff2-4a69-a900-9f4b14bd6462" />
-  <Power definition="5167e662-d66c-438e-975d-0cd8b3fa1732" />
+  <Power definition="993bd1eb-98b6-4581-861a-0990d9f473af" />
+  <Power definition="bc899945-db64-4a0d-83b2-857a0e05bef5" />
+  <Power definition="470b5e7b-1198-4f6f-a4e2-b7360a90a979" />
+  <Power definition="4464aef3-b928-4836-bfc9-a6d54410e47d" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

@@ -1,84 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_587">
-  <MasterPower>915080c5-726d-4231-9772-a60367576d80</MasterPower>
+<Entity version="2" CardID="EX1_567">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Windspeaker</enUS>
-    <frFR>Parlevent</frFR>
-    <zhTW>語風者</zhTW>
-    <zhCN>风语者</zhCN>
-    <ruRU>Говорящий с ветром</ruRU>
-    <ptBR>Voz dos Ventos</ptBR>
-    <plPL>Mówca wiatru</plPL>
-    <koKR>바람예언자</koKR>
-    <itIT>Oratore del Vento</itIT>
-    <esMX>Hablavientos</esMX>
-    <esES>Hablavientos</esES>
-    <enGB>Windspeaker</enGB>
-    <deDE>Windsprecher</deDE>
+    <enUS>Doomhammer</enUS>
+    <frFR>Marteau-du-Destin</frFR>
+    <zhTW>末日錘</zhTW>
+    <zhCN>毁灭之锤</zhCN>
+    <ruRU>Молот Рока</ruRU>
+    <ptBR>Martelo da Perdição</ptBR>
+    <plPL>Zgładziciel</plPL>
+    <koKR>둠해머</koKR>
+    <itIT>Martelfato</itIT>
+    <esMX>Martillo maldito</esMX>
+    <esES>Martillo maldito</esES>
+    <deDE>Schicksalshammer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Durability" enumID="187" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Windfury&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère &lt;b&gt;Furie des vents&lt;/b&gt; à un serviteur allié.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;使一個友方手下獲得&lt;b&gt;風怒&lt;/b&gt;。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得&lt;b&gt;风怒&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает способность &lt;b&gt;«Неистовство ветра»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda &lt;b&gt;Fúria dos Ventos&lt;/b&gt; a um lacaio aliado.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi &lt;b&gt;Furię wichru&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인에게 &lt;b&gt;질풍&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce &lt;b&gt;Furia del Vento&lt;/b&gt; a un tuo servitore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga &lt;b&gt;Viento furioso&lt;/b&gt; a un esbirro aliado.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga &lt;b&gt;Viento Furioso&lt;/b&gt; a un esbirro amistoso.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Windfury&lt;/b&gt;.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener &lt;b&gt;Windzorn&lt;/b&gt;.</deDE>
-  </Tag>
   <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Give &lt;b&gt;Windfury&lt;/b&gt;.</enUS>
-    <frFR>Confère &lt;b&gt;Furie des vents&lt;/b&gt;.</frFR>
-    <zhTW>賦予&lt;b&gt;風怒&lt;/b&gt;。</zhTW>
-    <zhCN>使一个随从获得&lt;b&gt;风怒&lt;/b&gt;。</zhCN>
-    <ruRU>Получит &lt;b&gt;«Неистовство ветра»&lt;/b&gt;</ruRU>
-    <ptBR>Conceda &lt;b&gt;Fúria dos Ventos&lt;/b&gt;.</ptBR>
-    <plPL>Daj Furię wichru.</plPL>
-    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
-    <itIT>Fornisce &lt;b&gt;Furia del Vento&lt;/b&gt;.</itIT>
-    <esMX>Otorga &lt;b&gt;Viento furioso&lt;/b&gt;.</esMX>
-    <esES>Otorga &lt;b&gt;Viento Furioso&lt;/b&gt;.</esES>
-    <enGB>Give &lt;b&gt;Windfury&lt;/b&gt;.</enGB>
-    <deDE>Verleiht &lt;b&gt;Windzorn&lt;/b&gt;.</deDE>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Windfury, Overload:&lt;/b&gt; (2)</enUS>
+    <frFR>&lt;b&gt;Furie des vents. Surcharge :&lt;/b&gt; (2)</frFR>
+    <zhTW>&lt;b&gt;風怒，超載:&lt;/b&gt;(2)</zhTW>
+    <zhCN>&lt;b&gt;风怒，过载：&lt;/b&gt;（2）</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos, Sobrecarga:&lt;/b&gt; (2)</ptBR>
+    <plPL>&lt;b&gt;Furia wichru, Przeciążenie:&lt;/b&gt; (2)</plPL>
+    <koKR>&lt;b&gt;질풍, 과부하:&lt;/b&gt; (2)</koKR>
+    <itIT>&lt;b&gt;Furia del Vento, Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
+    <esMX>&lt;b&gt;Viento furioso, Sobrecarga:&lt;/b&gt; (2)</esMX>
+    <esES>&lt;b&gt;Viento Furioso, Sobrecarga:&lt;/b&gt; (2)</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;, &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Vance Kovacs</enUS>
+    <enUS>John "JP" Polidora</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Is there anything worse than a Windspeaker with halitosis?</enUS>
-    <zhTW>還有什麼比有口臭的語風者更糟糕的東西嗎?</zhTW>
-    <zhCN>患有口臭的风语者...还有什么比这更糟糕的吗？</zhCN>
-    <ruRU>Нет ничего хуже &lt;i&gt;Говорящего с ветром&lt;/i&gt;, который забыл почистить зубы.</ruRU>
-    <ptBR>Tem coisa pior que uma Voz dos Ventos com mau hálito?</ptBR>
-    <plPL>Czy jest coś gorszego niż mówca wiatru z cuchnącym oddechem?</plPL>
-    <koKR>입 냄새 심한 바람예언자보다 끔찍한 게 있을까요?</koKR>
-    <itIT>No, non sa parlare emettendo flatulenze.</itIT>
-    <frFR>Quand il lâche un vent, mieux vaut ne pas se trouver derrière lui...</frFR>
-    <esMX>¿Habrá algo peor que un Hablavientos con halitosis?</esMX>
-    <esES>No se le puede contar un secreto: lo grita a los cuatro vientos.</esES>
-    <deDE>Man kann nur hoffen, dass er keinen Mundgeruch hat.</deDE>
+    <enUS>Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.</enUS>
+    <zhTW>奧格林·末日錘將這把傳說武器給了索爾。至於他的名字，完全是巧合。</zhTW>
+    <zhCN>奥格瑞姆·毁灭之锤将他的传奇武器赠与了萨尔。他的名字只是纯属巧合。</zhCN>
+    <ruRU>Это легендарное оружие подарил Траллу Оргрим Молот Рока. Совпадение имен — чистая случайность.</ruRU>
+    <ptBR>Orgrim Martelo da Perdição deu sua arma lendária para Thrall. O nome dele é só uma coincidência.</ptBR>
+    <plPL>Orgrim Zgładziciel dał ten legendarny oręż Thrallowi. Nazwa to zupełny przypadek.</plPL>
+    <koKR>오그림 둠해머는 자신의 전설적인 무기를 스랄에게 주었습니다. 무기와 그의 이름이 같은 건... 그저 우연입니다.</koKR>
+    <itIT>Orgrim Martelfato diede quest'arma leggendaria a Thrall. Il suo nome è solamente una piccola coincidenza.</itIT>
+    <frFR>Cette arme légendair fut offerte à Thrall par Orgrimm Marteau-du-Destin. Mais son nom est une simple coïncidence.</frFR>
+    <esMX>Orgrim Martillo Maldito le dio esta arma legendaria a Thrall. Su nombre es pura coincidencia.</esMX>
+    <esES>Thrall recibió esta arma legendaria de manos de Orgrim Martillo Maldito, pero rechazó quedarse también con el apellido.</esES>
+    <deDE>Orgrim Schicksalshammer gab Thrall diese legendäre Waffe. Ähnlichkeiten zwischen den Namen sind rein zufällig.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Windfury" enumID="189" type="Bool" value="1" />
-  <Power definition="915080c5-726d-4231-9772-a60367576d80">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="56d28c52-0f37-4b9d-a820-f2da1a249071" />
+  <Power definition="30c7ff8d-c1fc-426a-8b8c-60f53440e00e" />
 </Entity>

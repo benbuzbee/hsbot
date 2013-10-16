@@ -1,52 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_169">
+<Entity version="2" CardID="CS2_122e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Young Dragonhawk</enUS>
-    <frFR>Jeune faucon-dragon</frFR>
-    <zhTW>小龍鷹</zhTW>
-    <zhCN>幼龙鹰</zhCN>
-    <ruRU>Молодой дракондор</ruRU>
-    <ptBR>Falcodrago Jovem</ptBR>
-    <plPL>Młody smoczy jastrząb</plPL>
-    <koKR>어린 용매</koKR>
-    <itIT>Dragofalco Giovane</itIT>
-    <esMX>Dracohalcón joven</esMX>
-    <esES>Dracohalcón joven</esES>
-    <enGB>Young Dragonhawk</enGB>
-    <deDE>Junger Drachenfalke</deDE>
+    <enUS>Enhanced</enUS>
+    <frFR>Amélioration</frFR>
+    <zhTW>強化</zhTW>
+    <zhCN>强化</zhCN>
+    <ruRU>Усиление</ruRU>
+    <ptBR>Aprimorado</ptBR>
+    <plPL>Wzmocnienie</plPL>
+    <koKR>고양</koKR>
+    <itIT>Potenziato</itIT>
+    <esMX>Mejorado</esMX>
+    <esES>Mejorado</esES>
+    <deDE>Verbessert</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Windfury&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
+    <enUS>Raid Leader is granting this minion +1 Attack.</enUS>
+    <frFR>Le chef de raid confère +1 ATQ à ce serviteur.</frFR>
+    <zhTW>團隊隊長賦予了這個手下+1攻擊力。</zhTW>
+    <zhCN>团队领袖使得该随从获得+1攻击力。</zhCN>
+    <ruRU>+1 к атаке от &lt;i&gt;Лидера рейда&lt;/i&gt;.</ruRU>
+    <ptBR>O Líder do Raide está concedendo +1 de ataque a este lacaio.</ptBR>
+    <plPL>Dowódca rajdu daje temu stronnikowi +1 do ataku.</plPL>
+    <koKR>공격대장이 공격력 +1 부여</koKR>
+    <itIT>+1 Attacco dal Capoincursione.</itIT>
+    <esMX>El Líder de banda le otorga +1 de Ataque a este esbirro.</esMX>
+    <esES>El líder de banda otorga +1 p. de ataque a este esbirro.</esES>
+    <deDE>Der Schlachtzugsleiter verleiht diesem Diener +1 Angriff.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Greg Hildebrandt</enUS>
-  </Tag>
-  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
-  <Power definition="3d475a80-25de-4b52-8c22-baecfa5bff4f" />
+  <Power definition="ff43a337-8acf-4bf6-a593-dd670e01f2cf" />
+  <Power definition="ab600413-07b4-4bff-aec8-1b74b191763d" />
 </Entity>

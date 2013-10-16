@@ -1,53 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_284">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_245">
+  <MasterPower>5b15512a-0fc5-464c-a57c-47d7899fd4f6</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Azure Drake</enUS>
-    <frFR>Drake azur</frFR>
-    <zhTW>蒼藍龍</zhTW>
-    <zhCN>碧蓝幼龙</zhCN>
-    <ruRU>Лазурный дракон</ruRU>
-    <ptBR>Draco Lazúli</ptBR>
-    <plPL>Lazurowy smokowiec</plPL>
-    <koKR>하늘빛 비룡</koKR>
-    <itIT>Draco di Zaffiro</itIT>
-    <esMX>Draco azur</esMX>
-    <esES>Draco azur</esES>
-    <enGB>Azure Drake</enGB>
-    <deDE>Azurblauer Drache</deDE>
+    <enUS>Earth Shock</enUS>
+    <frFR>Horion de terre</frFR>
+    <zhTW>大地震擊</zhTW>
+    <zhCN>大地震击</zhCN>
+    <ruRU>Земной шок</ruRU>
+    <ptBR>Choque Terreno</ptBR>
+    <plPL>Wstrząs ziemi</plPL>
+    <koKR>대지 충격</koKR>
+    <itIT>Folgore della Terra</itIT>
+    <esMX>Choque de tierra</esMX>
+    <esES>Choque de tierra</esES>
+    <deDE>Erdschock</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Power +1&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
-    <frFR>&lt;b&gt;+1 Puissance des sorts&lt;/b&gt;. &lt;b&gt;Cri de guerre :&lt;/b&gt; vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;法術能量+1&lt;/b&gt;。&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌。</zhTW>
-    <zhCN>&lt;b&gt;法术强度+1&lt;/b&gt;。&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
-    <ruRU>&lt;b&gt;Сила заклинаний +1&lt;/b&gt;. &lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
-    <ptBR>&lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;. &lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
-    <plPL>&lt;b&gt;Moc zaklęć +1&lt;/b&gt;. &lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
-    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;. &lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 한 장 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;. &lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
-    <esMX>&lt;b&gt;Poder de hechizo +1&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; roba una carta.</esMX>
-    <esES>&lt;b&gt;+1 p. de poder con hechizos&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; Roba una carta.</esES>
-    <enGB>&lt;b&gt;Spell Power +1&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enGB>
-    <deDE>&lt;b&gt;Zaubermacht +1&lt;/b&gt;. &lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht eine Karte. </deDE>
+    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion, then deal $1 damage to it.</enUS>
+    <frFR>Réduit un serviteur au &lt;b&gt;Silence&lt;/b&gt;, puis lui inflige $1 |4(point,points) de dégâts. </frFR>
+    <zhTW>沉默一個手下，然後對它造成$1點傷害。</zhTW>
+    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从，然后对其造成$1点伤害。</zhCN>
+    <ruRU>Накладывает на выбранное существо эффект &lt;b&gt;немоты&lt;/b&gt; и наносит ему $1 ед. урона. </ruRU>
+    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio, então cause $1 de dano a ele.</ptBR>
+    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika, a następnie zadaj mu $1 pkt. obrażeń.</plPL>
+    <koKR>하수인을 &lt;b&gt;침묵&lt;/b&gt;시키고, 피해를 $1 줍니다.</koKR>
+    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore e gli infligge $1 danno.</itIT>
+    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 de daño.</esMX>
+    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 p. de daño.</esES>
+    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt; und fügt ihm dann $1 Schaden zu.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ben Zhang</enUS>
+    <enUS>Kevin Chin</enUS>
   </Tag>
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="4d8005a1-3d46-45b2-af67-b1f47cd61dd4" />
-  <Power definition="5cc417a4-2a75-433a-966e-c081ed160ac4" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Earth Shock? Shouldn't it be "Azeroth Shock"?</enUS>
+    <zhTW>地震就地震，什麼叫「大地震擊」?</zhTW>
+    <zhCN>大地震击？确切地说，就是“艾泽拉斯震击”吗？</zhCN>
+    <ruRU>Почему это заклинание называется «Земной шок», а не «Азеротский шок»?</ruRU>
+    <ptBR>Choque Terreno? Não deveria ser "Choque Azerothiano"?</ptBR>
+    <plPL>Wstrząs Ziemi? A nie powinien to być raczej „Wstrząs Azeroth”?</plPL>
+    <koKR>돼지 충격이라고요? 이런, 아니군요. 배가 너무 고파서 그만.</koKR>
+    <itIT>Folgore della Terra? Non dovrebbe essere "Folgore di Azeroth"?</itIT>
+    <frFR>Horion de terre ? Ça ne devrait pas être « Horion d’Azeroth » ?</frFR>
+    <esMX>¿Choque de tierra? ¿No debería ser "Choque de Azeroth"?</esMX>
+    <esES>Si los gnomos fueran chamanes, ¿podrían ser sus propios tótems?</esES>
+    <deDE>Erdschock? Sollte es nicht eher „Azerothschock“ heißen?</deDE>
+  </Tag>
+  <Tag name="Silence" enumID="339" type="Bool" value="1" />
+  <Power definition="5b15512a-0fc5-464c-a57c-47d7899fd4f6">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

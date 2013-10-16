@@ -1,46 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_620">
+<Entity version="2" CardID="EX1_604o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Molten Giant</enUS>
-    <frFR>Géant de lave</frFR>
-    <zhTW>熔火巨人</zhTW>
-    <zhCN>熔核巨人</zhCN>
-    <ruRU>Огненный великан</ruRU>
-    <ptBR>Gigante Derretido</ptBR>
-    <plPL>Ognisty olbrzym</plPL>
-    <koKR>용암거인</koKR>
-    <itIT>Gigante Fuso</itIT>
-    <esMX>Gigante fundido</esMX>
-    <esES>Gigante fundido</esES>
-    <enGB>Molten Giant</enGB>
-    <deDE>Geschmolzener Riese</deDE>
+    <enUS>Berserk</enUS>
+    <frFR>Berserk</frFR>
+    <zhTW>狂暴</zhTW>
+    <zhCN>狂暴</zhCN>
+    <ruRU>Берсерк</ruRU>
+    <ptBR>Berserk</ptBR>
+    <plPL>Wściekłość</plPL>
+    <koKR>광폭화</koKR>
+    <itIT>Berserk</itIT>
+    <esMX>Rabioso</esMX>
+    <esES>Rabia</esES>
+    <deDE>Rasend</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="20" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Costs (1) less for each damage your hero has taken.</enUS>
-    <frFR>Coûte (1) de moins pour chaque point de dégâts subi par votre héros.</frFR>
-    <zhTW>你的英雄受到的每一點傷害使消耗減少(1)點。</zhTW>
-    <zhCN>你的英雄每受到1点伤害，这张牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>Стоит на (1) ману меньше за каждое повреждение, полученное вашим героем.</ruRU>
-    <ptBR>Custa (1) a menos para cada dano recebido pelo seu herói.</ptBR>
-    <plPL>Kosztuje (1) mniej za każdy punkt obrażeń otrzymany przez twojego bohatera.</plPL>
-    <koKR>당신의 영웅이 입은 피해 1당 비용이 1씩 감소합니다.</koKR>
-    <itIT>Costa (1) Mana in meno per ogni danno subito dal tuo eroe.</itIT>
-    <esMX>Cuesta (1) menos por cada punto de daño que haya recibido tu héroe.</esMX>
-    <esES>Cuesta (1) p. menos por cada punto de daño que haya recibido tu héroe.</esES>
-    <enGB>Costs (1) less for each damage your hero has taken.</enGB>
-    <deDE>Kostet (1) weniger für jeden Schadenspunkt, den Euer Held erlitten hat.</deDE>
+    <enUS>Increased Attack.</enUS>
+    <frFR>Attaque augmentée.</frFR>
+    <zhTW>攻擊力提高。</zhTW>
+    <zhCN>攻击力增加。</zhCN>
+    <ruRU>Атака увеличена.</ruRU>
+    <ptBR>Ataque aumentado.</ptBR>
+    <plPL>Zwiększony atak.</plPL>
+    <koKR>공격력 증가</koKR>
+    <itIT>Attacco aumentato.</itIT>
+    <esMX>Ataque aumentado.</esMX>
+    <esES>Ataque aumentado.</esES>
+    <deDE>Erhöhter Angriff.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
-  </Tag>
-  <Power definition="dc6a0080-28ac-404a-9297-c7e677c80caa" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="11178260-9a33-4dd7-a96d-e0c101cab844" />
 </Entity>

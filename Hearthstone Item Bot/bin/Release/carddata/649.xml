@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4f_006">
-  <MasterPower>19f5c650-aae8-4417-a2a3-6f04ed1a09bc</MasterPower>
+<Entity version="2" CardID="TU4c_008e">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Transcendence</enUS>
-    <frFR>Transcendance</frFR>
-    <zhTW>超凡入聖</zhTW>
-    <zhCN>魂体双分</zhCN>
-    <ruRU>Трансцендентность</ruRU>
-    <ptBR>Transcendência</ptBR>
-    <plPL>Transcendencja</plPL>
-    <koKR>초월</koKR>
-    <itIT>Trascendenza</itIT>
-    <esMX>Trascendencia</esMX>
-    <esES>Transcendencia</esES>
-    <enGB>Transcendence</enGB>
-    <deDE>Transzendenz</deDE>
+    <enUS>Might of Mukla</enUS>
+    <frFR>Puissance de Mukla</frFR>
+    <zhTW>穆克拉的力量</zhTW>
+    <zhCN>穆克拉之力</zhCN>
+    <ruRU>Мощь Муклы</ruRU>
+    <ptBR>Poder de Mukla</ptBR>
+    <plPL>Moc Mukli</plPL>
+    <koKR>무클라의 힘</koKR>
+    <itIT>Vigore di Mukla</itIT>
+    <esMX>Poderío de Mukla</esMX>
+    <esES>Poderío de Mukla</esES>
+    <deDE>Die Macht Muklas</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Until you kill Cho's minions, he can't be attacked.</enUS>
-    <frFR>Cho ne peut pas être attaqué tant qu’il a des serviteurs.</frFR>
-    <zhTW>除非你先殺死阿洲的手下，你無法攻擊他。</zhTW>
-    <zhCN>除非你杀死周卓的随从，否则他无法被攻击。</zhCN>
-    <ruRU>Вы не можете атаковать Чо, пока не убьете его существ.</ruRU>
-    <ptBR>Até você matar os lacaios de Cho, ele não pode ser atacado.</ptBR>
-    <plPL>Nie możesz zaatakować Czo, dopóki nie zabijesz jego stronników.</plPL>
-    <koKR>초의 하수인들을 처치하기 전에는 초를 공격할 수 없습니다.</koKR>
-    <itIT>Non puoi attaccare Cho fin quando non uccidi i suoi servitori.</itIT>
-    <esMX>Hasta que no mates a los esbirros de Cho, no podrás atacarlo.</esMX>
-    <esES>No puedes atacar a Cho hasta que hayas matado a todos sus esbirros.</esES>
-    <enGB>Until you kill Cho's minions, he can't be attacked.</enGB>
-    <deDE>Cho kann nicht angegriffen werden, bevor Ihr seine Diener erledigt habt.</deDE>
+    <enUS>King Mukla has +8 Attack this turn.</enUS>
+    <frFR>Le roi Mukla a +8 en Attaque pendant ce tour.</frFR>
+    <zhTW>穆克拉本回合+8攻擊力。</zhTW>
+    <zhCN>在本回合中，穆克拉获得+8攻击力。</zhCN>
+    <ruRU>Король Мукла получает +8 к атаке до конца хода.</ruRU>
+    <ptBR>O Rei Mukla tem +8 de Ataque neste turno.</ptBR>
+    <plPL>Król Mukla ma +8 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +8</koKR>
+    <itIT>Re Mukla ha +8 Attacco in questo turno.</itIT>
+    <esMX>El Rey Mukla tiene +8 de Ataque en este turno.</esMX>
+    <esES>El rey Mukla tiene +8 p. de ataque este turno.</esES>
+    <deDE>König Mukla hat +8 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="19f5c650-aae8-4417-a2a3-6f04ed1a09bc" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="35946200-4ff8-4149-a67d-497f1bf9233d" />
+  <Power definition="471982da-3d38-4d11-a52c-8bc5492e64a4" />
 </Entity>

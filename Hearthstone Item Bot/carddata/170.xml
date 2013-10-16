@@ -1,50 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_055">
+<Entity version="2" CardID="CS2_227">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Darkscale Healer</enUS>
-    <frFR>Soigneuse sombrécaille</frFR>
-    <zhTW>暗鱗醫者</zhTW>
-    <zhCN>暗鳞治愈者</zhCN>
-    <ruRU>Нага-целительница</ruRU>
-    <ptBR>Curadora Escamanegra</ptBR>
-    <plPL>Znachorka Mrocznołuskich</plPL>
-    <koKR>어둠비늘 치유사</koKR>
-    <itIT>Guaritrice Scagliascura</itIT>
-    <esMX>Sanadora escama oscura</esMX>
-    <esES>Sanadora Escama Oscura</esES>
-    <enGB>Darkscale Healer</enGB>
-    <deDE>Dunkelschuppenheilerin</deDE>
+    <enUS>Venture Co. Mercenary</enUS>
+    <frFR>Nervi de la KapitalRisk</frFR>
+    <zhTW>風險投資公司雇傭兵</zhTW>
+    <zhCN>风险投资公司雇佣兵</zhCN>
+    <ruRU>Алчный наемник</ruRU>
+    <ptBR>Mercenário da Empreendimentos S.A.</ptBR>
+    <plPL>Zbir spółki Gitgeszeft</plPL>
+    <koKR>투자개발회사 용병</koKR>
+    <itIT>Sgherro della S.P.R. &amp; Co.</itIT>
+    <esMX>Mercenario de Ventura y Cía.</esMX>
+    <esES>Mercenario Ventura y Cía.</esES>
+    <deDE>Söldner der Venture Co.</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 2 Health to all friendly characters.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; rend 2 points de vie à tous les personnages alliés.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;替全部友方角色恢復2點生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;为所有友方角色恢复2点生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; восстанавливает 2 ед. здоровья всем вашим персонажам.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Restaure 2 de Vida de todos os personagens aliados.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przywróć 2 pkt. zdrowia wszystkim przyjaznym postaciom.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 모든 아군 캐릭터의 생명력을 2 회복시킵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; rigenera 2 Salute a tutti i tuoi personaggi.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; restaura 2 de Salud a todos los personajes aliados.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Restaura 2 p. de salud a todos los personajes amistosos.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 2 Health to all friendly characters.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Stellt bei allen befreundeten Charakteren 2 Leben wieder her.</deDE>
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Power</enUS>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Your minions cost (3) more.</enUS>
+    <frFR>Vos serviteurs coûtent (3) cristaux de plus.</frFR>
+    <zhTW>你的手下消耗增加(3)點。</zhTW>
+    <zhCN>你的随从牌的法力值消耗增加（3）点。</zhCN>
+    <ruRU>Ваши существа стоят на (3) маны больше.</ruRU>
+    <ptBR>Seus lacaios custam (3) a mais.</ptBR>
+    <plPL>Twoi stronnicy kosztują (3) więcej.</plPL>
+    <koKR>내 하수인들의 비용이 (3) 증가합니다.</koKR>
+    <itIT>I tuoi servitori costano (3) Mana in più.</itIT>
+    <esMX>Tus esbirros cuestan (3) más.</esMX>
+    <esES>Tus esbirros cuestan (3) cristales más.</esES>
+    <deDE>Eure Diener kosten (3) mehr.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jesper Ejsing</enUS>
+    <enUS>John "JP" Polidora</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="591b001d-08af-4377-b046-74f1d700531d" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>No Job is too big.  No fee is too big.</enUS>
+    <zhTW>工作多多益善。錢也多多益善。</zhTW>
+    <zhCN>有钱能使鬼推磨。</zhCN>
+    <ruRU>Он может смотреть бесконечно на то, как льется вода, горит огонь и блестит его гонорар.</ruRU>
+    <ptBR>Nenhum trabalho é grande demais. Nenhum preço é alto demais.</ptBR>
+    <plPL>Właściciele goblińskiej spółki Gitgeszeft to tłuste szuje. I choć wszędzie węszą kasy pełne, nadal coś im w bankach nie sztymuje.</plPL>
+    <koKR>감당할 수 없는 일은 없습니다. 감당할 수 없는 돈도 없습니다.</koKR>
+    <itIT>Se un lavoro è rischioso, lo stipendio non è mai abbastanza alto.</itIT>
+    <frFR>Je finis toujours le travail pour lequel on me paie.</frFR>
+    <esMX>Para él no hay trabajo demasiado riesgoso. Ni precio demasiado alto.</esMX>
+    <esES>Está a tu servicio... por un módico precio.</esES>
+    <deDE>Kein Auftrag ist unmöglich. Es kommt ganz auf die Bezahlung an.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="79506256-a5e7-44bc-ba14-41765584d134" />
 </Entity>

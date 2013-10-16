@@ -1,41 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_013t">
-  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>
+<Entity version="2" CardID="CS1_129">
+  <MasterPower>126f032e-e9db-43ff-968f-f1eabcdead0b</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Excess Mana</enUS>
-    <zhTW>法力溢出</zhTW>
-    <zhCN>法力过剩</zhCN>
-    <ruRU>Избыток маны</ruRU>
-    <ptBR>Excesso de Mana</ptBR>
-    <plPL>Nadmiar many</plPL>
-    <koKR>넘치는 마나</koKR>
-    <itIT>Eccesso di Mana</itIT>
-    <frFR>Excès de mana</frFR>
-    <esMX>Exceso de maná</esMX>
-    <esES>Maná sobrante</esES>
-    <enGB>Excess Mana</enGB>
-    <deDE>Überschüssiges Mana</deDE>
+    <enUS>Inner Fire</enUS>
+    <zhTW>心靈之火</zhTW>
+    <zhCN>心灵之火</zhCN>
+    <ruRU>Внутренний огонь</ruRU>
+    <ptBR>Fogo Interior</ptBR>
+    <plPL>Wewnętrzny żar</plPL>
+    <koKR>내면의 열정</koKR>
+    <itIT>Fuoco Interiore</itIT>
+    <frFR>Feu intérieur</frFR>
+    <esMX>Fuego interno</esMX>
+    <esES>Fuego interno</esES>
+    <deDE>Inneres Feuer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>
-    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶。)&lt;/i&gt;</zhTW>
-    <zhCN>抽1张牌。&lt;i&gt;（你最多可以拥有10点法力值。）&lt;/i&gt;</zhCN>
-    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>
-    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>
-    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w swoim zasobniku.)&lt;/i&gt;</plPL>
-    <koKR>카드를 한 장 뽑습니다. &lt;i&gt;(마나는 10개까지만 보유 가능)&lt;/i&gt;</koKR>
-    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>
-    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>
-    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>
-    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 p. de maná.)&lt;/i&gt;</esES>
-    <enGB>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enGB>
-    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>
+    <enUS>Change a minion's Attack to be equal to its Health.</enUS>
+    <zhTW>將一個手下的攻擊力改為與生命值相等。</zhTW>
+    <zhCN>使一个随从的攻击力等同于其生命值。</zhCN>
+    <ruRU>Атака выбранного существа становится равна его здоровью.</ruRU>
+    <ptBR>Mude o Ataque de um lacaio para ser igual à Vida dele.</ptBR>
+    <plPL>Zmień atak stronnika na równy jego zdrowiu.</plPL>
+    <koKR>하수인의 공격력을 생명력과 같은 수치로 바꿉니다.</koKR>
+    <itIT>L'Attacco di un servitore diventa pari alla sua Salute.</itIT>
+    <frFR>Change l’Attaque d’un serviteur pour qu’elle soit égale à ses PV.</frFR>
+    <esMX>Cambia el Ataque de un esbirro para que sea equivalente a su Salud.</esMX>
+    <esES>Cambia el ataque de un esbirro para que sea igual a su salud.</esES>
+    <deDE>Setzt den Angriff eines Dieners auf einen Wert, der seinem Leben entspricht.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Good idea: Buffing your minions.  Bad idea: Starting a conversation in the Barrens.</enUS>
+    <zhTW>好主意:強化你的手下。壞主意:在貧瘠之地進行聊天。</zhTW>
+    <zhCN>增强你的士兵才是上策，去贫瘠之地谈判只是无奈之举。</zhCN>
+    <ruRU>Сделать своих существ сильнее – хорошая идея. Начинать разговор в Степях – плохая идея.</ruRU>
+    <ptBR>Boa ideia: dar bônus aos seus lacaios. Má ideia: puxar conversa nos Sertões.</ptBR>
+    <plPL>Dobry pomysł: dopakowanie stronników. Zły pomysł: stronienie od dopakowania.</plPL>
+    <koKR>추천: 하수인 강화하기. 비추: 불모의 땅에서 대화 상대 찾기</koKR>
+    <itIT>Idea intelligente: potenziare i propri servitori. Idea pessima: cominciare una conversazione nelle Savane.</itIT>
+    <frFR>Améliorer vos serviteurs : bonne idée. Entamer la discussion dans les Tarides : mauvaise idée.</frFR>
+    <esMX>Buena idea: potenciar a tus esbirros. Mala idea: comenzar una conversación en los Baldíos.</esMX>
+    <esES>Mucho mejor que el fuego externo.</esES>
+    <deDE>Gute Idee: Diener verstärken. Schlechte Idee: Eine Unterhaltung im Brachland anfangen.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="afbc46d9-471b-4963-944a-fddb08f7df86" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Steve Prescott</enUS>
+  </Tag>
+  <Power definition="126f032e-e9db-43ff-968f-f1eabcdead0b">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

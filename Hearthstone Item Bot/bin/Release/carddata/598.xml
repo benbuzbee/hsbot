@@ -1,44 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_036e2">
+<Entity version="2" CardID="NEW1_023">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Commanding Shout</enUS>
-    <frFR>Cri de commandement</frFR>
-    <zhTW>命令之吼</zhTW>
-    <zhCN>命令怒吼</zhCN>
-    <ruRU>Командирский крик</ruRU>
-    <ptBR>Brado de Comando</ptBR>
-    <plPL>Rozkazujący okrzyk</plPL>
-    <koKR>지휘의 외침</koKR>
-    <itIT>Urlo di Comando</itIT>
-    <esMX>Grito de orden</esMX>
-    <esES>Grito de orden</esES>
-    <enGB>Commanding Shout</enGB>
-    <deDE>Befehlsruf</deDE>
+    <enUS>Faerie Dragon</enUS>
+    <frFR>Dragon féerique</frFR>
+    <zhTW>精靈龍</zhTW>
+    <zhCN>精灵龙</zhCN>
+    <ruRU>Чудесный дракончик</ruRU>
+    <ptBR>Dragoleta</ptBR>
+    <plPL>Bajkowy smok</plPL>
+    <koKR>요정용</koKR>
+    <itIT>Drago Fatato</itIT>
+    <esMX>Dragón feérico</esMX>
+    <esES>Dragón feérico</esES>
+    <deDE>Feendrache</deDE>
   </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Can't be targeted by Spells or Hero Powers.</enUS>
+    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>
+    <zhTW>無法被法術或英雄能力指定。</zhTW>
+    <zhCN>无法成为法术或者英雄技能的目标。</zhCN>
+    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>
+    <ptBR>Não pode ser alvo de Feitiços nem de Poderes Heroicos.</ptBR>
+    <plPL>Nie może stać się celem zaklęcia lub mocy specjalnej.</plPL>
+    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>
+    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>
+    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe</esMX>
+    <esES>No puede ser objetivo de hechizos ni poderes de héroe.</esES>
+    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten ausgewählt werden.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your minions can't be reduced below 1 Health this turn.</enUS>
-    <frFR>Les points de vie de vos serviteurs ne peuvent pas passer en dessous de 1 ce tour-ci.</frFR>
-    <zhTW>你的手下們在本回合內生命值無法被降到低於1點。</zhTW>
-    <zhCN>在本回合中，你的随从的生命值无法被降到1点以下。</zhCN>
-    <ruRU>Здоровье ваших существ не может быть уменьшено ниже 1 ед. до конца хода.</ruRU>
-    <ptBR>Seus lacaios não podem ser reduzidos a menos de 1 de Vida neste turno.</ptBR>
-    <plPL>W tej turze twoi stronnicy nie mogą zejść poniżej 1 pkt. zdrowia.</plPL>
-    <koKR>이번 턴에는 당신 하수인들의 생명력이 1 아래로 내려가지 않습니다.</koKR>
-    <itIT>In questo turno, i tuoi servitori non possono essere portati al di sotto di 1 Salute.</itIT>
-    <esMX>La Salud de tus esbirros no puede reducirse a menos de 1 en este turno.</esMX>
-    <esES>La salud de tus esbirros no puede bajar de 1 p. este turno.</esES>
-    <enGB>Your minions can't be reduced below 1 Health this turn.</enGB>
-    <deDE>Das Leben Eurer Diener kann in diesem Zug nicht unter 1 fallen.</deDE>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Samwise Didier</enUS>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="b420abe4-00ad-40c7-91ad-4a00f8dd91df" />
-  <Power definition="ff62df1d-a870-4772-add2-088eb2aefe7d" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Race" enumID="200" type="Race" value="24" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Adorable.  Immune to Magic.  Doesn't pee on the rug.  The perfect pet!</enUS>
+    <zhTW>可愛。對魔法免疫。不會在地毯上小便。簡直是完美的寵物!</zhTW>
+    <zhCN>可爱至极，免疫魔法，不会在毯子上撒尿。真是完美的宠物！</zhCN>
+    <ruRU>Очаровательный, милый, неуязвимый к магии и не точит когти о ковер. Идеальный питомец!</ruRU>
+    <ptBR>Adorável. Imune a magia. Não faz xixi no carpete. A mascote perfeita!</ptBR>
+    <plPL>Rozkoszny. Niewrażliwy na magię. Nie sika na dywan. Idealny domowy zwierzak.</plPL>
+    <koKR>깜찍합니다. 마법에 면역입니다. 바닥에 쉬를 하지도 않습니다. 정말 완벽한 애완동물 아닌가요?</koKR>
+    <itIT>Adorabile. Immune alla magia. Non urina sul tappeto. Il perfetto animale domestico.</itIT>
+    <frFR>Adorable, insensible à la magie et ne fait pas pipi sur la moquette. L’animal de compagnie parfait !</frFR>
+    <esMX>Adorable. Inmune a la magia. No hace pipí en la alfombra. La mascota ideal.</esMX>
+    <esES>Es adorable, inmune a la magia y barato de mantener. ¡Es la mascota perfecta!</esES>
+    <deDE>Putzig. Immun gegen Magie. Pinkelt nicht auf den Teppich. Das perfekte Haustier!</deDE>
+  </Tag>
+  <Power definition="5ec0e8f9-5e93-4545-b083-43f9732457be" />
 </Entity>

@@ -1,51 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka1">
+<Entity version="2" CardID="GAME_001">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Homing Chicken</enUS>
-    <frFR>Poulet à tête chercheuse</frFR>
-    <zhTW>自動導航小雞</zhTW>
-    <zhCN>导航小鸡</zhCN>
-    <ruRU>Реактивная курица</ruRU>
-    <ptBR>Galinha Teleguiada</ptBR>
-    <plPL>Samonaprowadzany kurczak</plPL>
-    <koKR>유도 닭</koKR>
-    <itIT>Gallina a Ricerca</itIT>
-    <esMX>Pollo buscador</esMX>
-    <esES>Pollo buscador</esES>
-    <enGB>Homing Chicken</enGB>
-    <deDE>Zielsuchendes Huhn</deDE>
+    <enUS>Luck of the Coin</enUS>
+    <zhTW>擲幣之幸運</zhTW>
+    <zhCN>幸运币祝福</zhCN>
+    <ruRU>Счастливая монетка</ruRU>
+    <ptBR>Sorte da Moeda</ptBR>
+    <plPL>Szczęśliwa moneta</plPL>
+    <koKR>동전의 행운</koKR>
+    <itIT>Fortuna della Moneta</itIT>
+    <frFR>Chance de la pièce</frFR>
+    <esMX>Fortuna de la moneda</esMX>
+    <esES>La suerte de la moneda</esES>
+    <deDE>Glück der Münze</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Pecking</enUS>
-  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, destroy this minion and draw 3 cards.</enUS>
-    <frFR>Au début de votre tour, ce serviteur est détruit et vous piochez 3 cartes.</frFR>
-    <zhTW>在你的回合開始時，摧毀這個手下並抽3張牌。</zhTW>
-    <zhCN>在你的回合开始时，消灭该随从，并抽3张牌。</zhCN>
-    <ruRU>В начале вашего хода это существо будет уничтожено. Вы берете 3 карты.</ruRU>
-    <ptBR>No início do seu turno, destrua este lacaio e compre 3 cards.</ptBR>
-    <plPL>Na początku swojej tury zniszcz tego stronnika i dobierz 3 karty.</plPL>
-    <koKR>당신의 턴이 시작될 때, 이 하수인을 파괴하고 카드를 세 장 뽑습니다.</koKR>
-    <itIT>All'inizio del tuo turno, distruggi questo servitore e pesca 3 carte.</itIT>
-    <esMX>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esMX>
-    <esES>Al comienzo de tu turno, destruye a este esbirro y roba 3 cartas.</esES>
-    <enGB>At the start of your turn, destroy this minion and draw 3 cards.</enGB>
-    <deDE>Vernichtet zu Beginn Eures Zuges diesen Diener und zieht 3 Karten.</deDE>
+    <enUS>Going second grants you increased Health.</enUS>
+    <zhTW>後手讓你獲得額外的生命值。</zhTW>
+    <zhCN>后手出牌会使你的生命值提高。</zhCN>
+    <ruRU>Если вы ходите вторым, у вас увеличивается здоровье.</ruRU>
+    <ptBR>Ser o segundo a jogar concede a você mais Vida.</ptBR>
+    <plPL>Dzięki temu, że jesteś drugim graczem, otrzymujesz zwiększone zdrowie.</plPL>
+    <koKR>후공으로 시작하면 추가 생명력을 얻습니다.</koKR>
+    <itIT>Cominciare per secondo ti fornisce Salute aumentata.</itIT>
+    <frFR>Passer en second augmente vos points de vie.</frFR>
+    <esMX>Ser el segundo te asegura más Salud.</esMX>
+    <esES>Ir en segundo lugar te otorga salud aumentada.</esES>
+    <deDE>Da Ihr als Zweiter dran seid, habt Ihr mehr Leben.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="c39045c0-e9bf-4364-b06b-cfb20e4b9d35" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="24adab3a-3c6f-4491-9a31-b0366c36bf17" />
 </Entity>

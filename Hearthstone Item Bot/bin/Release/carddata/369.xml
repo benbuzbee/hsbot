@@ -1,43 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_334e">
+<Entity version="2" CardID="EX1_306">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dark Command</enUS>
-    <zhTW>黑暗敕令</zhTW>
-    <zhCN>黑暗命令</zhCN>
-    <ruRU>Темная власть</ruRU>
-    <ptBR>Comando Negro</ptBR>
-    <plPL>Mroczny rozkaz</plPL>
-    <koKR>어둠의 명령</koKR>
-    <itIT>Comando Oscuro</itIT>
-    <frFR>Sombre ordre</frFR>
-    <esMX>Orden oscura</esMX>
-    <esES>Orden oscura</esES>
-    <enGB>Dark Command</enGB>
-    <deDE>Dunkler Befehl</deDE>
+    <enUS>Succubus</enUS>
+    <zhTW>魅魔</zhTW>
+    <zhCN>魅魔</zhCN>
+    <ruRU>Суккуб</ruRU>
+    <ptBR>Súcubo</ptBR>
+    <plPL>Sukkub</plPL>
+    <koKR>서큐버스</koKR>
+    <itIT>Succube</itIT>
+    <frFR>Succube</frFR>
+    <esMX>Súcubo</esMX>
+    <esES>Súcubo</esES>
+    <deDE>Sukkubus</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Race" enumID="200" type="Race" value="15" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has switched controllers this turn.</enUS>
-    <zhTW>本回合這個手下的控制者換人了。</zhTW>
-    <zhCN>在本回合中，该随从的控制权发生了变化。</zhCN>
-    <ruRU>Это существо сменило владельца до конца хода.</ruRU>
-    <ptBR>Este lacaio trocou de controlador neste turno.</ptBR>
-    <plPL>Kontrola nad tym stronnikiem została zamieniona w tej turze.</plPL>
-    <koKR>이번 턴에는 상대편의 명을 따름</koKR>
-    <itIT>Cambio di padrone per questo turno.</itIT>
-    <frFR>Les commandes de ce serviteur sont échangées pour ce tour.</frFR>
-    <esMX>Este esbirro ha cambiado de controlador en este turno.</esMX>
-    <esES>Este esbirro ha cambiado de dueño este turno.</esES>
-    <enGB>This minion has switched controllers this turn.</enGB>
-    <deDE>Dieser Diener hat für diesen Zug seinen Meister gewechselt.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Discard a random card.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;隨機捨棄一張牌。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;随机弃一张牌。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы сбрасываете случайную карту.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Descarte um card aleatório.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Odrzuć losową kartę.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 무작위로 카드를 1장 버립니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; scarta una carta casuale dalla tua mano.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous défausse d’une carte aléatoire.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; descarta una carta aleatoria.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Descarta una carta aleatoria.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Werft eine zufällige Karte ab.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
-  <Power definition="ee6d8251-dc1d-45d3-af82-3928d229dcd2" />
-  <Power definition="77b55ec5-7e11-4c32-8e26-a84e0e373f99" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Matt Dixon</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Warlocks have it pretty good.</enUS>
+    <zhTW>術士真是艷福不淺啊。</zhTW>
+    <zhCN>术士们的假期都很香艳。</zhCN>
+    <ruRU>Порой чернокнижникам можно только позавидовать.</ruRU>
+    <ptBR>Bruxos são bem sortudos.</ptBR>
+    <plPL>Czarnoksiężnicy to dopiero mają życie!</plPL>
+    <koKR>흑마법사야말로 진정한 승리자죠.</koKR>
+    <itIT>Va con tutti, basta che siano Stregoni.</itIT>
+    <frFR>Les démonistes ne se refusent rien.</frFR>
+    <esMX>Los Brujos se quejan de vicio.</esMX>
+    <esES>No toques lo que no puedas comprar.</esES>
+    <deDE>Manchmal kann man Hexenmeister um ihren Job nur beneiden.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 28.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="68ec0c3b-a8de-45a2-b567-72823753036b" />
 </Entity>

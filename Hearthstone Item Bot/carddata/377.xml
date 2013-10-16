@@ -1,50 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_354">
-  <MasterPower>4a36cd90-3bb4-4e19-a393-59f5ecad56ba</MasterPower>
+<Entity version="2" CardID="EX1_316e">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Lay on Hands</enUS>
-    <frFR>Imposition des mains</frFR>
-    <zhTW>聖療術</zhTW>
-    <zhCN>圣疗术</zhCN>
-    <ruRU>Возложение рук</ruRU>
-    <ptBR>Impor as Mãos</ptBR>
-    <plPL>Nakładanie rąk</plPL>
-    <koKR>신의 축복</koKR>
-    <itIT>Mano Celestiale</itIT>
-    <esMX>Imposición de manos</esMX>
-    <esES>Imposición de manos</esES>
-    <enGB>Lay on Hands</enGB>
-    <deDE>Handauflegung</deDE>
+    <enUS>Power Overwhelming</enUS>
+    <frFR>Puissance accablante</frFR>
+    <zhTW>壓倒性的力量</zhTW>
+    <zhCN>力量的代价</zhCN>
+    <ruRU>Переполняющая мощь</ruRU>
+    <ptBR>Poder Esmagador</ptBR>
+    <plPL>Nadmiar mocy</plPL>
+    <koKR>압도적인 힘</koKR>
+    <itIT>Potere Travolgente</itIT>
+    <esMX>Poder sobrecogedor</esMX>
+    <esES>Poder sobrecogedor</esES>
+    <deDE>Überwältigende Macht</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="8" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore #8 Health. Draw 3 cards.</enUS>
-    <frFR>Rend #8 point(s) de vie. Vous piochez 3 cartes.</frFR>
-    <zhTW>恢復#8點生命值。抽3張牌。</zhTW>
-    <zhCN>恢复#8点生命值。抽3张牌。</zhCN>
-    <ruRU>Восстанавливает #8 ед. здоровья. Вы берете 3 карты.</ruRU>
-    <ptBR>Restaure #8 de Vida. Compre 3 cards.</ptBR>
-    <plPL>Przywróć #8 pkt. zdrowia. Dobierz 3 karty.</plPL>
-    <koKR>생명력을 8 회복시킵니다. 카드를 세 장 뽑습니다.</koKR>
-    <itIT>Rigenera #8 Salute. Pesca 3 carte.</itIT>
-    <esMX>Restaura #8 de Salud. Roba 3 cartas.</esMX>
-    <esES>Restaura #8 p. de salud. Roba 3 cartas.</esES>
-    <enGB>Restore 8 Health. Draw 3 cards.</enGB>
-    <deDE>Stellt #8 Leben wieder her. Zieht 3 Karten.</deDE>
+    <enUS>This minion has +4/+4, but will die a horrible death at the end of the turn.</enUS>
+    <frFR>Ce serviteur a +4/+4 mais il mourra de façon horrible à la fin du tour.</frFR>
+    <zhTW>這個手下擁有+4/+4，但在回合結束時會恐怖地死去。</zhTW>
+    <zhCN>该随从获得+4/+4，但是在回合结束时将死于非命。</zhCN>
+    <ruRU>Это существо получило +4/+4, но в конце хода его ждет ужасная смерть.</ruRU>
+    <ptBR>Este lacaio tem +4/+4, mas morrerá de forma horrível no fim do turno.</ptBR>
+    <plPL>Ten stronnik ma +4/+4, ale na koniec tury umrze w męczarniach.</plPL>
+    <koKR>+4/+4, 하지만 턴이 끝나면 처참하게 죽음</koKR>
+    <itIT>+4/+4, però morirà in modo orribile alla fine del turno.</itIT>
+    <esMX>Este esbirro tiene +4/+4, pero morirá horriblemente al final del turno.</esMX>
+    <esES>Este esbirro tiene +4/+4, pero morirá al final del turno.</esES>
+    <deDE>Hat +4/+4, aber wird am Ende dieses Zuges elendig verenden.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
-  </Tag>
-  <Power definition="4a36cd90-3bb4-4e19-a393-59f5ecad56ba">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
+  <Power definition="cdc12f38-a48d-4561-819f-de231b4c350a" />
+  <Power definition="61cbc9fb-cdaf-45ce-9f0f-61d74aedfc8c" />
+  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
 </Entity>

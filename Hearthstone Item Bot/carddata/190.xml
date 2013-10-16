@@ -1,79 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_006">
+<Entity version="2" CardID="DS1_070o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Alarm-o-Bot</enUS>
-    <frFR>Robot d’alarme</frFR>
-    <zhTW>警報機器人</zhTW>
-    <zhCN>报警机器人</zhCN>
-    <ruRU>Тревого-бот</ruRU>
-    <ptBR>Alarmobô</ptBR>
-    <plPL>Alarmobot</plPL>
-    <koKR>노움 자동경보기</koKR>
-    <itIT>Allarm-Bot</itIT>
-    <esMX>Roboalarma</esMX>
-    <esES>Roboalarma</esES>
-    <enGB>Alarm-o-Bot</enGB>
-    <deDE>Alarm-o-Bot</deDE>
+    <enUS>Master's Presence</enUS>
+    <frFR>Présence du maître</frFR>
+    <zhTW>主人在場</zhTW>
+    <zhCN>驯兽师的训练</zhCN>
+    <ruRU>Присутствие хозяина</ruRU>
+    <ptBR>Presença do Mestre</ptBR>
+    <plPL>Tresura</plPL>
+    <koKR>주인의 존재</koKR>
+    <itIT>Presenza del Maestro</itIT>
+    <esMX>Presencia de maestro</esMX>
+    <esES>Presencia del maestro</esES>
+    <deDE>Präsenz des Meisters</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, swap this minion with a random one in your hand.</enUS>
-    <frFR>Au début de votre tour, échange ce serviteur avec un autre choisi au hasard dans votre main.</frFR>
-    <zhTW>在你的回合開始時，把這個手下與你手上隨機一個手下交換。</zhTW>
-    <zhCN>在你的回合开始时，随机将你的手牌中的一张随从牌与该随从交换。</zhCN>
-    <ruRU>В начале вашего хода это существо меняется местами со случайным существом из вашей руки.</ruRU>
-    <ptBR>No início do turno, troque este lacaio por um lacaio aleatório na sua mão.</ptBR>
-    <plPL>Na początku swojej tury zamień tego stronnika z innym, wybranym losowo z twojej ręki.</plPL>
-    <koKR>당신의 턴이 시작될 때, 이 하수인이 당신의 손에 있는 다른 무작위 하수인과 교체됩니다.</koKR>
-    <itIT>All'inizio del tuo turno, scambia questo servitore con un altro a caso nella tua mano.</itIT>
-    <esMX>Al comienzo de tu turno, cambia este esbirro por uno aleatorio de tu mano.</esMX>
-    <esES>Al comienzo de tu turno, cambia a este esbirro por otro al azar que tengas en tu mano.</esES>
-    <enGB>At the start of your turn, swap this minion with a random one in your hand.</enGB>
-    <deDE>Tauscht zu Beginn Eures Zuges diesen Diener gegen einen zufälligen Diener auf Eurer Hand aus.</deDE>
+    <enUS>+2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>+2/+2 et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>+2/+2及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
+    <zhCN>+2/+2并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+    <ruRU>+2 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>+2/+2 e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>+2/+2 oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
+    <koKR>+2/+2, &lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>+2/+2 e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>+2/+2 y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>+2/+2 y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>+2/+2 und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Sean O’Daniels</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>WARNING.  WARNING.  WARNING.</enUS>
-    <zhTW>警告。警告。警告。</zhTW>
-    <zhCN>警报。警报。警报。</zhCN>
-    <ruRU>ТРЕВОГА, ТРЕВОГА, ТРЕВОГА.</ruRU>
-    <ptBR>ALERTA. ALERTA. ALERTA.</ptBR>
-    <plPL>UWAGA. UWAGA. UWAGA.</plPL>
-    <koKR>경고. 경고. 경고.</koKR>
-    <itIT>PERICOLO. PERICOLO. PERICOLO.</itIT>
-    <frFR>ALERTE. ALERTE. ALERTE.</frFR>
-    <esMX>ADVERTENCIA. ADVERTENCIA. ADVERTENCIA.</esMX>
-    <esES>ALERTA. ALERTA. ALERTA.</esES>
-    <enGB>WARNING.  WARNING.  WARNING.</enGB>
-    <deDE>WARNUNG. WARNUNG. WARNUNG.</deDE>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="e1c57125-ea5f-43f1-8d9a-cbdf5c894e38" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Alarm-O-Bot alerted a minion in his owner's hand, and put it onto the battlefield!</enUS>
-    <frFR>Le robot d’alarme a alerté un serviteur dans la main de son propriétaire et l’a placé sur le champ de bataille !</frFR>
-    <zhTW>警報機器人驚動了他主人手中的手下，並將它移到戰場上!</zhTW>
-    <zhCN>报警机器人警告了其拥有者手牌中的一个随从，并使其加入战场。</zhCN>
-    <ruRU>Тревого-бот обнаружил существо в руке владельца и вывел его на поле боя!</ruRU>
-    <ptBR>Alarmobô alertou um lacaio na mão do dono e o colocou no campo de batalha!</ptBR>
-    <plPL>Alarmobot przyzwał stronnika z ręki właściciela na pole bitwy!</plPL>
-    <koKR>노움 자동경보기가 주인의 손에 있는 하수인을 놀라게 해 전장으로 내보냄!</koKR>
-    <itIT>L'Allarm-Bot ha allertato un servitore nella mano del suo proprietario e lo ha richiamato sul campo di battaglia!</itIT>
-    <esMX>¡El Roboalarma alertó a un esbirro de la mano de su propietario y lo trajo al campo de batalla!</esMX>
-    <esES>¡La Roboalarma ha alertado a un esbirro de la mano de su dueño y lo ha sacado al campo de batalla!</esES>
-    <enGB>Alarm-O-Bot alerted a minion in his owner's hand, and put it onto the battlefield!</enGB>
-    <deDE>Der Alarm-o-Bot hat einen Diener auf der Hand seines Besitzers alarmiert und ihn auf das Schlachtfeld geholt!</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="f41604d6-701b-42cf-a3b2-1ef04aa1990e" />
 </Entity>

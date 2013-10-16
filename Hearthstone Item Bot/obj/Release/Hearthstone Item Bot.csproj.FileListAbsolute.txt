@@ -1,11 +1,11 @@
-d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.exe
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\config.xml
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.exe.config
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.exe
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.pdb
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\IrcDotNet.dll
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\IrcDotNet.pdb
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\IrcDotNet.xml
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\HSBot.Properties.Resources.resources
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\Hearthstone Item Bot.csproj.GenerateResource.Cache
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.exe.config
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.exe
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.pdb
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Release\hsbot.pdb
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.exe
+d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.pdb

@@ -1,65 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_610">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_590">
+  <MasterPower>b83882c2-46ab-4376-b5f1-b9118273d371</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Explosive Trap</enUS>
-    <frFR>Piège explosif</frFR>
-    <zhTW>爆炸陷阱</zhTW>
-    <zhCN>爆炸陷阱</zhCN>
-    <ruRU>Взрывная ловушка</ruRU>
-    <ptBR>Armadilha Explosiva</ptBR>
-    <plPL>Wybuchowa pułapka</plPL>
-    <koKR>폭발의 덫</koKR>
-    <itIT>Trappola Esplosiva</itIT>
-    <esMX>Trampa explosiva</esMX>
-    <esES>Trampa explosiva</esES>
-    <enGB>Explosive Trap</enGB>
-    <deDE>Sprengfalle</deDE>
+    <enUS>Blood Knight</enUS>
+    <frFR>Chevalier de sang</frFR>
+    <zhTW>血騎士</zhTW>
+    <zhCN>血骑士</zhCN>
+    <ruRU>Рыцарь крови</ruRU>
+    <ptBR>Cavaleiro Sangrento</ptBR>
+    <plPL>Krwawy rycerz</plPL>
+    <koKR>혈기사</koKR>
+    <itIT>Cavaliere del Sangue</itIT>
+    <esMX>Caballero de sangre</esMX>
+    <esES>Caballero de sangre</esES>
+    <deDE>Blutritter</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your hero is attacked, deal 2 damage to all enemies.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre héros est attaqué, inflige 2 points de dégâts à tous les adversaires.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的英雄受到攻擊時，對全部敵人造成2點傷害。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的英雄受到攻击，对所有敌人造成2点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда вашего героя атакуют, наносит 2 ед. урона всем персонажам противника.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu herói for atacado, cause 2 de dano a todos os inimigos.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy twój bohater zostanie zaatakowany, zadaj 2 pkt. obrażeń wszystkim wrogom.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 당신의 영웅이 공격받으면 모든 적에게 피해를 2 줍니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando il tuo eroe viene attaccato, infligge 2 danni a tutti i nemici.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando atacan a tu héroe, inflige 2 de daño a todos los enemigos.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando vayan a atacar a tu héroe, inflige 2 p. de daño a todos los enemigos.</esES>
-    <enGB>&lt;b&gt;Secret:&lt;/b&gt; When your hero is attacked, deal 2 damage to all enemies.</enGB>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Held angegriffen wird, erleiden alle Feinde 2 Schaden.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; All minions lose &lt;b&gt;Divine Shield&lt;/b&gt;. Gain +3/+3 for each Shield lost.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; tous les serviteurs perdent &lt;b&gt;Bouclier divin&lt;/b&gt;. Gagne +3/+3 pour chaque bouclier perdu.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;全部手下失去&lt;b&gt;聖盾術&lt;/b&gt;。每一個失去的聖盾術將使這名手下獲得+3/+3。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;所有随从失去&lt;b&gt;圣盾&lt;/b&gt;。每有一个随从失去圣盾，便获得+3/+3。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все существа теряют &lt;b&gt;«Божественный щит»&lt;/b&gt;. Рыцарь получает +3/+3 за каждый поглощенный щит.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Todos os lacaios perdem &lt;b&gt;Escudo Divino&lt;/b&gt;. Receba +3/+3 para cada Escudo perdido.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Wszyscy stronnicy tracą &lt;b&gt;Boską tarczę&lt;/b&gt;. Otrzymuje +3/+3 za każdą straconą tarczę.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; &lt;b&gt;모든&lt;/b&gt; 하수인이 &lt;b&gt;천상의 보호막&lt;/b&gt;을 잃고, 잃은 보호막 1개당 +3/+3을 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; tutti i servitori perdono &lt;b&gt;Scudo Divino&lt;/b&gt;. Il Cavaliere del Sangue ottiene +3/+3 per ogni Scudo Divino dissolto.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; remueve &lt;b&gt;Escudo divino&lt;/b&gt; de los esbirros. Obtiene +3/+3 por cada Escudo perdido. </esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Todos los esbirros pierden &lt;b&gt;Escudo divino&lt;/b&gt;. Obtiene +3/+3 por cada escudo perdido.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Alle Diener verlieren &lt;b&gt;Gottesschild&lt;/b&gt;. Erhält +3/+3 für jeden verlorenen Schild.</deDE>
   </Tag>
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brandon Kitkouski</enUS>
+    <enUS>Trent Kaniuga</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It traps your food AND cooks it for you!</enUS>
-    <enGB>It traps your food AND cooks it for you!</enGB>
-    <zhTW>它會捕捉你的食物然後幫你煮好!</zhTW>
-    <zhCN>普通陷阱捉到的是猎物；爆炸陷阱捉到的是烤熟的食物！</zhCN>
-    <ruRU>Эта штука не только поймает ваш обед, но и зажарит его для вас!</ruRU>
-    <ptBR>Aprisiona sua comida e ainda cozinha pra você!</ptBR>
-    <plPL>Na szczęście nie jest to szklana pułapka.</plPL>
-    <koKR>먹잇감을 잡아둘 뿐만 아니라 맛있게 구워줍니다!</koKR>
-    <itIT>Intrappola il cibo e lo cucina per te!</itIT>
-    <frFR>Il piège votre prochain repas et en plus il le rôtit !</frFR>
-    <esMX>No solo atrapa tu comida... ¡TAMBIÉN te la cocina!</esMX>
-    <esES>¡Atrapa tu comida y la cocina! Si la compras ahora recibirás 2 calderos de regalo.</esES>
-    <deDE>Wird allen Jägern empfohlen, die nicht gerne kochen.</deDE>
+    <enUS>The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.</enUS>
+    <zhTW>血騎士從太陽之井獲得了他們的神聖力量。話說，你最好別想去那裡泡溫泉。</zhTW>
+    <zhCN>血骑士从太阳井中获得他们的神圣能量，太阳井可不是洗澡的地方。</zhCN>
+    <ruRU>Рыцари крови черпают божественные силы из Солнечного Колодца. Ведрами.</ruRU>
+    <ptBR>Os Cavaleiros Sangrentos recebem seus poderes sagrados da Nascente do Sol, que NÃO é um lugar para tomar banho.</ptBR>
+    <plPL>Krwawi rycerze otrzymują swoje święte mocy ze Słonecznej Studni. Kąpiel w niej jest surowo wzbroniona!</plPL>
+    <koKR>혈기사는 신성한 힘의 원천으로 태양샘을 사용합니다. 태양샘에서 물놀이를 할 생각은 꿈도 꾸지 마세요.</koKR>
+    <itIT>I Cavalieri del Sangue traggono il loro potere sacro dal Pozzo Solare, nel quale NON dovresti mai fare il bagno.</itIT>
+    <frFR>Le chevalier de sang obtient ses pouvoirs du Puits de soleil. Mais ce n’est pas le meilleur endroit pour faire bronzette.</frFR>
+    <esMX>Los Caballeros de sangre obtienen su poder sagrado de la Fuente del Sol. Te recomendamos que NO la uses para bañarte.</esMX>
+    <esES>Los caballeros de sangre obtenían sus poderes sagrados de la Fuente del Sol, hasta que la Plaga cerró el grifo.</esES>
+    <deDE>Die Blutritter ziehen ihre Kraft aus den heiligen Energien des Sonnenbrunnens, in dem Baden STRENG VERBOTEN ist.</deDE>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="5e094f7d-4df8-46aa-840f-b18df5bf4046" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="b83882c2-46ab-4376-b5f1-b9118273d371" />
 </Entity>

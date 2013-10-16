@@ -1,63 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_184">
-  <MasterPower>7d56ad57-6aea-484b-ae4c-899658cb3125</MasterPower>
+<Entity version="2" CardID="CS2_237">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Tracking</enUS>
-    <frFR>Pistage</frFR>
-    <zhTW>追蹤</zhTW>
-    <zhCN>追踪术</zhCN>
-    <ruRU>Выслеживание</ruRU>
-    <ptBR>Rastreamento</ptBR>
-    <plPL>Tropienie</plPL>
-    <koKR>추적</koKR>
-    <itIT>Tracciamento</itIT>
-    <esMX>Rastreo</esMX>
-    <esES>Rastrear</esES>
-    <enGB>Tracking</enGB>
-    <deDE>Fährtenlesen</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Look at the top three cards of your deck. Draw one and discard the others.</enUS>
-    <frFR>Affiche les trois cartes du dessus du deck. Vous en piochez une et vous vous défaussez des autres.</frFR>
-    <zhTW>瀏覽你牌堆中最上面的三張牌。選擇一張，並捨棄其他兩張。</zhTW>
-    <zhCN>检视你的牌库顶的3张牌。将1张置入手牌，弃掉其余牌。</zhCN>
-    <ruRU>Посмотрите три верхние карты вашей колоды. Возьмите одну карту и сбросьте остальные.</ruRU>
-    <ptBR>Olhe os três cards do topo do seu deck. Compre um e descarte os outros.</ptBR>
-    <plPL>Spójrz na trzy górne karty ze swojej talii. Jedną dobierz na rękę, a dwie pozostałe odrzuć.</plPL>
-    <koKR>당신이 다음에 뽑을 카드 세 장을 미리 봅니다. 한 장을 선택해 갖고, 나머지는 버립니다.</koKR>
-    <itIT>Guarda le prime tre carte del tuo mazzo. Pescane una e scarta le altre.</itIT>
-    <esMX>Mira las tres primeras cartas de tu mazo. Roba una y descarta las otras.</esMX>
-    <esES>Mira las tres cartas superiores de tu mazo. Roba una y descarta las demás.</esES>
-    <enGB>Look at the top three cards of your deck. Draw one and discard the others.</enGB>
-    <deDE>Schaut Euch die drei obersten Karten Eures Decks an. Zieht eine davon und werft die anderen beiden ab.</deDE>
+    <enUS>Starving Buzzard</enUS>
+    <zhTW>飢餓的禿鷲</zhTW>
+    <zhCN>饥饿的秃鹫</zhCN>
+    <ruRU>Голодный канюк</ruRU>
+    <ptBR>Urubu Faminto</ptBR>
+    <plPL>Wygłodniały myszołów</plPL>
+    <koKR>굶주린 대머리수리</koKR>
+    <itIT>Condor Affamato</itIT>
+    <frFR>Busard affamé</frFR>
+    <esMX>Águila ratonera famélica</esMX>
+    <esES>Águila ratonera famélica</esES>
+    <deDE>Verhungernder Bussard</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever you summon a Beast, draw a card.</enUS>
+    <zhTW>每當你召喚野獸，抽一張牌。</zhTW>
+    <zhCN>每当你召唤一个野兽，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда вы призываете зверя на поле боя, вы берете карту.</ruRU>
+    <ptBR>Sempre que você evocar uma Fera, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy przyzywasz Bestię.</plPL>
+    <koKR>내가 야수를 소환할 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Ogni volta che evochi una Bestia, pesca una carta.</itIT>
+    <frFR>Vous piochez une carte chaque fois que vous invoquez une bête.</frFR>
+    <esMX>Cada vez que invocas a una Bestia, roba una carta.</esMX>
+    <esES>Cada vez que invocas una bestia, roba una carta.</esES>
+    <deDE>Zieht jedes Mal eine Karte, wenn Ihr ein Wildtier herbeiruft.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Soaring</enUS>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Mauro Cascioli</enUS>
+    <enUS>Bernie Kang</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>For the person who just cannot decide what card to put in their deck!</enUS>
-    <zhTW>這張是給無法決定要放哪張卡進套牌的人用的!</zhTW>
-    <zhCN>为了那些不知道该把什么牌放入套牌的人准备的！</zhCN>
-    <ruRU>Отличное заклинание для тех, кто никак не может решить, какую карту положить в колоду!</ruRU>
-    <ptBR>Para a pessoa que não consegue decidir que card botar no deck!</ptBR>
-    <plPL>W sam raz dla osoby, która nie może zdecydować się, jakie karty wsadzić do talii!</plPL>
-    <koKR>어떤 카드를 덱에 넣어야 할 지 결정 못 하는 소심한 분들을 위해!</koKR>
-    <itIT>Per il giocatore che non sa quale carta inserire nel proprio mazzo.</itIT>
-    <frFR>Idéal pour ceux qui n’arrivent pas à décider quelles cartes mettre dans leur deck !</frFR>
-    <esMX>Para los que sufren de indecisión crónica.</esMX>
-    <esES>"Espera, aquí hay huellas". - Vladimir Barbafuego "Sí, pero, ¿de verdad quieres averiguar de qué son?" - Baxter Rompeyunques</esES>
-    <enGB>"Wait, those are footprints." - Vladimir Firebeard "Aye, but do ye really want to be findin' what ever left 'em?" - Baxter Anvilbrace</enGB>
-    <deDE>Ideal für diejenigen, die sich nicht entscheiden können, was sie ihrem Deck hinzufügen sollen. Denn so wissen sie auch nicht, was sie ihrer Hand hinzufügen sollen.</deDE>
+    <enUS>If you feed him, he loses his whole &lt;i&gt;identity&lt;/i&gt;.</enUS>
+    <zhTW>如果你餵牠，牠就會完全渾然忘我。</zhTW>
+    <zhCN>如果你喂饱了它，它就名不副实了。</zhCN>
+    <ruRU>Если вы покормите его, он убежит с карты.</ruRU>
+    <ptBR>Se você alimentá-lo, ele perde toda a sua &lt;i&gt;identidade&lt;/i&gt;.</ptBR>
+    <plPL>Jeśli go nakarmisz, straci rację bytu.</plPL>
+    <koKR>먹을 걸 주면 &lt;i&gt;정체성&lt;/i&gt;에 혼란을 겪습니다.</koKR>
+    <itIT>Se gli dai da mangiare, perde la sua &lt;i&gt;identità&lt;/i&gt;.</itIT>
+    <frFR>Si vous le nourrissez, il perdra toute son &lt;i&gt;identité&lt;/i&gt;.</frFR>
+    <esMX>Si la alimentas, pierde por completo su &lt;i&gt;identidad&lt;/i&gt;.</esMX>
+    <esES>Si la alimentas, habrá que cambiarle el &lt;i&gt;nombre&lt;/i&gt;.</esES>
+    <deDE>Wenn Ihr ihn füttert, verliert er seine &lt;i&gt;Identität&lt;/i&gt;.</deDE>
   </Tag>
-  <Power definition="7d56ad57-6aea-484b-ae4c-899658cb3125" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 4.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 42.</enUS>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="26c0eeea-d6a3-4d0d-8b22-4b898de19685" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

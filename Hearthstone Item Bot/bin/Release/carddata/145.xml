@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_213">
+<Entity version="2" CardID="CS2_171">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Reckless Rocketeer</enUS>
-    <frFR>Missilière téméraire</frFR>
-    <zhTW>魯莽的火箭砲手</zhTW>
-    <zhCN>鲁莽火箭兵</zhCN>
-    <ruRU>Шальная ракетчица</ruRU>
-    <ptBR>Fogueteira Descuidada</ptBR>
-    <plPL>Ryzykancki rakieter</plPL>
-    <koKR>못 말리는 로켓병</koKR>
-    <itIT>Cavalcarazzi Folle</itIT>
-    <esMX>Artificera temeraria</esMX>
-    <esES>Artificiera temeraria</esES>
-    <enGB>Reckless Rocketeer</enGB>
-    <deDE>Irre Raketenschützin</deDE>
+    <enUS>Stonetusk Boar</enUS>
+    <frFR>Sanglier brocheroc</frFR>
+    <zhTW>石牙野豬</zhTW>
+    <zhCN>石牙野猪</zhCN>
+    <ruRU>Вепрь-камнеклык</ruRU>
+    <ptBR>Javali Pedratusco</ptBR>
+    <plPL>Dzik szabloskalny</plPL>
+    <koKR>돌엄니멧돼지</koKR>
+    <itIT>Cinghiale Zannapietra</itIT>
+    <esMX>Jabalí colmipétreo</esMX>
+    <esES>Jabalí Colmipétreo</esES>
+    <deDE>Steinhauereber</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
     <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
@@ -37,14 +37,30 @@
     <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
     <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
     <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Charge&lt;/b&gt;</enGB>
     <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>John "JP" Polidora</enUS>
+    <enUS>Howard Lyon</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Hunter Level 52.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>This card is boaring.</enUS>
+    <zhTW>這張牌烤起來很香。</zhTW>
+    <zhCN>决斗的时候离它们远点儿。</zhCN>
+    <ruRU>Не вздумайте назвать его свиньей.</ruRU>
+    <ptBR>Esse card javali muito a pena.</ptBR>
+    <plPL>Ta karta jest dzika.</plPL>
+    <koKR>손에서 나와 상대에게 달려가려고 안달입니다.</koKR>
+    <itIT>Oh oh! Questa carta è fantastica!</itIT>
+    <frFR>Cette carte serait très utile pour un banquet...</frFR>
+    <esMX>Precaución: jabalí suelto.</esMX>
+    <esES>Los aventureros de Elwynn casi lo han conducido a la extinción.</esES>
+    <deDE>Diese Karte ist saugeil!</deDE>
   </Tag>
   <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="684231a0-251c-42be-952e-9a8a2773188b" />
+  <Power definition="1695b981-0cbf-419a-a4f5-db158217af85" />
 </Entity>

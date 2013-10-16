@@ -1,56 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_080">
+<Entity version="2" CardID="EX1_044e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Secretkeeper</enUS>
-    <zhTW>保密者</zhTW>
-    <zhCN>奥秘守护者</zhCN>
-    <ruRU>Хранительница тайн</ruRU>
-    <ptBR>Guardadora de Segredo</ptBR>
-    <plPL>Strażniczka tajemnic</plPL>
-    <koKR>비밀지기</koKR>
-    <itIT>Custode dei Segreti</itIT>
-    <frFR>Gardienne des secrets</frFR>
-    <esMX>Guardiana del secreto</esMX>
-    <esES>Secretista</esES>
-    <enGB>Secretkeeper</enGB>
-    <deDE>Geheimnisbewahrerin</deDE>
+    <enUS>Level Up!</enUS>
+    <zhTW>升級了!</zhTW>
+    <zhCN>升级！</zhCN>
+    <ruRU>Новый уровень!</ruRU>
+    <ptBR>Subiu de Nível! </ptBR>
+    <plPL>Awans!</plPL>
+    <koKR>레벨 상승!</koKR>
+    <itIT>Nuovo Livello!</itIT>
+    <frFR>Gain de niveau !</frFR>
+    <esMX>¡Subiste de nivel!</esMX>
+    <esES>¡Sube de nivel!</esES>
+    <deDE>Stufenaufstieg</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Firey</enUS>
-  </Tag>
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a &lt;b&gt;Secret&lt;/b&gt; is played, gain +1/+1.</enUS>
-    <zhTW>每當有人施放&lt;b&gt;秘密&lt;/b&gt;，獲得+1/+1。</zhTW>
-    <zhCN>每当有一张&lt;b&gt;奥秘&lt;/b&gt;牌被揭示时，便获得+1/+1。</zhCN>
-    <ruRU>Каждый раз, когда разыгрывается &lt;b&gt;Секрет&lt;/b&gt;, это существо получает +1/+1.</ruRU>
-    <ptBR>Sempre que um &lt;b&gt;Segredo&lt;/b&gt; for jogado, receba +1/+1.</ptBR>
-    <plPL>Otrzymuje +1/+1 za każdym razem, gdy zagrany zostaje &lt;b&gt;Sekret&lt;/b&gt;.</plPL>
-    <koKR>각 플레이어가 &lt;b&gt;비밀&lt;/b&gt;을 낼 때마다 +1/+1을 얻습니다.</koKR>
-    <itIT>Quando viene giocato un &lt;b&gt;Segreto&lt;/b&gt;, ottiene +1/+1.</itIT>
-    <frFR>Chaque fois qu’un &lt;b&gt;Secret&lt;/b&gt; est joué, gagne +1/+1.</frFR>
-    <esMX>Cada vez que se juega un &lt;b&gt;Secreto&lt;/b&gt;, obtiene +1/+1.</esMX>
-    <esES>Cada vez que se revela un &lt;b&gt;secreto&lt;/b&gt;, obtiene +1/+1.</esES>
-    <enGB>Whenever a &lt;b&gt;Secret&lt;/b&gt; is played, gain +1/+1.</enGB>
-    <deDE>Erhält jedes Mal +1/+1, wenn ein &lt;b&gt;Geheimnis&lt;/b&gt; ausgespielt wird. </deDE>
+    <enUS>Increased Attack and Health.</enUS>
+    <zhTW>攻擊力及生命值提高。</zhTW>
+    <zhCN>攻击力和生命值增加。</zhCN>
+    <ruRU>Атака и здоровье увеличены.</ruRU>
+    <ptBR>Ataque e Vida aumentados.</ptBR>
+    <plPL>Zwiększony atak i zdrowie.</plPL>
+    <koKR>공격력과 생명력 증가</koKR>
+    <itIT>Attacco e Salute aumentati.</itIT>
+    <frFR>Attaque et Vie augmentées.</frFR>
+    <esMX>Ataque y Salud aumentados.</esMX>
+    <esES>Ataque y salud aumentados.</esES>
+    <deDE>Erhöhter Angriff und erhöhtes Leben.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gonzalo Ordonez</enUS>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="6c765b79-c8a0-4c5c-8ade-1bbc45e528c0" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="c65d1e11-32d7-4120-a3e3-11a9b9732fe5" />
 </Entity>

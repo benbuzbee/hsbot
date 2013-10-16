@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="XXX_028">
-  <MasterPower>f0051203-b961-4a85-8a5a-922d03a16d80</MasterPower>
+<Entity version="2" CardID="XXX_011">
+  <MasterPower>1457516b-4676-4b10-8de9-27e004c22eb9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Reveal Hand</enUS>
+    <enUS>Exhaust</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="8" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Power definition="f0051203-b961-4a85-8a5a-922d03a16d80" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Exhaust a character.</enUS>
+  </Tag>
+  <Power definition="1457516b-4676-4b10-8de9-27e004c22eb9">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

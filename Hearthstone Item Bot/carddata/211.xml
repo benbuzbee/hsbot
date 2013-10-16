@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_028">
+<Entity version="2" CardID="EX1_009">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Stranglethorn Tiger</enUS>
-    <frFR>Tigre de Strangleronce</frFR>
-    <zhTW>荊棘谷猛虎</zhTW>
-    <zhCN>荆棘谷猛虎</zhCN>
-    <ruRU>Тигр Тернистой долины</ruRU>
-    <ptBR>Tigre-do-espinhaço</ptBR>
-    <plPL>Tygrys z Cierniodławów</plPL>
-    <koKR>가시덤불 호랑이</koKR>
-    <itIT>Tigre di Rovotorto</itIT>
-    <esMX>Tigre de Tuercespina</esMX>
-    <esES>Tigre de Tuercespina</esES>
-    <enGB>Stranglethorn Tiger</enGB>
-    <deDE>Schlingendorntiger</deDE>
+    <enUS>Angry Chicken</enUS>
+    <frFR>Poulet furieux</frFR>
+    <zhTW>憤怒雞</zhTW>
+    <zhCN>愤怒的小鸡</zhCN>
+    <ruRU>Злая курица</ruRU>
+    <ptBR>Frango Nervoso</ptBR>
+    <plPL>Wściekły kurczak</plPL>
+    <koKR>화난 닭</koKR>
+    <itIT>Gallina Arrabbiata</itIT>
+    <esMX>Pollo enfadado</esMX>
+    <esES>Pollo furioso</esES>
+    <deDE>Wütendes Huhn</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Stealth&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli </enUS>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Enrage:&lt;/b&gt; +5 Attack.</enUS>
+    <frFR>&lt;b&gt;Accès de rage :&lt;/b&gt; +5 ATQ.</frFR>
+    <zhTW>&lt;b&gt;狂怒:&lt;/b&gt;+5攻擊力。</zhTW>
+    <zhCN>&lt;b&gt;激怒：&lt;/b&gt;+5攻击力。</zhCN>
+    <ruRU>&lt;b&gt;Исступление:&lt;/b&gt; +5 к атаке.</ruRU>
+    <ptBR>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 de Ataque.</ptBR>
+    <plPL>&lt;b&gt;Szał:&lt;/b&gt; +5 do ataku.</plPL>
+    <koKR>&lt;b&gt;격노:&lt;/b&gt; 공격력 +5</koKR>
+    <itIT>&lt;b&gt;Rabbia:&lt;/b&gt; +5 Attacco.</itIT>
+    <esMX>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 de Ataque.</esMX>
+    <esES>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 p. de ataque.</esES>
+    <deDE>&lt;b&gt;Wutanfall:&lt;/b&gt; +5 Angriff.</deDE>
   </Tag>
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Power definition="78668f7d-b44e-43bd-8faf-3a55df3dd8fe" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Mike Sass</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>There is no beast more frightening (or ridiculous) than a fully enraged chicken.</enUS>
+    <zhTW>沒有什麼比憤怒到極點的雞還要來得可怕&lt;i&gt;(或可笑)&lt;/i&gt;的生物了。</zhTW>
+    <zhCN>没有什么野兽比一只彻底发疯的小鸡更加吓人（或者更加可笑）的了。</zhCN>
+    <ruRU>Нет зверя страшнее (или смешнее?), чем разъяренная курица.</ruRU>
+    <ptBR>Não existe criatura mais assustadora (ou ridícula) que uma galinha totalmente enfurecida.</ptBR>
+    <plPL>"Lusia wściekła się, gdy odwołano obchody Święta Kreta" - Pan Józek, znany hodowca kurczaków</plPL>
+    <koKR>완전히 격노한 닭보다 무시무시한(또는 황당한) 야수는 없습니다.</koKR>
+    <itIT>Non c'è bestia più spaventosa (o ridicola) di una gallina sull'orlo di una crisi di nervi.</itIT>
+    <frFR>Tais-toi, tais-toi, tais-toi, la patte de poulet furieux satan hérétique !!!</frFR>
+    <esMX>No hay bestia más aterradora (o ridícula) que una gallina completamente fuera de sus casillas.</esMX>
+    <esES>¡Es el pollo diablo!</esES>
+    <deDE>Kein Wesen ist furchteinflößender (oder lächerlicher) als ein echt wütendes Huhn.</deDE>
+  </Tag>
+  <Tag name="Enrage" enumID="212" type="Bool" value="1" />
+  <Power definition="9c93272d-f906-465d-8b05-f4316f07ba9d" />
 </Entity>

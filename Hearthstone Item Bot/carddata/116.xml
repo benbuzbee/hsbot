@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_142">
+<Entity version="2" CardID="CS2_105e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Kobold Geomancer</enUS>
-    <frFR>Géomancien kobold</frFR>
-    <zhTW>狗頭人地卜師</zhTW>
-    <zhCN>狗头人地卜师</zhCN>
-    <ruRU>Кобольд-геомант</ruRU>
-    <ptBR>Geomante Kobold</ptBR>
-    <plPL>Kobold geomanta</plPL>
-    <koKR>코볼트 흙점쟁이</koKR>
-    <itIT>Coboldo Geomante</itIT>
-    <esMX>Geomántico kóbold</esMX>
-    <esES>Geomántico kóbold</esES>
-    <enGB>Kobold Geomancer</enGB>
-    <deDE>Koboldgeomant</deDE>
+    <enUS>Heroic Strike</enUS>
+    <frFR>Frappe héroïque</frFR>
+    <zhTW>英勇打擊</zhTW>
+    <zhCN>英勇打击</zhCN>
+    <ruRU>Удар героя</ruRU>
+    <ptBR>Golpe Heroico</ptBR>
+    <plPL>Heroiczny cios</plPL>
+    <koKR>영웅의 일격</koKR>
+    <itIT>Assalto Eroico</itIT>
+    <esMX>Golpe heroico</esMX>
+    <esES>Golpe heroico</esES>
+    <deDE>Heldenhafter Stoß</deDE>
   </Tag>
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Power +1&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;+1 Puissance des sorts&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術能量+1&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术强度+1&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Сила заклинаний +1&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Moc zaklęć +1&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Poder de hechizo +1&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+1 p. de poder con hechizos&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Spell Power +1&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Zaubermacht +1&lt;/b&gt;</deDE>
+    <enUS>+4 Attack this turn.</enUS>
+    <frFR>+4 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合+4攻擊力。</zhTW>
+    <zhCN>在本回合中，+4攻击力。</zhCN>
+    <ruRU>+4 к атаке до конца хода.</ruRU>
+    <ptBR>+4 de Ataque neste turno.</ptBR>
+    <plPL>+4 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +4</koKR>
+    <itIT>+4 Attacco in questo turno.</itIT>
+    <esMX>+4 de Ataque en este turno.</esMX>
+    <esES>+4 p. de ataque este turno.</esES>
+    <deDE>+4 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gabor Szikszai</enUS>
-  </Tag>
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="fae6d4e1-a5d3-49d4-9a7f-43ec4bbed5b4" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="ebd0e2db-9128-486b-b6a2-fa62a229e20b" />
+  <Power definition="832f5deb-00f4-4e10-9a87-298402bb79f3" />
 </Entity>

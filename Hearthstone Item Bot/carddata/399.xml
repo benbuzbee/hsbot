@@ -1,65 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_392">
-  <MasterPower>b325b69e-6855-4de3-a96b-592d349880d6</MasterPower>
+<Entity version="2" CardID="EX1_360e">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Battle Rage</enUS>
-    <frFR>Rage du combat</frFR>
-    <zhTW>戰鬥狂怒</zhTW>
-    <zhCN>战斗怒火</zhCN>
-    <ruRU>Боевая ярость</ruRU>
-    <ptBR>Ira de Batalha</ptBR>
-    <plPL>Bitewny szał</plPL>
-    <koKR>전투 격노</koKR>
-    <itIT>Furia Battagliera</itIT>
-    <esMX>Ira de batalla</esMX>
-    <esES>Ira de batalla</esES>
-    <enGB>Battle Rage</enGB>
-    <deDE>Kampfeswut</deDE>
+    <enUS>Humility</enUS>
+    <frFR>Humilité</frFR>
+    <zhTW>謙恭</zhTW>
+    <zhCN>谦逊</zhCN>
+    <ruRU>Смирение</ruRU>
+    <ptBR>Humildade</ptBR>
+    <plPL>Pokora</plPL>
+    <koKR>겸손</koKR>
+    <itIT>Umiltà</itIT>
+    <esMX>Humildad</esMX>
+    <esES>Humildad</esES>
+    <deDE>Demut</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card for each damaged minion.</enUS>
-    <frFR>Vous piochez une carte pour chaque serviteur blessé.</frFR>
-    <zhTW>抽牌，數量等於場上受傷手下的總數。</zhTW>
-    <zhCN>每有一个受到伤害的随从，便抽一张牌。</zhCN>
-    <ruRU>Вы берете карту за каждое существо с неполным здоровьем.</ruRU>
-    <ptBR>Compre um card para cada lacaio que tenha sofrido dano.</ptBR>
-    <plPL>Dobierz kartę za każdego rannego stronnika.</plPL>
-    <koKR>피해를 입은 하수인의 수만큼 카드를 뽑습니다.</koKR>
-    <itIT>Pesca una carta per ogni servitore danneggiato.</itIT>
-    <esMX>Roba una carta por cada esbirro dañado.</esMX>
-    <esES>Roba una carta por cada esbirro dañado.</esES>
-    <enGB>Draw a card for each damaged minion.</enGB>
-    <deDE>Zieht eine Karte für jeden verletzten Diener.</deDE>
+    <enUS>Attack has been changed to 1.</enUS>
+    <frFR>L’Attaque est passée à 1.</frFR>
+    <zhTW>攻擊力被改為1點。</zhTW>
+    <zhCN>攻击力变为1。</zhCN>
+    <ruRU>Атака теперь равна 1.</ruRU>
+    <ptBR>Ataque mudado para 1.</ptBR>
+    <plPL>Atak został zmieniony na 1.</plPL>
+    <koKR>공격력 1이 됨</koKR>
+    <itIT>Attacco pari a 1.</itIT>
+    <esMX>El Ataque ha cambiado a 1.</esMX>
+    <esES>El ataque ha cambiado a 1 p.</esES>
+    <deDE>Angriff wurde auf 1 gesetzt.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"You won't like me when I'm angry."</enUS>
-    <zhTW>「你不會喜歡生氣時的我。」</zhTW>
-    <zhCN>“你不会喜欢我生气的样子。”</zhCN>
-    <ruRU>«Лучше не зли меня. Тебе это не понравится.»</ruRU>
-    <ptBR>"Você não vai gostar se eu me zangar."</ptBR>
-    <plPL>„Nie spodobam ci się, gdy wpadnę w złość.”</plPL>
-    <koKR>"날 화나게 하지마. 분명 후회할걸?"</koKR>
-    <itIT>"Non sono simpatico quando mi arrabbio."</itIT>
-    <frFR>« Ne me mettez pas en colère, vous risqueriez de le regretter. »</frFR>
-    <esMX>Ojo, no soy yo cuando me enojo.</esMX>
-    <esES>Para poder ganar hay que saber sufrir.</esES>
-    <enGB>"You won't like me when I'm angry."</enGB>
-    <deDE>„Ihr würdet mich nicht mögen, wenn ich wütend bin.“</deDE>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="b325b69e-6855-4de3-a96b-592d349880d6">
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="3" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="3" />
+  <Power definition="5a7b89ff-d9c3-4b7e-8b36-f7a3627b1d77" />
 </Entity>

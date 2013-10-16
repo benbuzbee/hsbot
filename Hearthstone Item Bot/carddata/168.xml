@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DREAM_05">
-  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>
+<Entity version="2" CardID="CS2_226e">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Nightmare</enUS>
-    <frFR>Cauchemar</frFR>
-    <zhTW>夢魘</zhTW>
-    <zhCN>噩梦</zhCN>
-    <ruRU>Кошмар</ruRU>
-    <ptBR>Pesadelo</ptBR>
-    <plPL>Koszmar</plPL>
-    <koKR>악몽</koKR>
-    <itIT>Incubo</itIT>
-    <esMX>Pesadilla</esMX>
-    <esES>Pesadilla</esES>
-    <enGB>Nightmare</enGB>
-    <deDE>Alptraum</deDE>
+    <enUS>Frostwolf Banner</enUS>
+    <zhTW>霜狼旌旗</zhTW>
+    <zhCN>霜狼军旗</zhCN>
+    <ruRU>Знамя Северного Волка</ruRU>
+    <ptBR>Estandarte dos Lobo do Gelo</ptBR>
+    <plPL>Sztandar Mroźnych Wilków</plPL>
+    <koKR>서리늑대 깃발</koKR>
+    <itIT>Stendardo dei Lupi Bianchi</itIT>
+    <frFR>Bannière loup-de-givre</frFR>
+    <esMX>Estandarte Lobo Gélido</esMX>
+    <esES>Estandarte Lobo Gélido</esES>
+    <deDE>Banner der Frostwölfe</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>
-    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>
-    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它。</zhTW>
-    <zhCN>使一个随从获得+5/+5。在你的下一个回合开始时，消灭该随从。</zhCN>
-    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>
-    <ptBR>Conceda +5/+5 a um lacaio. No início do próximo turno, destrua-o.</ptBR>
-    <plPL>Daj stronnikowi +5/+5. Niszczysz go na początku swojej następnej tury.</plPL>
-    <koKR>하수인에게 +5/+5를 부여합니다. 당신의 다음 턴이 시작될 때 파괴됩니다.</koKR>
-    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>
-    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>
-    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>
-    <enGB>Give a minion +5/+5.  At the start of your next turn, destroy it.</enGB>
-    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>
+    <enUS>Increased stats.</enUS>
+    <zhTW>屬性提高。</zhTW>
+    <zhCN>属性值提高。</zhCN>
+    <ruRU>Характеристики увеличены.</ruRU>
+    <ptBR>Atributos aumentados.</ptBR>
+    <plPL>Zwiększone statystyki.</plPL>
+    <koKR>능력치 상승</koKR>
+    <itIT>Statistiche aumentate.</itIT>
+    <frFR>Caractéristiques augmentées.</frFR>
+    <esMX>Estadísticas aumentadas.</esMX>
+    <esES>Estadísticas aumentadas.</esES>
+    <deDE>Erhöhte Werte.</deDE>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="11" />
-  <Power definition="90db08f8-87af-4e7b-8578-36621fd7065b">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="4f170e6a-b1c5-40a4-a079-7bbf5a5e2408" />
 </Entity>

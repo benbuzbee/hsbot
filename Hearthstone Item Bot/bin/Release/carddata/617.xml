@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4a_003">
+<Entity version="2" CardID="NEW1_036e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gnoll</enUS>
-    <zhTW>豺狼人</zhTW>
-    <zhCN>豺狼人</zhCN>
-    <ruRU>Гнолл</ruRU>
-    <ptBR>Gnoll</ptBR>
-    <plPL>Gnol</plPL>
-    <koKR>놀</koKR>
-    <itIT>Gnoll</itIT>
-    <frFR>Gnoll</frFR>
-    <esMX>Gnoll</esMX>
-    <esES>Gnoll</esES>
-    <enGB>Gnoll</enGB>
-    <deDE>Gnoll</deDE>
+    <enUS>Commanding Shout</enUS>
+    <frFR>Cri de commandement</frFR>
+    <zhTW>命令之吼</zhTW>
+    <zhCN>命令怒吼</zhCN>
+    <ruRU>Командирский крик</ruRU>
+    <ptBR>Brado de Comando</ptBR>
+    <plPL>Rozkazujący okrzyk</plPL>
+    <koKR>지휘의 외침</koKR>
+    <itIT>Urlo di Comando</itIT>
+    <esMX>Grito de orden</esMX>
+    <esES>Grito de orden</esES>
+    <deDE>Befehlsruf</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Can't be reduced below 1 Health this turn.</enUS>
+    <frFR>Ne peut pas avoir moins de 1 PV pendant ce tour.</frFR>
+    <zhTW>本回合內生命值不會低於1點。</zhTW>
+    <zhCN>在本回合中，生命值无法被降到1点以下。</zhCN>
+    <ruRU>Здоровье не может быть меньше 1 до конца хода.</ruRU>
+    <ptBR>Não podem ser reduzidos a menos de 1 de Vida neste turno.</ptBR>
+    <plPL>W tej turze nie może zejść poniżej 1 pkt. zdrowia.</plPL>
+    <koKR>이번 턴에는 생명력이 1 미만으로 내려가지 않음</koKR>
+    <itIT>Non può essere portato al di sotto di 1 Salute.</itIT>
+    <esMX>La Salud no puede reducirse a menos de 1 en este turno.</esMX>
+    <esES>La salud no puede bajar de 1 p. este turno.</esES>
+    <deDE>Kann in diesem Zug nicht unter 1 Leben fallen.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="0d5fa44a-f083-41a5-9310-bd4ef76a9243" />
-  <Power definition="1d61ebcf-b6d1-4c96-a824-d0c4831e7c7b" />
-  <Power definition="469a5acf-6c18-49d7-b9db-585694b24e10" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="5e5624ca-dd90-4ebb-b303-79f58abdb5ac" />
+  <Power definition="d2ac4fd6-9a8b-4476-9131-921ec0adb2af" />
 </Entity>

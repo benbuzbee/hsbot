@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_571">
-  <MasterPower>d693477e-0b88-45d1-bad5-5384baaeb1f7</MasterPower>
+<Entity version="2" CardID="EX1_549">
+  <MasterPower>ec001c18-5106-4cd3-a9c3-fb35a1153440</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Force of Nature</enUS>
-    <frFR>Force de la nature</frFR>
-    <zhTW>自然之力</zhTW>
-    <zhCN>自然之力</zhCN>
-    <ruRU>Сила природы</ruRU>
-    <ptBR>Força da Natureza</ptBR>
-    <plPL>Siła natury</plPL>
-    <koKR>자연의 군대</koKR>
-    <itIT>Forza della Natura</itIT>
-    <esMX>Fuerza de la naturaleza</esMX>
-    <esES>Fuerza de la Naturaleza</esES>
-    <enGB>Force of Nature</enGB>
-    <deDE>Naturgewalt</deDE>
+    <enUS>Bestial Wrath</enUS>
+    <frFR>Courroux bestial</frFR>
+    <zhTW>狂野怒火</zhTW>
+    <zhCN>狂野怒火</zhCN>
+    <ruRU>Звериный гнев</ruRU>
+    <ptBR>Ira Bestial</ptBR>
+    <plPL>Bestialski gniew</plPL>
+    <koKR>야수의 격노</koKR>
+    <itIT>Ira Bestiale</itIT>
+    <esMX>Cólera de las bestias</esMX>
+    <esES>Cólera de las bestias</esES>
+    <deDE>Zorn des Wildtiers</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Summon three 2/2 Treants with &lt;b&gt;Charge&lt;/b&gt; that die at the end of the turn.</enUS>
-    <frFR>Invoque trois tréants 2/2 avec &lt;b&gt;Charge&lt;/b&gt; qui meurent à la fin du tour.</frFR>
-    <zhTW>召喚三個有&lt;b&gt;衝鋒&lt;/b&gt;，並在回合結束即死亡的2/2樹人。</zhTW>
-    <zhCN>召唤3个2/2并具有&lt;b&gt;冲锋&lt;/b&gt;的树人，在回合结束时，消灭这些树人。</zhCN>
-    <ruRU>Призывает на поле боя трех древней 2/2 со способностью &lt;b&gt;«Рывок»&lt;/b&gt;, которые умрут в конце хода.</ruRU>
-    <ptBR>Evoque três Arvorosos 2/2 com &lt;b&gt;Investida&lt;/b&gt;, que morrerão no fim do turno.</ptBR>
-    <plPL>Przyzwij trzy drzewce z &lt;b&gt;Szarżą&lt;/b&gt;, które zginą na koniec tury.</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;을 가진 2/2 나무정령을 셋 소환합니다. 이들은 당신의 턴이 끝날 때 모두 죽습니다.</koKR>
-    <itIT>Evoca tre Treant 2/2 con &lt;b&gt;Carica&lt;/b&gt; che muoiono alla fine del tuo turno.</itIT>
-    <esMX>Invoca tres Antárboles 2/2 con &lt;b&gt;Carga&lt;/b&gt; que mueren al final del turno.</esMX>
-    <esES>Invoca tres antárboles 2/2 con &lt;b&gt;Cargar&lt;/b&gt; que mueren al final del turno.</esES>
-    <enGB>Summon three 2/2 Treants with &lt;b&gt;Charge&lt;/b&gt; that die at the end of the turn.</enGB>
-    <deDE>Ruft drei Treants (2/2) mit &lt;b&gt;Ansturm&lt;/b&gt; herbei, die am Ende des Zuges sterben.</deDE>
+    <enUS>Give a Beast +2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
+    <frFR>Confère +2 ATQ et l’effet &lt;b&gt;Insensible&lt;/b&gt; à une Bête pendant ce tour.</frFR>
+    <zhTW>賦予一隻野獸+2攻擊力，及本回合&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
+    <zhCN>在本回合中，使一只野兽获得+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
+    <ruRU>Выбранный зверь получает +2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
+    <ptBR>Conceda +2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; a uma Fera neste turno.</ptBR>
+    <plPL>W tej turze daj Bestii +2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
+    <koKR>이번 턴에 야수에게 공격력 +2와 &lt;b&gt;피해 면역&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce +2 Attacco e &lt;b&gt;Immune&lt;/b&gt; a una Bestia in questo turno.</itIT>
+    <esMX>Otorga +2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; a una Bestia en este turno.</esMX>
+    <esES>Otorga +2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; a una bestia este turno.</esES>
+    <deDE>Verleiht einem Wildtier +2 Angriff und &lt;b&gt;Immunität&lt;/b&gt; in diesem Zug.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trevor Jacobs</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"I think I'll just nap under these trees. Wait... AAAAAHHH!" - Blinkfizz, the Unfortunate Gnome</enUS>
-    <zhTW>「我想先在那些樹下打個盹。等等...啊啊啊啊!!!」-不幸的地精布林克非茲</zhTW>
-    <zhCN>“我想我可以在这片树荫下打个盹儿。等等...啊啊啊啊啊！”——不幸的侏儒布林克菲兹</zhCN>
-    <ruRU>«Я хочу прикорнуть под этими деревьями. Эй, что это? АААААААА!» - Микрутень, невезучий гном.</ruRU>
-    <ptBR>"Acho que vou cochilar embaixo dessa árvore. Espera... AAAHHHH!" — Piscaxispa, o Gnomo Azarado</ptBR>
-    <plPL>„Chyba kimnę się zdziebko pod tymi drzewkami. Chwilę... AAAAAAA!” - Migotek, pechowy gnom.</plPL>
-    <koKR>"이 나무들 밑에서 한숨 자야겠어. 잠깐... 으아아아아악!" - 운 나쁜 노움, 블링크피즈</koKR>
-    <itIT>"Penso che farò un sonnellino all'ombra di questi alberi. Un momento... AAAAAHHH!" - Blinkfizz, lo Gnomo Sfortunato</itIT>
-    <frFR>« Je crois que je vais faire un somme sous ces arbres. Hé, qu’est-ce que... AAAAAHHH ! » - Folbulle, le malheureux gnome</frFR>
-    <esMX>"Me echaré a dormir una siesta bajo estos árboles. Un momento... ¡AAAHHHHH!". —Chispita, el gnomo desafortunado</esMX>
-    <esES>"¡Menuda siesta me voy a echar a la sombra de estos chopos! ... ¡AAAAAAAAH!" - Burbujillo, el gnomo desgraciado</esES>
-    <enGB>"I think I'll just nap under these trees. Wait... AAAAAHHH!" - Blinkfizz, the Unfortunate Gnome</enGB>
-    <deDE>„Ich mache mal ein Nickerchen unter diesen Bäumen dort. Wartet ... AAAHHH!“ - Zwinkerfizz, der unglückselige Gnom</deDE>
+    <enUS>The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.</enUS>
+    <zhTW>沸騰的憤怒僅僅是表面。在那之下是狂亂的自我解放，隨之而來的是輕微的不快。</zhTW>
+    <zhCN>盛燃的愤怒掩藏于表面之下，同时还伴随着野性的狂放不羁和些许傲慢。</zhCN>
+    <ruRU>Безудержный гнев – лишь внешнее проявление чувств. Под ним скрывается дикая вспыльчивость и легкое недовольство.</ruRU>
+    <ptBR>A ira fervilhante está logo abaixo da superfície. Abaixo dela, fica o abandono selvagem, seguido por uma ligeira irritação.</ptBR>
+    <plPL>Bestialski to on jest tylko z nazwy.</plPL>
+    <koKR>표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.</koKR>
+    <itIT>La rabbia ribolle sotto la superficie e sotto di essa c'è l'abbandono selvaggio. Poco più sotto, un leggero fastidio.</itIT>
+    <frFR>Courroux coucou, ça tache ça tache !</frFR>
+    <esMX>Bajo la superficie habita una cólera hirviente. Y bajo esa cólera yace un abandono salvaje, seguido de un ligero fastidio.</esMX>
+    <esES>Es una cólera que está en tu interior, por debajo de las costillas, entre la tostada del desayuno y el pescado del almuerzo.</esES>
+    <deDE>Na toll, jetzt habt Ihr es wütend gemacht!</deDE>
   </Tag>
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="d693477e-0b88-45d1-bad5-5384baaeb1f7" />
+  <ReferencedTag name="Cant Be Damaged" enumID="240" type="Bool" value="1" />
+  <Power definition="ec001c18-5106-4cd3-a9c3-fb35a1153440">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="10" param="20" />
+  </Power>
 </Entity>

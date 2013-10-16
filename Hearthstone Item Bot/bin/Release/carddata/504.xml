@@ -1,54 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_614">
+<Entity version="2" CardID="EX1_596e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Illidan Stormrage</enUS>
-    <frFR>Illidan Hurlorage</frFR>
-    <zhTW>伊利丹·怒風</zhTW>
-    <zhCN>伊利丹·怒风</zhCN>
-    <ruRU>Иллидан Ярость Бури</ruRU>
-    <ptBR>Illidan Tempesfúria</ptBR>
-    <plPL>Illidan Burzogniewny</plPL>
-    <koKR>일리단 스톰레이지</koKR>
-    <itIT>Illidan Grantempesta</itIT>
-    <esMX>Illidan Tempestira</esMX>
-    <esES>Illidan Tempestira</esES>
-    <enGB>Illidan Stormrage</enGB>
-    <deDE>Illidan Sturmgrimm</deDE>
+    <enUS>Demonfire</enUS>
+    <frFR>Feu démoniaque</frFR>
+    <zhTW>惡魔火焰</zhTW>
+    <zhCN>恶魔之火</zhCN>
+    <ruRU>Демонический огонь</ruRU>
+    <ptBR>Fogo Demoníaco</ptBR>
+    <plPL>Demoniczny ogień</plPL>
+    <koKR>악마의 불꽃</koKR>
+    <itIT>Fuoco Demoniaco</itIT>
+    <esMX>Fuego demoníaco</esMX>
+    <esES>Fuego demoníaco</esES>
+    <deDE>Dämonenfeuer</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you play a card, summon a 2/1 Flame of Azzinoth.</enUS>
-    <frFR>Quand vous jouez une carte, invoque une Flamme d’Azzinoth 2/1.</frFR>
-    <zhTW>每當你出牌，召喚一個2/1的埃辛諾斯火焰。</zhTW>
-    <zhCN>每当你使用一张牌时，召唤一个2/1的埃辛诺斯烈焰。</zhCN>
-    <ruRU>Каждый раз, когда вы разыгрываете карту, на поле боя призывается пламя Аззинота 2/1.</ruRU>
-    <ptBR>Sempre que você jogar um card, evoque uma Labareda de Azzinoth 2/1.</ptBR>
-    <plPL>Za każdym razem, gdy zagrywasz kartę, przyzywasz Płomień Azzinotha 2/1.</plPL>
-    <koKR>카드를 낼 때마다 2/1 아지노스의 불꽃을 소환합니다.</koKR>
-    <itIT>Ogni volta che giochi una carta, evoca una Fiamma di Azzinoth 2/1.</itIT>
-    <esMX>Cada vez que juegas una carta, invoca una Llama de Azzinoth 2/1.</esMX>
-    <esES>Cada vez que juegas una carta, invoca una Llama de Azzinoth 2/1.</esES>
-    <enGB>Whenever you play a card, summon a 2/1 Flame of Azzinoth.</enGB>
-    <deDE>Beschwört jedes Mal eine Flamme von Azzinoth (2/1), wenn Ihr eine Karte ausspielt.</deDE>
+    <enUS>This Demon has +2/+2.</enUS>
+    <frFR>Ce démon a +2/+2.</frFR>
+    <zhTW>這個惡魔獲得+2/+2。</zhTW>
+    <zhCN>该恶魔获得+2/+2。</zhCN>
+    <ruRU>Этот демон получил +2/+2.</ruRU>
+    <ptBR>Este Demônio tem +2/+2.</ptBR>
+    <plPL>Ten demon ma +2/+2.</plPL>
+    <koKR>+2/+2</koKR>
+    <itIT>+2/+2.</itIT>
+    <esMX>Este Demonio tiene +2/+2.</esMX>
+    <esES>Este demonio tiene +2/+2.</esES>
+    <deDE>Dieser Dämon hat +2/+2.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="15" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="631d1333-48cb-47c8-a817-a2f6078f047e" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="a3d42752-91b8-47aa-87f5-f51ac8e0c216" />
 </Entity>

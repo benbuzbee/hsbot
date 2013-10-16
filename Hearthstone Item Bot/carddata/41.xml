@@ -1,68 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_039">
-  <MasterPower>a65b410d-4f85-4661-b3e2-cdc9d5acaeea</MasterPower>
+<Entity version="2" CardID="CS2_017o">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Windfury</enUS>
-    <frFR>Furie des vents</frFR>
-    <zhTW>風怒</zhTW>
-    <zhCN>风怒</zhCN>
-    <ruRU>Неистовство ветра</ruRU>
-    <ptBR>Fúria dos Ventos</ptBR>
-    <plPL>Furia wichru</plPL>
-    <koKR>질풍</koKR>
-    <itIT>Furia del Vento</itIT>
-    <esMX>Viento furioso</esMX>
-    <esES>Viento Furioso</esES>
-    <enGB>Windfury</enGB>
-    <deDE>Windzorn</deDE>
+    <enUS>Claws</enUS>
+    <frFR>Griffes</frFR>
+    <zhTW>利爪</zhTW>
+    <zhCN>利爪</zhCN>
+    <ruRU>Когти</ruRU>
+    <ptBR>Garras</ptBR>
+    <plPL>Pazury</plPL>
+    <koKR>발톱</koKR>
+    <itIT>Artigli</itIT>
+    <esMX>Garras</esMX>
+    <esES>Garras</esES>
+    <deDE>Klauen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a minion &lt;b&gt;Windfury&lt;/b&gt;.</enUS>
-    <frFR>Confère &lt;b&gt;Furie des vents&lt;/b&gt; à un serviteur.</frFR>
-    <zhTW>賦予一個手下&lt;b&gt;風怒&lt;/b&gt;。</zhTW>
-    <zhCN>使一个随从获得&lt;b&gt;风怒&lt;/b&gt;。</zhCN>
-    <ruRU>Выбранное существо получает способность &lt;b&gt;«Неистовство ветра»&lt;/b&gt;.</ruRU>
-    <ptBR>Conceda &lt;b&gt;Fúria dos Ventos&lt;/b&gt; a um lacaio.</ptBR>
-    <plPL>Daj stronnikowi &lt;b&gt;Furię wichru&lt;/b&gt;.</plPL>
-    <koKR>하수인에게 &lt;b&gt;질풍&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce &lt;b&gt;Furia del Vento&lt;/b&gt; a un servitore.</itIT>
-    <esMX>Otorga &lt;b&gt;Viento furioso&lt;/b&gt; a un esbirro.</esMX>
-    <esES>Otorga &lt;b&gt;Viento Furioso&lt;/b&gt; a un esbirro.</esES>
-    <enGB>Give a minion &lt;b&gt;Windfury&lt;/b&gt;.</enGB>
-    <deDE>Verleiht einem Diener &lt;b&gt;Windzorn&lt;/b&gt;.</deDE>
+    <enUS>Your hero has +1 Attack this turn.</enUS>
+    <frFR>Votre héros a +1 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合賦予你的英雄+1攻擊力。</zhTW>
+    <zhCN>在本回合中，你的英雄获得+1攻击力。</zhCN>
+    <ruRU>Ваш герой получил +1 к атаке до конца хода.</ruRU>
+    <ptBR>Seu herói tem +1 de Ataque neste turno.</ptBR>
+    <plPL>W tej turze twój bohater ma +1 do ataku.</plPL>
+    <koKR>이번 턴에 공격력 +1</koKR>
+    <itIT>Il tuo eroe ha +1 Attacco in questo turno.</itIT>
+    <esMX>Tu héroe tiene +1 de Ataque en este turno.</esMX>
+    <esES>Tu héroe tiene +1 p. de ataque este turno.</esES>
+    <deDE>Euer Held hat +1 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Justin Sweet</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Just don't expect him to give it back to you.</enUS>
-    <zhTW>不要期望他會還給你。</zhTW>
-    <zhCN>比起“地怒”或是“火怒”，萨满们更喜欢使用“风怒”，因为它更轻巧，更飘逸。</zhCN>
-    <ruRU>Неистовство ветра — это как неистовство земли, только побольше воздуха и света.</ruRU>
-    <ptBR>Fúria dos Ventos é como Fúria da Terra e Fúria do Fogo, só que mais leve e aerada.</ptBR>
-    <plPL>Furia wichru świetnie nadaje się także do zamiatania ulic.</plPL>
-    <koKR>질풍노도의 시기가 옵니다. 두 번 옵니다.</koKR>
-    <itIT>Furia del Vento è come Furia della Terra e Furia del Fuoco, solo un po' più fresca e leggera.</itIT>
-    <frFR>Donner, c'est donner, reprendre, c'est voler !</frFR>
-    <esMX>¿Furioso? ¿Furioso con quién?</esMX>
-    <esES>Viento Furioso es como Tierra Furiosa y Fuego Furioso... solo que más ligero y etéreo.</esES>
-    <enGB>Just don't expect him to give it back to you.</enGB>
-    <deDE>Windzorn ist in etwa das Gleiche wie Erdzorn und Feuerzorn, nur irgendwie erfrischender.</deDE>
-  </Tag>
-  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
-  <ReferencedTag name="Windfury" enumID="189" type="Bool" value="1" />
-  <Power definition="a65b410d-4f85-4661-b3e2-cdc9d5acaeea">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="a178d5ce-317a-4c5b-aaf6-9cd6aa0deefc" />
+  <Power definition="c3f4f06c-42a8-4828-8897-a16b01a8a1f6" />
 </Entity>

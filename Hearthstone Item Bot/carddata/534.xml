@@ -1,42 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="GAME_004">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_624">
+  <MasterPower>79be47bc-2e0a-4680-8a0f-137ccf3f5550</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>AFK</enUS>
-    <zhTW>不在電腦前</zhTW>
-    <zhCN>暂离</zhCN>
-    <ruRU>Отсутствует</ruRU>
-    <ptBR>LDT</ptBR>
-    <plPL>Zaraz wracam</plPL>
-    <koKR>자리 비움</koKR>
-    <itIT>Assente</itIT>
-    <frFR>ABS</frFR>
-    <esMX>No disponible</esMX>
-    <esES>AUS</esES>
-    <enGB>AFK</enGB>
-    <deDE>AFK</deDE>
+    <enUS>Holy Fire</enUS>
+    <frFR>Flammes sacrées</frFR>
+    <zhTW>神聖之火</zhTW>
+    <zhCN>神圣之火</zhCN>
+    <ruRU>Священный огонь</ruRU>
+    <ptBR>Fogo Sagrado</ptBR>
+    <plPL>Święty ogień</plPL>
+    <koKR>신성한 불꽃</koKR>
+    <itIT>Fuoco Sacro</itIT>
+    <esMX>Fuego sagrado</esMX>
+    <esES>Fuego Sagrado</esES>
+    <deDE>Heiliges Feuer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your turns are shorter.</enUS>
-    <zhTW>你的回合時間變短了。</zhTW>
-    <zhCN>你的回合时间减少。</zhCN>
-    <ruRU>У вас становится меньше времени на ход.</ruRU>
-    <ptBR>Seus turnos são mais curtos.</ptBR>
-    <plPL>Twoje tury są krótsze.</plPL>
-    <koKR>당신의 턴이 짧아집니다.</koKR>
-    <itIT>I tuoi turni sono più corti.</itIT>
-    <frFR>Vos tours sont plus courts.</frFR>
-    <esMX>Tus turnos son más cortos.</esMX>
-    <esES>Tus turnos son más cortos.</esES>
-    <enGB>Your turns are shorter.</enGB>
-    <deDE>Eure Züge sind kürzer.</deDE>
+    <enUS>Deal 5 damage.  Restore 5 Health to your hero.</enUS>
+    <frFR>Inflige 5 points de dégâts. Rend 5 PV à votre héros.</frFR>
+    <zhTW>造成5點傷害。使你的英雄恢復5點生命值。</zhTW>
+    <zhCN>造成5点伤害。为你的英雄恢复5点生命值。</zhCN>
+    <ruRU>Наносит 5 ед. урона. Восстанавливает 5 ед. здоровья вашему герою.</ruRU>
+    <ptBR>Cause 5 de dano. Restaure 5 de Vida do seu herói.</ptBR>
+    <plPL>Zadaj 5 pkt. obrażeń. Przywróć 5 pkt. zdrowia swojemu bohaterowi.</plPL>
+    <koKR>피해를 5 줍니다. 내 영웅이 생명력을 5 회복합니다.</koKR>
+    <itIT>Infligge 5 danni. Rigenera 5 Salute al tuo eroe.</itIT>
+    <esMX>Inflige 5 de daño. Restaura 5 de Salud a tu héroe.</esMX>
+    <esES>Inflige 5 p. de daño. Restaura 5. de salud a tu héroe.</esES>
+    <deDE>Verursacht 5 Schaden. Stellt bei Eurem Helden 5 Leben wieder her.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Karl Richardson</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Often followed by Holy Smokes!</enUS>
+    <zhTW>隨之而來的通常是神聖的黑煙!</zhTW>
+    <zhCN>紧接着你就会看到“神圣之烟”！</zhCN>
+    <ruRU>Священный огонь не бывает без священного дыма!</ruRU>
+    <ptBR>Logo depois vem a Fumaça Sagrada!</ptBR>
+    <plPL>Często następuje po nim siwy dym!</plPL>
+    <koKR>흑마법사의 생명력 흡수와 뭐가 다르냐고요?... 신성 모독이다!</koKR>
+    <itIT>Spesso seguito dal Fumo Sacro!</itIT>
+    <frFR>Ce sort est souvent suivi d’une sacrée fumée !</frFR>
+    <esMX>No puedes decir que los dioses no te han escuchado.</esMX>
+    <esES>Donde hay Fuego Sagrado, hay Humo Sagrado.</esES>
+    <deDE>Wird oft von Heiligem Rauch gefolgt.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="754e9084-d614-43c7-92a6-1fd4bf32accc" />
-  <Power definition="53b60f51-f1b9-439c-b0d1-5bd62888d8fe" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="79be47bc-2e0a-4680-8a0f-137ccf3f5550">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

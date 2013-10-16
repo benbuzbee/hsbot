@@ -1,55 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_095">
+<Entity version="2" CardID="EX1_059e2">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gadgetzan Auctioneer</enUS>
-    <frFR>Commissaire-priseur</frFR>
-    <zhTW>加基森拍賣師</zhTW>
-    <zhCN>加基森拍卖师</zhCN>
-    <ruRU>Гоблин-аукционист</ruRU>
-    <ptBR>Leiloeiro de Geringontzan</ptBR>
-    <plPL>Licytator z Gadżetonu</plPL>
-    <koKR>가젯잔 경매인</koKR>
-    <itIT>Banditore di Meccania</itIT>
-    <esMX>Subastador de Gadgetzan</esMX>
-    <esES>Subastador de Gadgetzan</esES>
-    <enGB>Gadgetzan Auctioneer</enGB>
-    <deDE>Goblinauktionator</deDE>
+    <enUS>Experiments!</enUS>
+    <frFR>Des expériences !</frFR>
+    <zhTW>實驗!</zhTW>
+    <zhCN>实验！</zhCN>
+    <ruRU>Эксперименты!</ruRU>
+    <ptBR>Experimentos!</ptBR>
+    <plPL>Eksperymenty!</plPL>
+    <koKR>실험!</koKR>
+    <itIT>Esperimenti!</itIT>
+    <esMX>¡Experimentos!</esMX>
+    <esES>¡Experimentos!</esES>
+    <deDE>Experimente!</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Auctioning</enUS>
-  </Tag>
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you cast a spell, draw a card.</enUS>
-    <frFR>Vous piochez une carte quand vous lancez un sort.</frFR>
-    <zhTW>每當你施放法術，抽一張牌。</zhTW>
-    <zhCN>每当你施放一个法术时，抽一张牌。</zhCN>
-    <ruRU>Каждый раз, когда вы разыгрываете заклинание, вы берете карту.</ruRU>
-    <ptBR>Ao lançar um feitiço, compre um card.</ptBR>
-    <plPL>Dobierz kartę za każdym razem, gdy rzucisz zaklęcie.</plPL>
-    <koKR>당신이 주문을 시전할 때마다 카드를 한 장 뽑습니다.</koKR>
-    <itIT>Ogni volta che lanci una Magia, pesca una carta.</itIT>
-    <esMX>Cada vez que lanzas un hechizo, roba una carta.</esMX>
-    <esES>Cuando lanzas un hechizo, roba una carta.</esES>
-    <enGB>Whenever you cast a spell, draw a card.</enGB>
-    <deDE>Zieht jedes Mal eine Karte, wenn Ihr einen Zauber wirkt.</deDE>
+    <enUS>Attack and Health have been swapped by Crazed Alchemist.</enUS>
+    <frFR>L’Attaque et la Vie ont été échangées par l’alchimiste dément.</frFR>
+    <zhTW>攻擊力和生命值被瘋狂的鍊金師所對調。</zhTW>
+    <zhCN>疯狂的炼金师使其攻击力和生命值互换。</zhCN>
+    <ruRU>Безумный алхимик поменял местами атаку и здоровье.</ruRU>
+    <ptBR>Ataque e Vida foram trocados pelo Alquimista Enlouquecido.</ptBR>
+    <plPL>Atak i zdrowie zostały zamienione przez szalonego alchemika.</plPL>
+    <koKR>광기의 연금술사가 공격력과 생명력 바꿈</koKR>
+    <itIT>Attacco e Salute scambiati dall'Alchimista Folle.</itIT>
+    <esMX>El Alquimista enloquecido ha intercambiado el Ataque y la Salud.</esMX>
+    <esES>El alquimista loco ha intercambiado el ataque y la salud.</esES>
+    <deDE>Der Verrückte Alchemist hat Angriff und Leben vertauscht.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Dixon</enUS>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="7352f544-1894-4ec6-a5a0-1c51b3ef8535" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="3" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="3" />
+  <Power definition="cecad300-65c1-4d6e-b550-978fcdb410a2" />
+  <Power definition="e6bfa48b-eae7-4b54-9f26-ef02e4a64d6c" />
 </Entity>

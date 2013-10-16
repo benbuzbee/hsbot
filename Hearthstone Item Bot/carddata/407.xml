@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_402">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_371">
+  <MasterPower>cfb61b8f-4148-4c61-b5a2-89bba5f04bbd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Armorsmith</enUS>
-    <frFR>Fabricante d’armures</frFR>
-    <zhTW>護甲鍛造師</zhTW>
-    <zhCN>铸甲师</zhCN>
-    <ruRU>Мастер брони</ruRU>
-    <ptBR>Ferreira de Armaduras</ptBR>
-    <plPL>Płatnerz</plPL>
-    <koKR>방어구 제작자</koKR>
-    <itIT>Fabbro d'Armature</itIT>
-    <esMX>Forjadora de armaduras</esMX>
-    <esES>Forjadora de armaduras</esES>
-    <enGB>Armorsmith</enGB>
-    <deDE>Rüstungsschmiedin</deDE>
+    <enUS>Hand of Protection</enUS>
+    <frFR>Main de protection</frFR>
+    <zhTW>保護聖禦</zhTW>
+    <zhCN>保护之手</zhCN>
+    <ruRU>Длань защиты</ruRU>
+    <ptBR>Mão da Proteção</ptBR>
+    <plPL>Ręka ochrony</plPL>
+    <koKR>보호의 손길</koKR>
+    <itIT>Imposizione della Protezione</itIT>
+    <esMX>Mano de protección</esMX>
+    <esES>Mano de protección</esES>
+    <deDE>Hand des Schutzes</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a friendly minion takes damage, gain 1 Armor.</enUS>
-    <frFR>Chaque fois qu’un serviteur allié subit des dégâts, vous gagnez 1 point d’armure.</frFR>
-    <zhTW>每當一個友方手下受到傷害，獲得1點護甲值。</zhTW>
-    <zhCN>每当一个友方随从受到伤害，便获得1点护甲值。</zhCN>
-    <ruRU>Каждый раз, когда ваше существо получает урон, вы получаете +1 к броне.</ruRU>
-    <ptBR>Sempre que um lacaio aliado receber dano, receba 1 de Armadura.</ptBR>
-    <plPL>Otrzymujesz 1 pkt. pancerza za każdym razem, gdy przyjazny stronnik zostanie zraniony.</plPL>
-    <koKR>아군 하수인이 피해를 입을 때마다 방어도를 1 얻습니다.</koKR>
-    <itIT>Quando un tuo servitore subisce danni, ottieni 1 Armatura.</itIT>
-    <esMX>Cuando un esbirro aliado recibe daño, obtienes 1 de Armadura.</esMX>
-    <esES>Tu héroe obtiene 1 p. de armadura cada vez que un esbirro amistoso recibe daño.</esES>
-    <enGB>Whenever a friendly minion takes damage, gain 1 Armor.</enGB>
-    <deDE>Ihr erhaltet jedes Mal 1 Rüstung, wenn ein befreundeter Diener Schaden erleidet.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Smithing</enUS>
+    <enUS>Give a minion &lt;b&gt;Divine Shield&lt;/b&gt;.</enUS>
+    <frFR>Confère &lt;b&gt;Bouclier divin&lt;/b&gt; à un serviteur.</frFR>
+    <zhTW>賦予一個手下&lt;b&gt;聖盾術&lt;/b&gt;。</zhTW>
+    <zhCN>使一个随从获得&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
+    <ruRU>Выбранное существо получает способность &lt;b&gt;«Божественный щит»&lt;/b&gt;.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Escudo Divino&lt;/b&gt; a um lacaio.</ptBR>
+    <plPL>Daj stronnikowi &lt;b&gt;Boską tarczę&lt;/b&gt;.</plPL>
+    <koKR>하수인에게 &lt;b&gt;천상의 보호막&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Scudo Divino&lt;/b&gt; a un servitore.</itIT>
+    <esMX>Otorga &lt;b&gt;Escudo divino&lt;/b&gt; a un esbirro.</esMX>
+    <esES>Otorga &lt;b&gt;Escudo divino&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Verleiht einem Diener &lt;b&gt;Gottesschild&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Greg Hildebrandt</enUS>
+    <enUS>Clint Langley</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 24.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He accepts guild funds for repairs!</enUS>
-    <zhTW>He accepts guild funds for repairs!</zhTW>
-    <zhCN>He accepts guild funds for repairs!</zhCN>
-    <ruRU>Ремонтирует за счет средств гильдии.</ruRU>
-    <ptBR>Ele aceita fundos da guilda para consertos!</ptBR>
-    <plPL>Przyjmuje też wynagrodzenie w naturze. </plPL>
-    <koKR>길드 자금 환영!</koKR>
-    <itIT>Accetta i fondi della gilda per le riparazioni.</itIT>
-    <frFR>Elle accepte les fonds de la guilde pour les réparations !</frFR>
-    <esMX>¡Acepta fondos de hermandad para reparaciones!</esMX>
-    <esES>¡Acepta fondos de hermandad a cambio de las reparaciones!</esES>
-    <deDE>Sie akzeptiert Gildengold für Reparaturen.</deDE>
+    <enUS>This spell has been renamed so many times, even paladins don’t know what it should be called anymore.</enUS>
+    <zhTW>這個法術的名字改了好幾次，改到連聖騎士們都不知道現在該怎麼稱呼它了。</zhTW>
+    <zhCN>这个法术的名字已经被修改了太多次，导致连圣骑士们都不知道它应该叫什么了。</zhCN>
+    <ruRU>Это заклинание переименовывали столько раз, что даже паладины не пытаются запомнить его текущее название.</ruRU>
+    <ptBR>Este feitiço foi renomeado tantas vezes, que nem mesmo os paladinos sabem como deve ser chamado.</ptBR>
+    <plPL>To zaklęcie zmieniało nazwę tyle razy, że nawet paladyni już nie wiedzą, jaka jest ostateczna wersja.</plPL>
+    <koKR>이 주문은 이름이 하도 많이 바뀌어서, 성기사들도 이걸 뭐라고 불러야 하는지 잘 모를 때가 많습니다.</koKR>
+    <itIT>Questa magia è stata rinominata talmente tante volte che nemmeno i Paladini sanno come si chiama veramente.</itIT>
+    <frFR>Ce sort a été renommé si souvent que même les paladins ne savent plus comment il s’appelle.</frFR>
+    <esMX>Este hechizo ha tenido tantos nombres que ni siquiera los Paladines saben cómo debería llamarse.</esMX>
+    <esES>Este hechizo ha cambiado de nombre tantas veces que ya ni los paladines saben cómo llamarlo.</esES>
+    <deDE>Dieser Zauber wurde so oft umbenannt, dass sogar unter Paladinen keine Einigkeit über seinen richtigen Namen herrscht.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="de62bc54-3bc7-46e3-8294-fdbd3dcb9601" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="cfb61b8f-4148-4c61-b5a2-89bba5f04bbd">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

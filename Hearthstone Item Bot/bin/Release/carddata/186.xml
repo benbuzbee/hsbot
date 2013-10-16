@@ -1,70 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_002">
-  <MasterPower>9c704757-1b1a-423e-86a3-ec023aa78b81</MasterPower>
+<Entity version="2" CardID="DREAM_05">
+  <MasterPower>90db08f8-87af-4e7b-8578-36621fd7065b</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>The Black Knight</enUS>
-    <frFR>Le Chevalier noir</frFR>
-    <zhTW>黑騎士</zhTW>
-    <zhCN>黑骑士</zhCN>
-    <ruRU>Черный рыцарь</ruRU>
-    <ptBR>O Cavaleiro Negro</ptBR>
-    <plPL>Czarny Rycerz</plPL>
-    <koKR>흑기사</koKR>
-    <itIT>Cavaliere Nero</itIT>
-    <esMX>El Caballero negro</esMX>
-    <esES>El Caballero Negro</esES>
-    <enGB>The Black Knight</enGB>
-    <deDE>Der Schwarze Ritter</deDE>
+    <enUS>Nightmare</enUS>
+    <frFR>Cauchemar</frFR>
+    <zhTW>夢魘</zhTW>
+    <zhCN>噩梦</zhCN>
+    <ruRU>Кошмар</ruRU>
+    <ptBR>Pesadelo</ptBR>
+    <plPL>Koszmar</plPL>
+    <koKR>악몽</koKR>
+    <itIT>Incubo</itIT>
+    <esMX>Pesadilla</esMX>
+    <esES>Pesadilla</esES>
+    <deDE>Alptraum</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a minion with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit un serviteur avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個有&lt;b&gt;嘲諷&lt;/b&gt;的手下。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个具有&lt;b&gt;嘲讽&lt;/b&gt;的随从。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает существо со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um lacaio com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz stronnika posiadającego &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; &lt;b&gt;도발&lt;/b&gt;하는 하수인을 하나 파괴합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge un servitore con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye un esbirro con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a un esbirro con &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a minion with &lt;b&gt;Taunt&lt;/b&gt;.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet einen Diener mit &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+    <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>
+    <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>
+    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它。</zhTW>
+    <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>
+    <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>
+    <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>
+    <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>
+    <koKR>하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다.</koKR>
+    <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>
+    <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>
+    <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>
+    <deDE>Verleiht einem Diener +5/+5. Zu Beginn Eures nächsten Zuges wird er vernichtet.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Destroy a minion with Taunt.</enUS>
-    <zhTW>摧毀一個有嘲諷的手下。</zhTW>
-    <zhCN>消灭一个具有嘲讽的随从。</zhCN>
-    <ruRU>Уничтожить существо с &lt;b&gt;«Провокацией»&lt;/b&gt; </ruRU>
-    <ptBR>Destrua um lacaio com Provocar.</ptBR>
-    <plPL>Zniszcz stronnika z Prowokacją.</plPL>
-    <koKR>도발하는 하수인 파괴</koKR>
-    <itIT>Distrugge un servitore con Provocazione.</itIT>
-    <frFR>Détruit un serviteur avec Provocation.</frFR>
-    <esMX>Destruye un esbirro con Provocación.</esMX>
-    <esES>Destruye a un esbirro con Provocar.</esES>
-    <enGB>Destroy a minion with Taunt.</enGB>
-    <deDE>Vernichtet einen Diener mit Spott.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="9c704757-1b1a-423e-86a3-ec023aa78b81">
-    <PlayRequirement reqID="22" param="" />
+  <Tag name="Class" enumID="199" type="Class" value="11" />
+  <Power definition="90db08f8-87af-4e7b-8578-36621fd7065b">
+    <PlayRequirement reqID="11" param="" />
     <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="46" param="" />
-    <PlayRequirement reqID="3" param="" />
   </Power>
 </Entity>

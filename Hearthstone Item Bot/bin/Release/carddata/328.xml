@@ -1,51 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_251">
-  <MasterPower>ac9220db-c2e7-4dca-8e3e-c23f0e4a97d6</MasterPower>
+<Entity version="2" CardID="EX1_173">
+  <MasterPower>02786f36-b628-4962-b554-e9bcced94a91</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Forked Lightning</enUS>
-    <frFR>Fourche d'éclairs</frFR>
-    <zhTW>叉狀閃電</zhTW>
-    <zhCN>叉状闪电</zhCN>
-    <ruRU>Раздвоенная молния</ruRU>
-    <ptBR>Raio Bifurcado</ptBR>
-    <plPL>Rozwidlona błyskawica</plPL>
-    <koKR>갈래 번개</koKR>
-    <itIT>Fulmine Biforcuto</itIT>
-    <esMX>Relámpago bifurcado</esMX>
-    <esES>Relámpago bifurcado</esES>
-    <enGB>Forked Lightning</enGB>
-    <deDE>Gabelblitzschlag</deDE>
+    <enUS>Starfire</enUS>
+    <frFR>Feu stellaire</frFR>
+    <zhTW>星火術</zhTW>
+    <zhCN>星火术</zhCN>
+    <ruRU>Звездный огонь</ruRU>
+    <ptBR>Fogo Estelar</ptBR>
+    <plPL>Gwiezdny ogień</plPL>
+    <koKR>별빛 섬광</koKR>
+    <itIT>Fuoco Stellare</itIT>
+    <esMX>Fuego estelar</esMX>
+    <esES>Fuego estelar</esES>
+    <deDE>Sternenfeuer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage to 2 random enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</enUS>
-    <frFR>Inflige $2 point(s) de dégâts à 2 serviteurs adverses aléatoires. &lt;b&gt;Surcharge :&lt;/b&gt; (2)</frFR>
-    <zhTW>對2個隨機敵方手下造成$2點傷害。&lt;b&gt;超載:&lt;/b&gt;(2)</zhTW>
-    <zhCN>对2个随机敌方随从造成$2点伤害。&lt;b&gt;过载：&lt;/b&gt;（2）</zhCN>
-    <ruRU>Наносит $2 ед. урона двум случайным существам противника. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
-    <ptBR>Cause $2 de dano a 2 lacaios inimigos aleatórios. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń dwóm losowym wrogim stronnikom. &lt;b&gt;Przeładowanie:&lt;/b&gt; (2)</plPL>
-    <koKR>무작위 적 하수인 둘에게 피해를 $2 줍니다. &lt;b&gt;과부하:&lt;/b&gt; (2)</koKR>
-    <itIT>Infligge $2 danni a 2 servitori nemici casuali. &lt;b&gt;Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
-    <esMX>Inflige $2 de daño a 2 esbirros enemigos aleatorios. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esMX>
-    <esES>Inflige $2 p. de daño a 2 esbirros enemigos aleatorios. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esES>
-    <enGB>Deal $2 damage to 2 random enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</enGB>
-    <deDE>Fügt zwei zufälligen feindlichen Dienern $2 Schaden zu. &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
+    <enUS>Deal $5 damage.  Draw a card.</enUS>
+    <frFR>Inflige $5 |4(point,points) de dégâts. Vous piochez une carte.</frFR>
+    <zhTW>造成$5點傷害。抽一張牌。</zhTW>
+    <zhCN>造成$5点伤害，抽1张牌。</zhCN>
+    <ruRU>Наносит $5 ед. урона. Вы берете карту.</ruRU>
+    <ptBR>Cause $5 de dano. Compre um card.</ptBR>
+    <plPL>Zadaj $5 pkt. obrażeń. Dobierz kartę.</plPL>
+    <koKR>피해를 $5 줍니다. 카드를 1장 뽑습니다.</koKR>
+    <itIT>Infligge $5 danni. Pesca una carta.</itIT>
+    <esMX>Inflige $5 de daño. Roba una carta.</esMX>
+    <esES>Inflige $5 p. de daño. Roba una carta.</esES>
+    <deDE>Verursacht $5 Schaden. Zieht eine Karte.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ralph Horsley</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Recall" enumID="215" type="Number" value="1" />
-  <Power definition="ac9220db-c2e7-4dca-8e3e-c23f0e4a97d6">
-    <PlayRequirement reqID="23" param="2" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Balance is important to druids.  This card is perfectly balanced.</enUS>
+    <zhTW>平衡對德魯伊來說非常重要。這是一張完美平衡的卡片。</zhTW>
+    <zhCN>平衡对德鲁伊来说很重要。这张卡就展现了完美的平衡。</zhCN>
+    <ruRU>Для друидов очень важен баланс. Эта карта идеально сбалансирована.</ruRU>
+    <ptBR>Equilíbrio é importante para os druidas. Este card é perfeitamente equilibrado.</ptBR>
+    <plPL>Balans jest bardzo ważny dla druidów. Ta karta jest idealnie zbalansowana.</plPL>
+    <koKR>단언컨대 별빛 섬광은 가장 조화로운 드루이드 카드입니다.</koKR>
+    <itIT>L'equilibrio è importante per i Druidi. Questa carta infatti è perfettamente equilibrata.</itIT>
+    <frFR>L’équilibre est extrêmement important pour les druides. Et cette carte est parfaitement équilibrée.</frFR>
+    <esMX>Para los druidas, el equilibrio es muy importante. Esta carta está en perfecto equilibrio.</esMX>
+    <esES>Con esta carta tu druida será la estrella... de fuego. ¿O era al revés?</esES>
+    <deDE>Das Gleichgewicht liegt Druiden sehr am Herzen. Deshalb hat diese Karte das gleiche Gewicht wie alle anderen Karten.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 2.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 40.</enUS>
+  </Tag>
+  <Power definition="02786f36-b628-4962-b554-e9bcced94a91">
+    <PlayRequirement reqID="11" param="" />
   </Power>
 </Entity>

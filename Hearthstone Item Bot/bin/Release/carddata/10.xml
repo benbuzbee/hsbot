@@ -1,66 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_004">
-  <MasterPower>28ee13a3-783f-4d8e-9884-0562ed2c0752</MasterPower>
+<Entity version="2" CardID="CRED_11">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Power Word: Shield</enUS>
-    <frFR>Mot de pouvoir : Bouclier</frFR>
-    <zhTW>真言術:盾</zhTW>
-    <zhCN>真言术：盾</zhCN>
-    <ruRU>Слово силы: Щит</ruRU>
-    <ptBR>Palavra de Poder: Escudo</ptBR>
-    <plPL>Słowo mocy: Tarcza</plPL>
-    <koKR>신의 권능: 보호막</koKR>
-    <itIT>Parola del Potere: Scudo</itIT>
-    <esMX>Palabra de poder: Escudo</esMX>
-    <esES>Palabra de poder: escudo</esES>
-    <enGB>Power Word: Shield</enGB>
-    <deDE>Machtwort: Schild</deDE>
+    <enUS>Jay Baxter</enUS>
+    <zhTW>Jay Baxter</zhTW>
+    <zhCN>Jay Baxter</zhCN>
+    <ruRU>Jay Baxter</ruRU>
+    <ptBR>Jay Baxter</ptBR>
+    <plPL>Jay Baxter</plPL>
+    <koKR>제이 백스터</koKR>
+    <itIT>Jay Baxter</itIT>
+    <frFR>Jay Baxter</frFR>
+    <esMX>Jay Baxter</esMX>
+    <esES>Jay Baxter</esES>
+    <deDE>Jay Baxter</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a minion +3 Health.</enUS>
-    <frFR>Confère +3 PV à un serviteur.</frFR>
-    <zhTW>賦予一個手下+3生命值。</zhTW>
-    <zhCN>使一个随从获得+3生命值。</zhCN>
-    <ruRU>Выбранное существо получает +3 к здоровью.</ruRU>
-    <ptBR>Conceda +3 de Vida a um lacaio.</ptBR>
-    <plPL>Daj stronnikowi +3 do zdrowia.</plPL>
-    <koKR>하수인에게 생명력을 +3 부여합니다.</koKR>
-    <itIT>Fornisce +3 Salute a un servitore.</itIT>
-    <esMX>Otorga +3 de Salud a un esbirro.</esMX>
-    <esES>Otorga +3 p. de salud a un esbirro.</esES>
-    <enGB>Give a minion +3 Health.</enGB>
-    <deDE>Verleiht einem Diener +3 Leben.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon FIVE random Inventions.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚五個隨機的發明。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤五个随机发明。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя ПЯТЬ случайных изобретений.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque CINCO Invenções aleatórias.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij PIĘĆ losowych wynalazków.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 무작위 발명품 &lt;b&gt;5개&lt;/b&gt;를 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca CINQUE invenzioni casuali.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque CINQ inventions aléatoires.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca CINCO invenciones aleatorias.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca CINCO inventos aleatorios.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Konstruiert FÜNF zufällige Erfindungen.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jessica Jung</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Sure the extra protection is nice, but the shield really reduces visibility.</enUS>
-    <zhTW>有額外的防護是好事啦，不過這個盾真的會干擾視線耶。</zhTW>
-    <zhCN>额外的保护自然不错，但是这护盾阻碍了视野。</zhCN>
-    <ruRU>Для тех, кто ценит защищенность и не терпит скованности движений.</ruRU>
-    <ptBR>É claro que proteção extra é legal, mas o escudo reduz mesmo a visibilidade.</ptBR>
-    <plPL>Jasne, że dodatkowa ochrona to fajna sprawa, ale tarcza naprawdę ogranicza pole widzenia.</plPL>
-    <koKR>생명력이 조금 올라가는 건 좋지만 하수인이 흐릿해지는 건 좀 아쉽네요.</koKR>
-    <itIT>Certo, la protezione aggiuntiva è una bella cosa, ma lo scudo riduce parecchio la visibilità.</itIT>
-    <frFR>Cette protection supplémentaire est la bienvenue, mais on y voit comme à travers une pelle, là-dedans !</frFR>
-    <esMX>Sí, protegerse es importante. Pero tengo que admitir que el escudo reduce mucho la visibilidad.</esMX>
-    <esES>¿Qué se consigue cuando metes a un sacerdote Disciplina en una piscina? ¡Un baño de burbujas!</esES>
-    <enGB>Sure the extra protection is nice, but the shield really reduces visibility.</enGB>
-    <deDE>Klar, der zusätzliche Schutz ist toll, aber der Schild verringert die Sicht doch ziemlich. </deDE>
-  </Tag>
-  <Power definition="28ee13a3-783f-4d8e-9884-0562ed2c0752">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
 </Entity>

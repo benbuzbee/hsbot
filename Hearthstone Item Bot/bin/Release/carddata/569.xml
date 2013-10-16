@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_012o">
+<Entity version="2" CardID="Mekka3e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mana Gorged</enUS>
-    <frFR>Gorgé de mana</frFR>
-    <zhTW>法力暴食</zhTW>
-    <zhCN>法力吸取</zhCN>
-    <ruRU>Насытившийся маной</ruRU>
-    <ptBR>Deleitada em Mana</ptBR>
-    <plPL>Pełnia many</plPL>
-    <koKR>마나에 굶주림</koKR>
-    <itIT>Sazio di Mana</itIT>
-    <esMX>Atiborrado de maná</esMX>
-    <esES>Empacho de maná</esES>
-    <enGB>Mana Gorged</enGB>
-    <deDE>Manasättigung</deDE>
+    <enUS>Emboldened!</enUS>
+    <zhTW>勇氣大增!</zhTW>
+    <zhCN>壮胆！</zhCN>
+    <ruRU>Воодушевление!</ruRU>
+    <ptBR>Encorajado!</ptBR>
+    <plPL>Doping!</plPL>
+    <koKR>강화됨!</koKR>
+    <itIT>Ingrossato!</itIT>
+    <frFR>Encouragé !</frFR>
+    <esMX>¡Fortalecido!</esMX>
+    <esES>¡Corajizado!</esES>
+    <deDE>Verstärkt!</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Increased attack.</enUS>
-    <frFR>Attaque augmentée.</frFR>
-    <zhTW>攻擊力提高。</zhTW>
-    <zhCN>攻击力增加。</zhCN>
-    <ruRU>Атака увеличена.</ruRU>
-    <ptBR>Ataque aumentado.</ptBR>
-    <plPL>Zwiększony atak.</plPL>
-    <koKR>공격력 증가</koKR>
-    <itIT>Attacco aumentato.</itIT>
-    <esMX>Ataque aumentado.</esMX>
-    <esES>Ataque aumentado.</esES>
-    <enGB>Increased attack.</enGB>
-    <deDE>Erhöhter Angriff.</deDE>
+    <enUS>+1/+1.</enUS>
+    <zhTW>+1/+1。</zhTW>
+    <zhCN>+1/+1。</zhCN>
+    <ruRU>+1/+1.</ruRU>
+    <ptBR>+1/+1.</ptBR>
+    <plPL>+1/+1</plPL>
+    <koKR>+1/+1</koKR>
+    <itIT>+1/+1.</itIT>
+    <frFR>+1/+1.</frFR>
+    <esMX>+1/+1.</esMX>
+    <esES>+1/+1.</esES>
+    <deDE>+1/+1.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="ab740c21-914a-405c-93c1-39d2cddfd2e6" />
+  <Power definition="12254813-6b49-4367-9f54-9860c33912b3" />
 </Entity>

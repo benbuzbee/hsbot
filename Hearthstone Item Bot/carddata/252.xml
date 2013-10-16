@@ -1,55 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_102">
+<Entity version="2" CardID="EX1_067">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Demolisher</enUS>
-    <frFR>Démolisseur</frFR>
-    <zhTW>石毀車</zhTW>
-    <zhCN>攻城车</zhCN>
-    <ruRU>Разрушитель</ruRU>
-    <ptBR>Demolidor</ptBR>
-    <plPL>Burzyciel</plPL>
-    <koKR>파괴전차</koKR>
-    <itIT>Demolitore</itIT>
-    <esMX>Demoledor</esMX>
-    <esES>Demoledor</esES>
-    <enGB>Demolisher</enGB>
-    <deDE>Verwüster</deDE>
+    <enUS>Argent Commander</enUS>
+    <frFR>Commandant d’argent</frFR>
+    <zhTW>銀白指揮官</zhTW>
+    <zhCN>银色指挥官</zhCN>
+    <ruRU>Командир Авангарда</ruRU>
+    <ptBR>Comandante Argênteo</ptBR>
+    <plPL>Dowódca Argentu</plPL>
+    <koKR>은빛십자군 부대장</koKR>
+    <itIT>Comandante d'Argento</itIT>
+    <esMX>Comandante argenta</esMX>
+    <esES>Comandante Argenta</esES>
+    <deDE>Argentumkommandant</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="8" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Catapult</enUS>
-  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, deal 2 damage to a random enemy.</enUS>
-    <frFR>Au début de votre tour, inflige 2 points de dégâts à un adversaire aléatoire.</frFR>
-    <zhTW>在你的回合開始時，對隨機一名敵人造成2點傷害。</zhTW>
-    <zhCN>在你的回合开始时，对1个随机敌人造成2点伤害。</zhCN>
-    <ruRU>В начале вашего хода наносит 2 ед. урона случайному персонажу противника.</ruRU>
-    <ptBR>No início do seu turno, cause 2 de dano a um inimigo aleatório.</ptBR>
-    <plPL>Na początku swojej tury zadaj 2 pkt. obrażeń losowemu wrogowi.</plPL>
-    <koKR>당신의 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다.</koKR>
-    <itIT>All'inizio del tuo turno, infligge 2 danni a un nemico casuale.</itIT>
-    <esMX>Al comienzo de tu turno, inflige 2 de daño a un enemigo aleatorio.</esMX>
-    <esES>Al comienzo de tu turno, inflige 2 p. de daño a un enemigo aleatorio.</esES>
-    <enGB>At the start of your turn, deal 2 damage to a random enemy.</enGB>
-    <deDE>Fügt zu Beginn Eures Zuges einem zufälligen Feind 2 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;，&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Божественный щит&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;, &lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;, &lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;, &lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Scudo Divino&lt;/b&gt;.</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;, &lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;, &lt;b&gt;Escudo divino&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;, &lt;b&gt;Gottesschild&lt;/b&gt; </deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>James Ryman</enUS>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="2d0126bc-9600-4aab-ba63-094ad5167af1" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.</enUS>
+    <zhTW>銀色黎明對於天譴軍團的動向十分關注，也對在咖啡廳插隊的人非常關注。</zhTW>
+    <zhCN>银色指挥官总是机警地注意着天灾军团的动向，同时阻止任何想在咖啡店里插队买咖啡的人。</zhCN>
+    <ruRU>Серебряный Рассвет защищает Азерот от Плети, но обгонять их в очереди за кофе тоже не рекомендуется.</ruRU>
+    <ptBR>A Aurora Argêntea continua sua vigília contra o Flagelo, assim como contra pessoas que furam fila nos cafés.</ptBR>
+    <plPL>Należał do Argentu zanim to było modne.</plPL>
+    <koKR>은빛십자군 부대장은 스컬지의 동태를 주시합니다. 커피 가게에서 새치기하는 사람도 주시합니다.</koKR>
+    <itIT>L'ordine dell'Alba d'Argento è sempre in guardia contro il Flagello... e contro le persone che saltano la fila in caffetteria.</itIT>
+    <frFR>Quiconque possédera ce marteau, s’il s’en trouve digne recevra le bouclier divin.</frFR>
+    <esMX>El Alba Argenta está siempre alerta a la Plaga... y a la gente que se mete en la cola del banco.</esMX>
+    <esES>El Alba Argenta protege al mundo de la Plaga y de la gente que se salta las colas.</esES>
+    <deDE>Die Argentumdämmerung stellt sich tapfer der Geißel entgegen – und Leuten, die sich an der Supermarktkasse vordrängeln wollen.</deDE>
+  </Tag>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="16d80976-87fa-43ba-b48c-c43c9e602243" />
+  <Power definition="21943f5e-03f9-4ce4-a08b-ed1e1c146968" />
 </Entity>

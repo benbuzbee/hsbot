@@ -1,69 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_313">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_283">
+  <MasterPower>8972f911-fddb-4fd3-88fa-5b06f481a4eb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Pit Lord</enUS>
-    <frFR>Seigneur des abîmes</frFR>
-    <zhTW>深淵領主</zhTW>
-    <zhCN>深渊领主</zhCN>
-    <ruRU>Владыка преисподней</ruRU>
-    <ptBR>Lorde Abissal</ptBR>
-    <plPL>Lord otchłani</plPL>
-    <koKR>지옥의 군주</koKR>
-    <itIT>Signore delle Fosse</itIT>
-    <esMX>Señor del foso</esMX>
-    <esES>Señor del foso</esES>
-    <enGB>Pit Lord</enGB>
-    <deDE>Grubenlord</deDE>
+    <enUS>Frost Elemental</enUS>
+    <frFR>Élémentaire de givre</frFR>
+    <zhTW>冰霜元素</zhTW>
+    <zhCN>冰霜元素</zhCN>
+    <ruRU>Ледяной элементаль</ruRU>
+    <ptBR>Elemental de Gelo</ptBR>
+    <plPL>Żywiołak mrozu</plPL>
+    <koKR>냉기 정령</koKR>
+    <itIT>Elementale del Gelo</itIT>
+    <esMX>Elemental de escarcha</esMX>
+    <esES>Elemental de Escarcha</esES>
+    <deDE>Frostelementar</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Race" enumID="200" type="Race" value="15" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="4" />
   <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 7 damage to your hero.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 7 points de dégâts à votre héros.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;對你的英雄造成7點傷害。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;对你的英雄造成7点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 7 ед. урона вашему герою.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 7 de dano ao seu herói.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 7 pkt. obrażeń swojemu bohaterowi.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 당신의 영웅에게 피해를 7 줍니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 7 danni al tuo eroe.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 7 de daño a tu héroe.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 7 p. de daño a tu héroe.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 7 damage to your hero.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Fügt Eurem Helden 7 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Freeze&lt;/b&gt; a character.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; &lt;b&gt;gèle&lt;/b&gt; un personnage.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;&lt;b&gt;凍結&lt;/b&gt;一個角色。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;&lt;b&gt;冻结&lt;/b&gt;一个角色。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; &lt;b&gt;замораживает&lt;/b&gt; выбранного персонажа.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; &lt;b&gt;Congele&lt;/b&gt; um personagem.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; &lt;b&gt;Zamroź&lt;/b&gt; postać.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 캐릭터를 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; causa &lt;b&gt;Congelamento&lt;/b&gt; a un altro personaggio.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; &lt;b&gt;Congela &lt;/b&gt; a un personaje.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; &lt;b&gt;Congela&lt;/b&gt; a un personaje.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; &lt;b&gt;Friert&lt;/b&gt; einen Charakter ein.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Freeze a character.</enUS>
+    <frFR>Gèle un personnage.</frFR>
+    <zhTW>凍結一個角色。</zhTW>
+    <zhCN>冻结一个角色。</zhCN>
+    <ruRU>Заморозить персонажа</ruRU>
+    <ptBR>Congele um personagem.</ptBR>
+    <plPL>Zamroź postać.</plPL>
+    <koKR>캐릭터 얼리기</koKR>
+    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; a un personaggio.</itIT>
+    <esMX>Congela a un personaje.</esMX>
+    <esES>Congela a un personaje.</esES>
+    <deDE>Friert einen Charakter ein.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
+    <enUS>Dan Scott</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.</enUS>
-    <enGB>Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.</enGB>
-    <zhTW>也許瑪諾洛斯、瑪瑟里頓和布魯托魯斯都死了，不過深淵領主可多著呢。</zhTW>
-    <zhCN>或许玛诺洛斯、玛瑟里顿和布鲁塔卢斯都已经死了，但其实深渊领主还有很多很多。</zhCN>
-    <ruRU>Маннорот, Магтеридон и Бруталл мертвы. Но похоже, в преисподней ОЧЕНЬ много владык.</ruRU>
-    <ptBR>Mannoroth, Magtheridon e Brutallus podem estar mortos, mas parece que existem MUITOS lordes abissais.</ptBR>
-    <plPL>Mannoroth, Magtheridon oraz Brutallus już nie żyją, ale jak się okazało, lordów otchłani jest CAŁA MASA.</plPL>
-    <koKR>만노로스, 마그테리돈, 브루탈루스 모두 죽었지만, 이것으로 지옥의 군주가 엄청 많다는 사실이 밝혀졌습니다.</koKR>
-    <itIT>Mannoroth, Magtheridon e Brutallus saranno anche morti, ma sembra ci siano un sacco di Signori delle Fosse.</itIT>
-    <frFR>Mannoroth, Magtheridon et Brutallus sont peut-être morts, mais il paraît qu’il reste encore PLEIN de seigneurs des abîmes.</frFR>
-    <esMX>Sí, Mannoroth, Magtheridon y Brutallus están muertos, pero resulta que hay MUCHOS señores del foso.</esMX>
-    <esES>Será señor del foso, pero pasa más tiempo fuera que dentro.</esES>
-    <deDE>Mannoroth, Magtheridon und Brutallus mögen vielleicht Geschichte sein, aber anscheinend haben auch andere Mütter schöne Söhne.</deDE>
+    <enUS>When a Water elemental and an Ice elemental love each other VERY much...</enUS>
+    <zhTW>這是水元素跟冰元素愛的結晶...</zhTW>
+    <zhCN>当水元素和冰元素相爱到一定程度的时候...</zhCN>
+    <ruRU>Дети самки водяного элементаля и самца ледяного элементаля почему-то всегда похожи на папу.</ruRU>
+    <ptBR>Quando um elemental da Água e um elemental Congelante se amam MUITO...</ptBR>
+    <plPL>Wynik związku żywiołaka wody i żywiołaka lodu...</plPL>
+    <koKR>물의 정령과 얼음의 정령이 사랑에 빠지면...</koKR>
+    <itIT>Quando un Elementale del Ghiaccio e un Elementale dell'Acqua si amano...</itIT>
+    <frFR>Ou quand un élémentaire d’eau et un élémentaire de glace s’aiment d’amour !</frFR>
+    <esMX>Esto es lo que sucede cuando un Elemental de agua y un Elemental de hielo se aman mucho, mucho, mucho...</esMX>
+    <esES>Esto es lo que resulta al fusionar un elemental de agua y un elemental de hielo.</esES>
+    <deDE>So was kommt dabei raus, wenn ein Wasserelementar und ein Eiselementar sich SEHR lieb haben ...</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="8d8fc00f-9e85-4b91-83cf-88a024aaed4c" />
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="8972f911-fddb-4fd3-88fa-5b06f481a4eb">
+    <PlayRequirement reqID="22" param="" />
+  </Power>
+  <Power definition="7b9aadc9-fc8d-4ce8-8764-539f08135af9" />
 </Entity>

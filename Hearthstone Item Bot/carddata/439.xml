@@ -1,63 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_539">
-  <MasterPower>44c376c8-bf0a-4c0b-afec-666d95f7059f</MasterPower>
+<Entity version="2" CardID="EX1_506a">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Kill Command</enUS>
-    <frFR>Ordre de tuer</frFR>
-    <zhTW>擊殺命令</zhTW>
-    <zhCN>杀戮命令</zhCN>
-    <ruRU>Команда «Взять!»</ruRU>
-    <ptBR>Comando para Matar</ptBR>
-    <plPL>Rozkaz zabicia</plPL>
-    <koKR>살상 명령</koKR>
-    <itIT>Ordine di Morte</itIT>
-    <esMX>Matar</esMX>
-    <esES>Matar</esES>
-    <enGB>Kill Command</enGB>
-    <deDE>Fass!</deDE>
+    <enUS>Murloc Scout</enUS>
+    <frFR>Éclaireur murloc</frFR>
+    <zhTW>魚人斥候</zhTW>
+    <zhCN>鱼人斥候</zhCN>
+    <ruRU>Мурлок-разведчик</ruRU>
+    <ptBR>Batedor Murloc</ptBR>
+    <plPL>Murlok zwiadowca</plPL>
+    <koKR>멀록 정찰병</koKR>
+    <itIT>Murloc Esploratore</itIT>
+    <esMX>Explorador múrloc</esMX>
+    <esES>Explorador múrloc</esES>
+    <deDE>Murlocspäher</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $3 damage.  If you have a Beast, deal $5 damage instead.</enUS>
-    <frFR>Inflige $3 point(s) de dégâts. Si vous avez une bête, inflige $5 point(s) de dégâts à la place.</frFR>
-    <zhTW>造成$3點傷害。如果你有野獸，改為造成$5點傷害。</zhTW>
-    <zhCN>造成$3点伤害。如果你拥有野兽，则改为造成$5点伤害。</zhCN>
-    <ruRU>Наносит $3 ед. урона. Если у вас есть зверь на поле боя, вместо этого наносит $5 ед. урона.</ruRU>
-    <ptBR>Cause $3 de dano. Se você tiver uma Fera, cause $5 de dano em vez de $3.</ptBR>
-    <plPL>Zadaj $3 pkt. obrażeń. Jeśli masz Bestię, zamiast tego zadaj $5 pkt. obrażeń.</plPL>
-    <koKR>피해를 $3 줍니다. 전장에 당신의 야수가 있다면 피해를 $5 줍니다.</koKR>
-    <itIT>Infligge $3 danni. Se possiedi una Bestia, infligge $5 danni.</itIT>
-    <esMX>Inflige $3 de daño. Si tienes una Bestia, en cambio, inflige $5 de daño.</esMX>
-    <esES>Inflige $3 p. de daño. Si tienes una bestia en juego, inflige $5 p. de daño.</esES>
-    <enGB>Deal $3 damage.  If you have a Beast, deal $5 damage instead.</enGB>
-    <deDE>Verursacht $3 Schaden. Verursacht stattdessen $5 Schaden, wenn Ihr ein Wildtier besitzt.</deDE>
-  </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gabe from Penny Arcade</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Kill!", he commanded.</enUS>
-    <enGB>"Kill!", he commanded.</enGB>
-    <zhTW>「殺!」他命令道。</zhTW>
-    <zhCN>”咬死他！“，他下达了命令。</zhCN>
-    <ruRU>«Взять!» - скомандовал он.</ruRU>
-    <ptBR>"Mate", comandou ele.</ptBR>
-    <plPL>„Zabij!”, rozkazał.</plPL>
-    <koKR>야수 없이 명령 만으로 피해를 줄 수 있다니!</koKR>
-    <itIT>"Muori!", ordinò.</itIT>
-    <frFR>Vous avez le permis de tuer.</frFR>
-    <esMX>"¡A matar!" —ordenó.</esMX>
-    <esES>Se ha escrito un crimen.</esES>
-    <deDE>Meist der letzte Ausruf, den das Opfer in seinem Leben hören wird, außer seinem eigenen Geschrei natürlich.</deDE>
-  </Tag>
-  <Power definition="44c376c8-bf0a-4c0b-afec-666d95f7059f">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
 </Entity>

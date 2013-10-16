@@ -1,69 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_038">
+<Entity version="2" CardID="NEW1_025e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gruul</enUS>
-    <zhTW>戈魯爾</zhTW>
-    <zhCN>格鲁尔</zhCN>
-    <ruRU>Груул</ruRU>
-    <ptBR>Gruul</ptBR>
-    <plPL>Gruul</plPL>
-    <koKR>그룰</koKR>
-    <itIT>Gruul</itIT>
-    <frFR>Gruul</frFR>
-    <esMX>Gruul</esMX>
-    <esES>Gruul</esES>
-    <enGB>Gruul</enGB>
-    <deDE>Gruul</deDE>
+    <enUS>Bolstered</enUS>
+    <frFR>Renforcement</frFR>
+    <zhTW>激勵</zhTW>
+    <zhCN>加固</zhCN>
+    <ruRU>Поддержка</ruRU>
+    <ptBR>Fortalecido</ptBR>
+    <plPL>Wzmocnienie</plPL>
+    <koKR>고무</koKR>
+    <itIT>Rassicurato</itIT>
+    <esMX>Reforzado</esMX>
+    <esES>Refuerzo</esES>
+    <deDE>Verstärkt</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="8" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
-  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of each turn, gain +1/+1 .</enUS>
-    <zhTW>在每個回合結束時獲得+1/+1。</zhTW>
-    <zhCN>在每个回合结束时，获得+1/+1。</zhCN>
-    <ruRU>В конце каждого хода получает +1/+1.</ruRU>
-    <ptBR>Ao fim de cada turno, receba +1/+1.</ptBR>
-    <plPL>Na koniec każdej tury otrzymujesz +1/+1.</plPL>
-    <koKR>각 턴이 끝날 때마다 +1/+1을 얻습니다.</koKR>
-    <itIT>Alla fine del tuo turno, ottiene +1/+1.</itIT>
-    <frFR>À la fin de chaque tour, gagne +1/+1.</frFR>
-    <esMX>Al final de cada turno, obtiene +1/+1.</esMX>
-    <esES>Al final de cada turno, obtiene +1/+1.</esES>
-    <enGB>At the end of each turn, gain +1/+1 .</enGB>
-    <deDE>Erhält am Ende jedes Zuges +1/+1.</deDE>
+    <enUS>Increased Health.</enUS>
+    <frFR>Vie augmentée.</frFR>
+    <zhTW>生命值提高。</zhTW>
+    <zhCN>生命值增加。</zhCN>
+    <ruRU>Здоровье увеличено.</ruRU>
+    <ptBR>Vida aumentada.</ptBR>
+    <plPL>Zwiększone zdrowie.</plPL>
+    <koKR>생명력 증가</koKR>
+    <itIT>Salute aumentata.</itIT>
+    <esMX>Salud aumentada.</esMX>
+    <esES>Salud aumentada.</esES>
+    <deDE>Erhöhtes Leben.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Growth</enUS>
-  </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Kev Walker</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Gruul the Dragonkiller deserves his name.  The bones of dragons litter his lair in the Blade's Edge Mountains.</enUS>
-    <zhTW>弒龍者戈魯爾這個名字真的是名符其實。在他劍刃山脈的巢穴旁邊散落著無數的龍骨。</zhTW>
-    <zhCN>人们叫他“屠龙者”格鲁尔。其实他只是想抱抱它们...他不是故意要...</zhCN>
-    <ruRU>Груул Драконобой просто хотел их погладить... но не получилось...</ruRU>
-    <ptBR>Ele é Gruul, o Matador de Dragões. Ele só queria abraçá-los... nunca quis que... </ptBR>
-    <plPL>Choć Gruul ma przydomek „Smokobójca”, to tak naprawdę bardzo je lubi. </plPL>
-    <koKR>용학살자 그룰은 자신의 이름값을 합니다. 칼날 산맥에 있는 그의 둥지 주변은 용의 뼈로 뒤덮여 있습니다.</koKR>
-    <itIT>È noto come Gruul "l'Ammazzadraghi". In realtà voleva solo coccolarli... è stato un terribile incidente... </itIT>
-    <frFR>Son nom est Gruul, « le tueur de dragons ». Il voulait juste les câliner... Il ne pensait pas que...</frFR>
-    <esMX>Él es Gruul, "el Asesino de Dragones". Él solo quería abrazarlos... nunca tuvo la intención de... </esMX>
-    <esES>Es Gruul, el Asesino de Dragones. Él solo quería acariciarlos... nunca tuvo intención de...</esES>
-    <enGB>Gruul the Dragonkiller deserves his name.  The bones of dragons litter his lair in the Blade's Edge Mountains.</enGB>
-    <deDE>Gruul der Drachentöter hat seinen Namen verdient, und das, obwohl er eigentlich nur kuscheln wollte.</deDE>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="361ee1fb-ee37-43c1-a4b6-bcf1a1247574" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="f0d8c252-0703-475c-902a-1c8c8e4dc8dd" />
 </Entity>

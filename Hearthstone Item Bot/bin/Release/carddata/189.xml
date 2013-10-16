@@ -1,82 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_005">
-  <MasterPower>41e81c66-edf9-4f0f-b7ba-9dad6a522133</MasterPower>
+<Entity version="2" CardID="DS1_070">
+  <MasterPower>fa93d019-f433-479a-8eca-8960b8a558f1</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Big Game Hunter</enUS>
-    <frFR>La chasse au gros gibier</frFR>
-    <zhTW>王牌獵人</zhTW>
-    <zhCN>王牌猎人</zhCN>
-    <ruRU>Опытный охотник</ruRU>
-    <ptBR>Caçador Profissional</ptBR>
-    <plPL>Łowca grubego zwierza</plPL>
-    <koKR>나 이런 사냥꾼이야</koKR>
-    <itIT>Esperto di Caccia Grossa</itIT>
-    <esMX>Caza mayor</esMX>
-    <esES>Cazador de fieras</esES>
-    <enGB>Big Game Hunter</enGB>
-    <deDE>Großwildjäger</deDE>
+    <enUS>Houndmaster</enUS>
+    <frFR>Maître-chien</frFR>
+    <zhTW>馴犬者</zhTW>
+    <zhCN>驯兽师</zhCN>
+    <ruRU>Псарь</ruRU>
+    <ptBR>Mestre de Matilha</ptBR>
+    <plPL>Treser ogarów</plPL>
+    <koKR>사냥개조련사</koKR>
+    <itIT>Maestro dei Segugi</itIT>
+    <esMX>Maestro de canes</esMX>
+    <esES>Maestro de canes</esES>
+    <deDE>Hundemeister</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
   <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Beastmaster</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a minion with an Attack of 7 or more.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit un serviteur avec 7 Attaque ou plus.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個攻擊力在7點以上的手下。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个攻击力大于或等于7的随从。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает существо с атакой 7 или больше.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um lacaio com 7 ou mais de Ataque.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz stronnika z atakiem 7 lub większym.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 공격력 7 이상인 하수인을 하나 파괴합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge un servitore con Attacco pari a 7 o superiore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye un esbirro con 7 o más de Ataque.</esMX>
-    <esES>&lt;b&gt;Grito de batalla&lt;/b&gt;: Destruye a un esbirro con 7 p. de ataque o más.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a minion with an Attack of 7 or more.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet einen Diener mit mind. 7 Angriff.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly Beast +2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +2/+2 et &lt;b&gt;Provocation&lt;/b&gt; à une Bête alliée.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予友方野獸+2/+2及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方野兽获得+2/+2并获得&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваш выбранный зверь получает +2/+2 и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2/+2 e &lt;b&gt;Provocar&lt;/b&gt; a uma Fera aliada.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznej Bestii +2/+2 oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 야수에게 +2/+2와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2/+2 e &lt;b&gt;Provocazione&lt;/b&gt; a una tua Bestia.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2/+2 y &lt;b&gt;Provocación&lt;/b&gt; a una Bestia aliada.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2/+2 y &lt;b&gt;Provocar&lt;/b&gt; a una bestia amistosa.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Wildtier +2/+2 und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Destroy a minion with an Attack of 7 or more.</enUS>
-    <frFR>Détruit un serviteur avec 7 Attaque ou plus.</frFR>
-    <zhTW>摧毀一個攻擊力在7點以上的手下。</zhTW>
-    <zhCN>消灭一个攻击力大于或等于7的随从。</zhCN>
-    <ruRU>Уничтожить существо с атакой 7 или больше</ruRU>
-    <ptBR>Destrua um lacaio com 7 ou mais de Ataque.</ptBR>
-    <plPL>Zniszcz stronnika z atakiem 7 lub większym.</plPL>
-    <koKR>공격력 7 이상의 하수인 파괴</koKR>
-    <itIT>Distrugge un servitore con Attacco pari a 7 o superiore.</itIT>
-    <esMX>Destruye a un esbirro con 7 de Ataque o más.</esMX>
-    <esES>Destruye a un esbirro con 7 p. de ataque o más.</esES>
-    <enGB>Destroy a minion with an Attack of 7 or more.</enGB>
-    <deDE>Vernichtet einen Diener mit mind. 7 Angriff.</deDE>
-  </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Chris Seaman</enUS>
+    <enUS>Dan Brereton</enUS>
+  </Tag>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Give a Beast +2/+2 and Taunt.</enUS>
+    <zhTW>賦予一隻野獸+2/+2及嘲諷。</zhTW>
+    <zhCN>使一只野兽获得+2/+2并具有嘲讽。</zhCN>
+    <ruRU>Добавить зверю +2/+2 и &lt;b&gt;«Провокацию»&lt;/b&gt;</ruRU>
+    <ptBR>Conceda +2/+2 e Provocar a uma Fera.</ptBR>
+    <plPL>Daj Bestii +2/+2 oraz Prowokację.</plPL>
+    <koKR>야수에게 +2/+2, 도발</koKR>
+    <itIT>Fornisce +2/+2 e Provocazione a una Bestia.</itIT>
+    <frFR>Confère +2/+2 et Provocation à une Bête.</frFR>
+    <esMX>Otorga +2/+2 y Provocación a una Bestia.</esMX>
+    <esES>Otorga +2/+2 y Provocar a una bestia.</esES>
+    <deDE>Verleiht einem Wildtier +2/+2 und Spott.</deDE>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Krol Blade.</enUS>
-    <zhTW>魔暴龍已經不再使他興奮。再沒多久，他就會開始嘗試用鈍掉的克羅之刃抓捕奧妮克希亞了。</zhTW>
-    <zhCN>魔暴龙之类的猎物已经让他提不起兴趣了。很快，他就会提着一把生锈的“科罗尔之刃”去猎杀奥妮克希亚了。</zhCN>
-    <ruRU>Обычные дьявозавры больше его не вдохновляют. Скоро он будет пытаться поймать Ониксию, вооружившись лишь тупым клинком Крола.</ruRU>
-    <ptBR>Meros demossauros não o apetecem mais. Logo ele vai tentar capturar Onyxia apenas com uma Lâmina Krol cega.</ptBR>
-    <plPL>Zwykłe diabłozaury przestały mu wystarczać. Wkrótce zapoluje na Onyksję korzystając jedynie ze snopowiązałki.</plPL>
-    <koKR>그에게 데빌사우루스 따윈 코웃음만 나옵니다. 조만간 크롤 칼 하나 들고 오닉시아를 잡으러 간다더군요.</koKR>
-    <itIT>Semplici gigantosauri non sono più stimolanti. Prova a cacciare Onyxia armato solo di un coltellino senza filo.</itIT>
-    <frFR>Les simples diablosaures ne l’excitent même plus. Bientôt, il voudra attraper Onyxia avec une lame de Krol émoussée.</frFR>
-    <esMX>Los simples demosaurios ya no lo apasionan. Pronto tratará de cazar a Onyxia con la sola ayuda de una hoja krol desafilada.</esMX>
-    <esES>Los meros demosaurios ya no le interesan. Pronto intentará cazar a Onyxia sin más arma que una hoja Krol roma.</esES>
-    <enGB>Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Wraith Scythe.</enGB>
-    <deDE>Das Jagen ordinärer Teufelssaurier reizt ihn nicht mehr so wie früher. Nicht mehr lange und er wird versuchen, Onyxia mit einer einfachen Krolklinge zur Strecke zu bringen.</deDE>
+    <enUS>"Who let the dogs out?" he asks.  It's rhetorical.</enUS>
+    <zhTW>「是誰放狗出來的?」他雖然這麼問，不過沒打算聽到你的回答。</zhTW>
+    <zhCN>“是谁把狗放出来的？”他问。其实，这只是他的口头禅。</zhCN>
+    <ruRU>Кто спустил собак? В данном случае это риторический вопрос. </ruRU>
+    <ptBR>"Quem soltou os cachorros", pergunta ele. É pura retórica.</ptBR>
+    <plPL>„Kto spuścił psy?”, zapytał. To retoryczne pytanie.</plPL>
+    <koKR>"누가 개들을 풀었어?"라고 묻네요. 몰라서 물으십니까?</koKR>
+    <itIT>"Chi ha fatto uscire il cane?", chiede. Una domanda retorica.</itIT>
+    <frFR>Il manquerait plus qu’il morde !</frFR>
+    <esMX>"¿Quién dejó salir al perro?", se pregunta... retóricamente.</esMX>
+    <esES>No mentía al decir que llevaba una vida de perros.</esES>
+    <deDE>Wenn er fragt, wer die Hunde losgelassen hat, ist das bloß eine rhetorische Frage.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 28.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="41e81c66-edf9-4f0f-b7ba-9dad6a522133">
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="fa93d019-f433-479a-8eca-8960b8a558f1">
     <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="41" param="7" />
+    <PlayRequirement reqID="2" param="" />
+    <PlayRequirement reqID="10" param="20" />
   </Power>
 </Entity>

@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_041">
-  <MasterPower>843fc26d-63b9-419e-bead-baccd15e59c6</MasterPower>
+<Entity version="2" CardID="CS2_022">
+  <MasterPower>651d1d7d-5022-44cf-b062-e475fe399ed3</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ancestral Healing</enUS>
-    <frFR>Guérison ancestrale</frFR>
-    <zhTW>先祖治療</zhTW>
-    <zhCN>先祖治疗</zhCN>
-    <ruRU>Исцеление предков</ruRU>
-    <ptBR>Cura Ancestral</ptBR>
-    <plPL>Pradawne uzdrowienie</plPL>
-    <koKR>선인의 치유력</koKR>
-    <itIT>Guarigione Ancestrale</itIT>
-    <esMX>Sanación ancestral</esMX>
-    <esES>Sanación ancestral</esES>
-    <enGB>Ancestral Healing</enGB>
-    <deDE>Heilung der Ahnen</deDE>
+    <enUS>Polymorph</enUS>
+    <frFR>Métamorphose</frFR>
+    <zhTW>變形術</zhTW>
+    <zhCN>变形术</zhCN>
+    <ruRU>Превращение</ruRU>
+    <ptBR>Polimorfia</ptBR>
+    <plPL>Polimorfia</plPL>
+    <koKR>변이</koKR>
+    <itIT>Metamorfosi</itIT>
+    <esMX>Polimorfia</esMX>
+    <esES>Polimorfia</esES>
+    <deDE>Verwandlung</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore a minion to full Health and give it &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>Rend tous ses points de vie à un serviteur et lui confère &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-    <zhTW>使一個手下的生命值恢復到全滿並賦予&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
-    <zhCN>为一个随从恢复所有生命值并使其获得&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>Полностью восстанавливает здоровье выбранному существу и дает ему способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-    <ptBR>Restaure toda a Vida de um lacaio e conceda &lt;b&gt;Provocar&lt;/b&gt; a ele.</ptBR>
-    <plPL>Przywróć stronnika do pełni zdrowia i daj mu &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
-    <koKR>하수인의 생명력을 모두 회복시키고 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Cura completamente un servitore e gli fornisce &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
-    <esMX>Restaura toda la Salud de un esbirro y le otorga &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
-    <esES>Restaura toda la salud de un esbirro y le otorga &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <enGB>Restore a minion to full Health and give it &lt;b&gt;Taunt&lt;/b&gt;.</enGB>
-    <deDE>Stellt das volle Leben eines Dieners wieder her und verleiht ihm &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+    <enUS>Transform a minion into a 1/1 Sheep.</enUS>
+    <frFR>Transforme un serviteur en mouton 1/1.</frFR>
+    <zhTW>將一個手下變形為一隻1/1的羊。</zhTW>
+    <zhCN>使一个随从变形成为1/1的绵羊。</zhCN>
+    <ruRU>Превращает выбранное существо в овцу 1/1.</ruRU>
+    <ptBR>Transforme um lacaio em uma Ovelha 1/1.</ptBR>
+    <plPL>Przemień stronnika w owcę 1/1.</plPL>
+    <koKR>하수인을 1/1 양으로 변신시킵니다.</koKR>
+    <itIT>Trasforma un servitore in una Pecora 1/1.</itIT>
+    <esMX>Transforma a un esbirro en una Oveja 1/1.</esMX>
+    <esES>Transforma a un esbirro en una oveja 1/1.</esES>
+    <deDE>Verwandelt einen Diener in ein Schaf (1/1).</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Scott</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>During battle, you can call upon the strength of your ancestors!  So have a big family!</enUS>
-    <zhTW>在戰場上，你可以召喚祖先的力量!所以把家族弄大一點吧!</zhTW>
-    <zhCN>你能在战斗中能够召唤祖先的灵魂！所以，出生在一个强大的家族是很重要的！</zhCN>
-    <ruRU>Во время битвы вы можете воззвать к духам предков, так что чем больше ваша семья – тем лучше!</ruRU>
-    <ptBR>Durante a batalha, você pode invocar a força de seus ancestrais! Então tenha uma família grande!</ptBR>
-    <plPL>Podczas bitwy możesz przywołać siłę swoich przodków! Więc lepiej mieć dużą rodzinę!</plPL>
-    <koKR>전투 중에 조상들의 힘을 빌어 피해를 회복합니다. 이래서 조상을 잘 만나야 한다니까요!</koKR>
-    <itIT>Durante la battaglia puoi contare sulla forza dei tuoi antenati! Spero che tu abbia una famiglia numerosa!</itIT>
-    <frFR>Pendant le combat, vous pouvez invoquer la force de vos ancêtres ! Alors, vive les familles nombreuses !</frFR>
-    <esMX>Durante la batalla, puedes invocar la fuerza de tus ancestros. ¡Te conviene tener una familia numerosa!</esMX>
-    <esES>En la batalla, puedes invocar la fuerza de tus ancestros. ¡Por eso está bien tener muchos parientes!</esES>
-    <enGB>During battle, you can call upon the strength of your ancestors!  So have a big family!</enGB>
-    <deDE>Während des Kampfes könnt Ihr die Stärke Eurer Vorfahren anzapfen! Also stellt sicher, dass Ihr eine große Familie habt!</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="843fc26d-63b9-419e-bead-baccd15e59c6">
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>There was going to be a pun in this flavor text, but it just came out baa-d.</enUS>
+    <zhTW>本來這一段是要講雙關話，不過說出口的時候變成了咩...</zhTW>
+    <zhCN>你能想象一个嗜血的兽人发出咩咩的叫声么？</zhCN>
+    <ruRU>Здесь могла бы быть ваша шутка.</ruRU>
+    <ptBR>Era pra ter uma piadinha aqui, mas era uma mééé...</ptBR>
+    <plPL>Mieliśmy tu napisać jakiś fajny tekst, ale wyszedł beeeeeee-znadziejnie.</plPL>
+    <koKR>이 카드로 '말'장난을 만들어 보려고 했는데... '양'장난이 되었네요. 길어져서 죄송합니다. 재미가 없으면 '양'으로라도 승부해야죠.</koKR>
+    <itIT>Qui ci andava un gioco di parole, ma non è uscito beee-ne.</itIT>
+    <frFR>J’allais faire une blague mêêêê elle est tombée à l’eau.</frFR>
+    <esMX>Habíamos pensado un chiste para poner aquí, pero nos quedó mee-edio mal.</esMX>
+    <esES>Al que se le ocurrió convertir a los esbirros en ovejas tenía que estar como una cabra.</esES>
+    <deDE>Vielleicht die sanfteste und flauschigste Art, Konflikten aus dem Weg zu gehen.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Vance Kovacs</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 24.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="651d1d7d-5022-44cf-b062-e475fe399ed3">
     <PlayRequirement reqID="11" param="" />
     <PlayRequirement reqID="1" param="" />
   </Power>

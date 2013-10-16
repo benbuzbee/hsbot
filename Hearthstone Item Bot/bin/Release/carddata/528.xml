@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_tk9">
+<Entity version="2" CardID="EX1_619e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Treant</enUS>
-    <frFR>Tréant</frFR>
-    <zhTW>樹人</zhTW>
-    <zhCN>树人</zhCN>
-    <ruRU>Древень</ruRU>
-    <ptBR>Arvoroso</ptBR>
-    <plPL>Drzewiec</plPL>
-    <koKR>나무정령</koKR>
-    <itIT>Treant</itIT>
-    <esMX>Antárbol</esMX>
-    <esES>Antárbol</esES>
-    <enGB>Treant</enGB>
-    <deDE>Treant</deDE>
+    <enUS>Equality</enUS>
+    <frFR>Égalité</frFR>
+    <zhTW>一視同仁</zhTW>
+    <zhCN>生而平等</zhCN>
+    <ruRU>Равенство</ruRU>
+    <ptBR>Igualdade</ptBR>
+    <plPL>Równość</plPL>
+    <koKR>평등</koKR>
+    <itIT>Eguaglianza</itIT>
+    <esMX>Igualdad</esMX>
+    <esES>Igualdad</esES>
+    <deDE>Gleichheit</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;.  At the end of the turn, destroy this minion.</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;. Ce serviteur est détruit à la fin du tour.</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。在回合結束時，摧毀這個手下。</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;。在回合结束时，消灭该随从。</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. В конце хода это существо будет уничтожено.</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. No final do turno, destrua este lacaio.</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. Na początku następnej tury niszczysz tego stronnika.</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;. 턴이 끝날 때, 이 하수인을 파괴합니다.</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;. Alla fine del turno, distruggi questo servitore.</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;. Al final del turno, destruye a este esbirro.</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;. Al final del turno, destruye a este esbirro.</esES>
-    <enGB>&lt;b&gt;Charge&lt;/b&gt;.  At the end of the turn, destroy this minion.</enGB>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;. Vernichtet diesen Diener am Ende des Zuges.</deDE>
+    <enUS>This minion's Health has been changed to 1.</enUS>
+    <frFR>Les points de vie de ce serviteur sont passés à 1.</frFR>
+    <zhTW>這個手下的生命值被改為1點。</zhTW>
+    <zhCN>该随从的生命值变为1。</zhCN>
+    <ruRU>Здоровье этого существа равно 1.</ruRU>
+    <ptBR>A Vida deste lacaio foi mudada para 1.</ptBR>
+    <plPL>Zdrowie tego stronnika zostało zmienione na 1.</plPL>
+    <koKR>생명력 1로 바뀜</koKR>
+    <itIT>Salute pari a 1.</itIT>
+    <esMX>La Salud de este esbirro ha cambiado a 1.</esMX>
+    <esES>La salud de este esbirro ha cambiado a 1 p.</esES>
+    <deDE>Das Leben dieses Dieners wurde auf 1 gesetzt.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="99b8b63c-3954-4284-8a25-0452670c588e" />
-  <Power definition="15e283bd-d6e9-4d50-acb3-92a86c6cf510" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
+  <Power definition="8d998dbc-d6c2-452f-abef-62b9881f7078" />
 </Entity>

@@ -20,35 +20,23 @@ namespace HSBot
          * */
         public void StartConnect()
         {
-            var t = new System.Threading.Thread(() => {
+       
+
+  
+                var registration = new IrcUserRegistrationInfo();
+                registration.NickName = Config.IRCNick;
+                registration.RealName = Config.IRCName;
+                registration.UserName = Config.IRCUser;
+
+
+                this.Connect(Config.IRCHost, false, registration);
+
+                this.Registered += new EventHandler<EventArgs>(OnRegistered);
                 
-                
-                while (true)
-                {
-                    
-                    if (!this.IsConnected )
-                    {
-                        
-                        Console.WriteLine("Not connected...attempting to connect...");
-                        var registration = new IrcUserRegistrationInfo();
-                        registration.NickName = Config.IRCNick;
-                        registration.RealName = Config.IRCName;
-                        registration.UserName = Config.IRCUser;
 
 
-                        this.Connect(Config.IRCHost, false, registration);
-
-                        this.Registered += new EventHandler<EventArgs>(OnRegistered);
-                    }
-                    System.Threading.Thread.Sleep(Config.IRCReconnectTime);
-
-                }
             
-            
-            });
-            t.Name = "Reconnect Thread";
-            t.Start();
-            
+        
             
             
         }
@@ -83,7 +71,7 @@ namespace HSBot
             if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length)
             {
                 
-                LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length));
+                LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
             }
 
             Match match = regex.Match(e.Text);
@@ -122,7 +110,7 @@ namespace HSBot
             // Otherwise search using contains
 
             foreach (Cards.Card c in cards.Values)
-                if (c.Name.ToLower().Contains(cardname)) return c;
+                if (c.Name.ToLower().Contains(cardname.ToLower())) return c;
             return null;
 
         }

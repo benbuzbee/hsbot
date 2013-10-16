@@ -1,73 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_572">
+<Entity version="2" CardID="EX1_549o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ysera</enUS>
-    <frFR>Ysera</frFR>
-    <zhTW>伊瑟拉</zhTW>
-    <zhCN>伊瑟拉</zhCN>
-    <ruRU>Изера</ruRU>
-    <ptBR>Ysera</ptBR>
-    <plPL>Ysera</plPL>
-    <koKR>이세라</koKR>
-    <itIT>Ysera</itIT>
-    <esMX>Ysera</esMX>
-    <esES>Ysera</esES>
-    <enGB>Ysera</enGB>
-    <deDE>Ysera</deDE>
+    <enUS>Bestial Wrath</enUS>
+    <frFR>Courroux bestial</frFR>
+    <zhTW>狂野怒火</zhTW>
+    <zhCN>狂野怒火</zhCN>
+    <ruRU>Звериный гнев</ruRU>
+    <ptBR>Ira Bestial</ptBR>
+    <plPL>Bestialski gniew</plPL>
+    <koKR>야수의 격노</koKR>
+    <itIT>Ira Bestiale</itIT>
+    <esMX>Cólera de las bestias</esMX>
+    <esES>Cólera de las bestias</esES>
+    <deDE>Zorn des Wildtiers</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="12" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, draw a Dream Card.</enUS>
-    <frFR>Vous piochez une carte Rêve à la fin de votre tour.</frFR>
-    <zhTW>在你的回合結束時，抽一張夢境卡。</zhTW>
-    <zhCN>在你的回合结束时，获得一张梦境牌。</zhCN>
-    <ruRU>В конце вашего хода вы берете карту Сна.</ruRU>
-    <ptBR>No final do seu turno, compre um Card de Sonho.</ptBR>
-    <plPL>Na koniec swojej tury dobierz Kartę Snu.</plPL>
-    <koKR>당신의 턴이 끝날 때, 꿈 카드를 뽑습니다.</koKR>
-    <itIT>Alla fine del tuo turno, pesca una carta Sogno.</itIT>
-    <esMX>Al final de tu turno, roba una carta de Sueño.</esMX>
-    <esES>Al final de tu turno, roba una carta de sueño.</esES>
-    <enGB>At the end of your turn, draw a Dream Card.</enGB>
-    <deDE>Zieht am Ende Eures Zuges eine Traumkarte.</deDE>
+    <enUS>+2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
+    <frFR>+2 ATQ et &lt;b&gt;Insensible&lt;/b&gt; pendant ce tour.</frFR>
+    <zhTW>+2攻擊力及本回合&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
+    <zhCN>在本回合中，+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
+    <ruRU>+2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
+    <ptBR>+2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; neste turno.</ptBR>
+    <plPL>+2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt; w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +2, &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
+    <itIT>+2 Attacco e &lt;b&gt;Immune&lt;/b&gt; in questo turno.</itIT>
+    <esMX>+2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; en este turno.</esMX>
+    <esES>+2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; este turno.</esES>
+    <deDE>+2 Angriff und &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gabor Szikszai</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Ysera rules the Emerald Dream.  Which is some kind of green-mirror-version or the real world, or something?</enUS>
-    <zhTW>伊瑟拉統治著翡翠夢境。那個似乎是真實世界的綠色鏡像版本之類的。</zhTW>
-    <zhCN>伊瑟拉统治翡翠梦境。所谓翡翠梦境，究竟只是现实世界的绿色朦胧倒影，还是其它别的什么地方？</zhCN>
-    <ruRU>Изера правит царством Изумрудного Сна. Интересно, есть ли там дорога из желтого кирпича?</ruRU>
-    <ptBR>Ysera governa o Sonho Esmeralda. Que é tipo uma versão espelhada e esverdeada do mundo real. É isso mesmo?</ptBR>
-    <plPL>Ysera włada Szmaragdowym Snem. A ten wygląda jak zielona wersja prawdziwego świata.</plPL>
-    <koKR>이세라는 에메랄드의 꿈을 지배합니다. 실제 세상의 녹색 버전이랄까요?</koKR>
-    <itIT>Un drago da sogno. Letteralmente.</itIT>
-    <frFR>Ysera règne sur le Rêve d’émeraude. C’est une copie plus verte du monde réel. Ce n’est pas ça ?</frFR>
-    <esMX>Ysera gobierna el Sueño Esmeralda, que es una especie de mundo paralelo, igual al real pero verde... o algo así.</esMX>
-    <esES>Ysera gobierna el Sueño Esmeralda, la excusa perfecta de los druidas que quieren echar una cabezadita.</esES>
-    <deDE>Diese Karte ist der smaragdgrüne Traum eines jeden Spielers.</deDE>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="e32c5ce1-f12d-4712-ae6f-784876be5a03" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
-  <EntourageCard cardID="DREAM_01" />
-  <EntourageCard cardID="DREAM_02" />
-  <EntourageCard cardID="DREAM_03" />
-  <EntourageCard cardID="DREAM_04" />
-  <EntourageCard cardID="DREAM_05" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="a2f2b681-972d-4d7d-8504-f1aa88cf266b" />
+  <Power definition="42c58fd4-9ee3-4df1-a39c-069ddd478179" />
 </Entity>

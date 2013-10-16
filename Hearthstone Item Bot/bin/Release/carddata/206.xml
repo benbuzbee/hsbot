@@ -1,49 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_020">
+<Entity version="2" CardID="EX1_004e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Scarlet Crusader</enUS>
-    <frFR>Croisée écarlate</frFR>
-    <zhTW>血色十字軍</zhTW>
-    <zhCN>血色十字军战士</zhCN>
-    <ruRU>Алый крестоносец</ruRU>
-    <ptBR>Cruzada Escarlate</ptBR>
-    <plPL>Szkarłatny krzyżowiec</plPL>
-    <koKR>붉은십자군 성전사</koKR>
-    <itIT>Crociato Scarlatto</itIT>
-    <esMX>Cruzada escarlata</esMX>
-    <esES>Cruzada Escarlata</esES>
-    <enGB>Scarlet Crusader</enGB>
-    <deDE>Scharlachrote Fanatikerin</deDE>
+    <enUS>Elune's Grace</enUS>
+    <frFR>Grâce d’Élune</frFR>
+    <zhTW>伊露恩之賜</zhTW>
+    <zhCN>艾露恩的赐福</zhCN>
+    <ruRU>Благодать Элуны</ruRU>
+    <ptBR>Graça de Eluna</ptBR>
+    <plPL>Łaska Eluny</plPL>
+    <koKR>엘룬의 은총</koKR>
+    <itIT>Grazia di Elune</itIT>
+    <esMX>La gracia de Elune</esMX>
+    <esES>Gracia de Elune</esES>
+    <deDE>Elunes Anmut</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;圣盾&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Божественный щит&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Escudo divino&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Divine Shield&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Gottesschild&lt;/b&gt;</deDE>
+    <enUS>Increased Health.</enUS>
+    <frFR>Vie augmentée.</frFR>
+    <zhTW>生命值提高。</zhTW>
+    <zhCN>生命值增加。</zhCN>
+    <ruRU>Здоровье увеличено.</ruRU>
+    <ptBR>Vida aumentada.</ptBR>
+    <plPL>Zwiększone zdrowie.</plPL>
+    <koKR>생명력 증가</koKR>
+    <itIT>Salute aumentata.</itIT>
+    <esMX>Salud aumentada.</esMX>
+    <esES>Salud aumentada.</esES>
+    <deDE>Erhöhtes Leben.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gonzalo Ordonez</enUS>
-  </Tag>
-  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="38bc664c-98c8-41e2-8569-8811effc8b06" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="bf160fa3-e50b-4076-a8ed-6b0ab27a1863" />
 </Entity>

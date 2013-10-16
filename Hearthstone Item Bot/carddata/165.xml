@@ -1,39 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DREAM_02">
-  <MasterPower>1662c8aa-c080-477a-849b-9a5bfe1d19fb</MasterPower>
+<Entity version="2" CardID="CS2_222">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ysera Awakens</enUS>
-    <frFR>Réveil d’Ysera</frFR>
-    <zhTW>伊瑟拉之覺醒</zhTW>
-    <zhCN>伊瑟拉苏醒</zhCN>
-    <ruRU>Пробуждение Изеры</ruRU>
-    <ptBR>Despertar de Ysera</ptBR>
-    <plPL>Przebudzenie Ysery</plPL>
-    <koKR>깨어난 이세라</koKR>
-    <itIT>Risveglio di Ysera</itIT>
-    <esMX>El despertar de Ysera</esMX>
-    <esES>Ysera despierta</esES>
-    <enGB>Ysera Awakens</enGB>
-    <deDE>Ysera erwacht</deDE>
+    <enUS>Stormwind Champion</enUS>
+    <frFR>Champion de Hurlevent</frFR>
+    <zhTW>暴風城勇士</zhTW>
+    <zhCN>暴风城勇士</zhCN>
+    <ruRU>Герой Штормграда</ruRU>
+    <ptBR>Campeão de Ventobravo</ptBR>
+    <plPL>Czempion Wichrogrodu</plPL>
+    <koKR>스톰윈드 용사</koKR>
+    <itIT>Campione di Roccavento</itIT>
+    <esMX>Campeón de Ventormenta</esMX>
+    <esES>Campeón de Ventormenta</esES>
+    <deDE>Champion von Sturmwind</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>For the Alliance!</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $5 damage to all characters except Ysera.</enUS>
-    <frFR>Inflige $5 point(s) de dégâts à tous les personnages sauf Ysera.</frFR>
-    <zhTW>對伊瑟拉以外的全部角色造成$5點傷害。</zhTW>
-    <zhCN>对除了伊瑟拉之外的所有角色造成$5点伤害。</zhCN>
-    <ruRU>Наносит $5 ед. урона всем персонажам, кроме Изеры.</ruRU>
-    <ptBR>Cause $5 de dano a todos os personagens, exceto Ysera.</ptBR>
-    <plPL>Zadaj $5 pkt. obrażeń wszystkim postaciom oprócz Ysery.</plPL>
-    <koKR>이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다.</koKR>
-    <itIT>Infligge $5 danni a tutti i personaggi tranne Ysera.</itIT>
-    <esMX>Inflige $5 de daño a todos los personajes con excepción de Ysera.</esMX>
-    <esES>Inflige $5 p. de daño a todos los personajes menos a Ysera.</esES>
-    <enGB>Deal $5 damage to all characters except Ysera.</enGB>
-    <deDE>Fügt allen Charakteren mit Ausnahme von Ysera $5 Schaden zu.</deDE>
+    <enUS>Your other minions have +1/+1.</enUS>
+    <frFR>Vos autres serviteurs ont +1/+1.</frFR>
+    <zhTW>你的其他手下獲得+1/+1。</zhTW>
+    <zhCN>你的其他随从获得+1/+1。</zhCN>
+    <ruRU>Другие ваши существа получают +1/+1.</ruRU>
+    <ptBR>Seus outros lacaios têm +1/+1.</ptBR>
+    <plPL>Twoi pozostali stronnicy otrzymują +1/+1.</plPL>
+    <koKR>내 다른 하수인들이 +1/+1을 얻습니다.</koKR>
+    <itIT>Gli altri tuoi servitori hanno +1/+1.</itIT>
+    <esMX>Tus otros esbirros tienen +1/+1.</esMX>
+    <esES>Tus demás esbirros tienen +1/+1.</esES>
+    <deDE>Eure anderen Diener haben +1/+1.</deDE>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="11" />
-  <Power definition="1662c8aa-c080-477a-849b-9a5bfe1d19fb" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Doug Alexander</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>When Deathwing assaulted the capital, this soldier was the only member of his squad to survive. Now he's all bitter and stuff.</enUS>
+    <zhTW>在死亡之翼攻擊首都時，這名士兵是他們小隊裡唯一的倖存者。現在他過得十分苦悶。</zhTW>
+    <zhCN>在死亡之翼攻击主城的时候，这个士兵是小队中唯一活下来的一个。现在，他已经变得忍辱负重，镇定自若了。</zhCN>
+    <ruRU>Когда Смертокрыл атаковал столицу, этот отважный воин оказался единственным выжившим из отряда. Теперь он жаждет мести.</ruRU>
+    <ptBR>Quando Asa da Morte atacou a capital, o soldado foi o único membro do esquadrão a sobreviver. Agora ele está todo ranzinza e tal.</ptBR>
+    <plPL>Kiedy Śmiercioskrzydły zaatakował stolicę, ten żołnierz był jedynym członkiem oddziału, który został przy życiu. A teraz chodzi przybity i zgorzkniały.</plPL>
+    <koKR>데스윙이 스톰윈드를 쑥대밭으로 만들었을 때, 분대에서 유일하게 살아남은 병사입니다. 그는 지금 답답함에 속이 부글부글 끓습니다.</koKR>
+    <itIT>Quando Alamorte assaltò la capitale, questo soldato fu l'unico della sua squadriglia a sopravvivere. Ora si sente un po' solo...</itIT>
+    <frFR>Quand Aile de mort a attaqué la capitale, ce soldat a été le seul membre de son escouade à avoir survécu. Depuis, il est devenu amer...</frFR>
+    <esMX>Cuando Alamuerte atacó la capital, este soldado fue el único de su escuadrón que sobrevivió. Y ahora es un viejo amargado.</esMX>
+    <esES>Cuando Alamuerte asaltó la capital, este soldado fue el único superviviente de su escuadrón. Acabó muy quemado.</esES>
+    <deDE>Todesschwinge hat ihm bei seinem Angriff auf die Hauptstadt einen Mordsschrecken eingejagt. Jetzt traut er sich kaum noch allein auf die Straße.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Paladin Level 58.</enUS>
+  </Tag>
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="2238624e-7ef4-4611-95af-8a36c49bcc0e" />
 </Entity>

@@ -1,65 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_335">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_308">
+  <MasterPower>59ec1a94-36e2-45e2-a7d6-4958f435ac69</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Lightspawn</enUS>
-    <frFR>Rejeton de lumière</frFR>
-    <zhTW>光明之子</zhTW>
-    <zhCN>圣光之子</zhCN>
-    <ruRU>Порождение Света</ruRU>
-    <ptBR>Cria da Luz</ptBR>
-    <plPL>Światłonośca</plPL>
-    <koKR>빛의 정령</koKR>
-    <itIT>Prole della Luce</itIT>
-    <esMX>Engendro de luz</esMX>
-    <esES>Engendro de luz</esES>
-    <enGB>Lightspawn</enGB>
-    <deDE>Lichtbrut</deDE>
+    <enUS>Soulfire</enUS>
+    <frFR>Feu de l’âme</frFR>
+    <zhTW>靈魂之火</zhTW>
+    <zhCN>灵魂之火</zhCN>
+    <ruRU>Ожог души</ruRU>
+    <ptBR>Fogo d'Alma</ptBR>
+    <plPL>Ogień duszy</plPL>
+    <koKR>영혼의 불꽃</koKR>
+    <itIT>Fuoco dell'Anima</itIT>
+    <esMX>Fuego de alma</esMX>
+    <esES>Fuego de alma</esES>
+    <deDE>Seelenfeuer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion's Attack is always equal to its Health.</enUS>
-    <frFR>L’Attaque de ce serviteur est toujours égale à sa Vie.</frFR>
-    <zhTW>此手下的攻擊力總是會相當於其生命值。</zhTW>
-    <zhCN>该随从的攻击力等同于其生命值。</zhCN>
-    <ruRU>Атака этого существа всегда равна его здоровью.</ruRU>
-    <ptBR>O Ataque deste lacaio é sempre igual à sua Vida.</ptBR>
-    <plPL>Atak tego stronnika jest zawsze równy jego zdrowiu.</plPL>
-    <koKR>이 하수인의 공격력은 항상 생명력과 같습니다.</koKR>
-    <itIT>L'Attacco di questo servitore è sempre pari alla sua Salute.</itIT>
-    <esMX>El Ataque de este esbirro siempre es equivalente a su Salud.</esMX>
-    <esES>El ataque de este esbirro siempre es igual a su salud.</esES>
-    <enGB>This minion's Attack is equal to its Health.</enGB>
-    <deDE>Der Angriff dieses Dieners entspricht immer seinem Leben.</deDE>
+    <enUS>Deal $4 damage. Discard a random card.</enUS>
+    <frFR>Inflige $4 |4(point,points) de dégâts. Vous défausse d’une carte aléatoire.</frFR>
+    <zhTW>造成$4點傷害。隨機捨棄一張牌。</zhTW>
+    <zhCN>造成$4点伤害，随机弃一张牌。</zhCN>
+    <ruRU>Наносит $4 ед. урона. Вы сбрасываете случайную карту.</ruRU>
+    <ptBR>Cause $4 de dano. Descarte um card aleatório.</ptBR>
+    <plPL>Zadaj $4 pkt. obrażeń. Odrzuć losową kartę.</plPL>
+    <koKR>피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.</koKR>
+    <itIT>Infligge $4 danni. Scarta una carta casuale.</itIT>
+    <esMX>Inflige $4 de daño. Descarta una carta aleatoria.</esMX>
+    <esES>Inflige $4 p. de daño. Descarta una carta aleatoria.</esES>
+    <deDE>Verursacht $4 Schaden. Werft eine zufällige Karte ab.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Daarken</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Spawn of the Light? Or Pawn of the Lights?</enUS>
-    <zhTW>「我不知道我們在喊啥鬼!!!」</zhTW>
-    <zhCN>圣光孕育的子嗣，吾等子嗣的圣光。</zhCN>
-    <ruRU>Не потому, что рядом с ним светло, а потому, что с ним не надо света.</ruRU>
-    <ptBR>"EU NÃO SEI POR QUE QUE A GENTE TÁ GRITANDO!!"</ptBR>
-    <plPL>Czy on niesie światło, czy ma świecący nos?</plPL>
-    <koKR>"난 누구지? 또 여긴 어디야!!!"</koKR>
-    <itIT>È bella la vita della Prole della Luce, fin quando le bollette le pagano i genitori.</itIT>
-    <frFR>Rejeton de lumière ou pion de la Lumière ?</frFR>
-    <esMX>Lo de engendro... ¿es por lo feo? ¿O será que nació de la luz?</esMX>
-    <esES>"¡¡¡NO SÉ POR QUÉ ESTAMOS GRITANDO!!!"</esES>
-    <deDE>Wer brütet sie eigentlich aus?</deDE>
+    <enUS>Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.</enUS>
+    <zhTW>你正在點燃靈魂嗎?還是用你&lt;b&gt;自己的&lt;/b&gt;靈魂燃燒別人?這看起來有很重要的分別。</zhTW>
+    <zhCN>是把别人的灵魂点燃？还是用自己的灵魂把别人点燃？这似乎是有很大区别的。</zhCN>
+    <ruRU>Вы поджигаете душу или сжигаете кого-то своей душой? Это существенное различие.</ruRU>
+    <ptBR>Você tá queimando a alma de alguém? Ou queimando alguém com a sua PRÓPRIA alma? É importante distinguir.</ptBR>
+    <plPL>Chodzi o ogień z duszy. Nie z dyszy. To jednak spora różnica.</plPL>
+    <koKR>상대의 영혼에 불을 지르는 걸까요? 아니면 자신의 영혼으로 상대에게 불을 지르는 걸까요? 비슷해 보이지만 정말 중요한 차이입니다.</koKR>
+    <itIT>Illumini un'anima che va a fuoco, o dai fuoco a qualcuno con la TUA anima? Sembra una precisazione piuttosto importante da fare.</itIT>
+    <frFR>Est-ce que vous mettez le feu à une âme ? Ou bien vous brûlez quelqu’un avec votre âme ? Il y a une différence !</frFR>
+    <esMX>¿Estás prendiéndole fuego a un alma? ¿O estás quemando a alguien con TU alma? Hay una diferencia importante.</esMX>
+    <esES>Los brujos tienen el fuego en el cuerpo. Y en el alma.</esES>
+    <deDE>Setzt Ihr eine Seele in Brand? Oder verbrennt Ihr jemanden mit Eurer EIGENEN Seele? Der Unterschied scheint nicht unwesentlich zu sein.</deDE>
   </Tag>
-  <Power definition="01c64369-fa74-4773-9e1f-f188831711e8" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 44.</enUS>
+  </Tag>
+  <Power definition="59ec1a94-36e2-45e2-a7d6-4958f435ac69">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

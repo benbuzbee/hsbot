@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_132">
+<Entity version="2" CardID="EX1_100">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Eye for an Eye</enUS>
-    <frFR>Œil pour œil</frFR>
-    <zhTW>以眼還眼</zhTW>
-    <zhCN>以眼还眼</zhCN>
-    <ruRU>Око за око</ruRU>
-    <ptBR>Olho por olho</ptBR>
-    <plPL>Oko za oko</plPL>
-    <koKR>눈에는 눈</koKR>
-    <itIT>Occhio per Occhio</itIT>
-    <esMX>Ojo por ojo</esMX>
-    <esES>Ojo por ojo</esES>
-    <enGB>Eye for an Eye</enGB>
-    <deDE>Auge um Auge</deDE>
+    <enUS>Lorewalker Cho</enUS>
+    <frFR>Chroniqueur Cho</frFR>
+    <zhTW>博學行者阿洲</zhTW>
+    <zhCN>游学者周卓</zhCN>
+    <ruRU>Хранитель истории Чо</ruRU>
+    <ptBR>Andarilho das Lendas Cho</ptBR>
+    <plPL>Wiedziciel Czo</plPL>
+    <koKR>전승지기 초</koKR>
+    <itIT>Ramingo della Sapienza Cho</itIT>
+    <esMX>Eremita Cho</esMX>
+    <esES>Eremita Cho</esES>
+    <deDE>Lehrensucher Cho</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your hero takes damage, deal that much damage to the enemy hero.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; inflige au héros adverse autant de dégâts que ceux subis par votre héros.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的英雄受到傷害，對敵方英雄造成等量的傷害。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;每当你的英雄受到伤害时，对敌方英雄造成等量的伤害。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда ваш герой получает урон, вы наносите такое же количество урона герою противника.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando o seu herói receber dano, cause a mesma quantidade de dano ao herói inimigo.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy twój bohater otrzymuje obrażenia, zadaj tyle samo obrażeń wrogiemu bohaterowi.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 당신의 영웅이 피해를 입으면, 적 영웅에게도 같은 피해를 줍니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando il tuo eroe subisce danni, infligge la stessa quantità di danni all'eroe nemico.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu héroe recibe daño, inflige esa misma cantidad de daño al héroe enemigo.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu héroe recibe daño, inflige la misma cantidad de daño al héroe enemigo.</esES>
-    <enGB>&lt;b&gt;Secret:&lt;/b&gt; When your hero takes damage, deal that much damage to the enemy hero.</enGB>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Held Schaden nimmt, wird dem feindlichen Helden ebenso viel Schaden zugefügt.</deDE>
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Meditate</enUS>
   </Tag>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever a player casts a spell, put a copy into the other player’s hand.</enUS>
+    <frFR>Quand un joueur lance un sort, en place une copie dans la main de son adversaire.</frFR>
+    <zhTW>每當有玩家施放法術，另一位玩家就獲得一張同樣的法術。</zhTW>
+    <zhCN>每当一个玩家施放一个法术时，复制该法术，将其置入另一个玩家的手牌。</zhCN>
+    <ruRU>Каждый раз, когда игрок разыгрывает заклинание, копия карты этого заклинания кладется в руку другого игрока.</ruRU>
+    <ptBR>Quando um jogador lançar um feitiço, coloque uma cópia dele na mão do outro jogador.</ptBR>
+    <plPL>Za każdym razem, gdy gracz rzuci zaklęcie, umieść jego kopię w ręce drugiego gracza.</plPL>
+    <koKR>각 플레이어가 주문을 시전할 때마다 동일한 주문 카드를 상대편의 손에 널습니다.</koKR>
+    <itIT>Ogni volta che un giocatore lancia una Magia, l'avversario ottiene una copia della carta in mano.</itIT>
+    <esMX>Cada vez que un jugador lanza un hechizo, pon una copia en la mano del otro jugador.</esMX>
+    <esES>Cada vez que un jugador lanza un hechizo, coloca una copia en la mano del otro jugador.</esES>
+    <deDE>Wenn ein Spieler einen Zauber wirkt, erhält der andere Spieler eine Kopie desselben auf seine Hand.</deDE>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
+    <enUS>Mark Zug</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Justice sometimes takes the form of a closed fist into a soft cheek.</enUS>
-    <zhTW>Justice sometimes takes the form of a closed fist into a soft cheek.</zhTW>
-    <zhCN>Justice sometimes takes the form of a closed fist into a soft cheek.</zhCN>
-    <ruRU>Порой правосудие заключается в ударе кулаком об мягкую щеку.</ruRU>
-    <ptBR>A justiça às vezes toma a forma de um punho fechado numa fuça delicada.</ptBR>
-    <plPL>Sprawiedliwość czasami przyjmuje postać pięści walącej w zęby.</plPL>
-    <koKR>주먹이 정의를 대변할 때도 종종 있답니다.</koKR>
-    <itIT>Ogni tanto fare giustizia significa assestare un pugno ben chiuso su una morbida guancia.</itIT>
-    <frFR>Mon poing a faim de justice !</frFR>
-    <esMX>A veces, la justicia toma la forma de un puño que se estrella contra una mejilla delicada.</esMX>
-    <esES>A veces la justicia adopta la forma de un puño cerrado contra una suave mejilla.</esES>
-    <deDE>Gerechtigkeit nimmt manchmal die Form einer ziemlich harten Faust auf einer ziemlich weichen Backe an.</deDE>
+    <enUS>Lorewalker Cho archives and shares tales from the land of Pandaria, but his favorite story is the one where Joey and Phoebe go on a road trip.</enUS>
+    <zhTW>博學行者阿洲記錄並分享潘達利亞大陸的故事，但是他最喜歡的故事其實是龍捲風系列的肥皂劇。</zhTW>
+    <zhCN>游学者周卓整理并分享有关潘达利亚大陆的轶事，但他最喜欢的故事，是乔伊和菲比一起外出旅行发生的事情。</zhCN>
+    <ruRU>Хранитель истории Чо знает множество преданий Пандарии, но самая любимая его история – про то, как злая курица стала такой злой.</ruRU>
+    <ptBR>O Andarilho das Lendas Cho registra e compartilha contos da terra de Pandária, mas a que ele mais gosta é aquela onde descobrem quem matou Odete Roitman.</ptBR>
+    <plPL>Wiedziciel Czo zbiera historie i podania z krainy Pandarii, ale najbardziej lubi opowieść o pierścieniu i górze.</plPL>
+    <koKR>전승지기 초는 판다리아의 이야기들을 수집하고 기록합니다. 최근에는 판다리아의 야한 연애 소설을 모으는 중이라는군요.</koKR>
+    <itIT>Il Ramingo della Sapienza Cho conserva e condivide storie da tutta Pandaria, ma le sue preferite sono quelle di Papà Castoro.</itIT>
+    <frFR>Le chroniqueur Cho raconte et archive toutes les légendes de la Pandarie, mais son récit préféré est celui des aventures de Li Li et Chen.</frFR>
+    <esMX>Eremita Cho escribe y cuenta historias de Pandaria, pero sus anécdotas preferidas son las de Phoebe cantando en Central Perk.</esMX>
+    <esES>El eremita Cho registra y conserva la historia del continente de Pandaria, pero lo que más le gusta en el mundo es conducir a bandas de aventureros a una muerte segura.</esES>
+    <deDE>Lehrensucher Cho sammelt und erzählt normalerweise Geschichten aus Pandaria, aber eigentlich würde er ja lieber von diesem einen Mal im Ferienlager berichten.</deDE>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="4f514d32-4a18-49f8-930b-57c30d99f684" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="0346a62b-04dd-4d27-9d07-5927cafb0975" />
   <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

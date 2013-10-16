@@ -1,66 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_277">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_241">
+  <MasterPower>5c98dcbc-fd61-4aea-8221-e3ff4acb48b7</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Arcane Missiles</enUS>
-    <frFR>Projectiles des Arcanes</frFR>
-    <zhTW>秘法飛彈</zhTW>
-    <zhCN>奥术飞弹</zhCN>
-    <ruRU>Чародейские стрелы</ruRU>
-    <ptBR>Mísseis Arcanos</ptBR>
-    <plPL>Tajemne pociski</plPL>
-    <koKR>신비한 화살</koKR>
-    <itIT>Missili Arcani</itIT>
-    <esMX>Misiles arcanos</esMX>
-    <esES>Misiles Arcanos</esES>
-    <enGB>Arcane Missiles</enGB>
-    <deDE>Arkane Geschosse</deDE>
+    <enUS>Lava Burst</enUS>
+    <frFR>Explosion de lave</frFR>
+    <zhTW>熔岩爆發</zhTW>
+    <zhCN>熔岩爆裂</zhCN>
+    <ruRU>Выброс лавы</ruRU>
+    <ptBR>Estouro de Lava</ptBR>
+    <plPL>Eksplozja lawy</plPL>
+    <koKR>용암 폭발</koKR>
+    <itIT>Getto di Lava</itIT>
+    <esMX>Ráfaga de lava</esMX>
+    <esES>Ráfaga de lava</esES>
+    <deDE>Lavaeruption</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Shoot $3 missiles at random enemies for 1 damage each.</enUS>
-    <frFR>Tire $3 projectiles sur des adversaires aléatoires, infligeant chacun 1 point de dégâts.</frFR>
-    <zhTW>發射$3顆飛彈攻擊隨機的敵人，每一顆造成1點傷害。</zhTW>
-    <zhCN>随机对敌人发射$3枚飞弹，每枚飞弹造成1点伤害。</zhCN>
-    <ruRU>Выстреливает в случайных персонажей противника магические заряды ($3), каждый из которых наносит 1 ед. урона.</ruRU>
-    <ptBR>Dispare $3 mísseis em inimigos aleatórios, causando 1 de dano a cada um deles.</ptBR>
-    <plPL>Wystrzel $3 pociski w losowych wrogów, zadając każdemu 1 pkt. obrażeń.</plPL>
-    <koKR>피해를 1 주는 화살 $3개를 무작위 적들에게 발사합니다.</koKR>
-    <itIT>Lancia $3 missili infliggendo 1 danno ciascuno a nemici casuali.</itIT>
-    <esMX>Dispara $3 misiles a enemigos aleatorios que infligen 1 de daño cada uno.</esMX>
-    <esES>Dispara $3 misiles a enemigos aleatorios. Cada uno inflige 1 p. de daño.</esES>
-    <enGB>Shoot $3 missiles at random enemies for 1 damage each.</enGB>
-    <deDE>Verschießt $3 Geschosse auf zufällige Feinde und verursacht jeweils 1 Schaden.</deDE>
+    <enUS>Deal $5 damage. &lt;b&gt;Overload:&lt;/b&gt; (2)</enUS>
+    <frFR>Inflige $5 |4(point,points) de dégâts. &lt;b&gt;Surcharge :&lt;/b&gt; (2)</frFR>
+    <zhTW>造成$5點傷害。&lt;b&gt;超載:&lt;/b&gt;(2)</zhTW>
+    <zhCN>造成$5点伤害，&lt;b&gt;过载：&lt;/b&gt;（2）</zhCN>
+    <ruRU>Наносит $5 ед. урона. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
+    <ptBR>Cause $5 de dano. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</ptBR>
+    <plPL>Zadaj $5 pkt. obrażeń. &lt;b&gt;Przeciążenie:&lt;/b&gt; (2)</plPL>
+    <koKR>피해를 $5 줍니다. &lt;b&gt;과부하:&lt;/b&gt; (2)</koKR>
+    <itIT>Infligge $5 danni. &lt;b&gt;Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
+    <esMX>Inflige $5 de daño. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esMX>
+    <esES>Inflige $5 p. de daño. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esES>
+    <deDE>Verursacht $5 Schaden. &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.</enUS>
-    <zhTW>你本來以為你能更熟練地控制這些飛彈，畢竟你是個強大的法師，對吧。</zhTW>
-    <zhCN>既然你想要做一个超级厉害的法师，就必须得把奥术飞弹控制得好一些。</zhCN>
-    <ruRU>Такому могущественному магу как ты наверняка хотелось бы лучше управлять своими чародейскими стрелами.</ruRU>
-    <ptBR>E você que pensava que ficaria um pouco mais fácil controlar os mísseis, sendo um mago poderoso e tal.</ptBR>
-    <plPL>Potężni magowie powinni chyba lepiej kontrolować swoje pociski, co nie?</plPL>
-    <koKR>솔직히 당신은 엄청나게 강한 마법사니까 신비한 화살 정도는 잘 조준할 수 있을 거라 생각하셨죠?</koKR>
-    <itIT>Visto che sei un Mago potentissimo, ci si aspetterebbe un po' di più da te sul controllo dei Missili Arcani.</itIT>
-    <frFR>Vous devriez pouvoir contrôler vos missiles un peu mieux que ça puisque vous êtes un puissant mage et tout et tout.</frFR>
-    <esMX>Un mago tan poderoso y con tanta experiencia como tú debería poder controlar un poco mejor sus misiles, ¿no te parece?</esMX>
-    <esES>Para ser un mago tan poderoso, podrías controlar tus misiles un poco mejor.</esES>
-    <enGB>You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.</enGB>
-    <deDE>Man möchte glauben, dass Ihr Eure Geschosse etwas besser kontrollieren könntet, nun da Ihr ein mächtiger Magier und so weiter seid.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Warren Mahy</enUS>
+    <enUS>Dan Scott</enUS>
   </Tag>
-  <Tag name="ImmuneToSpellpower" enumID="349" type="Bool" value="1" />
-  <Power definition="72ca23c3-af5c-481b-aee8-e758e1ffbf27" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>It's like an ocean of liquid magma in your mouth!</enUS>
+    <zhTW>這就像是把一整片岩漿海倒進你嘴裡一樣!</zhTW>
+    <zhCN>这滋味就像岩浆在你嘴里翻江倒海！</zhCN>
+    <ruRU>Словно вы хлебнули раскаленной магмы!</ruRU>
+    <ptBR>É como um oceano de magma líquido na sua boca!</ptBR>
+    <plPL>„Lawa, którą palisz mnie\nMagiczna siła, boję się...”\n\n- fragment „Mojej Lawy” z szamańskiej listy przebojów</plPL>
+    <koKR>과음한 친구를 마구 흔들면 자동으로 시전합니다.</koKR>
+    <itIT>È come avere un oceano di magma liquido in bocca!</itIT>
+    <frFR>C’est comme un océan de magma liquide dans votre bouche !</frFR>
+    <esMX>¡Es como un océano de magma líquida en tu boca!</esMX>
+    <esES>¡Es como un océano de magma líquido en tu boca!</esES>
+    <deDE>Sie ist, wie jeder weiß, viel heißer als heiß und das immer mehr!</deDE>
+  </Tag>
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="5c98dcbc-fd61-4aea-8221-e3ff4acb48b7">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

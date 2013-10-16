@@ -1,66 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_038">
-  <MasterPower>3f0a117e-1171-4a4b-b2c5-53cacdebad2e</MasterPower>
+<Entity version="2" CardID="CS2_013t">
+  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ancestral Spirit</enUS>
-    <frFR>Esprit ancestral</frFR>
-    <zhTW>先祖之魂</zhTW>
-    <zhCN>先祖之魂</zhCN>
-    <ruRU>Дух предков</ruRU>
-    <ptBR>Espírito Ancestral</ptBR>
-    <plPL>Duch przodków</plPL>
-    <koKR>고대의 영혼</koKR>
-    <itIT>Spirito Ancestrale</itIT>
-    <esMX>Espíritu ancestral</esMX>
-    <esES>Espíritu ancestral</esES>
-    <enGB>Ancestral Spirit</enGB>
-    <deDE>Geist der Ahnen</deDE>
+    <enUS>Excess Mana</enUS>
+    <zhTW>法力溢出</zhTW>
+    <zhCN>法力过剩</zhCN>
+    <ruRU>Избыток маны</ruRU>
+    <ptBR>Excesso de Mana</ptBR>
+    <plPL>Nadmiar many</plPL>
+    <koKR>넘치는 마나</koKR>
+    <itIT>Eccesso di Mana</itIT>
+    <frFR>Excès de mana</frFR>
+    <esMX>Exceso de maná</esMX>
+    <esES>Maná sobrante</esES>
+    <deDE>Überschüssiges Mana</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Choose a minion. When that minion is destroyed, return it to the battlefield.</enUS>
-    <frFR>Choisissez un serviteur. Quand il est détruit, il revient sur le champ de bataille.</frFR>
-    <zhTW>選擇一個手下。當該手下被摧毀時，使其返回戰場上。</zhTW>
-    <zhCN>选择一个随从。当该随从被消灭时，它将返回战场。</zhCN>
-    <ruRU>Выберите существо. Когда его уничтожат, оно вернется на поле боя. </ruRU>
-    <ptBR>Escolha um lacaio. Quando o lacaio for destruído, devolva-o ao campo de batalha.</ptBR>
-    <plPL>Wybierz stronnika. Kiedy zostanie zniszczony, przywróć go na pole bitwy.</plPL>
-    <koKR>하수인을 선택합니다. 그 하수인이 파괴되면 다시 전장으로 돌려보냅니다.</koKR>
-    <itIT>Scegli un servitore: quando quel servitore viene sconfitto, ritorna sul campo di battaglia.</itIT>
-    <esMX>Elige un esbirro. Cuando ese esbirro sea destruido, devuélvelo al campo de batalla.</esMX>
-    <esES>Elige a un esbirro. Cuando dicho esbirro es destruido, vuelve al campo de batalla.</esES>
-    <enGB>Choose a minion. When that minion is destroyed, return it to the battlefield.</enGB>
-    <deDE>Wählt einen Diener aus. Wenn dieser Diener vernichtet wird, lasst ihn aufs Schlachtfeld zurückkehren.</deDE>
+    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>
+    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶。)&lt;/i&gt;</zhTW>
+    <zhCN>抽1张牌。&lt;i&gt;（你最多可以拥有10点法力值。）&lt;/i&gt;</zhCN>
+    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>
+    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>
+    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku.)&lt;/i&gt;</plPL>
+    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>
+    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>
+    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>
+    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>
+    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>
+    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Zoltan &amp; Gabor</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It was just a flesh wound.</enUS>
-    <zhTW>這只是個軀體上的傷口。</zhTW>
-    <zhCN>只是伤到些皮毛而已。</zhCN>
-    <ruRU>Это была всего лишь царапина.</ruRU>
-    <ptBR>Foi só um arranhão.</ptBR>
-    <plPL>To była powierzchowna rana.</plPL>
-    <koKR>네가 죽은 건 추진력을 얻기 위해서였다!</koKR>
-    <itIT>Mi ha detto un mio gildano che una volta è morto.</itIT>
-    <frFR>Pfff, c’est seulement une égratignure.</frFR>
-    <esMX>Apenas fue un rasguño.</esMX>
-    <esES>Solo fue una herida superficial.</esES>
-    <enGB>Death was just a setback!</enGB>
-    <deDE>Der Tod war lediglich ein Rückschlag!</deDE>
-  </Tag>
-  <Power definition="3f0a117e-1171-4a4b-b2c5-53cacdebad2e">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Power definition="afbc46d9-471b-4963-944a-fddb08f7df86" />
 </Entity>

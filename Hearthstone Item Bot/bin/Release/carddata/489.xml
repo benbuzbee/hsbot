@@ -1,39 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_603e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_581">
+  <MasterPower>891e592b-29b8-43e7-bb92-a6d72780117c</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Whipped Into Shape</enUS>
-    <frFR>Coup de fouet motivant</frFR>
-    <zhTW>調教一番</zhTW>
-    <zhCN>鞭打成型</zhCN>
-    <ruRU>Кнут и пряник</ruRU>
-    <ptBR>Chicoteado até Obedecer</ptBR>
-    <plPL>Nadanie kształtu</plPL>
-    <koKR>채찍 맞고 단련됨</koKR>
-    <itIT>Rimettere in Riga</itIT>
-    <esMX>Puesto a punto</esMX>
-    <esES>Motivación por la fuerza</esES>
-    <enGB>Whipped Into Shape</enGB>
-    <deDE>Auf Zack gebracht</deDE>
+    <enUS>Sap</enUS>
+    <frFR>Assommer</frFR>
+    <zhTW>悶棍</zhTW>
+    <zhCN>闷棍</zhCN>
+    <ruRU>Ошеломление</ruRU>
+    <ptBR>Aturdir</ptBR>
+    <plPL>Ogłuszenie</plPL>
+    <koKR>혼절시키기</koKR>
+    <itIT>Tramortimento</itIT>
+    <esMX>Porrazo</esMX>
+    <esES>Porrazo</esES>
+    <deDE>Kopfnuss</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack.</enUS>
-    <frFR>+2 ATQ.</frFR>
-    <zhTW>+2攻擊力。</zhTW>
-    <zhCN>+2攻击力。</zhCN>
-    <ruRU>+2 к атаке.</ruRU>
-    <ptBR>+2 de Ataque</ptBR>
-    <plPL>+2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>+2 Attacco.</itIT>
-    <esMX>+2 de Ataque.</esMX>
-    <esES>+2 p. de ataque.</esES>
-    <enGB>+2 Attack.</enGB>
-    <deDE>+2 Angriff.</deDE>
+    <enUS>Return an enemy minion to its owner's hand.</enUS>
+    <frFR>Renvoie un serviteur adverse dans la main de son propriétaire.</frFR>
+    <zhTW>使一個敵方手下返回其擁有者的手上。</zhTW>
+    <zhCN>将一个敌方随从移回其拥有者的手牌。</zhCN>
+    <ruRU>Возвращает существо противника в руку владельца.</ruRU>
+    <ptBR>Devolva um lacaio inimigo à mão do dono.</ptBR>
+    <plPL>Cofasz wrogiego stronnika na rękę właściciela.</plPL>
+    <koKR>적 하수인을 주인의 손으로 돌려보냅니다.</koKR>
+    <itIT>Fa tornare un servitore nemico nella mano del suo proprietario.</itIT>
+    <esMX>Devuelve un esbirro enemigo a la mano de su propietario.</esMX>
+    <esES>Devuelve a un esbirro enemigo a la mano de su dueño.</esES>
+    <deDE>Lasst einen feindlichen Diener auf die Hand seines Besitzers zurückkehren.</deDE>
   </Tag>
-  <Power definition="e84421dd-405d-45dd-9c62-79448823d642" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Scott Altmann</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 32.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Rogues love sappy movies.</enUS>
+    <zhTW>警衛!有這樣敲了又敲，敲了又敲的嗎?</zhTW>
+    <zhCN>“潜行者”的闷棍技术比“盗贼”好很多，他们不用天赋支持，就可以保证百分之百闷棍命中。</zhCN>
+    <ruRU>Разбойники обожают выглядеть ошеломляюще.</ruRU>
+    <ptBR>Ladinos adoram filmes de suspense.</ptBR>
+    <plPL>Dzięki umiejętności ogłuszania wielu łotrów dorabia na boku jako anestezjolodzy.</plPL>
+    <koKR>도적은 적을 혼절시키는 걸 좋아하지요.</koKR>
+    <itIT>Le Ladre usano sempre Tramortimento sui loro compagni per costringerli a guardare i film romantici.</itIT>
+    <frFR>Les voleurs adorent les films assommants.</frFR>
+    <esMX>Los Pícaros adoran las películas de porristas.</esMX>
+    <esES>No solo de dagas viven los pícaros.</esES>
+    <deDE>Verschafft den Gegnern des Schurken eine Denkpause.</deDE>
+  </Tag>
+  <Power definition="891e592b-29b8-43e7-bb92-a6d72780117c">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="3" param="" />
+  </Power>
 </Entity>

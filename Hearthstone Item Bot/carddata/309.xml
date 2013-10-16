@@ -1,55 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_170">
+<Entity version="2" CardID="EX1_160be">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Emperor Cobra</enUS>
-    <frFR>Cobra empereur</frFR>
-    <zhTW>大王眼鏡蛇</zhTW>
-    <zhCN>帝王眼镜蛇</zhCN>
-    <ruRU>Императорская кобра</ruRU>
-    <ptBR>Naja Imperatriz</ptBR>
-    <plPL>Cesarska kobra</plPL>
-    <koKR>황제 코브라</koKR>
-    <itIT>Cobra Imperatore</itIT>
-    <esMX>Cobra emperador</esMX>
-    <esES>Cobra emperador</esES>
-    <enGB>Emperor Cobra</enGB>
-    <deDE>Kaiserkobra</deDE>
+    <enUS>Leader of the Pack</enUS>
+    <frFR>Chef de la meute</frFR>
+    <zhTW>獸群領袖</zhTW>
+    <zhCN>兽群领袖</zhCN>
+    <ruRU>Вожак стаи</ruRU>
+    <ptBR>Líder do Bando</ptBR>
+    <plPL>Przywódca stada</plPL>
+    <koKR>무리의 우두머리</koKR>
+    <itIT>Capobranco</itIT>
+    <esMX>Líder de la manada</esMX>
+    <esES>Líder de la manada</esES>
+    <deDE>Rudelführer</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy any minion damaged by this minion.</enUS>
-    <frFR>Détruit tout serviteur blessé par ce serviteur.</frFR>
-    <zhTW>摧毀被這個手下傷害到的任何手下。</zhTW>
-    <zhCN>消灭任何受到该随从伤害的随从。</zhCN>
-    <ruRU>Уничтожает любое существо, которому нанесла урон.</ruRU>
-    <ptBR>Destrua qualquer lacaio atingido por este lacaio.</ptBR>
-    <plPL>Zniszcz każdego stronnika zranionego przez tego stronnika.</plPL>
-    <koKR>이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다.</koKR>
-    <itIT>Distrugge qualsiasi servitore danneggiato da questo servitore.</itIT>
-    <esMX>Destruye cualquier esbirro dañado por este esbirro.</esMX>
-    <esES>Destruye a cualquier esbirro dañado por este esbirro.</esES>
-    <enGB>Destroy any minion damaged by this minion.</enGB>
-    <deDE>Vernichtet jeden Diener, der von diesem Diener verletzt wurde.</deDE>
+    <enUS>This minion has +1/+1.</enUS>
+    <frFR>Ce serviteur a +1/+1.</frFR>
+    <zhTW>這個手下獲得+1/+1。</zhTW>
+    <zhCN>该随从获得+1/+1。</zhCN>
+    <ruRU>Это существо получило +1/+1.</ruRU>
+    <ptBR>Este lacaio tem +1/+1.</ptBR>
+    <plPL>Ten stronnik ma +1/+1.</plPL>
+    <koKR>+1/+1</koKR>
+    <itIT>+1/+1.</itIT>
+    <esMX>Este esbirro tiene +1/+1.</esMX>
+    <esES>Este esbirro tiene +1/+1.</esES>
+    <deDE>Dieser Diener hat +1/+1.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Fanged</enUS>
-  </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Lars Grant-West</enUS>
-  </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="a9fd50b6-271d-475b-b02d-066ddd609eed" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="47cb2509-fba4-4c2a-b4cd-37e2450975d5" />
 </Entity>

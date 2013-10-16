@@ -1,49 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_018">
-  <MasterPower>17b5a25a-f518-4948-910b-7d90db5db4da</MasterPower>
+<Entity version="2" CardID="NEW1_004">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bloodsail Raider</enUS>
-    <frFR>Mousse de la Voile sanglante</frFR>
-    <zhTW>血帆劫掠者</zhTW>
-    <zhCN>血帆袭击者</zhCN>
-    <ruRU>Дерзкая налетчица</ruRU>
-    <ptBR>Saqueadora da Vela Sangrenta</ptBR>
-    <plPL>Grabieżca Krwawych Żagli</plPL>
-    <koKR>붉은해적단 약탈자</koKR>
-    <itIT>Incursore dei Velerosse</itIT>
-    <esMX>Asaltante Velasangre</esMX>
-    <esES>Asaltante Velasangre</esES>
-    <enGB>Bloodsail Raider</enGB>
-    <deDE>Blutsegelräuberin</deDE>
+    <enUS>Vanish</enUS>
+    <frFR>Disparition</frFR>
+    <zhTW>消失</zhTW>
+    <zhCN>消失</zhCN>
+    <ruRU>Исчезновение</ruRU>
+    <ptBR>Sumir</ptBR>
+    <plPL>Zniknięcie</plPL>
+    <koKR>소멸</koKR>
+    <itIT>Sparizione</itIT>
+    <esMX>Esfumarse</esMX>
+    <esES>Esfumarse</esES>
+    <deDE>Verschwinden</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain Attack equal to the Attack of your weapon.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; gagne des points d’Attaque d’un montant équivalent à ceux de votre arme.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;獲得與你武器相當的攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;获得等同于你的武器攻击力的攻击力</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; получает бонус к атаке, равный атаке вашего оружия.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Receba Ataque equivalente ao Ataque da sua arma.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymujesz atak równy wartości ataku twojej broni.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 당신의 무기 공격력만큼 공격력을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; ottiene Attacco pari all'Attacco della tua arma.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene Ataque equivalente al Ataque de tu arma.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene una cantidad de puntos de ataque equivalente al ataque de tu arma.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Gain Attack equal to the Attack of your weapon.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält Angriff entsprechend dem Angriff Eurer Waffe.</deDE>
+    <enUS>Return all minions to their owner's hand.</enUS>
+    <frFR>Renvoie tous les serviteurs dans la main de leur propriétaire.</frFR>
+    <zhTW>使全部手下返回擁有者的手上。</zhTW>
+    <zhCN>将所有随从移回其拥有者的手牌。</zhCN>
+    <ruRU>Вы возвращаете всех существ в руки их владельцев.</ruRU>
+    <ptBR>Devolva todos os lacaios à mão do dono.</ptBR>
+    <plPL>Cofasz wszystkich stronników na ręce właścicieli.</plPL>
+    <koKR>모든 하수인을 주인의 손으로 돌려보냅니다.</koKR>
+    <itIT>Fa tornare tutti i servitori nella mano dei loro proprietari.</itIT>
+    <esMX>Devuelve a todos los esbirros a las manos de sus propietarios.</esMX>
+    <esES>Devuelve a todos los esbirros a la mano de su dueño.</esES>
+    <deDE>Lasst alle Diener auf die Hand ihrer Besitzer zurückkehren.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="23" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jim Nelson</enUS>
+    <enUS>Sean O’Daniels</enUS>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="17b5a25a-f518-4948-910b-7d90db5db4da" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 46.</enUS>
+  </Tag>
+  <Power definition="2170ae45-f9d5-4062-b99c-09aaae44de81" />
 </Entity>

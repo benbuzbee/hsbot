@@ -1,85 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_203">
-  <MasterPower>d1ea5142-2cae-4800-a76e-e58a7943021d</MasterPower>
+<Entity version="2" CardID="CS2_169">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ironbeak Owl</enUS>
-    <frFR>Chouette bec-de-fer</frFR>
-    <zhTW>鐵喙貓頭鷹</zhTW>
-    <zhCN>铁喙猫头鹰</zhCN>
-    <ruRU>Железноклюв</ruRU>
-    <ptBR>Coruja Bico-de-ferro</ptBR>
-    <plPL>Sowa żelazodzioba</plPL>
-    <koKR>무쇠부리 올빼미</koKR>
-    <itIT>Gufo Beccoforte</itIT>
-    <esMX>Lechuza cortezaférrea</esMX>
-    <esES>Lechuza Picoférreo</esES>
-    <enGB>Ironbeak Owl</enGB>
-    <deDE>Eisenschnabeleule</deDE>
+    <enUS>Young Dragonhawk</enUS>
+    <frFR>Jeune faucon-dragon</frFR>
+    <zhTW>小龍鷹</zhTW>
+    <zhCN>幼龙鹰</zhCN>
+    <ruRU>Молодой дракондор</ruRU>
+    <ptBR>Falcodrago Jovem</ptBR>
+    <plPL>Smoczy jastrząb</plPL>
+    <koKR>어린 용매</koKR>
+    <itIT>Dragofalco Giovane</itIT>
+    <esMX>Dracohalcón joven</esMX>
+    <esES>Dracohalcón joven</esES>
+    <deDE>Junger Drachenfalke</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="1" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
   <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;&lt;b&gt;沉默&lt;/b&gt;一個手下。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; накладывает эффект &lt;b&gt;«Безмолвие»&lt;/b&gt; на выбранное существо.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; &lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; &lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인을 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; &lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; &lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Silence&lt;/b&gt; a minion.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
-    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
-    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下。</zhTW>
-    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
-    <ruRU>Наложить &lt;b&gt;«Безмолвие»&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
-    <plPL>Wycisz stronnika.</plPL>
-    <koKR>하수인 &lt;b&gt;침묵&lt;/b&gt;시키기</koKR>
-    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
-    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
-    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
-    <enGB>&lt;b&gt;Silence&lt;/b&gt; a minion.</enGB>
-    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trevor Jacobs</enUS>
+    <enUS>Greg Hildebrandt</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Their wings are silent but their screech is... whatever the opposite of silent is.</enUS>
-    <zhTW>牠們拍翅的聲音十分安靜，但是牠們的尖叫聲...反正跟安靜完全相反就對了。</zhTW>
-    <zhCN>它们挥动翅膀的时候悄无声息，但是它们的嘶鸣却是...任何悄无声息的反义词都可以形容。</zhCN>
-    <ruRU>Полет совы безмолвен. И вообще совы – не то, чем они кажутся.</ruRU>
-    <ptBR>Suas asas são silenciosas, mas seu guinchado é... seja lá o que for o oposto de silencioso.</ptBR>
-    <plPL>Ich skrzydła są ciche, lecz ich pisk to... całkowite przeciwieństwo ciszy.</plPL>
-    <koKR>그들의 날갯짓은 조용하지만 울음소리는... 일단 조용함과는 거리가 멉니다.</koKR>
-    <itIT>Le sue ali possono essere silenziose, ma il suo grido è... qualunque cosa sia l'opposto di silenzioso.</itIT>
-    <frFR>Son vol est peut-être discret mais son cri... n’est vraiment pas silencieux, lui.</frFR>
-    <esMX>Sus alas son silenciosas, pero su chirrido es... todo lo opuesto al silencio.</esMX>
-    <esES>¡Está que trina!</esES>
-    <enGB>Their wings are silent but their screech is... whatever the opposite of silent is.</enGB>
-    <deDE>Sie fliegen auf leisen Schwingen, doch bedecket Eure Ohren, so sie singen ... äh, kreischen.</deDE>
+    <enUS>They were the inspiration for the championship Taurenball team: The Dragonhawks.</enUS>
+    <zhTW>冠軍牛頭球隊「龍鷹隊」就是以牠們做為吉祥物的。</zhTW>
+    <zhCN>无论是战士还是诗人，都能从美丽的龙鹰身上获取战斗或是写作的灵感。</zhCN>
+    <ruRU>В их честь таурены назвали свою лучшую команду по тауренболу «Дракондоры».</ruRU>
+    <ptBR>Eles foram a inspiração para o time campeão de Taurenbol: Os Falcodracos.</ptBR>
+    <plPL>Próba nazwania ich „smostrząbami” nie spotkała się z akceptacją.</plPL>
+    <koKR>벌처럼 날아서 나비같이 쏩니다. 그 반대던가요? 어쨌든 위협적이진 않습니다.</koKR>
+    <itIT>Non è drago, non è falco... sa soltanto quello che non è!</itIT>
+    <frFR>L’équipe championne de tournoi de balle au tauren s’en est inspirée pour choisir leur nom : les faucons-dragons.</frFR>
+    <esMX>¿Es un pájaro? ¿Es un avión? ¡No! ¡Es un dracohalcón!</esMX>
+    <esES>Dan nombre a los Dracohalcones, los deportistas de élite de Cima del Trueno.</esES>
+    <deDE>So zäh und stark wie ein Falke und so leicht und agil wie ein Drache ...</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Silence" enumID="339" type="Bool" value="1" />
-  <Power definition="d1ea5142-2cae-4800-a76e-e58a7943021d">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="3d475a80-25de-4b52-8c22-baecfa5bff4f" />
 </Entity>

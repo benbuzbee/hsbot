@@ -1,47 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_052">
+<Entity version="2" CardID="CS2_032">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Wrath of Air Totem</enUS>
-    <frFR>Totem de courroux de l’air</frFR>
-    <zhTW>風懲圖騰</zhTW>
-    <zhCN>空气之怒图腾</zhCN>
-    <ruRU>Тотем гнева воздуха</ruRU>
-    <ptBR>Totem de Cólera dos Ares</ptBR>
-    <plPL>Eteryczny totem</plPL>
-    <koKR>천벌의 토템</koKR>
-    <itIT>Totem: Ira dell'Aria</itIT>
-    <esMX>Tótem cólera de aire</esMX>
-    <esES>Tótem Cólera de aire</esES>
-    <enGB>Wrath of Air Totem</enGB>
-    <deDE>Sturmzorntotem</deDE>
+    <enUS>Flamestrike</enUS>
+    <frFR>Choc de flammes</frFR>
+    <zhTW>烈焰風暴</zhTW>
+    <zhCN>烈焰风暴</zhCN>
+    <ruRU>Волна огня</ruRU>
+    <ptBR>Golpe Flamejante</ptBR>
+    <plPL>Fala płomieni</plPL>
+    <koKR>불기둥</koKR>
+    <itIT>Colonna di Fuoco</itIT>
+    <esMX>Fogonazo</esMX>
+    <esES>Fogonazo</esES>
+    <deDE>Flammenstoß</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Power +1&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;+1 Puissance des sorts&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術能量+1&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术强度+1&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Сила заклинаний +1&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+1 de Poder de Feitiço&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Moc zaklęć +1&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문력 +1&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Poder de hechizo +1&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+1 p. de poder con hechizos.&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Spell Power +1&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Zaubermacht +1&lt;/b&gt;</deDE>
+    <enUS>Deal $4 damage to all enemy minions.</enUS>
+    <frFR>Inflige $4 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
+    <zhTW>對全部敵方手下造成$4點傷害。</zhTW>
+    <zhCN>对所有敌方随从造成$4点伤害。</zhCN>
+    <ruRU>Наносит $4 ед. урона всем существам противника. </ruRU>
+    <ptBR>Cause $4 de dano a todos os lacaios inimigos.</ptBR>
+    <plPL>Zadaj $4 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
+    <koKR>모든 적 하수인에게 피해를 $4 줍니다.</koKR>
+    <itIT>Infligge $4 danni a tutti i servitori nemici.</itIT>
+    <esMX>Inflige $4 de daño a todos los esbirros enemigos.</esMX>
+    <esES>Inflige $4 p. de daño a todos los esbirros enemigos.</esES>
+    <deDE>Fügt allen feindlichen Dienern $4 Schaden zu.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="21" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="c72b990b-eabb-48fe-bac2-8432c75fb99b" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>When the ground is on fire, you should &lt;i&gt;not&lt;/i&gt; stop, drop, and roll.</enUS>
+    <zhTW>當地面著火時，千萬&lt;i&gt;不要&lt;/i&gt;留下來看戲。</zhTW>
+    <zhCN>当地板着火的时候，无论你在地上怎么打滚，都是没用的。</zhCN>
+    <ruRU>Если земля горит под ногами, &lt;i&gt;не нужно&lt;/i&gt; падать на нее и кататься.</ruRU>
+    <ptBR>Se tiver fogo no chão, você &lt;i&gt;não&lt;/i&gt; deve parar, cair e rolar.</ptBR>
+    <plPL>Kiedy wszystko wokół płonie, zacznij klaskać raźno w dłonie!</plPL>
+    <koKR>바닥에 불이 붙었을 땐, 멈춰서서 엎드리고 굴러서는 &lt;i&gt;절대&lt;/i&gt; 안 됩니다.</koKR>
+    <itIT>Quando il terreno è in fiamme, &lt;i&gt;non&lt;/i&gt; dovresti gettarti per terra e rotolare.</itIT>
+    <frFR>Il suffira d’une étincelle, d’un rien, d’un geste pour... allumer le feu !</frFR>
+    <esMX>Eso que dicen de tirarse al suelo y rodar &lt;i&gt;no funciona&lt;/i&gt; cuando el suelo está en llamas.</esMX>
+    <esES>Lo de tirarse al suelo y rodar no es tan buena idea cuando es el suelo lo que está en llamas.</esES>
+    <deDE>Frühe Magier waren verblüfft, als sie herausfanden, dass dieser Zauber auch unter Wasser funktioniert.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Romain De Santi</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 10.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 48.</enUS>
+  </Tag>
+  <Power definition="47f7e316-007e-491f-be88-e61d217d777c" />
 </Entity>

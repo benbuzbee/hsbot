@@ -1,62 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_137">
-  <MasterPower>85cd67bb-f458-4bf6-9173-c16cd61302d0</MasterPower>
+<Entity version="2" CardID="EX1_105">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Headcrack</enUS>
-    <frFR>Casse-tête</frFR>
-    <zhTW>碎頭</zhTW>
-    <zhCN>裂颅之击</zhCN>
-    <ruRU>Черепокол</ruRU>
-    <ptBR>Quebra-crânio</ptBR>
-    <plPL>Czaszkołup</plPL>
-    <koKR>머리 후려치기</koKR>
-    <itIT>Sfondamento del Cranio</itIT>
-    <esMX>Partetesta</esMX>
-    <esES>Rompecabezas</esES>
-    <enGB>Headcrack</enGB>
-    <deDE>Schädelbruch</deDE>
+    <enUS>Mountain Giant</enUS>
+    <frFR>Géant des montagnes</frFR>
+    <zhTW>山嶺巨人</zhTW>
+    <zhCN>山岭巨人</zhCN>
+    <ruRU>Горный великан</ruRU>
+    <ptBR>Gigante da Montanha</ptBR>
+    <plPL>Górski olbrzym</plPL>
+    <koKR>산악거인</koKR>
+    <itIT>Gigante di Montagna</itIT>
+    <esMX>Gigante montés</esMX>
+    <esES>Gigante montés</esES>
+    <deDE>Bergriese</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="12" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage to the enemy hero. &lt;b&gt;Combo:&lt;/b&gt; Return this to your hand next turn.</enUS>
-    <frFR>Inflige $2 point(s) de dégâts au héros adverse. &lt;b&gt;Combo :&lt;/b&gt; renvoie cette carte dans votre main au tour suivant.</frFR>
-    <zhTW>對敵方英雄造成$2點傷害。&lt;b&gt;連擊:&lt;/b&gt;下一個回合這張牌將返回你的手上。</zhTW>
-    <zhCN>对敌方英雄造成$2点伤害。&lt;b&gt;连击：&lt;/b&gt;在下个回合将其移回你的手牌。</zhCN>
-    <ruRU>Наносит $2 ед. урона герою противника. &lt;b&gt;Серия приемов:&lt;/b&gt; карта возвращается в вашу руку в начале вашего следующего хода.</ruRU>
-    <ptBR>Cause $2 de dano ao herói inimigo. &lt;b&gt;Combo:&lt;/b&gt; Devolva este card à sua mão no próximo turno.</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń wrogiemu bohaterowi. &lt;b&gt;Kombinacja:&lt;/b&gt; W następnej turze cofnij tę kartę na rękę.</plPL>
-    <koKR>적 영웅에게 피해를 $2 줍니다. &lt;b&gt;연계:&lt;/b&gt; 다음 턴에 이 카드를 다시 당신의 손으로 가져옵니다.</koKR>
-    <itIT>Infligge $2 danni all'eroe nemico. &lt;b&gt;Combo:&lt;/b&gt; riporta questa carta in mano nel tuo turno successivo.</itIT>
-    <esMX>Inflige $2 de daño al héroe enemigo. &lt;b&gt;Combo:&lt;/b&gt; devuelve esta carta a tu mano en el próximo turno.</esMX>
-    <esES>Inflige $2 p. de daño al héroe enemigo. &lt;b&gt;Combo:&lt;/b&gt; Devuelve esta carta a tu mano el siguiente turno.</esES>
-    <enGB>Deal $2 damage to the enemy hero. &lt;b&gt;Combo:&lt;/b&gt; Return this to your hand next turn.</enGB>
-    <deDE>Fügt dem feindlichen Helden $2 Schaden zu. &lt;b&gt;Combo:&lt;/b&gt; Lasst die Karte in Eurem nächsten Zug wieder auf Eure Hand zurückkehren.</deDE>
+    <enUS>Costs (1) less for each other card in your hand.</enUS>
+    <frFR>Coûte (1) cristal de moins pour chaque autre carte dans votre main.</frFR>
+    <zhTW>你手上的其他每一張牌使消耗減少(1)點。</zhTW>
+    <zhCN>你每有一张其他手牌，该牌的法力值消耗便减少（1）点。</zhCN>
+    <ruRU>Стоит на (1) ману меньше за каждую карту в вашей руке.</ruRU>
+    <ptBR>Custa (1) a menos para cada um dos outros cards na sua mão.</ptBR>
+    <plPL>Kosztuje (1) mniej za każdą pozostałą kartę w twojej ręce.</plPL>
+    <koKR>내 손에 있는 다른 카드 1장당 비용이 (1)씩 감소합니다.</koKR>
+    <itIT>Costa (1) Mana in meno per ogni carta che hai in mano.</itIT>
+    <esMX>Cuesta (1) menos por cada una de las otras cartas que hay en tu mano.</esMX>
+    <esES>Cuesta (1) cristal menos por cada carta adicional que tengas en tu mano.</esES>
+    <deDE>Kostet (1) weniger für jede andere Karte auf Eurer Hand.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Zhang</enUS>
+    <enUS>Samwise Didier</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>When all else fails, nothing beats a swift whack upside the head.</enUS>
-    <zhTW>當其他的方法都不管用，巴一下頭就對了。</zhTW>
-    <zhCN>就算其他方法都不管用，直接往头上狠狠来一下总是会有效的。</zhCN>
-    <ruRU>Даже когда ничего не помогает, старый добрый удар по черепушке действует безотказно.</ruRU>
-    <ptBR>Quando tudo o mais falha, nada supera uma pancada rápida na cabeça.</ptBR>
-    <plPL>Gdy wszystko inne zawiedzie, pozostaje jedynie szybkie grzmotnięcie w czachę.</plPL>
-    <koKR>모든 공격이 실패해도, 머리 후려치기만큼은 당신을 배신하지 않을 겁니다.</koKR>
-    <itIT>Quando gli altri rimedi falliscono, nulla funziona meglio di una sonora mazzata in testa.</itIT>
-    <frFR>Quand tout le reste a échoué, rien ne vaut un bon coup sur la tête.</frFR>
-    <esMX>Cuando todo lo demás falla, nada mejor que un buen golpe en la sien.</esMX>
-    <esES>Cuando todo lo demás falla, no hay nada como un buen mamporro en la cabeza.</esES>
-    <enGB>When all else fails, nothing beats a swift whack upside the head.</enGB>
-    <deDE>Wenn der kleine Schlag auf den Hinterkopf mal nicht hilft.</deDE>
+    <enUS>His mother said that he was just big boned.</enUS>
+    <zhTW>他媽媽跟他說，他只是骨架大而已。</zhTW>
+    <zhCN>他的妈妈说，他只是骨架比较大而已。</zhCN>
+    <ruRU>Его мама считает, что у него просто широкая кость.</ruRU>
+    <ptBR>A mãe dele dizia que ele só tinha ossos grandes.</ptBR>
+    <plPL>Nie jest otyły, ma po prostu grube kości.</plPL>
+    <koKR>이 친구의 어머니 말로는 좀 통뼈라 커보이는 거랍니다.</koKR>
+    <itIT>Sua madre dice che ha solo le ossa grosse.</itIT>
+    <frFR>Il n’est pas gros, il a une ossature lourde !</frFR>
+    <esMX>Su madre siempre decía que no era gordo, sino que tenía huesos grandes.</esMX>
+    <esES>No está gordo, es que es bajo para su peso.</esES>
+    <deDE>Seine Mutter meinte immer nur, dass er schwere Knochen hätte.</deDE>
   </Tag>
-  <Tag name="Combo" enumID="220" type="Bool" value="1" />
-  <Power definition="85cd67bb-f458-4bf6-9173-c16cd61302d0" />
+  <Power definition="1d951bba-8ba1-40c1-8b6d-c8c073e8420b" />
 </Entity>

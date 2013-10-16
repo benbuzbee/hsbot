@@ -1,64 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_236">
-  <MasterPower>80eea4e6-5792-4f2a-9dff-6bf8cb17804f</MasterPower>
+<Entity version="2" CardID="CS2_197">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Divine Spirit</enUS>
-    <frFR>Esprit divin</frFR>
-    <zhTW>神聖精神</zhTW>
-    <zhCN>神圣之灵</zhCN>
-    <ruRU>Божественный дух</ruRU>
-    <ptBR>Espírito Divino</ptBR>
-    <plPL>Boski duch</plPL>
-    <koKR>천상의 정신</koKR>
-    <itIT>Spirito Divino</itIT>
-    <esMX>Espíritu divino</esMX>
-    <esES>Espíritu divino</esES>
-    <enGB>Divine Spirit</enGB>
-    <deDE>Göttlicher Wille</deDE>
+    <enUS>Ogre Magi</enUS>
+    <frFR>Ogre-magi</frFR>
+    <zhTW>巨魔法師</zhTW>
+    <zhCN>食人魔法师</zhCN>
+    <ruRU>Огр-маг</ruRU>
+    <ptBR>Ogro Mago</ptBR>
+    <plPL>Ogrzy mag</plPL>
+    <koKR>오우거 마법사</koKR>
+    <itIT>Magus Ogre</itIT>
+    <esMX>Magi ogro</esMX>
+    <esES>Mago ogro</esES>
+    <deDE>Ogermagier</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Double a minion's Health.</enUS>
-    <frFR>Double les points de vie d’un serviteur.</frFR>
-    <zhTW>使一個手下的生命值加倍。</zhTW>
-    <zhCN>使一个随从的生命值翻倍。</zhCN>
-    <ruRU>Удваивает здоровье выбранного существа.</ruRU>
-    <ptBR>Dobre a Vida de um lacaio.</ptBR>
-    <plPL>Podwajasz zdrowie stronnika.</plPL>
-    <koKR>하수인의 생명력을 두 배 증가시킵니다.</koKR>
-    <itIT>Raddoppia la Salute di un servitore.</itIT>
-    <esMX>Duplica la Salud de un esbirro.</esMX>
-    <esES>Duplica la salud de un esbirro.</esES>
-    <enGB>Double a minion's Health.</enGB>
-    <deDE>Verdoppelt das Leben eines Dieners.</deDE>
+    <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Siła zaklęć +1&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Zauberschaden +1&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jim Pavelec</enUS>
+    <enUS>James Ryman</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Warlock Level 54.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Double the trouble. Double the fun!</enUS>
-    <enGB>Double the trouble. Double the fun!</enGB>
-    <zhTW>麻煩加倍，樂趣也加倍!</zhTW>
-    <zhCN>加倍的付出会得到加倍的收获！</zhCN>
-    <ruRU>Вдвое больше веселья, вдвое больше головной боли!</ruRU>
-    <ptBR>Dobro de confusão. Dobro de diversão!</ptBR>
-    <plPL>Takiego potrojenia jak to podwojenie, to nie ma ani jednego.</plPL>
-    <koKR>골칫거리 두 배, 재미도 두 배!</koKR>
-    <itIT>Doppia sfida, doppio divertimento!</itIT>
-    <frFR>Règle deux : la double dose !</frFR>
-    <esMX>El doble de problemas. ¡El doble de diversión!</esMX>
-    <esES>El doble de salud, ¡el doble de diversión!</esES>
-    <deDE>Der Beweis für das Sprichwort: Doppelt hält besser!</deDE>
+    <enUS>Training Ogres in the art of spellcasting is a questionable decision.</enUS>
+    <zhTW>去訓練巨魔施法的藝術是一個令人質疑的決定。</zhTW>
+    <zhCN>教授食人魔如何施法是个值得商榷的决定。</zhCN>
+    <ruRU>Непонятно, кому пришла в голову идея учить огров волшебству.</ruRU>
+    <ptBR>Treinar ogros na arte de lançar feitiços é uma decisão condenável.</ptBR>
+    <plPL>Nauczanie ogrów magii to dość kontrowersyjny pomysł.</plPL>
+    <koKR>오우거에게 마법을 가르치다니, 차라리 드워프에게 금주를 권하겠어요! 어우, 끔찍해라.</koKR>
+    <itIT>Insegnare agli Ogre la nobile arte della magia è una decisione molto discutibile...</itIT>
+    <frFR>Apprendre aux ogres à lancer des sorts est une décision des plus douteuses.</frFR>
+    <esMX>Iniciar a un ogro en las artes mágicas no es una decisión demasiado sabia.</esMX>
+    <esES>¿A quién se le ocurre enseñar magia a los ogros?</esES>
+    <deDE>Es war eine äußerst fragwürdige Entscheidung, Ogern das Zaubern beizubringen.</deDE>
   </Tag>
-  <Power definition="80eea4e6-5792-4f2a-9dff-6bf8cb17804f">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
+  <Power definition="5d486b7b-1622-4ab7-adec-7919eaa1c563" />
 </Entity>

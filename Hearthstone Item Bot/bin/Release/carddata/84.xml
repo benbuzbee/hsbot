@@ -1,47 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_091">
+<Entity version="2" CardID="CS2_073e2">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Light's Justice</enUS>
-    <frFR>Justice de la Lumière</frFR>
-    <zhTW>聖光正義之錘</zhTW>
-    <zhCN>圣光的正义</zhCN>
-    <ruRU>Правосудие Света</ruRU>
-    <ptBR>Justiça da Luz</ptBR>
-    <plPL>Prawo światłości</plPL>
-    <koKR>빛의 정의</koKR>
-    <itIT>Giustizia della Luce</itIT>
-    <esMX>Justicia de la luz</esMX>
-    <esES>Justicia de la Luz</esES>
-    <enGB>Light's Justice</enGB>
-    <deDE>Gerechtigkeit des Lichts</deDE>
+    <enUS>Cold Blood</enUS>
+    <frFR>Sang froid</frFR>
+    <zhTW>冷血</zhTW>
+    <zhCN>冷血</zhCN>
+    <ruRU>Хладнокровие</ruRU>
+    <ptBR>Sangue Frio</ptBR>
+    <plPL>Zimna krew</plPL>
+    <koKR>냉혈</koKR>
+    <itIT>Sangue Freddo</itIT>
+    <esMX>Sangre fría</esMX>
+    <esES>Sangre fría</esES>
+    <deDE>Kaltblütigkeit</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="7" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Durability" enumID="187" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>+4 Attack.</enUS>
+    <frFR>+4 ATQ.</frFR>
+    <zhTW>+4攻擊力。</zhTW>
+    <zhCN>+4攻击力。</zhCN>
+    <ruRU>+4 к атаке.</ruRU>
+    <ptBR>+4 de Ataque.</ptBR>
+    <plPL>+4 do ataku.</plPL>
+    <koKR>공격력 +4</koKR>
+    <itIT>+4 Attacco.</itIT>
+    <esMX>+4 de Ataque.</esMX>
+    <esES>+4 p. de ataque.</esES>
+    <deDE>+4 Angriff.</deDE>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</enUS>
-    <zhTW>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</zhTW>
-    <zhCN>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</zhCN>
-    <ruRU>Принц Малчезар был собирателем редкого оружия, которое он затем оживлял и заставлял плясать себе на потеху. </ruRU>
-    <ptBR>O Príncipe Malquezaar foi um colecionador de armas raras. Ele as animava para que dançassem para ele.</ptBR>
-    <plPL>W wersji dla mańkutów oręż ten nosi nazwę „Lewo światłości”.</plPL>
-    <koKR>공작 말체자르는 희귀한 무기의 수집가였습니다. 무기를 살아 움직이게 하고는 자신 앞에서 춤추게하곤 했죠.</koKR>
-    <itIT>Il Principe Malchezaar era un grande collezionista di armi rare. Si divertiva ad animarle e a farle ballare per lui.</itIT>
-    <frFR>Le prince Malchezaar était un grand collectionneur d’armes rares. Il les animait et les faisait danser pour son plaisir.</frFR>
-    <esMX>El Príncipe Malchezaar era un coleccionista de armas exóticas. Solía darles vida y hacer que dancen para él.</esMX>
-    <esES>El príncipe Malchezaar coleccionaba armas poco comunes. Las animaba y hacía que bailasen para él.</esES>
-    <deDE>Prinz Malchezaar war ein Sammler seltener Waffen. Er hauchte ihnen Leben ein und ließ sie für sich tanzen.</deDE>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="2c24bd8a-cc90-43c9-aa85-5d380a00d37a" />
 </Entity>

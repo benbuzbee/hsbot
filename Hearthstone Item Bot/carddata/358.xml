@@ -1,66 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_316">
-  <MasterPower>74f19b0e-2f0f-40ea-bf8c-3db37a308ddd</MasterPower>
+<Entity version="2" CardID="EX1_287">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Power Overwhelming</enUS>
-    <frFR>Puissance accablante</frFR>
-    <zhTW>壓倒性的力量</zhTW>
-    <zhCN>力量的代价</zhCN>
-    <ruRU>Переполняющая мощь</ruRU>
-    <ptBR>Poder Esmagador</ptBR>
-    <plPL>Nadmiar mocy</plPL>
-    <koKR>압도적인 힘</koKR>
-    <itIT>Potere Travolgente</itIT>
-    <esMX>Poder sobrecogedor</esMX>
-    <esES>Poder sobrecogedor</esES>
-    <enGB>Power Overwhelming</enGB>
-    <deDE>Überwältigende Macht</deDE>
+    <enUS>Counterspell</enUS>
+    <frFR>Contresort</frFR>
+    <zhTW>法術反制</zhTW>
+    <zhCN>法术反制</zhCN>
+    <ruRU>Антимагия</ruRU>
+    <ptBR>Contrafeitiço</ptBR>
+    <plPL>Kontr-zaklęcie</plPL>
+    <koKR>마법 차단</koKR>
+    <itIT>Controincantesimo</itIT>
+    <esMX>Contrahechizo</esMX>
+    <esES>Contrahechizo</esES>
+    <deDE>Gegenzauber</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.</enUS>
-    <frFR>Confère +4/+4 à un serviteur allié jusqu’à la fin du tour. Puis il meurt. De façon horrible.</frFR>
-    <zhTW>賦予一個友方手下+4/+4直到回合結束。然後，它便會死去。悲慘地死去。</zhTW>
-    <zhCN>直到回合结束，使一个友方随从获得+4/+4。然后将其消灭。真可怕。</zhCN>
-    <ruRU>Ваше существо получает +4/+4 до конца хода. Потом оно умирает. Ужасной смертью.</ruRU>
-    <ptBR>Conceda +4/+4 a um lacaio aliado até o fim do turno. Depois, ele morre. Uma morte horrível.</ptBR>
-    <plPL>Daj przyjaznemu stronnikowi +4/+4 do końca tury. Następnie stronnik umrze. W męczarniach.</plPL>
-    <koKR>턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게.</koKR>
-    <itIT>Fornisce +4/+4 a un tuo servitore fino alla fine del turno. Poi muore in modo orribile.</itIT>
-    <esMX>Otorga +4/+4 a un esbirro aliado hasta el final del turno. Luego muere. De una forma horrible.</esMX>
-    <esES>Otorga +4/+4 a un esbirro amistoso hasta el final del turno. Luego, el esbirro muere. De forma horrible.</esES>
-    <enGB>Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.</enGB>
-    <deDE>Verleiht einem befreundeten Diener bis zum Ende des Zuges +4/+4. Dann stirbt er. Auf schreckliche Art und Weise.</deDE>
+    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent casts a spell, &lt;b&gt;Counter&lt;/b&gt; it.</enUS>
+    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre adversaire lance un sort, le &lt;b&gt;contre&lt;/b&gt;.</frFR>
+    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的對手施展法術時，&lt;b&gt;反制&lt;/b&gt;它。</zhTW>
+    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的对手施放法术时，&lt;b&gt;反制&lt;/b&gt;该法术。</zhCN>
+    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда противник разыгрывает заклинание, вы &lt;b&gt;отменяете&lt;/b&gt; его.</ruRU>
+    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu oponente lançar um feitiço, &lt;b&gt;Anule&lt;/b&gt;-o.</ptBR>
+    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy przeciwnik rzuci zaklęcie, &lt;b&gt;Kontrujesz&lt;/b&gt; je.</plPL>
+    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 상대편이 주문을 시전하면 &lt;b&gt;차단&lt;/b&gt;합니다.</koKR>
+    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando l'avversario usa una Magia, questa subisce &lt;b&gt;Contrasto&lt;/b&gt;.</itIT>
+    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu adversario juegue un hechizo, &lt;b&gt;contrarréstalo&lt;/b&gt;.</esMX>
+    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu oponente lanza un hechizo, lo &lt;b&gt;contrarrestas&lt;/b&gt;.</esES>
+    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Gegner einen Zauber wirkt, &lt;b&gt;kontert&lt;/b&gt; Ihr ihn.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tom Baxa</enUS>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>We cannot even describe how horrible the death is.   Its CRAZY bad!   Maybe worse than that.   Just don't do it.</enUS>
-    <zhTW>我們根本無法描述這種死亡有多悲慘。像瘋狂一般的慘啊!也許比那樣還糟。反正別這麼做就對了。</zhTW>
-    <zhCN>别让那个随从知道他死后的样子。那惨象无可言状。</zhCN>
-    <ruRU>У нас не хватит слов, чтобы описать, насколько ужасна будет его смерть. Чудовищно ужасна! Или даже хуже... В общем, пожалейте бедное существо.</ruRU>
-    <ptBR>Não conseguimos nem descrever a morte dele, de tão horrível. É BIZARRO de ruim! Talvez ainda pior. É melhor não fazer isso.</ptBR>
-    <plPL>Nie jesteśmy w stanie opisać, jak ogromne są to męczarnie. Są PRZERAŻAJĄCE! Albo jeszcze gorzej. Po prostu tego nie rób.</plPL>
-    <koKR>얼마나 처참하게 파괴되는지 차마 말로 표현할 수 없을 정도입니다. 너무 끔찍합니다! 아니, 끔찍 그 이상입니다. 그냥 상상하지 마십시오.</koKR>
-    <itIT>Non è possibile descrivere quanto sia atroce questa morte. È terribilmente crudele! Forse anche peggio. Non dovresti farlo.</itIT>
-    <frFR>Impossible de décrire l’horreur de cette mort. Ce n’est VRAIMENT pas beau à voir. Pire encore. Ne le faites pas.</frFR>
-    <esMX>No hay palabras para describir lo horrible que es esa muerte. ¡Es TREMENDAMENTE fea! Horripilante. No lo hagas, por favor.</esMX>
-    <esES>Ni siquiera podríamos describir lo horrible que es esa muerte. ¡Es increíblemente horrorosa! Puede que incluso peor. No lo hagas.</esES>
-    <enGB>We cannot even describe how horrible the death is.   Its CRAZY bad!   Maybe worse than that.   Just don't do it.</enGB>
-    <deDE>Aus überwältigender Macht folgt überwältigende Verantwortung.</deDE>
+    <enUS>What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.</enUS>
+    <zhTW>使用法術反制和沒使用反制法術的法師之間有什麼不同?沒使用反制法術的法師會被炎爆術直接打在臉上。</zhTW>
+    <zhCN>一个会法术反制的法师和一个不会法术反制的法师之间有什么区别？那个不会的法师被炎爆术炸了一脸。</zhCN>
+    <ruRU>Чем отличается маг, пользующийся Антимагией, от мага, пренебрегающего этим заклинанием? Первый никогда не получит Огненной глыбой по физиономии.</ruRU>
+    <ptBR>Qual a diferença entre um mago que está usando Contrafeitiço e um mago que não está? O que não está vai levar um Ignimpacto na cara.</ptBR>
+    <plPL>Jaka jest różnica pomiędzy magiem stosującym kontr-zaklęcie, a takim, który tego nie robi? Ten drugi obrywa pirowybuchem po buzi.</plPL>
+    <koKR>마법 차단을 쓰는 마법사와 안 쓰는 마법사의 차이요? 안 쓰는 마법사는 얼굴에 불덩이 작렬을 맞는다는 거?</koKR>
+    <itIT>Qual è la differenza tra un Mago con Controincantesimo e un Mago senza? Il Mago senza si becca una Pirosfera sui denti.</itIT>
+    <frFR>Quelle est la différence entre un mage jouant avec Contresort et un autre ? Le second se prend une explosion pyrotechnique dans la figure !</frFR>
+    <esMX>¿Cuál es la diferencia entre un mago que juega con contrahechizo y uno que no? Que el mago que no lo usa queda con la cara piroexplotada.</esMX>
+    <esES>¿En qué se diferencian un mago que tiene Contrahechizo y otro que no? El que no lo tiene está a punto de recibir una Piroexplosión en toda la cara.</esES>
+    <deDE>Was ist der Unterschied zwischen einem Magier, der Gegenzauber verwendet, und einem, der dies nicht tut? Letzterer bekommt öfters Pyroschläge ins Gesicht.</deDE>
   </Tag>
-  <Power definition="74f19b0e-2f0f-40ea-bf8c-3db37a308ddd">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Jason Chan</enUS>
+  </Tag>
+  <Tag name="Secret" enumID="219" type="Bool" value="1" />
+  <ReferencedTag name="Counter" enumID="340" type="Bool" value="1" />
+  <Power definition="e540db1c-8a78-452e-bb85-4ef0798f6e94" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

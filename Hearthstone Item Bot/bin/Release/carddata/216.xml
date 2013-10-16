@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_043e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_014t">
+  <MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hour of Twilight</enUS>
-    <frFR>Heure du Crépuscule</frFR>
-    <zhTW>暮光之時</zhTW>
-    <zhCN>暮光审判</zhCN>
-    <ruRU>Время Сумерек</ruRU>
-    <ptBR>Hora do Crepúsculo</ptBR>
-    <plPL>Godzina zmierzchu</plPL>
-    <koKR>황혼의 시간</koKR>
-    <itIT>Ora del Crepuscolo</itIT>
-    <esMX>Hora del crepúsculo</esMX>
-    <esES>Hora del Crepúsculo</esES>
-    <enGB>Hour of Twilight</enGB>
-    <deDE>Stunde des Zwielichts</deDE>
+    <enUS>Bananas</enUS>
+    <frFR>Banane</frFR>
+    <zhTW>香蕉</zhTW>
+    <zhCN>香蕉</zhCN>
+    <ruRU>Бананы</ruRU>
+    <ptBR>Bananas</ptBR>
+    <plPL>Banany</plPL>
+    <koKR>바나나</koKR>
+    <itIT>Banana</itIT>
+    <esMX>Bananas</esMX>
+    <esES>Plátanos</esES>
+    <deDE>Bananen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has increased Attack and Health.</enUS>
-    <frFR>L'Attaque et les points de vie de ce serviteur sont augmentés.</frFR>
-    <zhTW>這個手下的攻擊力及生命值提高。</zhTW>
-    <zhCN>该随从的攻击力和生命值增加。</zhCN>
-    <ruRU>Атака и здоровье этого существа увеличены.</ruRU>
-    <ptBR>Este lacaio tem a Vida e o Ataque aumentados.</ptBR>
-    <plPL>Ten stronnik ma zwiększony atak i zdrowie.</plPL>
-    <koKR>공격력과 생명력 증가</koKR>
-    <itIT>Attacco e Salute aumentati.</itIT>
-    <esMX>Este esbirro tiene Ataque y Salud aumentados.</esMX>
-    <esES>Este esbirro tiene ataque y salud aumentados.</esES>
-    <enGB>This minion has increased Attack and Health.</enGB>
-    <deDE>Dieser Diener hat erhöhten Angriff und erhöhtes Leben.</deDE>
+    <enUS>Give a minion +1/+1.</enUS>
+    <frFR>Confère +1/+1 à un serviteur.</frFR>
+    <zhTW>賦予一個手下+1/+1。</zhTW>
+    <zhCN>使一个随从获得+1/+1。</zhCN>
+    <ruRU>Выбранное существо получает +1/+1.</ruRU>
+    <ptBR>Conceda +1/+1 a um lacaio.</ptBR>
+    <plPL>Daj stronnikowi +1/+1.</plPL>
+    <koKR>하수인에게 +1/+1을 부여합니다.</koKR>
+    <itIT>Fornisce +1/+1 a un servitore.</itIT>
+    <esMX>Otorga +1/+1 a un esbirro.</esMX>
+    <esES>Otorga +1/+1 a un esbirro.</esES>
+    <deDE>Verleiht einem Diener +1/+1.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="e57aac9a-3726-44fc-be50-56799f831856" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="3f3ed805-a9b8-4b68-b438-a11cf3628033">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

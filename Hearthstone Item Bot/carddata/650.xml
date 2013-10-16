@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4f_006o">
+<Entity version="2" CardID="TU4d_001">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Transcendence</enUS>
-    <frFR>Transcendance</frFR>
-    <zhTW>超凡入聖</zhTW>
-    <zhCN>魂体双分</zhCN>
-    <ruRU>Трансцендентность</ruRU>
-    <ptBR>Transcendência</ptBR>
-    <plPL>Transcendencja</plPL>
-    <koKR>초월</koKR>
-    <itIT>Trascendenza</itIT>
-    <esMX>Trascendencia</esMX>
-    <esES>Transcendencia</esES>
-    <enGB>Transcendence</enGB>
-    <deDE>Transzendenz</deDE>
+    <enUS>Hemet Nesingwary</enUS>
+    <frFR>Hemet Nesingwary</frFR>
+    <zhTW>赫米特·奈辛瓦里</zhTW>
+    <zhCN>赫米特·奈辛瓦里</zhCN>
+    <ruRU>Хеминг Эрнестуэй</ruRU>
+    <ptBR>Rosarães Guima</ptBR>
+    <plPL>Hemet Nesingwary</plPL>
+    <koKR>헤멧 네싱워리</koKR>
+    <itIT>Hemet Nesingwary</itIT>
+    <esMX>Hemet Nesingwary</esMX>
+    <esES>Hemet Nesingwary</esES>
+    <deDE>Hemet Nesingwary</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Until you kill Cho's minions, he can't be attacked.</enUS>
-    <frFR>Cho ne peut pas être attaqué tant qu’il a des serviteurs.</frFR>
-    <zhTW>除非你先殺死阿洲的手下，你無法攻擊他。</zhTW>
-    <zhCN>除非你杀死周卓的随从，否则他无法被攻击。</zhCN>
-    <ruRU>Вы не можете атаковать Чо, пока не убьете его существ.</ruRU>
-    <ptBR>Até você matar os lacaios de Cho, ele não pode ser atacado.</ptBR>
-    <plPL>Nie możesz zaatakować Czo, dopóki nie zabijesz jego stronników.</plPL>
-    <koKR>초의 하수인들 처치 전에는 초 공격 불가</koKR>
-    <itIT>Non puoi attaccare Cho fin quando non uccidi i suoi servitori.</itIT>
-    <esMX>Hasta que no mates a los esbirros de Cho, no podrás atacarlo.</esMX>
-    <esES>No puedes atacar a Cho hasta que hayas matado a todos sus esbirros.</esES>
-    <enGB>Until you kill Cho's minions, he can't be attacked.</enGB>
-    <deDE>Cho kann nicht angegriffen werden, bevor Ihr seine Diener erledigt habt.</deDE>
-  </Tag>
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="20" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="5fd804ad-4f61-402c-b21a-6c3e6d4b07e2" />
-  <Power definition="0e4a5452-9b27-4c3f-91be-140790b3fde6" />
+  <Power definition="cd302b47-53b2-4ee8-8add-d5a85e6a6704" />
+  <Power definition="e0d17923-1143-4688-a85b-ffb152d017c2" />
+  <Power definition="a65cfd5e-72eb-40b8-a720-c1ec84aed903" />
+  <Power definition="1e4ebe04-94d5-460b-ae21-f417f4bc4a1b" />
+  <Power definition="b653b5a7-382c-4976-92e4-e38c771e2fe1" />
+  <Power definition="cbc3fa9d-e4f3-442b-9816-fffc6e933895" />
+  <Power definition="f88d562b-91d2-4e79-a0a2-983a74669f25" />
 </Entity>

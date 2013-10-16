@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4e_001">
+<Entity version="2" CardID="TU4a_003">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Illidan Stormrage</enUS>
-    <frFR>Illidan Hurlorage</frFR>
-    <zhTW>伊利丹·怒風</zhTW>
-    <zhCN>伊利丹·怒风</zhCN>
-    <ruRU>Иллидан Ярость Бури</ruRU>
-    <ptBR>Illidan Tempesfúria</ptBR>
-    <plPL>Illidan Burzogniewny</plPL>
-    <koKR>일리단 스톰레이지</koKR>
-    <itIT>Illidan Grantempesta</itIT>
-    <esMX>Illidan Tempestira</esMX>
-    <esES>Illidan Tempestira</esES>
-    <enGB>Illidan Stormrage</enGB>
-    <deDE>Illidan Sturmgrimm</deDE>
+    <enUS>Gnoll</enUS>
+    <zhTW>豺狼人</zhTW>
+    <zhCN>豺狼人</zhCN>
+    <ruRU>Гнолл</ruRU>
+    <ptBR>Gnoll</ptBR>
+    <plPL>Gnol</plPL>
+    <koKR>놀</koKR>
+    <itIT>Gnoll</itIT>
+    <frFR>Gnoll</frFR>
+    <esMX>Gnoll</esMX>
+    <esES>Gnoll</esES>
+    <deDE>Gnoll</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="30" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="867aafb7-a471-4fb8-909a-02e2a8f8bb2b" />
-  <Power definition="c538aa7e-c281-4526-9557-d7c28f671258" />
-  <Power definition="9a4aa88e-d14f-4c80-bd51-5a139f1d64b4" />
-  <Power definition="9d2c394a-87a9-4dc5-8893-f7d92c9eae5a" />
-  <Power definition="48f46f94-6113-43ac-866a-fb43f2cc4814" />
-  <Power definition="3ff9f237-d993-422c-af30-911f5cabc322" />
-  <Power definition="b59b5e0d-9062-447a-b643-f99b3de1f039" />
-  <Power definition="a7ef0239-6ba3-4b8d-a61e-1e8f965e15f5" />
-  <Power definition="f1ba3e5b-5dee-4095-ae05-f88ac523880e" />
-  <Power definition="0042b5e5-a890-4158-8f4a-8863cc7a83b4" />
+  <Power definition="0d5fa44a-f083-41a5-9310-bd4ef76a9243" />
+  <Power definition="1d61ebcf-b6d1-4c96-a824-d0c4831e7c7b" />
+  <Power definition="469a5acf-6c18-49d7-b9db-585694b24e10" />
 </Entity>

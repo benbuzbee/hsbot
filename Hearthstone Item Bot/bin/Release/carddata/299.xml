@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_164b">
-  <MasterPower>b4e2d9f2-624b-4be3-a4a3-2f71ba3f2614</MasterPower>
+<Entity version="2" CardID="EX1_155a">
+  <MasterPower>0671c592-ad07-41e3-a91b-484778498e07</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Nourish</enUS>
-    <frFR>Nourrir</frFR>
-    <zhTW>滋補術</zhTW>
-    <zhCN>滋养</zhCN>
-    <ruRU>Дар природы</ruRU>
-    <ptBR>Nutrir</ptBR>
-    <plPL>Nasycenie</plPL>
-    <koKR>육성</koKR>
-    <itIT>Nutrizione</itIT>
-    <esMX>Nutrir</esMX>
-    <esES>Nutrir</esES>
-    <enGB>Nourish</enGB>
-    <deDE>Pflege</deDE>
+    <enUS>Mark of Nature</enUS>
+    <frFR>Marque de la nature</frFR>
+    <zhTW>自然印記</zhTW>
+    <zhCN>自然印记</zhCN>
+    <ruRU>Знак Природы</ruRU>
+    <ptBR>Marca da Natureza</ptBR>
+    <plPL>Znak natury</plPL>
+    <koKR>자연의 징표</koKR>
+    <itIT>Marchio della Natura</itIT>
+    <esMX>Marca de la naturaleza</esMX>
+    <esES>Marca de la Naturaleza</esES>
+    <deDE>Mal der Natur</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
@@ -22,19 +21,23 @@
   <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw 3 cards.</enUS>
-    <frFR>Vous piochez 3 cartes.</frFR>
-    <zhTW>抽3張牌。</zhTW>
-    <zhCN>抽3张牌。</zhCN>
-    <ruRU>Вы берете 3 карты.</ruRU>
-    <ptBR>Compre 3 cards.</ptBR>
-    <plPL>Dobierz 3 karty.</plPL>
-    <koKR>카드를 세 장 뽑습니다.</koKR>
-    <itIT>Pesca 3 carte.</itIT>
-    <esMX>Roba 3 cartas.</esMX>
-    <esES>Roba 3 cartas.</esES>
-    <enGB>Draw 3 cards.</enGB>
-    <deDE>Zieht 3 Karten.</deDE>
+    <enUS>+4 Attack.</enUS>
+    <frFR>+4 ATQ.</frFR>
+    <zhTW>+4攻擊力。</zhTW>
+    <zhCN>+4攻击力。</zhCN>
+    <ruRU>+4 к атаке.</ruRU>
+    <ptBR>+4 de Ataque</ptBR>
+    <plPL>+4 do ataku.</plPL>
+    <koKR>공격력을 +4 부여합니다.</koKR>
+    <itIT>+4 Attacco.</itIT>
+    <esMX>+4 de Ataque.</esMX>
+    <esES>+4 p. de ataque.</esES>
+    <deDE>+4 Angriff.</deDE>
   </Tag>
-  <Power definition="b4e2d9f2-624b-4be3-a4a3-2f71ba3f2614" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="0671c592-ad07-41e3-a91b-484778498e07">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

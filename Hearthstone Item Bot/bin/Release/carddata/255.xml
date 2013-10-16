@@ -1,62 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_105">
+<Entity version="2" CardID="EX1_080o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mountain Giant</enUS>
-    <frFR>Géant des montagnes</frFR>
-    <zhTW>山嶺巨人</zhTW>
-    <zhCN>山岭巨人</zhCN>
-    <ruRU>Горный великан</ruRU>
-    <ptBR>Gigante da Montanha</ptBR>
-    <plPL>Górski olbrzym</plPL>
-    <koKR>산악거인</koKR>
-    <itIT>Gigante di Montagna</itIT>
-    <esMX>Gigante montés</esMX>
-    <esES>Gigante montés</esES>
-    <enGB>Mountain Giant</enGB>
-    <deDE>Bergriese</deDE>
+    <enUS>Keeping Secrets</enUS>
+    <zhTW>保密</zhTW>
+    <zhCN>守护奥秘</zhCN>
+    <ruRU>Хранит секреты</ruRU>
+    <ptBR>Guardando Segredos</ptBR>
+    <plPL>Utrzymanie tajemnicy</plPL>
+    <koKR>비밀 간직</koKR>
+    <itIT>Segreti Ben Custoditi</itIT>
+    <frFR>Garde des secrets</frFR>
+    <esMX>Guardar secretos</esMX>
+    <esES>Secretismo</esES>
+    <deDE>Geheimnisse bewahren</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="12" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Costs (1) less for each other card in your hand.</enUS>
-    <frFR>Coûte (1) cristal de moins pour chaque autre carte dans votre main.</frFR>
-    <zhTW>你手上的其他每一張牌使消耗減少(1)點。</zhTW>
-    <zhCN>你每有一张其他手牌，该牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>Стоит на (1) ману меньше за каждую карту в вашей руке.</ruRU>
-    <ptBR>Custa (1) a menos para cada um dos outros cards na sua mão.</ptBR>
-    <plPL>Kosztuje (1) mniej za każdą inną kartę w twojej ręce.</plPL>
-    <koKR>당신의 손에 있는 다른 카드 한 장당 비용이 (1)씩 감소합니다.</koKR>
-    <itIT>Costa (1) Mana in meno per ogni carta che hai in mano.</itIT>
-    <esMX>Cuesta (1) menos por cada una de las otras cartas que hay en tu mano.</esMX>
-    <esES>Cuesta (1) p. menos por cada carta adicional que tengas en tu mano.</esES>
-    <enGB>Costs (1) less for each other card in your hand.</enGB>
-    <deDE>Kostet (1) weniger für jede andere Karte auf Eurer Hand.</deDE>
+    <enUS>Increased stats.</enUS>
+    <zhTW>屬性提高。</zhTW>
+    <zhCN>属性值提高。</zhCN>
+    <ruRU>Характеристики увеличены.</ruRU>
+    <ptBR>Atributos aumentados.</ptBR>
+    <plPL>Zwiększone statystyki.</plPL>
+    <koKR>능력치 증가</koKR>
+    <itIT>Statistiche aumentate.</itIT>
+    <frFR>Caractéristiques augmentées.</frFR>
+    <esMX>Estadísticas aumentadas.</esMX>
+    <esES>Estadísticas aumentadas.</esES>
+    <deDE>Erhöhte Werte.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Samwise Didier</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Not because he's from the mountains, because he IS a mountain.</enUS>
-    <zhTW>不是因為他來自山脈，而是因為他&lt;i&gt;就是&lt;/i&gt;山脈。</zhTW>
-    <zhCN>不是因为他从山上来，是因为他本身就是座山。</zhCN>
-    <ruRU>Он не спустился с горы - он и есть гора!</ruRU>
-    <ptBR>Não porque ele é da montanha, por que ele É a montanha.</ptBR>
-    <plPL>Nazywa się tak nie dlatego, że pochodzi z gór. Po prostu sam JEST górą.</plPL>
-    <koKR>산에서 와서 산악거인이 아닙니다. 그 자체가 산이기 때문에 산악거인입니다.</koKR>
-    <itIT>Se Thrall non va alla montagna, la montagna va da Thrall.</itIT>
-    <frFR>Il descend de la montagne.</frFR>
-    <esMX>No es porque vive en las montañas, es porque ES una montaña.</esMX>
-    <esES>No solo viene de la montaña: ¡parece una montaña!</esES>
-    <deDE>Er kommt nicht nur aus den Bergen, er IST ein Berg!</deDE>
-  </Tag>
-  <Power definition="1d951bba-8ba1-40c1-8b6d-c8c073e8420b" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="b96fa853-9d6f-4678-a117-a3d0cd286853" />
 </Entity>

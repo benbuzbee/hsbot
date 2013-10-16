@@ -1,72 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_033">
+<Entity version="2" CardID="CS2_011o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Water Elemental</enUS>
-    <frFR>Élémentaire d’eau</frFR>
-    <zhTW>水元素</zhTW>
-    <zhCN>水元素</zhCN>
-    <ruRU>Элементаль воды</ruRU>
-    <ptBR>Elemental da Água</ptBR>
-    <plPL>Żywiołak wody</plPL>
-    <koKR>물의 정령</koKR>
-    <itIT>Elementale dell'Acqua</itIT>
-    <esMX>Elemental de agua</esMX>
-    <esES>Elemental de agua</esES>
-    <enGB>Water Elemental</enGB>
-    <deDE>Wasserelementar</deDE>
+    <enUS>Savage Roar</enUS>
+    <frFR>Rugissement sauvage</frFR>
+    <zhTW>兇蠻咆哮</zhTW>
+    <zhCN>野蛮咆哮</zhCN>
+    <ruRU>Дикий рев</ruRU>
+    <ptBR>Rugido Selvagem</ptBR>
+    <plPL>Dziki ryk</plPL>
+    <koKR>야생의 포효</koKR>
+    <itIT>Ruggito Selvaggio</itIT>
+    <esMX>Rugido salvaje</esMX>
+    <esES>Rugido salvaje</esES>
+    <deDE>Wildes Brüllen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Frostbolt</enUS>
-  </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Freeze&lt;/b&gt; any character that Water Elemental damages.</enUS>
-    <frFR>&lt;b&gt;Gèle&lt;/b&gt; tout personnage blessé par l’élémentaire d’eau.</frFR>
-    <zhTW>&lt;b&gt;凍結&lt;/b&gt;任何水元素造成傷害的角色。</zhTW>
-    <zhCN>&lt;b&gt;冻结&lt;/b&gt;任何受到水元素伤害的角色。</zhCN>
-    <ruRU> &lt;b&gt;Замораживает&lt;/b&gt; любого персонажа, которому наносит урон.</ruRU>
-    <ptBR>&lt;b&gt;Congele&lt;/b&gt; qualquer personagem que receber dano do Elemental da Água.</ptBR>
-    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; każdą postać, która zostanie zraniona przez żywiołaka wody.</plPL>
-    <koKR>물의 정령에게 피해를 입은 캐릭터는 &lt;b&gt;얼어붙음&lt;/b&gt; 상태가 됩니다.</koKR>
-    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; ai personaggi che danneggia.</itIT>
-    <esMX>&lt;b&gt;Congela&lt;/b&gt; a cualquier personaje que reciba daño del Elemental de agua.</esMX>
-    <esES>El elemental de agua &lt;b&gt;congela&lt;/b&gt; a todos los personajes a los que daña.</esES>
-    <enGB>&lt;b&gt;Freeze&lt;/b&gt; any character that Water Elemental damages.</enGB>
-    <deDE>&lt;b&gt;Friert&lt;/b&gt; jeden Charakter ein, dem der Wasserelementar Schaden zufügt.</deDE>
+    <enUS>+2 Attack this turn.</enUS>
+    <frFR>+2 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合+2攻擊力。</zhTW>
+    <zhCN>在本回合中，获得+2攻击力。</zhCN>
+    <ruRU>+2 к атаке до конца хода.</ruRU>
+    <ptBR>+2 de Ataque neste turno.</ptBR>
+    <plPL>+2 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +2</koKR>
+    <itIT>+2 Attacco in questo turno.</itIT>
+    <esMX>+2 de Ataque en este turno.</esMX>
+    <esES>+2 p. de ataque este turno.</esES>
+    <deDE>+2 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Don't summon a water elemental at a party.  It'll dampen the mood.</enUS>
-    <zhTW>不要在派對上召喚水元素。氣氛會降到冰點。</zhTW>
-    <zhCN>千万别在晚会上召唤水元素。它会把一切都搞砸的。</zhCN>
-    <ruRU>Не призывайте водных элементалей на вечеринку - они подмочат вам репутацию.</ruRU>
-    <ptBR>Não evoque um elemental da água em uma festa. Vai ser um balde de água fria no pessoal.</ptBR>
-    <plPL>Nie przywołuj żywiołaka wody do baru. Lubi rozcieńczać piwo.</plPL>
-    <koKR>물의 정령을 파티에 초대하면, 찬물 같은 걸 끼얹나?</koKR>
-    <itIT>Mai evocarlo vicino a un albero di limoni. Un Elementale della Limonata è molto meno efficiente.</itIT>
-    <frFR>Avec l’élémentaire d’eau, tout baigne !</frFR>
-    <esMX>No invites a un elemental de agua a tu cumpleaños. Te aguará la fiesta.</esMX>
-    <esES>Perfecto para aguar fiestas.</esES>
-    <enGB>Don't summon a water elemental at a party.  It'll dampen the mood.</enGB>
-    <deDE>Beschwört niemals ein Elementar dieser Art auf einer Party, sonst fällt sie buchstäblich ins Wasser.</deDE>
-  </Tag>
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>John Avon</enUS>
-  </Tag>
-  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
-  <Power definition="9eba5532-bfc5-4c4f-bf7f-98d33a819e7c" />
-  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="4d5a47f7-8940-4e72-8d3a-db4acb830aca" />
+  <Power definition="fbf66db6-a4dc-4591-aed5-642a127f3127" />
+  <Power definition="9b5e0d2f-6dd1-4e76-9983-de11e6a1d4d3" />
 </Entity>

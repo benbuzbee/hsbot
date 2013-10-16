@@ -1,68 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_046">
-  <MasterPower>1d14b0a8-f2f2-4c33-a181-5b62ccf41f69</MasterPower>
+<Entity version="2" CardID="EX1_016t">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dark Iron Dwarf</enUS>
-    <zhTW>黑鐵矮人</zhTW>
-    <zhCN>黑铁矮人</zhCN>
-    <ruRU>Дворф Черного Железа</ruRU>
-    <ptBR>Anão Ferro Negro</ptBR>
-    <plPL>Krasnolud z Czarnorytu</plPL>
-    <koKR>검은무쇠 드워프</koKR>
-    <itIT>Nano Ferroscuro</itIT>
-    <frFR>Nain sombrefer</frFR>
-    <esMX>Enano Hierro negro</esMX>
-    <esES>Enano Hierro Negro</esES>
-    <enGB>Dark Iron Dwarf</enGB>
-    <deDE>Dunkeleisenzwerg</deDE>
+    <enUS>Skeleton</enUS>
+    <zhTW>Skeleton</zhTW>
+    <zhCN>Skeleton</zhCN>
+    <ruRU>Skeleton</ruRU>
+    <ptBR>Skeleton</ptBR>
+    <plPL>Skeleton</plPL>
+    <koKR>Skeleton</koKR>
+    <itIT>Skeleton</itIT>
+    <frFR>Skeleton</frFR>
+    <esMX>Skeleton</esMX>
+    <esES>Skeleton</esES>
+    <deDE>Skeleton</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+2攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从获得+2攻击力。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; выбранное существо получает +2 к атаке.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj stronnikowi +2 do ataku.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인에게 공격력을 +2 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un servitore.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 ATQ à un serviteur.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem Diener +2 Angriff.</deDE>
-  </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Scott Hampton</enUS>
-  </Tag>
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Give +2 Attack.</enUS>
-    <zhTW>賦予+2攻擊力。</zhTW>
-    <zhCN>使其获得+2攻击力。</zhCN>
-    <ruRU>Добавить +2 к атаке</ruRU>
-    <ptBR>Conceda +2 de Ataque.</ptBR>
-    <plPL>Daj +2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>Fornisce +2 Attacco.</itIT>
-    <frFR>Donne +2 ATQ.</frFR>
-    <esMX>Otorga +2 de Ataque.</esMX>
-    <esES>Otorga +2 p. de ataque.</esES>
-    <enGB>Give +2 Attack.</enGB>
-    <deDE>Verleiht +2 Angriff.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="1d14b0a8-f2f2-4c33-a181-5b62ccf41f69">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
 </Entity>

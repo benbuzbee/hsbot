@@ -1,65 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_045">
+<Entity version="2" CardID="EX1_016">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ancient Watcher</enUS>
-    <zhTW>遠古看守者</zhTW>
-    <zhCN>上古看守者</zhCN>
-    <ruRU>Древний дозорный</ruRU>
-    <ptBR>Vigia Anciente</ptBR>
-    <plPL>Prastary obserwator</plPL>
-    <koKR>고대의 감시자</koKR>
-    <itIT>Guardiano Antico</itIT>
-    <frFR>Guetteur ancien</frFR>
-    <esMX>Vigía anciano</esMX>
-    <esES>Vigía ancestral</esES>
-    <enGB>Ancient Watcher</enGB>
-    <deDE>Uralter Wächter</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Can't Attack.</enUS>
-    <zhTW>無法攻擊。</zhTW>
-    <zhCN>无法攻击。</zhCN>
-    <ruRU>Не может атаковать.</ruRU>
-    <ptBR>Não pode atacar.</ptBR>
-    <plPL>Nie może atakować.</plPL>
-    <koKR>이 하수인은 공격할 수 없습니다.</koKR>
-    <itIT>Non può attaccare.</itIT>
-    <frFR>Ne peut pas attaquer.</frFR>
-    <esMX>No puede atacar.</esMX>
-    <esES>No puede atacar.</esES>
-    <enGB>Can't Attack.</enGB>
-    <deDE>Kann nicht angreifen.</deDE>
+    <enUS>Sylvanas Windrunner</enUS>
+    <zhTW>希瓦娜斯·風行者</zhTW>
+    <zhCN>希尔瓦娜斯·风行者</zhCN>
+    <ruRU>Сильвана Ветрокрылая</ruRU>
+    <ptBR>Sylvana Correventos</ptBR>
+    <plPL>Sylwana Bieżywiatr</plPL>
+    <koKR>실바나스 윈드러너</koKR>
+    <itIT>Sylvanas Ventolesto</itIT>
+    <frFR>Sylvanas Coursevent</frFR>
+    <esMX>Sylvanas Brisaveloz</esMX>
+    <esES>Sylvanas Brisaveloz</esES>
+    <deDE>Sylvanas Windläufer</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Take control of a random enemy minion.</enUS>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;控制一個隨機敵方手下。</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;控制一个随机敌方随从。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы получаете контроль над случайным существом противника.</ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Assuma o controle de um lacaio inimigo aleatório.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przejmij kontrolę nad losowym stronnikiem przeciwnika.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 무작위 적 하수인을 우리편으로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; prendi il controllo di un servitore nemico.</itIT>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; prend le contrôle d’un serviteur adverse.</frFR>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; toma el control de un esbirro enemigo aleatorio.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Toma el control de un esbirro enemigo aleatorio.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Übernehmt die Kontrolle über einen zufälligen feindlichen Diener.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Richard Wright</enUS>
+    <enUS>Glenn Rane</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Why do its eyes seem to follow you as you walk by?</enUS>
-    <zhTW>為什麼在你經過的時候，它的視線好像在跟著你?</zhTW>
-    <zhCN>为什么在你走动的时候，会感觉它的眼珠也在跟着你动？</zhCN>
-    <ruRU>Почему у вас такое ощущение, что его глаза следят за вами, когда вы проходите мимо?</ruRU>
-    <ptBR>Por que parece que os olhos dele te seguem quando você passa?</ptBR>
-    <plPL>Dlaczego masz wrażenie, że jego oczy cały czas za tobą podążają?</plPL>
-    <koKR>왜 지날 때마다 눈이 날 따라 움직이는 것 같을까요?</koKR>
-    <itIT>Perché sembra sempre che i suoi occhi ti seguano quando gli cammini vicino?</itIT>
-    <frFR>Vous avez l’impression que son regard vous suit quand vous passez à côté.</frFR>
-    <esMX>¿Por qué parece que sus ojos te siguen mientras caminas?</esMX>
-    <esES>¿No tienes la sensación de que te sigue con la mirada?</esES>
-    <enGB>Why do its eyes seem to follow you as you walk by?</enGB>
-    <deDE>Warum scheint es so, als würden seine Augen Euch folgen, wenn Ihr vorbeigeht?</deDE>
+    <enUS>Sylvanas was turned into the Banshee Queen by Arthas, but he probably should have just killed her because it just pissed her off.</enUS>
+    <zhTW>希瓦娜斯是被阿薩斯轉化為女妖之王的，但他當初應該殺死她就算了，因為那麼做只是惹毛她而已。</zhTW>
+    <zhCN>阿尔萨斯把希尔瓦娜斯变成了女妖之王，他或许应该索性杀了她的，因为她真的对此很生气。</zhCN>
+    <ruRU>Артас превратил Сильвану в королеву банши. Любая девушка восприняла бы это как оскорбление!</ruRU>
+    <ptBR>Sylvana foi transformada na Rainha Banshee por Arthas. Ele devia tê-la matado, porque isso só deixou ela irritada.</ptBR>
+    <plPL>Sylwana została zamieniona w królową upiorów przez Arthasa. Mocno ją tym wkurzył.</plPL>
+    <koKR>실바나스는 "아서스에 의해" 밴시 여왕으로 되살아났으나, 그냥 놔두는 게 나았을지도 모릅니다. 그 사실이 실바나스를 열 받게 했으니까요.</koKR>
+    <itIT>Arthas ha fatto risorgere Sylvanas come Regina delle Banshee. Una scelta di cui si è amaramente pentito.</itIT>
+    <frFR>Sylvanas a été transformée en reine banshee par Arthas, mais il aurait sans doute dû la tuer parce que ça n’a fait que l’énerver.</frFR>
+    <esMX>Arthas convirtió a Sylvanas en la Reina alma en pena, pero evidentemente tendría que haberla matado porque lo único que consiguió fue enfurecerla.</esMX>
+    <esES>Siendo una forestal no-muerta, Sylvanas es la mayor experta del mundo en Fingir muerte.</esES>
+    <deDE>Sylvanas wurde von Arthas in die Bansheekönigin verwandelt, aber er hätte sie besser gleich getötet, denn so hat er sie einfach nur wütend gemacht.</deDE>
   </Tag>
-  <Power definition="38eceaa5-6392-49a7-92ff-1f6a1c0a2a61" />
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="39d82d66-8d37-436c-80ed-d1fd3741eaa9" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

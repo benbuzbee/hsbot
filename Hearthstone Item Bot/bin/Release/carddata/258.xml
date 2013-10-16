@@ -1,68 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_112">
-  <MasterPower>2203d6c9-3572-49c7-a8c7-f8d2095237db</MasterPower>
+<Entity version="2" CardID="EX1_084">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gelbin Mekkatorque</enUS>
-    <frFR>Gelbin Mekkanivelle</frFR>
-    <zhTW>傑爾賓·梅卡托克</zhTW>
-    <zhCN>格尔宾·梅卡托克</zhCN>
-    <ruRU>Гелбин Меггакрут</ruRU>
-    <ptBR>Gelbin Mekkatorque</ptBR>
-    <plPL>Gelbin Mekanownik</plPL>
-    <koKR>겔빈 멕카토크</koKR>
-    <itIT>Gelbin Meccatork</itIT>
-    <esMX>Gelbin Mekkatorque</esMX>
-    <esES>Gelbin Mekkatorque</esES>
-    <enGB>Gelbin Mekkatorque</enGB>
-    <deDE>Gelbin Mekkadrill</deDE>
+    <enUS>Warsong Commander</enUS>
+    <frFR>Officier chanteguerre</frFR>
+    <zhTW>戰歌指揮官</zhTW>
+    <zhCN>战歌指挥官</zhCN>
+    <ruRU>Командир Песни Войны</ruRU>
+    <ptBR>Comandante do Brado Guerreiro</ptBR>
+    <plPL>Dowódca Wojennej Pieśni</plPL>
+    <koKR>전쟁노래 사령관</koKR>
+    <itIT>Capitano dei Cantaguerra</itIT>
+    <esMX>Comandante Grito de guerra</esMX>
+    <esES>Comandante Grito de Guerra</esES>
+    <deDE>Kriegshymnenanführerin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="6" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon an AWESOME invention.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque une invention GÉNIALE.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一個超讚的發明。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;进行一次惊人的发明。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя удивительное изобретение.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque uma invenção FABULOSA.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij NIESAMOWITY wynalazek.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 끝내주는 발명품을 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca una MERAVIGLIOSA invenzione.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca una invención INCREÍBLE.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca un invento GENIAL.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Summon an AWESOME invention.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Konstruiert eine FANTASTISCHE Erfindung.</deDE>
+    <enUS>Your other minions have &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Vos autres serviteurs ont &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>你的其他手下擁有&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
+    <zhCN>你的其他随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Другие ваши существа получают способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Seus demais lacaios ganham &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>Twoi pozostali stronnicy otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>나의 다른 하수인들이 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
+    <itIT>Gli altri tuoi servitori hanno &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+    <esMX>Tus otros esbirros tienen &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Tus demás esbirros tienen &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Eure anderen Diener haben &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He's the leader of the gnomes, and an incredible inventor.  He's getting better, too: he turns things into chickens WAY less than he used to.</enUS>
-    <zhTW>他是地精的領袖，還是個驚人的發明家。而且他越來越厲害了，他把東西變成雞的次數比以前少&lt;i&gt;非常&lt;/i&gt;多。</zhTW>
-    <zhCN>他是侏儒的领袖，无与伦比的发明家。而且他变得越来越像个领袖了：相比他只是个发明家的时候，他已经不那么经常把人变成小鸡了。</zhCN>
-    <ruRU>Предводитель гномов и выдающийся изобретатель. Надо заметить, теперь он гораздо реже превращает предметы в куриц.</ruRU>
-    <ptBR>Ele é o líder dos gnomos e um inventor incrível. Ele também está melhorando: ele transforma BEM menos coisas em galinhas hoje em dia.</ptBR>
-    <plPL>Jest przywódcą gnomów i niesamowitym wynalazcą. Z każdym dniem coraz mniej rzeczy zamienia w kurczaki.</plPL>
-    <koKR>노움의 지도자이자 엄청난 발명가입니다. 게다가 실력도 조금씩 나아지고 있죠. 뭐든 닭으로 만들어버리는 빈도가 많이 줄었으니까요.</koKR>
-    <itIT>È il capo degli Gnomi e un incredibile inventore, e sta persino migliorando: trasforma le cose in galline MOLTO meno spesso di quanto non facesse in passato.</itIT>
-    <frFR>C’est le chef des gnomes, et un formidable inventeur. Mais il y a mieux : il transforme beaucoup MOINS souvent les choses en poulet.</frFR>
-    <esMX>Es el líder de los gnomos y un inventor increíble. Además, ha mejorado mucho: ahora convierte cosas en pollos MUCHO menos que antes.</esMX>
-    <esES>Abres la guía de mazmorras y sale una planta mustia. ¿Cómo se llama la estancia? ¡Gnomerriegan!</esES>
-    <enGB>He's the leader of the gnomes, and an incredible inventor.  He's getting better, too: he turns things into chickens WAY less than he used to.</enGB>
-    <deDE>Er ist der Anführer der Gnome und ein unglaublicher Erfinder. Außerdem lernt er immer noch dazu: Er verwandelt jetzt viel weniger Dinge in Hühner als früher.</deDE>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ludo Lullabi</enUS>
+    <enUS>Wei Wang</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="2203d6c9-3572-49c7-a8c7-f8d2095237db" />
-  <EntourageCard cardID="Mekka1" />
-  <EntourageCard cardID="Mekka2" />
-  <EntourageCard cardID="Mekka3" />
-  <EntourageCard cardID="Mekka4" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 32.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Warsong clan is &lt;i&gt;such drama&lt;/i&gt;. It's really not worth it to become a commander.</enUS>
+    <zhTW>戰歌這個部族非常&lt;i&gt;戲劇化&lt;/i&gt;。當上他們的指揮官未必是一件好事。</zhTW>
+    <zhCN>战歌氏族中闹剧不断，什么三教九流的人都能当上他们的指挥官。</zhCN>
+    <ruRU>В клане Песни Войны очень любят устраивать драмы. И пост командира себя не окупает...</ruRU>
+    <ptBR>O Clã Brado Guerreiro tem &lt;i&gt;tanto drama&lt;/i&gt;. Nem vale a pena virar comandante.</ptBR>
+    <plPL>Są dumni z nazwy swojego klanu - choć zdaniem elfów bierze tą pieśnią jest „Nic się nie stało, orki, nic się nie stało...”</plPL>
+    <koKR>그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?</koKR>
+    <itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un capitano dei Cantaguerra.</itIT>
+    <frFR>Le clan Chanteguerre se la &lt;i&gt;joue&lt;/i&gt; trop. Ça ne vaut pas vraiment le coup de devenir officier.</frFR>
+    <esMX>El clan Grito de guerra es &lt;i&gt;drama, drama, drama&lt;/i&gt;. La verdad, no vale la pena llegar a comandante.</esMX>
+    <esES>El clan Grito de Guerra es muy estresante. Siempre están corriendo en busca de banderas.</esES>
+    <deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
+  </Tag>
+  <Tag name="GrantCharge" enumID="355" type="Bool" value="1" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="b241283b-6883-4897-b7a3-9a4a33b848f5" />
+  <Power definition="33a1e034-5156-4d78-9a4c-c61f9c70c8fe" />
 </Entity>

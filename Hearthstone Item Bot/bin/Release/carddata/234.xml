@@ -1,51 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_067">
+<Entity version="2" CardID="EX1_043e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Argent Commander</enUS>
-    <frFR>Commandant d’argent</frFR>
-    <zhTW>銀白指揮官</zhTW>
-    <zhCN>银色指挥官</zhCN>
-    <ruRU>Командир Авангарда</ruRU>
-    <ptBR>Comandante Argênteo</ptBR>
-    <plPL>Dowódca Argentu</plPL>
-    <koKR>은빛십자군 부대장</koKR>
-    <itIT>Comandante d'Argento</itIT>
-    <esMX>Comandante argenta</esMX>
-    <esES>Comandante Argenta</esES>
-    <enGB>Argent Commander</enGB>
-    <deDE>Argentumkommandant</deDE>
+    <enUS>Hour of Twilight</enUS>
+    <frFR>Heure du Crépuscule</frFR>
+    <zhTW>暮光之時</zhTW>
+    <zhCN>暮光审判</zhCN>
+    <ruRU>Время Сумерек</ruRU>
+    <ptBR>Hora do Crepúsculo</ptBR>
+    <plPL>Godzina zmierzchu</plPL>
+    <koKR>황혼의 시간</koKR>
+    <itIT>Ora del Crepuscolo</itIT>
+    <esMX>Hora del crepúsculo</esMX>
+    <esES>Hora del Crepúsculo</esES>
+    <deDE>Stunde des Zwielichts</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;。&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Божественный щит&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. &lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. &lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;. &lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Scudo Divino&lt;/b&gt;.</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;. &lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;. &lt;b&gt;Escudo divino&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Divine Shield&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;, &lt;b&gt;Gottesschild&lt;/b&gt; </deDE>
+    <enUS>Increased Health.</enUS>
+    <frFR>Vie augmentée.</frFR>
+    <zhTW>生命值提高。</zhTW>
+    <zhCN>生命值增加。</zhCN>
+    <ruRU>Здоровье увеличено.</ruRU>
+    <ptBR>Vida aumentada.</ptBR>
+    <plPL>Zwiększone zdrowie.</plPL>
+    <koKR>생명력 증가</koKR>
+    <itIT>Salute aumentata.</itIT>
+    <esMX>Salud aumentada.</esMX>
+    <esES>Salud aumentada.</esES>
+    <deDE>Erhöhtes Leben.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
-  </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="16d80976-87fa-43ba-b48c-c43c9e602243" />
-  <Power definition="21943f5e-03f9-4ce4-a08b-ed1e1c146968" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="e57aac9a-3726-44fc-be50-56799f831856" />
 </Entity>

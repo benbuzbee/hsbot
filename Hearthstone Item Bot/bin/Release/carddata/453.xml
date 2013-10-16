@@ -1,68 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_563">
+<Entity version="2" CardID="EX1_536e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Malygos</enUS>
-    <frFR>Malygos</frFR>
-    <zhTW>瑪里苟斯</zhTW>
-    <zhCN>玛里苟斯</zhCN>
-    <ruRU>Малигос</ruRU>
-    <ptBR>Malygos</ptBR>
-    <plPL>Malygos</plPL>
-    <koKR>말리고스</koKR>
-    <itIT>Malygos</itIT>
-    <esMX>Malygos</esMX>
-    <esES>Malygos</esES>
-    <enGB>Malygos</enGB>
-    <deDE>Malygos</deDE>
+    <enUS>Upgraded</enUS>
+    <frFR>Amélioration</frFR>
+    <zhTW>已升級</zhTW>
+    <zhCN>升级</zhCN>
+    <ruRU>Улучшение</ruRU>
+    <ptBR>Aprimorado</ptBR>
+    <plPL>Ulepszono</plPL>
+    <koKR>강화됨</koKR>
+    <itIT>Perfezionato</itIT>
+    <esMX>Mejorada</esMX>
+    <esES>Mejorado</esES>
+    <deDE>Aufgewertet</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="12" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Power +5&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;+5 Puissance des sorts&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術能量+5&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术强度+5&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Сила заклинаний +5&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+5 de Poder de Feitiço&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Moc zaklęć +5&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문력 +5&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+5 Potenza Magica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Poder de hechizo +5&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+5 p. de poder con hechizos&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Spell Power +5&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Zaubermacht +5&lt;/b&gt;</deDE>
+    <enUS>Increased Durability.</enUS>
+    <frFR>Durabilité augmentée.</frFR>
+    <zhTW>耐久度提高。</zhTW>
+    <zhCN>耐久度增加。</zhCN>
+    <ruRU>Прочность увеличена.</ruRU>
+    <ptBR>Durabilidade Aumentada.</ptBR>
+    <plPL>Zwiększona wytrzymałość.</plPL>
+    <koKR>내구도 증가</koKR>
+    <itIT>Integrità aumentata.</itIT>
+    <esMX>Durabilidad aumentada.</esMX>
+    <esES>Durabilidad aumentada.</esES>
+    <deDE>Erhöhte Haltbarkeit.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Michael Komarck</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Malygos hates it when mortals use magic.  He gets so mad!</enUS>
-    <zhTW>瑪里苟斯非常討厭凡人使用魔法。他會瘋狂暴怒!</zhTW>
-    <zhCN>玛里苟斯憎恨凡人使用魔法。那会让他气急败坏！</zhCN>
-    <ruRU>Малигос терпеть не может, когда смертные пользуются магией. Это выводит его из себя!</ruRU>
-    <ptBR>Malygos odeia quando mortais usam magia. Odeia!</ptBR>
-    <plPL>Malygos nie znosi, kiedy ludzie używają magii. Normalnie szaleje z wściekłości!</plPL>
-    <koKR>말리고스는 필멸자들이 마법 쓰는 걸 싫어합니다. 정말 화를 낸다니까요!</koKR>
-    <itIT>Malygos dà fuori di testa quando i mortali usano la magia.</itIT>
-    <frFR>Malygos déteste que les humains utilisent la magie, ça le rend fou !</frFR>
-    <esMX>Malygos odia que los mortales usen magia. Se pone como loco.</esMX>
-    <esES>¡La magia le vuelve loco!</esES>
-    <deDE>Malygos mag es nicht, wenn Sterbliche Magie anwenden, aber andererseits verstärkt er sie. Kein Wunder, dass er da den Verstand verliert.</deDE>
-  </Tag>
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="dbf200dd-ab0a-438a-85a2-c75d9d28d602" />
-  <Power definition="0511a9c3-bb46-40d0-a6cf-a7ee14195731" />
+  <Power definition="7b28edd5-3b7a-4fa2-bb2b-f0661cfd9b95" />
 </Entity>

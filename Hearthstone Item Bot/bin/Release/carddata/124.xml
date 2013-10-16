@@ -1,50 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_161">
+<Entity version="2" CardID="CS2_120">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ravenholdt Assassin</enUS>
-    <frFR>Assassin de Ravenholdt</frFR>
-    <zhTW>拉文霍德刺客</zhTW>
-    <zhCN>拉文霍德刺客</zhCN>
-    <ruRU>Скрытный убийца</ruRU>
-    <ptBR>Assassino do Corvoforte</ptBR>
-    <plPL>Zabójca z Krukowiska</plPL>
-    <koKR>라벤홀트 암살자</koKR>
-    <itIT>Assassino di Corvolesto</itIT>
-    <esMX>Asesino de Ravenholdt</esMX>
-    <esES>Asesino de Ravenholdt</esES>
-    <enGB>Ravenholdt Assassin</enGB>
-    <deDE>Rabenholdtassassine</deDE>
+    <enUS>River Crocolisk</enUS>
+    <frFR>Crocilisque des rivières</frFR>
+    <zhTW>淡水鱷</zhTW>
+    <zhCN>淡水鳄</zhCN>
+    <ruRU>Речной кроколиск</ruRU>
+    <ptBR>Crocolisco do Rio</ptBR>
+    <plPL>Rzeczny krokoliszek</plPL>
+    <koKR>민물악어</koKR>
+    <itIT>Crocolisco di Fiume</itIT>
+    <esMX>Crocolisco fluvial</esMX>
+    <esES>Crocolisco fluvial</esES>
+    <deDE>Flusskrokilisk</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Stealth&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
-  </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ralph Horsley</enUS>
+    <enUS>Daren Bader</enUS>
   </Tag>
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Power definition="fab16c8e-b0c9-45ff-a3cb-6d017b8d070c" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Druid Level 55.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Edward "Lefty" Smith tried to make luggage out of a river crocolisk once.</enUS>
+    <zhTW>『左撇子』愛德華·史密斯有次曾嘗試把淡水鱷做成行李箱。</zhTW>
+    <zhCN>“左撇子”爱德华·史密斯曾经试着从一条淡水鳄的嘴里把行李夺回来。</zhCN>
+    <ruRU>Знаете, почему Эдварда зовут Одноруким? Он как-то пытался сделать чемодан из речного кроколиска.</ruRU>
+    <ptBR>Eduardo Ferreiro, o "Canhoto", tentou fazer uma mala de crocolisco do rio certa vez.</ptBR>
+    <plPL>Edward Nowak próbował kiedyś zrobić buty ze skóry krokoliszka. Ma teraz przydomek „Jednoręki”.</plPL>
+    <koKR>"왼손잡이" 에드워드 스미스는 민물악어로 가방 만들기를 시도한 적 있습니다.</koKR>
+    <itIT>"Cercare di catturare questa creatura per farne una borsa è stata una pessima idea." - Edward "il Monco" Smith</itIT>
+    <frFR>Edward « le Gaucher » Smith a essayé de se tailler des bottes dans un crocilisque des rivières, une fois. C’est depuis ce jour-là qu’il a ce surnom...</frFR>
+    <esMX>En una oportunidad, Edward Smith, el "Zurdito", intentó hacer una valija con la piel de un crocolisco fluvial.</esMX>
+    <esES>Edward Smith, ahora conocido como Edward el Zurdo, una vez intentó cazar un crocolisco fluvial para hacerse una maleta.</esES>
+    <deDE>Edward „Einhand“ Smith versuchte einst, aus einem Flusskrokilisken Handgepäck zu machen.</deDE>
+  </Tag>
 </Entity>

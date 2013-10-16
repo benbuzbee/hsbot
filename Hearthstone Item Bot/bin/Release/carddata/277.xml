@@ -1,61 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_154">
+<Entity version="2" CardID="EX1_116">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Wrath</enUS>
-    <frFR>Colère</frFR>
-    <zhTW>憤怒</zhTW>
-    <zhCN>愤怒</zhCN>
-    <ruRU>Гнев</ruRU>
-    <ptBR>Ira</ptBR>
-    <plPL>Gniew</plPL>
-    <koKR>천벌</koKR>
-    <itIT>Ira Silvana</itIT>
-    <esMX>Cólera</esMX>
-    <esES>Cólera</esES>
-    <enGB>Wrath</enGB>
-    <deDE>Zorn</deDE>
+    <enUS>Leeroy Jenkins</enUS>
+    <frFR>Leeroy Jenkins</frFR>
+    <zhTW>炸雞勇者</zhTW>
+    <zhCN>火车王里诺艾</zhCN>
+    <ruRU>Лирой Дженкинс</ruRU>
+    <ptBR>Leeroy Jenkins</ptBR>
+    <plPL>Leeroy Jenkins</plPL>
+    <koKR>리로이 젠킨스</koKR>
+    <itIT>Leeroy Jenkins</itIT>
+    <esMX>Leeroy Jenkins</esMX>
+    <esES>Leeroy Jenkins</esES>
+    <deDE>Leeroy Jenkins</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Deal $3 damage; or Deal $1 damage and draw a card.</enUS>
-    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 point(s) de dégâts ou inflige $1 point(s) de dégâts et vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;造成$3點傷害，或造成$1點傷害並抽一張牌。</zhTW>
-    <zhCN>&lt;b&gt;抉择&lt;/b&gt; - 造成$3点伤害；或者造成$1点伤害并抽一张牌。</zhCN>
-    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; наносит $3 ед. урона; или наносит $1 ед. урона и вы берете карту.</ruRU>
-    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause $3 de dano; ou cause $1 de dano e compre um card.</ptBR>
-    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj $3 pkt. obrażeń; lub zadaj $1 pkt. obrażeń i dobierz kartę.</plPL>
-    <koKR>&lt;b&gt;선택&lt;/b&gt; - 피해를 $3 줍니다. 또는 피해를 $1 주고 카드를 한 장 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni o infligge $1 danni e pesca una carta.</itIT>
-    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige $3 de daño o inflige $1 de daño y roba una carta.</esMX>
-    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Infligir $3 p. de daño, o bien infligir $1 p. de daño y robar una carta.</esES>
-    <enGB>&lt;b&gt;Choose One&lt;/b&gt; - Deal $3 damage; or Deal $1 damage and draw a card.</enGB>
-    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Verursacht $3 Schaden; oder verursacht $1 Schaden und zieht eine Karte.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Summon two 1/1 Whelps for your opponent.</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Cri de guerre :&lt;/b&gt; invoque deux dragonnets 1/1 pour votre adversaire.</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。&lt;b&gt;戰吼:&lt;/b&gt;替你的對手召喚兩隻1/1幼龍。</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，&lt;b&gt;战吼：&lt;/b&gt;为你的对手召唤2只1/1的雏龙。</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Боевой клич:&lt;/b&gt; призывает на сторону вашего противника двух дракончиков 1/1.</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. &lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque dois Dragonetes 1/1 para o seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. &lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij dwa pisklęta 1/1 twojemu przeciwnikowi.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;. &lt;b&gt;전투의 함성:&lt;/b&gt; 상대편에게 1/1 새끼용 2마리를 소환해 줍니다.</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca due Draghetti 1/1 sotto il controllo dell'avversario.</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; invoca dos Crías 1/1 para tu adversario.</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca dos crías 1/1 para tu oponente.</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;. &lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft zwei Welplinge (1/1) für Euren Gegner herbei.</deDE>
   </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Gabe from Penny Arcade</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Hamuul Runetotem loves this card.</enUS>
-    <zhTW>哈繆爾·符文圖騰超愛這張牌的。</zhTW>
-    <zhCN>棘齿城酒馆里的人们纷纷表示，这张牌太强了，应该是传说级别的。</zhCN>
-    <ruRU>В кабестанской таверне уверены, что этой карте самое место среди легендарных.</ruRU>
-    <ptBR>O boato na Estalagem da Vila Catraca é de que esse card é bom demais e deveria ser lendário.</ptBR>
-    <plPL>Panuje ogólna opinia, że ta karta jest za mocna i powinna być legendarna.</plPL>
-    <koKR>하뮬 룬토템이 이 카드를 좋아합니다.</koKR>
-    <itIT>Nella taverna di Porto Paranco si mormora che questa carta è così buona che dovrebbe essere leggendaria.</itIT>
-    <frFR>Les habitués de l’auberge de Gadgetzan trouvent que cette carte devrait être légendaire parce qu’elle est vraiment trop géniale.</frFR>
-    <esMX>En la Posada de Trinquete se comenta que esta carta es demasiado buena y debería ser Legendaria.</esMX>
-    <esES>En la posada de Trinquete se dice que esta carta es demasiado buena y que debería ser legendaria.</esES>
-    <enGB>Hamuul Runetotem loves this card.</enGB>
-    <deDE>Wenn man den Stammtischgesprächen im Gasthaus von Ratschet Glauben schenken darf, dann ist diese Karte viel zu gut und sollte legendär sein.</deDE>
+    <enUS>At least he has Angry Chicken.</enUS>
+    <zhTW>至少他有憤怒的炸雞可以吃。</zhTW>
+    <zhCN>至少他还有愤怒的小鸡。</zhCN>
+    <ruRU>Зато у него есть злая курица.</ruRU>
+    <ptBR>Pelo menos ele tem um Frango Nervoso.</ptBR>
+    <plPL>Przynajmniej ma wściekłego kurczaka.</plPL>
+    <koKR>닭고기와 맥주는 역시 진리죠.</koKR>
+    <itIT>Almeno ha una Gallina Arrabbiata.</itIT>
+    <frFR>Au moins, il a un poulet furieux.</frFR>
+    <esMX>Por lo menos tiene Pollo enfadado.</esMX>
+    <esES>¡Leeeeeeeeeeeeeroy!</esES>
+    <deDE>Es war nicht seine Schuld!</deDE>
   </Tag>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="94076bfa-0f46-4a3a-9857-c30d59ceb6b7" />
+  <Power definition="cc6d0fec-0405-498f-925c-cda518cd0e83" />
 </Entity>
