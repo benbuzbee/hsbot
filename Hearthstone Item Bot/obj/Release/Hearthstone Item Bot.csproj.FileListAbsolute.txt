@@ -9,3 +9,4 @@ d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item B
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\Hearthstone Item Bot.csproj.GenerateResource.Cache
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.exe
 d:\documents\visual studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\hsbot.pdb
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Release\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
