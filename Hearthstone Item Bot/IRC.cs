@@ -67,17 +67,21 @@ namespace HSBot
         private void OnChannelMessage(Object sender, IrcMessageEventArgs e)
         {
 
-            if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length && e.Text.Length <= 36)
+			if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length && e.Text.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
-                // If the string is longer than 36 characters, including "!card ", it's probably too long to be a card.
-                LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
-            }
+				// If the string is longer than 36 characters, including "!card ", it's probably too long to be a card.
+				LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
+			}
 
             Match match = regex.Match(e.Text);
 
-            for (int i = 0; i < 3 && match.Success; ++i, match = match.NextMatch())
+			for (int i = 0; i < Config.MaxCardsPerLine && match.Success; ++i, match = match.NextMatch())
             {
-                if (match.Groups[1].Length >= 36) continue;
+				if (match.Groups[1].Length >= Config.MaxCardNameLength)
+                {
+                    --i;
+                    continue;
+                }
 
                 LookupCardNameFor(e.Targets[0], match.Groups[1].Value);
             }
