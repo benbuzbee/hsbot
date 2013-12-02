@@ -69,7 +69,8 @@ namespace HSBot
 
 			if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length && e.Text.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
-				// If the string is longer than 36 characters, including "!card ", it's probably too long to be a card.
+				// If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
+				// it's probably too long to be a card.
 				LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
 			}
 
