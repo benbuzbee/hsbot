@@ -76,7 +76,7 @@ namespace HSBot
 
             Match match = regex.Match(e.Text);
 
-            for (int i = 0; i < 2 && match.Success; ++i, match = match.NextMatch())
+            for (int i = 0; i < 3 && match.Success; ++i, match = match.NextMatch())
             {
                 LookupCardNameFor(e.Targets[0], match.Groups[1].Value);
             }
