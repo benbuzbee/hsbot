@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,8 @@ namespace HSBot
         public static XmlDocument Document { get; private set; }
 
         public static String DataDirectory { get; private set; }
+        public static int MaxCardsPerLine { get; private set; }
+        public static int MaxCardNameLength { get; private set; }
 
         public static String IRCHost { get; private set; }
         public static int IRCPort { get; private set; }
@@ -30,8 +32,12 @@ namespace HSBot
             // Parses known important options
 
             DataDirectory = doc.DocumentElement.SelectSingleNode("/config/cards/datadir").InnerText;
-            IRCHost= doc.DocumentElement.SelectSingleNode("/config/irc/host").InnerText;
-            IRCChannel= doc.DocumentElement.SelectSingleNode("/config/irc/channel").InnerText;
+
+            MaxCardsPerLine = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardsperline").InnerText);
+            MaxCardNameLength = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardnamelength").InnerText);
+
+            IRCHost = doc.DocumentElement.SelectSingleNode("/config/irc/host").InnerText;
+            IRCChannel = doc.DocumentElement.SelectSingleNode("/config/irc/channel").InnerText;
             IRCPort = int.Parse(doc.DocumentElement.SelectSingleNode("/config/irc/port").InnerText);
             IRCReconnectTime = int.Parse(doc.DocumentElement.SelectSingleNode("/config/irc/reconnecttime").InnerText);
 

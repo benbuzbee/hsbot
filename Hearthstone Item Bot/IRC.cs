@@ -66,18 +66,24 @@ namespace HSBot
         Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
         private void OnChannelMessage(Object sender, IrcMessageEventArgs e)
         {
-            
 
-            if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length)
+			if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length && e.Text.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
-                
-                LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
-            }
+				// If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
+				// it's probably too long to be a card.
+				LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
+			}
 
             Match match = regex.Match(e.Text);
 
-            for (int i = 0; i < 2 && match.Success; ++i, match = match.NextMatch())
+			for (int i = 0; i < Config.MaxCardsPerLine && match.Success; ++i, match = match.NextMatch())
             {
+				if (match.Groups[1].Length >= Config.MaxCardNameLength)
+                {
+                    --i;
+                    continue;
+                }
+
                 LookupCardNameFor(e.Targets[0], match.Groups[1].Value);
             }
         }
