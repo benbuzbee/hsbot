@@ -99,6 +99,10 @@ namespace HSBot.Cards
                     if (cost != null)
                         card.Cost = int.Parse(cost.Attributes["value"].Value);
 
+                    XmlNode durability = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Durability\"]");
+                    if (durability != null)
+                        card.Health = int.Parse(durability.Attributes["value"].Value);
+
                     XmlNode classID = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Class\"]");
                     if (classID != null)
                     {
