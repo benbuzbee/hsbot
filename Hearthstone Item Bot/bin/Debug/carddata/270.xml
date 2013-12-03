@@ -1,69 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_133">
-  <MasterPower>d852af62-e44d-4372-a582-18eb55fd2cd6</MasterPower>
+<Entity version="2" CardID="EX1_102">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Perdition's Blade</enUS>
-    <frFR>Lame de la perdition</frFR>
-    <zhTW>墮滅之刃</zhTW>
-    <zhCN>毁灭之刃</zhCN>
-    <ruRU>Клинок вечных мук</ruRU>
-    <ptBR>Lâmina da Perdição</ptBR>
-    <plPL>Ostrze Zatracenia</plPL>
-    <koKR>전멸의 비수</koKR>
-    <itIT>Lama della Perdizione</itIT>
-    <esMX>Hoja de Perdición</esMX>
-    <esES>Hoja de Perdición</esES>
-    <enGB>Perdition's Blade</enGB>
-    <deDE>Klinge des Verderbens</deDE>
+    <enUS>Demolisher</enUS>
+    <frFR>Démolisseur</frFR>
+    <zhTW>石毀車</zhTW>
+    <zhCN>攻城车</zhCN>
+    <ruRU>Разрушитель</ruRU>
+    <ptBR>Demolidor</ptBR>
+    <plPL>Burzyciel</plPL>
+    <koKR>파괴전차</koKR>
+    <itIT>Demolitore</itIT>
+    <esMX>Demoledor</esMX>
+    <esES>Demoledor</esES>
+    <deDE>Verwüster</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Durability" enumID="187" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="8" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Catapult</enUS>
+  </Tag>
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage. &lt;b&gt;Combo:&lt;/b&gt; Deal 2 instead.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 1 point de dégâts. &lt;b&gt;Combo :&lt;/b&gt; inflige 2 points de dégâts à la place.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成1點傷害。&lt;b&gt;連擊:&lt;/b&gt;改為造成2點傷害。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;造成1点伤害。&lt;b&gt;连击：&lt;/b&gt;改为造成2点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 1 ед. урона. &lt;b&gt;Серия приемов:&lt;/b&gt; вместо этого наносит 2 ед. урона.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 1 de dano. &lt;b&gt;Combo:&lt;/b&gt; Em vez de 1, cause 2 de dano.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 1 pkt. obrażeń. &lt;b&gt;Kombinacja:&lt;/b&gt; Zamiast tego zadaj 2 pkt. obrażeń.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 피해를 1 줍니다. &lt;b&gt;연계:&lt;/b&gt; 피해를 2 줍니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 1 danno. &lt;b&gt;Combo:&lt;/b&gt; infligge 2 danni.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 1 de daño. &lt;b&gt;Combo:&lt;/b&gt; inflige 2 de daño.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 1 p. de daño. &lt;b&gt;Combo:&lt;/b&gt; Inflige 2 p. de daño.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage. &lt;b&gt;Combo:&lt;/b&gt; Deal 2 instead.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verursacht 1 Schaden. &lt;b&gt;Combo:&lt;/b&gt; Verursacht stattdessen 2 Schaden.</deDE>
+    <enUS>At the start of your turn, deal 2 damage to a random enemy.</enUS>
+    <frFR>Au début de votre tour, inflige 2 points de dégâts à un adversaire aléatoire.</frFR>
+    <zhTW>在你的回合開始時，對隨機一名敵人造成2點傷害。</zhTW>
+    <zhCN>在你的回合开始时，对1个随机敌人造成2点伤害。</zhCN>
+    <ruRU>В начале вашего хода наносит 2 ед. урона случайному персонажу противника.</ruRU>
+    <ptBR>No início do seu turno, cause 2 de dano a um inimigo aleatório.</ptBR>
+    <plPL>Na początku swojej tury zadaj 2 pkt. obrażeń losowemu wrogowi.</plPL>
+    <koKR>내 턴이 시작될 때, 무작위 적에게 피해를 2 줍니다.</koKR>
+    <itIT>All'inizio del tuo turno, il Demolitore infligge 2 danni a un nemico casuale.</itIT>
+    <esMX>Al comienzo de tu turno, inflige 2 de daño a un enemigo aleatorio.</esMX>
+    <esES>Al comienzo de tu turno, inflige 2 p. de daño a un enemigo aleatorio.</esES>
+    <deDE>Fügt zu Beginn Eures Zuges einem zufälligen Feind 2 Schaden zu.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Deal 1 damage.  Combo: 2 instead.</enUS>
-    <frFR>Inflige 1 point de dégâts. Combo : en inflige 2.</frFR>
-    <zhTW>造成1點傷害。連擊:改為造成2點傷害。</zhTW>
-    <zhCN>造成1点伤害。&lt;b&gt;连击：&lt;/b&gt;改为造成2点伤害。</zhCN>
-    <ruRU>Нанести 1 ед. урона. &lt;b&gt;Серия&lt;/b&gt;: нанести 2 ед. урона.</ruRU>
-    <ptBR>Cause 1 de dano. Combo: 2.</ptBR>
-    <plPL>Zadaj 1 pkt. obrażeń. Kombinacja: 2 pkt. obrażeń.</plPL>
-    <koKR>피해 1. 연계: 피해 2</koKR>
-    <itIT>Infligge 1 danno. Combo: infligge 2 danni.</itIT>
-    <esMX>Inflige 1 de daño. Combo: 2 de daño.</esMX>
-    <esES>Inflige 1 p. de daño. Combo: Inflige 2 p. de daño.</esES>
-    <enGB>Deal 1 damage.  Combo: 2 instead.</enGB>
-    <deDE>Verursacht 1 Schaden. Combo: Verursacht stattdessen 2 Schaden.</deDE>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Daren Bader</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Tag name="Combo" enumID="220" type="Bool" value="1" />
-  <Power definition="8a036401-2e98-4765-a322-19555dc42951" />
-  <Power definition="d852af62-e44d-4372-a582-18eb55fd2cd6">
-    <PlayRequirement reqID="22" param="" />
-  </Power>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Laying siege isn't fun for anyone.  It's not even all that effective, now that everyone has a flying mount.</enUS>
+    <zhTW>攻城戰對大家來說都不好玩。而且，效果還不怎麼樣，因為現在大家都有飛行坐騎了。</zhTW>
+    <zhCN>攻城这件事一点儿也不好玩，而且通常还不怎么奏效，因为现在人人都有飞行坐骑。</zhCN>
+    <ruRU>Какой смысл начинать осаду, когда нынче почти у всех есть летающие средства передвижения?</ruRU>
+    <ptBR>Os cercos já não são mais tão divertidos. Eles nem têm mais tanto sentido, agora que todo mundo tem montarias voadoras.</ptBR>
+    <plPL>Prowadzenie oblężeń nie jest już zabawne. Ani też skuteczne, odkąd każdy ma latającego wierzchowca.</plPL>
+    <koKR>모두 나는 탈것을 타고 다니는 지금은 설 곳을 잃은 녀석입니다.</koKR>
+    <itIT>Costruire macchine d'assedio non è più utile come una volta. Specialmente ora che tutti hanno una cavalcatura volante.</itIT>
+    <frFR>Les sièges, personne n’aime ça. En plus, ce n’est vraiment pas efficace maintenant que tout le monde a des montures volantes.</frFR>
+    <esMX>No a todos les parece divertido asediar fortalezas. Y ahora que todos tienen monturas voladoras, ni siquiera es tan efectivo.</esMX>
+    <esES>Los asedios ya no son lo mismo ahora que todo el mundo tiene montura voladora.</esES>
+    <deDE>Belagerungen sind nicht für jeden etwas. Sie sind nicht einmal mehr effektiv, jetzt da alle ein Flugreittier besitzen.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="2d0126bc-9600-4aab-ba63-094ad5167af1" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

@@ -1,49 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_259">
-  <MasterPower>0f69420c-bbe9-4524-bc14-9a855f5b24d7</MasterPower>
+<Entity version="2" CardID="EX1_178ae">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Lightning Storm</enUS>
-    <frFR>Tempête de foudre</frFR>
-    <zhTW>閃電風暴</zhTW>
-    <zhCN>闪电风暴</zhCN>
-    <ruRU>Гроза</ruRU>
-    <ptBR>Tempestade de Raios</ptBR>
-    <plPL>Burza z piorunami</plPL>
-    <koKR>번개 폭풍</koKR>
-    <itIT>Tempesta di Fulmini</itIT>
-    <esMX>Tormenta de relámpagos</esMX>
-    <esES>Tormenta de relámpagos</esES>
-    <enGB>Lightning Storm</enGB>
-    <deDE>Gewittersturm</deDE>
+    <enUS>Rooted</enUS>
+    <frFR>Enraciné</frFR>
+    <zhTW>植根</zhTW>
+    <zhCN>扎根</zhCN>
+    <ruRU>Пустивший корни</ruRU>
+    <ptBR>Enraizado</ptBR>
+    <plPL>Zakorzenienie</plPL>
+    <koKR>뿌리 박기</koKR>
+    <itIT>Immobilizzato</itIT>
+    <esMX>Enraizado</esMX>
+    <esES>Enraizado</esES>
+    <deDE>Festgewurzelt</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2-$3 damage to all enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</enUS>
-    <frFR>Inflige $2 à $3 points de dégâts à tous les serviteurs adverses. &lt;b&gt;Surcharge :&lt;/b&gt; (2)</frFR>
-    <zhTW>對全部敵方手下造成$2點到$3點傷害。&lt;b&gt;超載:&lt;/b&gt;(2)</zhTW>
-    <zhCN>对所有敌方随从造成$2到$3点伤害。&lt;b&gt;超载：&lt;/b&gt;（2）</zhCN>
-    <ruRU>Наносит $2-$3 ед. урона всем существам противника. &lt;b&gt;Перегрузка:&lt;/b&gt; (2) </ruRU>
-    <ptBR>Cause $2-$3 de dano a todos os lacaios inimigos. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</ptBR>
-    <plPL>Zadaj $2-$3 pkt. obrażeń wszystkim wrogim stronnikom. &lt;b&gt;Przeładowanie:&lt;/b&gt; (2)</plPL>
-    <koKR>모든 적 하수인에게 피해를 $2-$3 줍니다. &lt;b&gt;과부하:&lt;/b&gt; (2)</koKR>
-    <itIT>Infligge $2-$3 danni a tutti i servitori nemici. &lt;b&gt;Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
-    <esMX>Inflige $2 a $3 de daño a todos los esbirros enemigos. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esMX>
-    <esES>Inflige $2-$3 p. de daño a todos los esbirros enemigos. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esES>
-    <enGB>Deal $2-$3 damage to all enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</enGB>
-    <deDE>Fügt allen feindlichen Dienern $2–$3 Schaden zu. &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
+    <enUS>+5 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>+5 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>+5生命值及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
+    <zhCN>+5生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+    <ruRU>+5 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>+5 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>+5 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
+    <koKR>생명력 +5, &lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>+5 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>+5 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>+5 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>+5 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Christopher Moeller</enUS>
-  </Tag>
-  <Tag name="Recall" enumID="215" type="Number" value="1" />
-  <Power definition="0f69420c-bbe9-4524-bc14-9a855f5b24d7" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="715afc1d-036e-4fa8-b039-28280136c2ec" />
 </Entity>

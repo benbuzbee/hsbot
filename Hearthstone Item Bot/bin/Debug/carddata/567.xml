@@ -1,65 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_011">
+<Entity version="2" CardID="Mekka2">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Kor'kron Elite</enUS>
-    <frFR>Soldat d’élite kor’kron</frFR>
-    <zhTW>柯爾克隆精英</zhTW>
-    <zhCN>库卡隆精英卫士</zhCN>
-    <ruRU>Кор'кронский воин</ruRU>
-    <ptBR>Elite Kor'kron</ptBR>
-    <plPL>Elita Kor'kronu</plPL>
-    <koKR>코르크론 정예병</koKR>
-    <itIT>Elite Kor'kron</itIT>
-    <esMX>Élite kor'kron</esMX>
-    <esES>Élite Kor'kron</esES>
-    <enGB>Kor'kron Elite</enGB>
-    <deDE>Elitesoldat der Kor'kron</deDE>
+    <enUS>Repair Bot</enUS>
+    <zhTW>修理機器人</zhTW>
+    <zhCN>修理机器人</zhCN>
+    <ruRU>Ремонтный робот</ruRU>
+    <ptBR>Robô de Reparos</ptBR>
+    <plPL>Bot naprawczy</plPL>
+    <koKR>수리로봇</koKR>
+    <itIT>Robot di Riparazione</itIT>
+    <frFR>Robot réparateur</frFR>
+    <esMX>Robot de reparación</esMX>
+    <esES>Robot de reparación</esES>
+    <deDE>Reparaturbot</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Charge&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Repairin'</enUS>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>At the end of your turn, restore 6 Health to a damaged character.</enUS>
+    <zhTW>在你的回合結束時，為一個受傷的角色恢復6點生命值。</zhTW>
+    <zhCN>在你的回合结束时，为一个受到伤害的角色恢复6点生命值。</zhCN>
+    <ruRU>В конце вашего хода восстанавливает 6 ед. здоровья персонажу с неполным здоровьем.</ruRU>
+    <ptBR>No fim do seu turno, restaure 6 de Vida de um personagem ferido.</ptBR>
+    <plPL>Na koniec swojej tury przywróć 6 pkt. zdrowia rannej postaci.</plPL>
+    <koKR>내 턴이 끝날 때, 피해를 입은 캐릭터의 생명력을 6 회복시킵니다.</koKR>
+    <itIT>Alla fine del tuo turno, rigenera 6 Salute a un personaggio danneggiato.</itIT>
+    <frFR>À la fin de votre tour, rend 6 PV à un personnage blessé.</frFR>
+    <esMX>Al final de tu turno, restaura 6 de Salud a un personaje dañado.</esMX>
+    <esES>Al final de tu turno, restaura 6 p. de salud a un personaje dañado.</esES>
+    <deDE>Stellt am Ende Eures Zuges bei einem verletzten Charakter 6 Leben wieder her.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Kor'kron are the elite forces of Garrosh Hellscream. Let's just say you don't want to run into these guys while wearing a blue tabard.</enUS>
-    <zhTW>柯爾克隆是卡爾洛斯·地獄吼的精英部隊。這樣說吧，你不會想要在穿著藍色外袍時碰到這些傢伙。</zhTW>
-    <zhCN>库卡隆就是加尔鲁什·地狱咆哮的精英部队。这么说吧，你最好不要穿着蓝色的战袍出现在这些壮汉面前。</zhCN>
-    <ruRU>Кор'кронцы - элитные солдаты Гарроша Адского Крика. Скажем так, лучше вам не попадаться им на глаза в синей гербовой накидке.</ruRU>
-    <ptBR>Os Kor'kron são a força de elite de Garrosh Grito Infernal. Você não vai querer encontrar um desses caras se estiver usando um tabardo azul.</ptBR>
-    <plPL>Kor'kron to doborowa jednostka Groma Piekłowyjca. Powiedzmy, że nie chcesz znaleźć się z nimi w jednym pomieszczeniu.</plPL>
-    <koKR>코르크론은 가로쉬 헬스크림의 정예 부대입니다. 파란색 휘장을 차고 있을 땐, 이들과 마주치지 않길 기도하십시오.</koKR>
-    <itIT>I Kor'kron sono le forze d'elite di Garrosh Malogrido. Diciamo solamente che non ti piacerebbe incontrarli se indossi un'insegna blu.</itIT>
-    <frFR>Les Kor’krons sont les troupes d’élite de Garrosh Hurlenfer. Mieux vaut ne pas porter de tabard bleu quand on les croise.</frFR>
-    <esMX>Los Kor'kron son las fuerzas de élite de Garrosh Grito Infernal. O sea, unos tipos a los que no es conveniente cruzarte si tienes puesto un tabardo azul.</esMX>
-    <esES>Los Kor'kron son la fuerza de élite de Garrosh Grito Infernal. Digamos que es mejor no cruzarse con estos tipos llevando un tabardo azul.</esES>
-    <enGB>The Kor'kron are the elite forces of Garrosh Hellscream. Let's just say you don't want to run into these guys while wearing a blue tabard.</enGB>
-    <deDE>Die Kor'kron sind die Elitestreitkräfte von Garrosh Höllschrei. Ihnen wollt Ihr nicht begegnen, während Ihr einen blauen Wappenrock tragt.</deDE>
-  </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="107ffc45-7045-479d-82fe-b6c8a5c15d64" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="8e845e27-d651-4bb6-915c-f7bcb18432a2" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

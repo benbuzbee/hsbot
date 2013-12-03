@@ -1,65 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_234">
-  <MasterPower>36c113fe-50dd-42bc-b88c-ba7b5c1a0c5e</MasterPower>
+<Entity version="2" CardID="CS2_189">
+  <MasterPower>1d8c64df-efd1-4c47-8a7c-fe2b670aa3f5</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Shadow Word: Pain</enUS>
-    <frFR>Mot de l’ombre : Douleur</frFR>
-    <zhTW>暗言術:痛</zhTW>
-    <zhCN>暗言术：痛</zhCN>
-    <ruRU>Слово Тьмы: Боль</ruRU>
-    <ptBR>Palavra Sombria: Dor</ptBR>
-    <plPL>Słowo cienia: Ból</plPL>
-    <koKR>어둠의 권능: 고통</koKR>
-    <itIT>Parola d'Ombra: Dolore</itIT>
-    <esMX>Palabra de las sombras: Dolor</esMX>
-    <esES>Palabra de Sombras: dolor</esES>
-    <enGB>Shadow Word: Pain</enGB>
-    <deDE>Schattenwort: Schmerz</deDE>
+    <enUS>Elven Archer</enUS>
+    <frFR>Archère elfe</frFR>
+    <zhTW>精靈弓箭手</zhTW>
+    <zhCN>精灵弓箭手</zhCN>
+    <ruRU>Эльфийская лучница</ruRU>
+    <ptBR>Arqueira Élfica</ptBR>
+    <plPL>Elfia łuczniczka</plPL>
+    <koKR>엘프 궁수</koKR>
+    <itIT>Arciera Elfica</itIT>
+    <esMX>Arquera élfica</esMX>
+    <esES>Arquera elfa</esES>
+    <deDE>Elfenbogenschützin</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 1 point de dégâts.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成1點傷害。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;造成1点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 1 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 1 de dano.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 1 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 피해를 1 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 1 danno.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 1 de daño.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 1 p. de daño.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verursacht 1 Schaden.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy a minion with 3 or less Attack.</enUS>
-    <frFR>Détruit un serviteur avec 3 Attaque ou moins.</frFR>
-    <zhTW>摧毀一個攻擊力在3點以下的手下。</zhTW>
-    <zhCN>消灭一个攻击力小于或等于3的随从。</zhCN>
-    <ruRU>Уничтожает существо с атакой 3 или меньше.</ruRU>
-    <ptBR>Destrua um lacaio com 3 ou menos de Ataque.</ptBR>
-    <plPL>Zniszcz stronnika z atakiem 3 lub mniejszym.</plPL>
-    <koKR>공격력 3 이하인 하수인을 하나 파괴합니다.</koKR>
-    <itIT>Distrugge un servitore con Attacco pari a 3 o inferiore.</itIT>
-    <esMX>Destruye un esbirro con 3 de Ataque o menos.</esMX>
-    <esES>Destruye a un esbirro con 3 p. de ataque o menos.</esES>
-    <enGB>Destroy a minion with 3 or less Attack.</enGB>
-    <deDE>Vernichtet einen Diener mit max. 3 Angriff.</deDE>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Deal 1 damage.</enUS>
+    <frFR>Inflige 1 point de dégâts.</frFR>
+    <zhTW>造成1點傷害。</zhTW>
+    <zhCN>造成1点伤害。</zhCN>
+    <ruRU>Нанести 1 ед. урона</ruRU>
+    <ptBR>Cause 1 de dano.</ptBR>
+    <plPL>Zadaj 1 pkt. obrażeń.</plPL>
+    <koKR>피해 1</koKR>
+    <itIT>Infligge 1 danno.</itIT>
+    <esMX>Inflige 1 de daño.</esMX>
+    <esES>Inflige 1 p. de daño.</esES>
+    <deDE>Verursacht 1 Schaden.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Steve Prescott</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>A step up from a spell cast by many beginning  acolytes: "Shadow Word: Annoy".</enUS>
-    <zhTW>這是許多見習牧師施放的「暗言術:煩」的升級版。</zhTW>
-    <zhCN>许多寺僧学徒都会施放：“暗言术：怒”，这个法术是它的进阶法术。</zhCN>
-    <ruRU>Обратите внимание, что степень причиняемой боли не указана, так что вы даже не знаете, насколько сильно вам стоит бояться.</ruRU>
-    <ptBR>Um passo à frente de um feitiço lançado por muitos acólitos iniciantes: "Palavra Sombria: Pentelhar".</ptBR>
-    <plPL>Ulepszona wersja zaklęcia rzucanego przez wielu początkujących akolitów: „Słowo cienia: Irytacja”.</plPL>
-    <koKR>초급 수행사제들이 배우는 "어둠의 권능: 성가심"보다 한 단계 높은 등급의 주문입니다.</koKR>
-    <itIT>Un miglioramento rispetto all'incantesimo lanciato da molti accoliti novizi: "Parola d'Ombra: Fastidio".</itIT>
-    <frFR>Un cran au dessus des acolytes débutants avec leur « Mot de l’ombre : Ennui ».</frFR>
-    <esMX>La nueva versión de un hechizo muy popular entre los acólitos principiantes: "Palabra de las Sombras: Irritar".</esMX>
-    <esES>Pronto serás Exaltado con el ángel de la Resurrección.</esES>
-    <enGB>It's important to note that the amount of pain isn't specified.  It's really not clear how afraid you should be.</enGB>
-    <deDE>Dazu muss gesagt werden, dass das Ausmaß der Schmerzen nicht näher beschrieben ist. Es ist also unklar, wie viel Angst Ihr davor haben solltet.</deDE>
+    <enUS>Don't bother asking her out on a date.  She'll shoot you down.</enUS>
+    <zhTW>不要想約她出去。她會朝著你放箭。</zhTW>
+    <zhCN>媚眼如丝，轻盈如燕，致命如箭。</zhCN>
+    <ruRU>Даже не пытайтесь пригласить ее на свидание. Она умеет стрелять не только глазами.</ruRU>
+    <ptBR>Nem adianta se apaixonar. Ela atira para todos os lados.</ptBR>
+    <plPL>Lepiej nie zapraszaj jej na randkę. Bo jak cię strzeli...</plPL>
+    <koKR>그녀에게 작업 걸 생각 마세요. 머리에 화살 맞습니다.</koKR>
+    <itIT>Si sconsiglia di non invitarla fuori a cena. Farebbe letteralmente breccia nel tuo cuore. </itIT>
+    <frFR>N’essayez même pas de l’inviter à sortir, elle filerait comme une flèche.</frFR>
+    <esMX>No te molestes en invitarla a salir: te va a dejar clavado.</esMX>
+    <esES>No te molestes en ligar con ella. Las flechas de Cupido no le impresionan.</esES>
+    <deDE>Fragt sie bloß nicht nach einem Date – oder Ihr werdet erfahren, wie sehr Amors Pfeil schmerzen kann.</deDE>
   </Tag>
-  <Power definition="36c113fe-50dd-42bc-b88c-ba7b5c1a0c5e">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="8" param="3" />
-    <PlayRequirement reqID="1" param="" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Druid Level 57.</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="1d8c64df-efd1-4c47-8a7c-fe2b670aa3f5">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="9" param="" />
   </Power>
 </Entity>

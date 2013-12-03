@@ -1,52 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_562">
-  <MasterPower>cde7eb0e-6173-490f-8901-5799cd878305</MasterPower>
+<Entity version="2" CardID="EX1_536">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Onyxia</enUS>
-    <frFR>Onyxia</frFR>
-    <zhTW>奧妮克希亞</zhTW>
-    <zhCN>奥妮克希亚</zhCN>
-    <ruRU>Ониксия</ruRU>
-    <ptBR>Onyxia</ptBR>
-    <plPL>Onyxia</plPL>
-    <koKR>오닉시아</koKR>
-    <itIT>Onyxia</itIT>
-    <esMX>Onyxia</esMX>
-    <esES>Onyxia</esES>
-    <enGB>Onyxia</enGB>
-    <deDE>Onyxia</deDE>
+    <enUS>Eaglehorn Bow</enUS>
+    <zhTW>鷹角弓</zhTW>
+    <zhCN>鹰角弓</zhCN>
+    <ruRU>Лук Орлиного рога</ruRU>
+    <ptBR>Arco Hastáguia</ptBR>
+    <plPL>Orli Róg</plPL>
+    <koKR>독수리뿔 장궁</koKR>
+    <itIT>Arco del Falco di Ferro</itIT>
+    <frFR>Arc cornedaigle</frFR>
+    <esMX>Arco de cuerno de águila</esMX>
+    <esES>Arco de cuerno de águila</esES>
+    <deDE>Adlerhornbogen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Durability" enumID="187" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever a &lt;b&gt;Secret&lt;/b&gt; is revealed, gain +1 Durability.</enUS>
+    <zhTW>每當&lt;b&gt;秘密&lt;/b&gt;揭露，獲得+1耐久度。</zhTW>
+    <zhCN>每当有一张&lt;b&gt;奥秘&lt;/b&gt;牌被揭示时，便获得+1耐久度。</zhCN>
+    <ruRU>Каждый раз, когда открывается &lt;b&gt;Секрет&lt;/b&gt;, это оружие получает +1 к прочности.</ruRU>
+    <ptBR>Sempre que um &lt;b&gt;Segredo&lt;/b&gt; for revelado, receba +1 de Durabilidade.</ptBR>
+    <plPL>Za każdym razem, gdy ujawniony zostaje &lt;b&gt;Sekret&lt;/b&gt;, zyskuje 1 pkt. wytrzymałości.</plPL>
+    <koKR>&lt;b&gt;비밀&lt;/b&gt;이 밝혀질 때마다 내구도를 +1 얻습니다.</koKR>
+    <itIT>Quando viene rivelato un &lt;b&gt;Segreto&lt;/b&gt;, l'Arco del Falco di Ferro ottiene +1 Integrità.</itIT>
+    <frFR>Chaque fois qu’un &lt;b&gt;Secret&lt;/b&gt; est révélé, gagne +1 Durabilité.</frFR>
+    <esMX>Cada vez que se revela un &lt;b&gt;Secreto&lt;/b&gt;, obtiene +1 de Durabilidad.</esMX>
+    <esES>Obtiene +1 p. de durabilidad cada vez que se revela un &lt;b&gt;secreto&lt;/b&gt;.</esES>
+    <deDE>Erhält jedes Mal +1 Haltbarkeit, wenn ein &lt;b&gt;Geheimnis&lt;/b&gt; aufgedeckt wird. </deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque des dragonnets 1/1 jusqu’à remplir votre côté du plateau.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚1/1幼龍直到你戰場的位置全滿。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤数个1/1的雏龙，直到你的随从数量达到上限。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на вашу сторону дракончиков 1/1, пока поле боя не заполнится.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque Dragonetes 1/1 até seu lado do campo de batalha estar cheio.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pisklęta 1/1, aż zapełnią twoje pole bitwy.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 당신의 전장이 다 찰 때까지 1/1 새끼용을 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca Draghetti 1/1 fino a riempire il tuo lato del campo di battaglia.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca Crías 1/1 hasta que tu lado del campo de batalla esté completo.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca crías 1/1 hasta que tu lado del campo de batalla esté lleno.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft Welpen (1/1) herbei, bis Eure Seite des Schlachtfelds voll ist.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dany Orizio</enUS>
+    <enUS>Cyril Van Der Haegen</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="cde7eb0e-6173-490f-8901-5799cd878305" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>First Lesson: Put the pointy end in the other guy.</enUS>
+    <zhTW>第一課:把尖銳的那一端指向另外一個人。</zhTW>
+    <zhCN>第一课：把尖的那头对准别人。</zhCN>
+    <ruRU>Урок первый: острый конец должен указывать на противника.</ruRU>
+    <ptBR>Primeira lição: o lado pontudo vai no outro cara.</ptBR>
+    <plPL>Pierwsza lekcja: Ostrym końcem w stronę przeciwnika.</plPL>
+    <koKR>깡통들을 위한 장궁 제1장: 화살촉은 내가 아닌 상대방을 향하라</koKR>
+    <itIT>Prima lezione: la parte appuntita dev'essere indirizzata verso l'avversario.</itIT>
+    <frFR>Leçon n°1 : toujours le pointer vers l’adversaire !</frFR>
+    <esMX>Primera lección: la parte puntiaguda va en el adversario.</esMX>
+    <esES>Primera lección: las flechas se clavan en los malos.</esES>
+    <deDE>Erste Lektion: Das Spitze muss ins Lebendige.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
+  <Power definition="c2837368-05ea-48d2-be0c-6af00c84911d" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

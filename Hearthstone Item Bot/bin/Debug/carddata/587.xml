@@ -1,49 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_027">
+<Entity version="2" CardID="NEW1_012o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Southsea Captain</enUS>
-    <zhTW>南海船長</zhTW>
-    <zhCN>南海船长</zhCN>
-    <ruRU>Капитан Южных морей</ruRU>
-    <ptBR>Capitão dos Mares do Sul</ptBR>
-    <plPL>Kapitan Południowych Mórz</plPL>
-    <koKR>남쪽바다 선장</koKR>
-    <itIT>Capitano dei Mari del Sud</itIT>
-    <frFR>Capitaine des mers du Sud</frFR>
-    <esMX>Capitán de los Mares del sur</esMX>
-    <esES>Capitán de Mares del Sur</esES>
-    <enGB>Southsea Captain</enGB>
-    <deDE>Südmeerkapitän</deDE>
+    <enUS>Mana Gorged</enUS>
+    <frFR>Gorgé de mana</frFR>
+    <zhTW>法力暴食</zhTW>
+    <zhCN>法力吸取</zhCN>
+    <ruRU>Насытившийся маной</ruRU>
+    <ptBR>Deleitada em Mana</ptBR>
+    <plPL>Pełnia many</plPL>
+    <koKR>마나에 굶주림</koKR>
+    <itIT>Sazio di Mana</itIT>
+    <esMX>Atiborrado de maná</esMX>
+    <esES>Empacho de maná</esES>
+    <deDE>Manasättigung</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other Pirates have +1/+1.</enUS>
-    <zhTW>你的其他海盜獲得+1/+1。</zhTW>
-    <zhCN>你的其他海盗获得+1/+1。</zhCN>
-    <ruRU>Другие ваши пираты получают +1/+1.</ruRU>
-    <ptBR>Seus outros Piratas têm +1/+1.</ptBR>
-    <plPL>Twoi pozostali Piraci otrzymują +1/+1.</plPL>
-    <koKR>당신의 다른 해적들이 +1/+1을 얻습니다.</koKR>
-    <itIT>I tuoi altri Pirati ottengono +1/+1.</itIT>
-    <frFR>Vos autres pirates ont +1/+1.</frFR>
-    <esMX>Tus otros Piratas tienen +1/+1.</esMX>
-    <esES>Tus otros piratas tienen +1/+1.</esES>
-    <enGB>Your other Pirates have +1/+1.</enGB>
-    <deDE>Eure anderen Piraten haben +1/+1.</deDE>
+    <enUS>Increased attack.</enUS>
+    <frFR>Attaque augmentée.</frFR>
+    <zhTW>攻擊力提高。</zhTW>
+    <zhCN>攻击力增加。</zhCN>
+    <ruRU>Атака увеличена.</ruRU>
+    <ptBR>Ataque aumentado.</ptBR>
+    <plPL>Zwiększony atak.</plPL>
+    <koKR>공격력 증가</koKR>
+    <itIT>Attacco aumentato.</itIT>
+    <esMX>Ataque aumentado.</esMX>
+    <esES>Ataque aumentado.</esES>
+    <deDE>Erhöhter Angriff.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ken Steacy</enUS>
-  </Tag>
-  <Power definition="9d08f47b-bb86-4d84-9598-0ace84279ebb" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="ab740c21-914a-405c-93c1-39d2cddfd2e6" />
 </Entity>

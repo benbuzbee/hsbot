@@ -1,48 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_112">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_092">
+  <MasterPower>3999cb63-121b-4da3-9561-a53b698820ca</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Arcanite Reaper</enUS>
-    <frFR>Faucheuse en arcanite</frFR>
-    <zhTW>奧金收割斧</zhTW>
-    <zhCN>奥金斧</zhCN>
-    <ruRU>Арканитовый жнец</ruRU>
-    <ptBR>Retalhador de Arcanita</ptBR>
-    <plPL>Arkanitowy Rozpruwacz</plPL>
-    <koKR>아케이나이트 도끼</koKR>
-    <itIT>Mietimorte d'Arcanite</itIT>
-    <esMX>Segadora de arcanita</esMX>
-    <esES>Segadora de arcanita</esES>
-    <enGB>Arcanite Reaper</enGB>
-    <deDE>Arkanitschnitter</deDE>
+    <enUS>Blessing of Kings</enUS>
+    <frFR>Bénédiction des rois</frFR>
+    <zhTW>王者祝福</zhTW>
+    <zhCN>王者祝福</zhCN>
+    <ruRU>Печать королей</ruRU>
+    <ptBR>Bênção dos Reis</ptBR>
+    <plPL>Dar królów</plPL>
+    <koKR>왕의 축복</koKR>
+    <itIT>Benedizione dei Re</itIT>
+    <esMX>Bendición de reyes</esMX>
+    <esES>Bendición de reyes</esES>
+    <deDE>Segen der Könige</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Durability" enumID="187" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give a minion +4/+4. &lt;i&gt;(+4 Attack/+4 Health)&lt;/i&gt;</enUS>
+    <frFR>Confère à un serviteur +4/+4. &lt;i&gt;(+4 ATQ/+4 PV)&lt;/i&gt;</frFR>
+    <zhTW>賦予一個手下+4/+4。&lt;i&gt;(+4攻擊力/+4生命值)&lt;/i&gt;</zhTW>
+    <zhCN>使一个随从获得+4/+4。&lt;i&gt;（+4攻击力/+4生命值）&lt;/i&gt;</zhCN>
+    <ruRU>Выбранное существо получает +4/+4. &lt;i&gt;(+4 к атаке/+4 к здоровью)&lt;/i&gt;</ruRU>
+    <ptBR>Conceda +4/+4 a um lacaio. &lt;i&gt;(+4 de Ataque/+4 de Vida)&lt;/i&gt;</ptBR>
+    <plPL>Daj stronnikowi +4/+4 &lt;i&gt;(+4 do ataku/+4 do zdrowia)&lt;/i&gt;.</plPL>
+    <koKR>하수인에게 +4/+4를 부여합니다. &lt;i&gt;(공격력 +4/생명력 +4)&lt;/i&gt;</koKR>
+    <itIT>Fornisce +4/+4 a un servitore.</itIT>
+    <esMX>Otorga +4/+4 a un esbirro. &lt;i&gt;(+4 de Ataque/+4 de Salud)&lt;/i&gt;</esMX>
+    <esES>Otorga +4/+4 a un esbirro. &lt;i&gt;(+4 p. de ataque/+4 p. de salud)&lt;/i&gt;</esES>
+    <deDE>Verleiht einem Diener +4/+4. &lt;i&gt;(+4 Angriff/+4 Leben)&lt;/i&gt;</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Stefan Kopinski</enUS>
+    <enUS>Lucas Graciano</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>No… actually you should fear the Reaper.</enUS>
-    <zhTW>不要小看收割用的斧頭。</zhTW>
-    <zhCN>“那个消失了的潜行者再也不曾出现过...”</zhCN>
-    <ruRU>Нет, его и впрямь стоит бояться...</ruRU>
-    <ptBR>Não... você deveria temer o Retalhador.</ptBR>
-    <plPL>Rozpruwaj waść... wstydu oszczędź.</plPL>
-    <koKR>세월이 지나도 명품은 명품입니다.</koKR>
-    <itIT>Davvero, dovresti aver paura del mietitore.</itIT>
-    <frFR>Oh attention, chérie, ça va couper !</frFR>
-    <esMX>¡Qué cunda el pánico!</esMX>
-    <esES>Arcanita, no kriptonita. Esta funciona con todo el mundo.</esES>
-    <enGB>No… actually you should fear the Reaper.</enGB>
-    <deDE>Ihn zu tragen, heißt noch lange nicht, dass man sich wie die Axt im Walde aufführen sollte.</deDE>
+    <enUS>Given the number of kings who have been assassinated, are you sure you want their blessing?</enUS>
+    <zhTW>歷史上被暗殺的國王這麼多，你確定你還要他們的祝福?</zhTW>
+    <zhCN>你知道世界上有多少所谓的“王者”被暗杀了吗？你确定还想要王者祝福吗？</zhCN>
+    <ruRU>Учитывая количество убитых королей, вы точно уверены, что вам нужно их благословение?</ruRU>
+    <ptBR>Levando em consideração o grande número de reis assassinados ultimamente, tem certeza que você quer esse bônus?</ptBR>
+    <plPL>Biorąc pod uwagę liczbę królów, którzy zostali skrytobójczo zabici, czy na pewno pragniesz ich daru?</plPL>
+    <koKR>여태까지 암살당한 왕이 몇 명인데, 정말 그들의 축복을 받고 싶으세요?</koKR>
+    <itIT>Considerando quanti re sono stati assassinati, sei ancora certo di volere la loro benedizione?</itIT>
+    <frFR>Étant donné le nombre de rois ayant été assassinés, vous êtes certain de vouloir leur bénédiction ?</frFR>
+    <esMX>Dada la cantidad de reyes que han sido asesinados, ¿estás seguro de que quieres su bendición?</esMX>
+    <esES>Teniendo en cuenta la cantidad de reyes que han muerto asesinados, ¿seguro que es buena idea recibir su bendición?</esES>
+    <deDE>Wenn man die Anzahl der Könige betrachtet, die einem Attentat zum Opfer fielen, seid Ihr Euch dann noch sicher, dass Ihr deren Segen haben möchtet?</deDE>
   </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 10.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 48.</enUS>
+  </Tag>
+  <Power definition="3999cb63-121b-4da3-9561-a53b698820ca">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

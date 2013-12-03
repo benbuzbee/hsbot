@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_534">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_410">
+  <MasterPower>12f75fac-42bf-485b-a10c-9d766d8ab85f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Savannah Highmane</enUS>
-    <zhTW>長鬃草原獅</zhTW>
-    <zhCN>长鬃草原狮</zhCN>
-    <ruRU>Высокогрив саванны</ruRU>
-    <ptBR>Jubalta da Savana</ptBR>
-    <plPL>Lew bujnogrzywy</plPL>
-    <koKR>사바나 사자</koKR>
-    <itIT>Altocrine delle Savane</itIT>
-    <frFR>Grande crinière des savanes</frFR>
-    <esMX>Crinalta de la sabana</esMX>
-    <esES>Crinalta de la sabana</esES>
-    <enGB>Savannah Highmane</enGB>
-    <deDE>Savannenhochmähne</deDE>
+    <enUS>Shield Slam</enUS>
+    <frFR>Heurt de bouclier</frFR>
+    <zhTW>盾牌猛擊</zhTW>
+    <zhCN>盾牌猛击</zhCN>
+    <ruRU>Мощный удар щитом</ruRU>
+    <ptBR>Escudada</ptBR>
+    <plPL>Grzmotnięcie tarczą</plPL>
+    <koKR>방패 밀쳐내기</koKR>
+    <itIT>Colpo di Scudo</itIT>
+    <esMX>Embate con escudo</esMX>
+    <esES>Embate con escudo</esES>
+    <deDE>Schildschlag</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon two 2/2 Hyenas.</enUS>
-    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;召喚兩隻2/2土狼。</zhTW>
-    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;召唤二个2/2的土狼。</zhCN>
-    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; призывает на поле боя двух гиен 2/2.</ruRU>
-    <ptBR>&lt;b&gt;Estertor de Morte:&lt;/b&gt; Evoque duas Hienas 2/2.</ptBR>
-    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przyzwij dwie hieny 2/2.</plPL>
-    <koKR>&lt;b&gt;죽음의 신음:&lt;/b&gt; 2/2 하이에나를 둘 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; evoca due Iene 2/2.</itIT>
-    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; invoque deux hyènes 2/2.</frFR>
-    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; invoca 2 Hienas 2/2.</esMX>
-    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Invoca dos hienas 2/2.</esES>
-    <enGB>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon two 2/2 Hyenas.</enGB>
-    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft zwei Hyänen (2/2) herbei.</deDE>
+    <enUS>Deal 1 damage to a minion for each Armor you have.</enUS>
+    <frFR>Inflige 1 point de dégâts à un serviteur pour chaque point d’Armure que vous avez.</frFR>
+    <zhTW>對一個手下造成相當於你護甲值的傷害。</zhTW>
+    <zhCN>你每有1点护甲值，便对一个随从造成1点伤害。</zhCN>
+    <ruRU>Наносит выбранному существу 1 ед. урона за каждую единицу брони вашего героя.</ruRU>
+    <ptBR>Cause 1 de dano a um lacaio para cada ponto de Armadura que você tiver.</ptBR>
+    <plPL>Zadaj 1 pkt. obrażeń stronnikowi za każdy posiadany punkt pancerza.</plPL>
+    <koKR>내가 가진 방어도만큼 하수인에게 피해를 줍니다.</koKR>
+    <itIT>Infligge 1 danno a un servitore per ogni punto Armatura che possiedi.</itIT>
+    <esMX>Inflige 1 de daño a un esbirro por cada punto de Armadura que tienes.</esMX>
+    <esES>Inflige 1 p. de daño a un esbirro por cada punto de armadura que tengas.</esES>
+    <deDE>Fügt einem Diener für jeden Eurer Rüstungspunkte 1 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Master</enUS>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Milivoj Ceran</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.</enUS>
-    <enGB>In the jungle, the mighty jungle, the lion gets slowly consumed by hyenas.</enGB>
-    <zhTW>在恐怖的叢林中，獅子也會被土狼群逐步吃掉。</zhTW>
-    <zhCN>在偌大丛林的生存游戏中，即使是狮子也会被成群的土狼拖垮。</zhCN>
-    <ruRU>Где-то в джунглях, в дремучих джунглях... льва сейчас доедают гиены.</ruRU>
-    <ptBR>Hoje à noite, aqui na selva, as hienas comem o leããããão.</ptBR>
-    <plPL>Na ciebie czekam lwie. Czekam, aż hiena zeżre cię!</plPL>
-    <koKR>밀림에 사자가 없으면 하이에나가 왕이지요.</koKR>
-    <itIT>Il leone si è addormentato e la iena lo sbranerà.</itIT>
-    <frFR>Dans la jungle, terrible jungle, le lion est mort ce soir.</frFR>
-    <esMX>En la selva intensa y profunda, al león se lo comen las hienas, bocado a bocado.</esMX>
-    <esES>En la jungla, la negra jungla, el postre es el león.</esES>
-    <deDE>Ein wunderbares Beispiel für den Kreislauf des Lebens.</deDE>
+    <enUS>"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?" - The Art of Warrior, Chapter 9</enUS>
+    <zhTW>「哪一把武器比較好?是敵人會小心提防的利刃，還是會被他們輕忽的鈍器?」-戰士之道，第9章</zhTW>
+    <zhCN>“什么是更好的武器？是敌人预料之中的利斧，还是敌人意想不到的钝刀？”——《战士的艺术》，第9章</zhCN>
+    <ruRU>«Какое оружие лучше? Острый топор, о котором враг знает, или тупой, на который он не обращает внимания?» – Искусство быть воином, глава 9</ruRU>
+    <ptBR>"Qual é a melhor arma? A afiada que os inimigos esperam ou a cega que eles ignoram?" — A Arte do Guerreiro, capítulo 9</ptBR>
+    <plPL>„Jaki oręż jest lepszy? Ostry, którego spodziewa się przeciwnik, czy tępy, który zostanie zignorowany?” - Sztuka wojownika, rozdział 9</plPL>
+    <koKR>"좋은 무기란 무엇일까? 날카롭지만 상대가 예상할 수 있는 것? 아니면 무디지만 상대가 예상치 못하는 것?" - 전사의 정석, 제 9 장</koKR>
+    <itIT>"Qual è l'arma migliore? Quella tagliente che il nemico si aspetta o quella contundente che egli ignora?" - L'Arte del Guerriero, capitolo 9</itIT>
+    <frFR>« En combat, qu’est-ce qui est le mieux ? L’arme tranchante à laquelle s’attend votre adversaire ou l’arme émoussée à laquelle il ne s’attend pas ? » - L’art du guerrier, chapitre 9</frFR>
+    <esMX>¿Cuál es la mejor arma? ¿La que tus enemigos esperan o la que escondes bajo la manga?. &lt;i&gt;El arte del guerrero&lt;/i&gt;, capítulo 9</esMX>
+    <esES>"¿Qué arma es mejor? ¿La afilada, que tus enemigos se esperan, o la roma, que desconocen?" - El arte del guerrero, capítulo 9</esES>
+    <deDE>„Welches ist die bessere Waffe? Die scharfe, die Eure Feinde erwarten, oder die stumpfe, die sie ignorieren?“ - Die Kunst des Kriegers, Kapitel 9</deDE>
   </Tag>
-  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
-  <Power definition="31aa1d47-bba0-4ba4-8450-2f6d1c8dae7a" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Power definition="12f75fac-42bf-485b-a10c-9d766d8ab85f">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

@@ -1,86 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_522">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_408">
+  <MasterPower>9b42e559-052c-4655-ab9b-d82ba20835f5</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Patient Assassin</enUS>
-    <frFR>Assassin patient</frFR>
-    <zhTW>有耐心的刺客</zhTW>
-    <zhCN>耐心的刺客</zhCN>
-    <ruRU>Терпеливый убийца</ruRU>
-    <ptBR>Assassino Paciente</ptBR>
-    <plPL>Cierpliwy skrytobójca</plPL>
-    <koKR>침착한 암살자</koKR>
-    <itIT>Assassino Paziente</itIT>
-    <esMX>Asesino paciente</esMX>
-    <esES>Asesino paciente</esES>
-    <enGB>Patient Assassin</enGB>
-    <deDE>Geduldiger Attentäter</deDE>
+    <enUS>Mortal Strike</enUS>
+    <frFR>Frappe mortelle</frFR>
+    <zhTW>致死打擊</zhTW>
+    <zhCN>致死打击</zhCN>
+    <ruRU>Смертельный удар</ruRU>
+    <ptBR>Golpe Mortal</ptBR>
+    <plPL>Zabójczy cios</plPL>
+    <koKR>필사의 일격</koKR>
+    <itIT>Assalto Mortale</itIT>
+    <esMX>Golpe mortal</esMX>
+    <esES>Golpe mortal</esES>
+    <deDE>Tödlicher Stoß</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Sharpening</enUS>
-  </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;. Destroy any minion damaged by this minion.</enUS>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;. Détruit tout serviteur blessé par ce serviteur.</frFR>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;。摧毀任何被這個手下傷害的手下。</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;。消灭任何受到该随从伤害的随从。</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. Уничтожает любое существо, которому наносит урон.</ruRU>
-    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;. Destrua qualquer lacaio atingido por este lacaio.</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Zniszcz każdego stronnika zranionego przez tego stronnika.</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;. 이 하수인에게 피해를 입은 하수인은 무조건 파괴됩니다.</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;. Distrugge qualsiasi servitore danneggiato da questo servitore.</itIT>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;. Destruye cualquier esbirro dañado por este esbirro.</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;. Destruye a todo esbirro dañado por este esbirro.</esES>
-    <enGB>&lt;b&gt;Stealth&lt;/b&gt;. Destroy any minion damaged by this minion.</enGB>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;. Vernichtet jeden Diener, der von diesem Diener verletzt wurde.</deDE>
+    <enUS>Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead.</enUS>
+    <frFR>Inflige $4 |4(point,points) de dégâts. Si votre héros à 12 PV ou moins, inflige $6 |4(point,points) de dégâts à la place.</frFR>
+    <zhTW>造成$4點傷害。如果你的英雄生命值在12點以下，則改為造成$6點傷害。</zhTW>
+    <zhCN>造成$4点伤害；如果你的英雄的生命值小于或等于12点，则改为造成$6点伤害。</zhCN>
+    <ruRU>Наносит $4 ед. урона. Если у вашего героя 12 или меньше ед. здоровья, вместо этого наносит $6 ед. урона.</ruRU>
+    <ptBR>Cause $4 de dano. Se o seu herói tiver 12 de Vida ou menos, cause $6 de dano em vez de $4.</ptBR>
+    <plPL>Zadaj $4 pkt. obrażeń. Jeśli twój bohater ma 12 lub mniej zdrowia, zadaj zamiast tego $6 pkt. obrażeń.</plPL>
+    <koKR>피해를 $4 줍니다. 내 영웅의 생명력이 12 이하라면 피해를 $6 줍니다.</koKR>
+    <itIT>Infligge $4 danni. Se il tuo eroe ha Salute pari a 12 o inferiore, infligge $6 danni.</itIT>
+    <esMX>Inflige $4 de daño. Si tu héroe tiene 12 de Salud o menos, entonces inflige $6 de daño.</esMX>
+    <esES>Inflige $4 p. de daño. Si tu héroe tiene 12 p. de salud o menos, inflige $6 p. de daño.</esES>
+    <deDE>Verursacht $4 Schaden. Verursacht stattdessen $6 Schaden, wenn Euer Held max. 12 Leben hat.</deDE>
   </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ben Olson</enUS>
+    <enUS>Zoltan &amp; Gabor</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He’s not really that patient. It just takes a while for someone to walk by that he can actually reach.</enUS>
-    <zhTW>他其實並非那麼有耐心。只是要花點時間才能等到有人走進他的攻擊範圍內。</zhTW>
-    <zhCN>其实他的耐性并不好。只是等待他的目标靠近需要花点时间。</zhCN>
-    <ruRU>На самом деле он не отличается особым терпением. Просто не так уж часто мимо проходит жертва, до горла которой можно дотянуться.</ruRU>
-    <ptBR>Ele não é tão paciente assim. Só demora um pouco para aparecer alguém que ele é capaz de alcançar.</ptBR>
-    <plPL>Tak naprawdę wcale nie jest cierpliwy. Po prostu rzadko pojawia się ktoś, kogo jest w stanie dosięgnąć.</plPL>
-    <koKR>사실 그리 침착한 성격은 아닙니다. 상대가 사정거리에 들어오는 데 시간이 많이 걸릴 뿐이죠.</koKR>
-    <itIT>In realtà non è poi così paziente. Solo che ci vuole tempo prima che la vittima si avvicini abbastanza.</itIT>
-    <frFR>En fait, ce n’est pas qu’il est patient. C’est juste qu’il faut du temps pour que quelqu’un passe à sa portée.</frFR>
-    <esMX>En realidad no es tan paciente. Es que tiene que esperar mucho hasta que aparece alguno que le quede al alcance.</esMX>
-    <esES>Lo de la paciencia viene de tener que esperar a que pasen víctimas de su misma estatura.</esES>
-    <enGB>He’s not really that patient. It just takes a while for someone to walk by that he can actually reach.</enGB>
-    <deDE>Er ist eigentlich nicht wirklich geduldig. Es braucht halt eine Weile, bis jemand vorbeikommt, den er auch erreichen kann.</deDE>
+    <enUS>"If you only use one ability, use Mortal Strike." - The Warrior Code, Line 6</enUS>
+    <zhTW>「如果你只能選一個技能，使用致死打擊。」-戰士守則，第6條</zhTW>
+    <zhCN>“如果你只有一个技能可以用，就用致死打击。”——《战士信条》，第6行</zhCN>
+    <ruRU>«Если вы используете только одну способность, выбирайте «Смертельный удар» – Кодекс воина, строка 6</ruRU>
+    <ptBR>"Se você for usar só uma habilidade, use Golpe Mortal." — Código do Guerreiro, linha 6</ptBR>
+    <plPL>„Jeśli masz użyć tylko jednej umiejętności, niech to będzie ‘zabójczy cios’”. - Kodeks Wojowników, ustęp 6</plPL>
+    <koKR>"기술을 하나밖에 쓸 수 없다면, 필사의 일격을 쓰라." - 전사의 십계명, 6번째 줄</koKR>
+    <itIT>"Nel dubbio, usa Assalto Mortale." - Il Codice del Guerriero, riga 6</itIT>
+    <frFR>« Si vous ne deviez utiliser qu’une compétence, choisissez Frappe mortelle. » - Le code du guerrier, ligne 6</frFR>
+    <esMX>"Si solo puedes usar una habilidad, usa Golpe mortal". &lt;i&gt;Código del guerrero&lt;/i&gt;, línea 6</esMX>
+    <esES>"Si solo usas una facultad, que sea Golpe mortal". - El código de los guerreros, línea 6</esES>
+    <deDE>„Wer nur eine Fähigkeit verwendet, sollte sich stets für Tödlicher Stoß entscheiden.“ – Gesetz des Kriegers, Artikel 6</deDE>
   </Tag>
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Power definition="783a6a5c-7144-4327-834a-c9b5ee3d1d5f" />
-  <Power definition="6ff7cbce-288f-422e-ab2b-f9d69d10d150" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Patient Assassin destroys any minion he damages.</enUS>
-    <frFR>L’assassin patient détruit tous les serviteurs qu’il blesse.</frFR>
-    <zhTW>有耐心的刺客會摧毀任何他造成傷害的手下。</zhTW>
-    <zhCN>耐心的刺客消灭任何受到他伤害的仆从。</zhCN>
-    <ruRU>Терпеливый убийца уничтожает любое существо, которому наносит урон.</ruRU>
-    <ptBR>Assassino Paciente destrói todo lacaio ao qual causa dano.</ptBR>
-    <plPL>Cierpliwy skrytobójca niszczy każdego stronnika, którego zrani.</plPL>
-    <koKR>침착한 암살자가 피해를 준 하수인을 파괴</koKR>
-    <itIT>L'Assassino Paziente ha distrutto un servitore che ha danneggiato.</itIT>
-    <esMX>El Asesino paciente destruye a todos los esbirros que daña.</esMX>
-    <esES>El asesino paciente destruye a todos los esbirros a los que daña.</esES>
-    <enGB>Patient Assassin destroys any minion he damages.</enGB>
-    <deDE>Der Geduldige Attentäter vernichtet jeden Diener, den er verletzt.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="9b42e559-052c-4655-ab9b-d82ba20835f5">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

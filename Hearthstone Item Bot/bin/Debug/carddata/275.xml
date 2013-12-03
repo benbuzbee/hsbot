@@ -1,46 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_145">
-  <MasterPower>0cc6ff8b-fd76-4877-8348-578aef4059a9</MasterPower>
+<Entity version="2" CardID="EX1_110t">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Preparation</enUS>
-    <frFR>Préparation</frFR>
-    <zhTW>準備</zhTW>
-    <zhCN>伺机待发</zhCN>
-    <ruRU>Подготовка</ruRU>
-    <ptBR>Preparação</ptBR>
-    <plPL>Przygotowanie</plPL>
-    <koKR>마음가짐</koKR>
-    <itIT>Preparazione</itIT>
-    <esMX>Preparación</esMX>
-    <esES>Preparación</esES>
-    <enGB>Preparation</enGB>
-    <deDE>Vorbereitung</deDE>
+    <enUS>Baine Bloodhoof</enUS>
+    <frFR>Baine Sabot-de-Sang</frFR>
+    <zhTW>貝恩·血蹄</zhTW>
+    <zhCN>贝恩·血蹄</zhCN>
+    <ruRU>Бейн Кровавое Копыто</ruRU>
+    <ptBR>Baine Casco Sangrento</ptBR>
+    <plPL>Bain Krwawe Kopyto</plPL>
+    <koKR>바인 블러드후프</koKR>
+    <itIT>Baine Zoccolo Sanguinario</itIT>
+    <esMX>Baine Pezuña de sangre</esMX>
+    <esES>Baine Pezuña de Sangre</esES>
+    <deDE>Baine Bluthuf</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>The next spell you cast this turn costs (2) less.</enUS>
-    <frFR>Le prochain sort que vous lancez coûte (2) cristaux de moins.</frFR>
-    <zhTW>在本回合中，你所施放的下一個法術消耗減少(2)點。</zhTW>
-    <zhCN>在本回合中，你所施放的下一个法术的法力值消耗减少（2）点。</zhCN>
-    <ruRU>Следующее заклинание, которое вы разыграете в этот ход, стоит на (2) маны меньше.</ruRU>
-    <ptBR>O próximo feitiço que você lançar custará (2) a menos.</ptBR>
-    <plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (2) mniej.</plPL>
-    <koKR>이번 턴에 당신이 시전하는 다음 주문의 비용이 (2) 감소합니다.</koKR>
-    <itIT>La prossima Magia lanciata in questo turno costa (2) Cristalli di Mana in meno.</itIT>
-    <esMX>El próximo hechizo que juegues en este turno cuesta (2) menos.</esMX>
-    <esES>El siguiente hechizo que lances este turno costará (2) p. menos.</esES>
-    <enGB>The next spell you cast this turn costs (2) less.</enGB>
-    <deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (2) weniger.</deDE>
-  </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Clint Langley</enUS>
-  </Tag>
-  <Power definition="0cc6ff8b-fd76-4877-8348-578aef4059a9" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
 </Entity>

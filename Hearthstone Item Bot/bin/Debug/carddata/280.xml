@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_155">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_128">
+  <MasterPower>b5a3da15-a174-4572-8f8e-d17a871066d9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mark of Nature</enUS>
-    <frFR>Marque de la nature</frFR>
-    <zhTW>自然印記</zhTW>
-    <zhCN>自然印记</zhCN>
-    <ruRU>Знак Природы</ruRU>
-    <ptBR>Marca da Natureza</ptBR>
-    <plPL>Znak natury</plPL>
-    <koKR>자연의 징표</koKR>
-    <itIT>Marchio della Natura</itIT>
-    <esMX>Marca de la naturaleza</esMX>
-    <esES>Marca de la Naturaleza</esES>
-    <enGB>Mark of Nature</enGB>
-    <deDE>Mal der Natur</deDE>
+    <enUS>Conceal</enUS>
+    <frFR>Dissimuler</frFR>
+    <zhTW>遮蔽</zhTW>
+    <zhCN>隐藏</zhCN>
+    <ruRU>Замаскировать</ruRU>
+    <ptBR>Ocultar</ptBR>
+    <plPL>Ukrycie</plPL>
+    <koKR>은폐</koKR>
+    <itIT>Copertura</itIT>
+    <esMX>Encubrir</esMX>
+    <esES>Embozo</esES>
+    <deDE>Verhüllen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Give a minion +4 Attack; or +4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; donne +4 ATQ à un serviteur ou +4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;給一個手下+4攻擊力，或+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
-    <zhCN>&lt;b&gt;抉择&lt;/b&gt; - 使一个随从获得+4攻击力；或者+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; существо получает +4 к атаке; или +4 к здоровью и &lt;b&gt;«Провокацию»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +4 de Ataque a um lacaio; ou +4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
-    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj stronnikowi +4 do ataku; lub daj +4 do zdrowia oraz &lt;b&gt;Prowokację&lt;/b&gt;.  </plPL>
-    <koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인에게 공격력을 +4 부여합니다. 또는 생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; fornisce +4 Attacco a un servitore o fornisce +4 Salute e &lt;b&gt;Provocazione&lt;/b&gt; a un servitore.</itIT>
-    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +4 de Ataque o +4 de Salud y &lt;b&gt;Provocación&lt;/b&gt; a un esbirro.</esMX>
-    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Otorga +4 p. de ataque a un esbirro, o bien +4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <enGB>&lt;b&gt;Choose One&lt;/b&gt; - Give a minion +4 Attack; or +4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enGB>
-    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Verleiht einem Diener +4 Angriff; oder +4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+    <enUS>Give your minions &lt;b&gt;Stealth&lt;/b&gt; until your next turn.</enUS>
+    <frFR>Confère &lt;b&gt;Camouflage&lt;/b&gt; à vos serviteurs jusqu’à votre prochain tour.</frFR>
+    <zhTW>賦予全部友方手下&lt;b&gt;潛行&lt;/b&gt;直到你的下一個回合。</zhTW>
+    <zhCN>直到你的下个回合，使所有友方随从获得&lt;b&gt;潜行&lt;/b&gt;。</zhCN>
+    <ruRU>Ваши существа получают способность &lt;b&gt;«Маскировка»&lt;/b&gt; до вашего следующего хода.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Furtividade&lt;/b&gt; aos seus lacaios até o próximo turno.</ptBR>
+    <plPL>Daj swoim stronnikom &lt;b&gt;Ukrycie&lt;/b&gt; do twojej następnej tury.</plPL>
+    <koKR>나의 다음 턴까지 아군 하수인들에게 &lt;b&gt;은신&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Furtività&lt;/b&gt; ai tuoi servitori fino al tuo turno successivo.</itIT>
+    <esMX>Otorga &lt;b&gt;Sigilo&lt;/b&gt; a tus esbirros hasta tu próximo turno.</esMX>
+    <esES>Otorga &lt;b&gt;Sigilo&lt;/b&gt; a tus esbirros hasta tu siguiente turno.</esES>
+    <deDE>Verleiht Euren Dienern bis zu Eurem nächsten Zug &lt;b&gt;Verstohlenheit&lt;/b&gt;.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Clint Langley</enUS>
+    <enUS>Steve Hui</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Druids call it the "Mark of Nature".  Everyone else calls it "needing a bath".</enUS>
-    <zhTW>德魯伊們說這叫「自然印記」。其他人則說他們「該洗澡了」。</zhTW>
-    <zhCN>只有德鲁伊们称之为“自然印记”。其他人都喜欢说“加个状态”。</zhCN>
-    <ruRU>Друиды называют это заклинание «Знак природы». Все остальные называют его «пора принять ванну».</ruRU>
-    <ptBR>Os druidas chamam de "Marca da Natureza". Todos os outros chamam de "precisa de um banho".</ptBR>
-    <plPL>Druidzi nazywają to zaklęcie „znakiem natury”. Inni preferują nazwę „kąpiel potrzebna od zaraz”.</plPL>
-    <koKR>드루이드들은 "자연의 징표"라고 부릅니다. 다른 사람들은 좀 씻고 다니라고 합니다.</koKR>
-    <itIT>I Druidi lo chiamano "Marchio della Natura". Tutti gli altri invece "Bisogno di farsi una doccia".</itIT>
-    <frFR>Les druides appellent ça la « Marque de la nature ». Les autres considèrent qu’ils ont juste besoin d’un bon bain...</frFR>
-    <esMX>Los druidas lo llaman "Marca de la naturaleza". Todos los demás lo conocen como "Te hace falta un baño".</esMX>
-    <esES>¿Qué es una gallina en la cuerda floja? Un druida Equilibrio.</esES>
-    <enGB>Druids call it the "Mark of Nature".  Everyone else calls it "needing a bath".</enGB>
-    <deDE>Druiden nennen es „Mal der Natur“. Andere nennen es „Ein Bad benötigen“.</deDE>
+    <enUS>Rogues conceal everything but their emotions.  You can't get 'em to shut up about feelings.</enUS>
+    <zhTW>盜賊除了情緒之外，其他的東西都藏得很好。你沒辦法讓盜賊閉嘴不談他們內心的感受。</zhTW>
+    <zhCN>潜行者们能够隐藏除了他们表情之外的一切东西。你不能阻止他们表达执行暗杀后的兴奋感觉。</zhCN>
+    <ruRU>Разбойники все время носят маски, но они не в силах замаскировать собственные чувства. Как начнут жаловаться за жизнь – так ничем их не остановишь!</ruRU>
+    <ptBR>Os Ladinos escondem tudo menos suas emoções. Eles não sabem calar a boca quando começam a falar dos sentimentos.</ptBR>
+    <plPL>Łotrowie ukrywają wszystko, za wyjątkiem emocji. Są po prostu bardzo uczuciowi.</plPL>
+    <koKR>도적은 모든 것을 은폐시킬 수 있습니다. 근데 이건 어디서 나는 냄새죠?</koKR>
+    <itIT>I Ladri nascondono tutto tranne le loro emozioni. Non puoi farli smettere di parlare delle loro sensazioni.</itIT>
+    <frFR>Il n’y a que leurs émotions que les voleurs ne parviennent pas à dissimuler. Impossible de les empêcher de raconter tous leurs malheurs !</frFR>
+    <esMX>Los pícaros son grandes encubridores, pero cuando se trata de sus sentimientos no hay quién los haga callar. Se empeñan en develar hasta el último detalle.</esMX>
+    <esES>¡Todo su gozo en un embozo!</esES>
+    <deDE>Schurken verhüllen praktisch alles – aber wenn es um ihre Gefühle geht, hüllen sie sich nicht gerade in Schweigen.</deDE>
   </Tag>
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <ReferencedTag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="b5a3da15-a174-4572-8f8e-d17a871066d9" />
 </Entity>

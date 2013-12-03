@@ -1,48 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_025">
-  <MasterPower>d5da4b2c-4233-4200-883e-9643d3b409ab</MasterPower>
+<Entity version="2" CardID="EX1_007">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dragonling Mechanic</enUS>
-    <frFR>Mécano de petit dragon</frFR>
-    <zhTW>機械幼龍技師</zhTW>
-    <zhCN>机械幼龙技工</zhCN>
-    <ruRU>Дракономеханик</ruRU>
-    <ptBR>Mecânica de Dragonete</ptBR>
-    <plPL>Monterka smokorów</plPL>
-    <koKR>기계용 정비사</koKR>
-    <itIT>Costruttrice di Minidraghi</itIT>
-    <esMX>Mecánica de dragonizos</esMX>
-    <esES>Mecánica de dragonizos</esES>
-    <enGB>Dragonling Mechanic</enGB>
-    <deDE>Drachlingmechanikerin</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/1 Mechanical Dragonling.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque un petit dragon mécanique 2/1.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一隻2/1的機械幼龍。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一个2/1的机械幼龙。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя механодракончика 2/1.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque um Dragonete Mecânico 2/1.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij mechanicznego smokora 2/1.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 2/1 소형 기계용을 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un Minidrago Meccanico 2/1.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca un Dragonizo mecánico 2/1.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca un dragonizo mecánico 2/1.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/1 Mechanical Dragonling.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft einen Mechanischen Drachling (2/1) herbei.</deDE>
+    <enUS>Acolyte of Pain</enUS>
+    <frFR>Acolyte de la souffrance</frFR>
+    <zhTW>苦痛侍僧</zhTW>
+    <zhCN>苦痛侍僧</zhCN>
+    <ruRU>Служитель боли</ruRU>
+    <ptBR>Acólito da Dor</ptBR>
+    <plPL>Akolita bólu</plPL>
+    <koKR>고통의 수행사제</koKR>
+    <itIT>Accolito del Dolore</itIT>
+    <esMX>Acólito de dolor</esMX>
+    <esES>Acólito de dolor</esES>
+    <deDE>Akolyth des Schmerzes</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Warren Mahy</enUS>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever this minion takes damage, draw a card.</enUS>
+    <frFR>Vous piochez une carte chaque fois que ce serviteur subit des dégâts.</frFR>
+    <zhTW>每當此手下受到傷害，抽一張牌。</zhTW>
+    <zhCN>每当该随从受到伤害时，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда это существо получает урон, вы берете карту.</ruRU>
+    <ptBR>Sempre que este lacaio receber dano, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy ten stronnik otrzyma obrażenia.</plPL>
+    <koKR>이 하수인이 피해를 입을 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Quando l'Accolito del Dolore subisce danni, pesca una carta.</itIT>
+    <esMX>Cada vez que este esbirro recibe daño, roba una carta.</esMX>
+    <esES>Roba una carta cada vez que este esbirro recibe daño.</esES>
+    <deDE>Zieht jedes Mal eine Karte, wenn dieser Diener Schaden erleidet.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="d5da4b2c-4233-4200-883e-9643d3b409ab" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dave Kendall</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.</enUS>
+    <zhTW>他年輕時本來是想要受訓成為快樂侍僧，但是後來的發展並不如他原本的預期。</zhTW>
+    <zhCN>在他年轻的时候，他经受的是“快乐寺僧”的训练，但是训练成果并不如他想象的那么好。</zhCN>
+    <ruRU>Вообще-то он учился на служителя радости, но что-то пошло не так... </ruRU>
+    <ptBR>Quando era mais jovem, ele estava treinando para ser um Acólito da Alegria, mas as coisas não saíram bem como ele esperava.</ptBR>
+    <plPL>Kiedy był młody, miał zostać akolitą radości, ale coś poszło nie tak.</plPL>
+    <koKR>사실은 기쁨의 수행사제가 되고 싶었던 사람입니다. 이것으로 우리는 고통과 기쁨이 종이 한 장 차이라는 걸 알 수 있습니다.</koKR>
+    <itIT>"È stato imbarazzante... Ogni volta che subiva un colpo, gli scappavano dei gridolini di piacere."</itIT>
+    <frFR>Quand il était plus jeune, il voulait devenir acolyte de la joie, mais on ne fait pas toujours ce qu’on veut, dans la vie.</frFR>
+    <esMX>De joven entrenó mucho para convertirse en un acólito de alegría, pero las cosas no le salieron como esperaba.</esMX>
+    <esES>Cuando era joven intentó buscar trabajo como acólito de la alegría, pero la economía lo convirtió en lo que es ahora.</esES>
+    <deDE>Als er klein war, wollte er eines Tages ein Akolyth der Freude werden, aber manchmal kommen die Dinge eben anders, als man denkt.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="2a056b4e-d140-469c-a114-3093f89a45d4" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

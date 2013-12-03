@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_146">
+<Entity version="2" CardID="CS2_106">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Southsea Deckhand</enUS>
-    <frFR>Matelot des mers du Sud</frFR>
-    <zhTW>南海水手</zhTW>
-    <zhCN>南海船工</zhCN>
-    <ruRU>Матрос Южных морей</ruRU>
-    <ptBR>Marujo dos Mares do Sul</ptBR>
-    <plPL>Majtek z Południowych Mórz</plPL>
-    <koKR>남쪽바다 갑판원</koKR>
-    <itIT>Tagliagole dei Mari del Sud</itIT>
-    <esMX>Marinero de los Mares del sur</esMX>
-    <esES>Marinero de Mares del Sur</esES>
-    <enGB>Southsea Deckhand</enGB>
-    <deDE>Südmeerdeckmatrose</deDE>
+    <enUS>Fiery War Axe</enUS>
+    <frFR>Hache de guerre embrasée</frFR>
+    <zhTW>熾炎戰斧</zhTW>
+    <zhCN>炽炎战斧</zhCN>
+    <ruRU>Огненная секира</ruRU>
+    <ptBR>Machado de Guerra Abrasador</ptBR>
+    <plPL>Ognisty wojenny topór</plPL>
+    <koKR>이글거리는 전쟁 도끼</koKR>
+    <itIT>Ascia da Guerra Ardente</itIT>
+    <esMX>Hacha de guerra ígnea</esMX>
+    <esES>Hacha de guerra ígnea</esES>
+    <deDE>Feurige Kriegsaxt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Has &lt;b&gt;Charge&lt;/b&gt; while you have a weapon equipped.</enUS>
-    <frFR>A &lt;b&gt;Charge&lt;/b&gt; tant que vous êtes équipé d’une arme.</frFR>
-    <zhTW>若你裝備了武器，他便擁有&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
-    <zhCN>当你装备一把武器时，该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Получает &lt;b&gt;Рывок&lt;/b&gt;, если у вас в руках есть оружие.</ruRU>
-    <ptBR>Tem &lt;b&gt;Investida&lt;/b&gt; enquanto você tiver uma arma equipada.</ptBR>
-    <plPL>Posiada &lt;b&gt;Szarżę&lt;/b&gt;, kiedy masz broń na wyposażeniu.</plPL>
-    <koKR>당신이 무기를 장비하고 있으면 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt; fintanto che hai un'arma equipaggiata.</itIT>
-    <esMX>Tiene &lt;b&gt;Carga&lt;/b&gt; mientras tengas un arma equipada.</esMX>
-    <esES>Tiene &lt;b&gt;Cargar&lt;/b&gt; mientras tengas un arma equipada.</esES>
-    <enGB>Has &lt;b&gt;Charge&lt;/b&gt; while you have a weapon equipped.</enGB>
-    <deDE>Hat &lt;b&gt;Ansturm&lt;/b&gt;, während Ihr eine Waffe angelegt habt.</deDE>
-  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Durability" enumID="187" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Brereton</enUS>
+    <enUS>Lucas Graciano</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="a2f8d180-d11b-4b7d-86c9-475f00867d58" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.</enUS>
+    <zhTW>在和平安詳的年代，這把武器有著另一個沒那麼出名的稱呼，叫「冷凍和平斧」。</zhTW>
+    <zhCN>在安宁祥和的年代，人们用另一个不太流行的名字称呼这把武器，寒冰静谧之斧。</zhCN>
+    <ruRU>В мирные времена этот топор носил иное, менее популярное название, – «Секира ледяного спокойствия».</ruRU>
+    <ptBR>Nos tempos de tranquilidade e harmonia, esta arma era chamada por seu nome menos conhecido, Machado da Paz Na Moral, Aí.</ptBR>
+    <plPL>W czasach pokoju i ogólnej harmonii broń ta znana jest pod mniej popularną nazwą: Pieligrządek Pokoju.</plPL>
+    <koKR>한창 평화롭던 시절에는 사람들이 이 도끼를 다르게 불렀습니다. 싸늘한 평화 도끼라고 말이죠... 이 싸늘한 분위기는 뭘까요?</koKR>
+    <itIT>Durante periodi di tranquillità e armonia, quest'arma veniva chiamata Ascia da Pace Rinfrescante.</itIT>
+    <frFR>En période de paix et d’harmonie, cette arme portait un nom beaucoup moins populaire. Hache de guerre froide.</frFR>
+    <esMX>En épocas de paz y tranquilidad, esta arma era conocida por su nombre menos habitual: Hacha de la paz helada.</esMX>
+    <esES>En épocas de tranquilidad y armonía, a esta arma se la conoce por su nombre menos popular: hacha de paz fresquita.</esES>
+    <deDE>In Zeiten der Ruhe und der Harmonie wurde diese Waffe bei ihrem weniger bekannten Namen genannt: Kühlende Friedensaxt.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 36.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
 </Entity>

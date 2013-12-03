@@ -1,51 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_161">
-  <MasterPower>ec37f417-25c4-45d0-a3cd-296f1c25174f</MasterPower>
+<Entity version="2" CardID="EX1_145">
+  <MasterPower>0cc6ff8b-fd76-4877-8348-578aef4059a9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Naturalize</enUS>
-    <frFR>Acclimatation</frFR>
-    <zhTW>自然化</zhTW>
-    <zhCN>自然平衡</zhCN>
-    <ruRU>Близость к природе</ruRU>
-    <ptBR>Naturalizar</ptBR>
-    <plPL>Naturalizacja</plPL>
-    <koKR>자연화</koKR>
-    <itIT>Naturalizzazione</itIT>
-    <esMX>Naturalizar</esMX>
-    <esES>Naturalizar</esES>
-    <enGB>Naturalize</enGB>
-    <deDE>Kreislauf der Natur</deDE>
+    <enUS>Preparation</enUS>
+    <frFR>Préparation</frFR>
+    <zhTW>準備</zhTW>
+    <zhCN>伺机待发</zhCN>
+    <ruRU>Подготовка</ruRU>
+    <ptBR>Preparação</ptBR>
+    <plPL>Przygotowanie</plPL>
+    <koKR>마음가짐</koKR>
+    <itIT>Preparazione</itIT>
+    <esMX>Preparación</esMX>
+    <esES>Preparación</esES>
+    <deDE>Vorbereitung</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy a minion. Your opponent draws 2 cards.</enUS>
-    <frFR>Détruit un serviteur. Votre adversaire pioche 2 cartes.</frFR>
-    <zhTW>摧毀一個手下。你的對手抽2張牌。</zhTW>
-    <zhCN>消灭一个随从。你的对手抽二张牌。</zhCN>
-    <ruRU>Уничтожает существо. Ваш противник берет 2 карты.</ruRU>
-    <ptBR>Destrua um lacaio. Seu oponente compra dois cards.</ptBR>
-    <plPL>Niszczysz stronnika. Przeciwnik dobiera 2 karty.</plPL>
-    <koKR>하수인을 파괴합니다. 상대편이 카드를 두 장 뽑습니다.</koKR>
-    <itIT>Distrugge un servitore. L'avversario pesca 2 carte.</itIT>
-    <esMX>Destruye un esbirro. Tu adversario roba 2 cartas.</esMX>
-    <esES>Destruye a un esbirro. Tu oponente roba 2 cartas.</esES>
-    <enGB>Destroy a minion. Your opponent draws 2 cards.</enGB>
-    <deDE>Vernichtet einen Diener. Euer Gegner zieht 2 Karten.</deDE>
+    <enUS>The next spell you cast this turn costs (3) less.</enUS>
+    <frFR>Le prochain sort que vous lancez coûte (3) cristaux de moins.</frFR>
+    <zhTW>你在本回合內施放的下一個法術消耗減少(3)點。</zhTW>
+    <zhCN>在本回合中，你所施放的下一个法术的法力值消耗减少（3）点。</zhCN>
+    <ruRU>Следующее заклинание, которое вы разыграете в этот ход, стоит на (3) маны меньше.</ruRU>
+    <ptBR>O próximo feitiço que você lançar custará (3) a menos.</ptBR>
+    <plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (3) mniej.</plPL>
+    <koKR>이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.</koKR>
+    <itIT>La prossima Magia che lanci in questo turno costa (3) Mana in meno.</itIT>
+    <esMX>El próximo hechizo que juegues en este turno cuesta (3) menos.</esMX>
+    <esES>El siguiente hechizo que lances este turno costará (3) cristales menos.</esES>
+    <deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (3) weniger.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Leo Che</enUS>
+    <enUS>Clint Langley</enUS>
   </Tag>
-  <Power definition="ec37f417-25c4-45d0-a3cd-296f1c25174f">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"Be Prepared" - Rogue Motto</enUS>
+    <zhTW>「要準備妥當」-盜賊的信條</zhTW>
+    <zhCN>“随时准备伺机待发。”——潜行者座右铭</zhCN>
+    <ruRU>«Главное – хорошая подготовка.» Девиз разбойников.</ruRU>
+    <ptBR>"Esteja preparado." — Lema Ladino</ptBR>
+    <plPL>Trucizna? Jest. Kamuflaż? Jest. Zaostrzona broń? Jest. Przeciwnik? Jeszcze jest.</plPL>
+    <koKR>"항상 대비하라." - 도적 격언</koKR>
+    <itIT>"Siate pronti." - Un motto dei Ladri</itIT>
+    <frFR>« Toujours prêt » - Devise des voleurs</frFR>
+    <esMX>"Estén preparados" —Lema de Pícaros.</esMX>
+    <esES>"¡Siempre preparados!" - Lema de los pícaros</esES>
+    <deDE>Manchmal ist Vorbereitung das halbe Leben ... im wahrsten Sinne des Wortes.</deDE>
+  </Tag>
+  <Power definition="0cc6ff8b-fd76-4877-8348-578aef4059a9" />
 </Entity>

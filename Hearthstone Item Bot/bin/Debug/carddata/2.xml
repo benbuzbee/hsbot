@@ -1,63 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1_112">
-  <MasterPower>add8d26e-2838-4f10-97f4-d2a9312b79b5</MasterPower>
+<Entity version="2" CardID="CRED_03">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Holy Nova</enUS>
-    <frFR>Nova sacrée</frFR>
-    <zhTW>神聖新星</zhTW>
-    <zhCN>神圣新星</zhCN>
-    <ruRU>Кольцо света</ruRU>
-    <ptBR>Nova Sagrada</ptBR>
-    <plPL>Nova świętości</plPL>
-    <koKR>신성한 폭발</koKR>
-    <itIT>Esplosione Sacra</itIT>
-    <esMX>Nova sagrada</esMX>
-    <esES>Nova Sagrada</esES>
-    <enGB>Holy Nova</enGB>
-    <deDE>Heilige Nova</deDE>
+    <enUS>Bob Fitch</enUS>
+    <zhTW>Bob Fitch</zhTW>
+    <zhCN>Bob Fitch</zhCN>
+    <ruRU>Bob Fitch</ruRU>
+    <ptBR>Bob Fitch</ptBR>
+    <plPL>Bob Fitch</plPL>
+    <koKR>밥 피치</koKR>
+    <itIT>Bob Fitch</itIT>
+    <frFR>Bob Fitch</frFR>
+    <esMX>Bob Fitch</esMX>
+    <esES>Bob Fitch</esES>
+    <deDE>Bob Fitch</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage to all enemies.  Restore #2 Health to all  friendly characters.</enUS>
-    <frFR>Inflige $2 point(s) de dégâts à tous les adversaires. Rend #2 point(s) de vie à tous les personnages alliés.</frFR>
-    <zhTW>對全部敵人造成$2點傷害。使全部友方角色恢復#2點生命值。</zhTW>
-    <zhCN>对所有敌方角色造成$2点伤害。为所有友方角色恢复#2点生命值。</zhCN>
-    <ruRU>Наносит $2 ед. урона всем противникам. Восстанавливает #2 ед. здоровья всем вашим персонажам.</ruRU>
-    <ptBR>Cause $2 de dano a todos os inimigos. Restaure #2 de Vida de todos os personagens aliados.</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń wszystkim przeciwnikom. Przywróć #2 pkt. zdrowia wszystkim sojusznikom.</plPL>
-    <koKR>모든 적에게 피해를 $2 줍니다. 모든 아군 캐릭터의 생명력을 #2 회복시킵니다.</koKR>
-    <itIT>Infligge $2 danni a tutti i personaggi nemici. Rigenera #2 Salute a tutti i tuoi personaggi.</itIT>
-    <esMX>Inflige $2 de daño a todos los enemigos. Restaura #2 de Salud a todos los personajes aliados.</esMX>
-    <esES>Inflige $2 p. de daño a todos los enemigos. Restaura #2 p. de salud a todos los personajes amistosos.</esES>
-    <enGB>Deal $2 damage to all enemies.  Restore 2 Health to all  friendly characters.</enGB>
-    <deDE>Fügt allen Feinden $2 Schaden zu. Stellt bei allen befreundeten Charakteren #2 Leben wieder her.</deDE>
+    <enUS>&lt;b&gt;Super Taunt&lt;/b&gt; &lt;i&gt;(EVERY character must attack this minion.)&lt;/i&gt;</enUS>
+    <zhTW>&lt;b&gt;超級嘲諷:&lt;/b&gt;每個角色都必須攻擊這個手下。</zhTW>
+    <zhCN>&lt;b&gt;超级嘲讽&lt;/b&gt; &lt;i&gt;（所有角色必须供给该随从。）&lt;/i&gt;</zhCN>
+    <ruRU>&lt;b&gt;Супер-провокация&lt;/b&gt; &lt;i&gt;(КАЖДЫЙ персонаж должен атаковать это существо.)&lt;/i&gt;</ruRU>
+    <ptBR>&lt;b&gt;Super Provocar&lt;/b&gt; &lt;i&gt;(TODOS os personagens precisam atacar este lacaio.)&lt;/i&gt;</ptBR>
+    <plPL>&lt;b&gt;Super prowokacja&lt;/b&gt; &lt;i&gt;(KAŻDA postać musi zaatakować tego stonnika.)&lt;/i&gt;</plPL>
+    <koKR>&lt;b&gt;초도발&lt;/b&gt; &lt;i&gt;(모든 캐릭터가 이 하수인을 공격해야 함)&lt;/i&gt;</koKR>
+    <itIT>&lt;b&gt;Super Provocazione:&lt;/b&gt; TUTTI i personaggi devono attaccare questo servitore!</itIT>
+    <frFR>&lt;b&gt;Super provocation&lt;/b&gt; &lt;i&gt;(TOUS les personnages doivent attaquer ce serviteur.)&lt;/i&gt;</frFR>
+    <esMX>&lt;b&gt;Súper provocación&lt;/b&gt; &lt;i&gt;(TODOS los personajes deben atacar a este esbirro).&lt;/i&gt;</esMX>
+    <esES>&lt;b&gt;Provocar Total&lt;/b&gt; &lt;i&gt;(TODOS los personajes deben atacar a este esbirro)&lt;/i&gt;</esES>
+    <deDE>&lt;b&gt;Super-Spott&lt;/b&gt; &lt;i&gt;(JEDER Charakter muss diesen Diener angreifen.)&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Luca Zontini</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If the Holy Light forsakes you, good luck casting this spell.  Also, you're probably a jerk.</enUS>
-    <enGB>If the Holy Light forsakes you, good luck casting this spell.  Also, you're probably a jerk.</enGB>
-    <zhTW>如果抽不到聖光術，將就一下這張吧。可能是因為你作惡多端的關係。</zhTW>
-    <zhCN>没有得到圣光眷顾的人切忌使用这个法术，它滋润善者，惩罚恶徒。</zhCN>
-    <ruRU>Если силы Света отвернулись от вас, вряд ли вам удастся применить это заклинание. И поделом вам!</ruRU>
-    <ptBR>Se a Luz Sagrada abandona você, boa sorte usando esse feitiço. Ah, e você deve ser um babaca.</ptBR>
-    <plPL>Jeśli opuści cię święta światłość, to raczej sobie tego nie rzucisz. I zapewne jesteś draniem.</plPL>
-    <koKR>이 주문을 썼는데 피해를 입었다면, 신앙심이 부족하거나 나쁜 사람이란 뜻입니다.</koKR>
-    <itIT>Se la Luce Sacra ti ha abbandonato, domandati perché. E buona fortuna con questa magia.</itIT>
-    <frFR>Si la Lumière sacrée vous abandonne, bonne chance pour lancer ce sort. Et ça veut sans doute dire que vous n’êtes pas une lumière.</frFR>
-    <esMX>Si la luz sagrada te abandona, quizás llegó la hora de reflexionar. ¿Has estado pecando últimamente?</esMX>
-    <esES>Si la Luz Sagrada te ha abandonado, vete rezando. Y si te ha abandonado, por algo será.</esES>
-    <deDE>Wenn das heilige Licht Euch verlassen hat, bedeutet das, dass Ihr hiervon besser die Finger lassen solltet. Außerdem trifft es eine Aussage über Euren Charakter.</deDE>
-  </Tag>
-  <Power definition="add8d26e-2838-4f10-97f4-d2a9312b79b5" />
 </Entity>

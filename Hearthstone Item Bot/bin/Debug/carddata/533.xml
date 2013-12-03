@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="GAME_003e">
+<Entity version="2" CardID="EX1_623e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Coin's Vengence</enUS>
-    <zhTW>擲幣之復仇</zhTW>
-    <zhCN>幸运币复仇</zhCN>
-    <ruRU>Месть монетки</ruRU>
-    <ptBR>Vingança da Moeda</ptBR>
-    <plPL>Zemsta monety</plPL>
-    <koKR>동전의 복수</koKR>
-    <itIT>Vendetta della Moneta</itIT>
-    <frFR>Vengeance de la pièce</frFR>
-    <esMX>Venganza de la moneda</esMX>
-    <esES>La venganza de la moneda</esES>
-    <enGB>Coin's Vengence</enGB>
-    <deDE>Rache der Münze</deDE>
+    <enUS>Infusion</enUS>
+    <zhTW>注入</zhTW>
+    <zhCN>生命灌注</zhCN>
+    <ruRU>Усиление</ruRU>
+    <ptBR>Infusão</ptBR>
+    <plPL>Infuzja</plPL>
+    <koKR>주입</koKR>
+    <itIT>Infusione</itIT>
+    <frFR>Infusion</frFR>
+    <esMX>Infusión</esMX>
+    <esES>Infusión</esES>
+    <deDE>Infusion</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Going second makes your first minion stronger.</enUS>
-    <zhTW>後手讓你的第一個手下變得更強大。</zhTW>
-    <zhCN>后手出牌会使你的第一个随从获得增强。</zhCN>
-    <ruRU>Если вы ходите вторым, первое разыгранное вами существо становится сильнее.</ruRU>
-    <ptBR>Ser o segundo a jogar deixa seu primeiro lacaio mais forte.</ptBR>
-    <plPL>Dzięki temu, że jesteś drugim graczem, twój pierwszy stronnik jest silniejszy.</plPL>
-    <koKR>후공으로 시작하면 첫 하수인이 강해짐</koKR>
-    <itIT>Partire per secondo rende più forte il tuo primo servitore.</itIT>
-    <frFR>Passer en second renforce votre premier serviteur.</frFR>
-    <esMX>Ser el segundo fortalece a tu primer esbirro.</esMX>
-    <esES>Ir en segundo lugar hace que tu primer esbirro sea más fuerte.</esES>
-    <enGB>Going second makes your first minion stronger.</enGB>
-    <deDE>Da Ihr als Zweiter dran seid, wird Euer zuerst ausgespielter Diener stärker.</deDE>
+    <enUS>+3 Health.</enUS>
+    <zhTW>+3生命值。</zhTW>
+    <zhCN>+3生命值</zhCN>
+    <ruRU>+3 к здоровью.</ruRU>
+    <ptBR>+3 de Vida.</ptBR>
+    <plPL>+3 do zdrowia.</plPL>
+    <koKR>생명력 +3</koKR>
+    <itIT>+3 Salute.</itIT>
+    <frFR>+3 PV.</frFR>
+    <esMX>+3 de Salud.</esMX>
+    <esES>+3 p. de salud.</esES>
+    <deDE>+3 Leben.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="9eeda678-89b3-4ff6-90b5-61d5f2e3950a" />
+  <Power definition="9a763ebb-9fdd-4dd8-bd2d-da1c47582a8e" />
 </Entity>

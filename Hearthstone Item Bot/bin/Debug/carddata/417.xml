@@ -1,43 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_411e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_392">
+  <MasterPower>b325b69e-6855-4de3-a96b-592d349880d6</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bloodrage</enUS>
-    <frFR>Rage sanguinaire</frFR>
-    <zhTW>血性狂暴</zhTW>
-    <zhCN>血性狂暴</zhCN>
-    <ruRU>Кровавая ярость</ruRU>
-    <ptBR>Fúria Sanguinária</ptBR>
-    <plPL>Krwawy szał</plPL>
-    <koKR>피의 분노</koKR>
-    <itIT>Furia del Sangue</itIT>
-    <esMX>Ira sangrienta</esMX>
-    <esES>Ira sangrienta</esES>
-    <enGB>Bloodrage</enGB>
-    <deDE>Blutrausch</deDE>
+    <enUS>Battle Rage</enUS>
+    <frFR>Rage du combat</frFR>
+    <zhTW>戰鬥狂怒</zhTW>
+    <zhCN>战斗怒火</zhCN>
+    <ruRU>Боевая ярость</ruRU>
+    <ptBR>Ira de Batalha</ptBR>
+    <plPL>Bitewny szał</plPL>
+    <koKR>전투 격노</koKR>
+    <itIT>Furia Battagliera</itIT>
+    <esMX>Ira de batalla</esMX>
+    <esES>Ira de batalla</esES>
+    <deDE>Kampfeswut</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>No durability loss.</enUS>
-    <frFR>Aucune perte de durabilité.</frFR>
-    <zhTW>不損失耐久度。</zhTW>
-    <zhCN>不会消耗耐久度。</zhCN>
-    <ruRU>Не теряет прочности.</ruRU>
-    <ptBR>Sem perda de durabilidade.</ptBR>
-    <plPL>Nie traci wytrzymałości.</plPL>
-    <koKR>내구도 소모 없음</koKR>
-    <itIT>Nessuna perdita di Integrità.</itIT>
-    <esMX>No pierdes Durabilidad.</esMX>
-    <esES>No hay pérdida de durabilidad.</esES>
-    <enGB>No durability loss.</enGB>
-    <deDE>Kein Haltbarkeitsverlust.</deDE>
+    <enUS>Draw a card for each damaged character.</enUS>
+    <frFR>Vous piochez une carte pour chaque personnage blessé.</frFR>
+    <zhTW>抽牌，數量等於受傷角色的總數。</zhTW>
+    <zhCN>每有一个受到伤害的角色，便抽一张牌。</zhCN>
+    <ruRU>Вы берете карту за каждого персонажа с неполным здоровьем.</ruRU>
+    <ptBR>Compre um card para cada personagem ferido.</ptBR>
+    <plPL>Dobierz kartę za każdą zranioną postać.</plPL>
+    <koKR>피해를 입은 캐릭터의 수만큼 카드를 뽑습니다.</koKR>
+    <itIT>Pesca una carta per ogni personaggio danneggiato.</itIT>
+    <esMX>Roba una carta por cada personaje dañado.</esMX>
+    <esES>Roba una carta por cada personaje dañado.</esES>
+    <deDE>Zieht eine Karte für jeden verletzten Charakter.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="11b51841-1974-475d-b6df-70a47e2b3a3b" />
-  <Power definition="5ccc4fe4-f6ef-4664-b4f1-75fa29db100e" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Alex Horley Orlandelli</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"You won't like me when I'm angry."</enUS>
+    <zhTW>「你不會喜歡生氣時的我。」</zhTW>
+    <zhCN>“你不会喜欢我生气的样子。”</zhCN>
+    <ruRU>«Лучше не зли меня. Тебе это не понравится.»</ruRU>
+    <ptBR>"Você não vai gostar se eu me zangar."</ptBR>
+    <plPL>„Nie spodobam ci się, gdy wpadnę w złość”.</plPL>
+    <koKR>"날 화나게 하지마. 분명 후회할걸?"</koKR>
+    <itIT>"Non sono simpatico quando mi arrabbio."</itIT>
+    <frFR>« Ne me mettez pas en colère, vous risqueriez de le regretter. »</frFR>
+    <esMX>Ojo, no soy yo cuando me enojo.</esMX>
+    <esES>Para poder ganar hay que saber sufrir.</esES>
+    <deDE>„Ihr würdet mich nicht mögen, wenn ich wütend bin.“</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="b325b69e-6855-4de3-a96b-592d349880d6">
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

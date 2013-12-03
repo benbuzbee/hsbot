@@ -1,67 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_612">
-  <MasterPower>87fac18f-63f8-4d0f-b005-adf249191811</MasterPower>
+<Entity version="2" CardID="EX1_593">
+  <MasterPower>edb9d489-93ea-4ab6-94c0-5866dc2fc9e7</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Kirin Tor Mage</enUS>
-    <frFR>Mage du Kirin Tor</frFR>
-    <zhTW>祈倫托法師</zhTW>
-    <zhCN>肯瑞托法师</zhCN>
-    <ruRU>Маг Кирин-Тора</ruRU>
-    <ptBR>Maga do Kirin Tor</ptBR>
-    <plPL>Mag Kirin Toru</plPL>
-    <koKR>키린 토 마법사</koKR>
-    <itIT>Mago del Kirin Tor</itIT>
-    <esMX>Maga del Kirin Tor</esMX>
-    <esES>Maga del Kirin Tor</esES>
-    <enGB>Kirin Tor Mage</enGB>
-    <deDE>Magierin der Kirin Tor</deDE>
+    <enUS>Nightblade</enUS>
+    <frFR>Lamenuit</frFR>
+    <zhTW>夜刃刺客</zhTW>
+    <zhCN>夜刃刺客</zhCN>
+    <ruRU>Ночной Клинок</ruRU>
+    <ptBR>Lâmina Soturna</ptBR>
+    <plPL>Ostrze Nocy</plPL>
+    <koKR>암흑칼날</koKR>
+    <itIT>Lamascura</itIT>
+    <esMX>Hoja de la noche</esMX>
+    <esES>Hoja de la noche</esES>
+    <deDE>Nachtklinge</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="Atk" enumID="47" type="Number" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; The next &lt;b&gt;Secret&lt;/b&gt; you play this turn costs (0).</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; le prochain &lt;b&gt;Secret&lt;/b&gt; que vous jouez ce tour-ci coûte (0).</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你本回合內使用的下一個&lt;b&gt;秘密&lt;/b&gt;消耗為(0)點。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;在本回合中，你使用的下一个&lt;b&gt;奥秘&lt;/b&gt;的法力值消耗为（0）点。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; следующий &lt;b&gt;Секрет&lt;/b&gt;, который вы разыграете на этом ходу, будет стоить (0) маны.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; O próximo &lt;b&gt;Segredo&lt;/b&gt; que você lançar neste turno custará (0).</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Następny &lt;b&gt;Sekret&lt;/b&gt;, który zagrasz w tej turze, kosztuje (0).</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 내는 당신의 다음 &lt;b&gt;비밀&lt;/b&gt; 비용이 (0)이 됩니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il prossimo &lt;b&gt;Segreto&lt;/b&gt; che giochi in questo turno costa (0) Mana.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; el próximo &lt;b&gt;Secreto&lt;/b&gt; que juegues en este turno cuesta (0).</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; El siguiente &lt;b&gt;Secreto&lt;/b&gt; que juegues este turno costará (0) p.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; The next &lt;b&gt;Secret&lt;/b&gt; you play this turn costs (0).</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Das nächste &lt;b&gt;Geheimnis&lt;/b&gt;, das Ihr in diesem Zug ausspielt, kostet (0).</deDE>
+    <enUS>&lt;b&gt;Battlecry: &lt;/b&gt;Deal 3 damage to the enemy hero.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 3 points de dégâts au héros adverse.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;對敵方英雄造成3點傷害。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;对敌方英雄造成3点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 3 ед. урона герою противника.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 3 de dano ao herói inimigo.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 3 pkt. obrażeń wrogiemu bohaterowi.</plPL>
+    <koKR>&lt;b&gt;전투의 함성: &lt;/b&gt;적 영웅에게 피해를 3 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 3 danni all'eroe nemico.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 3 de daño al héroe enemigo.</esMX>
+    <esES>&lt;b&gt;Grito de batalla: &lt;/b&gt;Inflige 3 p. de daño al héroe enemigo.</esES>
+    <deDE>&lt;b&gt;Kampfschrei: &lt;/b&gt;Fügt dem feindlichen Helden 3 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.</enUS>
-    <zhTW>祈倫托住在飄浮的城市達拉然裡。如何調製飄浮達拉然?兩球冰淇淋，一球達拉然。</zhTW>
-    <zhCN>肯瑞托的法师们居住在飘浮之城达拉然。怎样让达拉然飘起来？只要用魔法把氢气球变成透明的就行了。</zhCN>
-    <ruRU>Кирин-Тор заседает в парящем городе Даларане. Хотите рецепт парящего Даларана? Два шарика мороженого, один шарик Даларана.</ruRU>
-    <ptBR>A sede do Kirin Tor fica na cidade flutuante de Dalaran. Como é que ela flutua? Será que usam balões? Balões nunca são uma boa ideia.</ptBR>
-    <plPL>Kirin Tor ma siedzibę w latającym mieście Dalaran. Jak Dalaran utrzymuje się w powietrzu? Dwie gałki lodów, a na to jedna gałka Dalaranu.</plPL>
-    <koKR>키린 토는 하늘에 떠 있는 도시, 달라란에 거주합니다. 어떻게 달라란을 하늘로 띄우냐고요? 아이스크림 두 스푼, 달라란 한 스푼이면 된다는군요.</koKR>
-    <itIT>Il Kirin Tor ha sede nella città sospesa di Dalaran. Come si fa a sospendere Dalaran? Con una bella nota sul registro! </itIT>
-    <frFR>Les mages du Kirin Tor résident dans la cité flottante de Dalaran. Une ville qui flotte ? Et pourquoi pas des chevaux ailés !!!</frFR>
-    <esMX>Los Kirin Tor viven en la ciudad flotante de Dalaran. ¿Cómo logran que flote? Baten siete claras a punto nieve y agregan una pizca de Dalaran.</esMX>
-    <esES>El Kirin Tor se encuentra en la ciudad flotante de Dalaran. ¿Cómo flota Dalaran? Apunta al suelo y falla.</esES>
-    <enGB>The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.</enGB>
-    <deDE>Die Kirin Tor sind die mächtigsten Magier von ganz Azeroth und leben in der schwebenden Stadt Dalaran. Sie mögen Tore und Torten.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Concept Art House</enUS>
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Druid Level 53.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Your face is the place you'd probably least like a dagger, and where rogues are most likely to deliver them.</enUS>
+    <zhTW>你的臉大概是你最不希望被匕首割到的地方，而那裡正是盜賊最喜歡用匕首割的地方。</zhTW>
+    <zhCN>你的脸可能是你最不希望被刀子碰到的地方，但却是潜行者们最喜欢下手的地方。</zhCN>
+    <ruRU>Вам вряд ли хочется увеличить содержание железа в вашей голове, но разбойники именно на нее нацеливают свои клинки.</ruRU>
+    <ptBR>O lugar onde você menos gostaria de levar uma adaga é a sua cara (e é onde os ladinos gostam de tacar adagas).</ptBR>
+    <plPL>Ostrze Nocy zawsze jest chętne do skrytej pomocy.</plPL>
+    <koKR>단검을 가장 피하고 싶은 부분은 당신의 얼굴일 겁니다. 그러니 도적이 그곳을 노릴 겁니다.</koKR>
+    <itIT>La tua faccia è l'ultimo posto nel quale vorresti un pugnale, ed è esattamente dove un Ladro te lo inflizerebbe.</itIT>
+    <frFR>Les voleurs mettent leurs lames où ils veulent... et c’est souvent dans la gueule.</frFR>
+    <esMX>Es probable que tu cara sea el último lugar donde quieras ver una daga, y es precisamente ahí donde los pícaros apuntan más a menudo.</esMX>
+    <esES>La cara es el último lugar en el que te apetece que te claven una daga, y el primero que van a probar los pícaros.</esES>
+    <deDE>In Eurem Gesicht habt Ihr wahrscheinlich nicht gern einen Dolch stecken, doch genau dort stecken ihn Schurken besonders gern hin.</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="87fac18f-63f8-4d0f-b005-adf249191811" />
+  <Power definition="edb9d489-93ea-4ab6-94c0-5866dc2fc9e7" />
 </Entity>

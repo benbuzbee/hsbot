@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="HERO_02">
+<Entity version="2" CardID="EX1_finkle">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Thrall</enUS>
-    <zhTW>索爾</zhTW>
-    <zhCN>萨尔</zhCN>
-    <ruRU>Тралл</ruRU>
-    <ptBR>Thrall</ptBR>
-    <plPL>Trall</plPL>
-    <koKR>스랄</koKR>
-    <itIT>Thrall</itIT>
-    <frFR>Thrall</frFR>
-    <esMX>Thrall</esMX>
-    <esES>Thrall</esES>
-    <enGB>Thrall</enGB>
-    <deDE>Thrall</deDE>
+    <enUS>Finkle Einhorn</enUS>
+    <frFR>Finkle Einhorn</frFR>
+    <zhTW>芬克·恩霍爾</zhTW>
+    <zhCN>芬克·恩霍尔</zhCN>
+    <ruRU>Айс Вентурон</ruRU>
+    <ptBR>Jonas Tiragosto</ptBR>
+    <plPL>Finkosz Rogoźnik</plPL>
+    <koKR>핑클 아인혼</koKR>
+    <itIT>Finkle Cascorotto</itIT>
+    <esMX>Finkle Einhorn</esMX>
+    <esES>Finkle Einhorn</esES>
+    <deDE>Finkle Einhorn</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="30" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Power definition="324f00a9-d936-4aa5-a35b-7c6e4070ca18" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
 </Entity>

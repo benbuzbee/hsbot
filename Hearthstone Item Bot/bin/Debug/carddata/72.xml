@@ -1,68 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_076">
-  <MasterPower>2223ff8e-c651-42c7-914e-d722a0130103</MasterPower>
+<Entity version="2" CardID="CS2_056">
+  <MasterPower>78d0b174-c5ca-4a4b-b9d4-b7edfe8bf029</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Assassinate</enUS>
-    <frFR>Assassiner</frFR>
-    <zhTW>暗殺</zhTW>
-    <zhCN>刺杀</zhCN>
-    <ruRU>Ликвидация</ruRU>
-    <ptBR>Assassinar</ptBR>
-    <plPL>Skrytobójstwo</plPL>
-    <koKR>암살</koKR>
-    <itIT>Assassinio</itIT>
-    <esMX>Asesinato</esMX>
-    <esES>Asesinato</esES>
-    <enGB>Assassinate</enGB>
-    <deDE>Attentat</deDE>
+    <enUS>Life Tap</enUS>
+    <frFR>Connexion</frFR>
+    <zhTW>生命分流</zhTW>
+    <zhCN>生命分流</zhCN>
+    <ruRU>Жизнеотвод</ruRU>
+    <ptBR>Conversão de Vida</ptBR>
+    <plPL>Moc krwi</plPL>
+    <koKR>생명력 전환</koKR>
+    <itIT>Conversione Vitale</itIT>
+    <esMX>Transfusión de vida</esMX>
+    <esES>Transfusión de vida</esES>
+    <deDE>Aderlass</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy an enemy minion.</enUS>
-    <frFR>Détruit un serviteur adverse.</frFR>
-    <zhTW>摧毀一個敵方手下。</zhTW>
-    <zhCN>消灭一个敌方随从。</zhCN>
-    <ruRU>Уничтожает выбранное существо противника.</ruRU>
-    <ptBR>Destrua um lacaio inimigo.</ptBR>
-    <plPL>Niszczysz wrogiego stronnika.</plPL>
-    <koKR>적 하수인을 파괴합니다.</koKR>
-    <itIT>Distrugge un servitore nemico.</itIT>
-    <esMX>Destruye un esbirro enemigo.</esMX>
-    <esES>Destruye a un esbirro enemigo.</esES>
-    <enGB>Destroy an enemy minion.</enGB>
-    <deDE>Vernichtet einen feindlichen Diener.</deDE>
+    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Draw a card and take 2 damage.</enUS>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nSubit 2 points de dégâts. Vous piochez une carte.</frFR>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n抽一張牌並受到2點傷害。</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n抽一张牌并受到2点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n Вы берете карту и получаете 2 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Compre um card e receba 2 de dano.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Dobierz kartę i otrzymaj 2 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 피해를 2 입는 대신 카드를 1장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nPesca una carta e subisce 2 danni.</itIT>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Roba una carta y recibe 2 de daño.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Roba una carta y recibe 2 p. de daño.</esES>
+    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n Zieht eine Karte und erleidet 2 Schaden.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you don't want to be assassinated, move to the Barrens and change your name. Good luck!</enUS>
-    <zhTW>如果你不想被暗殺，搬去貧瘠之地然後改名換姓。祝你好運!</zhTW>
-    <zhCN>要是你不想被人暗杀，躲到贫瘠之地，然后隐姓埋名。祝你好运！</zhCN>
-    <ruRU>Если не хотите, чтобы вас ликвидировали, бегите в Степи и смените имя. Удачи!</ruRU>
-    <ptBR>Se você não quer ser assassinado, mude-se para os Sertões e troque seu nome. Boa sorte!</ptBR>
-    <plPL>Jeśli nie chcesz paść ofiarą skrytobójców, przenieś się na Pustkowia i zmień imię. Powodzenia!</plPL>
-    <koKR>암살당하기 싫다고요? 이름을 바꾸고 불모의 땅으로 가세요. 행운을 빕니다!</koKR>
-    <itIT>Se non vuoi farti assassinare è meglio se ti trasferisci nelle Savane e cambi nome. Buona fortuna!</itIT>
-    <frFR>Si vous ne voulez pas être assassiné, fuyez dans les Tarides et changez de nom. Bonne chance !</frFR>
-    <esMX>Si no quieres que te asesinen, huye hacia los Baldíos y cámbiate el nombre. ¡Buena suerte!</esMX>
-    <esES>Si no quieres que te asesinen, múdate a Los Baldíos y cambia de nombre. ¡Buena suerte!</esES>
-    <enGB>If you don't want to be assassinated, move to the Barrens and change your name. Good luck!</enGB>
-    <deDE>Über Risiken und Nebenwirkungen braucht Ihr Euch keine Gedanken zu machen. </deDE>
-  </Tag>
-  <Power definition="2223ff8e-c651-42c7-914e-d722a0130103">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="3" param="" />
-  </Power>
+  <Power definition="78d0b174-c5ca-4a4b-b9d4-b7edfe8bf029" />
 </Entity>

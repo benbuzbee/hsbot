@@ -1,49 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_043">
-  <MasterPower>80b6975f-1f7c-42de-ac99-e06a273f4399</MasterPower>
+<Entity version="2" CardID="EX1_014">
+  <MasterPower>bfc8471e-08fb-412b-a569-c7f1709c90eb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Twilight Drake</enUS>
-    <frFR>Drake du Crépuscule</frFR>
-    <zhTW>暮光飛龍</zhTW>
-    <zhCN>暮光幼龙</zhCN>
-    <ruRU>Сумеречный дракон</ruRU>
-    <ptBR>Draco do Crepúsculo</ptBR>
-    <plPL>Smokowiec zmierzchu</plPL>
-    <koKR>황혼의 비룡</koKR>
-    <itIT>Draco del Crepuscolo</itIT>
-    <esMX>Draco crepuscular</esMX>
-    <esES>Draco Crepuscular</esES>
-    <enGB>Twilight Drake</enGB>
-    <deDE>Zwielichtdrache</deDE>
+    <enUS>King Mukla</enUS>
+    <frFR>Roi Mukla</frFR>
+    <zhTW>穆克拉</zhTW>
+    <zhCN>穆克拉</zhCN>
+    <ruRU>Король Мукла</ruRU>
+    <ptBR>Rei Mukla</ptBR>
+    <plPL>Król Mukla</plPL>
+    <koKR>밀림의 왕 무클라</koKR>
+    <itIT>Re Mukla</itIT>
+    <esMX>Rey Mukla</esMX>
+    <esES>Rey Mukla</esES>
+    <deDE>König Mukla</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1/+1 for each card in your hand.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; gagne +1/+1 pour chaque carte dans votre main.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你的每一張手牌會使其獲得+1/+1。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;你每有一张手牌，便获得+1/+1。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; это существо получает +1/+1 за каждую карту в вашей руке.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Receba +1/+1 para cada card em sua mão.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje +1/+1 za każdą kartę w ręce.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 당신의 손에 있는 카드 한 장당 +1/+1을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; ottiene +1/+1 per ogni carta che hai in mano.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene +1/+1 por cada carta de tu mano.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene +1/+1 por cada carta que tengas en tu mano.</esES>
-    <enGB>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1/+1 for each card in your hand.</enGB>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält +1/+1 für jede Karte auf Eurer Hand.</deDE>
-  </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent 2 Bananas.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne 2 bananes à votre adversaire.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;給你的對手2根香蕉。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使你的对手获得2个香蕉。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваш противник получает 2 банана.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda 2 Bananas ao seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przeciwnikowi 2 banany.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편에게 바나나 2개를 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce 2 Banane all'avversario.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga 2 Bananas a tu adversario.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Da 2 plátanos a tu oponente.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Gebt Eurem Gegner 2 Bananen.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jaemin Kim</enUS>
+    <enUS>Imaginary FS</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>King Mukla wanders Jaguero Isle, searching for love.</enUS>
+    <zhTW>穆克拉在哈圭羅島上遊盪，尋找他的真愛。</zhTW>
+    <zhCN>穆克拉在哈圭罗岛上徘徊，寻找他的真爱。</zhCN>
+    <ruRU>Однажды король Мукла блуждал по острову Жагуаро в поисках любви.</ruRU>
+    <ptBR>O Rei Mukla vaga pela Ilha Jaguara em busca do amor.</ptBR>
+    <plPL>Król Mukla spaceruje po dżungli rozpaczliwie szukając miłości.</plPL>
+    <koKR>밀림의 왕 무클라는 오늘도 자구에로 섬을 떠돕니다. 진정한 사랑을 찾기 위해...</koKR>
+    <itIT>Signore e signori, ecco a voi Mukla, l'ottava meraviglia del mondo.</itIT>
+    <frFR>Le roi Mukla s’est rendu sur l’île aux Jagueros pour trouver l’amour.</frFR>
+    <esMX>Rey Mukla merodea por la Isla Jaguero... en busca de amor.</esMX>
+    <esES>La única carta que se preocupa por el nivel de potasio del contrincante.</esES>
+    <deDE>König Mukla durchstreift die Insel Jaguero auf der Suche nach Liebe.</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="80b6975f-1f7c-42de-ac99-e06a273f4399" />
+  <Power definition="bfc8471e-08fb-412b-a569-c7f1709c90eb" />
 </Entity>

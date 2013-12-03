@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka2">
+<Entity version="2" CardID="GAME_002">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Repair Bot</enUS>
-    <frFR>Robot réparateur</frFR>
-    <zhTW>修理機器人</zhTW>
-    <zhCN>修理机器人</zhCN>
-    <ruRU>Ремонтный робот</ruRU>
-    <ptBR>Robô de Reparos</ptBR>
-    <plPL>Bot naprawczy</plPL>
-    <koKR>수리로봇</koKR>
-    <itIT>Robot di Riparazione</itIT>
-    <esMX>Robot de reparación</esMX>
-    <esES>Robot de reparación</esES>
-    <enGB>Repair Bot</enGB>
-    <deDE>Reparaturbot</deDE>
+    <enUS>Avatar of the Coin</enUS>
+    <zhTW>擲幣之化身</zhTW>
+    <zhCN>幸运币化身</zhCN>
+    <ruRU>Воплощение монетки</ruRU>
+    <ptBR>Avatar da Moeda</ptBR>
+    <plPL>Awatar monety</plPL>
+    <koKR>동전의 화신</koKR>
+    <itIT>Avatar della Moneta</itIT>
+    <frFR>Avatar de la pièce</frFR>
+    <esMX>Avatar de la moneda</esMX>
+    <esES>Avatar de la moneda</esES>
+    <deDE>Avatar der Münze</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Repairin'</enUS>
-  </Tag>
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, restore 3 Health to all characters.</enUS>
-    <frFR>À la fin de votre tour, rend 3 PV à tous les personnages.</frFR>
-    <zhTW>在你的回合結束時，為全部角色恢復3點生命值。</zhTW>
-    <zhCN>在你的回合结束时，为所有角色恢复3点生命值。</zhCN>
-    <ruRU>В конце вашего хода восстанавливает 3 ед. здоровья всем персонажам.</ruRU>
-    <ptBR>No fim do seu turno, restaure 3 de Vida de todos os personagens.</ptBR>
-    <plPL>Na koniec swojej tury przywróć 3 pkt. zdrowia wszystkim postaciom.</plPL>
-    <koKR>당신의 턴이 끝날 때, 모든 캐릭터의 생명력을 3 회복시킵니다.</koKR>
-    <itIT>Alla fine del tuo turno, rigenera 3 Salute a tutti i personaggi.</itIT>
-    <esMX>Al final de tu turno, restaura 3 de Salud a todos los personajes.</esMX>
-    <esES>Al final de tu turno, restaura 3 p. de salud a todos los personajes.</esES>
-    <enGB>At the end of your turn, restore 3 Health to all characters.</enGB>
-    <deDE>Stellt am Ende Eures Zuges bei allen Charakteren 3 Leben wieder her.</deDE>
+    <enUS>&lt;i&gt;You lost the coin flip, but gained a friend.&lt;/i&gt;</enUS>
+    <zhTW>&lt;i&gt;你在擲幣時輸了，不過獲得了一個朋友。&lt;/i&gt;</zhTW>
+    <zhCN>&lt;i&gt;你失去了先手，但比赛依然掌握在你的手里。&lt;/i&gt;</zhCN>
+    <ruRU>&lt;i&gt;Вы проиграли бросок монетки, но приобрели друга.&lt;/i&gt;</ruRU>
+    <ptBR>&lt;i&gt;Você perdeu no cara ou coroa, mas ganhou um amigo.&lt;/i&gt;</ptBR>
+    <plPL>&lt;i&gt;Straciłeś monetę, ale zyskałeś przyjaciela.&lt;/i&gt;</plPL>
+    <koKR>&lt;i&gt;동전 뒤집기는 졌지만, 친구를 얻었습니다.&lt;/i&gt;</koKR>
+    <itIT>&lt;i&gt;Hai perso il lancio della moneta, ma hai ottenuto un amico.&lt;/i&gt;</itIT>
+    <frFR>&lt;i&gt;Vous avez peut-être perdu à pile ou face, mais vous avez gagné un ami.&lt;/i&gt;</frFR>
+    <esMX>&lt;i&gt;Perdiste. Pero ganaste un amigo.&lt;/i&gt;</esMX>
+    <esES>&lt;i&gt;La suerte no te ha sonreído, pero has conseguido un amigo.&lt;/i&gt;</esES>
+    <deDE>&lt;i&gt;Ihr habt den Münzwurf verloren, aber einen Freund gewonnen.&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="8e845e27-d651-4bb6-915c-f7bcb18432a2" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

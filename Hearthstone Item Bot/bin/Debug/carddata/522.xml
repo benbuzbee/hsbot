@@ -1,46 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_tk11">
+<Entity version="2" CardID="EX1_613e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Spirit Wolf</enUS>
-    <frFR>Esprit du loup</frFR>
-    <zhTW>幽靈狼</zhTW>
-    <zhCN>幽灵狼</zhCN>
-    <ruRU>Дух волка</ruRU>
-    <ptBR>Lobo Espiritual</ptBR>
-    <plPL>Duchowy wilk</plPL>
-    <koKR>늑대 정령</koKR>
-    <itIT>Lupo Spirituale</itIT>
-    <esMX>Espíritu de lobo</esMX>
-    <esES>Espíritu de lobo</esES>
-    <enGB>Spirit Wolf</enGB>
-    <deDE>Geisterwolf</deDE>
+    <enUS>VanCleef's Vengeance</enUS>
+    <frFR>Vengeance de VanCleef</frFR>
+    <zhTW>范克里夫的復仇</zhTW>
+    <zhCN>范克里夫的复仇</zhCN>
+    <ruRU>Месть ван Клифа</ruRU>
+    <ptBR>Vingança de VanCleef</ptBR>
+    <plPL>Zemsta VanCleefa</plPL>
+    <koKR>밴클리프의 복수심</koKR>
+    <itIT>Vendetta di VanCleef</itIT>
+    <esMX>Venganza de VanCleef</esMX>
+    <esES>Venganza de VanCleef</esES>
+    <deDE>Van Cleefs Rache</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>This minion has increased Attack and Health.</enUS>
+    <frFR>Les points d’Attaque et de Vie de ce serviteur sont augmentés.</frFR>
+    <zhTW>這個手下的攻擊力及生命值提高。</zhTW>
+    <zhCN>该随从的攻击力和生命值增加。</zhCN>
+    <ruRU>Здоровье и атака этого существа увеличены.</ruRU>
+    <ptBR>Este lacaio tem a Vida e o Ataque aumentados.</ptBR>
+    <plPL>Ten stronnik ma zwiększony atak oraz zdrowie.</plPL>
+    <koKR>공격력과 생명력 증가</koKR>
+    <itIT>Attacco e Salute aumentati.</itIT>
+    <esMX>Este esbirro tiene Ataque y Salud aumentados.</esMX>
+    <esES>Este esbirro tiene ataque y salud aumentados.</esES>
+    <deDE>Dieser Diener hat erhöhten Angriff und erhöhtes Leben.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="495abb2d-62ae-46fd-b716-b61e3f88595d" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="e9cdbdd2-0f6c-4d4b-8db7-8aea60f75898" />
 </Entity>

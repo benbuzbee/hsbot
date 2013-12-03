@@ -1,52 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1_042">
+<Entity version="2" CardID="CRED_01">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Goldshire Footman</enUS>
-    <zhTW>閃金鎮步卒</zhTW>
-    <zhCN>闪金镇步兵</zhCN>
-    <ruRU>Солдат Златоземья</ruRU>
-    <ptBR>Soldado Raso de Vila d'Ouro</ptBR>
-    <plPL>Piechur ze Złotych Włości</plPL>
-    <koKR>황금골 보병</koKR>
-    <itIT>Coscritto di Borgodoro</itIT>
-    <frFR>Soldat de Comté-de-l’Or</frFR>
-    <esMX>Lacayo de Villadorada</esMX>
-    <esES>Lacayo de Villadorada</esES>
-    <enGB>Goldshire Footman</enGB>
-    <deDE>Fußsoldat von Goldhain</deDE>
+    <enUS>Jason Chayes</enUS>
+    <zhTW>Jason Chayes</zhTW>
+    <zhCN>Jason Chayes</zhCN>
+    <ruRU>Jason Chayes</ruRU>
+    <ptBR>Jason Chayes</ptBR>
+    <plPL>Jason Chayes</plPL>
+    <koKR>제이슨 체이스</koKR>
+    <itIT>Jason Chayes</itIT>
+    <frFR>Jason Chayes</frFR>
+    <esMX>Jason Chayes</esMX>
+    <esES>Jason Chayes</esES>
+    <deDE>Jason Chayes</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Taunt&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Enrage:&lt;/b&gt; Just kidding! He never Enrages.</enUS>
+    <zhTW>&lt;b&gt;狂怒:&lt;/b&gt;開玩笑的!他從來不狂怒。</zhTW>
+    <zhCN>&lt;b&gt;激怒：&lt;/b&gt;开玩笑的，他从来不会被激怒。</zhCN>
+    <ruRU>&lt;b&gt;Исступление.&lt;/b&gt; Шутка! Он никогда не впадает в исступление.</ruRU>
+    <ptBR>&lt;b&gt;Enfurecer:&lt;/b&gt; Brincadeira! Ele nunca se enfurece.</ptBR>
+    <plPL>&lt;b&gt;Szał:&lt;/b&gt; Taki żarcik! Jason nigdy nie wpada w szał.</plPL>
+    <koKR>&lt;b&gt;격노:&lt;/b&gt; 농담입니다! 이 하수인은 한번도 격노한 적 없습니다.</koKR>
+    <itIT>&lt;b&gt;Rabbia:&lt;/b&gt; scherzetto! Non si arrabbia mai!</itIT>
+    <frFR>&lt;b&gt;Accès de rage :&lt;/b&gt; non, on blague ! Il ne s’énerve jamais.</frFR>
+    <esMX>&lt;b&gt;Enfurecer:&lt;/b&gt; ¡Es broma! Nunca se enfurece.</esMX>
+    <esES>&lt;b&gt;Enfurecer:&lt;/b&gt; ¡Es broma! No se enfurece nunca.</esES>
+    <deDE>&lt;b&gt;Wutanfall:&lt;/b&gt; Kleiner Scherz! Er hat nie Wutanfälle.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Donato Giancola</enUS>
-  </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="54e57583-ce5c-46e3-899a-39bd2181468d" />
 </Entity>

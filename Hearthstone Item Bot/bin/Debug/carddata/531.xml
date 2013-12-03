@@ -1,41 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="GAME_002">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_622">
+  <MasterPower>af8152e7-6136-43c5-bf1d-7fdeb5e92066</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Avatar of the Coin</enUS>
-    <zhTW>擲幣之化身</zhTW>
-    <zhCN>幸运币化身</zhCN>
-    <ruRU>Воплощение монетки</ruRU>
-    <ptBR>Avatar da Moeda</ptBR>
-    <plPL>Awatar monety</plPL>
-    <koKR>동전의 화신</koKR>
-    <itIT>Avatar della Moneta</itIT>
-    <frFR>Avatar de la pièce</frFR>
-    <esMX>Avatar de la moneda</esMX>
-    <esES>Avatar de la moneda</esES>
-    <enGB>Avatar of the Coin</enGB>
-    <deDE>Avatar der Münze</deDE>
+    <enUS>Shadow Word: Death</enUS>
+    <zhTW>暗言術:死</zhTW>
+    <zhCN>暗言术：灭</zhCN>
+    <ruRU>Слово Тьмы: Смерть</ruRU>
+    <ptBR>Palavra Sombria: Morte</ptBR>
+    <plPL>Słowo cienia: Śmierć</plPL>
+    <koKR>어둠의 권능: 죽음</koKR>
+    <itIT>Parola d'Ombra: Morte</itIT>
+    <frFR>Mot de l’ombre : Mort</frFR>
+    <esMX>Palabra de las sombras: Muerte</esMX>
+    <esES>Palabra de Sombras: muerte</esES>
+    <deDE>Schattenwort: Tod</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;i&gt;You lost the coin flip, but gained a friend.&lt;/i&gt;</enUS>
-    <zhTW>&lt;i&gt;你在擲幣時輸了，不過獲得了一個朋友。&lt;/i&gt;</zhTW>
-    <zhCN>&lt;i&gt;你失去了先手，但比赛依然掌握在你的手里。&lt;/i&gt;</zhCN>
-    <ruRU>&lt;i&gt;Вы проиграли бросок монетки, но приобрели друга.&lt;/i&gt;</ruRU>
-    <ptBR>&lt;i&gt;Você perdeu no cara ou coroa, mas ganhou um amigo.&lt;/i&gt;</ptBR>
-    <plPL>&lt;i&gt;Straciłeś monetę, ale zyskałeś przyjaciela.&lt;/i&gt;</plPL>
-    <koKR>&lt;i&gt;동전 뒤집기는 졌지만, 친구를 얻었습니다.&lt;/i&gt;</koKR>
-    <itIT>&lt;i&gt;Hai perso il lancio della moneta, ma hai ottenuto un amico.&lt;/i&gt;</itIT>
-    <frFR>&lt;i&gt;Vous avez peut-être perdu à pile ou face, mais vous avez gagné un ami.&lt;/i&gt;</frFR>
-    <esMX>&lt;i&gt;Perdiste. Pero ganaste un amigo.&lt;/i&gt;</esMX>
-    <esES>&lt;i&gt;La suerte no te ha sonreído, pero has conseguido un amigo.&lt;/i&gt;</esES>
-    <enGB>&lt;i&gt;You lost the coin flip, but gained a friend.&lt;/i&gt;</enGB>
-    <deDE>&lt;i&gt;Ihr habt den Münzwurf verloren, aber einen Freund gewonnen.&lt;/i&gt;</deDE>
+    <enUS>Destroy a minion with an Attack of 5 or more.</enUS>
+    <zhTW>摧毀一個攻擊力在5點以上的手下。</zhTW>
+    <zhCN>消灭一个攻击力大于或等于5的随从。</zhCN>
+    <ruRU>Уничтожает существо с атакой 5 или больше.</ruRU>
+    <ptBR>Destrua um lacaio com 5 ou mais de Ataque.</ptBR>
+    <plPL>Zniszcz stronnika z atakiem 5 lub większym.</plPL>
+    <koKR>공격력 5 이상인 하수인을 1마리 처치합니다.</koKR>
+    <itIT>Distrugge un servitore con Attacco pari a 5 o superiore.</itIT>
+    <frFR>Détruit un serviteur avec 5 ou plus à l’Attaque.</frFR>
+    <esMX>Destruye a un esbirro con 5 de Ataque o más.</esMX>
+    <esES>Destruye a un esbirro con 5 p. de ataque o más.</esES>
+    <deDE>Vernichtet einen Diener mit mind. 5 Angriff.</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 46.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>If you miss, it leaves a lightning-bolt-shaped scar on your target.</enUS>
+    <zhTW>如果你施放失敗，只會在目標身上留下一個閃電箭形狀的疤痕。</zhTW>
+    <zhCN>“他去哪儿了？”“先别管他！帮我解决这个鱼人！”</zhCN>
+    <ruRU>Если вы промахнетесь, оно оставит на лбу вашей цели шрам в виде молнии.</ruRU>
+    <ptBR>"Aonde ele foi?" "Deixa ele pra lá! Me ajuda com esse murloc!"</ptBR>
+    <plPL>Jeśli spudłujesz, na celu zostanie blizna w kształcie błyskawicy.</plPL>
+    <koKR>"그놈 어디 갔지?" "그냥 잊어버리고 이 멀록 처치나 도와줘!"</koKR>
+    <itIT>Se manca il bersaglio, lascia una cicatrice a forma di saetta sulla sua fronte.</itIT>
+    <frFR>Si ce sort rate, il laisse une marque en forme d’éclair sur le front de votre cible.</frFR>
+    <esMX>"¡Ey! ¿A dónde fue?" "¡Qué importa! Ayúdame con este múrloc".</esMX>
+    <esES>Un buen sacerdote sabe cuándo retirarse: en cuanto un enemigo se fija en él.</esES>
+    <deDE>Wenn dieser Zauber danebengeht, hinterlässt er lediglich eine blitzförmige Narbe auf Eurem Ziel.</deDE>
+  </Tag>
+  <Power definition="af8152e7-6136-43c5-bf1d-7fdeb5e92066">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="41" param="5" />
+  </Power>
 </Entity>

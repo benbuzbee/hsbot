@@ -1,61 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_621">
-  <MasterPower>b77d03ca-1c61-4e5d-b30c-fa46f6457ff7</MasterPower>
+<Entity version="2" CardID="EX1_606">
+  <MasterPower>1483cbb5-5431-4468-a6a6-91331623cb53</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Circle of Healing</enUS>
-    <frFR>Cercle de soins</frFR>
-    <zhTW>治療之環</zhTW>
-    <zhCN>治疗之环</zhCN>
-    <ruRU>Круг исцеления</ruRU>
-    <ptBR>Círculo de Cura</ptBR>
-    <plPL>Krąg uzdrawiania</plPL>
-    <koKR>치유의 마법진</koKR>
-    <itIT>Circolo di Guarigione</itIT>
-    <esMX>Círculo de sanación</esMX>
-    <esES>Círculo de sanación</esES>
-    <enGB>Circle of Healing</enGB>
-    <deDE>Kreis der Heilung</deDE>
+    <enUS>Shield Block</enUS>
+    <frFR>Maîtrise du blocage</frFR>
+    <zhTW>盾牌格擋</zhTW>
+    <zhCN>盾牌格挡</zhCN>
+    <ruRU>Блок щитом</ruRU>
+    <ptBR>Levantar Escudo</ptBR>
+    <plPL>Blok tarczą</plPL>
+    <koKR>방패 막기</koKR>
+    <itIT>Scudo Saldo</itIT>
+    <esMX>Bloquear con escudo</esMX>
+    <esES>Bloquear con escudo</esES>
+    <deDE>Schildblock</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore #4 Health to ALL minions.</enUS>
-    <frFR>Rend #4 point(s) de vie à TOUS les serviteurs.</frFR>
-    <zhTW>全部手下恢復#4點生命值。</zhTW>
-    <zhCN>为所有随从恢复#4点生命值。</zhCN>
-    <ruRU>Восстанавливает #4 ед. здоровья ВСЕМ существам.</ruRU>
-    <ptBR>Restaure #4 de Vida de TODOS os lacaios.</ptBR>
-    <plPL>Przywracasz #4 zdrowia WSZYSTKIM stronnikom.</plPL>
-    <koKR>모든 하수인의 생명력을 #4 회복시킵니다.</koKR>
-    <itIT>Rigenera #4 Salute a TUTTI i servitori.</itIT>
-    <esMX>Restaura #4 de Salud a TODOS los esbirros.</esMX>
-    <esES>Restaura #4 p. de salud a todos los esbirros.</esES>
-    <enGB>Restore 4 Health to ALL minions.</enGB>
-    <deDE>Stellt bei ALLEN Dienern #4 Leben wieder her.</deDE>
+    <enUS>Gain 5 Armor.  Draw a card.</enUS>
+    <frFR>Vous gagnez 5 points d’armure et vous piochez une carte.</frFR>
+    <zhTW>獲得5點護甲值。抽一張牌。</zhTW>
+    <zhCN>获得5点护甲值，抽一张牌。</zhCN>
+    <ruRU>Вы получаете +5 к броне и берете карту.</ruRU>
+    <ptBR>Receba 5 de Armadura. Compre um card.</ptBR>
+    <plPL>Otrzymujesz 5 pkt. pancerza. Dobierz kartę.</plPL>
+    <koKR>방어도를 +5 얻습니다. 카드를 1장 뽑습니다.</koKR>
+    <itIT>Ottieni 5 Armatura. Pesca una carta.</itIT>
+    <esMX>Obtienes 5 de Armadura. Roba una carta.</esMX>
+    <esES>Otorga 5 p. de armadura. Roba una carta.</esES>
+    <deDE>Erhaltet 5 Rüstung. Zieht eine Karte.</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Mike 'Daarken' Lim</enUS>
+    <enUS>Michael Komarck</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 46.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It isn't really a circle.</enUS>
-    <zhTW>其實它並不真的是個環。</zhTW>
-    <zhCN>神圣的象征。</zhCN>
-    <ruRU>На самом деле, это не круг.</ruRU>
-    <ptBR>Não é um círculo, na verdade.</ptBR>
-    <plPL>Po Katakliźmie zaklęcie trafiło na listę uzdrowień nierefundowalnych.</plPL>
-    <koKR>마법진이라고 해서 땅에 뭘 그리거나 하는 건 아닙니다.</koKR>
-    <itIT>Non è esattamente un circolo.</itIT>
-    <frFR>Ce n’est pas vraiment un cercle.</frFR>
-    <esMX>No es un círculo en realidad.</esMX>
-    <esES>En realidad no es un círculo.</esES>
-    <enGB>It isn't really a circle.</enGB>
-    <deDE>Es ist nicht wirklich ein Kreis.</deDE>
+    <enUS>Shields were invented because Face Block is USELESS.</enUS>
+    <zhTW>盾牌被發明的原因是:「臉部格擋」完全沒有作用。</zhTW>
+    <zhCN>光有面罩是不够的，所以人们发明了盾牌。</zhCN>
+    <ruRU>Щиты изобрели воины, не умеющие держать лицо.</ruRU>
+    <ptBR>Escudos foram inventados porque defender uma espada com os braços não serve de nada.</ptBR>
+    <plPL>Tarcze wynaleziono, bo blok twarzą okazał się bezużyteczny.</plPL>
+    <koKR>얼굴 막기는 도무지 쓸모가 없어서 방패 막기가 탄생했습니다.</koKR>
+    <itIT>Gli scudi furono inventati perché una Faccia Salda non serviva a un granché.</itIT>
+    <frFR>Les boucliers ont été inventés quand on s’est rendu compte que bloquer les coups avec son visage n’avait PAS le résultat escompté.</frFR>
+    <esMX>Los escudos se inventaron porque Bloquear con rostro era INÚTIL.</esMX>
+    <esES>¿Con qué pensabas bloquear si no?</esES>
+    <deDE>Tausendmal besser als Gesichtsblock.</deDE>
   </Tag>
-  <Power definition="b77d03ca-1c61-4e5d-b30c-fa46f6457ff7" />
+  <Power definition="1483cbb5-5431-4468-a6a6-91331623cb53" />
 </Entity>

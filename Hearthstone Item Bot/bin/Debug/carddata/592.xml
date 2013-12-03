@@ -1,66 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_031">
-  <MasterPower>9ec73fe1-8c73-4322-88b0-2cd1f762a8bb</MasterPower>
+<Entity version="2" CardID="NEW1_018">
+  <MasterPower>17b5a25a-f518-4948-910b-7d90db5db4da</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Animal Companion</enUS>
-    <frFR>Compagnon animal</frFR>
-    <zhTW>動物夥伴</zhTW>
-    <zhCN>动物伙伴</zhCN>
-    <ruRU>Питомец</ruRU>
-    <ptBR>Companheiro Animal</ptBR>
-    <plPL>Zwierzęcy towarzysz</plPL>
-    <koKR>야생의 벗</koKR>
-    <itIT>Famiglio Animale</itIT>
-    <esMX>Compañero animal</esMX>
-    <esES>Compañero animal</esES>
-    <enGB>Animal Companion</enGB>
-    <deDE>Tierbegleiter</deDE>
+    <enUS>Bloodsail Raider</enUS>
+    <frFR>Mousse de la Voile sanglante</frFR>
+    <zhTW>血帆劫掠者</zhTW>
+    <zhCN>血帆袭击者</zhCN>
+    <ruRU>Дерзкая налетчица</ruRU>
+    <ptBR>Saqueadora da Vela Sangrenta</ptBR>
+    <plPL>Grabieżca Krwawych Żagli</plPL>
+    <koKR>붉은해적단 약탈자</koKR>
+    <itIT>Incursore dei Velerosse</itIT>
+    <esMX>Asaltante Velasangre</esMX>
+    <esES>Asaltante Velasangre</esES>
+    <deDE>Blutsegelräuberin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Summon a random Beast Companion.</enUS>
-    <frFR>Invoque un compagnon animal aléatoire.</frFR>
-    <zhTW>召喚一隻隨機的野獸夥伴。</zhTW>
-    <zhCN>随机召唤一个野兽伙伴。</zhCN>
-    <ruRU>Призывает случайного зверя.</ruRU>
-    <ptBR>Evoque um Fera de Companhia aleatória.</ptBR>
-    <plPL>Przyzwij losowego zwierzęcego towarzysza.</plPL>
-    <koKR>무작위 동료 야수를 소환합니다.</koKR>
-    <itIT>Evoca una Bestia casuale.</itIT>
-    <esMX>Invoca una Bestia compañera aleatoria.</esMX>
-    <esES>Invoca a una bestia compañera aleatoria.</esES>
-    <enGB>Summon a random Beast Companion.</enGB>
-    <deDE>Ruft einen zufälligen Wildtierbegleiter herbei.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain Attack equal to the Attack of your weapon.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; gagne des points d’Attaque d’un montant équivalent à ceux de votre arme.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;獲得與你武器相當的攻擊力。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;获得等同于你的武器攻击力的攻击力</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; получает бонус к атаке, равный атаке вашего оружия.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Ela Recebe Ataque equivalente ao Ataque da sua arma.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje premię do ataku równą wartości ataku twojej broni.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 무기의 공격력만큼 공격력을 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; l'Incursore dei Velerosse ottiene Attacco pari all'Attacco della tua arma.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene Ataque equivalente al Ataque de tu arma.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene una cantidad de puntos de ataque equivalente al ataque de tu arma.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält Angriff entsprechend dem Angriff Eurer Waffe.</deDE>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="23" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Jim Nelson</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Wei Wang</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.</enUS>
-    <zhTW>你能召喚出米莎、里奧克或胡佛。胡佛造成的麻煩比他的用處還大。</zhTW>
-    <zhCN>你可以召唤米莎，雷欧克或是霍弗！霍弗又没用，又爱惹麻烦！</zhCN>
-    <ruRU>Вы можете призвать Мишу, Леокка или Хаффера. От последнего больше неприятностей, чем пользы.</ruRU>
-    <ptBR>Você poderia evocar Misha, Leokk ou Bufo! Bufo não vale o trabalho que dá.</ptBR>
-    <plPL>Możesz przyzwać Miszę, Leoka lub Prychacza! Prychacz sprawia więcej kłopotów niż jest wart.</plPL>
-    <koKR>미샤나 레오크, 혹은 킁킁이를 소환할 수 있습니다! 근데 킁킁이는 좀 말썽꾸러기라는 거.</koKR>
-    <itIT>Potresti evocare Misha, Leokk o Huffer! Ma probabilmente per Huffer non ne vale la pena.</itIT>
-    <frFR>Vous pourriez invoquer Misha, Leokk ou Souffleur ! Enfin, Souffleur n’en vaut pas vraiment la peine.</frFR>
-    <esMX>¡Podrías invocar a Misha, a Leokk o a Bufar! Aunque Bufar es demasiado problemático...</esMX>
-    <esES>Podrías invocar a Misha, Leokk o Bufar. Bufar da más problemas que otra cosa.</esES>
-    <enGB>You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.</enGB>
-    <deDE>Ihr könntet Misha, Leokk oder Grummel herbeirufen! Allerdings macht Grummel mehr Ärger als irgendwas.</deDE>
+    <enUS>"I only plunder on days that end in 'y'."</enUS>
+    <zhTW>我只在以「星期」為開頭的日子裡搶劫。</zhTW>
+    <zhCN>“我一个星期只有七天出去打劫。”</zhCN>
+    <ruRU>«Я граблю только семь дней в неделю».</ruRU>
+    <ptBR>"Eu só saqueio nos dias que terminam com -feira. Ah, e fins de semana."</ptBR>
+    <plPL>Jego ulubiona broń to grabie.</plPL>
+    <koKR>"난 숫자 '1'이 포함된 날짜에만 약탈을 하지."</koKR>
+    <itIT>"Saccheggio solo nei giorni che finiscono per -dì, -abato e -enica."</itIT>
+    <frFR>Le pillage pour moi, c’est seulement les jours en « di ».</frFR>
+    <esMX>"Solo saqueo de lunes a lunes".</esMX>
+    <esES>Solo saquea de lunes a domingo.</esES>
+    <deDE>„Ich stehle nur an Tagen, die auf 'g' enden. Manchmal mache ich aber auch Ausnahmen.“</deDE>
   </Tag>
-  <Power definition="9ec73fe1-8c73-4322-88b0-2cd1f762a8bb">
-    <PlayRequirement reqID="12" param="1" />
-  </Power>
-  <EntourageCard cardID="NEW1_032" />
-  <EntourageCard cardID="NEW1_033" />
-  <EntourageCard cardID="NEW1_034" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="17b5a25a-f518-4948-910b-7d90db5db4da" />
 </Entity>

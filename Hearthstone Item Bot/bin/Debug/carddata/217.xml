@@ -1,55 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_044">
+<Entity version="2" CardID="EX1_014te">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Questing Adventurer</enUS>
-    <zhTW>解任務的冒險者</zhTW>
-    <zhCN>任务达人</zhCN>
-    <ruRU>Авантюрист</ruRU>
-    <ptBR>Aventureiro em Missão</ptBR>
-    <plPL>Poszukiwacz przygód</plPL>
-    <koKR>퀘스트 중인 모험가</koKR>
-    <itIT>Avventuriero in Missione</itIT>
-    <frFR>Aventurier en pleine quête</frFR>
-    <esMX>Aventurero explorador</esMX>
-    <esES>Aventurero en misión</esES>
-    <enGB>Questing Adventurer</enGB>
-    <deDE>Rastloser Abenteurer</deDE>
+    <enUS>Bananas</enUS>
+    <frFR>Banane</frFR>
+    <zhTW>香蕉</zhTW>
+    <zhCN>香蕉</zhCN>
+    <ruRU>Бананы</ruRU>
+    <ptBR>Bananas</ptBR>
+    <plPL>Banany</plPL>
+    <koKR>바나나</koKR>
+    <itIT>Banana</itIT>
+    <esMX>Bananas</esMX>
+    <esES>Plátanos</esES>
+    <deDE>Bananen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Questing</enUS>
-  </Tag>
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you play a card, gain +1/+1.</enUS>
-    <zhTW>每當你出牌，獲得+1/+1。</zhTW>
-    <zhCN>每当你使用一张牌时，便获得+1/+1。</zhCN>
-    <ruRU>Каждый раз, когда вы разыгрываете карту, это существо получает +1/+1.</ruRU>
-    <ptBR>Sempre que você jogar um card, receba +1/+1.</ptBR>
-    <plPL>Otrzymuje +1/+1 za każdym razem, gdy zagrasz kartę.</plPL>
-    <koKR>당신이 카드를 낼 때마다 +1/+1을 얻습니다.</koKR>
-    <itIT>Ogni volta che giochi una carta, ottiene +1/+1.</itIT>
-    <frFR>Chaque fois que vous jouez une carte, gagne +1/+1.</frFR>
-    <esMX>Cada vez que juegas una carta, obtiene +1/+1.</esMX>
-    <esES>Obtiene +1/+1 cada vez que juegas una carta.</esES>
-    <enGB>Whenever you play a card, gain +1/+1.</enGB>
-    <deDE>Erhält jedes Mal +1/+1, wenn Ihr eine Karte ausspielt.</deDE>
+    <enUS>Has +1/+1.</enUS>
+    <frFR>A +1/+1.</frFR>
+    <zhTW>擁有+1/+1。</zhTW>
+    <zhCN>获得+1/+1。</zhCN>
+    <ruRU>+1/+1.</ruRU>
+    <ptBR>Tem +1/+1.</ptBR>
+    <plPL>Ma +1/+1.</plPL>
+    <koKR>+1/+1</koKR>
+    <itIT>+1/+1.</itIT>
+    <esMX>Tiene +1/+1.</esMX>
+    <esES>Tiene +1/+1.</esES>
+    <deDE>Hat +1/+1.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Karl Kopinski</enUS>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="e9319614-7608-4296-8794-8144aff29b34" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="09cefe08-ad17-40b1-b3d5-f1b47a03516e" />
 </Entity>

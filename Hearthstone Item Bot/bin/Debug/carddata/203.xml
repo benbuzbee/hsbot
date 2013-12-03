@@ -1,51 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_017">
+<Entity version="2" CardID="EX1_001e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Jungle Panther</enUS>
-    <zhTW>叢林豹</zhTW>
-    <zhCN>丛林猎豹</zhCN>
-    <ruRU>Тропическая пантера</ruRU>
-    <ptBR>Pantera da Selva</ptBR>
-    <plPL>Pantera z dżungli</plPL>
-    <koKR>밀림 표범</koKR>
-    <itIT>Pantera della Giungla</itIT>
-    <frFR>Panthère de la jungle</frFR>
-    <esMX>Pantera de la selva</esMX>
-    <esES>Pantera de la selva</esES>
-    <enGB>Jungle Panther</enGB>
-    <deDE>Dschungelpanther</deDE>
+    <enUS>Warded</enUS>
+    <frFR>Protégée</frFR>
+    <zhTW>受保護</zhTW>
+    <zhCN>受到保护</zhCN>
+    <ruRU>На страже</ruRU>
+    <ptBR>Protegido</ptBR>
+    <plPL>Pod strażą</plPL>
+    <koKR>감시 중</koKR>
+    <itIT>Protetta</itIT>
+    <esMX>Protegido</esMX>
+    <esES>Resguardo</esES>
+    <deDE>Geschützt</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
-    <enGB>&lt;b&gt;Stealth&lt;/b&gt;</enGB>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
+    <enUS>Increased Attack.</enUS>
+    <frFR>Attaque augmentée.</frFR>
+    <zhTW>攻擊力提高。</zhTW>
+    <zhCN>攻击力增加。</zhCN>
+    <ruRU>Атака увеличена.</ruRU>
+    <ptBR>Ataque aumentado.</ptBR>
+    <plPL>Zwiększony atak.</plPL>
+    <koKR>공격력 증가</koKR>
+    <itIT>Attacco aumentato.</itIT>
+    <esMX>Ataque aumentado.</esMX>
+    <esES>Ataque aumentado.</esES>
+    <deDE>Erhöhter Angriff.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jaemin Kim</enUS>
-  </Tag>
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Power definition="6be4628e-c598-4cd9-970d-44cb7b052a1a" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="d49b18b7-7b2c-421d-bde3-b653a98a4573" />
 </Entity>

@@ -1,65 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_554">
+<Entity version="2" CardID="EX1_509">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Snake Trap</enUS>
-    <frFR>Piège à serpents</frFR>
-    <zhTW>毒蛇陷阱</zhTW>
-    <zhCN>毒蛇陷阱</zhCN>
-    <ruRU>Змеиная ловушка</ruRU>
-    <ptBR>Armadilha de Cobra</ptBR>
-    <plPL>Wężowa pułapka</plPL>
-    <koKR>뱀 덫</koKR>
-    <itIT>Trappola di Serpi</itIT>
-    <esMX>Trampa con culebras</esMX>
-    <esES>Trampa con culebras</esES>
-    <enGB>Snake Trap</enGB>
-    <deDE>Schlangenfalle</deDE>
+    <enUS>Murloc Tidecaller</enUS>
+    <frFR>Maître des flots murloc</frFR>
+    <zhTW>魚人招潮者</zhTW>
+    <zhCN>鱼人招潮者</zhCN>
+    <ruRU>Мурлок-волномут</ruRU>
+    <ptBR>Chamaré Murloc</ptBR>
+    <plPL>Poskramiacz fal</plPL>
+    <koKR>멀록 파도술사</koKR>
+    <itIT>Murloc Invocamaree</itIT>
+    <esMX>Clamamareas múrloc</esMX>
+    <esES>Clamamareas múrloc</esES>
+    <deDE>Murlocgezeitenrufer</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When one of your minions is attacked, summon three 1/1 Snakes.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand un de vos serviteurs est attaqué, invoque trois serpents 1/1.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的一個手下受到攻擊時，召喚三條1/1的蛇。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;每当你的随从受到攻击时，召唤3条1/1的蛇。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда одно из ваших существ будет атаковано, вы призываете на поле боя трех змей 1/1.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando um de seus lacaios for atacado, evoque três Cobras 1/1.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy jeden z twoich stronników zostanie zaatakowany, przyzwij trzy węże 1/1.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 당신의 하수인이 공격받으면 1/1 뱀을 셋 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando uno dei tuoi servitori viene attaccato, evoca tre Serpi 1/1.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando ataquen a uno de tus esbirros, invoca tres Culebras 1/1.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando atacan a uno de tus esbirros, invoca tres culebras 1/1.</esES>
-    <enGB>&lt;b&gt;Secret:&lt;/b&gt; When one of your minions is attacked, summon three 1/1 Snakes.</enGB>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn einer Eurer Diener angegriffen wird, ruft Ihr drei Schlangen (1/1) herbei.</deDE>
+    <enUS>Whenever a Murloc is summoned, gain +1 Attack.</enUS>
+    <frFR>Chaque fois qu’un murloc est invoqué, gagne +1 ATQ.</frFR>
+    <zhTW>每當一個魚人被召喚，獲得+1攻擊力。</zhTW>
+    <zhCN>每当有玩家召唤一个鱼人时，便获得+1攻击力。</zhCN>
+    <ruRU>Каждый раз, когда на поле боя призывается мурлок, это существо получает +1 к атаке.</ruRU>
+    <ptBR>Sempre que um Murloc for evocado, receba +1 de Ataque.</ptBR>
+    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy zostaje przyzwany murlok.</plPL>
+    <koKR>멀록이 소환될 때마다 공격력을 +1 얻습니다.</koKR>
+    <itIT>Quando un Murloc viene evocato, il Murloc Invocamaree ottiene +1 Attacco.</itIT>
+    <esMX>Cada vez que se invoca a un múrloc, obtiene +1 de Ataque.</esMX>
+    <esES>Obtiene +1 p. de ataque cada vez que se invoca a un múrloc.</esES>
+    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Murloc herbeigerufen wird.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Bernie Kang</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Why did it have to be snakes?</enUS>
-    <zhTW>為什麼一定得是蛇?</zhTW>
-    <zhCN>蛇。为什么是蛇？</zhCN>
-    <ruRU>Змеи! Ну почему именно змеи...</ruRU>
-    <ptBR>Por que tinha que ser cobras?</ptBR>
-    <plPL>Czemu to musiały być węże?</plPL>
-    <koKR>왜 하필 뱀이야?</koKR>
-    <itIT>Serpenti. Proprio i serpenti dovevo trovarci.</itIT>
-    <frFR>Des serpents, fallait que ce soit des serpents !</frFR>
-    <esMX>Culebras... ¿por qué tenían que ser culebras?</esMX>
-    <esES>¿Por qué tenían que ser culebras?</esES>
-    <enGB>Why did it have to be snakes?</enGB>
-    <deDE>Warum müssen es ausgerechnet Schlangen sein?</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="763705b8-74f0-4310-9bce-116fee4f6dbe" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Jaemin Kim</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>This guy gets crazy strong at family reunions.</enUS>
+    <zhTW>這個傢伙每次在家族聚會時都會變得無比強悍。</zhTW>
+    <zhCN>每当他和他的家人团聚时，这个家伙会变得特别厉害。</zhCN>
+    <ruRU>Когда они собираются, чтобы вместе помутить волны, с ними лучше не связываться!</ruRU>
+    <ptBR>Esse carinha fica insanamente forte nos encontros de família.</ptBR>
+    <plPL>Na spotkaniach rodzinnych robi się z niego prawdziwy siłacz.</plPL>
+    <koKR>함께 있으면, 우린 아무 것도 두려울 게 없었다!</koKR>
+    <itIT>Questo tizio diventa incredibilmente forte durante le riunioni di famiglia.</itIT>
+    <frFR>Il devient super fort pendant les réunions de famille !</frFR>
+    <esMX>No querrás encontrarte con este tipo en una reunión familiar...</esMX>
+    <esES>Se vuelve extraordinariamente fuerte en las cenas familiares.</esES>
+    <deDE>Familienfeste sind sein Ding.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="32ccddc7-49a5-43bf-bd9b-25c5d098eeab" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False">
+    <enUS>Dealt 1 damage to a random enemy.</enUS>
+    <frFR>A infligé 1 point de dégâts à un adversaire aléatoire.</frFR>
+    <zhTW>對一個隨機敵人造成1點傷害。</zhTW>
+    <zhCN>对一个随机敌人造成1点伤害。</zhCN>
+    <ruRU>Случайный персонаж противника получил 1 ед. урона.</ruRU>
+    <ptBR>Causou 1 de dano a um inimigo aleatório.</ptBR>
+    <plPL>Zadano 1 pkt. obrażeń losowemu wrogowi.</plPL>
+    <koKR>무작위 적에게 피해 1 줌</koKR>
+    <itIT>Il Murloc Invocamaree ha inflitto 1 danno a un nemico casuale.</itIT>
+    <esMX>Infligió 1 de daño a un enemigo aleatorio.</esMX>
+    <esES>El clamamareas múrloc ha infligido 1 p. de daño a un enemigo aleatorio.</esES>
+    <deDE>Fügt einem zufälligen Feind 1 Schaden zu.</deDE>
+  </TriggeredPowerHistoryInfo>
 </Entity>

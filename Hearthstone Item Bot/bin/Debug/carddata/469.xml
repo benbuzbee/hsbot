@@ -1,64 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_578">
-  <MasterPower>df2d11fa-bec4-4185-960b-fe0045645279</MasterPower>
+<Entity version="2" CardID="EX1_561">
+  <MasterPower>b44631dc-eec1-434a-a172-04bce74970c7</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Savagery</enUS>
-    <frFR>Sauvagerie</frFR>
-    <zhTW>兇蠻</zhTW>
-    <zhCN>野蛮之击</zhCN>
-    <ruRU>Дикость</ruRU>
-    <ptBR>Selvageria</ptBR>
-    <plPL>Dzikość</plPL>
-    <koKR>야생성</koKR>
-    <itIT>Ferocia</itIT>
-    <esMX>Salvajismo</esMX>
-    <esES>Salvajismo</esES>
-    <enGB>Savagery</enGB>
-    <deDE>Unbändigkeit</deDE>
+    <enUS>Alexstrasza</enUS>
+    <frFR>Alexstrasza</frFR>
+    <zhTW>雅立史卓莎</zhTW>
+    <zhCN>阿莱克丝塔萨</zhCN>
+    <ruRU>Алекстраза</ruRU>
+    <ptBR>Alexstrasza</ptBR>
+    <plPL>Alexstraza</plPL>
+    <koKR>알렉스트라자</koKR>
+    <itIT>Alexstrasza</itIT>
+    <esMX>Alexstrasza</esMX>
+    <esES>Alexstrasza</esES>
+    <deDE>Alexstrasza</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal damage equal to your hero's Attack to all enemy minions.</enUS>
-    <frFR>Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à tous les serviteurs adverses.</frFR>
-    <zhTW>對全部敵方手下造成等同於你英雄攻擊力的傷害。</zhTW>
-    <zhCN>对所有敌方随从造成等同于你的英雄攻击力的伤害。</zhCN>
-    <ruRU>Наносит всем существам противника урон, равный силе атаки вашего героя.</ruRU>
-    <ptBR>Cause dano equivalente ao Ataque do seu herói a todos os lacaios inimigos.</ptBR>
-    <plPL>Wszystkim wrogim stronnikom zadaj obrażenia równe atakowi twojego bohatera.</plPL>
-    <koKR>당신 영웅의 공격력만큼 모든 적 하수인에게 피해를 줍니다.</koKR>
-    <itIT>Infligge danni pari all'Attacco del tuo eroe a tutti i servitori nemici.</itIT>
-    <esMX>Inflige daño equivalente al Ataque de tu héroe a todos los esbirros enemigos.</esMX>
-    <esES>Inflige un daño equivalente al ataque de tu héroe a todos los esbirros enemigos.</esES>
-    <enGB>Deal damage equal to your hero's Attack to all enemy minions.</enGB>
-    <deDE>Fügt allen feindlichen Dienern Schaden zu, der dem Angriff Eures Helden entspricht.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Set a hero's remaining Health to 15.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; fixe les points de vie restants d’un héros à 15.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;把一個英雄剩餘的生命值設為15點。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个英雄的剩余生命值成为15。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; текущее здоровье выбранного героя становится равно 15.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Defina a vida remanescente do herói para 15.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Ustaw pozostałe zdrowie bohatera na 15.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 선택한 영웅의 남은 생명력을 15로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; la Salute restante di un eroe diventa pari a 15.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; establece la Salud restante de un héroe en 15.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Fija la salud restante de un héroe en 15 p.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Setzt das verbleibende Leben eines Helden auf 15.</deDE>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="24" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Rapoza</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Even the most timid druid becomes a savage beast when you take away his honey.</enUS>
-    <zhTW>即使是最膽小的德魯伊也會因為被你偷走蜂蜜而化身為狂暴的野獸。</zhTW>
-    <zhCN>确实有些德鲁伊野性十足，但仍有些喜欢在恬静的时刻品上一壶好茶。</zhCN>
-    <ruRU>Конечно, встречаются и дикие друиды, но есть и такие, которым больше по душе чашечка чая в спокойной обстановке.</ruRU>
-    <ptBR>É verdade que alguns druidas são selvagens, mas outros ainda apreciam um momento de paz e um bom chá.</ptBR>
-    <plPL>To prawda, że niektórzy druidzi są dość dzicy, ale inni lubią posiedzieć w ciszy i wypić filiżankę herbatki.</plPL>
-    <koKR>아무리 온순한 드루이드라도 꿀을 빼앗기면 포악해집니다.</koKR>
-    <itIT>È vero che alcuni Druidi sono selvaggi, ma altri adorano godersi un po' di pace e sorseggiare un buon tè.</itIT>
-    <frFR>Même le plus timide des druides se transforme en bête sauvage quand on lui prend son miel.</frFR>
-    <esMX>Es cierto, algunos druidas son salvajes, pero también hay otros que disfrutan los momentos de paz con una taza de té.</esMX>
-    <esES>Es cierto que algunos druidas reaccionan así cuando ven una cesta de pícnic, pero otros saben apreciar la tranquilidad y una buena taza de té.</esES>
-    <enGB>Even the most timid druid becomes a savage beast when you take away his honey.</enGB>
-    <deDE>Es stimmt schon, dass einige Druiden ganz schön wild sind, aber es gibt auch andere, die gern in Ruhe eine Tasse Tee trinken.</deDE>
+    <enUS>Alexstraza the Life-Binder brings life and hope to everyone.  Except Deathwing.  And Malygos. And Nekros.</enUS>
+    <zhTW>『生命守縛者』雅立史卓莎替所有人帶來生命與希望。除了死亡之翼。還有瑪里苟斯。還有耐克魯斯。</zhTW>
+    <zhCN>生命的缚誓者阿莱克丝塔萨给所有人带来生命和希望。除了死亡之翼。除了玛利苟斯。除了耐克鲁斯。</zhCN>
+    <ruRU>Алекстраза, Хранительница Жизни несет свет и надежду каждому. Кроме Смертокрыла. И Малигоса. И еще Некроса.</ruRU>
+    <ptBR>Alexstraza, a Mãe da Vida traz vida e esperança a todos. Menos para o Asa da Morte. E Malygos. E Nekros.</ptBR>
+    <plPL>Alexstraza daje każdemu życie, nadzieję i natchnienie.  Za wyjątkiem Śmiercioskrzydłego. I Malygosa. No i Nekrosa.</plPL>
+    <koKR>생명의 어머니 알렉스트라자는 모두에게 삶과 희망을 줍니다. 데스윙, 말리고스, 네크로스만 빼고요. </koKR>
+    <itIT>Alexstrasza porta vita e speranza a tutti. Tranne che ad Alamorte. E a Malygos. E a Nekros.</itIT>
+    <frFR>Alexstrasza la Lieuse-de-vie apporte vie et espoir à tout le monde. Sauf à Aile de mort. Et Malygos. Et Nekros.</frFR>
+    <esMX>Alexstraza, la Protectora, les otorga vida y esperanza a todos. Menos a Alamuerte. Y a Malygos. Y a Nekros.</esMX>
+    <esES>Alexstrasza la Protectora trae vida y esperanza para todo el mundo. Menos para Alamuerte. Y Malygos. Y Nekros.</esES>
+    <deDE>Alexstrasza die Lebensbinderin bringt Leben und Hoffnung zu jedem. Außer zu Todesschwinge. Oder Malygos. Oder Nekros.</deDE>
   </Tag>
-  <Power definition="df2d11fa-bec4-4185-960b-fe0045645279">
-    <PlayRequirement reqID="1" param="" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Set Health to 15.</enUS>
+    <zhTW>將生命值設為15點。</zhTW>
+    <zhCN>使生命值成为15点。</zhCN>
+    <ruRU>Текущее здоровье этого героя будет равно 15</ruRU>
+    <ptBR>Defina a Vida para 15.</ptBR>
+    <plPL>Ustaw zdrowie na 15.</plPL>
+    <koKR>생명력 15로 만들기</koKR>
+    <itIT>Imposta la Salute a 15.</itIT>
+    <frFR>Fixe les PV à 15.</frFR>
+    <esMX>Establece la Salud en 15.</esMX>
+    <esES>Establece la salud en 15 p.</esES>
+    <deDE>Setzt das Leben auf 15.</deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="b44631dc-eec1-434a-a172-04bce74970c7">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="17" param="" />
   </Power>
 </Entity>

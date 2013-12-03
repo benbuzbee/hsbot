@@ -1,41 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_059e2">
+<Entity version="2" CardID="EX1_029">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Experiments!</enUS>
-    <frFR>Des expériences !</frFR>
-    <zhTW>實驗!</zhTW>
-    <zhCN>实验！</zhCN>
-    <ruRU>Эксперименты!</ruRU>
-    <ptBR>Experimentos!</ptBR>
-    <plPL>Eksperymenty!</plPL>
-    <koKR>실험!</koKR>
-    <itIT>Esperimenti!</itIT>
-    <esMX>¡Experimentos!</esMX>
-    <esES>¡Experimentos!</esES>
-    <enGB>Experiments!</enGB>
-    <deDE>Experimente!</deDE>
+    <enUS>Leper Gnome</enUS>
+    <frFR>Gnome lépreux</frFR>
+    <zhTW>麻瘋地精</zhTW>
+    <zhCN>麻疯侏儒</zhCN>
+    <ruRU>Лепрогном</ruRU>
+    <ptBR>Gnomo Leproso</ptBR>
+    <plPL>Trędowaty gnom</plPL>
+    <koKR>오염된 노움</koKR>
+    <itIT>Gnomo Contaminato</itIT>
+    <esMX>Gnomo paria</esMX>
+    <esES>Gnomo paria</esES>
+    <deDE>Lepragnom</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Attack and Health have been swapped by Crazed Alchemist.</enUS>
-    <frFR>L’Attaque et la Vie ont été échangées par l’alchimiste dément.</frFR>
-    <zhTW>攻擊力和生命值被瘋狂的鍊金師所調換。</zhTW>
-    <zhCN>疯狂的炼金师使其攻击力和生命值互换。</zhCN>
-    <ruRU>&lt;i&gt;Безумный алхимик&lt;/i&gt; поменял местами атаку и здоровье.</ruRU>
-    <ptBR>Ataque e Vida foram trocados pelo Alquimista Enlouquecido.</ptBR>
-    <plPL>Atak i zdrowie zostały zamienione przez szalonego alchemika.</plPL>
-    <koKR>광기의 연금술사가 공격력과 생명력 바꿈</koKR>
-    <itIT>Attacco e Salute scambiati dall'Alchimista Folle.</itIT>
-    <esMX>El Alquimista enloquecido ha intercambiado el Ataque y la Salud.</esMX>
-    <esES>El alquimista loco ha intercambiado el ataque y la salud.</esES>
-    <enGB>Attack and Health have been swapped by Crazed Alchemist.</enGB>
-    <deDE>Der Verrückte Alchemist hat Angriff und Leben vertauscht.</deDE>
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to the enemy hero.</enUS>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; inflige 2 points de dégâts au héros adverse.</frFR>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;對敵方英雄造成2點傷害。</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;对敌方英雄造成2点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; наносит 2 ед. урона герою противника.</ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Cause 2 de dano ao herói inimigo.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Zadaj 2 pkt. obrażeń wrogiemu bohaterowi.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 적 영웅에게 피해를 2 줍니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; infligge 2 danni all'eroe nemico.</itIT>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; inflige 2 de daño al héroe enemigo.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Inflige 2 p. de daño al héroe enemigo.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Fügt dem feindlichen Helden 2 Schaden zu.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="3" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="3" />
-  <Power definition="cecad300-65c1-4d6e-b550-978fcdb410a2" />
-  <Power definition="e6bfa48b-eae7-4b54-9f26-ef02e4a64d6c" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Glenn Rane</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He really just wants to be your friend, but the constant rejection is starting to really get to him.</enUS>
+    <zhTW>他只是想要跟你做好朋友，但是一直受到拒絕使得他開始有點不爽了。</zhTW>
+    <zhCN>他真的很想和你做朋友，但由于总是被排斥，他开始变得很沮丧。</zhCN>
+    <ruRU>Он очень хочет с вами подружиться, но постоянно чувствует себя изгоем, что плохо сказывается на его характере.</ruRU>
+    <ptBR>Ele só quer ser seu amigo, mas as rejeições constantes estão começando a deixar ele abalado.</ptBR>
+    <plPL>Bardzo by chciał zostać twoim przyjacielem, ale naprawdę źle odbiera brak akceptacji.</plPL>
+    <koKR>그는 단지 친구가 필요할 뿐입니다. 하지만 언제나 거부당하죠.</koKR>
+    <itIT>Una volta gli hai chiesto se voleva essere tuo amico... ma hai ricevuto solo un rifiuto.</itIT>
+    <frFR>Tout ce qu’il veut, c’est se faire des amis, mais ces rejets constants commencent à l’énerver.</frFR>
+    <esMX>Lo único que quiere es ser tu amigo, pero el rechazo constante ya está empezando a afectarlo.</esMX>
+    <esES>¡Dale un abrazo!</esES>
+    <deDE>Er möchte einfach nur Euer Freund sein, aber Ihr solltet Euch überlegen, ob Ihr ihm den kleinen Finger reichen wollt.</deDE>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="35c3329b-ffac-4188-86d3-18e0f0636816" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
+    <enUS>Leper Gnome dealt 2 damage.</enUS>
+    <frFR>Le gnome lépreux a infligé 2 points de dégâts.</frFR>
+    <zhTW>麻瘋地精造成2點傷害。</zhTW>
+    <zhCN>麻疯侏儒造成了2点伤害。</zhCN>
+    <ruRU>Лепрогном нанес 2 ед. урона.</ruRU>
+    <ptBR>Gnomo Leproso causou 2 de dano.</ptBR>
+    <plPL>Trędowaty gnom zadał 2 pkt. obrażeń.</plPL>
+    <koKR>오염된 노움이 피해 2 줌</koKR>
+    <itIT>Lo Gnomo Contaminato ha inflitto 2 danni all'eroe nemico.</itIT>
+    <esMX>El Gnomo paria inflige 2 de daño.</esMX>
+    <esES>El gnomo paria ha infligido 2 p. de daño.</esES>
+    <deDE>Der Lepragnom hat 2 Schaden verursacht.</deDE>
+  </TriggeredPowerHistoryInfo>
 </Entity>

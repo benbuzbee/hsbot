@@ -1,65 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_408">
-  <MasterPower>9b42e559-052c-4655-ab9b-d82ba20835f5</MasterPower>
+<Entity version="2" CardID="EX1_382">
+  <MasterPower>05db42af-669a-426c-a0ee-44b871475357</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mortal Strike</enUS>
-    <frFR>Frappe mortelle</frFR>
-    <zhTW>致死打擊</zhTW>
-    <zhCN>致死打击</zhCN>
-    <ruRU>Смертельный удар</ruRU>
-    <ptBR>Golpe Mortal</ptBR>
-    <plPL>Zabójczy cios</plPL>
-    <koKR>필사의 일격</koKR>
-    <itIT>Assalto Mortale</itIT>
-    <esMX>Golpe mortal</esMX>
-    <esES>Golpe mortal</esES>
-    <enGB>Mortal Strike</enGB>
-    <deDE>Tödlicher Stoß</deDE>
+    <enUS>Aldor Peacekeeper</enUS>
+    <frFR>Garde-paix de l’Aldor</frFR>
+    <zhTW>奧多爾保安官</zhTW>
+    <zhCN>奥尔多卫士</zhCN>
+    <ruRU>Миротворец Алдоров</ruRU>
+    <ptBR>Pacificador Aldor</ptBR>
+    <plPL>Rozjemca Aldorów</plPL>
+    <koKR>알도르 평화감시단</koKR>
+    <itIT>Pacificatore Aldor</itIT>
+    <esMX>Pacificador aldor</esMX>
+    <esES>Pacificador Aldor</esES>
+    <deDE>Friedensbewahrer</deDE>
+  </Tag>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Change an enemy minion's Attack to 1.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; l’Attaque d’un serviteur adverse passe à 1.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;使一個敵方手下的攻擊力降為1點。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个敌方随从的攻击力变为1。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; атака выбранного существа противника становится равна 1.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Mude o Ataque de um lacaio inimigo para 1.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zmień atak wrogiego stronnika na 1.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 적 하수인의 공격력을 1로 바꿉니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; l'Attacco di un servitore nemico diventa pari a 1.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; cambia el Ataque de un esbirro enemigo a 1.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Cambia el ataque de un esbirro enemigo a 1 p.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Setzt den Angriff eines feindlichen Dieners auf 1.</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead.</enUS>
-    <frFR>Inflige $4 point(s) de dégâts. Si votre héros à 12 PV ou moins, inflige $6 point(s) de dégâts à la place.</frFR>
-    <zhTW>造成$4點傷害。如果你的英雄生命值在12點以下，則改為造成$6點傷害。</zhTW>
-    <zhCN>造成$4点伤害。如果你的英雄的生命值小于或等于12点，则改为造成$6点伤害。</zhCN>
-    <ruRU>Наносит $4 ед. урона. Если у вашего героя 12 или меньше ед. здоровья, вместо этого наносит $6 ед. урона.</ruRU>
-    <ptBR>Cause $4 de dano. Se o seu herói tiver 12 pontos de vida ou menos, cause $6 de dano em vez de $4.</ptBR>
-    <plPL>Zadaj $4 pkt. obrażeń. Jeśli twój bohater ma 12 lub mniej zdrowia, zadaj zamiast tego $6 pkt. obrażeń.</plPL>
-    <koKR>피해를 $4 줍니다. 당신 영웅의 생명력이 12 이하라면 피해를 $6 줍니다.</koKR>
-    <itIT>Infligge $4 danni. Se il tuo eroe ha Salute pari a 12 o inferiore, infligge $6 danni.</itIT>
-    <esMX>Inflige $4 de daño. Si tu héroe tiene 12 de Salud o menos, entonces inflige $6 de daño.</esMX>
-    <esES>Inflige $4 p. de daño. Si tu héroe tiene 12 p. de salud o menos, inflige $6 p. de daño.</esES>
-    <enGB>Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead.</enGB>
-    <deDE>Verursacht $4 Schaden. Verursacht stattdessen $6 Schaden, wenn Euer Held max. 12 Leben hat.</deDE>
-  </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Zoltan &amp; Gabor</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"If you only use one ability, use Mortal Strike." - The Warrior Code, Line 6</enUS>
-    <zhTW>「如果你只能選一個技能，使用致死打擊。」-戰士守則，第6條</zhTW>
-    <zhCN>“如果你只有一个技能可以用，就用致死打击。”——《战士信条》，第6行</zhCN>
-    <ruRU>«Если вы используете только одну способность, выбирайте «Смертельный удар» - Кодекс воинов, строка 6</ruRU>
-    <ptBR>"Se você for usar só uma habilidade, use Golpe Mortal." — Código do Guerreiro, linha 6</ptBR>
-    <plPL>„Jeśli masz użyć tylko jednej umiejętności, niech to będzie ‘zabójczy cios’.” - Kodeks Wojowników, ustęp 6 </plPL>
-    <koKR>"기술을 하나밖에 쓸 수 없다면, 필사의 일격을 쓰라." - 전사의 십계명, 여섯 번째 줄</koKR>
-    <itIT>"Nel dubbio, usa Assalto Mortale." - Il Codice del Guerriero, riga 6</itIT>
-    <frFR>« Si vous ne deviez utiliser qu’une compétence, choisissez Frappe mortelle. » - Le code du guerrier, ligne 6</frFR>
-    <esMX>"Si solo puedes usar una habilidad, usa Golpe mortal". &lt;i&gt;Código del guerrero&lt;/i&gt;, línea 6</esMX>
-    <esES>"Si solo usas una facultad, que sea Golpe mortal". - El código de los guerreros, línea 6</esES>
-    <enGB>"If you only use one ability, use Mortal Strike." - The Warrior Code, Line 6</enGB>
-    <deDE>„Wer nur eine Fähigkeit verwendet, sollte sich stets für Tödlicher Stoß entscheiden.“ – Gesetz des Kriegers, Artikel 6</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="9b42e559-052c-4655-ab9b-d82ba20835f5">
-    <PlayRequirement reqID="11" param="" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dany Orizio</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Aldor hate two things: the Scryers and smooth jazz.</enUS>
+    <zhTW>奧多爾最討厭兩個東西:占卜者和時尚爵士樂。</zhTW>
+    <zhCN>奥尔多痛恨两样东西：占星者和湿鳞蜥蜴的眼睛。</zhCN>
+    <ruRU>Алдоры ненавидят две вещи: Провидцев и шансон.</ruRU>
+    <ptBR>Os Aldor odeiam duas coisas: os Áugures e smooth jazz.</ptBR>
+    <plPL>Aldorowie nienawidzą dwóch rzeczy: wieszczących oraz jazzu.</plPL>
+    <koKR>알도르는 딱 두 가지를 싫어합니다. 점술가 길드와 점술가 길드원이죠.</koKR>
+    <itIT>Gli Aldor odiano due cose: i Veggenti e lo smooth jazz.</itIT>
+    <frFR>L’Aldor déteste deux choses : les Clairvoyants et les bals musettes.</frFR>
+    <esMX>Los aldor odian dos cosas: los arúspices y el reggaeton.</esMX>
+    <esES>Los Aldor odian dos cosas: a los Arúspices y a los Arúspices.</esES>
+    <deDE>Die Aldor hassen zwei Dinge: die Seher und sanften Jazz.</deDE>
+  </Tag>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Change Attack to 1.</enUS>
+    <zhTW>將攻擊力改為1點。</zhTW>
+    <zhCN>将攻击力变为1。</zhCN>
+    <ruRU>Атака этого существа станет равной 1</ruRU>
+    <ptBR>Mude o Ataque para 1.</ptBR>
+    <plPL>Zmień atak na 1.</plPL>
+    <koKR>공격력 1로 바꾸기</koKR>
+    <itIT>L'Attacco diventa pari a 1.</itIT>
+    <frFR>L’Attaque passe à 1.</frFR>
+    <esMX>Cambia el Ataque a 1.</esMX>
+    <esES>Cambiar ataque a 1 p.</esES>
+    <deDE>Setzt den Angriff auf 1.</deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="05db42af-669a-426c-a0ee-44b871475357">
+    <PlayRequirement reqID="3" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="22" param="" />
   </Power>
 </Entity>

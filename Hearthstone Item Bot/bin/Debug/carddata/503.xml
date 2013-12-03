@@ -1,41 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_613e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_596">
+  <MasterPower>1da2233d-656d-4fb4-b78b-3b1c8d538eaa</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>VanCleef's Vengeance</enUS>
-    <frFR>Vengeance de VanCleef</frFR>
-    <zhTW>范克里夫的復仇</zhTW>
-    <zhCN>范克里夫的复仇</zhCN>
-    <ruRU>Месть ван Клифа</ruRU>
-    <ptBR>Vingança de VanCleef</ptBR>
-    <plPL>Zemsta VanCleefa</plPL>
-    <koKR>밴클리프의 복수심</koKR>
-    <itIT>Vendetta di VanCleef</itIT>
-    <esMX>Venganza de VanCleef</esMX>
-    <esES>Venganza de VanCleef</esES>
-    <enGB>VanCleef's Vengeance</enGB>
-    <deDE>Van Cleefs Rache</deDE>
+    <enUS>Demonfire</enUS>
+    <frFR>Feu démoniaque</frFR>
+    <zhTW>惡魔火焰</zhTW>
+    <zhCN>恶魔之火</zhCN>
+    <ruRU>Демонический огонь</ruRU>
+    <ptBR>Fogo Demoníaco</ptBR>
+    <plPL>Demoniczny ogień</plPL>
+    <koKR>악마의 불꽃</koKR>
+    <itIT>Fuoco Demoniaco</itIT>
+    <esMX>Fuego demoníaco</esMX>
+    <esES>Fuego demoníaco</esES>
+    <deDE>Dämonenfeuer</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has increased Attack and Health.</enUS>
-    <frFR>Les points d’Attaque et de Vie de ce serviteur sont augmentés.</frFR>
-    <zhTW>這個手下的攻擊力及生命值提高。</zhTW>
-    <zhCN>该随从的攻击力和生命值增加。</zhCN>
-    <ruRU>Здоровье и атака этого существа увеличены.</ruRU>
-    <ptBR>Este lacaio tem a Vida e o Ataque aumentados.</ptBR>
-    <plPL>Ten stronnik ma zwiększony atak oraz zdrowie.</plPL>
-    <koKR>공격력과 생명력 증가</koKR>
-    <itIT>Attacco e Salute aumentati.</itIT>
-    <esMX>Este esbirro tiene Ataque y Salud aumentados.</esMX>
-    <esES>Este esbirro tiene ataque y salud aumentados.</esES>
-    <enGB>This minion has increased Attack and Health.</enGB>
-    <deDE>Dieser Diener hat erhöhten Angriff und erhöhtes Leben.</deDE>
+    <enUS>Deal $2 damage to a minion.   If it’s a friendly Demon, give it +2/+2 instead.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts à un serviteur. Si la cible est un de vos démons, lui donne +2/+2 à la place.</frFR>
+    <zhTW>對一個手下造成$2點傷害。如果目標是友方的惡魔，改為賦予它+2/+2。</zhTW>
+    <zhCN>对一个随从造成$2点伤害，如果该随从是友方恶魔，则改为使其获得+2/+2。</zhCN>
+    <ruRU>Наносит $2 ед. урона выбранному существу. Если выбран ваш демон, вместо этого он получает +2/+2.</ruRU>
+    <ptBR>Cause $2 de dano a um lacaio. Se for um Demônio aliado, em vez disso, conceda-lhe +2/+2.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń stronnikowi. Jeśli cel jest przyjaznym demonem, daj mu zamiast tego +2/+2.</plPL>
+    <koKR>하수인에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다.</koKR>
+    <itIT>Infligge $2 danni a un servitore. Se il bersaglio è un tuo Demone, gli fornisce +2/+2 invece.</itIT>
+    <esMX>Inflige $2 de daño a un esbirro. Si es un Demonio aliado, entonces le otorga +2/+2.</esMX>
+    <esES>Inflige $2 p. de daño a un esbirro. Si el objetivo es un demonio amistoso, en lugar de dañarlo le otorga +2/+2.</esES>
+    <deDE>Fügt einem Diener $2 Schaden zu. Wenn das Ziel ein verbündeter Dämon ist, erhält er stattdessen +2/+2.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="e9cdbdd2-0f6c-4d4b-8db7-8aea60f75898" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ben Wootten</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Demonfire is like regular fire except for IT NEVER STOPS BURNING HELLLPPP</enUS>
+    <zhTW>惡魔火焰跟一般的火一樣，除了它根本拍不熄救命啊啊啊啊!!!</zhTW>
+    <zhCN>恶魔之火和普通火焰没什么区别，除了它从来不会熄灭...救命！</zhCN>
+    <ruRU>Демонический огонь – это тот же огонь, только ОН НИКОГДА НЕ ГАСНЕТ. А-А, ГОРЮ-Ю!</ruRU>
+    <ptBR>Fogo Demoníaco é como fogo comum, só que NUNCA PARA DE QUEIMAR, SOCORROOOO!!!</ptBR>
+    <plPL>Demoniczny ogień przypomina zwykły, z tym, że NIE MOŻNA GO UGASIĆ! POMOOOOOCYYYYY!</plPL>
+    <koKR>악마의 불꽃은 절대 꺼지지 않는다는 점만 빼면 일반 불꽃과 똑같습니다. 그러니까 이 불 좀 꺼주세요!!!!!!!</koKR>
+    <itIT>Il Fuoco Demoniaco è come quello normale, tranne che NON SMETTE PIÙ DI BRUCIAREEEEEE!</itIT>
+    <frFR>Le feu démoniaque est comme un feu normal sauf qu’IL NE S’ARRÊTE JAMAIS DE BRÛLER AU SECOURS !</frFR>
+    <esMX>El fuego demoníaco no es muy diferente del fuego normal, con la excepción de que NUNCA DEJA DE QUEMAR. ¡SOCORROOO!</esMX>
+    <esES>El Fuego demoníaco es como cualquier otro fuego, ¡salvo que NUNCA DEJA DE ARDER! ¡AYUDA!</esES>
+    <deDE>Dämonenfeuer ist eigentlich ganz normales Feuer, aber ES HÖRT NICHT AUF ZU BRENNEN! HILFEEEEEE!!!</deDE>
+  </Tag>
+  <Power definition="1da2233d-656d-4fb4-b78b-3b1c8d538eaa">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

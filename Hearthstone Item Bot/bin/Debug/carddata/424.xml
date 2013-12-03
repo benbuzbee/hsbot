@@ -1,52 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_508">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_400">
+  <MasterPower>79654337-4a80-4672-94ca-ebd26dbcd9e6</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Grimscale Oracle</enUS>
-    <frFR>Oracle sinistrécaille</frFR>
-    <zhTW>厲鱗神諭者</zhTW>
-    <zhCN>暗鳞先知</zhCN>
-    <ruRU>Оракул Темной Чешуи</ruRU>
-    <ptBR>Oráculo Escamatroz</ptBR>
-    <plPL>Wyrocznia Burych Łusek</plPL>
-    <koKR>성난비늘 수련사</koKR>
-    <itIT>Oracolo Scagliasalda</itIT>
-    <esMX>Oráculo malaescama</esMX>
-    <esES>Oráculo Malaescama</esES>
-    <enGB>Grimscale Oracle</enGB>
-    <deDE>Grimmschuppenorakel</deDE>
+    <enUS>Whirlwind</enUS>
+    <frFR>Tourbillon</frFR>
+    <zhTW>旋風斬</zhTW>
+    <zhCN>旋风斩</zhCN>
+    <ruRU>Вихрь</ruRU>
+    <ptBR>Redemoinho</ptBR>
+    <plPL>Młyniec</plPL>
+    <koKR>소용돌이</koKR>
+    <itIT>Turbine</itIT>
+    <esMX>Torbellino</esMX>
+    <esES>Torbellino</esES>
+    <deDE>Wirbelwind</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Argalagblbl</enUS>
-  </Tag>
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>ALL other Murlocs have +1 Attack.</enUS>
-    <frFR>TOUS les autres murlocs ont +1 ATQ.</frFR>
-    <zhTW>全部其他魚人獲得+1攻擊力。</zhTW>
-    <zhCN>所有其他鱼人获得+1攻击力。</zhCN>
-    <ruRU>ВСЕ прочие мурлоки получают +1 к атаке.</ruRU>
-    <ptBR>TODOS os outros Murlocs têm +1 de Ataque.</ptBR>
-    <plPL>Wszystkie pozostałe murloki otrzymują +1 do ataku.</plPL>
-    <koKR>다른 모든 멀록이 공격력을 +1 얻습니다.</koKR>
-    <itIT>TUTTI gli altri Murloc ottengono +1 Attacco.</itIT>
-    <esMX>TODOS los otros múrlocs tienen +1 de Ataque.</esMX>
-    <esES>Todos los demás múrlocs tienen +1 p. de ataque.</esES>
-    <enGB>ALL other Murlocs have +1 Attack.</enGB>
-    <deDE>ALLE anderen Murlocs haben +1 Angriff.</deDE>
+    <enUS>Deal $1 damage to ALL minions.</enUS>
+    <frFR>Inflige $1 |4(point,points) de dégâts à TOUS les serviteurs.</frFR>
+    <zhTW>對全部手下造成$1點傷害。</zhTW>
+    <zhCN>对所有随从造成$1点伤害。</zhCN>
+    <ruRU>Наносит $1 ед. урона ВСЕМ существам.</ruRU>
+    <ptBR>Cause $1 de dano a TODOS os lacaios.</ptBR>
+    <plPL>Zadaj $1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
+    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 $1 줍니다.</koKR>
+    <itIT>Infligge $1 danno a TUTTI i servitori.</itIT>
+    <esMX>Inflige $1 de daño a TODOS los esbirros.</esMX>
+    <esES>Inflige $1 p. de daño a todos los esbirros.</esES>
+    <deDE>Fügt ALLEN Dienern $1 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Phil Saunders</enUS>
+    <enUS>Jonboy Meyers</enUS>
   </Tag>
-  <Power definition="21969ec7-342e-480e-9cfe-6ba9afc9a2e5" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The way to tell seasoned warriors from novice ones: the novices yell "wheeeee" while whirlwinding.</enUS>
+    <zhTW>要分辨老戰士和新手戰士的方法:菜鳥會在用旋風斬時大喊「耶!!」</zhTW>
+    <zhCN>分辨资深战士和新手战士的最好办法：新手在用旋风斩时会喊”哇哇哇“。</zhCN>
+    <ruRU>Лучший способ отличить закаленного в боях волшебника от новичка: последние всегда радостно вопят, применяя это заклинание.</ruRU>
+    <ptBR>Uma maneira de distinguir os guerreiros experientes dos novatos: os novatos gritam "urruuuuul" enquanto giram no Redemoinho.</ptBR>
+    <plPL>Sposób na rozróżnienie doświadczonych wojowników od żółtodziobów: ci drudzy wołają „fruuuu” rozpoczynając młyniec.</plPL>
+    <koKR>노련한 전사와 풋내기 전사의 차이점은 간단합니다. 풋내기들은 소용돌이를 쓰면서 "이얏호!"라고 외치죠.</koKR>
+    <itIT>Il modo migliore per riconoscere un Guerriero veterano da un novellino è che quest'ultimo grida "Uuooooo" quando esegue un Turbine.</itIT>
+    <frFR>Comment différencier un guerrier vétéran d’un novice : le novice crie « ouiiiiii ! » quand il tourbillonne.</frFR>
+    <esMX>¿Cómo se distingue a un guerrero experimentado de un principiante? Los principiantes gritan "wiiiiii" mientras hacen el torbellino.</esMX>
+    <esES>Una forma de distinguir a los guerreros veteranos de los novatos: los novatos gritan "wiiiiiiii" mientras lanzan Torbellino.</esES>
+    <deDE>Wie man erfahrene Krieger von unerfahrenen unterscheidet: Die unerfahrenen rufen „Juuhuu“, während sie Wirbelwind wirken.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 44.</enUS>
+  </Tag>
+  <Power definition="79654337-4a80-4672-94ca-ebd26dbcd9e6" />
 </Entity>

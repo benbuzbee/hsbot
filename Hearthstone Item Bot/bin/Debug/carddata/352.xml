@@ -1,64 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_308">
-  <MasterPower>59ec1a94-36e2-45e2-a7d6-4958f435ac69</MasterPower>
+<Entity version="2" CardID="EX1_275">
+  <MasterPower>b13d477d-17c7-42d5-884a-a8518077e042</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Soulfire</enUS>
-    <frFR>Feu de l’âme</frFR>
-    <zhTW>靈魂之火</zhTW>
-    <zhCN>灵魂之火</zhCN>
-    <ruRU>Ожог души</ruRU>
-    <ptBR>Fogo d'Alma</ptBR>
-    <plPL>Ogień duszy</plPL>
-    <koKR>영혼의 불꽃</koKR>
-    <itIT>Fuoco dell'Anima</itIT>
-    <esMX>Fuego de alma</esMX>
-    <esES>Fuego de alma</esES>
-    <enGB>Soulfire</enGB>
-    <deDE>Seelenfeuer</deDE>
+    <enUS>Cone of Cold</enUS>
+    <frFR>Cône de froid</frFR>
+    <zhTW>冰錐術</zhTW>
+    <zhCN>冰锥术</zhCN>
+    <ruRU>Конус холода</ruRU>
+    <ptBR>Cone de Frio</ptBR>
+    <plPL>Stożek zimna</plPL>
+    <koKR>냉기 돌풍</koKR>
+    <itIT>Cono di Freddo</itIT>
+    <esMX>Cono de frío</esMX>
+    <esES>Cono de frío</esES>
+    <deDE>Kältekegel</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $4 damage. Discard a random card.</enUS>
-    <frFR>Inflige $4 point(s) de dégâts. Vous défausse d’une carte aléatoire.</frFR>
-    <zhTW>造成$4點傷害。隨機捨棄一張牌。</zhTW>
-    <zhCN>造成$4点伤害。随机弃一张牌。</zhCN>
-    <ruRU>Наносит $4 ед. урона. Вы сбрасываете случайную карту.</ruRU>
-    <ptBR>Cause $4 de dano. Descarte um card aleatório.</ptBR>
-    <plPL>Zadaj $4 pkt. obrażeń. Odrzuć losową kartę.</plPL>
-    <koKR>피해를 $4 줍니다. 무작위로 카드를 한 장 버립니다.</koKR>
-    <itIT>Infligge $4 danni. Scarta una carta casuale.</itIT>
-    <esMX>Inflige $4 de daño. Descarta una carta aleatoria.</esMX>
-    <esES>Inflige $4 p. de daño. Descarta una carta aleatoria.</esES>
-    <enGB>Deal $4 damage. Discard a random card.</enGB>
-    <deDE>Verursacht $4 Schaden. Werft eine zufällige Karte ab.</deDE>
+    <enUS>&lt;b&gt;Freeze&lt;/b&gt; a minion and the minions next to it, and deal $1 damage to them.</enUS>
+    <frFR>&lt;b&gt;Gèle&lt;/b&gt; et inflige $1 |4(point,points) de dégâts à un serviteur et ceux à côté de lui.</frFR>
+    <zhTW>&lt;b&gt;凍結&lt;/b&gt;一個手下及其兩側的手下，並對他們造成$1點傷害。</zhTW>
+    <zhCN>&lt;b&gt;冻结&lt;/b&gt;一个随从和其相邻的随从，并对它们造成$1点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Замораживает&lt;/b&gt; выбранное существо и существа по обе стороны от него и наносит им $1 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Congele&lt;/b&gt; um lacaio e os lacaios vizinhos, causando-lhes $1 de dano.</ptBR>
+    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; stronnika oraz stronników obok niego i zadaj im $1 pkt. obrażeń.</plPL>
+    <koKR>하수인과 그 양옆의 하수인들을 &lt;b&gt;빙결&lt;/b&gt; 상태로 만들고 피해를 $1 줍니다.</koKR>
+    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; a un servitore e ai servitori adiacenti, e infligge loro $1 danno.</itIT>
+    <esMX>&lt;b&gt;Congela&lt;/b&gt; a un esbirro y a los esbirros adyacentes a él y les inflige $1 de daño.</esMX>
+    <esES>&lt;b&gt;Congela&lt;/b&gt; a un esbirro y a los esbirros adyacentes al mismo y les inflige $1 p. de daño.</esES>
+    <deDE>&lt;b&gt;Friert&lt;/b&gt; einen Diener sowie seine benachbarten Diener ein und fügt ihnen $1 Schaden zu.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.</enUS>
-    <zhTW>你正在點燃靈魂嗎?還是用你&lt;b&gt;自己的&lt;/b&gt;靈魂燃燒別人?這看起來有很重要的分別。</zhTW>
-    <zhCN>是把别人的灵魂点燃？还是用自己的灵魂把别人点燃？这似乎是有很大区别的。</zhCN>
-    <ruRU>Вы поджигаете душу или сжигаете кого-то своей душой? Это существенное различие.</ruRU>
-    <ptBR>Você tá queimando a alma de alguém? Ou queimando alguém com a sua PRÓPRIA alma? É importante distinguir.</ptBR>
-    <plPL>Chodzi o ogień z duszy. Nie z dyszy. To jednak spora różnica.</plPL>
-    <koKR>상대의 영혼에 불을 지르는 걸까요? 아니면 자신의 영혼으로 상대에게 불을 지르는 걸까요? 비슷해 보이지만 정말 중요한 차이입니다.</koKR>
-    <itIT>Illumini un'anima che va a fuoco, o dai fuoco a qualcuno con la TUA anima? Sembra una precisazione piuttosto importante da fare.</itIT>
-    <frFR>Est-ce que vous mettez le feu à une âme ? Ou bien vous brûlez quelqu’un avec votre âme ? Il y a une différence !</frFR>
-    <esMX>¿Estás prendiéndole fuego a un alma? ¿O estás quemando a alguien con TU alma? Hay una diferencia importante.</esMX>
-    <esES>Los brujos tienen el fuego en el cuerpo. Y en el alma.</esES>
-    <enGB>Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.</enGB>
-    <deDE>Setzt Ihr eine Seele in Brand? Oder verbrennt Ihr jemanden mit Eurer EIGENEN Seele? Der Unterschied scheint nicht unwesentlich zu sein.</deDE>
+    <enUS>Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.</enUS>
+    <zhTW>祈倫托的法師本來都愛用&lt;i&gt;冰塊術&lt;/i&gt;，直到90多年前甜筒開始流行。</zhTW>
+    <zhCN>冰锥术在大约90年前开始流行起来，而在那之前，肯瑞托的法师们习惯用的是冰块术。</zhCN>
+    <ruRU>Маги Кирин-Тора издавна создавали Кубики холода, но кубизм вышел из моды лет этак 90 назад.</ruRU>
+    <ptBR>Os magos do Kirin Tor já lançavam Cubos de Frio muitos anos antes de os Cones entrarem na moda, há uns 90 anos.</ptBR>
+    <plPL>Tak wygląda walec zimna poddany obróbce ze skrawaniem.</plPL>
+    <koKR>키린 토 마법사들은 주문 시전의 최신 유행을 선도합니다. 90년 전 마법사들이 냉기 장풍을 쓰는 모습을 본다면, 분명 촌스럽다고 생각하실 겁니다.</koKR>
+    <itIT>I Maghi del Kirin Tor capaci di lanciare questo incantesimo sono molto ricercati sulle spiagge di Azeroth.</itIT>
+    <frFR>Les magi du Kirin Tor ont longtemps lancé des cubes de froid avant que les cônes ne deviennent à la mode il y a environ 90 ans.</frFR>
+    <esMX>Los magos del Kirin Tor conjuraban cubos de frío mucho antes de que los conos se pusieran de moda hace unos 90 años.</esMX>
+    <esES>Más frío que robando pingüinos.</esES>
+    <deDE>Die Magier der Kirin Tor wirkten lange Jahre den „Kältekubus“, bevor der Kegel vor etwa 90 Jahren in Mode kam.</deDE>
   </Tag>
-  <Power definition="59ec1a94-36e2-45e2-a7d6-4958f435ac69">
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Concept Art House</enUS>
+  </Tag>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="b13d477d-17c7-42d5-884a-a8518077e042">
     <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
   </Power>
 </Entity>

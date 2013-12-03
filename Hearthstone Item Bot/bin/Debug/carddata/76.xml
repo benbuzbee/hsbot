@@ -1,43 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_083b">
-  <MasterPower>43361d24-86c6-42a3-b9ea-1320bdf35997</MasterPower>
+<Entity version="2" CardID="CS2_061">
+  <MasterPower>56647e8e-df83-4230-b6f9-1755433490f3</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dagger Mastery</enUS>
-    <frFR>Maîtrise des dagues</frFR>
-    <zhTW>匕首專精</zhTW>
-    <zhCN>匕首精通</zhCN>
-    <ruRU>Мастер клинков</ruRU>
-    <ptBR>Maestria em Adagas</ptBR>
-    <plPL>Mistrzyni sztyletów</plPL>
-    <koKR>단검의 대가</koKR>
-    <itIT>Maestria nei Pugnali</itIT>
-    <esMX>Maestría en dagas</esMX>
-    <esES>Maestría en dagas</esES>
-    <enGB>Dagger Mastery</enGB>
-    <deDE>Dolchbeherrschung</deDE>
+    <enUS>Drain Life</enUS>
+    <frFR>Drain de vie</frFR>
+    <zhTW>吸取生命</zhTW>
+    <zhCN>吸取生命</zhCN>
+    <ruRU>Похищение жизни</ruRU>
+    <ptBR>Drenar Vida</ptBR>
+    <plPL>Wyssanie życia</plPL>
+    <koKR>생명력 흡수</koKR>
+    <itIT>Risucchio di Vita</itIT>
+    <esMX>Drenar vida</esMX>
+    <esES>Drenar vida</esES>
+    <deDE>Blutsauger</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Equip a 1/2 Dagger; or Give your weapon +1 Attack this turn.</enUS>
-    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nÉquipe une dague 1/2 ou confère +1 ATQ à votre arme pendant ce tour.</frFR>
-    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;裝備一把1/2匕首，或在本回合內賦予你的武器+1攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n装备一把1/2的匕首；或者使你的武器本回合获得+1攻击力。</zhCN>
-    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n Получить оружие 1/2; или добавить оружию +1 к атаке до конца хода.</ruRU>
-    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Equipe uma Adaga 1/2; ou conceda +1 de Ataque à sua arma neste turno.</ptBR>
-    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Otrzymujesz sztylet 1/2; lub dajesz swojej broni +1 do ataku w tej turze.</plPL>
-    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 1/2 단검을 장비합니다. 또는 이번 턴에 당신의 무기에 공격력을 +1 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nEquipaggia un Pugnale 1/2 o fornisce +1 Attacco alla tua arma in questo turno.</itIT>
-    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Equipa una daga 1/2 o le otorga +1 de Ataque a tu arma en este turno.</esMX>
-    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Equipa una daga 1/2, o bien otorga +1 p. de ataque a tu arma este turno.</esES>
-    <enGB>&lt;b&gt;Hero Power&lt;/b&gt; \n Equip a 1/2 Dagger; or Give your weapon +1 Attack this turn.</enGB>
-    <deDE>&lt;b&gt;Heldenfähgkeit&lt;/b&gt; \n Legt einen Dolch (1/2) an; oder Eure Waffe erhält +1 Angriff in diesem Zug.</deDE>
+    <enUS>Deal $2 damage. Restore #2 Health to your hero.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts. Rend #2 |4(point,points) de vie à votre héros.</frFR>
+    <zhTW>造成$2點傷害。使你的英雄恢復#2點生命值。</zhTW>
+    <zhCN>造成$2点伤害，为你的英雄恢复#2点生命值。</zhCN>
+    <ruRU>Наносит $2 ед. урона. Восстанавливает #2 ед. здоровья вашему герою.</ruRU>
+    <ptBR>Cause $2 de dano. Restaure #2 de Vida do seu herói.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń. Przywróć #2 pkt. zdrowia swojemu bohaterowi.</plPL>
+    <koKR>피해를 $2 줍니다. 내 영웅이 생명력을 #2 회복합니다.</koKR>
+    <itIT>Infligge $2 danni. Rigenera #2 Salute al tuo eroe.</itIT>
+    <esMX>Inflige $2 de daño. Restaura #2 de Salud a tu héroe.</esMX>
+    <esES>Inflige $2 p. de daño. Restaura #2 p. de salud a tu héroe.</esES>
+    <deDE>Verursacht $2 Schaden. Stellt bei Eurem Helden #2 Leben wieder her.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Power definition="43361d24-86c6-42a3-b9ea-1320bdf35997" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Don Hazeltine</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"I've just sucked one year of your life away."</enUS>
+    <zhTW>「我剛吸走了你一年的壽命。」</zhTW>
+    <zhCN>“我只是减少了你一年的寿命而已。”</zhCN>
+    <ruRU>«Я только что отнял у тебя лучший год твоей жизни».</ruRU>
+    <ptBR>"Acabei de sugar um ano da sua vida."</ptBR>
+    <plPL>„Właśnie wyssałem ci rok życia”.</plPL>
+    <koKR>"제가 동안을 유지하는 비결이죠."</koKR>
+    <itIT>"Ti ho appena risucchiato un anno di vita."</itIT>
+    <frFR>« Tu ne le sais pas encore mais tu es déjà mort ! »</frFR>
+    <esMX>"Tu sufrimiento es mi felicidad".</esMX>
+    <esES>"Te acabo de quitar un año de vida. No se admiten devoluciones".</esES>
+    <deDE>„Ich habe Euch gerade ein Jahr Eures Lebens ausgesaugt.“</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 20.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="56647e8e-df83-4230-b6f9-1755433490f3">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>
