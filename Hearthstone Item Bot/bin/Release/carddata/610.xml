@@ -1,69 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_031">
-  <MasterPower>9ec73fe1-8c73-4322-88b0-2cd1f762a8bb</MasterPower>
+<Entity version="2" CardID="EX1_315">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Animal Companion</enUS>
-    <frFR>Compagnon animal</frFR>
-    <zhTW>動物夥伴</zhTW>
-    <zhCN>动物伙伴</zhCN>
-    <ruRU>Питомец</ruRU>
-    <ptBR>Companheiro Animal</ptBR>
-    <plPL>Zwierzęcy towarzysz</plPL>
-    <koKR>야생의 벗</koKR>
-    <itIT>Famiglio Animale</itIT>
-    <esMX>Compañero animal</esMX>
-    <esES>Compañero animal</esES>
-    <deDE>Tierbegleiter</deDE>
+    <enUS>Summoning Portal</enUS>
+    <frFR>Portail d’invocation</frFR>
+    <zhTW>召喚傳送門</zhTW>
+    <zhCN>召唤传送门</zhCN>
+    <ruRU>Портал призыва</ruRU>
+    <ptBR>Portal de Evocação</ptBR>
+    <plPL>Portal przywołania</plPL>
+    <koKR>소환의 문</koKR>
+    <itIT>Portale d'Evocazione</itIT>
+    <esMX>Portal de invocación</esMX>
+    <esES>Portal de invocación</esES>
+    <deDE>Beschwörungsportal</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Summoning</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Summon a random Beast Companion.</enUS>
-    <frFR>Invoque un compagnon animal aléatoire.</frFR>
-    <zhTW>召喚一隻隨機的野獸夥伴。</zhTW>
-    <zhCN>随机召唤一个野兽伙伴。</zhCN>
-    <ruRU>Призывает случайного зверя.</ruRU>
-    <ptBR>Evoque um Fera Companheira aleatória.</ptBR>
-    <plPL>Przyzwij losowo jednego ze zwierzęcych towarzyszy Rexxara.</plPL>
-    <koKR>무작위 동료 야수를 소환합니다.</koKR>
-    <itIT>Evoca una Bestia casuale.</itIT>
-    <esMX>Invoca una Bestia compañera aleatoria.</esMX>
-    <esES>Invoca a una bestia compañera aleatoria.</esES>
-    <deDE>Ruft einen zufälligen Wildtierbegleiter herbei.</deDE>
+    <enUS>Your minions cost (2) less, but not less than (1).</enUS>
+    <frFR>Vos serviteurs coûtent (2) cristaux de moins, mais jamais moins de (1).</frFR>
+    <zhTW>你的手下消耗減少(2)點，但不會低於(1)點。</zhTW>
+    <zhCN>你的随从牌法力值消耗减少（2）点，但是不能少于（1）点。</zhCN>
+    <ruRU>Ваши существа стоят на (2) маны меньше, но не меньше (1).</ruRU>
+    <ptBR>Seus lacaios custam (2) a menos, mas nunca menos de (1).</ptBR>
+    <plPL>Twoi stronnicy kosztują (2) mniej, ale nie mniej niż (1).</plPL>
+    <koKR>내 하수인들의 비용이 (2) 감소합니다. 단, (1)보다 낮아지진 않습니다.</koKR>
+    <itIT>I tuoi servitori costano (2) Mana in meno, ma non meno di (1) Mana.</itIT>
+    <esMX>Tus esbirros cuestan (2) menos, pero no menos de (1).</esMX>
+    <esES>Tus esbirros cuestan (2) cristales menos, pero no menos de (1).</esES>
+    <deDE>Eure Diener kosten (2) weniger, aber nicht weniger als (1).</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Wei Wang</enUS>
+    <enUS>Tyler Walpole</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.</enUS>
-    <zhTW>你能召喚出米莎、里奧克或胡佛。胡佛造成的麻煩比他的用處還大。</zhTW>
-    <zhCN>你可以召唤米莎，雷欧克或是霍弗！霍弗又没用，又爱惹麻烦！</zhCN>
-    <ruRU>Вы можете призвать Мишу, Леокка или Хаффера. От последнего больше неприятностей, чем пользы.</ruRU>
-    <ptBR>Você poderia evocar Misha, Leokk ou Bufo! Bufo não vale o trabalho que dá.</ptBR>
-    <plPL>Możesz przyzwać Miszę, Leoka lub Prychacza! Prychacz sprawia więcej kłopotów niż jest wart.</plPL>
-    <koKR>미샤나 레오크, 혹은 킁킁이를 소환할 수 있습니다! 근데 킁킁이는 좀 말썽꾸러기라는 거.</koKR>
-    <itIT>Potresti evocare Misha, Leokk o Huffer! Ma probabilmente per Huffer non ne vale la pena.</itIT>
-    <frFR>Vous pourriez invoquer Misha, Leokk ou Souffleur ! Enfin, Souffleur n’en vaut pas vraiment la peine.</frFR>
-    <esMX>¡Podrías invocar a Misha, a Leokk o a Bufar! Aunque Bufar es demasiado problemático...</esMX>
-    <esES>Podrías invocar a Misha, Leokk o Bufar. Bufar da más problemas que otra cosa.</esES>
-    <deDE>Ihr könntet Misha, Leokk oder Grummel herbeirufen! Allerdings macht Grummel mehr Ärger als irgendwas.</deDE>
+    <enUS>NOT LESS THAN 1!  Don't get any ideas!</enUS>
+    <zhTW>不會低於1點!別亂想了!</zhTW>
+    <zhCN>不能少于1点！你在想什么坏主意呢！</zhCN>
+    <ruRU>НЕ МЕНЬШЕ 1! И торг здесь неуместен.</ruRU>
+    <ptBR>NÃO MENOS QUE 1! Não seja espertinho!</ptBR>
+    <plPL>Mniej niż zerooo… O! O! O! O!</plPL>
+    <koKR>1 이하로는 안 내려간다고요! 헛수고하지 마세요!</koKR>
+    <itIT>Restate in linea durante l'evocazione o potreste perdere la priorità acquisita!</itIT>
+    <frFR>JAMAIS MOINS DE 1 ! N’allez pas vous faire des idées !</frFR>
+    <esMX>¡NO MENOS DE 1! ¡Ni se te ocurra pensarlo!</esMX>
+    <esES>Cada vez que lo llamas "armario", un brujo sacrifica un alma.</esES>
+    <deDE>NICHT WENIGER ALS 1! Kommt nicht auf dumme Gedanken!</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 2.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 40.</enUS>
-  </Tag>
-  <Power definition="9ec73fe1-8c73-4322-88b0-2cd1f762a8bb">
-    <PlayRequirement reqID="12" param="1" />
-  </Power>
-  <EntourageCard cardID="NEW1_032" />
-  <EntourageCard cardID="NEW1_033" />
-  <EntourageCard cardID="NEW1_034" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="d4d9df42-0b48-48de-90e5-f3d4b0ac27cb" />
 </Entity>

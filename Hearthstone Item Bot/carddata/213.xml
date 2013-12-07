@@ -1,79 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_011">
-  <MasterPower>16b3528e-10d9-45b5-acdc-6eaa826f4817</MasterPower>
+<Entity version="2" CardID="EX1_407">
+  <MasterPower>bc2cdc82-6232-41c0-bf67-e3e3fc3db11e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Voodoo Doctor</enUS>
-    <frFR>Docteur vaudou</frFR>
-    <zhTW>巫毒巫醫</zhTW>
-    <zhCN>巫医</zhCN>
-    <ruRU>Знахарь вуду</ruRU>
-    <ptBR>Mandingueiro Vodu</ptBR>
-    <plPL>Znachor</plPL>
-    <koKR>부두교 의술사</koKR>
-    <itIT>Taumaturgo Vudù</itIT>
-    <esMX>Doctor vudú</esMX>
-    <esES>Médico vudú</esES>
-    <deDE>Voodoodoktor</deDE>
+    <enUS>Brawl</enUS>
+    <frFR>Baston</frFR>
+    <zhTW>鬥毆</zhTW>
+    <zhCN>绝命乱斗</zhCN>
+    <ruRU>Потасовка</ruRU>
+    <ptBR>Briga</ptBR>
+    <plPL>Bójka</plPL>
+    <koKR>난투</koKR>
+    <itIT>Rissa</itIT>
+    <esMX>Pelea</esMX>
+    <esES>Camorra</esES>
+    <deDE>Scharmützel</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 2 Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; rend 2 points de vie.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;恢復2點生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;恢复2点生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; восстанавливает 2 ед. здоровья.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Restaure 2 de Vida.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przywróć 2 pkt. zdrowia.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 생명력을 2 회복시킵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; rigenera 2 Salute.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; restaura 2 de Salud.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Restaura 2 p. de salud.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Stellt 2 Leben wieder her.</deDE>
+    <enUS>Destroy all minions except one.  (chosen randomly)</enUS>
+    <frFR>Détruit tous les serviteurs sauf un (choisi au hasard).</frFR>
+    <zhTW>摧毀全部手下，只留下一個。(隨機選擇)</zhTW>
+    <zhCN>随机选择一个随从，消灭除了该随从外的所有其他随从。</zhCN>
+    <ruRU>Уничтожает все существа, кроме одного, выбранного в случайном порядке.</ruRU>
+    <ptBR>Destrua todos os lacaios, menos um (escolhido aleatoriamente).</ptBR>
+    <plPL>Zniszcz wszystkich stronników oprócz jednego (wybranego losowo).</plPL>
+    <koKR>무작위로 선정된 하수인 1마리를 제외한 모든 하수인을 처치합니다.</koKR>
+    <itIT>Distrugge tutti i servitori tranne uno scelto casualmente.</itIT>
+    <esMX>Destruye a todos los esbirros excepto uno. (Elegido aleatoriamente)</esMX>
+    <esES>Destruye a todos los esbirros menos a uno (elegido al azar).</esES>
+    <deDE>Vernichtet alle Diener bis auf einen. (Zufällige Auswahl)</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Restore 2 Health.</enUS>
-    <frFR>Rend 2 points de vie.</frFR>
-    <zhTW>恢復2點生命值。</zhTW>
-    <zhCN>恢复2点生命值。</zhCN>
-    <ruRU>Восстановить 2 ед. здоровья</ruRU>
-    <ptBR>Restaure 2 de Vida.</ptBR>
-    <plPL>Przywróć 2 pkt. zdrowia.</plPL>
-    <koKR>생명력 2 회복</koKR>
-    <itIT>Rigenera 2 Salute.</itIT>
-    <esMX>Restaura 2 de Salud.</esMX>
-    <esES>Restaura 2 p. de salud.</esES>
-    <deDE>Stellt 2 Leben wieder her.</deDE>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Karl Richardson</enUS>
+    <enUS>Wayne Reynolds</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Voodoo is an oft-misunderstood art. But it &lt;i&gt;is&lt;/i&gt; art.</enUS>
-    <zhTW>巫毒是一門經常被誤會的藝術。但不管怎麼說，它都是一門藝術。</zhTW>
-    <zhCN>别以为带上大坏蛋面具，再把两根筷子插在嘴里，你就是巫医了，伙计。</zhCN>
-    <ruRU>Вуду – это искусство, хотя не все его понимают.</ruRU>
-    <ptBR>O Vodu é uma arte mal compreendida. Mas ainda &lt;i&gt;é&lt;/i&gt; arte.</ptBR>
-    <plPL>Cukier krzepi, voodoo lepiej!</plPL>
-    <koKR>한동안 이 카드의 이름은 "더러운 트롤 의술사"였습니다.</koKR>
-    <itIT>Il vudù sarà pure un'arte incompresa, ma &lt;i&gt;è&lt;/i&gt; arte.</itIT>
-    <frFR>Le vaudou est un art souvent incompris. Mais c’est un &lt;i&gt;art&lt;/i&gt;.</frFR>
-    <esMX>El vudú es un arte muchas veces incomprendido. Pero nadie puede negar que es un arte.</esMX>
-    <esES>¡Aléjate del vudú!</esES>
-    <deDE>Voodoo ist eine verpönte Kunst. Aber eine Kunst ist es dennoch.</deDE>
+    <enUS>Do you know the first rule of Brawl Club?</enUS>
+    <zhTW>你知道鬥陣俱樂部的第一守則是什麼嗎?</zhTW>
+    <zhCN>你知道搏击俱乐部的第一守则吗？</zhCN>
+    <ruRU>Знаете первое правило Бойцовского клуба?</ruRU>
+    <ptBR>Você sabe a primeira regra do Clube da Briga?</ptBR>
+    <plPL>Wiesz jaka jest pierwsza zasada klubu bójek?</plPL>
+    <koKR>싸움꾼 조합의 첫 번째 규칙이 뭐죠?</koKR>
+    <itIT>Conosci la prima regola del Circolo dei Combattenti?</itIT>
+    <frFR>Vous connaissez la première règle des bastonneurs ?</frFR>
+    <esMX>¿Sabes cuál es la primera regla del Club de la Pelea?</esMX>
+    <esES>¿Conoces la primera regla de la Hermandad de camorristas?</esES>
+    <deDE>Wie nennt man eine nicht besonders große Kopfbedeckung aus negativen Emotionen? ... Ein Sha-Mützel. Ha.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Rogue Level 55.</enUS>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="16b3528e-10d9-45b5-acdc-6eaa826f4817">
-    <PlayRequirement reqID="22" param="" />
+  <Power definition="bc2cdc82-6232-41c0-bf67-e3e3fc3db11e">
+    <PlayRequirement reqID="45" param="2" />
   </Power>
 </Entity>

@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_008">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_025">
+  <MasterPower>f7e16bf5-f6bd-4520-b35f-130e5baa1a55</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Argent Squire</enUS>
-    <frFR>Écuyère d’Argent</frFR>
-    <zhTW>銀白侍從</zhTW>
-    <zhCN>银色侍从</zhCN>
-    <ruRU>Сквайр Авангарда</ruRU>
-    <ptBR>Escudeira Argêntea</ptBR>
-    <plPL>Giermek Argentu</plPL>
-    <koKR>은빛십자군 종자</koKR>
-    <itIT>Guardiana d'Argento</itIT>
-    <esMX>Escudera argenta</esMX>
-    <esES>Escudera Argenta</esES>
-    <deDE>Argentumknappin</deDE>
+    <enUS>Bloodsail Corsair</enUS>
+    <frFR>Forban de la Voile sanglante</frFR>
+    <zhTW>血帆海寇</zhTW>
+    <zhCN>血帆海盗</zhCN>
+    <ruRU>Кровожадный корсар</ruRU>
+    <ptBR>Corsário da Vela Sangrenta</ptBR>
+    <plPL>Korsarz Krwawych Żagli</plPL>
+    <koKR>붉은해적단 바다사냥꾼</koKR>
+    <itIT>Corsaro dei Velerosse</itIT>
+    <esMX>Corsario Velasangre</esMX>
+    <esES>Corsario Velasangre</esES>
+    <deDE>Blutsegelkorsar</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Race" enumID="200" type="Race" value="23" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;圣盾&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Божественный щит&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Escudo divino&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Gottesschild&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Remove 1 Durability from your opponent's weapon.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; ôte 1 Durabilité à l’arme de votre adversaire.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;使你對手的武器耐久度降低1點。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使对手的武器失去1点耐久度。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уменьшает прочность оружия противника на 1.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Remova 1 de Durabilidade da arma do seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zmniejsz wytrzymałość broni przeciwnika o 1.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편의 무기 내구도를 1 감소시킵니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; rimuove 1 Integrità dall'arma dell'avversario.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; quita 1 de Durabilidad del arma de tu adversario.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Elimina 1 p. de durabilidad del arma de tu oponente.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht 1 Haltbarkeit von der Waffe Eures Gegners ab.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Zoltan &amp; Gabor</enUS>
+    <enUS>Randy Gallegos</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"I solemnly swear to uphold the Light, purge the world of darkness, and to eat only burritos." - The Argent Dawn Oath</enUS>
-    <zhTW>「我在此宣誓將信仰聖光，驅散世界上的黑暗力量，並只食用捲餅。」-銀色黎明誓語</zhTW>
-    <zhCN>“在此我严正宣誓：追随圣光，净化黑暗，只吃煎饼。”——银色黎明之誓</zhCN>
-    <ruRU>«Торжественно клянусь защищать дело Света, очищать мир от тьмы и есть только обезжиренный йогурт»\nОбет ордена Серебряного Рассвета.</ruRU>
-    <ptBR>"Juro solenemente defender a Luz, livrar o mundo da escuridão e comer somente risole de camarão." — Juramento da Aurora Argêntea</ptBR>
-    <plPL>„Przysięgam walczyć w obronie Światłości, oczyścić świat z ciemności i mieć z tego dużo radości!” - przysięga Argentowego Brzasku</plPL>
-    <koKR>"맹세합니다. 이 시간 이후로, 나는 빛을 수호하고, 어둠을 물리치며, 유통기한이 지난 음식은 먹지 않겠다고." - 은빛 여명회 서약</koKR>
-    <itIT>"Giuro solennemente di sostenere la Luce, epurare l'oscurità e mangiare solo pizza." - Giuramento degli Alba d'Argento</itIT>
-    <frFR>« Je jure solennellement de faire respecter la Lumière, de purger le monde de ses ténèbres et de manger au moins 5 fruits et légumes par jour. » - Serment de l’Aube d’argent</frFR>
-    <esMX>"Juro solemnemente proteger la Luz, purgar la oscuridad del mundo y solo comer burritos" —Juramento de El Alba Argenta</esMX>
-    <esES>"El alba se avecina, ahora empieza mi guardia". - El juramento del Alba Argenta</esES>
-    <deDE>„Ich schwöre feierlich, für das Licht zu streiten, die Welt von der Dunkelheit zu befreien und mich ausschließlich von Süßigkeiten zu ernähren.“ - Schwur der Argentumdämmerung</deDE>
+    <enUS>Every pirate uses the same four digits to access Automated Gold Dispensers.  It's called the "Pirate's Code".</enUS>
+    <zhTW>每個海盜都必須用同一組四位數密碼領錢。如此一來，以後找到其他海盜的寶藏才不用猜密碼。-海盜法典</zhTW>
+    <zhCN>每个海盗都用相同的四个数字来打开自动黄金分配装置。这些数字被称为“海盗密码”。</zhCN>
+    <ruRU>Однажды пират, лежа в больнице, по привычке захватил чужое судно. </ruRU>
+    <ptBR>Todo pirata usa os mesmos quatro dígitos para acessar Caixas Automáticos de Ouro. É o "Código Pirata".</ptBR>
+    <plPL>Każdy pirat słyszał o skarbie zwącym się „Wielki Łup”, który podobno otwiera drzwi do innego świata.</plPL>
+    <koKR>"해적 수칙"에 따르면, 해적들은 자동 금화 인출기의 비밀 번호로 모두 똑같은 네 자리 숫자를 사용해야 합니다.</koKR>
+    <itIT>Ogni pirata usa lo stesse 4 cifre per accedere al Distributore Automatico di Oro. Si chiama "Codice dei Pirati".</itIT>
+    <frFR>Tous les pirates utilsent les mêmes quatre chiffres pour accéder aux distributeurs d’or automatiques. C’est pour ça que ça s’appelle le « code des pirates ».</frFR>
+    <esMX>Todos los piratas usan los mismos cuatro dígitos para acceder a los Dispensadores de Oro Automáticos. Se lo llama "Código del Pirata".</esMX>
+    <esES>No se te ocurra llamar pirata a un corsario.</esES>
+    <deDE>Alle Piraten verfügen über dieselbe vierstellige PIN, um auf den Goldautomaten zuzugreifen. Man nennt sie den „Piratencode“.</deDE>
   </Tag>
-  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="90252eac-30fb-408f-a812-70e185ae3fa7" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="f7e16bf5-f6bd-4520-b35f-130e5baa1a55" />
 </Entity>

@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CRED_07">
+<Entity version="2" CardID="EX1_295o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Zwick</enUS>
-    <zhTW>Zwick</zhTW>
-    <zhCN>Zwick</zhCN>
-    <ruRU>Zwick</ruRU>
-    <ptBR>Zwick</ptBR>
-    <plPL>Zwick</plPL>
-    <koKR>즈윅</koKR>
-    <itIT>Zwick</itIT>
-    <frFR>Zwick</frFR>
-    <esMX>Zwick</esMX>
-    <esES>Zwick</esES>
-    <deDE>Zwick</deDE>
+    <enUS>Ice Block</enUS>
+    <frFR>Bloc de glace</frFR>
+    <zhTW>寒冰屏障</zhTW>
+    <zhCN>寒冰屏障</zhCN>
+    <ruRU>Ледяная глыба</ruRU>
+    <ptBR>Bloco de Gelo</ptBR>
+    <plPL>Lodowy blok</plPL>
+    <koKR>얼음 방패</koKR>
+    <itIT>Blocco di Ghiaccio</itIT>
+    <esMX>Bloque de hielo</esMX>
+    <esES>Bloque de hielo</esES>
+    <deDE>Eisblock</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Complain about bacon prices.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抱怨培根的價格。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抱怨火腿的价格。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; возмущается ценами на бекон.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Reclama sobre o preço do bacon.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Narzekaj na ceny bekonu.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 베이컨 가격이 너무 비싸다고 불평합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; si lamenta dei prezzi del bacon.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; se plaint du prix du bacon.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; se queja de lo caro que está el tocino.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Se queja por el precio del bacon.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Beschwert Euch über die Bacon-Preise.</deDE>
+    <enUS>Your hero is &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
+    <frFR>Votre héros est &lt;b&gt;Insensible&lt;/b&gt; pour ce tour.</frFR>
+    <zhTW>你的英雄在本回合內&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
+    <zhCN>在本回合中，你的英雄获得&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
+    <ruRU>Ваш герой &lt;b&gt;неуязвим&lt;/b&gt; до конца хода.</ruRU>
+    <ptBR>Seu herói fica &lt;b&gt;Imune&lt;/b&gt; até o final do turno.</ptBR>
+    <plPL>Twój bohater ma w tej turze &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
+    <koKR>이번 턴에 &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
+    <itIT>Il tuo eroe è &lt;b&gt;Immune&lt;/b&gt; in questo turno.</itIT>
+    <esMX>Tu héroe es &lt;b&gt;Inmune&lt;/b&gt; en este turno.</esMX>
+    <esES>Tu héroe es &lt;b&gt;inmune&lt;/b&gt; este turno.</esES>
+    <deDE>Euer Held ist &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="fd459f8c-fbe3-4061-a822-6b4ba39fe3a8" />
+  <Power definition="aa276b35-83b1-4158-8288-57b75c6744a2" />
+  <Power definition="986b46c5-8189-447b-aac3-9158925b9c04" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

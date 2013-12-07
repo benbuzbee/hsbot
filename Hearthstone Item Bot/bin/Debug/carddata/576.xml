@@ -1,47 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_006">
+<Entity version="2" CardID="CS2_059">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Adrenaline Rush</enUS>
-    <frFR>Adrenaline Rush</frFR>
-    <zhTW>Adrenaline Rush</zhTW>
-    <zhCN>Adrenaline Rush</zhCN>
-    <ruRU>Adrenaline Rush</ruRU>
-    <ptBR>Adrenaline Rush</ptBR>
-    <plPL>Adrenaline Rush</plPL>
-    <koKR>Adrenaline Rush</koKR>
-    <itIT>Adrenaline Rush</itIT>
-    <esMX>Adrenaline Rush</esMX>
-    <esES>Adrenaline Rush</esES>
-    <deDE>Adrenaline Rush</deDE>
+    <enUS>Blood Imp</enUS>
+    <frFR>Diablotin de sang</frFR>
+    <zhTW>血之小鬼</zhTW>
+    <zhCN>鲜血小鬼</zhCN>
+    <ruRU>Кровавый бес</ruRU>
+    <ptBR>Diabrete de Sangue</ptBR>
+    <plPL>Chochlik krwi</plPL>
+    <koKR>피의 임프</koKR>
+    <itIT>Imp del Sangue</itIT>
+    <esMX>Diablillo de sangre</esMX>
+    <esES>Diablillo sangriento</esES>
+    <deDE>Blutwichtel</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</enUS>
-    <frFR>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</frFR>
-    <zhTW>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</zhTW>
-    <zhCN>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</zhCN>
-    <ruRU>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</ruRU>
-    <ptBR>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</ptBR>
-    <plPL>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</plPL>
-    <koKR>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</koKR>
-    <itIT>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</itIT>
-    <esMX>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</esMX>
-    <esES>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</esES>
-    <deDE>Draw a card. &lt;b&gt;Combo:&lt;/b&gt; Draw 2 cards instead.</deDE>
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;. Your other minions have +1 Health.</enUS>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;. Vos autres serviteurs ont +1 PV.</frFR>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;。你的其他手下獲得+1生命值。</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;，你的其他随从获得+1生命值。</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. Другие ваши существа получают +1 к здоровью.</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;. Seus outros lacaios têm +1 de Vida.</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Twoi pozostali stronnicy otrzymują +1 do zdrowia.</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;. 내 다른 하수인들이 생명력을 +1 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;. Gli altri tuoi servitori hanno +1 Salute.</itIT>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;. Tus otros esbirros tienen +1 de Salud.</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;. Tus demás esbirros tienen +1 p. de salud.</esES>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;. Eure anderen Diener haben +1 Leben.</deDE>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="15" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Blood Pact</enUS>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jonboy Meyers</enUS>
+    <enUS>Bernie Kang</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Rogues don't need to jump from the top of the 1000 Needles to get a burst of adrenaline.</enUS>
+    <enUS>Imps are content to hide and viscously taunt everyone nearby.</enUS>
+    <zhTW>小鬼對於能躲起來並滿懷惡意地嘲諷附近的所有人感到很滿意。</zhTW>
+    <zhCN>小鬼喜欢躲在暗处嘲讽附近的所有人，并且对此乐此不疲。</zhCN>
+    <ruRU>Почему у кровавых бесов глаза желтые? Чтобы лучше прятаться в бананах! Что, вы никогда не видели беса в бананах? Хорошо прячется!</ruRU>
+    <ptBR>Os diabretes se contentam em se esconder e provocar todo mundo feito um grude.</ptBR>
+    <plPL>Chochliki uwielbiają chować się w cieniu i złośliwie prowokować wszystkich w pobliżu.</plPL>
+    <koKR>임프는 숨어서 주위의 모두를 도발하는 행위를 즐깁니다.</koKR>
+    <itIT>Gli piace la carne ben cotta.</itIT>
+    <frFR>Ces petits diablotins adorent se cacher et jouer de mauvais tours à tous ceux qui passent à leur portée.</frFR>
+    <esMX>Los diablillos se conforman con ocultarse y provocar a todos los paseantes.</esMX>
+    <esES>¡Esto no estaba en su contrato!</esES>
+    <deDE>Wichtel geben sich damit zufrieden, sich zu verstecken und dann wahllos Leute zu beleidigen.</deDE>
   </Tag>
-  <Tag name="Combo" enumID="220" type="Bool" value="1" />
-  <Power definition="7ddda14b-74c4-4d1c-93f7-d7f8c6aa31a2" />
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="87bd7870-bbcc-4953-875e-b7c76cdbc397" />
+  <Power definition="9fdc365e-edd4-4d6d-842e-315e5c632b1b" />
 </Entity>

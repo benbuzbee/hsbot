@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_074e">
+<Entity version="2" CardID="NEW1_032">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Deadly Poison</enUS>
-    <zhTW>致命毒藥</zhTW>
-    <zhCN>致命药膏</zhCN>
-    <ruRU>Смертоносный яд</ruRU>
-    <ptBR>Veneno Mortal</ptBR>
-    <plPL>Zabójcza trucizna</plPL>
-    <koKR>맹독</koKR>
-    <itIT>Veleno Mortale</itIT>
-    <frFR>Poison mortel</frFR>
-    <esMX>Veneno mortal</esMX>
-    <esES>Veneno mortal</esES>
-    <deDE>Tödliches Gift</deDE>
+    <enUS>Misha</enUS>
+    <frFR>Misha</frFR>
+    <zhTW>米莎</zhTW>
+    <zhCN>米莎</zhCN>
+    <ruRU>Миша</ruRU>
+    <ptBR>Misha</ptBR>
+    <plPL>Misza</plPL>
+    <koKR>미샤</koKR>
+    <itIT>Misha</itIT>
+    <esMX>Misha</esMX>
+    <esES>Misha</esES>
+    <deDE>Misha</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack.</enUS>
-    <zhTW>+2攻擊力。</zhTW>
-    <zhCN>+2攻击力。</zhCN>
-    <ruRU>+2 к атаке.</ruRU>
-    <ptBR>+2 de Ataque.</ptBR>
-    <plPL>+2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>+2 Attacco.</itIT>
-    <frFR>+2 ATQ.</frFR>
-    <esMX>+2 de Ataque.</esMX>
-    <esES>+2 p. de ataque.</esES>
-    <deDE>+2 Angriff.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="413a42ee-15fe-492d-90ae-a6765d8c2cd8" />
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="0fc584f4-98fe-456f-99d1-cb088410c3fd" />
 </Entity>

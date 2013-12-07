@@ -1,68 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_032">
+<Entity version="2" CardID="NEW1_038">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Flamestrike</enUS>
-    <frFR>Choc de flammes</frFR>
-    <zhTW>烈焰風暴</zhTW>
-    <zhCN>烈焰风暴</zhCN>
-    <ruRU>Волна огня</ruRU>
-    <ptBR>Golpe Flamejante</ptBR>
-    <plPL>Fala płomieni</plPL>
-    <koKR>불기둥</koKR>
-    <itIT>Colonna di Fuoco</itIT>
-    <esMX>Fogonazo</esMX>
-    <esES>Fogonazo</esES>
-    <deDE>Flammenstoß</deDE>
+    <enUS>Gruul</enUS>
+    <zhTW>戈魯爾</zhTW>
+    <zhCN>格鲁尔</zhCN>
+    <ruRU>Груул</ruRU>
+    <ptBR>Gruul</ptBR>
+    <plPL>Gruul</plPL>
+    <koKR>그룰</koKR>
+    <itIT>Gruul</itIT>
+    <frFR>Gruul</frFR>
+    <esMX>Gruul</esMX>
+    <esES>Gruul</esES>
+    <deDE>Gruul</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $4 damage to all enemy minions.</enUS>
-    <frFR>Inflige $4 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
-    <zhTW>對全部敵方手下造成$4點傷害。</zhTW>
-    <zhCN>对所有敌方随从造成$4点伤害。</zhCN>
-    <ruRU>Наносит $4 ед. урона всем существам противника. </ruRU>
-    <ptBR>Cause $4 de dano a todos os lacaios inimigos.</ptBR>
-    <plPL>Zadaj $4 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
-    <koKR>모든 적 하수인에게 피해를 $4 줍니다.</koKR>
-    <itIT>Infligge $4 danni a tutti i servitori nemici.</itIT>
-    <esMX>Inflige $4 de daño a todos los esbirros enemigos.</esMX>
-    <esES>Inflige $4 p. de daño a todos los esbirros enemigos.</esES>
-    <deDE>Fügt allen feindlichen Dienern $4 Schaden zu.</deDE>
+    <enUS>At the end of each turn, gain +1/+1 .</enUS>
+    <zhTW>在每個回合結束時獲得+1/+1。</zhTW>
+    <zhCN>在每个回合结束时，获得+1/+1。</zhCN>
+    <ruRU>В конце каждого хода получает +1/+1.</ruRU>
+    <ptBR>Ao fim de cada turno, receba +1/+1.</ptBR>
+    <plPL>Na koniec każdej tury otrzymujesz +1/+1.</plPL>
+    <koKR>각 턴이 끝날 때마다 +1/+1을 얻습니다.</koKR>
+    <itIT>Alla fine del tuo turno, Gruul ottiene +1/+1.</itIT>
+    <frFR>À la fin de chaque tour, gagne +1/+1.</frFR>
+    <esMX>Al final de cada turno, obtiene +1/+1.</esMX>
+    <esES>Al final de cada turno, obtiene +1/+1.</esES>
+    <deDE>Erhält am Ende jedes Zuges +1/+1.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Growth</enUS>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>When the ground is on fire, you should &lt;i&gt;not&lt;/i&gt; stop, drop, and roll.</enUS>
-    <zhTW>當地面著火時，千萬&lt;i&gt;不要&lt;/i&gt;留下來看戲。</zhTW>
-    <zhCN>当地板着火的时候，无论你在地上怎么打滚，都是没用的。</zhCN>
-    <ruRU>Если земля горит под ногами, &lt;i&gt;не нужно&lt;/i&gt; падать на нее и кататься.</ruRU>
-    <ptBR>Se tiver fogo no chão, você &lt;i&gt;não&lt;/i&gt; deve parar, cair e rolar.</ptBR>
-    <plPL>Kiedy wszystko wokół płonie, zacznij klaskać raźno w dłonie!</plPL>
-    <koKR>바닥에 불이 붙었을 땐, 멈춰서서 엎드리고 굴러서는 &lt;i&gt;절대&lt;/i&gt; 안 됩니다.</koKR>
-    <itIT>Quando il terreno è in fiamme, &lt;i&gt;non&lt;/i&gt; dovresti gettarti per terra e rotolare.</itIT>
-    <frFR>Il suffira d’une étincelle, d’un rien, d’un geste pour... allumer le feu !</frFR>
-    <esMX>Eso que dicen de tirarse al suelo y rodar &lt;i&gt;no funciona&lt;/i&gt; cuando el suelo está en llamas.</esMX>
-    <esES>Lo de tirarse al suelo y rodar no es tan buena idea cuando es el suelo lo que está en llamas.</esES>
-    <deDE>Frühe Magier waren verblüfft, als sie herausfanden, dass dieser Zauber auch unter Wasser funktioniert.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Romain De Santi</enUS>
+    <enUS>Kev Walker</enUS>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 10.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He's Gruul "the Dragonkiller".  He just wanted to cuddle them… he never meant to… </enUS>
+    <zhTW>他是『弒龍者』戈魯爾。其實他只是想要抱抱那些龍，並沒有真的想...</zhTW>
+    <zhCN>人们叫他“屠龙者”格鲁尔。其实他只是想抱抱它们...他不是故意要...</zhCN>
+    <ruRU>Груул Драконобой просто хотел их погладить... но не получилось...</ruRU>
+    <ptBR>Ele é Gruul, o Matador de Dragões. Ele só queria abraçá-los... nunca quis que... </ptBR>
+    <plPL>Choć Gruul ma przydomek „Smokobójca”, to tak naprawdę bardzo je lubi. </plPL>
+    <koKR>그룰은 "용학살자"입니다만, 사실 용들을 꼭 안아주고 싶었을 뿐입니다.</koKR>
+    <itIT>È noto come Gruul "l'Ammazzadraghi". In realtà voleva solo coccolarli... è stato un terribile incidente... </itIT>
+    <frFR>Son nom est Gruul, « le tueur de dragons ». Il voulait juste les câliner... Il ne pensait pas que...</frFR>
+    <esMX>Él es Gruul, "el Asesino de Dragones". Él solo quería abrazarlos... nunca tuvo la intención de... </esMX>
+    <esES>Es Gruul, el Asesino de Dragones. Él solo quería acariciarlos... nunca tuvo intención de...</esES>
+    <deDE>Gruul der Drachentöter hat seinen Namen verdient, und das, obwohl er eigentlich nur kuscheln wollte.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 48.</enUS>
-  </Tag>
-  <Power definition="47f7e316-007e-491f-be88-e61d217d777c" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="361ee1fb-ee37-43c1-a4b6-bcf1a1247574" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

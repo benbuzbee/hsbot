@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_188">
+<Entity version="2" CardID="EX1_312">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gladiator's Longbow</enUS>
-    <frFR>Arc long du gladiateur</frFR>
-    <zhTW>鬥士長弓</zhTW>
-    <zhCN>角斗士的长弓</zhCN>
-    <ruRU>Длинный лук</ruRU>
-    <ptBR>Arco Longo do Gladiador</ptBR>
-    <plPL>Długi Łuk Gladiatora</plPL>
-    <koKR>검투사의 장궁</koKR>
-    <itIT>Arco Lungo del Gladiatore</itIT>
-    <esMX>Arco largo de Gladiador</esMX>
-    <esES>Arco largo de Gladiador</esES>
-    <deDE>Langbogen des Gladiators</deDE>
+    <enUS>Twisting Nether</enUS>
+    <frFR>Néant distordu</frFR>
+    <zhTW>扭曲虛空</zhTW>
+    <zhCN>扭曲虚空</zhCN>
+    <ruRU>Круговерть Пустоты</ruRU>
+    <ptBR>Espiral Etérea</ptBR>
+    <plPL>Wirujący Niebyt</plPL>
+    <koKR>뒤틀린 황천</koKR>
+    <itIT>Distorsione Fatua</itIT>
+    <esMX>Vacío abisal</esMX>
+    <esES>Vacío Abisal</esES>
+    <deDE>Wirbelnder Nether</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Durability" enumID="187" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="8" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your hero is &lt;b&gt;Immune&lt;/b&gt; while attacking.</enUS>
-    <frFR>Votre héros est &lt;b&gt;Insensible&lt;/b&gt; quand il attaque.</frFR>
-    <zhTW>你的英雄在攻擊時&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
-    <zhCN>你的英雄在攻击时具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>Атакуя, ваш герой не получает урона.</ruRU>
-    <ptBR>Seu herói fica &lt;b&gt;Imune&lt;/b&gt; enquanto ataca.</ptBR>
-    <plPL>Twój bohater posiada &lt;b&gt;Niewrażliwość&lt;/b&gt; podczas ataku.</plPL>
-    <koKR>내 영웅이 공격할 때 &lt;b&gt;피해 면역&lt;/b&gt; 상태가 됩니다.</koKR>
-    <itIT>Il tuo eroe è &lt;b&gt;Immune&lt;/b&gt; quando attacca.</itIT>
-    <esMX>Tu héroe es &lt;b&gt;Inmune&lt;/b&gt; mientras ataca.</esMX>
-    <esES>Tu héroe es &lt;b&gt;inmune&lt;/b&gt; al atacar.</esES>
-    <deDE>Euer Held ist &lt;b&gt;immun&lt;/b&gt;, während er angreift.</deDE>
+    <enUS>Destroy all minions.</enUS>
+    <frFR>Détruit tous les serviteurs.</frFR>
+    <zhTW>摧毀全部手下。</zhTW>
+    <zhCN>消灭所有随从。</zhCN>
+    <ruRU>Уничтожает всех существ.</ruRU>
+    <ptBR>Destrua todos os lacaios.</ptBR>
+    <plPL>Zniszcz wszystkich stronników.</plPL>
+    <koKR>모든 하수인을 처치합니다.</koKR>
+    <itIT>Distrugge tutti i servitori.</itIT>
+    <esMX>Destruye a todos los esbirros.</esMX>
+    <esES>Destruye a todos los esbirros.</esES>
+    <deDE>Vernichtet alle Diener.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Peter C. Lee</enUS>
+    <enUS>Dave Allsop</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The longbow allows shots to be fired from farther away and is useful for firing on particularly odorous targets.</enUS>
-    <zhTW>長弓能從更遠的地方發射，對於特別香的目標非常有效。</zhTW>
-    <zhCN>弓弦很长，这使得射手能够射得更远，对付那些难闻的目标尤其有效。</zhCN>
-    <ruRU>Длинный лук позволяет стрелять намного дальше, что особенно полезно при стрельбе по дурно пахнущим целям.</ruRU>
-    <ptBR>O arco longo permite atirar flechas mais de longe e é útil para disparar contra alvos especialmente fedorentos.</ptBR>
-    <plPL>Ten długi łuk pozwala na ostrzał z naprawdę daleka i przydaje się do likwidowania szczególnie cuchnących celów.</plPL>
-    <koKR>멀리서 쏠 수 있기 때문에 냄새가 지독한 적을 상대할 때 유용합니다.</koKR>
-    <itIT>Gli archi lunghi possono colpire da molto lontano, il che è utile quando bisogna colpire bersagli particolarmente maleodoranti.</itIT>
-    <frFR>Cet arc long permet de tirer depuis une certaine distance, ce qui est particulièrement utile contre les cibles qui... sentent.</frFR>
-    <esMX>El arco largo te permite disparar desde más lejos y es muy útil cuando los enemigos son especialmente apestosos.</esMX>
-    <esES>El arco largo permite disparar desde mayores distancias y es muy útil para eliminar a objetivos particularmente apestosos.</esES>
-    <deDE>Da dieser Langbogen sich hervorragend dazu eignet, Feinde aus großer Entfernung zu erledigen, wird er für die Jagd auf stark riechende Ziele empfohlen.</deDE>
+    <enUS>The Twisting Nether is a formless place of magic and illusion and destroyed minions.</enUS>
+    <zhTW>扭曲虛空是個沒有形體的地方，有著魔法、幻影及被摧毀的手下。</zhTW>
+    <zhCN>扭曲虚空浩渺无际，充满着魔法、幻象和被放逐的生命体。</zhCN>
+    <ruRU>Круговерть Пустоты – это то самое место, куда отправляются с поля боя уничтоженные существа.</ruRU>
+    <ptBR>A Espiral Etérea é um lugar sem forma de magia e ilusão e lacaios destruídos.</ptBR>
+    <plPL>Wirujący Niebyt to bezkształtne miejsce pełne magii, iluzji i zniszczonych stronników.</plPL>
+    <koKR>뒤틀린 황천은 마법과 환상, 죽은 하수인들로 가득한 형태 없는 공간입니다.</koKR>
+    <itIT>La Distorsione Fatua è un luogo senza forma pervaso da magia, illusioni e servitori annientati.</itIT>
+    <frFR>Le Néant distordu est un endroit sans forme, rempli de magie, d’illusions... et de serviteurs sauvagement sacrifiés.</frFR>
+    <esMX>El Vacío abisal es un lugar amorfo lleno de magia, ilusión y esbirros despedazados.</esMX>
+    <esES>Todos los esbirros van al... ¿Vacío Abisal?</esES>
+    <deDE>Der Wirbelnde Nether ist ein Ort der Magie und Illusion, ohne Form, aber voll mit vernichteten Dienern.</deDE>
   </Tag>
-  <ReferencedTag name="Cant Be Damaged" enumID="240" type="Bool" value="1" />
-  <Power definition="d96807ae-a9fb-42f9-9c53-36e0f4da9446" />
+  <Power definition="0dcb5c19-b908-4dcc-ad25-c2c643bd4a91" />
 </Entity>

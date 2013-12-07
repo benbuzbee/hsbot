@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_017">
-  <MasterPower>c5b2cfe4-3a01-423a-82be-cf633d4b215c</MasterPower>
+<Entity version="2" CardID="EX1_161">
+  <MasterPower>ec37f417-25c4-45d0-a3cd-296f1c25174f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hungry Crab</enUS>
-    <frFR>Crabe affamé</frFR>
-    <zhTW>飢餓的螃蟹</zhTW>
-    <zhCN>鱼人杀手蟹</zhCN>
-    <ruRU>Голодный краб</ruRU>
-    <ptBR>Caranguejo Faminto</ptBR>
-    <plPL>Głodny krab</plPL>
-    <koKR>굶주린 게</koKR>
-    <itIT>Granchio Affamato</itIT>
-    <esMX>Cangrejo hambriento</esMX>
-    <esES>Cangrejo hambriento</esES>
-    <deDE>Hungrige Krabbe</deDE>
+    <enUS>Naturalize</enUS>
+    <frFR>Acclimatation</frFR>
+    <zhTW>自然化</zhTW>
+    <zhCN>自然平衡</zhCN>
+    <ruRU>Близость к природе</ruRU>
+    <ptBR>Naturalizar</ptBR>
+    <plPL>Naturalizacja</plPL>
+    <koKR>자연화</koKR>
+    <itIT>Naturalizzazione</itIT>
+    <esMX>Naturalizar</esMX>
+    <esES>Naturalizar</esES>
+    <deDE>Kreislauf der Natur</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a Murloc and gain +2/+2.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit un murloc et gagne +2/+2.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個魚人並獲得+2/+2。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个鱼人，并获得+2/+2。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает выбранного мурлока и получает +2/+2.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um murloc e receba +2/+2.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz murloka, a dostanie +2/+2.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 멀록을 처치하고 +2/+2를 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il Granchio Affamato distrugge un Murloc e ottiene +2/+2.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye un múrloc y obtiene +2/+2.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a un múrloc y obtiene +2/+2.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet einen Murloc und erhält +2/+2.</deDE>
+    <enUS>Destroy a minion. Your opponent draws 2 cards.</enUS>
+    <frFR>Détruit un serviteur. Votre adversaire pioche 2 cartes.</frFR>
+    <zhTW>摧毀一個手下。你的對手抽2張牌。</zhTW>
+    <zhCN>消灭一个随从，你的对手抽两张牌。</zhCN>
+    <ruRU>Уничтожает существо. Ваш противник берет 2 карты.</ruRU>
+    <ptBR>Destrua um lacaio. Seu oponente compra dois cards.</ptBR>
+    <plPL>Zniszcz stronnika. Przeciwnik dobiera 2 karty.</plPL>
+    <koKR>하수인을 처치합니다. 상대편이 카드를 2장 뽑습니다.</koKR>
+    <itIT>Distrugge un servitore. L'avversario pesca 2 carte.</itIT>
+    <esMX>Destruye un esbirro. Tu adversario roba 2 cartas.</esMX>
+    <esES>Destruye a un esbirro. Tu oponente roba 2 cartas.</esES>
+    <deDE>Vernichtet einen Diener. Euer Gegner zieht 2 Karten.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jaemin Kim</enUS>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Murloc.  It's what's for dinner.</enUS>
-    <zhTW>魚人。就是晚餐。</zhTW>
-    <zhCN>又是鱼人。开饭了。</zhCN>
-    <ruRU>Сегодня у нас на ужин мурлоки!</ruRU>
-    <ptBR>Murloc. É isso que tem pra janta.</ptBR>
-    <plPL>Murlok doda ci skrzy... znaczy siły, siły doda.</plPL>
-    <koKR>멀록은 저녁 거리입니다.</koKR>
-    <itIT>Murloc. Il piatto del giorno.</itIT>
-    <frFR>Du murloc, voilà ce qu’on mange ce soir.</frFR>
-    <esMX>Múrloc. Esa es la cena.</esMX>
-    <esES>¡Hoy cenamos múrloc!</esES>
-    <deDE>Krabben würden Murlocs kaufen.</deDE>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Leo Che</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="c5b2cfe4-3a01-423a-82be-cf633d4b215c">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="10" param="14" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Another one bites the dust.</enUS>
+    <zhTW>又幹掉一個。</zhTW>
+    <zhCN>他们为什么要咆哮？没人能够确切地作出解释。也许是出于对当前状态下体型的不满？也许并非如此。</zhCN>
+    <ruRU>Еще один повержен в прах.</ruRU>
+    <ptBR>O que elas rugem? Ninguém pode dizer com certeza, mas parece com "Xampu de Elefante Vesgo". Mas provavelmente não é isso.</ptBR>
+    <plPL>I kolejny do piachu.</plPL>
+    <koKR>&lt;i&gt;자연으로 돌아가거라.&lt;/i&gt;</koKR>
+    <itIT>Un altro nemico morde la polvere...</itIT>
+    <frFR>Encore un qui mord la poussière.</frFR>
+    <esMX>Golpe a golpe, esbirro a esbirro.</esMX>
+    <esES>Habló el tauren y dijo mú.</esES>
+    <deDE>Kompostierung mal anders.</deDE>
+  </Tag>
+  <Power definition="ec37f417-25c4-45d0-a3cd-296f1c25174f">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
   </Power>
 </Entity>

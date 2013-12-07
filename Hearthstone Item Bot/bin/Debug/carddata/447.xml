@@ -1,67 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_531">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_104">
+  <MasterPower>80e88a5d-1729-42a1-8b7f-d51cf95d3b5e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Scavenging Hyena</enUS>
-    <frFR>Hyène charognarde</frFR>
-    <zhTW>食腐土狼</zhTW>
-    <zhCN>食腐土狼</zhCN>
-    <ruRU>Гиена-падальщица</ruRU>
-    <ptBR>Hiena Carniceira</ptBR>
-    <plPL>Padlinożerna hiena</plPL>
-    <koKR>청소부 하이에나</koKR>
-    <itIT>Iena Rovistatrice</itIT>
-    <esMX>Hiena carroñera</esMX>
-    <esES>Hiena carroñera</esES>
-    <deDE>Aasfressende Hyäne</deDE>
+    <enUS>Rampage</enUS>
+    <frFR>Saccager</frFR>
+    <zhTW>暴怒</zhTW>
+    <zhCN>狂暴</zhCN>
+    <ruRU>Буйство</ruRU>
+    <ptBR>Alvoroço</ptBR>
+    <plPL>Amok</plPL>
+    <koKR>광란</koKR>
+    <itIT>Furia</itIT>
+    <esMX>Desenfreno</esMX>
+    <esES>Desenfreno</esES>
+    <deDE>Toben</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a friendly Beast dies, gain +2/+1.</enUS>
-    <frFR>Chaque fois qu’une bête alliée meurt, gagne +2/+1.</frFR>
-    <zhTW>每當一隻友方野獸死亡，獲得+2/+1。</zhTW>
-    <zhCN>每当一个友方野兽死亡时，便获得+2/+1。</zhCN>
-    <ruRU>Каждый раз, когда ваш зверь умирает, это существо получает +2/+1.</ruRU>
-    <ptBR>Sempre que uma Fera aliada morrer, receba +2/+1.</ptBR>
-    <plPL>Za każdym razem gdy zginie przyjazna Bestia, otrzymuje +2/+1.</plPL>
-    <koKR>아군 야수가 죽을 때마다 +2/+1을 얻습니다.</koKR>
-    <itIT>Quando muore una tua Bestia, la Iena Rovistatrice ottiene +2/+1.</itIT>
-    <esMX>Cada vez que muere una Bestia aliada, obtiene +2/+1.</esMX>
-    <esES>Obtiene +2/+1 cada vez que muere una bestia amistosa.</esES>
-    <deDE>Erhält jedes Mal +2/+1, wenn ein befreundetes Wildtier stirbt.</deDE>
+    <enUS>Give a damaged minion +3/+3.</enUS>
+    <frFR>Confère +3/+3 à un serviteur blessé.</frFR>
+    <zhTW>賦予一個受傷的手下+3/+3。</zhTW>
+    <zhCN>使一个受过伤害的随从获得+3/+3。</zhCN>
+    <ruRU>Существо с неполным здоровьем получает +3/+3.</ruRU>
+    <ptBR>Conceda +3/+3 a um lacaio ferido.</ptBR>
+    <plPL>Daj rannemu stronnikowi +3/+3.</plPL>
+    <koKR>피해를 입은 하수인에게 +3/+3을 부여합니다.</koKR>
+    <itIT>Fornisce +3/+3 a un servitore danneggiato.</itIT>
+    <esMX>Otorga +3/+3 a un esbirro dañado.</esMX>
+    <esES>Otorga +3/+3 a un esbirro dañado.</esES>
+    <deDE>Verleiht einem verletzten Diener +3/+3.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Scavenging</enUS>
-  </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jim Nelson</enUS>
+    <enUS>Jonboy Meyers</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even brussel sprouts.</enUS>
-    <zhTW>土狼喜歡啃科多獸或風蛇的骨頭，但是基本上牠們什麼都吃。牠們甚至會吃孢子甘藍。</zhTW>
-    <zhCN>土狼偏爱科多兽和风蛇的骨头，但是其实他们什么都吃。甚至是孢子甘蓝。</zhCN>
-    <ruRU>Гиены предпочитают питаться костями кодо или крылатых змеев, но на самом деле они едят практически все. Даже вареный лук.</ruRU>
-    <ptBR>Hienas preferem carne de kodo ou de serpentes aladas, mas elas comem basicamente de tudo. Até jiló.</ptBR>
-    <plPL>Hieny wolą ogryzać kości kodo lub latających węży, ale zeżrą właściwie wszystko. Nawet rozgotowane brukselki.</plPL>
-    <koKR>하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...</koKR>
-    <itIT>Le iene preferiscono le ossa dei kodo o dei serpenti volanti, ma sono pronte a mangiare qualsiasi cosa. Anche i broccoli.</itIT>
-    <frFR>Les hyènes préfèrent les os de kodo ou de serpent des vents, mais elles mangent n’importe quoi. Même des petits pois !</frFR>
-    <esMX>Las hienas prefieren huesos de kodos o serpientes aladas, pero en realidad comen cualquier cosa. Incluso brócoli.</esMX>
-    <esES>Lo interesante de su nombre es que te hace pensar que existen hienas de cualquier otro tipo.</esES>
-    <deDE>Hyänen bevorzugen Kodo- oder Windschlangenknochen, aber sie fressen eigentlich alles. Sogar Rosenkohl.</deDE>
+    <enUS>Minion get ANGRY.   Minion SMASH!</enUS>
+    <zhTW>手下憤怒了。手下打打!</zhTW>
+    <zhCN>这个随从很愤怒。这个随从很厉害！</zhCN>
+    <ruRU>Кто буйный? Я БУЙНЫЙ?!</ruRU>
+    <ptBR>Lacaio fica RAIVOSO! Lacaio ESMAGA!</ptBR>
+    <plPL>Stronnik ZŁY! Stronnik będzie BIĆ!</plPL>
+    <koKR>하수인 화났다. 하수인 부순다!</koKR>
+    <itIT>Servitore è ARRABBIATO. Ora servitore SPACCA!</itIT>
+    <frFR>Serviteur pas CONTENT ! Serviteur TOUT CASSER !</frFR>
+    <esMX>Esbirro FURIOSO. ¡Esbirro APLASTA!</esMX>
+    <esES>¡Esbirro, machaca!</esES>
+    <deDE>Diener WÜTEND. Diener ZERQUETSCHT!</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="9b194dde-3a32-48b8-b649-f91e503714d5" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="80e88a5d-1729-42a1-8b7f-d51cf95d3b5e">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="4" param="" />
+  </Power>
 </Entity>

@@ -1,75 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_033">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_009">
+  <MasterPower>12d263a6-bdff-4ce1-af5f-cbd7e5ac7806</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Water Elemental</enUS>
-    <frFR>Élémentaire d’eau</frFR>
-    <zhTW>水元素</zhTW>
-    <zhCN>水元素</zhCN>
-    <ruRU>Элементаль воды</ruRU>
-    <ptBR>Elemental da Água</ptBR>
-    <plPL>Żywiołak wody</plPL>
-    <koKR>물의 정령</koKR>
-    <itIT>Elementale dell'Acqua</itIT>
-    <esMX>Elemental de agua</esMX>
-    <esES>Elemental de agua</esES>
-    <deDE>Wasserelementar</deDE>
+    <enUS>Mark of the Wild</enUS>
+    <frFR>Marque du fauve</frFR>
+    <zhTW>野性印記</zhTW>
+    <zhCN>野性印记</zhCN>
+    <ruRU>Знак дикой природы</ruRU>
+    <ptBR>Marca do Indomado</ptBR>
+    <plPL>Znak ostępów</plPL>
+    <koKR>야생의 징표</koKR>
+    <itIT>Marchio Selvaggio</itIT>
+    <esMX>Marca de lo salvaje</esMX>
+    <esES>Marca de lo Salvaje</esES>
+    <deDE>Mal der Wildnis</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Frostbolt</enUS>
-  </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Freeze&lt;/b&gt; any character damaged by this minion.</enUS>
-    <frFR>&lt;b&gt;Gèle&lt;/b&gt; tout personnage blessé par ce serviteur.</frFR>
-    <zhTW>&lt;b&gt;凍結&lt;/b&gt;任何被此手下造成傷害的角色。</zhTW>
-    <zhCN>&lt;b&gt;冻结&lt;/b&gt;任何受到水元素伤害的随从。</zhCN>
-    <ruRU> &lt;b&gt;Замораживает&lt;/b&gt; любого персонажа, которому наносит урон.</ruRU>
-    <ptBR>&lt;b&gt;Congele&lt;/b&gt; qualquer personagem que receber dano deste lacaio.</ptBR>
-    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; każdą postać zranioną przez tego stronnika.</plPL>
-    <koKR>이 하수인에게 피해를 입은 캐릭터는 &lt;b&gt;빙결&lt;/b&gt; 상태가 됩니다.</koKR>
-    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; ai personaggi che danneggia.</itIT>
-    <esMX>&lt;b&gt;Congela&lt;/b&gt; a cualquier personaje dañado por este esbirro.</esMX>
-    <esES>&lt;b&gt;Congela&lt;/b&gt; a cualquier personaje dañado por este esbirro.</esES>
-    <deDE>&lt;b&gt;Friert&lt;/b&gt; jeden Charakter ein, der von diesem Diener verletzt wurde.</deDE>
+    <enUS>Give a minion &lt;b&gt;Taunt&lt;/b&gt; and +2/+2.&lt;i&gt; (+2 Attack/+2 Health)&lt;/i&gt;</enUS>
+    <frFR>Confère &lt;b&gt;Provocation&lt;/b&gt; et +2/+2 à un serviteur.&lt;i&gt; (+2 ATQ/+2 PV)&lt;/i&gt;</frFR>
+    <zhTW>賦予一個手下&lt;b&gt;嘲諷&lt;/b&gt;及+2/+2&lt;i&gt;(+2攻擊力及+2生命值)&lt;/i&gt;</zhTW>
+    <zhCN>使一个随从获得&lt;b&gt;嘲讽&lt;/b&gt;和+2/+2。&lt;i&gt;（+2攻击力/+2生命值）&lt;/i&gt;</zhCN>
+    <ruRU>Выбранное существо получает способность &lt;b&gt;«Провокация»&lt;/b&gt; и +2/+2.&lt;i&gt; (+2 к атаке и +2 к здоровью)&lt;/i&gt; </ruRU>
+    <ptBR>Conceda &lt;b&gt;Provocar&lt;/b&gt; e +2/+2 a um lacaio.&lt;i&gt; (+2 de Ataque/+2 de Vida)&lt;/i&gt;</ptBR>
+    <plPL>Daj stronnikowi &lt;b&gt;Prowokację&lt;/b&gt; oraz +2/+2.&lt;i&gt; (+2 do ataku/+2 do zdrowia)&lt;/i&gt;</plPL>
+    <koKR>하수인에게 &lt;b&gt;도발&lt;/b&gt;과 +2/+2를 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Provocazione&lt;/b&gt; e +2/+2 a un servitore.</itIT>
+    <esMX>Otorga &lt;b&gt;Provocación&lt;/b&gt; y +2/+2 a un esbirro.&lt;i&gt; (+2 de Ataque y +2 de Salud)&lt;/i&gt;</esMX>
+    <esES>Otorga &lt;b&gt;Provocar&lt;/b&gt; y +2/+2 a un esbirro. &lt;i&gt;(+2 p. de ataque/+2 p. de salud)&lt;/i&gt;</esES>
+    <deDE>Verleiht einem Diener &lt;b&gt;Spott&lt;/b&gt; und +2/+2.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Don't summon a water elemental at a party.  It'll dampen the mood.</enUS>
-    <zhTW>不要在派對上召喚水元素。氣氛會降到冰點。</zhTW>
-    <zhCN>千万别在晚会上召唤水元素。它会把一切都搞砸的。</zhCN>
-    <ruRU>Не призывайте водных элементалей на вечеринку – они подмочат вам репутацию.</ruRU>
-    <ptBR>Não evoque um elemental da água em uma festa. Vai ser um balde de água fria no pessoal.</ptBR>
-    <plPL>Nie przywołuj żywiołaka wody do baru. Lubi rozcieńczać drinki.</plPL>
-    <koKR>물의 정령을 파티에 초대하면, 찬물 같은 걸 끼얹나?</koKR>
-    <itIT>Mai evocarlo vicino a un albero di limoni. Un Elementale della Limonata è molto meno efficiente.</itIT>
-    <frFR>Avec l’élémentaire d’eau, tout baigne !</frFR>
-    <esMX>No invites a un elemental de agua a tu cumpleaños. Te aguará la fiesta.</esMX>
-    <esES>Perfecto para aguar fiestas.</esES>
-    <deDE>Beschwört niemals ein Elementar dieser Art auf einer Party, sonst fällt sie buchstäblich ins Wasser.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>John Avon</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 8.</enUS>
+    <enUS>Brad Vancata</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 46.</enUS>
+    <enUS>Unlocked at Level 28.</enUS>
   </Tag>
-  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
-  <Power definition="9eba5532-bfc5-4c4f-bf7f-98d33a819e7c" />
-  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Not to be confused with Jim of the Wild.</enUS>
+    <zhTW>不要搞錯。不是水性，也不是油性，是野性。</zhTW>
+    <zhCN>这种爪子形状的印记如果纹在身上，人们一定知道你是德鲁伊玩家。</zhCN>
+    <ruRU>Не путать со знаком «Осторожно, дикие животные».</ruRU>
+    <ptBR>Não confundir com Marca do Lindonaldo.</ptBR>
+    <plPL>Nie należy mylić tej karty ze „Znakiem postępów”.</plPL>
+    <koKR>드루이드가 아닌 사람들은 그냥 다 '발바닥'이라고 부르더군요.</koKR>
+    <itIT>Da non confondere con il Mucchio Selvaggio.</itIT>
+    <frFR>À ne pas confondre avec la marque du chauve.</frFR>
+    <esMX>Este es el hechizo preferido de Jake La Motta.</esMX>
+    <esES>No confudir con la Marca del cazador.</esES>
+    <deDE>Nicht zu verwechseln mit Malle der Wildnis, dem Lieblingsurlaubsort der Druiden von Nachthafen.</deDE>
+  </Tag>
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="12d263a6-bdff-4ce1-af5f-cbd7e5ac7806">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

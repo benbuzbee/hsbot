@@ -1,79 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_623">
-  <MasterPower>24ff2fd3-224e-439c-830c-742e5cb7be88</MasterPower>
+<Entity version="2" CardID="EX1_029">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Temple Enforcer</enUS>
-    <frFR>Massacreur du temple</frFR>
-    <zhTW>神殿執行者</zhTW>
-    <zhCN>圣殿执行者</zhCN>
-    <ruRU>Храмовый боец</ruRU>
-    <ptBR>Impositor do Templo</ptBR>
-    <plPL>Świątynny nadzorca</plPL>
-    <koKR>사원 집행자</koKR>
-    <itIT>Protettore del Tempio</itIT>
-    <esMX>Déspota del templo</esMX>
-    <esES>Déspota del templo</esES>
-    <deDE>Vollstrecker des Tempels</deDE>
+    <enUS>Leper Gnome</enUS>
+    <frFR>Gnome lépreux</frFR>
+    <zhTW>麻瘋地精</zhTW>
+    <zhCN>麻疯侏儒</zhCN>
+    <ruRU>Лепрогном</ruRU>
+    <ptBR>Gnomo Leproso</ptBR>
+    <plPL>Trędowaty gnom</plPL>
+    <koKR>오염된 노움</koKR>
+    <itIT>Gnomo Contaminato</itIT>
+    <esMX>Gnomo paria</esMX>
+    <esES>Gnomo paria</esES>
+    <deDE>Lepragnom</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to the enemy hero.</enUS>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; inflige 2 points de dégâts au héros adverse.</frFR>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;對敵方英雄造成2點傷害。</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;对敌方英雄造成2点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; наносит 2 ед. урона герою противника.</ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Cause 2 de dano ao herói inimigo.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Zadaj 2 pkt. obrażeń wrogiemu bohaterowi.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 적 영웅에게 피해를 2 줍니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; infligge 2 danni all'eroe nemico.</itIT>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; inflige 2 de daño al héroe enemigo.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Inflige 2 p. de daño al héroe enemigo.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Fügt dem feindlichen Helden 2 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +3 Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +3 PV à un serviteur allié.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+3生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得+3生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; увеличивает здоровье вашего выбранного существа на 3.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +3 de Vida a um lacaio aliado.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +3 do zdrowia.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt;\n아군 하수인에게 생명력을 +3 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +3 Salute a un altro tuo servitore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +3 de Salud a un esbirro aliado.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +3 p. de salud a un esbirro amistoso.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +3 Leben.</deDE>
-  </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Give +3 Health.</enUS>
-    <zhTW>賦予+3生命值。</zhTW>
-    <zhCN>获得+3生命值。</zhCN>
-    <ruRU>+3 к здоровью</ruRU>
-    <ptBR>Conceda +3 de Vida.</ptBR>
-    <plPL>Daj +3 do zdrowia.</plPL>
-    <koKR>생명력 +3</koKR>
-    <itIT>Fornisce +3 Salute.</itIT>
-    <frFR>Donne +3 PV.</frFR>
-    <esMX>Otorga +3 de Salud.</esMX>
-    <esES>Otorga +3 p. de salud.</esES>
-    <deDE>Verleiht +3 Leben.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Daren Bader</enUS>
+    <enUS>Glenn Rane</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He also moonlights Thursday nights as a bouncer at the Pig and Whistle Tavern.</enUS>
-    <zhTW>他星期四晚上會在豬和哨聲旅店兼差當保鑣。</zhTW>
-    <zhCN>他在每周四的夜晚都会悄然出现在猪和哨声旅店担当保镖。</zhCN>
-    <ruRU>По четвергам он подрабатывает вышибалой в таверне «Свинья и свисток».</ruRU>
-    <ptBR>Ele também trabalha como segurança nas noites de quinta na Taberna do Javatusco Saltitante.</ptBR>
-    <plPL>W czwartkowe noce dorabia jako ochroniarz w karczmie „Pod Knurem i Gwizdkiem”.</plPL>
-    <koKR>목요일 밤에는 돼지와 휘파람 선술집 앞에서 손님 관리도 합니다.</koKR>
-    <itIT>Sbarca il lunario i giovedì sera, lavorando come buttafuori alla Taverna del Porco Urlante.</itIT>
-    <frFR>Il a une double vie, c’est lui qui anime les soirées karaoké du jeudi soir à la taverne du Cochon siffleur.</frFR>
-    <esMX>Los jueves a la noche, también trabaja de seguridad en la taberna El Cerdo Borracho.</esMX>
-    <esES>Se saca un sobresueldo trabajando de portero en la taberna del Cerdo Borracho.</esES>
-    <deDE>Donnerstagnachts verdient er sich als Rausschmeißer in der Taverne „Zum Pfeifenden Schwein“ etwas dazu.</deDE>
+    <enUS>He really just wants to be your friend, but the constant rejection is starting to really get to him.</enUS>
+    <zhTW>他只是想要跟你做好朋友，但是一直受到拒絕使得他開始有點不爽了。</zhTW>
+    <zhCN>他真的很想和你做朋友，但由于总是被排斥，他开始变得很沮丧。</zhCN>
+    <ruRU>Он очень хочет с вами подружиться, но постоянно чувствует себя изгоем, что плохо сказывается на его характере.</ruRU>
+    <ptBR>Ele só quer ser seu amigo, mas as rejeições constantes estão começando a deixar ele abalado.</ptBR>
+    <plPL>Bardzo by chciał zostać twoim przyjacielem, ale naprawdę źle odbiera brak akceptacji.</plPL>
+    <koKR>그는 단지 친구가 필요할 뿐입니다. 하지만 언제나 거부당하죠.</koKR>
+    <itIT>Una volta gli hai chiesto se voleva essere tuo amico... ma hai ricevuto solo un rifiuto.</itIT>
+    <frFR>Tout ce qu’il veut, c’est se faire des amis, mais ces rejets constants commencent à l’énerver.</frFR>
+    <esMX>Lo único que quiere es ser tu amigo, pero el rechazo constante ya está empezando a afectarlo.</esMX>
+    <esES>¡Dale un abrazo!</esES>
+    <deDE>Er möchte einfach nur Euer Freund sein, aber Ihr solltet Euch überlegen, ob Ihr ihm den kleinen Finger reichen wollt.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="24ff2fd3-224e-439c-830c-742e5cb7be88">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="2" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="35c3329b-ffac-4188-86d3-18e0f0636816" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
+    <enUS>Leper Gnome dealt 2 damage.</enUS>
+    <frFR>Le gnome lépreux a infligé 2 points de dégâts.</frFR>
+    <zhTW>麻瘋地精造成2點傷害。</zhTW>
+    <zhCN>麻疯侏儒造成了2点伤害。</zhCN>
+    <ruRU>Лепрогном нанес 2 ед. урона.</ruRU>
+    <ptBR>Gnomo Leproso causou 2 de dano.</ptBR>
+    <plPL>Trędowaty gnom zadał 2 pkt. obrażeń.</plPL>
+    <koKR>오염된 노움이 피해 2 줌</koKR>
+    <itIT>Lo Gnomo Contaminato ha inflitto 2 danni all'eroe nemico.</itIT>
+    <esMX>El Gnomo paria inflige 2 de daño.</esMX>
+    <esES>El gnomo paria ha infligido 2 p. de daño.</esES>
+    <deDE>Der Lepragnom hat 2 Schaden verursacht.</deDE>
+  </TriggeredPowerHistoryInfo>
 </Entity>

@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1_042">
+<Entity version="2" CardID="EX1_244">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Goldshire Footman</enUS>
-    <zhTW>閃金鎮步卒</zhTW>
-    <zhCN>闪金镇步兵</zhCN>
-    <ruRU>Солдат Златоземья</ruRU>
-    <ptBR>Soldado Raso de Vila d'Ouro</ptBR>
-    <plPL>Piechur ze Złotych Włości</plPL>
-    <koKR>황금골 보병</koKR>
-    <itIT>Coscritto di Borgodoro</itIT>
-    <frFR>Soldat de Comté-de-l’Or</frFR>
-    <esMX>Lacayo de Villadorada</esMX>
-    <esES>Lacayo de Villadorada</esES>
-    <deDE>Fußsoldat von Goldhain</deDE>
+    <enUS>Totemic Might</enUS>
+    <frFR>Puissance totémique</frFR>
+    <zhTW>圖騰之力</zhTW>
+    <zhCN>图腾之力</zhCN>
+    <ruRU>Сила тотемов</ruRU>
+    <ptBR>Poder Totêmico</ptBR>
+    <plPL>Wzmocnienie totemów</plPL>
+    <koKR>토템의 힘</koKR>
+    <itIT>Vigore Totemico</itIT>
+    <esMX>Poderío totémico</esMX>
+    <esES>Poderío totémico</esES>
+    <deDE>Macht der Totems</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>Give your Totems +2 Health.</enUS>
+    <frFR>Confère +2 PV à vos totems.</frFR>
+    <zhTW>賦予你的圖騰+2生命值。</zhTW>
+    <zhCN>使你的图腾获得+2生命值。</zhCN>
+    <ruRU>Ваши тотемы получают +2 к здоровью.</ruRU>
+    <ptBR>Conceda +2 de Vida aos seus Totens.</ptBR>
+    <plPL>Daj swoim totemom +2 do zdrowia.</plPL>
+    <koKR>내 토템들에게 생명력을 +2 부여합니다.</koKR>
+    <itIT>Fornisce +2 Salute ai tuoi Totem.</itIT>
+    <esMX>Otorga +2 de Salud a tus tótems.</esMX>
+    <esES>Otorga +2 p. de salud a tus tótems.</esES>
+    <deDE>Verleiht Euren Totems +2 Leben.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Trent Kaniuga</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Donato Giancola</enUS>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Paladin Level 56.</enUS>
+    <enUS>Unlocked at Level 44.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If 1/2 minions are all that is defending Goldshire, you would think it would have been overrun years ago.</enUS>
-    <zhTW>如果防禦閃金鎮的全是1/2的手下，那個地方應該早就被敵人碾過去了才對。</zhTW>
-    <zhCN>如果闪金镇只是由一个1/2的步兵把守的话，那它早在多年以前就被毁了。</zhCN>
-    <ruRU>Если Златоземье защищают только эти существа 1/2, странно, что его еще не захватили.</ruRU>
-    <ptBR>Se lacaios 1/2 fossem todas as defesas da Vila d'Ouro, ela teria sido dominada há muito tempo.</ptBR>
-    <plPL>Jeśli na straży Złotych Włości stoją stronnicy z 1/2, to i tak cud, że nie zostały jeszcze spalone.</plPL>
-    <koKR>만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.</koKR>
-    <itIT>Se dei servitori 1/2 sono tutto ciò che difende Borgodoro, verrebbe da domandarsi perché non sia stata distrutta anni fa.</itIT>
-    <frFR>Si Comté-de-l’Or n’est protégée que par des serviteurs 1/2, elle aurait dû être envahie il y a des années.</frFR>
-    <esMX>Si por toda defensa Villadorada tiene esbirros 1/2, uno creería que la tendrían que haber arrasado hace muchos años.</esMX>
-    <esES>Si estos esbirros 1/2 son los únicos guardias de Villadorada, no es de extrañar que allí se libren tantos duelos impunemente.</esES>
-    <deDE>Man könnte annehmen, dass Goldhain schon längst überrannt sein sollte, wenn es lediglich durch Diener mit 1/2 verteidigt wird.</deDE>
+    <enUS>Totem-stomping is no longer recommended.</enUS>
+    <zhTW>我們建議從現在起最好停止踩圖騰的行為。</zhTW>
+    <zhCN>禁止踩踏图腾。</zhCN>
+    <ruRU>Топтать тотемы больше не рекомендуется.</ruRU>
+    <ptBR>Pisar no totem não é mais recomendado.</ptBR>
+    <plPL>Chroni totem przed łomotem.</plPL>
+    <koKR>이 정도면 이제 밟아 꺼트릴 수준이 아닙니다.</koKR>
+    <itIT>La distruzione dei totem non è più un'attività ricreativa.</itIT>
+    <frFR>Désormais, plus besoin de ressortir ses totems toutes les deux minutes !</frFR>
+    <esMX>La administración desaconseja el aplastamiento de tótems.</esMX>
+    <esES>Los tótems no se tocan.</esES>
+    <deDE>Und da ist er wieder – der Moment, in dem der Gegner zu der Erkenntnis kommt, dass er dieses Totem besser in der letzten Runde hätte vernichten sollen.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="54e57583-ce5c-46e3-899a-39bd2181468d" />
+  <Power definition="d54b1cd0-7ad9-4e37-bae2-203ab1646efe" />
 </Entity>

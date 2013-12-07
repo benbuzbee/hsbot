@@ -1,65 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_028">
+<Entity version="2" CardID="EX1_132">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Stranglethorn Tiger</enUS>
-    <frFR>Tigre de Strangleronce</frFR>
-    <zhTW>荊棘谷猛虎</zhTW>
-    <zhCN>荆棘谷猛虎</zhCN>
-    <ruRU>Тигр Тернистой долины</ruRU>
-    <ptBR>Tigre-do-espinhaço</ptBR>
-    <plPL>Tygrys z Cierniodławów</plPL>
-    <koKR>가시덤불 호랑이</koKR>
-    <itIT>Tigre di Rovotorto</itIT>
-    <esMX>Tigre de Tuercespina</esMX>
-    <esES>Tigre de Tuercespina</esES>
-    <deDE>Schlingendorntiger</deDE>
+    <enUS>Eye for an Eye</enUS>
+    <frFR>Œil pour œil</frFR>
+    <zhTW>以眼還眼</zhTW>
+    <zhCN>以眼还眼</zhCN>
+    <ruRU>Око за око</ruRU>
+    <ptBR>Olho por Olho</ptBR>
+    <plPL>Oko za oko</plPL>
+    <koKR>눈에는 눈</koKR>
+    <itIT>Occhio per Occhio</itIT>
+    <esMX>Ojo por ojo</esMX>
+    <esES>Ojo por ojo</esES>
+    <deDE>Auge um Auge</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your hero takes damage, deal that much damage to the enemy hero.</enUS>
+    <frFR>&lt;b&gt;Secret :&lt;/b&gt; inflige au héros adverse autant de dégâts que ceux subis par votre héros.</frFR>
+    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的英雄受到傷害，對敵方英雄造成等量的傷害。</zhTW>
+    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;每当你的英雄受到伤害时，对敌方英雄造成等量的伤害。</zhCN>
+    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда ваш герой получает урон, вы наносите такое же количество урона герою противника.</ruRU>
+    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando o seu herói receber dano, cause a mesma quantidade de dano ao herói inimigo.</ptBR>
+    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy twój bohater otrzyma obrażenia, zadaj tyle samo obrażeń wrogiemu bohaterowi.</plPL>
+    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅이 피해를 입으면, 적 영웅에게도 같은 피해를 줍니다.</koKR>
+    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando il tuo eroe subisce danni, infligge la stessa quantità di danni all'eroe nemico.</itIT>
+    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu héroe recibe daño, inflige esa misma cantidad de daño al héroe enemigo.</esMX>
+    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu héroe recibe daño, inflige la misma cantidad de daño al héroe enemigo.</esES>
+    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Held Schaden nimmt, wird dem feindlichen Helden ebenso viel Schaden zugefügt.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>James Ryman</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The wonderful thing about tigers is tigers are wonderful things!</enUS>
-    <zhTW>老虎最棒的地方就是牠們棒透了!</zhTW>
-    <zhCN>这些美丽的大猫是荆棘谷一道亮丽的风景！</zhCN>
-    <ruRU>«Чей бессмертный взор, любя, создал страшного тебя?»</ruRU>
-    <ptBR>O mais legal dos tigres é que os tigres são muito legais!</ptBR>
-    <plPL>Tygrysy często mylone są z Jagrysami i Ongrysami. Choć wiadomo, że to Ongrys gryzł!</plPL>
-    <koKR>호랑이에 대한 멋진 사실은 호랑이가 멋지다는 사실입니다!</koKR>
-    <itIT>Il bello delle tigri è che le tigri sono belle!</itIT>
-    <frFR>Quand on parle du tigre, le tigre apparaît... Euh, non c’est pas ça.</frFR>
-    <esMX>¡Lo más maravilloso de los tigres es que los tigres son maravillosos!</esMX>
-    <esES>Hemet Nesingwary ya tiene pensada la cartera que se quiere hacer con él.</esES>
-    <deDE>Das Tolle an Tigern ist, dass Tiger toll sind.</deDE>
+    <enUS>Justice sometimes takes the form of a closed fist into a soft cheek.</enUS>
+    <zhTW>正義有時候就是用拳頭跟對方的臉頰進行接觸。</zhTW>
+    <zhCN>有时正义的表现形式就是这么简单：紧握的拳头打在瘫软的脸上。</zhCN>
+    <ruRU>Порой правосудие заключается в ударе кулаком об мягкую щеку.</ruRU>
+    <ptBR>A justiça às vezes toma a forma de um punho fechado numa fuça delicada.</ptBR>
+    <plPL>Sprawiedliwość czasami przyjmuje postać pięści walącej w zęby.</plPL>
+    <koKR>주먹이 정의를 대변할 때도 종종 있답니다.</koKR>
+    <itIT>Ogni tanto fare giustizia significa assestare un pugno ben chiuso su una morbida guancia.</itIT>
+    <frFR>Mon poing a faim de justice !</frFR>
+    <esMX>A veces, la justicia toma la forma de un puño que se estrella contra una mejilla delicada.</esMX>
+    <esES>A veces la justicia adopta la forma de un puño cerrado contra una suave mejilla.</esES>
+    <deDE>Gerechtigkeit nimmt manchmal die Form einer ziemlich harten Faust auf einer ziemlich weichen Backe an.</deDE>
   </Tag>
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Power definition="78668f7d-b44e-43bd-8faf-3a55df3dd8fe" />
+  <Tag name="Secret" enumID="219" type="Bool" value="1" />
+  <Power definition="4f514d32-4a18-49f8-930b-57c30d99f684" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

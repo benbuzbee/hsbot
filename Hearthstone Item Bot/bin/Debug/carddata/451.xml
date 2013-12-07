@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_534t">
+<Entity version="2" CardID="EX1_044e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hyena</enUS>
-    <zhTW>土狼</zhTW>
-    <zhCN>土狼</zhCN>
-    <ruRU>Гиена</ruRU>
-    <ptBR>Hiena</ptBR>
-    <plPL>Hiena</plPL>
-    <koKR>하이에나</koKR>
-    <itIT>Iena</itIT>
-    <frFR>Hyène</frFR>
-    <esMX>Hiena</esMX>
-    <esES>Hiena</esES>
-    <deDE>Hyäne</deDE>
+    <enUS>Level Up!</enUS>
+    <zhTW>升級了!</zhTW>
+    <zhCN>升级！</zhCN>
+    <ruRU>Новый уровень!</ruRU>
+    <ptBR>Subiu de Nível! </ptBR>
+    <plPL>Awans!</plPL>
+    <koKR>레벨 상승!</koKR>
+    <itIT>Nuovo Livello!</itIT>
+    <frFR>Gain de niveau !</frFR>
+    <esMX>¡Subiste de nivel!</esMX>
+    <esES>¡Sube de nivel!</esES>
+    <deDE>Stufenaufstieg</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Increased Attack and Health.</enUS>
+    <zhTW>攻擊力及生命值提高。</zhTW>
+    <zhCN>攻击力和生命值增加。</zhCN>
+    <ruRU>Атака и здоровье увеличены.</ruRU>
+    <ptBR>Ataque e Vida aumentados.</ptBR>
+    <plPL>Zwiększony atak i zdrowie.</plPL>
+    <koKR>공격력과 생명력 증가</koKR>
+    <itIT>Attacco e Salute aumentati.</itIT>
+    <frFR>Attaque et Vie augmentées.</frFR>
+    <esMX>Ataque y Salud aumentados.</esMX>
+    <esES>Ataque y salud aumentados.</esES>
+    <deDE>Erhöhter Angriff und erhöhtes Leben.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Andrew Robinson</enUS>
-  </Tag>
+  <Power definition="c65d1e11-32d7-4120-a3e3-11a9b9732fe5" />
 </Entity>

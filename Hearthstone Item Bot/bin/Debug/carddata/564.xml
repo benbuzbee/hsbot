@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="HERO_09">
-  <MasterPower>7e3d6eaa-4d6e-4b5a-8c60-b69c801d8faf</MasterPower>
+<Entity version="2" CardID="CS2_221e">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Anduin Wrynn</enUS>
-    <zhTW>安杜因·烏瑞恩</zhTW>
-    <zhCN>安度因·乌瑞恩</zhCN>
-    <ruRU>Андуин Ринн</ruRU>
-    <ptBR>Anduin Wrynn</ptBR>
-    <plPL>Anduin Wrynn</plPL>
-    <koKR>안두인 린</koKR>
-    <itIT>Anduin Wrynn</itIT>
-    <frFR>Anduin Wrynn</frFR>
-    <esMX>Anduin Wrynn</esMX>
-    <esES>Anduin Wrynn</esES>
-    <deDE>Anduin Wrynn</deDE>
+    <enUS>Sharp!</enUS>
+    <zhTW>好利!</zhTW>
+    <zhCN>锋利无比！</zhCN>
+    <ruRU>Как бритва!</ruRU>
+    <ptBR>Afiado!</ptBR>
+    <plPL>Ostre!</plPL>
+    <koKR>연마!</koKR>
+    <itIT>Taglia!</itIT>
+    <frFR>Ça pique !</frFR>
+    <esMX>¡Afilada!</esMX>
+    <esES>¡Afilado!</esES>
+    <deDE>Vorsicht! Scharf!</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="30" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Power definition="7e3d6eaa-4d6e-4b5a-8c60-b69c801d8faf" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>+2 Attack from Spiteful Smith.</enUS>
+    <zhTW>由惡毒的鐵匠獲得+2攻擊力。</zhTW>
+    <zhCN>恶毒铁匠使其获得+2攻击力。</zhCN>
+    <ruRU>+2 к атаке от &lt;i&gt;Зловещего кузнеца&lt;/i&gt;.</ruRU>
+    <ptBR>+2 de Ataque do Ferreiro Rancoroso.</ptBR>
+    <plPL>+2 do ataku od mściwego kowala.</plPL>
+    <koKR>원한 맺힌 대장장이가 공격력 +2 부여</koKR>
+    <itIT>+2 Attacco dal Fabbro Astioso.</itIT>
+    <frFR>Le forgeron malveillant confère +2 ATQ.</frFR>
+    <esMX>+2 de Ataque del Herrero malicioso.</esMX>
+    <esES>+2 p. de ataque de Herrera maliciosa.</esES>
+    <deDE>+2 Angriff von Hasserfüllte Schmiedin.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="66c07817-0c85-4110-8a02-2c724f3d7811" />
 </Entity>

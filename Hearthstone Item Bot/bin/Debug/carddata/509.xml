@@ -1,67 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_604">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="DS1_184">
+  <MasterPower>7d56ad57-6aea-484b-ae4c-899658cb3125</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Frothing Berserker</enUS>
-    <frFR>Berserker écumant</frFR>
-    <zhTW>白沫狂戰士</zhTW>
-    <zhCN>暴乱狂战士</zhCN>
-    <ruRU>Разъяренный берсерк</ruRU>
-    <ptBR>Berserker Espumante</ptBR>
-    <plPL>Fanatyczny berserker</plPL>
-    <koKR>거품 무는 광전사</koKR>
-    <itIT>Berserker Rabbioso</itIT>
-    <esMX>Rabioso espumoso</esMX>
-    <esES>Rabioso demente</esES>
-    <deDE>Wütender Berserker</deDE>
+    <enUS>Tracking</enUS>
+    <frFR>Pistage</frFR>
+    <zhTW>追蹤</zhTW>
+    <zhCN>追踪术</zhCN>
+    <ruRU>Выслеживание</ruRU>
+    <ptBR>Rastreamento</ptBR>
+    <plPL>Tropienie</plPL>
+    <koKR>추적</koKR>
+    <itIT>Tracciamento</itIT>
+    <esMX>Rastreo</esMX>
+    <esES>Rastrear</esES>
+    <deDE>Fährtenlesen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a minion takes damage, gain +1 Attack.</enUS>
-    <frFR>Quand un serviteur subit des dégâts, gagne +1 ATQ.</frFR>
-    <zhTW>每當一個手下受到傷害，獲得+1攻擊力。</zhTW>
-    <zhCN>每当一个随从受到伤害时，便获得+1攻击力。</zhCN>
-    <ruRU>Каждый раз, когда существо получает урон, разъяренный берсерк получает +1 к атаке. </ruRU>
-    <ptBR>Sempre que um lacaio receber dano, receba +1 de Ataque.</ptBR>
-    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy jakiś stronnik zostanie zraniony.</plPL>
-    <koKR>하수인이 피해를 입을 때마다 공격력을 +1 얻습니다.</koKR>
-    <itIT>Quando un servitore subisce danni, il Berserker Rabbioso ottiene +1 Attacco.</itIT>
-    <esMX>Cada vez que un esbirro recibe daño, obtiene +1 de Ataque.</esMX>
-    <esES>Cada vez que un esbirro recibe daño, obtiene 1 p. de ataque.</esES>
-    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Diener Schaden erleidet.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Berserk</enUS>
+    <enUS>Look at the top three cards of your deck. Draw one and discard the others.</enUS>
+    <frFR>Affiche les trois cartes du dessus du deck. Vous en piochez une et vous vous défaussez des autres.</frFR>
+    <zhTW>瀏覽你牌堆中最上面的三張牌。選擇一張，並捨棄其他兩張。</zhTW>
+    <zhCN>检视你的牌库顶的3张牌，将1张置入手牌，弃掉其余牌。</zhCN>
+    <ruRU>Посмотрите три верхние карты вашей колоды. Возьмите одну карту и сбросьте остальные.</ruRU>
+    <ptBR>Olhe os três cards do topo do seu deck. Compre um e descarte os outros.</ptBR>
+    <plPL>Spójrz na trzy górne karty ze swojej talii. Jedną dobierz na rękę, a dwie pozostałe odrzuć.</plPL>
+    <koKR>내가 다음에 뽑을 카드 3장을 미리 봅니다. 1장을 선택해 갖고, 나머지는 버립니다.</koKR>
+    <itIT>Guarda le prime tre carte del tuo mazzo. Pescane una e scarta le altre.</itIT>
+    <esMX>Mira las tres primeras cartas de tu mazo. Roba una y descarta las otras.</esMX>
+    <esES>Mira las tres cartas superiores de tu mazo. Roba una y descarta las demás.</esES>
+    <deDE>Schaut Euch die drei obersten Karten Eures Decks an. Zieht eine davon und werft die anderen beiden ab.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Simon Bisley</enUS>
+    <enUS>Mauro Cascioli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He used to work as an accountant before he tried his hand at Berserkering.</enUS>
-    <zhTW>他在當狂戰士之前原本是個會計師。</zhTW>
-    <zhCN>在投身狂战士这份很有前途的工作之前，他是一个会计。</zhCN>
-    <ruRU>До того как стать берсерком, он работал бухгалтером.</ruRU>
-    <ptBR>Ele era contador antes de tentar ser um berserker.</ptBR>
-    <plPL>Zanim zajął się berserkowaniem, pracował jako księgowy.</plPL>
-    <koKR>거품 물기 전까지는 회계사였답니다.</koKR>
-    <itIT>Un tempo faceva il contabile, prima di lasciarsi tentare dalle esperienze forti.</itIT>
-    <frFR>Il était comptable avant de tenter une carrière de berserker.</frFR>
-    <esMX>Antes era contador, hasta que descubrió su talento como rabioso.</esMX>
-    <esES>Era contable antes de convertirse en rabioso profesional. Se ve que le salía a cuenta.</esES>
-    <deDE>Bevor er zum Berserker wurde, war er Buchhalter.</deDE>
+    <enUS>For the person who just cannot decide what card to put in their deck!</enUS>
+    <zhTW>這張是給無法決定要放哪張卡進套牌的人用的!</zhTW>
+    <zhCN>为了那些不知道该把什么牌放入套牌的人准备的！</zhCN>
+    <ruRU>Отличное заклинание для тех, кто никак не может решить, какую карту положить в колоду!</ruRU>
+    <ptBR>Para a pessoa que não consegue decidir que card botar no deck!</ptBR>
+    <plPL>W sam raz dla osoby, która nie może zdecydować się, jakie karty wsadzić do talii!</plPL>
+    <koKR>어떤 카드를 덱에 넣어야 할지 결정 못 하는 소심한 분들을 위해!</koKR>
+    <itIT>Per il giocatore che non sa quale carta inserire nel proprio mazzo.</itIT>
+    <frFR>Idéal pour ceux qui n’arrivent pas à décider quelles cartes mettre dans leur deck !</frFR>
+    <esMX>Para los que sufren de indecisión crónica.</esMX>
+    <esES>"Espera, aquí hay huellas". - Vladimir Barbafuego "Sí, pero, ¿de verdad quieres averiguar de qué son?" - Baxter Rompeyunques</esES>
+    <deDE>Ideal für diejenigen, die sich nicht entscheiden können, was sie ihrem Deck hinzufügen sollen. Denn so wissen sie auch nicht, was sie ihrer Hand hinzufügen sollen.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="8794895b-e6c1-4564-bcd1-d2e17d129b77" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 36.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="7d56ad57-6aea-484b-ae4c-899658cb3125" />
 </Entity>

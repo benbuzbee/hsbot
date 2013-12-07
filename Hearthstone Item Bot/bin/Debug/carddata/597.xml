@@ -1,63 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_022">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_371">
+  <MasterPower>cfb61b8f-4148-4c61-b5a2-89bba5f04bbd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dread Corsair</enUS>
-    <zhTW>驚懼海盜</zhTW>
-    <zhCN>恐怖海盗</zhCN>
-    <ruRU>Жуткий корсар</ruRU>
-    <ptBR>Corsário Terrível</ptBR>
-    <plPL>Straszliwy korsarz</plPL>
-    <koKR>공포의 해적</koKR>
-    <itIT>Corsaro del Terrore</itIT>
-    <frFR>Corsaire de l’effroi</frFR>
-    <esMX>Corsario aterrador</esMX>
-    <esES>Corsario aterrador</esES>
-    <deDE>Schreckenskorsar</deDE>
+    <enUS>Hand of Protection</enUS>
+    <frFR>Main de protection</frFR>
+    <zhTW>保護聖禦</zhTW>
+    <zhCN>保护之手</zhCN>
+    <ruRU>Длань защиты</ruRU>
+    <ptBR>Mão da Proteção</ptBR>
+    <plPL>Ręka ochrony</plPL>
+    <koKR>보호의 손길</koKR>
+    <itIT>Imposizione della Protezione</itIT>
+    <esMX>Mano de protección</esMX>
+    <esES>Mano de protección</esES>
+    <deDE>Hand des Schutzes</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt.&lt;/b&gt; Costs (1) less per Attack of your weapon.</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。你的每一點武器攻擊力會減少其消耗(1)點。</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，你的武器每有1点攻击力，该牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. Стоит на (1) ману меньше за каждую единицу атаки вашего оружия.</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. Custa (1) a menos por Ataque da sua arma.</ptBR>
-    <plPL>&lt;b&gt;Prowokacja.&lt;/b&gt; Kosztuje (1) mniej za każdy punkt ataku twojej broni.</plPL>
-    <koKR>&lt;b&gt;도발.&lt;/b&gt; 내 무기의 공격력만큼 비용이 감소합니다.</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. Costa (1) Mana in meno per ogni punto Attacco della tua arma.</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. Coûte (1) cristal de moins par Attaque de votre arme.</frFR>
-    <esMX>&lt;b&gt;Provocación.&lt;/b&gt; Cuesta (1) menos por cada punto de Ataque de tu arma.</esMX>
-    <esES>&lt;b&gt;Provocar.&lt;/b&gt; Cuesta (1) cristal menos por cada punto de ataque de tu arma.</esES>
-    <deDE>&lt;b&gt;Spott.&lt;/b&gt; Kostet (1) weniger für jeden Angriffspunkt Eurer Waffe.</deDE>
+    <enUS>Give a minion &lt;b&gt;Divine Shield&lt;/b&gt;.</enUS>
+    <frFR>Confère &lt;b&gt;Bouclier divin&lt;/b&gt; à un serviteur.</frFR>
+    <zhTW>賦予一個手下&lt;b&gt;聖盾術&lt;/b&gt;。</zhTW>
+    <zhCN>使一个随从获得&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
+    <ruRU>Выбранное существо получает способность &lt;b&gt;«Божественный щит»&lt;/b&gt;.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Escudo Divino&lt;/b&gt; a um lacaio.</ptBR>
+    <plPL>Daj stronnikowi &lt;b&gt;Boską tarczę&lt;/b&gt;.</plPL>
+    <koKR>하수인에게 &lt;b&gt;천상의 보호막&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Scudo Divino&lt;/b&gt; a un servitore.</itIT>
+    <esMX>Otorga &lt;b&gt;Escudo divino&lt;/b&gt; a un esbirro.</esMX>
+    <esES>Otorga &lt;b&gt;Escudo divino&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Verleiht einem Diener &lt;b&gt;Gottesschild&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trent Kaniuga</enUS>
+    <enUS>Clint Langley</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 24.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Yarrrr" is a pirate word that means "Greetings, milord."</enUS>
-    <zhTW>「殺啊啊啊」其實是海盜語中「先生，您好」的意思。</zhTW>
-    <zhCN>“呀”在海盗的行话中代表“你好啊，有钱人。”</zhCN>
-    <ruRU>Если вы видите пирата, который кричит вам «Арррр!», не бойтесь – он просто здоровается.</ruRU>
-    <ptBR>Iarrrr é uma palavra pirata que quer dizer "Olá, milorde".</ptBR>
-    <plPL>„Arrrr” w pirackim narzeczu oznacza „Witaj, jaśnie panie.”</plPL>
-    <koKR>"야아아르"는 해적 말로 "안녕하십니까"라는 뜻입니다.</koKR>
-    <itIT>"Yarrrr" è una parola piratesca che significa: "Buongiorno, ser.".</itIT>
-    <frFR>En langage pirate, « Yarrrr » signifie « Bien le bonjour, mon seigneur. ». Évidemment.</frFR>
-    <esMX>"Aarrrr" es una palabra pirata que significa "Saludos, milord".</esMX>
-    <esES>"Arrr" es una palabra del idioma pirata que significa "Buenos días tenga vuestra merced".</esES>
-    <deDE>„Yarrrr“ ist ein Wort in der Piratensprache, das in etwa als „Meinen ergebensten Gruß, Euer Durchlaucht“ übersetzt werden kann.</deDE>
+    <enUS>This spell has been renamed so many times, even paladins don’t know what it should be called anymore.</enUS>
+    <zhTW>這個法術的名字改了好幾次，改到連聖騎士們都不知道現在該怎麼稱呼它了。</zhTW>
+    <zhCN>这个法术的名字已经被修改了太多次，导致连圣骑士们都不知道它应该叫什么了。</zhCN>
+    <ruRU>Это заклинание переименовывали столько раз, что даже паладины не пытаются запомнить его текущее название.</ruRU>
+    <ptBR>Este feitiço foi renomeado tantas vezes, que nem mesmo os paladinos sabem como deve ser chamado.</ptBR>
+    <plPL>To zaklęcie zmieniało nazwę tyle razy, że nawet paladyni już nie wiedzą, jaka jest ostateczna wersja.</plPL>
+    <koKR>이 주문은 이름이 하도 많이 바뀌어서, 성기사들도 이걸 뭐라고 불러야 하는지 잘 모를 때가 많습니다.</koKR>
+    <itIT>Questa magia è stata rinominata talmente tante volte che nemmeno i Paladini sanno come si chiama veramente.</itIT>
+    <frFR>Ce sort a été renommé si souvent que même les paladins ne savent plus comment il s’appelle.</frFR>
+    <esMX>Este hechizo ha tenido tantos nombres que ni siquiera los Paladines saben cómo debería llamarse.</esMX>
+    <esES>Este hechizo ha cambiado de nombre tantas veces que ya ni los paladines saben cómo llamarlo.</esES>
+    <deDE>Dieser Zauber wurde so oft umbenannt, dass sogar unter Paladinen keine Einigkeit über seinen richtigen Namen herrscht.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="6dfc62b8-15d6-4a90-9717-f31bf1c57236" />
-  <Power definition="94961708-4c62-4f7b-a634-fdae1b555f90" />
+  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="cfb61b8f-4148-4c61-b5a2-89bba5f04bbd">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

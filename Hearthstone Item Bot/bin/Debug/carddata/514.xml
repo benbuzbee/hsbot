@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_608">
+<Entity version="2" CardID="EX1_020">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sorcerer's Apprentice</enUS>
-    <frFR>Apprentie du sorcier</frFR>
-    <zhTW>巫士的學徒</zhTW>
-    <zhCN>巫师学徒</zhCN>
-    <ruRU>Ученица чародея</ruRU>
-    <ptBR>Aprendiz de Feiticeiro</ptBR>
-    <plPL>Uczennica czarownika</plPL>
-    <koKR>마술사의 수습생</koKR>
-    <itIT>Apprendista Occultista</itIT>
-    <esMX>Aprendiz de hechicero</esMX>
-    <esES>Aprendiza de hechicera</esES>
-    <deDE>Zauberlehrling</deDE>
+    <enUS>Scarlet Crusader</enUS>
+    <frFR>Croisée écarlate</frFR>
+    <zhTW>血色十字軍</zhTW>
+    <zhCN>血色十字军战士</zhCN>
+    <ruRU>Алый крестоносец</ruRU>
+    <ptBR>Cruzada Escarlate</ptBR>
+    <plPL>Szkarłatny krzyżowiec</plPL>
+    <koKR>붉은십자군 성전사</koKR>
+    <itIT>Crociata Scarlatta</itIT>
+    <esMX>Cruzada escarlata</esMX>
+    <esES>Cruzada Escarlata</esES>
+    <deDE>Scharlachrote Fanatikerin</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your spells cost (1) less.</enUS>
-    <frFR>Vos sorts coûtent (1) cristal de moins.</frFR>
-    <zhTW>你的法術消耗減少(1)點。</zhTW>
-    <zhCN>你的法术的法力值消耗减少（1）点。</zhCN>
-    <ruRU>Ваши заклинания стоят на (1) ману меньше.</ruRU>
-    <ptBR>Seus feitiços custam (1) a menos.</ptBR>
-    <plPL>Twoje zaklęcia kosztują (1) mniej.</plPL>
-    <koKR>내가 쓰는 주문의 비용이 (1) 감소합니다.</koKR>
-    <itIT>Le Magie costano (1) Mana in meno.</itIT>
-    <esMX>Tus hechizos cuestan (1) menos.</esMX>
-    <esES>Tus hechizos cuestan (1) cristal menos.</esES>
-    <deDE>Eure Zauber kosten (1) weniger.</deDE>
+    <enUS>&lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;圣盾&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Божественный щит&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Escudo divino&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Gottesschild&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Apprentices are great for bossing around.  "Conjure me some mana buns! And a coffee!  Make that a mana coffee!"</enUS>
-    <zhTW>學徒非常好使喚。「幫我做些法力麵包!和一杯咖啡!不然乾脆做杯法力咖啡好了!」</zhTW>
-    <zhCN>学徒们就是用来到处使唤的。“给我做点魔法面包，再来被咖啡！我要魔法咖啡！”</zhCN>
-    <ruRU>Маги обожают командовать своими учениками. «Сотвори-ка мне булочки из маны! И кофе! С маной!»</ruRU>
-    <ptBR>Aprendizes servem para obedecer. "Conjure uns pãezinhos de mana para mim! E um café! Ou melhor, um café de mana!"</ptBR>
-    <plPL>Uczniowie świetnie się nadają do wykorzystywania. „Hej, przyzwij mi trochę tych bułeczek z maną! I kawy! A właściwie to kawy z maną!”</plPL>
-    <koKR>수습생들은 이래라 저래라 시키기 좋습니다. 마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!"</koKR>
-    <itIT>È divertente dare ordini agli Apprendisti: "Evocami una Ciambella di Mana! E un caffè! Anzi, voglio un Caffè al Mana!"</itIT>
-    <frFR>Les apprentis, c’est utile pour les basses besognes. «  Invoque-moi des pains de manne ! Et un café ! Non, plutôt un café de manne ! »</frFR>
-    <esMX>No hay nada como mandonear aprendices. "¡Que aparezcan unas tostadas de maná! ¡Y un café! ¡Que sea un café de maná!".</esMX>
-    <esES>Tiene prohibido encantar escobas.</esES>
-    <deDE>Lehrlinge eignen sich prima zum Herumkommandieren. „Zauber mir ein paar Manabrötchen herbei! Und einen Kaffee! Ach was, mach' einen Manakaffee draus!“ </deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Gonzalo Ordonez</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="05da507e-472c-489d-9c9d-2bbd7608846d" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Never wash your whites with a Scarlet Crusader.</enUS>
+    <zhTW>洗白衣服的時候，千萬不要跟血色十字軍的人一起洗。</zhTW>
+    <zhCN>他们的狂热使衣衫上的猩红色更加刺眼。</zhCN>
+    <ruRU>Привезите ей цветочек аленький. Она будет счастлива.</ruRU>
+    <ptBR>Nunca lave suas roupas brancas com um Cruzado Escarlate.</ptBR>
+    <plPL>Kiedyś śniło się jej, że poślubiła karmazynowego króla.</plPL>
+    <koKR>세탁할 때 흰 옷이 물들지 않게 조심해야겠군요.</koKR>
+    <itIT>Non lavare mai i tuoi capi chiari insieme a quelli di una Crociata Scarlatta.</itIT>
+    <frFR>La croisée écarlate prend soin du linge que vous aimez.</frFR>
+    <esMX>Consejo de amigo: no pongas a lavar tu ropa blanca con el traje de esta Cruzada.</esMX>
+    <esES>¡El infiel será purificado!</esES>
+    <deDE>Niemals gemeinsam mit weißer Wäsche waschen!</deDE>
+  </Tag>
+  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="38bc664c-98c8-41e2-8569-8811effc8b06" />
 </Entity>

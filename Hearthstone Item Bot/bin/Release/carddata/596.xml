@@ -1,76 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_021">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_251">
+  <MasterPower>ac9220db-c2e7-4dca-8e3e-c23f0e4a97d6</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Doomsayer</enUS>
-    <frFR>Auspice funeste</frFR>
-    <zhTW>末日預言者</zhTW>
-    <zhCN>末日预言者</zhCN>
-    <ruRU>Вестник рока</ruRU>
-    <ptBR>Agoureiro</ptBR>
-    <plPL>Prorok zagłady</plPL>
-    <koKR>파멸의 예언자</koKR>
-    <itIT>Vate della Rovina</itIT>
-    <esMX>Orador del sino</esMX>
-    <esES>Orador del Sino</esES>
-    <deDE>Untergangsverkünder</deDE>
+    <enUS>Forked Lightning</enUS>
+    <frFR>Fourche d’éclairs</frFR>
+    <zhTW>叉狀閃電</zhTW>
+    <zhCN>叉状闪电</zhCN>
+    <ruRU>Раздвоенная молния</ruRU>
+    <ptBR>Raio Bifurcado</ptBR>
+    <plPL>Rozwidlona błyskawica</plPL>
+    <koKR>갈래 번개</koKR>
+    <itIT>Fulmine Biforcuto</itIT>
+    <esMX>Relámpago bifurcado</esMX>
+    <esES>Relámpago bifurcado</esES>
+    <deDE>Gabelblitzschlag</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, destroy ALL minions.</enUS>
-    <frFR>Au début de votre tour, détruit TOUS les serviteurs.</frFR>
-    <zhTW>在你的回合開始時，摧毀全部手下。</zhTW>
-    <zhCN>在你的回合开始时，消灭所有随从。</zhCN>
-    <ruRU>В начале вашего хода уничтожает ВСЕХ существ.</ruRU>
-    <ptBR>No início do seu turno, destrua TODOS os lacaios.</ptBR>
-    <plPL>Na początku swojej tury zniszcz WSZYSTKICH stronników.</plPL>
-    <koKR>내 턴이 시작될 때, &lt;b&gt;모든&lt;/b&gt; 하수인을 처치합니다.</koKR>
-    <itIT>All'inizio del tuo turno, il Vate della Rovina distrugge TUTTI i servitori.</itIT>
-    <esMX>Al comienzo de tu turno, destruye a TODOS los esbirros.</esMX>
-    <esES>Al comienzo de tu turno, destruye a todos los esbirros.</esES>
-    <deDE>Vernichtet zu Beginn Eures Zuges ALLE Diener.</deDE>
+    <enUS>Deal $2 damage to 2 random enemy minions. &lt;b&gt;Overload:&lt;/b&gt; (2)</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts à 2 serviteurs adverses aléatoires. &lt;b&gt;Surcharge :&lt;/b&gt; (2)</frFR>
+    <zhTW>對2個隨機敵方手下造成$2點傷害。&lt;b&gt;超載:&lt;/b&gt;(2)</zhTW>
+    <zhCN>对2个随机敌方随从造成$2点伤害，&lt;b&gt;过载：&lt;/b&gt;（2）</zhCN>
+    <ruRU>Наносит $2 ед. урона двум случайным существам противника. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
+    <ptBR>Cause $2 de dano a 2 lacaios inimigos aleatórios. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń dwóm losowym wrogim stronnikom. &lt;b&gt;Przeciążenie:&lt;/b&gt; (2)</plPL>
+    <koKR>무작위 적 하수인 2마리에게 피해를 $2 줍니다. &lt;b&gt;과부하:&lt;/b&gt; (2)</koKR>
+    <itIT>Infligge $2 danni a 2 servitori nemici casuali. &lt;b&gt;Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
+    <esMX>Inflige $2 de daño a 2 esbirros enemigos aleatorios. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esMX>
+    <esES>Inflige $2 p. de daño a 2 esbirros enemigos aleatorios. &lt;b&gt;Sobrecarga:&lt;/b&gt; (2)</esES>
+    <deDE>Fügt zwei zufälligen feindlichen Dienern $2 Schaden zu. &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ralph Horsley</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He's almost been right so many times. He was &lt;i&gt;sure&lt;/i&gt; it was coming during the Cataclysm.</enUS>
-    <zhTW>他的預言好幾次都差點成真。他&lt;i&gt;非常肯定&lt;/i&gt;的說大災變那次就是真正的末日。</zhTW>
-    <zhCN>他的预言几乎都是准确的。他确信，大约会是在《大地的裂变》。</zhCN>
-    <ruRU>Столько раз он был близок к истине, предрекая конец света... Он был совершенно уверен, что Катаклизм уж точно положит конец всему сущему.</ruRU>
-    <ptBR>Ele esteve quase certo tantas vezes. Ele tinha &lt;i&gt;certeza&lt;/i&gt; que o fim do mundo chegaria no Cataclismo.</ptBR>
-    <plPL>Lepiej mu idzie prorokowanie numerów na loterii.</plPL>
-    <koKR>그의 예언은 가끔씩 들어맞습니다. 특히 대격변이 한창인 와중에 자신에게 파멸이 찾아올 거라는 말은 분명히 맞았습니다.</koKR>
-    <itIT>Ha avuto quasi ragione così tante volte... durante il Cataclisma però era &lt;i&gt;sicuro&lt;/i&gt; che la rovina sarebbe arrivata.</itIT>
-    <frFR>Il a toujours presque raison. Il était &lt;i&gt;certain&lt;/i&gt; que la fin du monde allait se passer pendant le cataclysme.</frFR>
-    <esMX>Estuvo casi en lo cierto muchísimas veces. Estaba &lt;i&gt;seguro&lt;/i&gt; de que vendría durante el Cataclismo.</esMX>
-    <esES>Después de tantos años de presagiar el fin del mundo, con el Cataclismo pensó que de verdad había llegado el momento.</esES>
-    <deDE>Er hatte schon so oft beinahe recht. Er war sich &lt;i&gt;absolut sicher&lt;/i&gt;, dass es beim Kataklysmus endlich klappen würde.</deDE>
+    <enUS>If you combine it with Spooned Lightning and Knived Lightning, you have the full dining set.</enUS>
+    <zhTW>如果你再收集匙狀閃電跟刀狀閃電，你就擁有了整套餐具組了。</zhTW>
+    <zhCN>配上勺状闪电和刀状闪电，你就集齐整套闪电餐具了。</zhCN>
+    <ruRU>Идеальное орудие для убийства сразу двух зайцев.</ruRU>
+    <ptBR>É praticamente dois por um, né?</ptBR>
+    <plPL>Do pełnego działkowego zestawu brakuje jeszcze zagrabionej błyskawicy oraz łopatowego pioruna.</plPL>
+    <koKR>올래 번개와 짝을 이루는 주문입니다. 무슨 말인지 모르겠다고요? 다행이네요.</koKR>
+    <itIT>Se lo combini con il Fulmine Cucchiaiato e il Fulmine Accoltellato, avrai un servizio di posate completo.</itIT>
+    <frFR>Et il existe la même pour les croissants !</frFR>
+    <esMX>Dicen que el Lámpago bifurcado ya era fulminante, ¡imagínate el RElámpago!</esMX>
+    <esES>¡Una carta chocante!</esES>
+    <deDE>Wenn man ihn mit Löffelblitzschlag und Messerblitzschlag kombiniert, steht dem gesitteten Dinner nichts mehr im Wege.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="dfe6cdc8-d829-4b55-8265-516985561961" />
-  <Power definition="0efe54a7-e587-4b09-aa2d-163458ab6275" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Doomsayer has destroyed all minions</enUS>
-    <frFR>L’auspice funeste a détruit tous les serviteurs.</frFR>
-    <zhTW>末日預言者摧毀了全部的手下</zhTW>
-    <zhCN>末日预言者消灭了所有随从。</zhCN>
-    <ruRU>Вестник рока уничтожил всех существ.</ruRU>
-    <ptBR>Agoureiro destruiu todos os lacaios</ptBR>
-    <plPL>Prorok zagłady zniszczył wszystkich stronników.</plPL>
-    <koKR>파멸의 예언자가 모든 하수인을 처치</koKR>
-    <itIT>Il Vate della Rovina ha distrutto tutti i servitori.</itIT>
-    <esMX>El orador del sino ha destruido a todos los esbirros</esMX>
-    <esES>El orador del Sino ha destruido a todos los esbirros.</esES>
-    <deDE>Der Weltuntergangsverkünder hat alle Diener vernichtet.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="ac9220db-c2e7-4dca-8e3e-c23f0e4a97d6">
+    <PlayRequirement reqID="23" param="2" />
+  </Power>
 </Entity>

@@ -1,66 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_506">
-  <MasterPower>811d9942-036d-4f05-8dce-42e5fe68642f</MasterPower>
+<Entity version="2" CardID="CS2_172">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Tidehunter</enUS>
-    <zhTW>獵潮魚人</zhTW>
-    <zhCN>鱼人猎潮者</zhCN>
-    <ruRU>Мурлок-волнолов</ruRU>
-    <ptBR>Murloc Caçamaré</ptBR>
-    <plPL>Murlok brzegowiec</plPL>
-    <koKR>멀록 바다사냥꾼</koKR>
-    <itIT>Murloc Cacciamaree</itIT>
-    <frFR>Chasse-marée murloc</frFR>
-    <esMX>Cazamareas múrloc</esMX>
-    <esES>Cazamareas múrloc</esES>
-    <deDE>Murlocgezeitenjäger</deDE>
+    <enUS>Bloodfen Raptor</enUS>
+    <zhTW>血沼迅猛龍</zhTW>
+    <zhCN>血沼迅猛龙</zhCN>
+    <ruRU>Ящер Кровавой Топи</ruRU>
+    <ptBR>Raptor Dinossangue</ptBR>
+    <plPL>Bagienny raptor</plPL>
+    <koKR>붉은늪지랩터</koKR>
+    <itIT>Raptor Codarossa</itIT>
+    <frFR>Raptor Rougefange</frFR>
+    <esMX>Raptor cienorrojo</esMX>
+    <esES>Raptor Cienorrojo</esES>
+    <deDE>Blutsumpfraptor</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 1/1 Murloc Scout.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一個1/1的魚人斥候。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一个1/1的鱼人斥候。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя мурлока-разведчика 1/1.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque um Batedor Murloc 1/1.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij murloka zwiadowcę 1/1.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 1/1 멀록 정찰병을 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un Murloc Esploratore 1/1.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque un éclaireur murloc 1/1.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca un Explorador múrloc 1/1.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca a un explorador múrloc 1/1.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft einen Murlocspäher (1/1) herbei.</deDE>
-  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Scott</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Rogue Level 53.</enUS>
+    <enUS>Dan Brereton</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Death will rise, from the tides!"</enUS>
-    <zhTW>「死亡將如潮水席捲而來!」</zhTW>
-    <zhCN>“死亡之潮升涌而起！”</zhCN>
-    <ruRU>«Восстанет из пучины смерть!»</ruRU>
-    <ptBR>"A morte surgirá das marés!"</ptBR>
-    <plPL>„Wraz z przypływem nadejdzie śmierć!”</plPL>
-    <koKR>"파도를 헤치고 죽음이 나타나리니!"</koKR>
-    <itIT>"Death will rise, from the tides!" - I Am Murloc</itIT>
-    <frFR>« La mort monte avec la marée ! »</frFR>
-    <esMX>"La muerte se alzará... ¡desde las mareas!".</esMX>
-    <esES>¡La muerte se alzará desde el mar!</esES>
-    <deDE>Bei Ebbe und bei Flut, der Tod steht Euch gut!</deDE>
+    <enUS>"Kill 30 raptors." - Hemet Nesingwary</enUS>
+    <zhTW>「殺死30隻迅猛龍。」-赫米特·奈辛瓦里</zhTW>
+    <zhCN>“去杀30条迅猛龙。”——赫米特·奈辛瓦里</zhCN>
+    <ruRU>«Убей 30 ящеров». – Хеминг Эрнестуэй</ruRU>
+    <ptBR>"Mate 30 raptores." - Rosarães Guima</ptBR>
+    <plPL>Ten gatunek raptorów żyje na Krwawych Bagnach. Hemet Nesingwary radzi, aby zabijać je po 30 sztuk.</plPL>
+    <koKR>"랩터 30마리를 처치하세요." - 헤멧 네싱워리</koKR>
+    <itIT>"Uccidi 30 Raptor." - Hemet Nesingwary</itIT>
+    <frFR>« Tuez 30 raptors. » - Hemet Nesingwary</frFR>
+    <esMX>"Mata a 30 raptores". - Hemet Nesingwary</esMX>
+    <esES>"Mata 30 raptores". - Hemet Nesingwary</esES>
+    <deDE>„Tötet 30 Raptoren.“ – Hemet Nesingwary</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="811d9942-036d-4f05-8dce-42e5fe68642f" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Hunter Level 56.</enUS>
+  </Tag>
 </Entity>

@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_023">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_092">
+  <MasterPower>3999cb63-121b-4da3-9561-a53b698820ca</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Arcane Intellect</enUS>
-    <frFR>Intelligence des Arcanes</frFR>
-    <zhTW>秘法智力</zhTW>
-    <zhCN>奥术智慧</zhCN>
-    <ruRU>Интеллект чародея</ruRU>
-    <ptBR>Intelecto Arcano</ptBR>
-    <plPL>Tajemny intelekt</plPL>
-    <koKR>신비한 지능</koKR>
-    <itIT>Intelletto Arcano</itIT>
-    <esMX>Intelecto arcano</esMX>
-    <esES>Intelecto Arcano</esES>
-    <deDE>Arkane Intelligenz</deDE>
+    <enUS>Blessing of Kings</enUS>
+    <frFR>Bénédiction des rois</frFR>
+    <zhTW>王者祝福</zhTW>
+    <zhCN>王者祝福</zhCN>
+    <ruRU>Печать королей</ruRU>
+    <ptBR>Bênção dos Reis</ptBR>
+    <plPL>Dar królów</plPL>
+    <koKR>왕의 축복</koKR>
+    <itIT>Benedizione dei Re</itIT>
+    <esMX>Bendición de reyes</esMX>
+    <esES>Bendición de reyes</esES>
+    <deDE>Segen der Könige</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw 2 cards.</enUS>
-    <frFR>Vous piochez 2 cartes.</frFR>
-    <zhTW>抽2張牌。</zhTW>
-    <zhCN>抽2张牌。</zhCN>
-    <ruRU>Вы берете 2 карты.</ruRU>
-    <ptBR>Compre 2 cards.</ptBR>
-    <plPL>Dobierz 2 karty.</plPL>
-    <koKR>카드를 2장 뽑습니다.</koKR>
-    <itIT>Pesca 2 carte.</itIT>
-    <esMX>Roba 2 cartas.</esMX>
-    <esES>Roba 2 cartas.</esES>
-    <deDE>Zieht 2 Karten.</deDE>
+    <enUS>Give a minion +4/+4. &lt;i&gt;(+4 Attack/+4 Health)&lt;/i&gt;</enUS>
+    <frFR>Confère à un serviteur +4/+4. &lt;i&gt;(+4 ATQ/+4 PV)&lt;/i&gt;</frFR>
+    <zhTW>賦予一個手下+4/+4。&lt;i&gt;(+4攻擊力/+4生命值)&lt;/i&gt;</zhTW>
+    <zhCN>使一个随从获得+4/+4。&lt;i&gt;（+4攻击力/+4生命值）&lt;/i&gt;</zhCN>
+    <ruRU>Выбранное существо получает +4/+4. &lt;i&gt;(+4 к атаке/+4 к здоровью)&lt;/i&gt;</ruRU>
+    <ptBR>Conceda +4/+4 a um lacaio. &lt;i&gt;(+4 de Ataque/+4 de Vida)&lt;/i&gt;</ptBR>
+    <plPL>Daj stronnikowi +4/+4 &lt;i&gt;(+4 do ataku/+4 do zdrowia)&lt;/i&gt;.</plPL>
+    <koKR>하수인에게 +4/+4를 부여합니다. &lt;i&gt;(공격력 +4/생명력 +4)&lt;/i&gt;</koKR>
+    <itIT>Fornisce +4/+4 a un servitore.</itIT>
+    <esMX>Otorga +4/+4 a un esbirro. &lt;i&gt;(+4 de Ataque/+4 de Salud)&lt;/i&gt;</esMX>
+    <esES>Otorga +4/+4 a un esbirro. &lt;i&gt;(+4 p. de ataque/+4 p. de salud)&lt;/i&gt;</esES>
+    <deDE>Verleiht einem Diener +4/+4. &lt;i&gt;(+4 Angriff/+4 Leben)&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Playing this card makes you SMARTER.  And let's face it: we could all stand to be a little smarter.</enUS>
-    <zhTW>出這張牌會讓你更聰明。而且面對現實吧，我們都不介意再更聰明一點。</zhTW>
-    <zhCN>使用这张牌能让你变得更聪明。面对现实吧：你可以变得更聪明些的。</zhCN>
-    <ruRU>Разыграв эту карту, вы станете умнее. Нам всем это не помешает, не так ли?</ruRU>
-    <ptBR>Jogar esse card deixa você mais ESPERTO. E, vamos concordar: a gente anda precisando, né?</ptBR>
-    <plPL>To zaklęcie powoduje tymczasowy wzrost poziomu inteligencji. Magowie najczęściej rzucają je przy rozwiązywaniu krzyżówek.</plPL>
-    <koKR>이 카드를 내면 똑똑해집니다. 솔직히 말해서, 좀 똑똑해졌다고 우겨도 괜찮습니다.</koKR>
-    <itIT>Giocare questa carta ti rende più intelligente. E ammettiamolo, la cosa non può di certo farti male.</itIT>
-    <frFR>Jouer cette carte vous rend plus INTELLIGENT. Et soyons honnêtes, ça ne fait de mal à personne.</frFR>
-    <esMX>Jugar esta carta te hace MÁS INTELIGENTE. Y seamos sinceros: un poco de inteligencia no le viene mal a nadie.</esMX>
-    <esES>Jugar esta carta te vuelve más LISTO. Y, admitámoslo, a todos nos vendría bien ser un poco más listos.</esES>
-    <deDE>Das Ausspielen dieser Karte macht Euch KLÜGER. Und ganz ehrlich gesagt, ein bisschen mehr Intelligenz könnten wir alle vertragen.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Berggren</enUS>
+    <enUS>Lucas Graciano</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 20.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Given the number of kings who have been assassinated, are you sure you want their blessing?</enUS>
+    <zhTW>歷史上被暗殺的國王這麼多，你確定你還要他們的祝福?</zhTW>
+    <zhCN>你知道世界上有多少所谓的“王者”被暗杀了吗？你确定还想要王者祝福吗？</zhCN>
+    <ruRU>Учитывая количество убитых королей, вы точно уверены, что вам нужно их благословение?</ruRU>
+    <ptBR>Levando em consideração o grande número de reis assassinados ultimamente, tem certeza que você quer esse bônus?</ptBR>
+    <plPL>Biorąc pod uwagę liczbę królów, którzy zostali skrytobójczo zabici, czy na pewno pragniesz ich daru?</plPL>
+    <koKR>여태까지 암살당한 왕이 몇 명인데, 정말 그들의 축복을 받고 싶으세요?</koKR>
+    <itIT>Considerando quanti re sono stati assassinati, sei ancora certo di volere la loro benedizione?</itIT>
+    <frFR>Étant donné le nombre de rois ayant été assassinés, vous êtes certain de vouloir leur bénédiction ?</frFR>
+    <esMX>Dada la cantidad de reyes que han sido asesinados, ¿estás seguro de que quieres su bendición?</esMX>
+    <esES>Teniendo en cuenta la cantidad de reyes que han muerto asesinados, ¿seguro que es buena idea recibir su bendición?</esES>
+    <deDE>Wenn man die Anzahl der Könige betrachtet, die einem Attentat zum Opfer fielen, seid Ihr Euch dann noch sicher, dass Ihr deren Segen haben möchtet?</deDE>
   </Tag>
   <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+    <enUS>Unlocked at Level 10.</enUS>
   </Tag>
-  <Power definition="629f2d19-a29c-424c-b783-fffb074b3fd0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 48.</enUS>
+  </Tag>
+  <Power definition="3999cb63-121b-4da3-9561-a53b698820ca">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

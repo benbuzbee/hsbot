@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka3e">
+<Entity version="2" CardID="EX1_155ae">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Emboldened!</enUS>
-    <zhTW>勇氣大增!</zhTW>
-    <zhCN>壮胆！</zhCN>
-    <ruRU>Воодушевление!</ruRU>
-    <ptBR>Encorajado!</ptBR>
-    <plPL>Doping!</plPL>
-    <koKR>강화됨!</koKR>
-    <itIT>Ingrossato!</itIT>
-    <frFR>Encouragé !</frFR>
-    <esMX>¡Fortalecido!</esMX>
-    <esES>¡Corajizado!</esES>
-    <deDE>Verstärkt!</deDE>
+    <enUS>Mark of Nature</enUS>
+    <frFR>Marque de la nature</frFR>
+    <zhTW>自然印記</zhTW>
+    <zhCN>自然印记</zhCN>
+    <ruRU>Знак Природы</ruRU>
+    <ptBR>Marca da Natureza</ptBR>
+    <plPL>Znak natury</plPL>
+    <koKR>자연의 징표</koKR>
+    <itIT>Marchio della Natura</itIT>
+    <esMX>Marca de la naturaleza</esMX>
+    <esES>Marca de la Naturaleza</esES>
+    <deDE>Mal der Natur</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+1/+1.</enUS>
-    <zhTW>+1/+1。</zhTW>
-    <zhCN>+1/+1。</zhCN>
-    <ruRU>+1/+1.</ruRU>
-    <ptBR>+1/+1.</ptBR>
-    <plPL>+1/+1</plPL>
-    <koKR>+1/+1</koKR>
-    <itIT>+1/+1.</itIT>
-    <frFR>+1/+1.</frFR>
-    <esMX>+1/+1.</esMX>
-    <esES>+1/+1.</esES>
-    <deDE>+1/+1.</deDE>
+    <enUS>This minion has +4 Attack.</enUS>
+    <frFR>Ce serviteur a +4 ATQ.</frFR>
+    <zhTW>這個手下擁有+4攻擊力。</zhTW>
+    <zhCN>该随从获得+4攻击力。</zhCN>
+    <ruRU>Это существо получило +4 к атаке.</ruRU>
+    <ptBR>Este lacaio tem +4 de Ataque.</ptBR>
+    <plPL>Ten stronnik ma +4 do ataku.</plPL>
+    <koKR>공격력 +4</koKR>
+    <itIT>+4 Attacco.</itIT>
+    <esMX>Este esbirro tiene +4 de Ataque.</esMX>
+    <esES>Este esbirro tiene +4 p. de ataque.</esES>
+    <deDE>Dieser Diener hat +4 Angriff.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="12254813-6b49-4367-9f54-9860c33912b3" />
+  <Power definition="77783117-f736-4243-a5c4-7634a79acb2d" />
 </Entity>

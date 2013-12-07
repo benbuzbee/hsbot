@@ -1,64 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_097">
+<Entity version="2" CardID="CS2_213">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Abomination</enUS>
-    <zhTW>憎惡體</zhTW>
-    <zhCN>憎恶</zhCN>
-    <ruRU>Поганище</ruRU>
-    <ptBR>Abominação</ptBR>
-    <plPL>Plugastwo</plPL>
-    <koKR>누더기골렘</koKR>
-    <itIT>Abominio</itIT>
-    <frFR>Abomination</frFR>
-    <esMX>Abominación</esMX>
-    <esES>Abominación</esES>
-    <deDE>Monstrosität</deDE>
+    <enUS>Reckless Rocketeer</enUS>
+    <frFR>Missilière téméraire</frFR>
+    <zhTW>魯莽的火箭手</zhTW>
+    <zhCN>鲁莽火箭兵</zhCN>
+    <ruRU>Шальная ракетчица</ruRU>
+    <ptBR>Fogueteira Descuidada</ptBR>
+    <plPL>Ryzykancka rakieterka</plPL>
+    <koKR>못 말리는 로켓병</koKR>
+    <itIT>Cavalcarazzi Folle</itIT>
+    <esMX>Artificera temeraria</esMX>
+    <esES>Artificiera temeraria</esES>
+    <deDE>Irre Raketenschützin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Deal 2 damage to ALL characters.</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;對全部角色造成2點傷害。</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，&lt;b&gt;亡语：&lt;/b&gt;对所有角色造成2点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. &lt;b&gt;Предсмертный хрип:&lt;/b&gt; наносит 2 ед. урона ВСЕМ персонажам.</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último Suspiro&lt;/b&gt; Cause 2 de dano a TODOS os personagens.</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;. &lt;b&gt;Agonia:&lt;/b&gt; Zadaj $2 pkt. obrażeń WSZYSTKIM postaciom.</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;. &lt;b&gt;죽음의 메아리:&lt;/b&gt;\n&lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 2 줍니다.</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. &lt;b&gt;Rantolo di Morte:&lt;/b&gt; l'Abominio infligge 2 danni a TUTTI i personaggi.</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. &lt;b&gt;Râle d’agonie :&lt;/b&gt; inflige 2 points de dégâts à TOUS les personnages.</frFR>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;. &lt;b&gt;Estertor:&lt;/b&gt; inflige 2 de daño a TODOS los personajes.</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último aliento:&lt;/b&gt; Inflige 2 p. de daño a todos los personajes.</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;. &lt;b&gt;Todesröcheln:&lt;/b&gt; Fügt ALLEN Charakteren 2 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>John "JP" Polidora</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Shaman Level 58.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Abominations enjoy Fresh Meat and long walks on the beach.</enUS>
-    <zhTW>憎惡體喜歡新鮮的肉，跟在海灘上散步。</zhTW>
-    <zhCN>憎恶喜欢享用新鲜的肉，以及在海滩上漫步。</zhCN>
-    <ruRU>Поганища любят свежее мясо и долгие прогулки по берегу.</ruRU>
-    <ptBR>Abominações adoram carne fresca e longas caminhadas pela praia.</ptBR>
-    <plPL>Plugastwa uwielbiają świeże mięso i długie spacery po plaży.</plPL>
-    <koKR>누더기들은 신선한 고기와 해변 산책을 즐깁니다.</koKR>
-    <itIT>Puoi sentirne il fetore molto prima di riuscire a vederli.</itIT>
-    <frFR>Les abominations adorent la viande fraîche et les longues promenades sur la plage.</frFR>
-    <esMX>A las abominaciones les encanta la carne fresca y los largos paseos por la playa.</esMX>
-    <esES>La olerás mucho antes de verla.</esES>
-    <deDE>Monstrositäten mögen frische Eingeweide und lange Spaziergänge im Sonnenuntergang.</deDE>
+    <enUS>One Insane Rocketeer.   One Rocket full of Explosives.   Infinite Fun.</enUS>
+    <zhTW>瘋狂的火箭手。裝滿爆裂物的火箭。這兩樣東西加起來就是無窮的樂趣。</zhTW>
+    <zhCN>一个疯狂的火箭兵加上一个装满炸药的火箭。完美的组合。</zhCN>
+    <ruRU>Одна шальная ракетчица + одна ракета со взрывчаткой = бесконечный источник веселья.</ruRU>
+    <ptBR>Um Fogueteiro Maluco. Um Foguete cheio de Explosivos. Loucas confusões.</ptBR>
+    <plPL>Jedna szalona rakieterka plus jedna wybuchowa rakieta równa się masa zabawy. </plPL>
+    <koKR>폭발물로 가득한 로켓으로 무장한 미치광이 로켓병이라니! 와! 신난다!</koKR>
+    <itIT>Una Cavalcarazzi Folle. Un razzo carico di esplosivo. Divertimento garantito!</itIT>
+    <frFR>La missilière téméraire, c’est de la dynamite !</frFR>
+    <esMX>Una artificera demente + un misil lleno de explosivos = diversión sin fin.</esMX>
+    <esES>Una artificiera temeraria + un cohete lleno hasta arriba de explosivos = diversión infinita.</esES>
+    <deDE>Rakete: 300 Gold. Feuerzeug: 25 Gold. Mangelnder Selbsterhaltungstrieb: Unbezahlbar.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
-  <Power definition="51aededf-cf5c-4ffd-8b9d-3093867cb524" />
-  <Power definition="5e736d4b-fecb-4e85-8520-c426949262da" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="684231a0-251c-42be-952e-9a8a2773188b" />
 </Entity>

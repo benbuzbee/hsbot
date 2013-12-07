@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_168">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_538">
+  <MasterPower>b560ff40-9ed7-4ff7-8a7a-120d802afb3c</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Raider</enUS>
-    <frFR>Écumeur murloc</frFR>
-    <zhTW>魚人劫掠者</zhTW>
-    <zhCN>鱼人袭击者</zhCN>
-    <ruRU>Мурлок-налетчик</ruRU>
-    <ptBR>Murloc Saqueador</ptBR>
-    <plPL>Murlok grabieżca</plPL>
-    <koKR>멀록 약탈꾼</koKR>
-    <itIT>Murloc Incursore</itIT>
-    <esMX>Asaltante múrloc</esMX>
-    <esES>Asaltante múrloc</esES>
-    <deDE>Murlocräuber</deDE>
+    <enUS>Unleash the Hounds</enUS>
+    <frFR>Lâcher les chiens</frFR>
+    <zhTW>放狗</zhTW>
+    <zhCN>关门放狗</zhCN>
+    <ruRU>Спустить собак</ruRU>
+    <ptBR>Soltem os Cães</ptBR>
+    <plPL>Spuścić psy!</plPL>
+    <koKR>개들을 풀어라</koKR>
+    <itIT>Sguinzaglia i Segugi</itIT>
+    <esMX>Suelten a los canes</esMX>
+    <esES>Soltad a los perros</esES>
+    <deDE>Lasst die Hunde los!</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give your Beasts +1 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Confère +1 ATQ et &lt;b&gt;Charge&lt;/b&gt; à vos bêtes.</frFR>
+    <zhTW>賦予你全部的野獸+1攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
+    <zhCN>使你的野兽获得+1攻击力并具有&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Ваши звери получают +1 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Conceda +1 de Ataque e &lt;b&gt;Investida&lt;/b&gt; às suas Feras.</ptBR>
+    <plPL>Daj swoim Bestiom +1 do ataku oraz &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>내 야수들에게 공격력 +1과 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce +1 Attacco e &lt;b&gt;Carica&lt;/b&gt; alle tue Bestie.</itIT>
+    <esMX>Otorga +1 de Ataque y &lt;b&gt;Carga&lt;/b&gt; a tus Bestias.</esMX>
+    <esES>Otorga +1 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt; a tus bestias.</esES>
+    <deDE>Verleiht Euren Wildtieren +1 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Scott</enUS>
+    <enUS>Velvet Engine</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</enUS>
-    <zhTW>姆拉嘎啦啦嘎嘎，啦姆嘎姆嘎嘎啦啦，姆啦嘎嘎嘎嘎嘎嘎，嘎啦卡爾洛斯嘎嘎啦嘎嘎嘎啦啦嘎!</zhTW>
-    <zhCN>姆啦啦咯哈姆噶啊啊嘎，姆啦嘎嘎咯，啵啦啦嗯嘞噶哈，姆啦嗝，咯啦哈哈吧啦咯。加尔鲁什咯嘛啦喝，嘛啦咯呵！</zhCN>
-    <ruRU>Мррраггглхлхгхгхлгх, мргаааг бларргхлгаахахл мргггг глхалхах а бгххлл граггмгмг Гаррош мглхлхлх мргхлхлх!!!</ruRU>
-    <ptBR>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</ptBR>
-    <plPL>Mrrraggglhlhghghlgh, śpiewać... mrgaaag... każdy... blarrghlgaahahle... może mrgggg... trochę lepiej... glhalhah a bghhll... lub trochę gorzej... mglhlhlh mrghlhlhl!!</plPL>
-    <koKR>아옳옳옳옳옳옳옳, 아옳옳옳 옳옳옳옳옳, 옳옳옳옳옳, 아옳옳옳옳옳옳옳! 아옳옳옳, 아옳옳옳옳!</koKR>
-    <itIT>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</itIT>
-    <frFR>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlh l!!</frFR>
-    <esMX>¡Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!</esMX>
-    <esES>¡¡Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</esES>
-    <deDE>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</deDE>
+    <enUS>You must read the name of this card out loud each time you play it.</enUS>
+    <zhTW>你每次打這張牌時，記得把牌的名稱大喊出來。</zhTW>
+    <zhCN>在你使用这张牌的时候，一定要喊出它的名字。</zhCN>
+    <ruRU>Громко зачитывайте название этой карты каждый раз, когда будете ее разыгрывать.</ruRU>
+    <ptBR>Você precisa dizer o nome deste card em alto e bom som cada vez que você jogá-lo.</ptBR>
+    <plPL>Kto dogoni psa? Może ty, może ty? Może jednak ja!</plPL>
+    <koKR>이 카드를 낼 때마다 "물어!"라고 크게 외쳐야 합니다.</koKR>
+    <itIT>Devi gridare il nome di questa carta ogni volta che la giochi.</itIT>
+    <frFR>J’ai déjà entendu ça quelque part...</frFR>
+    <esMX>Cada vez que juegues esta carta, tienes que leer su nombre en voz alta.</esMX>
+    <esES>Después de jugar esta carta, queda bien juntar las manos y decir "¡Excelente!".</esES>
+    <deDE>Ihr müsst den Namen dieser Karte jedes Mal laut aussprechen, wenn Ihr sie ausspielt.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Priest Level 50.</enUS>
-  </Tag>
+  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="b560ff40-9ed7-4ff7-8a7a-120d802afb3c" />
 </Entity>

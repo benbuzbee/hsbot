@@ -1,63 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_067">
+<Entity version="2" CardID="NEW1_037">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Argent Commander</enUS>
-    <frFR>Commandant d’argent</frFR>
-    <zhTW>銀白指揮官</zhTW>
-    <zhCN>银色指挥官</zhCN>
-    <ruRU>Командир Авангарда</ruRU>
-    <ptBR>Comandante Argênteo</ptBR>
-    <plPL>Dowódca Argentu</plPL>
-    <koKR>은빛십자군 부대장</koKR>
-    <itIT>Comandante d'Argento</itIT>
-    <esMX>Comandante argenta</esMX>
-    <esES>Comandante Argenta</esES>
-    <deDE>Argentumkommandant</deDE>
+    <enUS>Master Swordsmith</enUS>
+    <frFR>Maître fabricant d’épées</frFR>
+    <zhTW>劍類鍛造大師</zhTW>
+    <zhCN>铸剑师</zhCN>
+    <ruRU>Мастер ковки клинков</ruRU>
+    <ptBR>Mestre Armeiro</ptBR>
+    <plPL>Mistrz miecznictwa</plPL>
+    <koKR>검 제작의 대가</koKR>
+    <itIT>Mastro Fabbro di Spade</itIT>
+    <esMX>Maestro forjador de espadas</esMX>
+    <esES>Maestro forjador de espadas</esES>
+    <deDE>Meisterschwertschmied</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
   <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;，&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Божественный щит&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;, &lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;, &lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;, &lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Scudo Divino&lt;/b&gt;.</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;, &lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;, &lt;b&gt;Escudo divino&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;, &lt;b&gt;Gottesschild&lt;/b&gt; </deDE>
+    <enUS>At the end of your turn, give another random friendly minion +1 Attack.</enUS>
+    <frFR>À la fin de votre tour, donne +1 ATQ à un autre serviteur allié.</frFR>
+    <zhTW>在你的回合結束時，賦予另一個隨機友方手下+1攻擊力。</zhTW>
+    <zhCN>在你的回合结束时，随机使另一个友方随从获得+1攻击力。</zhCN>
+    <ruRU>В конце вашего хода другое ваше случайное существо получает +1 к атаке.</ruRU>
+    <ptBR>No fim do seu turno, conceda +1 de Ataque a outro lacaio aliado aleatório.</ptBR>
+    <plPL>Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do ataku.</plPL>
+    <koKR>내 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.</koKR>
+    <itIT>Alla fine del tuo turno, il Mastro Fabbro di Spade fornisce +1 Attacco a un altro tuo servitore casuale.</itIT>
+    <esMX>Al final de tu turno, otorga +1 de Ataque a otro esbirro aliado aleatorio.</esMX>
+    <esES>Al final de tu turno, otorga +1 p. de ataque a otro esbirro amistoso aleatorio.</esES>
+    <deDE>Verleiht am Ende Eures Zuges einem anderen zufälligen befreundeten Diener +1 Angriff.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Smithing</enUS>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
+    <enUS>E.M. Gist</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.</enUS>
-    <zhTW>銀色黎明對於天譴軍團的動向十分關注，也對在咖啡廳插隊的人非常關注。</zhTW>
-    <zhCN>银色指挥官总是机警地注意着天灾军团的动向，同时阻止任何想在咖啡店里插队买咖啡的人。</zhCN>
-    <ruRU>Серебряный Рассвет защищает Азерот от Плети, но обгонять их в очереди за кофе тоже не рекомендуется.</ruRU>
-    <ptBR>A Aurora Argêntea continua sua vigília contra o Flagelo, assim como contra pessoas que furam fila nos cafés.</ptBR>
-    <plPL>Należał do Argentu zanim to było modne.</plPL>
-    <koKR>은빛십자군 부대장은 스컬지의 동태를 주시합니다. 커피 가게에서 새치기하는 사람도 주시합니다.</koKR>
-    <itIT>L'ordine dell'Alba d'Argento è sempre in guardia contro il Flagello... e contro le persone che saltano la fila in caffetteria.</itIT>
-    <frFR>Quiconque possédera ce marteau, s’il s’en trouve digne recevra le bouclier divin.</frFR>
-    <esMX>El Alba Argenta está siempre alerta a la Plaga... y a la gente que se mete en la cola del banco.</esMX>
-    <esES>El Alba Argenta protege al mundo de la Plaga y de la gente que se salta las colas.</esES>
-    <deDE>Die Argentumdämmerung stellt sich tapfer der Geißel entgegen – und Leuten, die sich an der Supermarktkasse vordrängeln wollen.</deDE>
+    <enUS>He's currently trying to craft a "flail-axe", but all the other swordsmiths say it can't be done.</enUS>
+    <zhTW>他最近想要打造出一條「鏈斧」，但是其他的鐵匠們都說那是不可能做到的。</zhTW>
+    <zhCN>他正在打造一把称为“连枷斧”的武器，但是其他铸剑师都表示那是不可能做到的。</zhCN>
+    <ruRU>В последнее время он пытается выковать «молотопор», хотя другие кузнецы не верят в его успех.</ruRU>
+    <ptBR>Ele está tentando forjar um machado-mangual atualmente, mas todos os outros armeiros dizem que é impossível.</ptBR>
+    <plPL>W chwilach wolnych zajmuje się hodowlą ryb. Jego największym sukcesem jest miecznik.</plPL>
+    <koKR>현재는 다른 모든 대장장이들의 만류에도 불구하고, "도리깨 도끼"라는 무기를 제작하고 있습니다.</koKR>
+    <itIT>Sta cercando di forgiare un "asciafrusto", ma tutti gli altri fabbri dicono che sia impossibile.</itIT>
+    <frFR>Il veut créer une « hache-fléau », mais tous les autres fabricants d’armes affirment que c’est impossible.</frFR>
+    <esMX>Está intentando forjar un hacha-mayal, pero los demás forjadores de espadas no le tienen fe.</esMX>
+    <esES>Está intentando inventar un "hacha mangual", pero los demás forjadores dicen que es imposible.</esES>
+    <deDE>Er versucht gerade, eine siebenschwänzige Axt herzustellen, doch all die anderen Schmiede sagen, das sei unmöglich.</deDE>
   </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="16d80976-87fa-43ba-b48c-c43c9e602243" />
-  <Power definition="21943f5e-03f9-4ce4-a08b-ed1e1c146968" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="68b24601-9c45-479a-a0f9-06cde1c9ad61" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

@@ -1,62 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_027">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_506">
+  <MasterPower>811d9942-036d-4f05-8dce-42e5fe68642f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Southsea Captain</enUS>
-    <zhTW>南海船長</zhTW>
-    <zhCN>南海船长</zhCN>
-    <ruRU>Капитан Южных морей</ruRU>
-    <ptBR>Capitão dos Mares do Sul</ptBR>
-    <plPL>Kapitan Południowych Mórz</plPL>
-    <koKR>남쪽바다 선장</koKR>
-    <itIT>Capitano dei Mari del Sud</itIT>
-    <frFR>Capitaine des mers du Sud</frFR>
-    <esMX>Capitán de los Mares del sur</esMX>
-    <esES>Capitán de Mares del Sur</esES>
-    <deDE>Südmeerkapitän</deDE>
+    <enUS>Murloc Tidehunter</enUS>
+    <zhTW>獵潮魚人</zhTW>
+    <zhCN>鱼人猎潮者</zhCN>
+    <ruRU>Мурлок-волнолов</ruRU>
+    <ptBR>Murloc Caçamaré</ptBR>
+    <plPL>Murlok brzegowiec</plPL>
+    <koKR>멀록 바다사냥꾼</koKR>
+    <itIT>Murloc Cacciamaree</itIT>
+    <frFR>Chasse-marée murloc</frFR>
+    <esMX>Cazamareas múrloc</esMX>
+    <esES>Cazamareas múrloc</esES>
+    <deDE>Murlocgezeitenjäger</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other Pirates have +1/+1.</enUS>
-    <zhTW>你的其他海盜獲得+1/+1。</zhTW>
-    <zhCN>你的其他海盗获得+1/+1。</zhCN>
-    <ruRU>Другие ваши пираты получают +1/+1.</ruRU>
-    <ptBR>Seus outros Piratas têm +1/+1.</ptBR>
-    <plPL>Twoi pozostali Piraci otrzymują +1/+1.</plPL>
-    <koKR>나의 다른 해적들이 +1/+1을 얻습니다.</koKR>
-    <itIT>I tuoi altri Pirati hanno +1/+1.</itIT>
-    <frFR>Vos autres pirates ont +1/+1.</frFR>
-    <esMX>Tus otros Piratas tienen +1/+1.</esMX>
-    <esES>Tus otros piratas tienen +1/+1.</esES>
-    <deDE>Eure anderen Piraten haben +1/+1.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 1/1 Murloc Scout.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一個1/1的魚人斥候。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一个1/1的鱼人斥候。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя мурлока-разведчика 1/1.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque um Batedor Murloc 1/1.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij murloka zwiadowcę 1/1.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 1/1 멀록 정찰병을 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un Murloc Esploratore 1/1.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque un éclaireur murloc 1/1.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca un Explorador múrloc 1/1.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca a un explorador múrloc 1/1.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft einen Murlocspäher (1/1) herbei.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ken Steacy</enUS>
+    <enUS>Dan Scott</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Rogue Level 53.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>When he saves enough plunder, he's going to comission an enormous captain's hat.  He has hat envy.</enUS>
-    <zhTW>等他存夠錢，他會去訂做一頂超巨大的船長帽。他有很嚴重的帽子情結。</zhTW>
-    <zhCN>当他掠夺到足够的财宝之后，他一定要去订做一顶帅气的船长帽子。他是帽子控。</zhCN>
-    <ruRU>Когда-нибудь он награбит достаточно и закажет себе огромную капитанскую шляпу. Он к ним неравнодушен.</ruRU>
-    <ptBR>Quando ele já tiver pilhado o suficiente, ele vai mandar fazer um chapéu de capitão enorme. Rola uma certa invejinha de chapéus aí.</ptBR>
-    <plPL>Kiedy zbierze dość łupów, zamówi sobie olbrzymi kapitański kapelusz. Ma kompleks kapelusznika.</plPL>
-    <koKR>그의 꿈은 해적 왕... 아니 어마어마하게 큰 해적 모자를 사는 겁니다. 좀 모자에 많이 집착하는 친구거든요.</koKR>
-    <itIT>Quando avrà accumulato abbastanza bottino, ha intenzione di commissionare un enorme cappello da capitano. Ha la mania dei cappelli.</itIT>
-    <frFR>Il espère pouvoir amasser un butin suffisant pour monter une auberge avec toutes les recettes qu’il a « trouvées ». Pirate !</frFR>
-    <esMX>Cuando ahorre suficiente botín, encargará un sombrero de capitán gigante. Siente envidia por el sombrero.</esMX>
-    <esES>Cuando ahorre suficiente botín, tiene pensado comprarse un sombrero enorme. Le encantan los sombreros.</esES>
-    <deDE>Sobald er genug Beute gemacht hat, wird er sich einen gewaltigen Kapitänshut anfertigen lassen. Er leidet an Hutneid.</deDE>
+    <enUS>"Death will rise, from the tides!"</enUS>
+    <zhTW>「死亡將如潮水席捲而來!」</zhTW>
+    <zhCN>“死亡之潮升涌而起！”</zhCN>
+    <ruRU>«Восстанет из пучины смерть!»</ruRU>
+    <ptBR>"A morte surgirá das marés!"</ptBR>
+    <plPL>„Wraz z przypływem nadejdzie śmierć!”</plPL>
+    <koKR>"파도를 헤치고 죽음이 나타나리니!"</koKR>
+    <itIT>"Death will rise, from the tides!" - I Am Murloc</itIT>
+    <frFR>« La mort monte avec la marée ! »</frFR>
+    <esMX>"La muerte se alzará... ¡desde las mareas!".</esMX>
+    <esES>¡La muerte se alzará desde el mar!</esES>
+    <deDE>Bei Ebbe und bei Flut, der Tod steht Euch gut!</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="9d08f47b-bb86-4d84-9598-0ace84279ebb" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="811d9942-036d-4f05-8dce-42e5fe68642f" />
 </Entity>

@@ -1,67 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_560">
+<Entity version="2" CardID="EX1_128e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Nozdormu</enUS>
-    <frFR>Nozdormu</frFR>
-    <zhTW>諾茲多姆</zhTW>
-    <zhCN>诺兹多姆</zhCN>
-    <ruRU>Ноздорму</ruRU>
-    <ptBR>Nozdormu</ptBR>
-    <plPL>Nozdormu</plPL>
-    <koKR>노즈도르무</koKR>
-    <itIT>Nozdormu</itIT>
-    <esMX>Nozdormu</esMX>
-    <esES>Nozdormu</esES>
-    <deDE>Nozdormu</deDE>
+    <enUS>Concealed</enUS>
+    <zhTW>藏匿</zhTW>
+    <zhCN>被隐藏</zhCN>
+    <ruRU>Маскировка</ruRU>
+    <ptBR>Oculto</ptBR>
+    <plPL>Ukrycie</plPL>
+    <koKR>은폐됨</koKR>
+    <itIT>In Copertura</itIT>
+    <frFR>Dissimulé</frFR>
+    <esMX>Oculto</esMX>
+    <esES>Embozado</esES>
+    <deDE>Verhüllt</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Players only have 15 seconds to take their turns.</enUS>
-    <frFR>Les joueurs n’ont que 15 secondes pour jouer leur tour.</frFR>
-    <zhTW>雙方玩家每回合只剩15秒思考時間。</zhTW>
-    <zhCN>所有玩家只有15秒的时间来进行他们的回合。</zhCN>
-    <ruRU>Длительность хода каждого игрока ограничена 15 секундами.</ruRU>
-    <ptBR>Os jogadores só tem 15 segundos para terminarem seus turnos.</ptBR>
-    <plPL>Gracze mają tylko 15 sekund na wykonanie swojej tury.</plPL>
-    <koKR>플레이어들의 턴 제한 시간이 15초로 감소합니다. </koKR>
-    <itIT>I giocatori hanno solo 15 secondi per completare il proprio turno.</itIT>
-    <esMX>Los jugadores solo tienen 15 segundos para tomar su turno.</esMX>
-    <esES>Los jugadores solo tienen 15 s para sus turnos.</esES>
-    <deDE>Spieler haben nur jeweils 15 Sekunden für ihren Zug.</deDE>
+    <enUS>Stealthed until your next turn.</enUS>
+    <zhTW>潛行，直到你的下一回合為止。</zhTW>
+    <zhCN>获得潜行直到你的下个回合。</zhCN>
+    <ruRU>Маскировка до вашего следующего хода.</ruRU>
+    <ptBR>Furtivo até seu próximo turno.</ptBR>
+    <plPL>Ukrycie trwa do następnej tury.</plPL>
+    <koKR>다음 턴까지 은신함</koKR>
+    <itIT>Furtivo fino al tuo turno successivo.</itIT>
+    <frFR>Camouflé jusqu’à votre prochain tour.</frFR>
+    <esMX>En sigilo hasta tu próximo turno.</esMX>
+    <esES>En sigilo hasta el siguiente turno.</esES>
+    <deDE>Bleibt bis zu Eurem nächsten Zug verstohlen.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Aspect of Time</enUS>
-  </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Time to write some flavor text.</enUS>
-    <zhTW>該寫些說明文字了。</zhTW>
-    <zhCN>没时间写什么背景描述了。</zhCN>
-    <ruRU>Время на вес золота.</ruRU>
-    <ptBR>Hora de escrever uma descrição.</ptBR>
-    <plPL>15 sekund to za mało, żeby napisać coś zabawnego!</plPL>
-    <koKR>여기 뭔가 써야 하는데 시간이 모자라네요.</koKR>
-    <itIT>Il tempo vola.</itIT>
-    <frFR>Dépêchez-vous, son temps est précieux !</frFR>
-    <esMX>El tiempo justo para escribir un chiste.</esMX>
-    <esES>No le gusta perder el tiempo.</esES>
-    <deDE>Selbst 15 Sekunden kommen ihm wie eine Ewigkeit vor.</deDE>
-  </Tag>
-  <Power definition="ffc1095f-67f1-404f-9889-1dc18f5e973c" />
+  <Power definition="56c9324d-372a-4686-ac4c-bcf8f27b8508" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

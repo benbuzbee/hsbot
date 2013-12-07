@@ -1,66 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_062">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_103">
+  <MasterPower>ed1b6657-9a0f-4737-ad76-4cd4e95835fe</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hellfire</enUS>
-    <frFR>Flammes infernales</frFR>
-    <zhTW>地獄烈焰</zhTW>
-    <zhCN>地狱烈焰</zhCN>
-    <ruRU>Адское пламя</ruRU>
-    <ptBR>Fogo do Inferno</ptBR>
-    <plPL>Piekielny ogień</plPL>
-    <koKR>지옥의 불길</koKR>
-    <itIT>Fuoco Infernale</itIT>
-    <esMX>Llamas infernales</esMX>
-    <esES>Llamas infernales</esES>
-    <deDE>Höllenfeuer</deDE>
+    <enUS>Coldlight Seer</enUS>
+    <frFR>Voyant froide-lumière</frFR>
+    <zhTW>冷光先知</zhTW>
+    <zhCN>寒光先知</zhCN>
+    <ruRU>Вайш'ирский провидец</ruRU>
+    <ptBR>Vidente da Luz Fria</ptBR>
+    <plPL>Prorok Światłociemnych</plPL>
+    <koKR>시린빛 예언자</koKR>
+    <itIT>Veggente Lucefredda</itIT>
+    <esMX>Vidente Luz fría</esMX>
+    <esES>Vidente Luz Fría</esES>
+    <deDE>Tiefenlichtseher</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $3 damage to ALL characters.</enUS>
-    <frFR>Inflige $3 |4(point,points) de dégâts à TOUS les personnages.</frFR>
-    <zhTW>對全部角色造成$3點傷害。</zhTW>
-    <zhCN>对所有角色造成$3点伤害。</zhCN>
-    <ruRU>Наносит $3 ед. урона ВСЕМ персонажам.</ruRU>
-    <ptBR>Cause $3 de dano a TODOS os personagens.</ptBR>
-    <plPL>Zadaj $3 pkt. obrażeń WSZYSTKIM postaciom.</plPL>
-    <koKR>&lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 $3 줍니다.</koKR>
-    <itIT>Infligge $3 danni a TUTTI i personaggi.</itIT>
-    <esMX>Inflige $3 de daño a TODOS los personajes.</esMX>
-    <esES>Inflige $3 p. de daño a todos los personajes.</esES>
-    <deDE>Fügt ALLEN Charakteren $3 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 PV à TOUS les autres murlocs.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予全部其他魚人+2生命值。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使所有其他鱼人获得+2生命值。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все прочие мурлоки получают +2 к здоровью.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Vida a TODOS os outros Murlocs.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj wszystkim pozostałym murlokom +2 do zdrowia.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 &lt;b&gt;모든&lt;/b&gt; 멀록에게 생명력을 +2 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Salute a TUTTI gli altri Murloc.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Salud a TODOS los otros múrlocs.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de salud a todos los demás múrlocs.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht ALLEN anderen Murlocs +2 Leben.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brian 'Chippy' Dugan</enUS>
+    <enUS>Arthur Gimaldinov</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It's spells like these that make it hard for Warlocks to get decent help.</enUS>
-    <zhTW>像這種無差別攻擊的法術就是術士很難找到夥伴的原因。</zhTW>
-    <zhCN>鸟尽弓藏，兔死狗烹，术士才不需要什么忠心耿耿的随从。</zhCN>
-    <ruRU>Из-за подобных заклинаний у чернокнижников плохая репутация.</ruRU>
-    <ptBR>É por causa de feitiços como este que os bruxos não conseguem muita ajuda.</ptBR>
-    <plPL>To przez takie zaklęcia czarnoksiężnicy mają problemy ze znalezieniem pomocników.</plPL>
-    <koKR>흑마법사를 신뢰할 수 없는 대표적인 이유로 이 주문을 꼽을 수 있습니다.</koKR>
-    <itIT>È proprio a causa di questo genere di incantesimi che gli Stregoni hanno pochi amici.</itIT>
-    <frFR>C’est à cause de ce genre de sorts que les démonistes ont du mal à lier des relations durables.</frFR>
-    <esMX>Hechizos como este hacen que nadie quiera ayudar a los Brujos.</esMX>
-    <esES>Es por hechizos como estos por lo que los brujos no tienen amigos.</esES>
-    <deDE>Zauber wie dieser machen es anderen schwer, gute Beziehungen zu Hexenmeistern zu pflegen.</deDE>
+    <enUS>The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.</enUS>
+    <zhTW>冷光魚人住在地獄深淵最黑暗的洞穴中。所以，想要逃離魚人沒那麼簡單。</zhTW>
+    <zhCN>寒光鱼人终年居住于无底海源最黑暗的洞穴之中。所以，是的，你到哪儿都别想摆脱鱼人。</zhCN>
+    <ruRU>Вайш'ирские мурлоки обитают в самых глубоких расщелинах Бездонных глубин. Это доказывает, что от мурлоков нигде нельзя спрятаться.</ruRU>
+    <ptBR>Os murlocs da Luz Fria residem nos abismos mais escuros das Profundezas Abissais. Então não. Não há mesmo como escapar dos murlocs.</ptBR>
+    <plPL>Choć mieszka w głębinach, nie powala głębią intelektu.</plPL>
+    <koKR>시린빛 멀록들은 심연의 나락 가장 깊은 곳에 삽니다. 즉, 이들을 봤다는 것은 도망칠 곳도 없다는 뜻이죠.</koKR>
+    <itIT>I Murloc Lucefredda risiedono nelle più buie gallerie delle Profondità Abissali. Quindi no, non c'è modo di nascondersi dai Murloc.</itIT>
+    <frFR>Les murlocs froide-lumière vivent dans les fosses les plus sombres des profondeurs Abyssales. Donc oui, il y en a vraiment partout !</frFR>
+    <esMX>Los múrloc Luz fría viven en las fosas más oscuras de las Profundidades Abisales. Grábate la idea: no se puede escapar de los múrlocs.</esMX>
+    <esES>Los múrlocs Luz Fría viven en las simas más oscuras de las Profundidades Abisales. Sí, hay múrlocs en todas partes.</esES>
+    <deDE>Die Tiefenlichtmurlocs leben selbst in den dunkelsten Löchern der Abyssischen Tiefen. Es gibt also wirklich keinen Ort, an dem man vor Murlocs sicher ist.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="f9aa8f68-1fdb-44b4-b100-cc018a4272f9" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="ed1b6657-9a0f-4737-ad76-4cd4e95835fe" />
 </Entity>

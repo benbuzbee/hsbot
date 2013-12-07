@@ -1,66 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_171">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="DREAM_02">
+  <MasterPower>1662c8aa-c080-477a-849b-9a5bfe1d19fb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Stonetusk Boar</enUS>
-    <frFR>Sanglier brocheroc</frFR>
-    <zhTW>石牙野豬</zhTW>
-    <zhCN>石牙野猪</zhCN>
-    <ruRU>Вепрь-камнеклык</ruRU>
-    <ptBR>Javali Pedratusco</ptBR>
-    <plPL>Dzik szabloskalny</plPL>
-    <koKR>돌엄니멧돼지</koKR>
-    <itIT>Cinghiale Zannapietra</itIT>
-    <esMX>Jabalí colmipétreo</esMX>
-    <esES>Jabalí Colmipétreo</esES>
-    <deDE>Steinhauereber</deDE>
+    <enUS>Ysera Awakens</enUS>
+    <frFR>Réveil d’Ysera</frFR>
+    <zhTW>伊瑟拉之覺醒</zhTW>
+    <zhCN>伊瑟拉苏醒</zhCN>
+    <ruRU>Пробуждение Изеры</ruRU>
+    <ptBR>Despertar de Ysera</ptBR>
+    <plPL>Przebudzenie Ysery</plPL>
+    <koKR>깨어난 이세라</koKR>
+    <itIT>Risveglio di Ysera</itIT>
+    <esMX>El despertar de Ysera</esMX>
+    <esES>Ysera despierta</esES>
+    <deDE>Ysera erwacht</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+    <enUS>Deal $5 damage to all characters except Ysera.</enUS>
+    <frFR>Inflige $5 |4(point,points) de dégâts à tous les personnages sauf Ysera.</frFR>
+    <zhTW>對伊瑟拉以外的全部角色造成$5點傷害。</zhTW>
+    <zhCN>对除了伊瑟拉之外的所有角色造成$5点伤害。</zhCN>
+    <ruRU>Наносит $5 ед. урона всем персонажам, кроме Изеры.</ruRU>
+    <ptBR>Cause $5 de dano a todos os personagens, exceto Ysera.</ptBR>
+    <plPL>Zadaj $5 pkt. obrażeń wszystkim postaciom oprócz Ysery.</plPL>
+    <koKR>이세라를 제외한 모든 캐릭터에게 피해를 $5 줍니다.</koKR>
+    <itIT>Infligge $5 danni a tutti i personaggi tranne Ysera.</itIT>
+    <esMX>Inflige $5 de daño a todos los personajes con excepción de Ysera.</esMX>
+    <esES>Inflige $5 p. de daño a todos los personajes menos a Ysera.</esES>
+    <deDE>Fügt allen Charakteren mit Ausnahme von Ysera $5 Schaden zu.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Howard Lyon</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Hunter Level 52.</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This card is boaring.</enUS>
-    <zhTW>這張牌烤起來很香。</zhTW>
-    <zhCN>决斗的时候离它们远点儿。</zhCN>
-    <ruRU>Не вздумайте назвать его свиньей.</ruRU>
-    <ptBR>Esse card javali muito a pena.</ptBR>
-    <plPL>Ta karta jest dzika.</plPL>
-    <koKR>손에서 나와 상대에게 달려가려고 안달입니다.</koKR>
-    <itIT>Oh oh! Questa carta è fantastica!</itIT>
-    <frFR>Cette carte serait très utile pour un banquet...</frFR>
-    <esMX>Precaución: jabalí suelto.</esMX>
-    <esES>Los aventureros de Elwynn casi lo han conducido a la extinción.</esES>
-    <deDE>Diese Karte ist saugeil!</deDE>
-  </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="1695b981-0cbf-419a-a4f5-db158217af85" />
+  <Tag name="Class" enumID="199" type="Class" value="11" />
+  <Power definition="1662c8aa-c080-477a-849b-9a5bfe1d19fb" />
 </Entity>

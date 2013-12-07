@@ -1,47 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_201">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_363">
+  <MasterPower>463a57fd-c5cf-4676-8bac-b19f94d7f68f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Core Hound</enUS>
-    <frFR>Chien du Magma</frFR>
-    <zhTW>熔核犬</zhTW>
-    <zhCN>熔火恶犬</zhCN>
-    <ruRU>Гончая Недр</ruRU>
-    <ptBR>Cão-magma</ptBR>
-    <plPL>Ognisty ogar</plPL>
-    <koKR>심장부 사냥개</koKR>
-    <itIT>Segugio del Nucleo</itIT>
-    <esMX>Can del núcleo</esMX>
-    <esES>Can del Núcleo</esES>
-    <deDE>Kernhund</deDE>
+    <enUS>Blessing of Wisdom</enUS>
+    <frFR>Bénédiction de sagesse</frFR>
+    <zhTW>智慧祝福</zhTW>
+    <zhCN>智慧祝福</zhCN>
+    <ruRU>Печать мудрости</ruRU>
+    <ptBR>Bênção de Sabedoria</ptBR>
+    <plPL>Dar mądrości</plPL>
+    <koKR>지혜의 축복</koKR>
+    <itIT>Benedizione della Saggezza</itIT>
+    <esMX>Bendición de sabiduría</esMX>
+    <esES>Bendición de sabiduría</esES>
+    <deDE>Segen der Weisheit</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="Atk" enumID="47" type="Number" value="9" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Choose a minion.  Whenever it attacks, draw a card.</enUS>
+    <frFR>Choisissez un serviteur. Chaque fois qu’il attaque, vous piochez une carte.</frFR>
+    <zhTW>選擇一個手下。每當它進行攻擊，抽一張牌。</zhTW>
+    <zhCN>选择一个随从，每当它进行攻击时，抽一张牌。</zhCN>
+    <ruRU>Выберите существо. Когда оно атакует, вы берете карту.</ruRU>
+    <ptBR>Escolha um lacaio. Sempre que ele atacar, compre um card.</ptBR>
+    <plPL>Wybierz stronnika. Dobierz kartę za każdym razem, gdy zaatakuje.</plPL>
+    <koKR>하수인을 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Seleziona un servitore. Ogni volta che attacca, pesca una carta.</itIT>
+    <esMX>Elige un esbirro. Cada vez que ese esbirro ataque, roba una carta.</esMX>
+    <esES>Elige a un esbirro. Cada vez que ataca, roba una carta.</esES>
+    <deDE>Wählt einen Diener aus. Zieht jedes Mal eine Karte, wenn er angreift.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>E.M. Gist</enUS>
+    <enUS>Brian 'Chippy' Dugan</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You don’t tame a Core Hound. You just train it to eat someone else before it eats you.</enUS>
-    <zhTW>你沒辦法馴服熔核犬。你只能訓練牠在吃掉你之前先吃掉別人。</zhTW>
-    <zhCN>你无法驯服一头熔火恶犬。你只能通过训练让它在吃掉你之前先吃掉其他人。</zhCN>
-    <ruRU>Гончую Недр нельзя приручить – только выдрессировать так, чтобы она сожрала ваших противников прежде, чем примется за вас.</ruRU>
-    <ptBR>Não se adestra um cão-magma. A gente só ensina ele a comer outra pessoa em vez do dono.</ptBR>
-    <plPL>Nie da się obłaskawić ognistych ogarów. Po prostu szkolisz je, żeby cię nie zżarły.</plPL>
-    <koKR>심장부 사냥개를 길들이는 것은 불가능합니다. 당신을 잡아먹기 전에 다른 사람을 먹도록 훈련시킬 뿐이죠.</koKR>
-    <itIT>Non puoi addomesticare un Segugio del Nucleo. Al massimo puoi addestrarlo a mangiare qualcun altro.</itIT>
-    <frFR>Un chien du Magma, ça ne se dompte pas, on peut juste lui apprendre à dévorer quelqu’un d’autre que nous.</frFR>
-    <esMX>No intentes domesticar a un can del núcleo. Confórmate con entrenarlo para que coma a otro antes que a ti.</esMX>
-    <esES>Los canes del Núcleo no se pueden domar. Lo único que puedes hacer es entrenarlos para que se coman a otro antes que a ti.</esES>
-    <deDE>Einen Kernhund zähmt man nicht, man bringt ihm nur bei, jemand anderen als sein Herrchen zu fressen.</deDE>
+    <enUS>Apparently with wisdom comes the knowledge that you should probably be attacking every turn.</enUS>
+    <zhTW>顯然有了智慧，就會帶來「你大概應該每回合都進行攻擊」這樣的常識。</zhTW>
+    <zhCN>显然是智慧让他认清了这样一条真理：作为一个随从，每回合都要攻击才能体现其价值。</zhCN>
+    <ruRU>Очевидно, с мудростью приходит понимание, что атаковать надо каждый ход.</ruRU>
+    <ptBR>Aparentemente, com sabedoria vem o conhecimento de que você provavelmente deveria atacar em todos os turnos.</ptBR>
+    <plPL>Mądrość podpowiada ci, że teraz wypadałoby atakować co turę.</plPL>
+    <koKR>이게 어떤 지혜인지는 모르겠지만, 일단 매 턴마다 한 번씩 공격해야 할 것 같군요.</koKR>
+    <itIT>Insieme alla saggezza, fornisce anche la consapevolezza che è meglio attaccare a ogni turno.</itIT>
+    <frFR>On dit que de la sagesse découle le savoir. Et vous savez qu’il faut attaquer à chaque tour.</frFR>
+    <esMX>Aparentemente, con la sabiduría llega la conciencia de que te conviene atacar en todos los turnos.</esMX>
+    <esES>Al parecer, la sabiduría aporta el conocimiento de que seguramente deberías atacar cada turno.</esES>
+    <deDE>Anscheinend kommt mit der Weisheit auch das Wissen, dass man wohl in jedem Zug angreifen sollte. </deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Hunter Level 50.</enUS>
-  </Tag>
+  <Power definition="463a57fd-c5cf-4676-8bac-b19f94d7f68f">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

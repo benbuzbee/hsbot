@@ -94,7 +94,7 @@ namespace HSBot
             if (c == null)
                 this.Message(source.Name, "The card was not found.");
             else
-                Message(source.Name, c.GetFullText().Replace("<b>","").Replace("</b>",""));
+                Message(source.Name, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", ""));
         }
 
 

@@ -1,49 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_186">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_166b">
+  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>War Golem</enUS>
-    <frFR>Golem de guerre</frFR>
-    <zhTW>戰爭魔像</zhTW>
-    <zhCN>作战傀儡</zhCN>
-    <ruRU>Боевой голем</ruRU>
-    <ptBR>Golem de Guerra</ptBR>
-    <plPL>Wojenny golem</plPL>
-    <koKR>전쟁 골렘</koKR>
-    <itIT>Golem da Guerra</itIT>
-    <esMX>Gólem de guerra</esMX>
-    <esES>Gólem de guerra</esES>
-    <deDE>Kriegsgolem</deDE>
+    <enUS>Dispel</enUS>
+    <frFR>Dissipation</frFR>
+    <zhTW>驅散</zhTW>
+    <zhCN>禁魔</zhCN>
+    <ruRU>Рассеивание</ruRU>
+    <ptBR>Dissipar</ptBR>
+    <plPL>Rozproszenie</plPL>
+    <koKR>무효화</koKR>
+    <itIT>Dissoluzione</itIT>
+    <esMX>Disipar</esMX>
+    <esES>Disipar</esES>
+    <deDE>Bannen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
-  <Tag name="Health" enumID="45" type="Number" value="7" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Kendall</enUS>
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
+    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
+    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下。</zhTW>
+    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
+    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
+    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>
+    <koKR>하수인을 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
+    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
+    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
+    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Golems are not afraid, but for some reason they still run when you cast Fear on them.  Instinct, maybe?  A desire to blend in?</enUS>
-    <zhTW>魔像並不會感到恐懼，但是因為某種因素，如果對它們施放恐懼術，它們還是會逃走。是本能嗎?還是想要融入人群?</zhTW>
-    <zhCN>傀儡们从来不会胆怯，但是出于某种原因，当你对它们施放“恐惧”的时候，它们依然会逃跑。也许这就是天性？或是想要融入这个世界的渴望？</zhCN>
-    <ruRU>Големы ничего не боятся, но почему-то убегают от заклинания «Страх». Что ими движет? Может быть, стадный инстинкт?</ruRU>
-    <ptBR>Golens não têm medo, mas, por alguma razão, eles correm quando você lança Medo neles. Instinto, talvez? Um desejo de se enturmar?</ptBR>
-    <plPL>Golemy nie czują strachu, ale z jakiegoś powodu uciekają, gdy rzucić na nie zaklęcie „Strach”. Może to instynkt? A może chęć wtopienia się w otoczenie?</plPL>
-    <koKR>골렘은 두려움을 느끼지 못합니다. 그래도 공포를 시전하면 도망가더군요. 본능일까요? 아니면 따돌림받기 싫어서?</koKR>
-    <itIT>I Golem non possono spaventarsi, ma per qualche strano motivo scappano ugualmente quando viene lanciata Paura su di loro. Istinto? Voglia di integrarsi?</itIT>
-    <frFR>Les golems n’ont peur de rien mais quelque chose les pousse à fuir quand vous lancez le sort Peur. L’instinct, peut-être ? Ou une volonté de s’intégrer ?</frFR>
-    <esMX>Los gólems no sienten temor, pero por alguna extraña razón salen corriendo cuando les lanzas "Miedo". ¿Será por instinto? ¿Será que quieren parecerse a los demás?</esMX>
-    <esES>Los gólems no sienten temor, pero por alguna razón salen corriendo cuando se les lanza Miedo. ¿Será por instinto? ¿Será para integrarse?</esES>
-    <deDE>Golems kennen keine Angst, aber aus irgendeinem Grund fliehen sie trotzdem, wenn man „Furcht“ auf sie wirkt. Instinkt vielleicht? Der Wunsch, dazuzugehören?</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Rogue Level 51.</enUS>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Silence" enumID="339" type="Bool" value="1" />
+  <Power definition="963b5b27-818e-4915-815d-c7fc3a1c330e">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

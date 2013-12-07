@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_105e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_014t">
+  <MasterPower>3f3ed805-a9b8-4b68-b438-a11cf3628033</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Heroic Strike</enUS>
-    <frFR>Frappe héroïque</frFR>
-    <zhTW>英勇打擊</zhTW>
-    <zhCN>英勇打击</zhCN>
-    <ruRU>Удар героя</ruRU>
-    <ptBR>Golpe Heroico</ptBR>
-    <plPL>Heroiczny cios</plPL>
-    <koKR>영웅의 일격</koKR>
-    <itIT>Assalto Eroico</itIT>
-    <esMX>Golpe heroico</esMX>
-    <esES>Golpe heroico</esES>
-    <deDE>Heldenhafter Stoß</deDE>
+    <enUS>Bananas</enUS>
+    <frFR>Banane</frFR>
+    <zhTW>香蕉</zhTW>
+    <zhCN>香蕉</zhCN>
+    <ruRU>Бананы</ruRU>
+    <ptBR>Bananas</ptBR>
+    <plPL>Banany</plPL>
+    <koKR>바나나</koKR>
+    <itIT>Banana</itIT>
+    <esMX>Bananas</esMX>
+    <esES>Plátanos</esES>
+    <deDE>Bananen</deDE>
   </Tag>
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+4 Attack this turn.</enUS>
-    <frFR>+4 ATQ pendant ce tour.</frFR>
-    <zhTW>本回合+4攻擊力。</zhTW>
-    <zhCN>在本回合中，+4攻击力。</zhCN>
-    <ruRU>+4 к атаке до конца хода.</ruRU>
-    <ptBR>+4 de Ataque neste turno.</ptBR>
-    <plPL>+4 do ataku w tej turze.</plPL>
-    <koKR>이번 턴에 공격력 +4</koKR>
-    <itIT>+4 Attacco in questo turno.</itIT>
-    <esMX>+4 de Ataque en este turno.</esMX>
-    <esES>+4 p. de ataque este turno.</esES>
-    <deDE>+4 Angriff in diesem Zug.</deDE>
+    <enUS>Give a minion +1/+1.</enUS>
+    <frFR>Confère +1/+1 à un serviteur.</frFR>
+    <zhTW>賦予一個手下+1/+1。</zhTW>
+    <zhCN>使一个随从获得+1/+1。</zhCN>
+    <ruRU>Выбранное существо получает +1/+1.</ruRU>
+    <ptBR>Conceda +1/+1 a um lacaio.</ptBR>
+    <plPL>Daj stronnikowi +1/+1.</plPL>
+    <koKR>하수인에게 +1/+1을 부여합니다.</koKR>
+    <itIT>Fornisce +1/+1 a un servitore.</itIT>
+    <esMX>Otorga +1/+1 a un esbirro.</esMX>
+    <esES>Otorga +1/+1 a un esbirro.</esES>
+    <deDE>Verleiht einem Diener +1/+1.</deDE>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="ebd0e2db-9128-486b-b6a2-fa62a229e20b" />
-  <Power definition="832f5deb-00f4-4e10-9a87-298402bb79f3" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="3f3ed805-a9b8-4b68-b438-a11cf3628033">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

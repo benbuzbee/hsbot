@@ -1,65 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_213">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_188">
+  <MasterPower>365c063e-5364-433c-acf3-700fecc72b2e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Reckless Rocketeer</enUS>
-    <frFR>Missilière téméraire</frFR>
-    <zhTW>魯莽的火箭手</zhTW>
-    <zhCN>鲁莽火箭兵</zhCN>
-    <ruRU>Шальная ракетчица</ruRU>
-    <ptBR>Fogueteira Descuidada</ptBR>
-    <plPL>Ryzykancka rakieterka</plPL>
-    <koKR>못 말리는 로켓병</koKR>
-    <itIT>Cavalcarazzi Folle</itIT>
-    <esMX>Artificera temeraria</esMX>
-    <esES>Artificiera temeraria</esES>
-    <deDE>Irre Raketenschützin</deDE>
+    <enUS>Abusive Sergeant</enUS>
+    <frFR>Sergent grossier</frFR>
+    <zhTW>愛虐待的士官</zhTW>
+    <zhCN>叫嚣的中士</zhCN>
+    <ruRU>Бранящийся сержант</ruRU>
+    <ptBR>Sargento Abusivo</ptBR>
+    <plPL>Grubiański sierżant</plPL>
+    <koKR>가혹한 하사관</koKR>
+    <itIT>Sergente Violento</itIT>
+    <esMX>Sargento abusivo</esMX>
+    <esES>Sargento abusón</esES>
+    <deDE>Ruchloser Unteroffizier</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +2 Attack this turn.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +2 ATQ à un serviteur allié pendant ce tour.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;本回合賦予一個友方手下+2攻擊力。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;本回合中，使一个友方随从获得+2攻击力。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает +2 к атаке до конца хода.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio aliado neste turno.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +2 do ataku w tej turze.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un altro tuo servitore in questo turno.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro aliado en este turno.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro amistoso este turno.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +2 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>John "JP" Polidora</enUS>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Grant +2 Attack.</enUS>
+    <frFR>Confère +2 ATQ.</frFR>
+    <zhTW>賦予+2攻擊力。</zhTW>
+    <zhCN>获得+2攻击力。</zhCN>
+    <ruRU>Добавить +2 к атаке</ruRU>
+    <ptBR>Conceda +2 de Ataque.</ptBR>
+    <plPL>Daj +2 do ataku.</plPL>
+    <koKR>공격력 +2</koKR>
+    <itIT>Fornisce +2 Attacco.</itIT>
+    <esMX>Otorga +2 de Ataque.</esMX>
+    <esES>Otorga +2 p. de ataque.</esES>
+    <deDE>Verleiht +2 Angriff.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Shaman Level 58.</enUS>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Luca Zontini</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>One Insane Rocketeer.   One Rocket full of Explosives.   Infinite Fun.</enUS>
-    <zhTW>瘋狂的火箭手。裝滿爆裂物的火箭。這兩樣東西加起來就是無窮的樂趣。</zhTW>
-    <zhCN>一个疯狂的火箭兵加上一个装满炸药的火箭。完美的组合。</zhCN>
-    <ruRU>Одна шальная ракетчица + одна ракета со взрывчаткой = бесконечный источник веселья.</ruRU>
-    <ptBR>Um Fogueteiro Maluco. Um Foguete cheio de Explosivos. Loucas confusões.</ptBR>
-    <plPL>Jedna szalona rakieterka plus jedna wybuchowa rakieta równa się masa zabawy. </plPL>
-    <koKR>폭발물로 가득한 로켓으로 무장한 미치광이 로켓병이라니! 와! 신난다!</koKR>
-    <itIT>Una Cavalcarazzi Folle. Un razzo carico di esplosivo. Divertimento garantito!</itIT>
-    <frFR>La missilière téméraire, c’est de la dynamite !</frFR>
-    <esMX>Una artificera demente + un misil lleno de explosivos = diversión sin fin.</esMX>
-    <esES>Una artificiera temeraria + un cohete lleno hasta arriba de explosivos = diversión infinita.</esES>
-    <deDE>Rakete: 300 Gold. Feuerzeug: 25 Gold. Mangelnder Selbsterhaltungstrieb: Unbezahlbar.</deDE>
+    <enUS>ADD ME TO YOUR DECK, MAGGOT!</enUS>
+    <zhTW>把我加進你的套牌裡，蠢蛋!</zhTW>
+    <zhCN>“把我加入你的套牌，白痴！”</zhCN>
+    <ruRU>ПОЛОЖИ МЕНЯ В КОЛОДУ, ТУПИЦА!</ruRU>
+    <ptBR>ME ADICIONE AO SEU DECK, VERME!</ptBR>
+    <plPL>DODAJ MNIE DO SWOJEJ TALII, ŚMIECIU!</plPL>
+    <koKR>날 덱에 추가해라, 이 고문관 녀석아!</koKR>
+    <itIT>AGGIUNGIMI AL TUO MAZZO, VERME!</itIT>
+    <frFR>AJOUTE-MOI À TON DECK, MINABLE !</frFR>
+    <esMX>¡AGRÉGAME A TU MAZO, GUSANO!</esMX>
+    <esES>¡AÑÁDEME A TU MAZO, GUSANO!</esES>
+    <deDE>Zu der Art seiner „Ruchlosigkeit“ sollte man ihm besser keine Fragen stellen.</deDE>
   </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="684231a0-251c-42be-952e-9a8a2773188b" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="365c063e-5364-433c-acf3-700fecc72b2e">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="2" param="" />
+  </Power>
 </Entity>

@@ -1,68 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_025">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_046">
+  <MasterPower>1d14b0a8-f2f2-4c33-a181-5b62ccf41f69</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Arcane Explosion</enUS>
-    <frFR>Explosion des Arcanes</frFR>
-    <zhTW>魔爆術</zhTW>
-    <zhCN>魔爆术</zhCN>
-    <ruRU>Чародейский взрыв</ruRU>
-    <ptBR>Explosão Arcana</ptBR>
-    <plPL>Tajemna eksplozja</plPL>
-    <koKR>신비한 폭발</koKR>
-    <itIT>Esplosione Arcana</itIT>
-    <esMX>Deflagración arcana</esMX>
-    <esES>Deflagración Arcana</esES>
-    <deDE>Arkane Explosion</deDE>
+    <enUS>Dark Iron Dwarf</enUS>
+    <zhTW>黑鐵矮人</zhTW>
+    <zhCN>黑铁矮人</zhCN>
+    <ruRU>Дворф Черного Железа</ruRU>
+    <ptBR>Anão Ferro Negro</ptBR>
+    <plPL>Krasnolud z Czarnorytnych</plPL>
+    <koKR>검은무쇠 드워프</koKR>
+    <itIT>Nano Ferroscuro</itIT>
+    <frFR>Nain sombrefer</frFR>
+    <esMX>Enano Hierro negro</esMX>
+    <esES>Enano Hierro Negro</esES>
+    <deDE>Dunkeleisenzwerg</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $1 damage to all enemy minions.</enUS>
-    <frFR>Inflige $1 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
-    <zhTW>對全部敵方手下造成$1點傷害。</zhTW>
-    <zhCN>对所有敌方随从造成$1点伤害。</zhCN>
-    <ruRU>Наносит $1 ед. урона всем существам противника.</ruRU>
-    <ptBR>Cause $1 de dano a todos os lacaios inimigos.</ptBR>
-    <plPL>Zadaj $1 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
-    <koKR>모든 적 하수인에게 피해를 $1 줍니다.</koKR>
-    <itIT>Infligge $1 danno a tutti i servitori nemici.</itIT>
-    <esMX>Inflige $1 de daño a todos los esbirros enemigos.</esMX>
-    <esES>Inflige $1 p. de daño a todos los esbirros enemigos.</esES>
-    <deDE>Fügt allen feindlichen Dienern $1 Schaden zu.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+2攻擊力。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从获得+2攻击力。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; выбранное существо получает +2 к атаке.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj stronnikowi +2 do ataku.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인에게 공격력을 +2 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un altro servitore.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 ATQ à un serviteur.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem Diener +2 Angriff.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This spell is much better than Arcane Implosion.</enUS>
-    <zhTW>爆一下就清淨多了。</zhTW>
-    <zhCN>魔爆术曾是让法师们区别于艾泽拉斯其他职业的技能之一。</zhCN>
-    <ruRU>Гораздо лучше, чем «Чародейский нарыв».</ruRU>
-    <ptBR>Este feitiço é muito melhor do que Implosão Arcana.</ptBR>
-    <plPL>To zaklęcie jest znacznie lepsze niż tajemna implozja.</plPL>
-    <koKR>위력에 비해 비용이 신비한 주문입니다.</koKR>
-    <itIT>Questa magia è molto meglio di Implosione Arcana.</itIT>
-    <frFR>Ce sort est bien meilleur qu’Implosion des Arcanes.</frFR>
-    <esMX>Este hechizo es mucho mejor que la Implosión arcana.</esMX>
-    <esES>Este hechizo es mucho mejor que "Deflación Arcana".</esES>
-    <deDE>Viel besser als Arkane Implosion.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Howard Lyon</enUS>
+    <enUS>Scott Hampton</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 28.</enUS>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Give +2 Attack.</enUS>
+    <zhTW>賦予+2攻擊力。</zhTW>
+    <zhCN>使其获得+2攻击力。</zhCN>
+    <ruRU>Добавить +2 к атаке</ruRU>
+    <ptBR>Conceda +2 de Ataque.</ptBR>
+    <plPL>Daj +2 do ataku.</plPL>
+    <koKR>공격력 +2</koKR>
+    <itIT>Fornisce +2 Attacco.</itIT>
+    <frFR>Donne +2 ATQ.</frFR>
+    <esMX>Otorga +2 de Ataque.</esMX>
+    <esES>Otorga +2 p. de ataque.</esES>
+    <deDE>Verleiht +2 Angriff.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Guardians of Dark Iron Ore.    Perhaps the most annoying ore, given where you have to forge it.</enUS>
+    <zhTW>黑鐵礦的守護者。考慮到熔煉地點的話，黑鐵礦應該是最煩人的礦石了。</zhTW>
+    <zhCN>黑铁矿脉的守护者。也许那是最令人头疼的矿脉，因为你必须在某个特殊的地方才能熔炼它。</zhCN>
+    <ruRU>Дворфы Черного Железа отличаются скверным характером. Принимая во внимание, где это железо выплавляется, в этом нет ничего удивительного.</ruRU>
+    <ptBR>Guardiões do Minério de Ferro Negro. Talvez seja o minério mais irritante de todos, considerando onde você precisa ir para forjá-lo.</ptBR>
+    <plPL>Strażnicy rudy czarnorytu. Ruda ta, jak wskazuje nazwa, jest czarna, a nie ruda.</plPL>
+    <koKR>검은무쇠 주괴의 수호자들입니다. 이 주괴가 필요한 자들에게는 참으로 귀찮은 존재가 아닐 수 없습니다.</koKR>
+    <itIT>Guardiani del Minerale di Ferroscuro. Probabilmente il minerale più odioso, considerando dove devi fonderlo.</itIT>
+    <frFR>Les gardiens du minerai de sombrefer. Sans doute le plus insupportable minerai au monde, vu le trajet à faire pour le forger.</frFR>
+    <esMX>Son los guardianes de la Mena de hierro negro, que tal vez sea la mena más irritante de todas si uno tiene en cuenta dónde hay que forjarla.</esMX>
+    <esES>No te sorprendas de su mal genio, tienen que pasarse el día fundiendo mena de hierro negro...</esES>
+    <deDE>Die Wächter des Dunkeleisenerzes. Vielleicht das nervigste Erz, wenn man bedenkt, wo man es verhütten muss.</deDE>
   </Tag>
-  <Power definition="82cf3a37-005a-47cb-9082-d6151cd54a26" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="1d14b0a8-f2f2-4c33-a181-5b62ccf41f69">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

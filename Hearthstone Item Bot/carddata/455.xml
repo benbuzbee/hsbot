@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_538">
-  <MasterPower>b560ff40-9ed7-4ff7-8a7a-120d802afb3c</MasterPower>
+<Entity version="2" CardID="EX1_033">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Unleash the Hounds</enUS>
-    <frFR>Lâcher les chiens</frFR>
-    <zhTW>放狗</zhTW>
-    <zhCN>关门放狗</zhCN>
-    <ruRU>Спустить собак</ruRU>
-    <ptBR>Soltem os Cães</ptBR>
-    <plPL>Spuścić psy!</plPL>
-    <koKR>개들을 풀어라</koKR>
-    <itIT>Sguinzaglia i Segugi</itIT>
-    <esMX>Suelten a los canes</esMX>
-    <esES>Soltad a los perros</esES>
-    <deDE>Lasst die Hunde los!</deDE>
+    <enUS>Windfury Harpy</enUS>
+    <frFR>Harpie Furie-des-vents</frFR>
+    <zhTW>風怒鷹身人</zhTW>
+    <zhCN>风怒鹰身人</zhCN>
+    <ruRU>Неистовая гарпия</ruRU>
+    <ptBR>Harpia Ventofúria</ptBR>
+    <plPL>Wichrogniewna harpia</plPL>
+    <koKR>성난바람 하피</koKR>
+    <itIT>Arpia Furia del Vento</itIT>
+    <esMX>Arpía Viento furioso</esMX>
+    <esES>Arpía Viento Furioso</esES>
+    <deDE>Windzornharpie</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your Beasts +1 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <frFR>Confère +1 ATQ et &lt;b&gt;Charge&lt;/b&gt; à vos bêtes.</frFR>
-    <zhTW>賦予你全部的野獸+1攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
-    <zhCN>使你的野兽获得+1攻击力并具有&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Ваши звери получают +1 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Conceda +1 de Ataque e &lt;b&gt;Investida&lt;/b&gt; às suas Feras.</ptBR>
-    <plPL>Daj swoim Bestiom +1 do ataku oraz &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>내 야수들에게 공격력 +1과 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce +1 Attacco e &lt;b&gt;Carica&lt;/b&gt; alle tue Bestie.</itIT>
-    <esMX>Otorga +1 de Ataque y &lt;b&gt;Carga&lt;/b&gt; a tus Bestias.</esMX>
-    <esES>Otorga +1 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt; a tus bestias.</esES>
-    <deDE>Verleiht Euren Wildtieren +1 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Velvet Engine</enUS>
+    <enUS>Luke "Mr. Jack" Mancini</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You must read the name of this card out loud each time you play it.</enUS>
-    <zhTW>你每次打這張牌時，記得把牌的名稱大喊出來。</zhTW>
-    <zhCN>在你使用这张牌的时候，一定要喊出它的名字。</zhCN>
-    <ruRU>Громко зачитывайте название этой карты каждый раз, когда будете ее разыгрывать.</ruRU>
-    <ptBR>Você precisa dizer o nome deste card em alto e bom som cada vez que você jogá-lo.</ptBR>
-    <plPL>Kto dogoni psa? Może ty, może ty? Może jednak ja!</plPL>
-    <koKR>이 카드를 낼 때마다 "물어!"라고 크게 외쳐야 합니다.</koKR>
-    <itIT>Devi gridare il nome di questa carta ogni volta che la giochi.</itIT>
-    <frFR>J’ai déjà entendu ça quelque part...</frFR>
-    <esMX>Cada vez que juegues esta carta, tienes que leer su nombre en voz alta.</esMX>
-    <esES>Después de jugar esta carta, queda bien juntar las manos y decir "¡Excelente!".</esES>
-    <deDE>Ihr müsst den Namen dieser Karte jedes Mal laut aussprechen, wenn Ihr sie ausspielt.</deDE>
+    <enUS>Harpies are not pleasant sounding.  That's the nicest I can put it.</enUS>
+    <zhTW>鷹身人的叫聲聽起來不是很令人愉快。這是我最客氣的說法了。</zhTW>
+    <zhCN>鹰身人的声音非常...“令人不悦”。这是最好听的说法。</zhCN>
+    <ruRU>У гарпий омерзительный голос. И это еще мягко сказано.</ruRU>
+    <ptBR>Harpias não têm uma voz bonita. É o jeito mais educado de dizer.</ptBR>
+    <plPL>Zbyt przyjemne to harpie nie są. Oględnie rzecz mówiąc.</plPL>
+    <koKR>하피는 참 거슬리는 소리를 냅니다. 이보다 더 상냥하게 묘사할 순 없을 것 같네요.</koKR>
+    <itIT>La cosa migliore che si può dire sulle Arpie è che sono stonate.</itIT>
+    <frFR>Comment de si belles créatures  -elles avoir une voix aussi désagréable ?</frFR>
+    <esMX>El chillido de las Arpías no es muy agradable. Y conste que estoy siendo educado.</esMX>
+    <esES>Las arpías no son aves cantoras precisamente.</esES>
+    <deDE>Harpien haben nicht die schönsten Stimmen. Diplomatischer vermag man es nicht auszudrücken.</deDE>
   </Tag>
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="b560ff40-9ed7-4ff7-8a7a-120d802afb3c" />
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="28993547-df83-476c-a9ef-bca48f3bdb16" />
 </Entity>

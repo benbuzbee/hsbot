@@ -1,63 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_558">
-  <MasterPower>5d39914d-7f77-4fef-8c69-fa08db5ab6ae</MasterPower>
+<Entity version="2" CardID="EX1_557">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Harrison Jones</enUS>
-    <frFR>Harrison Jones</frFR>
-    <zhTW>哈里遜·瓊斯</zhTW>
-    <zhCN>哈里森·琼斯</zhCN>
-    <ruRU>Харрисон Джонс</ruRU>
-    <ptBR>Harrison Jones</ptBR>
-    <plPL>Harrison Jones</plPL>
-    <koKR>해리슨 존스</koKR>
-    <itIT>Harrison Jones</itIT>
-    <esMX>Harrison Jones</esMX>
-    <esES>Harrison Jones</esES>
-    <deDE>Harrison Jones</deDE>
+    <enUS>Nat Pagle</enUS>
+    <frFR>Nat Pagle</frFR>
+    <zhTW>納特·帕格</zhTW>
+    <zhCN>纳特·帕格</zhCN>
+    <ruRU>Нат Пэгл</ruRU>
+    <ptBR>Nat Pagle</ptBR>
+    <plPL>Nat Pagle</plPL>
+    <koKR>내트 페이글</koKR>
+    <itIT>Nat Pagle</itIT>
+    <esMX>Nat Pagle</esMX>
+    <esES>Nat Pagle</esES>
+    <deDE>Nat Pagle</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
   <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon and draw cards equal to its Durability.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit l’arme de votre adversaire. Vous piochez le nombre de cartes équivalent à sa durabilité.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀對手的武器並抽相當於其耐久度的牌。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁对手的武器，并抽数量等同于其耐久度的牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает оружие противника. Вы берете карты в количестве, равном его прочности.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua a arma de seu oponente e compre o mesmo número de cards que a durabilidade da arma.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz broń przeciwnika i dobierz tyle kart, ile wynosiła jej wytrzymałość.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편의 무기를 파괴하고 그 무기의 내구도만큼 카드를 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge l'arma dell'avversario e pesca un numero di carte pari alla sua Integrità.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye el arma de tu adversario y roba cartas equivalentes a su Durabilidad.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye el arma de tu oponente y roba una cantidad de cartas equivalente a su durabilidad.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zerstört die Waffe Eures Gegners. Zieht ihrer Haltbarkeit entsprechend Karten.</deDE>
+    <enUS>At the end of your turn, you have a 50% chance to draw a card.</enUS>
+    <frFR>À la fin de votre tour, vous avez 50% de chances de piocher une carte.</frFR>
+    <zhTW>在你的回合結束時，你有50%的機率抽一張牌。</zhTW>
+    <zhCN>在你的回合结束时，你有50%的几率抽一张牌。</zhCN>
+    <ruRU>В конце вашего хода вы с вероятностью 50% берете карту.</ruRU>
+    <ptBR>No final do seu turno, você tem 50% de chance de comprar um card.</ptBR>
+    <plPL>Na końcu swojej tury masz 50% szans na dobranie karty.</plPL>
+    <koKR>내 턴이 끝날 때, 50%의 확률로 카드를 1장 뽑습니다.</koKR>
+    <itIT>Alla fine del tuo turno, hai una probabilità del 50% di pescare una carta.</itIT>
+    <esMX>Al final de tu turno, tienes un 50% de probabilidad de robar una carta.</esMX>
+    <esES>Al final de tu turno tienes un 50% de probabilidad de robar una carta.</esES>
+    <deDE>Am Ende Eures Zuges besteht eine Chance von 50 %, dass Ihr eine Karte zieht.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Fishing</enUS>
   </Tag>
   <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Dixon</enUS>
+    <enUS>Steve Prescott</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>“That belongs in the Hall of Explorers!”</enUS>
-    <zhTW>「那件文物應該被放到探險者大廳!」</zhTW>
-    <zhCN>“这东西应该陈列在探险者大厅里！”</zhCN>
-    <ruRU>«Этому место в Зале Исследователей!»</ruRU>
-    <ptBR>"Isso pertence ao Salão dos Exploradores!"</ptBR>
-    <plPL>„Jestem poszukiwaczem zaginionej parki!”</plPL>
-    <koKR>"저건 탐험가의 전당에 있어야만 해!"</koKR>
-    <itIT>“Deve stare in un museo!”</itIT>
-    <frFR>« Sa place est dans le hall des Explorateurs ! »</frFR>
-    <esMX>“Debería estar en la Sala de los Expedicionarios”.</esMX>
-    <esES>"¡Debería estar en la Sala de los Expedicionarios!".</esES>
-    <deDE>„Das gehört in die Halle der Forscher!“</deDE>
+    <enUS>Nat Pagle, Azeroth's premier fisherman!  He invented the Auto-Angler 3000, the Extendo-Pole 3000, and the Lure-o-matic 2099 (still in testing).</enUS>
+    <zhTW>納特·帕格，艾澤拉斯的釣魚大師!他發明了自動竿3000、加長竿3000和誘餌竿2099(仍在測試中)。</zhTW>
+    <zhCN>纳特·帕格是艾泽拉斯最棒的钓手！他发明了自动鱼竿3000型，伸缩鱼竿3000型，以及电气自动诱捕器2099型（仍在测试中）。</zhCN>
+    <ruRU>Нат Пэгл, лучший рыболов Азерота! Он изобрел Автоспиннинг 3000, Мегакрючок 3000 и Супернаживку 2099 (последняя все еще испытывается).</ruRU>
+    <ptBR>Nat Pagle, o melhor pescador de Azeroth! Ele inventou a Auto-vara de Pescar 3000, a Vara Estendida 3000 e a Roboísca 2099 (ainda na fase de testes).</ptBR>
+    <plPL>Nat Pagle, najlepszy wędkarz w Azeroth! Wynalazł Wędko-Łapa 3000, Żyłko-Ciąga 3000 oraz Nęci-Haka 2099 (wciąż testowany).</plPL>
+    <koKR>아제로스 최고의 낚시꾼, 내트 페이글입니다! 그는 강태공 도우미 3000, 낚싯대 연장기 3000, 그리고 물고기 떼 생성기 2099(아직 시험 중)를 발명했습니다. </koKR>
+    <itIT>Nat Pagle, il pescatore migliore di Azeroth! Ha inventato il Lancialenza Automatico 3000, l'Estendi-Canna 3000 e la Turbo-Esca 2099 (ancora in fase di test).</itIT>
+    <frFR>Nat Pagle, le meilleur pêcheur d’Azeroth ! Il a inventé le pêcheur-o-matic 3000, l’allonge-canne 3000 et l’appât-o-matic 2099 (en cours d’expérimentation).</frFR>
+    <esMX>Nat Pagle, el mejor pescador de Azeroth. Inventor de la Autopesca 3000, el Extendecañas 3000, el Encarnamatic 2099 (actualmente en fase de prueba).</esMX>
+    <esES>¡Nat Pagle, pescador por excelencia de Azeroth! Inventó la Autopescadora 3000, la Extendocaña 3000 y la Cebomática 2999 (todavía en período de prueba).</esES>
+    <deDE>Nat Pagle, Azeroths bester Angler! Er hat den Servo-Angler 3000, die Hydraulische Angelrute 3000 und den Köder-Bot 2099 (wird noch getestet) erfunden.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="5d39914d-7f77-4fef-8c69-fa08db5ab6ae" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="b8fa4a8f-8147-4b7c-9d22-4a6e7f6bb549" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

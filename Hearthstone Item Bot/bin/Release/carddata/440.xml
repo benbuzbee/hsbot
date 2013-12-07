@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_507">
+<Entity version="2" CardID="CS1_069">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Warleader</enUS>
-    <frFR>Chef de guerre murloc</frFR>
-    <zhTW>魚人隊長</zhTW>
-    <zhCN>鱼人领军</zhCN>
-    <ruRU>Мурлок-полководец</ruRU>
-    <ptBR>Líder Guerreiro Murloc</ptBR>
-    <plPL>Nadmurlok</plPL>
-    <koKR>멀록 전투대장</koKR>
-    <itIT>Gran Condottiero Murloc</itIT>
-    <esMX>Líder de guerra múrloc</esMX>
-    <esES>Líder de guerra múrloc</esES>
-    <deDE>Murlocanführer</deDE>
+    <enUS>Fen Creeper</enUS>
+    <frFR>Rampant des tourbières</frFR>
+    <zhTW>沼地蠕行者</zhTW>
+    <zhCN>沼泽爬行者</zhCN>
+    <ruRU>Трясинный ползун</ruRU>
+    <ptBR>Rastejante do Pântano</ptBR>
+    <plPL>Stwór z moczarów</plPL>
+    <koKR>수렁이끼괴물</koKR>
+    <itIT>Aberrazione delle Paludi</itIT>
+    <esMX>Trepador del pantano</esMX>
+    <esES>Trepador del pantano</esES>
+    <deDE>Moorkrabbler</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
   <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>ALL other Murlocs have +2/+1.</enUS>
-    <frFR>TOUS les autres murlocs ont +2/+1.</frFR>
-    <zhTW>全部其他魚人獲得+2/+1。</zhTW>
-    <zhCN>所有其他鱼人获得+2/+1。</zhCN>
-    <ruRU>ВСЕ прочие мурлоки получают +2/+1.</ruRU>
-    <ptBR>TODOS os outros Murlocs têm +2/+1.</ptBR>
-    <plPL>Wszystkie pozostałe murloki otrzymują +2/+1.</plPL>
-    <koKR>다른 &lt;b&gt;모든&lt;/b&gt; 멀록이 +2/+1을 얻습니다.</koKR>
-    <itIT>TUTTI gli altri Murloc hanno +2/+1.</itIT>
-    <esMX>TODOS los otros múrlocs tienen +2/+1.</esMX>
-    <esES>Todos los demás múrlocs tienen +2/+1.</esES>
-    <deDE>ALLE anderen Murlocs haben +2/+1.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tim McBurnie</enUS>
+    <enUS>Monica Langlois</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!</enUS>
-    <zhTW>魚人一直叫同樣的聲音不累嗎?並不會!姆拉嘎啦啦嘎嘎!!</zhTW>
-    <zhCN>鱼人们老是发出一样的声音，难道不觉得厌烦吗？不！姆格拉咕嗯噜咕噜咕噜咕噜咕噜！</zhCN>
-    <ruRU>Как вы думаете, мурлоки когда-нибудь устают издавать один и тот же звук? Ничего подобного! Мрглглглглглглг!</ruRU>
-    <ptBR>Os murlocs não enjoam de ficar fazendo sempre o mesmo som? Não! Mrglglrglglglglglglgl!</ptBR>
-    <plPL>Czy murloki znudzą się kiedyś wydawaniem tego dźwięku?  Nie ma mowy!  Mrglglrglglglglglglgl!</plPL>
-    <koKR>멀록들은 매일 똑같은 소리만 내는 게 지겹지 않을까요? 아니요! 므라아옳옳옳옳옳옳!</koKR>
-    <itIT>Ma i Murloc non si stancano mai di ripetere sempre lo stesso verso? NO. Mrglglrglglglglglglgl!</itIT>
-    <frFR>Est-ce que les murlocs se lassent de pousser toujours le même cri ? Bien sûr que non ! Mrglglrglglglglglglgl !</frFR>
-    <esMX>¿Los múrlocs nunca se cansan de hacer el mismo ruidito? ¡No! Mrglglrglglglglglglgl</esMX>
-    <esES>¿Alguna vez nos cansaremos de imitar el sonido de los múrlocs? ¡No! ¡Mrglglrglglglglglglgl!</esES>
-    <deDE>Wird es Murlocs jemals zu blöd, immer wieder denselben alten Laut von sich zu geben? Neeee! Mrglglrglglglglglglgl!</deDE>
+    <enUS>He used to be called Bog Beast, but it confused people because he wasn't an actual beast.   Boom, New Name!</enUS>
+    <zhTW>原本牠叫沼澤獸，但是那會害人搞混，因為牠並不算野獸。結果呢，嘿，牠就有了新名字!</zhTW>
+    <zhCN>它以前被称作沼泽兽，但这个名字会让人迷惑，因为它根本不是野兽。</zhCN>
+    <ruRU>Когда-то его звали «Трясинным зверем», но это название смущало игроков, потому что какой из него зверь, в конце концов.</ruRU>
+    <ptBR>Ele costumava ser chamado de Fera do Brejo, mas isso confundia as pessoas, porque não era uma fera de verdade. Bum! Novo nome!</ptBR>
+    <plPL>Dawniej zwano go Bestią z Moczarów, ale to było mylące, bo żadna z niego bestia. No i mamy nową nazwę.</plPL>
+    <koKR>원래 이름은 수렁야수였지만, 실제로는 야수가 아니라서 헷깔려하는 분들이 많았습니다. 그래서 더 예쁜 이름을 붙여줬죠.</koKR>
+    <itIT>Era stato chiamato Bestia della Palude, ma confondeva i giocatori perché effettivamente non è una bestia. TAAAC, nome nuovo!</itIT>
+    <frFR>Autrefois, on l’appelait la créature du marais, mais on le confondait trop souvent avec l’&lt;i&gt;autre&lt;/i&gt;... Alors il a changé de nom !</frFR>
+    <esMX>Solían llamarlo "bestia de la ciénaga", pero era medio confuso porque, en realidad, no era un bestia. Así que, ¡pum!, tiene un nuevo nombre.</esMX>
+    <esES>Antes se llamaba bestia del pantano, pero la gente se confundía porque no era una bestia. Problema resuelto.</esES>
+    <deDE>Früher wurde er immer „Das Ding aus dem Sumpf“ genannt, aber sein neuer Name gefällt ihm auch nicht wirklich besser.</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="58695e7b-cec4-4333-9dc5-26bebcef653f" />
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="ae5103a4-cd6c-47ec-90b4-88e787de66db" />
 </Entity>

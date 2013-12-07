@@ -1,43 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4f_007">
-  <MasterPower>ff114a76-2ffe-4bab-a7d7-18b2adc57018</MasterPower>
+<Entity version="2" CardID="EX1_247">
+  <MasterPower>c642e387-5a1a-4e2b-8dfb-3f7f44fc0a18</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Crazy Monkey</enUS>
-    <zhTW>瘋狂的猴子</zhTW>
-    <zhCN>疯狂的猴子</zhCN>
-    <ruRU>Бешеная мартышка</ruRU>
-    <ptBR>Macaco Louco</ptBR>
-    <plPL>Szalona małpa</plPL>
-    <koKR>미친 원숭이</koKR>
-    <itIT>Scimmia Pazza</itIT>
-    <frFR>Singe cinglé</frFR>
-    <esMX>Mono chiflado</esMX>
-    <esES>Mono loco</esES>
-    <deDE>Durchgedrehter Affe</deDE>
+    <enUS>Stormforged Axe</enUS>
+    <frFR>Hache de Forge-foudre</frFR>
+    <zhTW>風暴冶煉之斧</zhTW>
+    <zhCN>雷铸战斧</zhCN>
+    <ruRU>Топор бури</ruRU>
+    <ptBR>Machado Forjado em Tempestade</ptBR>
+    <plPL>Burzowierny Topór</plPL>
+    <koKR>폭풍으로 벼려낸 도끼</koKR>
+    <itIT>Ascia dei Forgiatuono</itIT>
+    <esMX>Hacha tronaforjada</esMX>
+    <esES>Hacha Tronaforjado</esES>
+    <deDE>Sturmgeschmiedete Axt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Durability" enumID="187" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Overload:&lt;/b&gt; (1)</enUS>
+    <frFR>&lt;b&gt;Surcharge :&lt;/b&gt; (1)</frFR>
+    <zhTW>&lt;b&gt;超載:&lt;/b&gt;(1)</zhTW>
+    <zhCN>&lt;b&gt;过载：&lt;/b&gt;（1）</zhCN>
+    <ruRU>&lt;b&gt;Перегрузка:&lt;/b&gt; (1)</ruRU>
+    <ptBR>&lt;b&gt;Sobrecarga:&lt;/b&gt; (1)</ptBR>
+    <plPL>&lt;b&gt;Przeciążenie:&lt;/b&gt; (1)</plPL>
+    <koKR>&lt;b&gt;과부하:&lt;/b&gt; (1)</koKR>
+    <itIT>&lt;b&gt;Sovraccarico:&lt;/b&gt; (1) Cristallo di Mana.</itIT>
+    <esMX>&lt;b&gt;Sobrecarga:&lt;/b&gt; (1)</esMX>
+    <esES>&lt;b&gt;Sobrecarga:&lt;/b&gt; (1)</esES>
+    <deDE>&lt;b&gt;Überladung:&lt;/b&gt; (1)</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Throw Bananas.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;丟香蕉。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;扔香蕉。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; бросает бананы.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Arremessa Bananas.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Rzuć bananami.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 바나나를 던집니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; lancia una Banana.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; lance des bananes.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; arroja Bananas.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Lanza plátanos.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Wirft Bananen.</deDE>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Nathan Bowden</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="ff114a76-2ffe-4bab-a7d7-18b2adc57018" />
-  <Power definition="3d8960dd-3017-43b0-b3c2-9253941ca7e3" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Yo, that's a nice axe.</enUS>
+    <zhTW>嘿，那把斧頭看起來可真不賴。</zhTW>
+    <zhCN>哟，真是把不错的斧子。</zhCN>
+    <ruRU>Ух ты, отличный топорик.</ruRU>
+    <ptBR>Que machado legal, cara.</ptBR>
+    <plPL>Burzowiernym toporem można zadawać piorunujące ciosy.</plPL>
+    <koKR>폭풍에 맞은 듯한 충격을 대뇌의 전두엽까지 전해드립니다.</koKR>
+    <itIT>Accidenti, questa sì che è una bella ascia.</itIT>
+    <frFR>Hé, en voilà une belle hache.</frFR>
+    <esMX>Ey, ¡linda hacha!</esMX>
+    <esES>¡Eres un hacha!</esES>
+    <deDE>DAS ist eine Axt.</deDE>
+  </Tag>
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="c642e387-5a1a-4e2b-8dfb-3f7f44fc0a18" />
 </Entity>

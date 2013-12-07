@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_070o">
+<Entity version="2" CardID="NEW1_017e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Master's Presence</enUS>
-    <frFR>Présence du maître</frFR>
-    <zhTW>主人在場</zhTW>
-    <zhCN>驯兽师的训练</zhCN>
-    <ruRU>Присутствие хозяина</ruRU>
-    <ptBR>Presença do Mestre</ptBR>
-    <plPL>Tresura</plPL>
-    <koKR>주인의 존재</koKR>
-    <itIT>Presenza del Maestro</itIT>
-    <esMX>Presencia de maestro</esMX>
-    <esES>Presencia del maestro</esES>
-    <deDE>Präsenz des Meisters</deDE>
+    <enUS>Full Belly</enUS>
+    <frFR>Ventre plein</frFR>
+    <zhTW>酒足飯飽</zhTW>
+    <zhCN>吃饱了</zhCN>
+    <ruRU>Полный желудок</ruRU>
+    <ptBR>Barriga Cheia</ptBR>
+    <plPL>Pełny brzuch</plPL>
+    <koKR>포만감</koKR>
+    <itIT>Pancia Piena</itIT>
+    <esMX>Tripa llena</esMX>
+    <esES>Tripa llena</esES>
+    <deDE>Gefüllter Bauch</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>+2/+2 et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-    <zhTW>+2/+2及&lt;b&gt;嘲諷&lt;/b&gt;。</zhTW>
-    <zhCN>+2/+2并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>+2 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-    <ptBR>+2/+2 e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
-    <plPL>+2/+2 oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
-    <koKR>+2/+2, &lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>+2/+2 e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
-    <esMX>+2/+2 y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
-    <esES>+2/+2 y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <deDE>+2/+2 und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+    <enUS>+2/+2.  Full of Murloc.</enUS>
+    <frFR>+2/+2. Rassasié.</frFR>
+    <zhTW>+2/+2。肚子裡裝著魚人。</zhTW>
+    <zhCN>+2/+2。一个鱼人就吃饱了。</zhCN>
+    <ruRU>+2/+2. Съел мурлока!</ruRU>
+    <ptBR>+2/+2. Cheia de Murloc.</ptBR>
+    <plPL>+2/+2. Zeżarł murloka.</plPL>
+    <koKR>+2/+2, 멀록으로 배 채움</koKR>
+    <itIT>+2/+2. Pieno di Murloc.</itIT>
+    <esMX>+2/+2. Lleno de múrloc.</esMX>
+    <esES>+2/+2. Llena de múrloc.</esES>
+    <deDE>+2/+2. Randvoll mit Murloc.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="f41604d6-701b-42cf-a3b2-1ef04aa1990e" />
+  <Power definition="1c5b8ff7-5b77-407f-a240-2a6e8b5d7430" />
 </Entity>

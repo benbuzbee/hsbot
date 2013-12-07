@@ -1,63 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_021">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_578">
+  <MasterPower>df2d11fa-bec4-4185-960b-fe0045645279</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Thrallmar Farseer</enUS>
-    <frFR>Long-voyant de Thrallmar</frFR>
-    <zhTW>索爾瑪先知</zhTW>
-    <zhCN>萨尔玛先知</zhCN>
-    <ruRU>Провидец Траллмара</ruRU>
-    <ptBR>Clarividente de Thrallmar</ptBR>
-    <plPL>Wieszcz z Thrallmaru</plPL>
-    <koKR>스랄마 선견자</koKR>
-    <itIT>Veggente di Thrallmar</itIT>
-    <esMX>Clarividente de Thrallmar</esMX>
-    <esES>Clarividente de Thrallmar</esES>
-    <deDE>Scharfseher von Thrallmar</deDE>
+    <enUS>Savagery</enUS>
+    <frFR>Sauvagerie</frFR>
+    <zhTW>兇蠻</zhTW>
+    <zhCN>野蛮之击</zhCN>
+    <ruRU>Дикость</ruRU>
+    <ptBR>Selvageria</ptBR>
+    <plPL>Dzikość</plPL>
+    <koKR>야생성</koKR>
+    <itIT>Ferocia</itIT>
+    <esMX>Salvajismo</esMX>
+    <esES>Salvajismo</esES>
+    <deDE>Unbändigkeit</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Viento furioso&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
+    <enUS>Deal damage equal to your hero's Attack to a minion.</enUS>
+    <frFR>Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à un serviteur adverse.</frFR>
+    <zhTW>對一個敵方手下造成等同於你英雄攻擊力的傷害。</zhTW>
+    <zhCN>对一个随从造成等同于你的英雄攻击力的伤害。</zhCN>
+    <ruRU>Наносит существу противника урон, равный силе атаки вашего героя.</ruRU>
+    <ptBR>Cause dano equivalente ao Ataque do seu herói a um lacaio.</ptBR>
+    <plPL>Zadaj stronnikowi obrażenia równe atakowi twojego bohatera.</plPL>
+    <koKR>내 영웅의 공격력만큼 하수인에게 피해를 줍니다.</koKR>
+    <itIT>Infligge danni pari all'Attacco del tuo eroe a un servitore.</itIT>
+    <esMX>Inflige daño equivalente al Ataque de tu héroe contra un esbirro.</esMX>
+    <esES>Inflige a un esbirro un daño equivalente al ataque de tu héroe.</esES>
+    <deDE>Fügt einem Diener Schaden zu, der dem Angriff Eures Helden entspricht.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Efrem Palacios</enUS>
+    <enUS>Dave Rapoza</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He's stationed in the Hellfire Peninsula, but he's hoping for a reassignment closer to Orgrimmar, or really anywhere the ground is less on fire.</enUS>
-    <zhTW>他被派駐在地獄火半島，但是他很希望能轉調到靠近奧格瑪的地方，或者只要地上沒著火的地方就好。</zhTW>
-    <zhCN>他受命驻扎在地狱火半岛，但他很希望能够被调配到奥格瑞玛附近，或者随便什么地方，只要那里的土地不要老是着火就行。</zhCN>
-    <ruRU>Он служит на Полуострове Адского Пламени, но мечтает, чтобы его перевели в Оргриммар или в какую-нибудь не столь огневую точку.</ruRU>
-    <ptBR>Ele está alocado na Península Fogo do Inferno, mas tem esperanças de ser transferido para algum lugar mais perto de Orgrimmar... ou em qualquer lugar que o chão não esteja pegando fogo.</ptBR>
-    <plPL>Postanowił napisać epicki poemat. Ma już pierwszy wers: „Thrallmarze, ojczyzno moja, ty jesteś jak zdrowie.”</plPL>
-    <koKR>지금은 지옥불 반도에서 근무 중이지만, 오그리마에 더 가까운 곳으로 배치되길 원합니다. 최소한 땅에서 불을 뿜지는 않은 곳으로요.</koKR>
-    <itIT>Attualmente è di stanza nella Penisola del Fuoco Infernale, ma spera di essere riassegnato più vicino a Orgrimmar... o da qualsiasi parte in cui la terra non sia in fiamme.</itIT>
-    <frFR>Il est en poste dans la péninsule des Flammes infernales, mais il espère être réaffecté plus près d’Orgrimmar, ou à tout autre endroit qui ne soit pas en feu.</frFR>
-    <esMX>Lo enviaron a la Península del Fuego Infernal, pero pidió que lo reasignaran más cerca de Orgrimmar... o, para ser sinceros, a cualquier otro lugar donde no se le quemaran los pies.</esMX>
-    <esES>Trabaja en la Península del Fuego Infernal, pero le gustaría que lo destacaran en Orgrimmar, o en cualquier otro sitio que no esté ardiendo permanentemente.</esES>
-    <deDE>Er ist momentan auf der Höllenfeuerhalbinsel stationiert, hofft aber darauf, nach Orgrimmar verlegt zu werden – oder an irgendeinen anderen Ort, an dem der Boden weniger brennt.</deDE>
+    <enUS>It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.</enUS>
+    <zhTW>有些德魯伊很兇蠻是事實，但是其他的德魯伊還是很喜歡喝杯好茶享受寧靜的時光。</zhTW>
+    <zhCN>确实有些德鲁伊野性十足，但仍有些喜欢在恬静的时刻品上一壶好茶。</zhCN>
+    <ruRU>Конечно, встречаются и дикие друиды, но есть и такие, которым больше по душе чашечка чая в спокойной обстановке.</ruRU>
+    <ptBR>É verdade que alguns druidas são selvagens, mas outros ainda apreciam um momento de paz e um bom chá.</ptBR>
+    <plPL>To prawda, że niektórzy druidzi są dość dzicy, ale inni lubią posiedzieć w ciszy i wypić filiżankę herbatki.</plPL>
+    <koKR>일부 드루이드들이 야생성을 보이는 건 사실이나, 대부분은 조용한 곳에서 차 한잔하는 것을 즐긴답니다.</koKR>
+    <itIT>È vero che alcuni Druidi sono selvaggi, ma altri adorano godersi un po' di pace e sorseggiare un buon tè.</itIT>
+    <frFR>Même le plus timide des druides se transforme en bête sauvage quand on lui prend son miel.</frFR>
+    <esMX>Es cierto, algunos druidas son salvajes, pero también hay otros que disfrutan los momentos de paz con una taza de té.</esMX>
+    <esES>Es cierto que algunos druidas reaccionan así cuando ven una cesta de pícnic, pero otros saben apreciar la tranquilidad y una buena taza de té.</esES>
+    <deDE>Es stimmt schon, dass einige Druiden ganz schön wild sind, aber es gibt auch andere, die gern in Ruhe eine Tasse Tee trinken.</deDE>
   </Tag>
-  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
-  <Power definition="52171593-d4a9-49e2-a647-d5e3dbc63aea" />
+  <Power definition="df2d11fa-bec4-4185-960b-fe0045645279">
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

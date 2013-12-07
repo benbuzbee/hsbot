@@ -1,68 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_232">
+<Entity version="2" CardID="EX1_076">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ironbark Protector</enUS>
-    <frFR>Protecteur Écorcefer</frFR>
-    <zhTW>鐵桉保衛者</zhTW>
-    <zhCN>埃隆巴克保护者</zhCN>
-    <ruRU>Сторожевое древо</ruRU>
-    <ptBR>Protetor Cascaferro</ptBR>
-    <plPL>Żelaznokory obrońca</plPL>
-    <koKR>무쇠껍질 수호정령</koKR>
-    <itIT>Protettore Legnoferreo</itIT>
-    <esMX>Protector cortezaférrea</esMX>
-    <esES>Protector Cortezaférrea</esES>
-    <deDE>Eisenborkenbeschützer</deDE>
+    <enUS>Pint-Sized Summoner</enUS>
+    <frFR>Minuscule invocatrice</frFR>
+    <zhTW>迷你召喚師</zhTW>
+    <zhCN>小个子召唤师</zhCN>
+    <ruRU>Гном-призыватель</ruRU>
+    <ptBR>Evocadora Diminuta</ptBR>
+    <plPL>Tycia przywoływaczka</plPL>
+    <koKR>자그마한 소환사</koKR>
+    <itIT>Evocatrice Minuta</itIT>
+    <esMX>Invocadora tamaño pinta</esMX>
+    <esES>Invocadora tamaño bolsillo</esES>
+    <deDE>Winzige Beschwörerin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Ritual</enUS>
+  </Tag>
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>The first minion you play each turn costs (1) less.</enUS>
+    <frFR>Le premier serviteur que vous jouez à chaque tour coûte (1) cristal de moins.</frFR>
+    <zhTW>你每回合第一個召喚的手下其消耗減少(1)點。</zhTW>
+    <zhCN>你每个回合使用的第一张随从牌的法力值消耗减少（1）点。</zhCN>
+    <ruRU>Первое существо, которое вы разыгрываете на каждом ходу, стоит на (1) ману меньше.</ruRU>
+    <ptBR>O primeiro lacaio que você joga a cada turno custa (1) a menos.</ptBR>
+    <plPL>Pierwszy stronnik zagrany w każdej turze kosztuje (1) mniej.</plPL>
+    <koKR>내 턴마다 처음 내는 하수인은 비용이 (1) 감소합니다.</koKR>
+    <itIT>Il primo servitore che giochi ogni turno costa (1) Mana in meno.</itIT>
+    <esMX>El primer esbirro que juegas en cada turno cuesta (1) menos.</esMX>
+    <esES>El primer esbirro que juegues cada turno cuesta (1) cristal menos.</esES>
+    <deDE>Der erste Diener, den Ihr in einem Zug ausspielt, kostet (1) weniger.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Allsop</enUS>
+    <enUS>Ron Spears</enUS>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>I &lt;i&gt;dare&lt;/i&gt; you to attack Darnassus.</enUS>
-    <zhTW>你根本&lt;i&gt;不敢&lt;/i&gt;攻擊達納蘇斯。</zhTW>
-    <zhCN>我打赌你一定不敢进攻达纳苏斯。</zhCN>
-    <ruRU>«Эй, орк, а смог бы ты пробраться на Террасу Воинов в Дарнасе?»</ruRU>
-    <ptBR>Eu &lt;i&gt;duvido&lt;/i&gt; você atacar Darnassus.</ptBR>
-    <plPL>Stara kora nie rdzewieje!</plPL>
-    <koKR>그 누가 &lt;i&gt;감히&lt;/i&gt; 다르나서스를 공격할쏘냐!</koKR>
-    <itIT>Ti &lt;i&gt;sfido&lt;/i&gt; ad attaccare Darnassus.</itIT>
-    <frFR>Même pas &lt;i&gt;cap&lt;/i&gt; d’attaquer Darnassus !</frFR>
-    <esMX>Te &lt;i&gt;reto&lt;/i&gt; a que ataques Darnassus.</esMX>
-    <esES>¡Se está saliendo del tiesto!</esES>
-    <deDE>Wenn selbst die Bäume von Darnassus einen verspotten, sollte man ins Grübeln kommen.</deDE>
+    <enUS>She's quite jealous of the Gallon-Sized Summoner.</enUS>
+    <zhTW>她一直想要擺脫「迷你」這個字眼。</zhTW>
+    <zhCN>大个子召唤师就是由她召唤出来的。</zhCN>
+    <ruRU>Размер не имеет значения!</ruRU>
+    <ptBR>Ela sente muita inveja do Evocador Descomunal.</ptBR>
+    <plPL>Najbardziej w świecie boi się swojego nemezis: Przytycia.</plPL>
+    <koKR>다 작은 건 아니라네요. 그럼 어디가 큰 걸까요? 음... 머리?</koKR>
+    <itIT>È abbastanza gelosa dell'Evocatrice Mastodontica.</itIT>
+    <frFR>Elle est super jalouse de la grande invocatrice.</frFR>
+    <esMX>A la hora del amor, su peor competencia es la Invocadora tamaño galón.</esMX>
+    <esES>Fácil de transportar.</esES>
+    <deDE>Selbst die Kleine Beschwörerin sieht neben ihr noch riesig aus.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 10.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 48.</enUS>
-  </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="e3a7db15-2cfa-4991-8271-52f193e85b62" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="6c2898ab-5311-4725-b667-e8a752342493" />
 </Entity>

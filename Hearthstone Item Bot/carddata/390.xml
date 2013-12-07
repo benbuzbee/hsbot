@@ -1,81 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_341">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_549">
+  <MasterPower>ec001c18-5106-4cd3-a9c3-fb35a1153440</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Lightwell</enUS>
-    <frFR>Puits de lumière</frFR>
-    <zhTW>光束泉</zhTW>
-    <zhCN>光明之泉</zhCN>
-    <ruRU>Колодец Света</ruRU>
-    <ptBR>Fonte de Luz</ptBR>
-    <plPL>Studnia światła</plPL>
-    <koKR>빛샘</koKR>
-    <itIT>Pozzo di Luce</itIT>
-    <esMX>Pozo de luz</esMX>
-    <esES>Pozo de Luz</esES>
-    <deDE>Lichtbrunnen</deDE>
+    <enUS>Bestial Wrath</enUS>
+    <frFR>Courroux bestial</frFR>
+    <zhTW>狂野怒火</zhTW>
+    <zhCN>狂野怒火</zhCN>
+    <ruRU>Звериный гнев</ruRU>
+    <ptBR>Ira Bestial</ptBR>
+    <plPL>Bestialski gniew</plPL>
+    <koKR>야수의 격노</koKR>
+    <itIT>Ira Bestiale</itIT>
+    <esMX>Cólera de las bestias</esMX>
+    <esES>Cólera de las bestias</esES>
+    <deDE>Zorn des Wildtiers</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Healing</enUS>
-  </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the start of your turn, restore 3 Health to a damaged friendly character.</enUS>
-    <frFR>Au début de votre tour, rend 3 PV à un personnage allié blessé.</frFR>
-    <zhTW>在你的回合開始時，為一個受傷的友方角色恢復3點生命值。</zhTW>
-    <zhCN>在你的回合开始时，随机为一个受到伤害的友方角色恢复3点生命值。</zhCN>
-    <ruRU>В начале вашего хода восстанавливает 3 ед. здоровья вашему персонажу с неполным здоровьем.</ruRU>
-    <ptBR>No início do seu turno, restaure 3 de Vida de um personagem aliado ferido.</ptBR>
-    <plPL>Na początku swojej tury przywróć 3 pkt. zdrowia przyjaznej postaci.</plPL>
-    <koKR>내 턴이 시작될 때, 피해를 입은 아군 캐릭터의 생명력을 3 회복시킵니다.</koKR>
-    <itIT>All'inizio del tuo turno, il Pozzo di Luce rigenera 3 Salute a un tuo personaggio danneggiato.</itIT>
-    <esMX>Al comienzo de tu turno, restaura 3 de Salud a un personaje aliado dañado.</esMX>
-    <esES>Al comienzo de tu turno, restaura 3 p. de salud a un personaje amistoso dañado.</esES>
-    <deDE>Stellt zu Beginn Eures Zuges bei einem verletzten befreundeten Charakter 3 Leben wieder her.</deDE>
+    <enUS>Give a Beast +2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
+    <frFR>Confère +2 ATQ et l’effet &lt;b&gt;Insensible&lt;/b&gt; à une Bête pendant ce tour.</frFR>
+    <zhTW>賦予一隻野獸+2攻擊力，及本回合&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
+    <zhCN>在本回合中，使一只野兽获得+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
+    <ruRU>Выбранный зверь получает +2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
+    <ptBR>Conceda +2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; a uma Fera neste turno.</ptBR>
+    <plPL>W tej turze daj Bestii +2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
+    <koKR>이번 턴에 야수에게 공격력 +2와 &lt;b&gt;피해 면역&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce +2 Attacco e &lt;b&gt;Immune&lt;/b&gt; a una Bestia in questo turno.</itIT>
+    <esMX>Otorga +2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; a una Bestia en este turno.</esMX>
+    <esES>Otorga +2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; a una bestia este turno.</esES>
+    <deDE>Verleiht einem Wildtier +2 Angriff und &lt;b&gt;Immunität&lt;/b&gt; in diesem Zug.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Darrell Riche</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It isn't clear if people ignore the Lightwell, or if it is just invisible.</enUS>
-    <zhTW>很難說人們是刻意無視光束泉的存在，還是它本身就是隱形的。</zhTW>
-    <zhCN>以前有很多牧师都不明白，究竟是因为队友看不见光明之泉呢，还是他们故意不想点它呢？</zhCN>
-    <ruRU>До конца не ясно, то ли люди специально игнорируют Колодец Света, то ли просто его не замечают.</ruRU>
-    <ptBR>Ainda não está claro se as pessoas ignoram a Fonte de Luz ou se ela é invisível.</ptBR>
-    <plPL>Nie wiadomo, czy ludzie ignorują studnię światła, czy jest ona po prostu niewidzialna.</plPL>
-    <koKR>사람들이 빛샘을 무시하는 걸까요, 아니면 안 보이는 걸까요.</koKR>
-    <itIT>Non è chiaro se la gente ignori il Pozzo di Luce o se sia semplicemente invisibile.</itIT>
-    <frFR>On ne sait pas vraiment si les gens ignorent le puits de lumière ou s’ils ne le voient pas parce qu’il est invisible.</frFR>
-    <esMX>No está claro si la gente no le presta atención al Pozo de luz o si simplemente es invisible.</esMX>
-    <esES>Nadie usa jamás el Pozo de Luz.</esES>
-    <deDE>Noch ist es unter Experten nicht geklärt, ob Leute den Lichtbrunnen einfach ignorieren oder ob er unsichtbar ist.</deDE>
+    <enUS>The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.</enUS>
+    <zhTW>沸騰的憤怒僅僅是表面。在那之下是狂亂的自我解放，隨之而來的是輕微的不快。</zhTW>
+    <zhCN>盛燃的愤怒掩藏于表面之下，同时还伴随着野性的狂放不羁和些许傲慢。</zhCN>
+    <ruRU>Безудержный гнев – лишь внешнее проявление чувств. Под ним скрывается дикая вспыльчивость и легкое недовольство.</ruRU>
+    <ptBR>A ira fervilhante está logo abaixo da superfície. Abaixo dela, fica o abandono selvagem, seguido por uma ligeira irritação.</ptBR>
+    <plPL>Bestialski to on jest tylko z nazwy.</plPL>
+    <koKR>표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.</koKR>
+    <itIT>La rabbia ribolle sotto la superficie e sotto di essa c'è l'abbandono selvaggio. Poco più sotto, un leggero fastidio.</itIT>
+    <frFR>Courroux coucou, ça tache ça tache !</frFR>
+    <esMX>Bajo la superficie habita una cólera hirviente. Y bajo esa cólera yace un abandono salvaje, seguido de un ligero fastidio.</esMX>
+    <esES>Es una cólera que está en tu interior, por debajo de las costillas, entre la tostada del desayuno y el pescado del almuerzo.</esES>
+    <deDE>Na toll, jetzt habt Ihr es wütend gemacht!</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="a7a18f6d-1143-4aa0-907e-8b1b404217d5" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Restored 3 Health to a random friendly character.</enUS>
-    <frFR>3 points de vie rendus à un personnage allié aléatoire.</frFR>
-    <zhTW>使一個隨機友方角色恢復3點生命值。</zhTW>
-    <zhCN>随机为一个友方角色恢复3点生命值。</zhCN>
-    <ruRU>Ваш случайный персонаж восстановил 3 ед. здоровья.</ruRU>
-    <ptBR>Restaurou 3 de Vida de um personagem aliado aleatório.</ptBR>
-    <plPL>Przywrócono 3 pkt. zdrowia losowej przyjaznej postaci.</plPL>
-    <koKR>무작위 아군 캐릭터의 생명력을 3 회복시킴</koKR>
-    <itIT>Il Pozzo di Luce ha rigenerato 3 Salute a un tuo personaggio.</itIT>
-    <esMX>Se ha restaurado 3 de Salud a un personaje aliado.</esMX>
-    <esES>El Pozo de Luz ha restaurado 3 p. de salud a un personaje amistoso aleatorio.</esES>
-    <deDE>3 Leben bei einem zufälligen befreundeten Charakter wiederhergestellt.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <ReferencedTag name="Cant Be Damaged" enumID="240" type="Bool" value="1" />
+  <Power definition="ec001c18-5106-4cd3-a9c3-fb35a1153440">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="10" param="20" />
+  </Power>
 </Entity>

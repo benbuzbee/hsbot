@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_160be">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="TU4c_008">
+  <MasterPower>ed93e085-4e8f-42b0-9155-96b1cacb9464</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Leader of the Pack</enUS>
-    <frFR>Chef de la meute</frFR>
-    <zhTW>獸群領袖</zhTW>
-    <zhCN>兽群领袖</zhCN>
-    <ruRU>Вожак стаи</ruRU>
-    <ptBR>Líder do Bando</ptBR>
-    <plPL>Przywódca stada</plPL>
-    <koKR>무리의 우두머리</koKR>
-    <itIT>Capobranco</itIT>
-    <esMX>Líder de la manada</esMX>
-    <esES>Líder de la manada</esES>
-    <deDE>Rudelführer</deDE>
+    <enUS>Will of Mukla</enUS>
+    <frFR>Volonté de Mukla</frFR>
+    <zhTW>穆克拉的意志</zhTW>
+    <zhCN>穆克拉的意志</zhCN>
+    <ruRU>Воля Муклы</ruRU>
+    <ptBR>Vontade de Mukla</ptBR>
+    <plPL>Wola Mukli</plPL>
+    <koKR>무클라의 의지</koKR>
+    <itIT>Volontà di Mukla</itIT>
+    <esMX>Voluntad de Mukla</esMX>
+    <esES>Voluntad de Mukla</esES>
+    <deDE>Der Wille Muklas</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has +1/+1.</enUS>
-    <frFR>Ce serviteur a +1/+1.</frFR>
-    <zhTW>這個手下獲得+1/+1。</zhTW>
-    <zhCN>该随从获得+1/+1。</zhCN>
-    <ruRU>Это существо получило +1/+1.</ruRU>
-    <ptBR>Este lacaio tem +1/+1.</ptBR>
-    <plPL>Ten stronnik ma +1/+1.</plPL>
-    <koKR>+1/+1</koKR>
-    <itIT>+1/+1.</itIT>
-    <esMX>Este esbirro tiene +1/+1.</esMX>
-    <esES>Este esbirro tiene +1/+1.</esES>
-    <deDE>Dieser Diener hat +1/+1.</deDE>
+    <enUS>Restore 8 Health.</enUS>
+    <frFR>Rend 8 points de vie.</frFR>
+    <zhTW>恢復8點生命值。</zhTW>
+    <zhCN>恢复8点生命值。</zhCN>
+    <ruRU>Восстанавливает 8 ед. здоровья.</ruRU>
+    <ptBR>Restaure 8 de Vida.</ptBR>
+    <plPL>Przywróć 8 pkt. zdrowia.</plPL>
+    <koKR>생명력을 8 회복시킵니다.</koKR>
+    <itIT>Rigenera 8 Salute.</itIT>
+    <esMX>Restaura 8 de Salud.</esMX>
+    <esES>Restaura 8 p. de salud.</esES>
+    <deDE>Stellt 8 Leben wieder her.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="47cb2509-fba4-4c2a-b4cd-37e2450975d5" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="ed93e085-4e8f-42b0-9155-96b1cacb9464" />
 </Entity>

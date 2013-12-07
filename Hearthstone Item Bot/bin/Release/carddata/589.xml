@@ -1,67 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_016">
-  <MasterPower>ff7a9db7-89dc-4667-92f5-017e023ac0c7</MasterPower>
+<Entity version="2" CardID="CS2_064">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Captain's Parrot</enUS>
-    <zhTW>船長的鸚鵡</zhTW>
-    <zhCN>船长的鹦鹉</zhCN>
-    <ruRU>Попугай капитана</ruRU>
-    <ptBR>Papagaio do Capitão</ptBR>
-    <plPL>Papuga kapitana</plPL>
-    <koKR>선장의 앵무새</koKR>
-    <itIT>Pappagallo del Capitano</itIT>
-    <frFR>Perroquet du capitaine</frFR>
-    <esMX>Loro del capitán</esMX>
-    <esES>Loro del capitán</esES>
-    <deDE>Papagei des Kapitäns</deDE>
+    <enUS>Dread Infernal</enUS>
+    <frFR>Infernal de l’effroi</frFR>
+    <zhTW>恐怖的煉獄火</zhTW>
+    <zhCN>恐惧地狱火</zhCN>
+    <ruRU>Жуткий инфернал</ruRU>
+    <ptBR>Infernal Medonho</ptBR>
+    <plPL>Przerażający infernal</plPL>
+    <koKR>공포의 지옥불정령</koKR>
+    <itIT>Infernale del Terrore</itIT>
+    <esMX>Infernal nefasto</esMX>
+    <esES>Infernal aterrador</esES>
+    <deDE>Schreckenshöllenbestie</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Race" enumID="200" type="Race" value="15" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Put a random Pirate from your deck into your hand.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;從你的牌堆中取出一張隨機海盜並放到你的手牌中。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;随机从你的牌库中将一张海盗牌置入你的手牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; положите в руку случайного пирата из вашей колоды.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Coloque um Pirata aleatório do seu deck na sua mão.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Umieść w ręce losowego Pirata ze swojej talii.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 덱에 있는 무작위 해적을 내 손으로 가져옵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca un Pirata casuale dal tuo mazzo.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; place un pirate aléatoire de votre deck dans votre main.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; pon un Pirata aleatorio de tu mazo en tu mano.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Coloca a un pirata aleatorio de tu mazo en tu mano.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Fügt Eurer Hand einen zufälligen Piraten aus Eurem Deck hinzu.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage to ALL other characters.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 1 point de dégâts à TOUS les autres personnages.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;對全部其他角色造成1點傷害。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;对所有其他角色造成1点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 1 ед. урона ВСЕМ прочим персонажам.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 1 de dano a TODOS os personagens.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 1 pkt. obrażeń WSZYSTKIM pozostałym postaciom.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 &lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 1 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 1 danno a TUTTI gli altri personaggi.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 1 de daño a TODOS los otros personajes.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 1 p. de daño a todos los demás personajes.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Fügt ALLEN anderen Charakteren 1 Schaden zu.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Pirates and Parrots go together like Virmen and Carrots.</enUS>
-    <zhTW>海盜跟鸚鵡就像兔妖和蘿蔔一樣焦不離孟，孟不離焦。</zhTW>
-    <zhCN>海盗和鹦鹉形影不离，就像兔妖和胡萝卜。</zhCN>
-    <ruRU>Пираты и попугаи столь же неразлучны, как гну-сини и морковка. </ruRU>
-    <ptBR>Piratas e Papagaios combinam tão bem quanto Vermingues e Cenouras.</ptBR>
-    <plPL>Te niezwykłe ptaki często zastygają bez ruchu po długim i wyczerpującym skrzeczeniu. Przypuszczalnie usychają z tęsknoty za fiordami.</plPL>
-    <koKR>해적과 앵무새는 토깽과 당근의 관계와도 같죠.</koKR>
-    <itIT>Pirati e pappagalli sono inseparabili quanto Leproratti e carote.</itIT>
-    <frFR>T’es un pirate et t’as pas de perroquet, non mais à l’eau, quoi !</frFR>
-    <esMX>Los loros son a los piratas lo que las zanahorias son a los mures.</esMX>
-    <esES>A los piratas les gusta el loro casi tanto como el oro.</esES>
-    <deDE>Papageien und Piraten sind einfach füreinander geschaffen.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Daren Bader</enUS>
+    <enUS>Zoltan &amp; Gabor</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"INFERNOOOOOOOOOO!" - Jaraxxus, Eredar Lord of the Burning Legion</enUS>
+    <zhTW>「煉獄火!!」-賈拉克瑟斯，燃燒軍團的埃雷達爾領主</zhTW>
+    <zhCN>“地狱火！”——拉克苏斯，燃烧军团的艾瑞达之王</zhCN>
+    <ruRU>«ПЕКЛО!» – Джараксус, эредарский повелитель Пылающего Легиона.</ruRU>
+    <ptBR>"INFERNOOOOOOOOOO!" - Jaraxxus, lorde Eredar da Legião Ardente!</ptBR>
+    <plPL>„INFERNOOOOO!” - cytat z Jaraxxusa, Lorda Płonącego Legionu</plPL>
+    <koKR>"지옥풀을 받아라!" - 불타는 군단의 에레다르 군주, 자락서스</koKR>
+    <itIT>"INFERNOOOOOOOOOO!" - Jaraxxus, Signore Eredar della Legione Infuocata</itIT>
+    <frFR>« FEU D’ENFER ! » - Jaraxxus, seigneur Érédar de la Légion ardente</frFR>
+    <esMX>"¡INFERNOOOOOOOOOO!". —Jaraxxus, señor Eredar de la Legión Ardiente</esMX>
+    <esES>"¡INFERNOOOOOOOOOO!" - Jaraxxus, señor eredar de la Legión Ardiente</esES>
+    <deDE>„INFERNOOOOOOOOOOOO!“ – Jaraxxus, Eredarlord der Brennenden Legion</deDE>
   </Tag>
   <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked when you have all the Pirates from the Expert Set.</enUS>
+    <enUS>Unlocked at Level 10.</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked when you have all the Golden Pirates from the Expert Set.</enUS>
+    <enUS>Unlocked at Level 48.</enUS>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="ff7a9db7-89dc-4667-92f5-017e023ac0c7" />
+  <Power definition="785b9f8c-ff86-40ef-9b38-2f060a062620" />
 </Entity>

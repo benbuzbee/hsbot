@@ -1,40 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CRED_16">
+<Entity version="2" CardID="CS2_179">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hamilton Chu</enUS>
-    <zhTW>Hamilton Chu</zhTW>
-    <zhCN>Hamilton Chu</zhCN>
-    <ruRU>Hamilton Chu</ruRU>
-    <ptBR>Hamilton Chu</ptBR>
-    <plPL>Hamilton Chu</plPL>
-    <koKR>해밀턴 추</koKR>
-    <itIT>Hamilton Chu</itIT>
-    <frFR>Hamilton Chu</frFR>
-    <esMX>Hamilton Chu</esMX>
-    <esES>Hamilton Chu</esES>
-    <deDE>Hamilton Chu</deDE>
+    <enUS>Sen'jin Shieldmasta</enUS>
+    <frFR>Maître-bouclier de Sen’jin</frFR>
+    <zhTW>森金禦盾大師</zhTW>
+    <zhCN>森金持盾卫士</zhCN>
+    <ruRU>Щитоносец Сен'джин</ruRU>
+    <ptBR>Mestre Escudeiro de Sen'jin</ptBR>
+    <plPL>Tarczowy z Sen'jinu</plPL>
+    <koKR>센진 방패대가</koKR>
+    <itIT>Guardiano di Sen'jin</itIT>
+    <esMX>Sen'jin Maestro de escudos</esMX>
+    <esES>Maestro de escudos Sen'jin</esES>
+    <deDE>Schildmeista von Sen'jin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="Atk" enumID="47" type="Number" value="9" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
   <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;i&gt;Was successfully NOT part of the problem! ...most of the time.&lt;/i&gt;</enUS>
-    <zhTW>在大部分的時間裡，能成功避免自己成為問題的一部分...</zhTW>
-    <zhCN>&lt;i&gt;问题不会出在我身上！...大部分时候是这样。&lt;/i&gt;</zhCN>
-    <ruRU>&lt;i&gt;Успешно избегает затруднений... большую часть времени.&lt;/i&gt; </ruRU>
-    <ptBR>&lt;i&gt;Foi bem-sucedido em NÃO ser parte do problema! ...na maior parte do tempo.&lt;/i&gt;</ptBR>
-    <plPL>&lt;i&gt;NIE BYŁ częścią problemu! ...Przez większość czasu.&lt;/i&gt;</plPL>
-    <koKR>&lt;i&gt;성공적으로 문제의 부분이 아니었지! ...대부분의 경우.&lt;/i&gt;</koKR>
-    <itIT>&lt;i&gt;Quasi sempre NON responsabile dei problemi!&lt;/i&gt;</itIT>
-    <frFR>&lt;i&gt;Ne fait PAS partie du problème... la plupart du temps.&lt;/i&gt;</frFR>
-    <esMX>&lt;i&gt;Consiguió NO ser parte del problema... casi, casi todo el tiempo.&lt;/i&gt;</esMX>
-    <esES>&lt;i&gt;¡Ha conseguido NO ser parte del problema! Bueno, la mayor parte del tiempo.&lt;/i&gt;</esES>
-    <deDE>&lt;i&gt;War erfolgreich NICHT Teil des Problems – meistens zumindest.&lt;/i&gt;</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Brian Despain</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Rogue and Warrior Level 59.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Sen'jin Villiage is nice, if you like trolls and dust.</enUS>
+    <zhTW>如果你不介意食人妖跟灰塵的話，森金村其實是個還不錯的地方。</zhTW>
+    <zhCN>如果你喜欢巨魔和沙尘的话，森金村还是个不错的地方。</zhCN>
+    <ruRU>Если вы любите пыль и троллей, вам понравится деревня Сен'джин.</ruRU>
+    <ptBR>A Aldeia Sen'jin é muito legal. Se você gosta de trolls e poeira.</ptBR>
+    <plPL>Wioska Sen'jin jest bardzo sympatyczna. O ile lubisz kurz i trolle.</plPL>
+    <koKR>센진 마을은 쾌적합니다. 트롤과 먼지만 감당할 수 있으면요.</koKR>
+    <itIT>Il Villaggio di Sen'jin è bello... se ti piacciono i Troll e la polvere.</itIT>
+    <frFR>Sen’jin est un chouette village, si vous aimez les trolls et vous vautrer dans la poussière.</frFR>
+    <esMX>El Poblado Sen'jin es un lindo lugar, siempre que te gusten los trols y el polvo.</esMX>
+    <esES>El Poblado Sen'jin es un éxito entre los fans de los trols y el polvo.</esES>
+    <deDE>Sen'jin ist ein grandioser Ort, wenn man Gefallen an Trollen und Staub findet.</deDE>
+  </Tag>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="57fb63a6-5259-468c-bf47-e74a08754c02" />
 </Entity>

@@ -1,67 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_046">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_354">
+  <MasterPower>4a36cd90-3bb4-4e19-a393-59f5ecad56ba</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bloodlust</enUS>
-    <frFR>Furie sanguinaire</frFR>
-    <zhTW>嗜血術</zhTW>
-    <zhCN>嗜血</zhCN>
-    <ruRU>Жажда крови</ruRU>
-    <ptBR>Sede de Sangue</ptBR>
-    <plPL>Żądza krwi</plPL>
-    <koKR>피의 욕망</koKR>
-    <itIT>Brama di Sangue</itIT>
-    <esMX>Ansia de sangre</esMX>
-    <esES>Ansia de sangre</esES>
-    <deDE>Kampfrausch</deDE>
+    <enUS>Lay on Hands</enUS>
+    <frFR>Imposition des mains</frFR>
+    <zhTW>聖療術</zhTW>
+    <zhCN>圣疗术</zhCN>
+    <ruRU>Возложение рук</ruRU>
+    <ptBR>Impor as Mãos</ptBR>
+    <plPL>Nakładanie rąk</plPL>
+    <koKR>신의 축복</koKR>
+    <itIT>Mano Celestiale</itIT>
+    <esMX>Imposición de manos</esMX>
+    <esES>Imposición de manos</esES>
+    <deDE>Handauflegung</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your minions +3 Attack this turn.</enUS>
-    <frFR>Confère +3 ATQ à vos serviteurs pendant ce tour.</frFR>
-    <zhTW>本回合賦予你的全部手下+3攻擊力。</zhTW>
-    <zhCN>在本回合中，使你的随从获得+3攻击力。</zhCN>
-    <ruRU>Ваши существа получают +3 к атаке до конца хода.</ruRU>
-    <ptBR>Conceda +3 de Ataque aos seus lacaios neste turno.</ptBR>
-    <plPL>Daj swoim stronnikom +3 do ataku w tej turze.</plPL>
-    <koKR>이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.</koKR>
-    <itIT>Fornisce +3 Attacco ai tuoi servitori in questo turno.</itIT>
-    <esMX>Otorga +3 de Ataque a tus esbirros en este turno.</esMX>
-    <esES>Otorga a tus esbirros +3 p. de ataque este turno.</esES>
-    <deDE>Verleiht Euren Dienern +3 Angriff in diesem Zug.</deDE>
+    <enUS>Restore #8 Health. Draw 3 cards.</enUS>
+    <frFR>Rend #8 |4(point,points) de vie. Vous piochez 3 cartes.</frFR>
+    <zhTW>恢復#8點生命值。抽3張牌。</zhTW>
+    <zhCN>恢复#8点生命值，抽3张牌。</zhCN>
+    <ruRU>Восстанавливает #8 ед. здоровья. Вы берете 3 карты.</ruRU>
+    <ptBR>Restaure #8 de Vida. Compre 3 cards.</ptBR>
+    <plPL>Przywróć #8 pkt. zdrowia. Dobierz 3 karty.</plPL>
+    <koKR>생명력을 #8 회복시킵니다. 카드를 3장 뽑습니다.</koKR>
+    <itIT>Rigenera #8 Salute. Pesca 3 carte.</itIT>
+    <esMX>Restaura #8 de Salud. Roba 3 cartas.</esMX>
+    <esES>Restaura #8 p. de salud. Roba 3 cartas.</esES>
+    <deDE>Stellt #8 Leben wieder her. Zieht 3 Karten.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Luca Zontini</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>blaarghghLLGHRHARAAHAHHH!!</enUS>
-    <zhTW>吧啦嘎嘎啦格拉哈嘎哈!</zhTW>
-    <zhCN>呜啊哇哇哇哇哇！</zhCN>
-    <ruRU>Блааааааарглрораогаглоаааа!</ruRU>
-    <ptBR>blaarghghLLGHRHARAAHAHHH!!</ptBR>
-    <plPL>blaarghghLLGHRHARAAHAHHH!!</plPL>
-    <koKR>우워오우아오어오우오우아우어오얽!</koKR>
-    <itIT>BlaarghghLLGHRHARAAHAHHH!!</itIT>
-    <frFR>BlaarghghLLGHRHARAAHAHHH !!!</frFR>
-    <esMX>¡blaarghghLLGHRHARAAHAHHH!</esMX>
-    <esES>¡¡BlaarghghLLGHRHARAAHAHHH!!</esES>
-    <deDE>blaarghghLLGHRHARAAHAHHH!!</deDE>
+    <enUS>A grammatically awkward life saver.</enUS>
+    <zhTW>聖騎士都覺得這個法術緊急時很好用。其他人都覺得這個法術很該死。</zhTW>
+    <zhCN>抓住最后一根救命稻草。</zhCN>
+    <ruRU>Мойте руки перед наложением!</ruRU>
+    <ptBR>Um salva-vidas gramaticalmente inadequado.</ptBR>
+    <plPL>Jedyny powód, dla którego warto mieć kapłana w drużynie.</plPL>
+    <koKR>당신의 목숨을 구해줄 단 한 장의 축복 같은 카드입니다.</koKR>
+    <itIT>Salva la vita quasi quanto Scudo Divino e Pietra del Ritorno.</itIT>
+    <frFR>Non mais oh, gardez vos mains dans vos poches !</frFR>
+    <esMX>Reiki para paladines</esMX>
+    <esES>Magia de paladín, en modo manual.</esES>
+    <deDE>Unangenehm bei Schweißhänden, aber dennoch hilfreich.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 2.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 40.</enUS>
-  </Tag>
-  <Power definition="f14b222a-94a7-4690-8a63-2d93b0050007" />
+  <Power definition="4a36cd90-3bb4-4e19-a393-59f5ecad56ba">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

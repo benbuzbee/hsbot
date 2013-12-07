@@ -1,66 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_089">
-  <MasterPower>e6c228a5-77cf-4ef5-add4-ed4c3197ce0f</MasterPower>
+<Entity version="2" CardID="EX1_383">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Holy Light</enUS>
-    <frFR>Lumière sacrée</frFR>
-    <zhTW>聖光術</zhTW>
-    <zhCN>圣光术</zhCN>
-    <ruRU>Свет небес </ruRU>
-    <ptBR>Luz Sagrada</ptBR>
-    <plPL>Święta światłość</plPL>
-    <koKR>성스러운 빛</koKR>
-    <itIT>Luce Sacra</itIT>
-    <esMX>Luz sagrada</esMX>
-    <esES>Luz Sagrada</esES>
-    <deDE>Heiliges Licht</deDE>
+    <enUS>Tirion Fordring</enUS>
+    <frFR>Tirion Fordring</frFR>
+    <zhTW>提里奧·弗丁</zhTW>
+    <zhCN>提里奥·弗丁</zhCN>
+    <ruRU>Тирион Фордринг</ruRU>
+    <ptBR>Tirion Fordring</ptBR>
+    <plPL>Tyrion Fordring</plPL>
+    <koKR>티리온 폴드링</koKR>
+    <itIT>Tirion Fordring</itIT>
+    <esMX>Tirion Vadín</esMX>
+    <esES>Tirion Vadín</esES>
+    <deDE>Tirion Fordring</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore #6 Health.</enUS>
-    <frFR>Rend #6 |4(point,points) de vie.</frFR>
-    <zhTW>恢復#6點生命值。</zhTW>
-    <zhCN>恢复#6点生命值。</zhCN>
-    <ruRU>Восстанавливает #6 ед. здоровья.</ruRU>
-    <ptBR>Restaure #6 de Vida.</ptBR>
-    <plPL>Przywróć #6 pkt. zdrowia.</plPL>
-    <koKR>생명력을 #6 회복시킵니다.</koKR>
-    <itIT>Rigenera #6 Salute.</itIT>
-    <esMX>Restaura #6 de Salud.</esMX>
-    <esES>Restaura #6 p. de salud.</esES>
-    <deDE>Stellt #6 Leben wieder her.</deDE>
+    <enUS>&lt;b&gt;Divine Shield&lt;/b&gt;. &lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Equip a 5/3 Ashbringer.</enUS>
+    <frFR>&lt;b&gt;Bouclier divin&lt;/b&gt;.\n&lt;b&gt;Provocation&lt;/b&gt;.\n&lt;b&gt;Râle d’agonie :&lt;/b&gt; vous équipe de Porte-cendres 5/3.</frFR>
+    <zhTW>&lt;b&gt;聖盾術&lt;/b&gt;。&lt;b&gt;嘲諷&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;裝備一把5/3的灰燼使者。</zhTW>
+    <zhCN>&lt;b&gt;圣盾&lt;/b&gt;，&lt;b&gt;嘲讽&lt;/b&gt;，&lt;b&gt;亡语：&lt;/b&gt;装备一把5/3的灰烬使者。</zhCN>
+    <ruRU>&lt;b&gt;Божественный щит&lt;/b&gt;. &lt;b&gt;Провокация&lt;/b&gt;. &lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы берете в руки Испепелитель 5/3.</ruRU>
+    <ptBR>&lt;b&gt;Escudo Divino&lt;/b&gt;. &lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último Suspiro:&lt;/b&gt; Equipe uma Crematória 5/3.</ptBR>
+    <plPL>&lt;b&gt;Boska tarcza&lt;/b&gt;. &lt;b&gt;Prowokacja&lt;/b&gt;. &lt;b&gt;Agonia:&lt;/b&gt; Wyposaża bohatera w Spopielacz 5/3.</plPL>
+    <koKR>&lt;b&gt;천상의 보호막&lt;/b&gt;. &lt;b&gt;도발&lt;/b&gt;. &lt;b&gt;죽음의 메아리:&lt;/b&gt; 5/3 파멸의 인도자를 장착합니다.</koKR>
+    <itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;. &lt;b&gt;Provocazione&lt;/b&gt;. &lt;b&gt;Rantolo di Morte:&lt;/b&gt; equipaggia una Brandicenere 5/3.</itIT>
+    <esMX>&lt;b&gt;Escudo divino&lt;/b&gt;. &lt;b&gt;Provocación&lt;/b&gt;. &lt;b&gt;Estertor:&lt;/b&gt; equipa una Crematoria 5/3.</esMX>
+    <esES>&lt;b&gt;Escudo divino&lt;/b&gt;. &lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último aliento:&lt;/b&gt; Equipa una Crematoria 5/3.</esES>
+    <deDE>&lt;b&gt;Gottesschild&lt;/b&gt;. &lt;b&gt;Spott&lt;/b&gt;. &lt;b&gt;Todesröcheln:&lt;/b&gt; Legt einen Aschenbringer (5/3) an.</deDE>
   </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Zoltan &amp; Gabor</enUS>
+    <enUS>Brom</enUS>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you are often bathed in Holy Light, you should consider wearing sunscreen.</enUS>
-    <zhTW>如果你經常沐浴在聖光之下，你可能得考慮擦點防曬油。</zhTW>
-    <zhCN>如果你经常暴露于圣光之下，你应该考虑随身带着防晒霜。</zhCN>
-    <ruRU>Если вы часто купаетесь в лучах света небес, не забывайте о солнцезащитных средствах.</ruRU>
-    <ptBR>Se você sempre se expõe à Luz Sagrada, deveria começar a pensar em usar um protetor solar.</ptBR>
-    <plPL>Jeśli często znajdujesz się pod wpływem świętej światłości, zainwestuj w krem z filtrem.</plPL>
-    <koKR>종종 성스러운 빛에 노출되신다면, 자외선 차단제를 바르세요.</koKR>
-    <itIT>Se sei frequentemente esposto alla Luce Sacra, usa una protezione solare.</itIT>
-    <frFR>L’abus de lumière sacrée peut nuire à la santé de votre peau.</frFR>
-    <esMX>Si vas a exponerte a la Luz sagrada, mejor que uses bronceador.</esMX>
-    <esES>Con tanta Luz Sagrada que invocan los paladines, es muy importante ponerse protección solar.</esES>
-    <deDE>Führt bei fortwährender Anwendung zu einem gesunden Teint.</deDE>
+    <enUS>If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.</enUS>
+    <zhTW>你沒聽過提里奧·弗丁主題曲的原因是...它根本不存在。</zhTW>
+    <zhCN>如果你还没听过《提里奥·弗丁主题曲》，那是因为它还没被谱写出来。</zhCN>
+    <ruRU>Если вы никогда не слышали музыкальную тему Тириона Фордринга, то это потому, что ее не существует.</ruRU>
+    <ptBR>Se você ainda não ouviu a música tema do Tirion Fordring, é porque ela não existe.</ptBR>
+    <plPL>Największym zaskoczeniem dla osób nieznających Tyriona jest fakt, że wcale nie jest karłem!</plPL>
+    <koKR>혹시 티리온 폴드링 테마 송 들어 보셨나요? 못 들어보셨다고요? 네, 그딴 건 없습니다.</koKR>
+    <itIT>Se non hai ancora sentito il tema musicale di Tirion Fordring è perché non esiste.</itIT>
+    <frFR>Il faut que nous tirions la sonnette d’alarme sur cette carte !</frFR>
+    <esMX>Si no has oído la oda a Tirion Vadín, es sencillamente porque no existe.</esMX>
+    <esES>Si no has oído la canción de Tirion, es porque no existe.</esES>
+    <deDE>Falls Ihr Tirion Fordrings Titelmelodie nicht kennt, dann liegt das daran, dass sie es nie in die Charts geschafft hat. Außer in Brill. Warum auch immer.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 20.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="e6c228a5-77cf-4ef5-add4-ed4c3197ce0f">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="2292fec4-f27a-4074-8ee6-594887ecffbe" />
+  <Power definition="b292817a-f990-4880-a3e7-48b2fbfdb239" />
+  <Power definition="369cc858-369c-43a4-afa7-f13408467e89" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

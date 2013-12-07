@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_037e">
+<Entity version="2" CardID="CS2_226e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Equipped</enUS>
-    <frFR>Équipé</frFR>
-    <zhTW>著裝</zhTW>
-    <zhCN>装备</zhCN>
-    <ruRU>Экипировка</ruRU>
-    <ptBR>Equipado</ptBR>
-    <plPL>Uzbrojenie</plPL>
-    <koKR>무장</koKR>
-    <itIT>Equipaggiato</itIT>
-    <esMX>Equipado</esMX>
-    <esES>Equipado</esES>
-    <deDE>Bewaffnet</deDE>
+    <enUS>Frostwolf Banner</enUS>
+    <zhTW>霜狼旌旗</zhTW>
+    <zhCN>霜狼军旗</zhCN>
+    <ruRU>Знамя Северного Волка</ruRU>
+    <ptBR>Estandarte dos Lobo do Gelo</ptBR>
+    <plPL>Sztandar Mroźnych Wilków</plPL>
+    <koKR>서리늑대 깃발</koKR>
+    <itIT>Stendardo dei Lupi Bianchi</itIT>
+    <frFR>Bannière loup-de-givre</frFR>
+    <esMX>Estandarte Lobo Gélido</esMX>
+    <esES>Estandarte Lobo Gélido</esES>
+    <deDE>Banner der Frostwölfe</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Increased Attack.</enUS>
-    <frFR>Attaque augmentée.</frFR>
-    <zhTW>攻擊力提高。</zhTW>
-    <zhCN>攻击力增加。</zhCN>
-    <ruRU>Атака увеличена.</ruRU>
-    <ptBR>Ataque aumentado.</ptBR>
-    <plPL>Zwiększony atak.</plPL>
-    <koKR>공격력 증가</koKR>
-    <itIT>Attacco aumentato.</itIT>
-    <esMX>Ataque aumentado.</esMX>
-    <esES>Ataque aumentado.</esES>
-    <deDE>Erhöhter Angriff.</deDE>
+    <enUS>Increased stats.</enUS>
+    <zhTW>屬性提高。</zhTW>
+    <zhCN>属性值提高。</zhCN>
+    <ruRU>Характеристики увеличены.</ruRU>
+    <ptBR>Atributos aumentados.</ptBR>
+    <plPL>Zwiększone statystyki.</plPL>
+    <koKR>능력치 상승</koKR>
+    <itIT>Statistiche aumentate.</itIT>
+    <frFR>Caractéristiques augmentées.</frFR>
+    <esMX>Estadísticas aumentadas.</esMX>
+    <esES>Estadísticas aumentadas.</esES>
+    <deDE>Erhöhte Werte.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="0" />
-  <Power definition="861c83aa-4069-48b1-b8eb-80194b8abfae" />
+  <Power definition="4f170e6a-b1c5-40a4-a079-7bbf5a5e2408" />
 </Entity>

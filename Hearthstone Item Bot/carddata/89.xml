@@ -1,71 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_076">
-  <MasterPower>2223ff8e-c651-42c7-914e-d722a0130103</MasterPower>
+<Entity version="2" CardID="EX1_006">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Assassinate</enUS>
-    <frFR>Assassiner</frFR>
-    <zhTW>暗殺</zhTW>
-    <zhCN>刺杀</zhCN>
-    <ruRU>Ликвидация</ruRU>
-    <ptBR>Assassinar</ptBR>
-    <plPL>Skrytobójstwo</plPL>
-    <koKR>암살</koKR>
-    <itIT>Assassinio</itIT>
-    <esMX>Asesinato</esMX>
-    <esES>Asesinato</esES>
-    <deDE>Attentat</deDE>
+    <enUS>Alarm-o-Bot</enUS>
+    <frFR>Robot d’alarme</frFR>
+    <zhTW>警報機器人</zhTW>
+    <zhCN>报警机器人</zhCN>
+    <ruRU>Тревого-бот</ruRU>
+    <ptBR>Alarmobô</ptBR>
+    <plPL>Alarmobot</plPL>
+    <koKR>노움 자동경보기</koKR>
+    <itIT>Allarm-Bot</itIT>
+    <esMX>Roboalarma</esMX>
+    <esES>Roboalarma</esES>
+    <deDE>Alarm-o-Bot</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy an enemy minion.</enUS>
-    <frFR>Détruit un serviteur adverse.</frFR>
-    <zhTW>摧毀一個敵方手下。</zhTW>
-    <zhCN>消灭一个敌方随从。</zhCN>
-    <ruRU>Уничтожает выбранное существо противника.</ruRU>
-    <ptBR>Destrua um lacaio inimigo.</ptBR>
-    <plPL>Zniszcz wrogiego stronnika.</plPL>
-    <koKR>적 하수인을 처치합니다.</koKR>
-    <itIT>Distrugge un servitore nemico.</itIT>
-    <esMX>Destruye un esbirro enemigo.</esMX>
-    <esES>Destruye a un esbirro enemigo.</esES>
-    <deDE>Vernichtet einen feindlichen Diener.</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>At the start of your turn, swap this minion with a random one in your hand.</enUS>
+    <frFR>Au début de votre tour, échange ce serviteur avec un autre choisi au hasard dans votre main.</frFR>
+    <zhTW>在你的回合開始時，這個手下會與你手上隨機一個手下交換。</zhTW>
+    <zhCN>在你的回合开始时，随机将你的手牌中的一张随从牌与该随从交换。</zhCN>
+    <ruRU>В начале вашего хода это существо меняется местами со случайным существом из вашей руки.</ruRU>
+    <ptBR>No início do turno, troque este lacaio por um lacaio aleatório da sua mão.</ptBR>
+    <plPL>Na początku swojej tury zamień tego stronnika z innym, wybranym losowo z twojej ręki.</plPL>
+    <koKR>내 턴이 시작될 때, 이 하수인이 내 손에 있는 다른 무작위 하수인과 교체됩니다.</koKR>
+    <itIT>All'inizio del tuo turno, scambia questo servitore con un altro a caso nella tua mano.</itIT>
+    <esMX>Al comienzo de tu turno, cambia este esbirro por uno aleatorio de tu mano.</esMX>
+    <esES>Al comienzo de tu turno, cambia a este esbirro por otro al azar que tengas en tu mano.</esES>
+    <deDE>Tauscht zu Beginn Eures Zuges diesen Diener gegen einen zufälligen Diener auf Eurer Hand aus.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
+    <enUS>Sean O’Daniels</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you don't want to be assassinated, move to the Barrens and change your name. Good luck!</enUS>
-    <zhTW>如果你不想被暗殺，搬去貧瘠之地然後改名換姓。祝你好運!</zhTW>
-    <zhCN>要是你不想被人暗杀，躲到贫瘠之地，然后隐姓埋名。祝你好运！</zhCN>
-    <ruRU>Если не хотите, чтобы вас ликвидировали, бегите в Степи и смените имя. Удачи!</ruRU>
-    <ptBR>Se você não quer ser assassinado, mude-se para os Sertões e troque seu nome. Boa sorte!</ptBR>
-    <plPL>Jeśli nie chcesz paść ofiarą skrytobójców, przenieś się na Pustkowia i zmień imię. Powodzenia!</plPL>
-    <koKR>암살당하기 싫다고요? 이름을 바꾸고 불모의 땅으로 가세요. 행운을 빕니다!</koKR>
-    <itIT>Se non vuoi farti assassinare è meglio se ti trasferisci nelle Savane e cambi nome. Buona fortuna!</itIT>
-    <frFR>Si vous ne voulez pas être assassiné, fuyez dans les Tarides et changez de nom. Bonne chance !</frFR>
-    <esMX>Si no quieres que te asesinen, huye hacia los Baldíos y cámbiate el nombre. ¡Buena suerte!</esMX>
-    <esES>Si no quieres que te asesinen, múdate a Los Baldíos y cambia de nombre. ¡Buena suerte!</esES>
-    <deDE>Über Risiken und Nebenwirkungen braucht Ihr Euch keine Gedanken zu machen. </deDE>
+    <enUS>WARNING.  WARNING.  WARNING.</enUS>
+    <zhTW>警告。警告。警告。</zhTW>
+    <zhCN>警报。警报。警报。</zhCN>
+    <ruRU>ТРЕВОГА, ТРЕВОГА, ТРЕВОГА.</ruRU>
+    <ptBR>ALERTA. ALERTA. ALERTA.</ptBR>
+    <plPL>UWAGA. UWAGA. UWAGA.</plPL>
+    <koKR>삐뽀. 삐뽀. 삐뽀.</koKR>
+    <itIT>PERICOLO. PERICOLO. PERICOLO.</itIT>
+    <frFR>ALERTE. ALERTE. ALERTE.</frFR>
+    <esMX>ADVERTENCIA. ADVERTENCIA. ADVERTENCIA.</esMX>
+    <esES>ALERTA. ALERTA. ALERTA.</esES>
+    <deDE>WARNUNG. WARNUNG. WARNUNG.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="2223ff8e-c651-42c7-914e-d722a0130103">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="3" param="" />
-  </Power>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="e1c57125-ea5f-43f1-8d9a-cbdf5c894e38" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
+    <enUS>Alarm-O-Bot alerted a minion in his owner's hand, and put it onto the battlefield!</enUS>
+    <frFR>Le robot d’alarme a alerté un serviteur dans la main de son propriétaire et l’a placé sur le champ de bataille !</frFR>
+    <zhTW>警報機器人驚動了他主人手中的手下，並將它移到戰場!</zhTW>
+    <zhCN>报警机器人警告了其拥有者手牌中的一个随从，并使其加入战场。</zhCN>
+    <ruRU>Тревого-бот обнаружил существо в руке владельца и вывел его на поле боя!</ruRU>
+    <ptBR>Alarmobô alertou um lacaio na mão do dono e o colocou no campo de batalha!</ptBR>
+    <plPL>Alarmobot przyzwał stronnika z ręki właściciela na pole bitwy!</plPL>
+    <koKR>노움 자동경보기가 주인의 손에 있는 하수인을 놀라게 해 전장으로 내보냄!</koKR>
+    <itIT>L'Allarm-Bot ha allertato un servitore nella mano del suo proprietario e lo ha richiamato sul campo di battaglia!</itIT>
+    <esMX>¡El Roboalarma alertó a un esbirro de la mano de su propietario y lo trajo al campo de batalla!</esMX>
+    <esES>¡La Roboalarma ha alertado a un esbirro de la mano de su dueño y lo ha sacado al campo de batalla!</esES>
+    <deDE>Der Alarm-o-Bot hat einen Diener auf der Hand seines Besitzers alarmiert und ihn auf das Schlachtfeld geholt!</deDE>
+  </TriggeredPowerHistoryInfo>
 </Entity>

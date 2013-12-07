@@ -1,64 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_562">
-  <MasterPower>cde7eb0e-6173-490f-8901-5799cd878305</MasterPower>
+<Entity version="2" CardID="CS2_033">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Onyxia</enUS>
-    <frFR>Onyxia</frFR>
-    <zhTW>奧妮克希亞</zhTW>
-    <zhCN>奥妮克希亚</zhCN>
-    <ruRU>Ониксия</ruRU>
-    <ptBR>Onyxia</ptBR>
-    <plPL>Onyxia</plPL>
-    <koKR>오닉시아</koKR>
-    <itIT>Onyxia</itIT>
-    <esMX>Onyxia</esMX>
-    <esES>Onyxia</esES>
-    <deDE>Onyxia</deDE>
+    <enUS>Water Elemental</enUS>
+    <frFR>Élémentaire d’eau</frFR>
+    <zhTW>水元素</zhTW>
+    <zhCN>水元素</zhCN>
+    <ruRU>Элементаль воды</ruRU>
+    <ptBR>Elemental da Água</ptBR>
+    <plPL>Żywiołak wody</plPL>
+    <koKR>물의 정령</koKR>
+    <itIT>Elementale dell'Acqua</itIT>
+    <esMX>Elemental de agua</esMX>
+    <esES>Elemental de agua</esES>
+    <deDE>Wasserelementar</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Frostbolt</enUS>
+  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Freeze&lt;/b&gt; any character damaged by this minion.</enUS>
+    <frFR>&lt;b&gt;Gèle&lt;/b&gt; tout personnage blessé par ce serviteur.</frFR>
+    <zhTW>&lt;b&gt;凍結&lt;/b&gt;任何被此手下造成傷害的角色。</zhTW>
+    <zhCN>&lt;b&gt;冻结&lt;/b&gt;任何受到水元素伤害的随从。</zhCN>
+    <ruRU> &lt;b&gt;Замораживает&lt;/b&gt; любого персонажа, которому наносит урон.</ruRU>
+    <ptBR>&lt;b&gt;Congele&lt;/b&gt; qualquer personagem que receber dano deste lacaio.</ptBR>
+    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; każdą postać zranioną przez tego stronnika.</plPL>
+    <koKR>이 하수인에게 피해를 입은 캐릭터는 &lt;b&gt;빙결&lt;/b&gt; 상태가 됩니다.</koKR>
+    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; ai personaggi che danneggia.</itIT>
+    <esMX>&lt;b&gt;Congela&lt;/b&gt; a cualquier personaje dañado por este esbirro.</esMX>
+    <esES>&lt;b&gt;Congela&lt;/b&gt; a cualquier personaje dañado por este esbirro.</esES>
+    <deDE>&lt;b&gt;Friert&lt;/b&gt; jeden Charakter ein, der von diesem Diener verletzt wurde.</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque des dragonnets 1/1 jusqu’à remplir votre côté du plateau.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚1/1幼龍直到你戰場的位置全滿。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤数个1/1的雏龙，直到你的随从数量达到上限。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на вашу сторону дракончиков 1/1, пока поле боя не заполнится.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque Dragonetes 1/1 até seu lado do campo de batalha estar cheio.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pisklęta 1/1, aż zapełnią twoje pole bitwy.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca Draghetti 1/1 fino a riempire il tuo lato del campo di battaglia.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca Crías 1/1 hasta que tu lado del campo de batalla esté completo.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca crías 1/1 hasta que tu lado del campo de batalla esté lleno.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft Welpen (1/1) herbei, bis Eure Seite des Schlachtfelds voll ist.</deDE>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Don't summon a water elemental at a party.  It'll dampen the mood.</enUS>
+    <zhTW>不要在派對上召喚水元素。氣氛會降到冰點。</zhTW>
+    <zhCN>千万别在晚会上召唤水元素。它会把一切都搞砸的。</zhCN>
+    <ruRU>Не призывайте водных элементалей на вечеринку – они подмочат вам репутацию.</ruRU>
+    <ptBR>Não evoque um elemental da água em uma festa. Vai ser um balde de água fria no pessoal.</ptBR>
+    <plPL>Nie przywołuj żywiołaka wody do baru. Lubi rozcieńczać drinki.</plPL>
+    <koKR>물의 정령을 파티에 초대하면, 찬물 같은 걸 끼얹나?</koKR>
+    <itIT>Mai evocarlo vicino a un albero di limoni. Un Elementale della Limonata è molto meno efficiente.</itIT>
+    <frFR>Avec l’élémentaire d’eau, tout baigne !</frFR>
+    <esMX>No invites a un elemental de agua a tu cumpleaños. Te aguará la fiesta.</esMX>
+    <esES>Perfecto para aguar fiestas.</esES>
+    <deDE>Beschwört niemals ein Elementar dieser Art auf einer Party, sonst fällt sie buchstäblich ins Wasser.</deDE>
   </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dany Orizio</enUS>
+    <enUS>John Avon</enUS>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Onyxia long manipulated the Stormwind Court by disguising herself as Lady Katrana Prestor.   You would have thought that the giant wings and scales would have been a giveaway.</enUS>
-    <zhTW>奧妮克希亞化身為卡特拉娜·普瑞斯托女士，操縱了暴風城上層社會很長的時間。你會以為她巨大的翅膀跟鱗片應該會洩漏她的真實身分才對。</zhTW>
-    <zhCN>伪装成女伯爵卡特拉娜·普瑞斯托，奥妮克希亚长期控制着暴风城议会。你可能会想，一定是她的大翅膀和鳞片让她漏出了马脚。</zhCN>
-    <ruRU>Давным-давно Ониксия плела интриги при королевском дворе Штормграда, выдавая себя за леди Катрану Престор. И как только ей удавалось прятать когтистые лапы и огромные крылья?</ruRU>
-    <ptBR>Onyxia manipulou por muito tempo a Corte de Ventobravo disfarçada de Lady Katrana Prestor. Era de se imaginar que as asas e escamas gigantescas seriam notadas, não?</ptBR>
-    <plPL>Onyxia przez długi czas przebywała na Dworze Wichrogrodu pod przebraniem Lady Katrany Prestor. A wydawałoby się, że zdradzą ją wielkie skrzydła i łuski.</plPL>
-    <koKR>오닉시아는 여군주 카트라나 프레스톨로 변신한 채 오랫동안 스톰윈드 의회를 조종했습니다. 저 커다란 날개와 비늘을 보면 누구라도 알아챘을 거라고 생각하시겠죠?</koKR>
-    <itIT>Onyxia ha manipolato a lungo la Corte di Roccavento spacciandosi per Dama Katrana Prestor. Indubbiamente è riuscita a nascondere bene le scaglie e le ali giganti.</itIT>
-    <frFR>Onyxia a longtemps manipulé la cour de Hurlevent en se faisant passer pour dame Katrana Prestor. Les ailes immenses et les écailles auraient dû leur mettre la puce à l’oreille.</frFR>
-    <esMX>Durante mucho tiempo, Onyxia manipuló a la Corte de Ventormenta disfrazándose de Lady Katrana Prestor. Aparentemente, nadie reparó en las alas gigantes y las escamas.</esMX>
-    <esES>Onyxia manipuló a la corte de Ventormenta durante mucho tiempo disfrazada de Lady Katrana Prestor. La gente debería haber sospechado de las alas gigantes y el aliento de fuego.</esES>
-    <deDE>Onyxia manipulierte lange Zeit die Geschicke von Sturmwind, indem sie sich als Lady Katrana Prestor tarnte. Man hätte meinen können, dass die enormen Schwingen und Schuppen jemanden ins Grübeln hätten bringen sollen.</deDE>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="cde7eb0e-6173-490f-8901-5799cd878305" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 46.</enUS>
+  </Tag>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="9eba5532-bfc5-4c4f-bf7f-98d33a819e7c" />
+  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
 </Entity>

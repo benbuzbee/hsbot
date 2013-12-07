@@ -1,62 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_578">
-  <MasterPower>df2d11fa-bec4-4185-960b-fe0045645279</MasterPower>
+<Entity version="2" CardID="CS2_026">
+  <MasterPower>cb0b6a1a-8c22-4904-a480-39acafd24d3d</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Savagery</enUS>
-    <frFR>Sauvagerie</frFR>
-    <zhTW>兇蠻</zhTW>
-    <zhCN>野蛮之击</zhCN>
-    <ruRU>Дикость</ruRU>
-    <ptBR>Selvageria</ptBR>
-    <plPL>Dzikość</plPL>
-    <koKR>야생성</koKR>
-    <itIT>Ferocia</itIT>
-    <esMX>Salvajismo</esMX>
-    <esES>Salvajismo</esES>
-    <deDE>Unbändigkeit</deDE>
+    <enUS>Frost Nova</enUS>
+    <frFR>Nova de givre</frFR>
+    <zhTW>冰霜新星</zhTW>
+    <zhCN>冰霜新星</zhCN>
+    <ruRU>Кольцо льда</ruRU>
+    <ptBR>Nova Congelante</ptBR>
+    <plPL>Rozbłysk mrozu</plPL>
+    <koKR>얼음 회오리</koKR>
+    <itIT>Esplosione Gelida</itIT>
+    <esMX>Nova de escarcha</esMX>
+    <esES>Nova de Escarcha</esES>
+    <deDE>Frostnova</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal damage equal to your hero's Attack to a minion.</enUS>
-    <frFR>Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à un serviteur adverse.</frFR>
-    <zhTW>對一個敵方手下造成等同於你英雄攻擊力的傷害。</zhTW>
-    <zhCN>对一个随从造成等同于你的英雄攻击力的伤害。</zhCN>
-    <ruRU>Наносит существу противника урон, равный силе атаки вашего героя.</ruRU>
-    <ptBR>Cause dano equivalente ao Ataque do seu herói a um lacaio.</ptBR>
-    <plPL>Zadaj stronnikowi obrażenia równe atakowi twojego bohatera.</plPL>
-    <koKR>내 영웅의 공격력만큼 하수인에게 피해를 줍니다.</koKR>
-    <itIT>Infligge danni pari all'Attacco del tuo eroe a un servitore.</itIT>
-    <esMX>Inflige daño equivalente al Ataque de tu héroe contra un esbirro.</esMX>
-    <esES>Inflige a un esbirro un daño equivalente al ataque de tu héroe.</esES>
-    <deDE>Fügt einem Diener Schaden zu, der dem Angriff Eures Helden entspricht.</deDE>
+    <enUS>&lt;b&gt;Freeze&lt;/b&gt; all enemy minions.</enUS>
+    <frFR>&lt;b&gt;Gèle&lt;/b&gt; tous les serviteurs adverses.</frFR>
+    <zhTW>&lt;b&gt;凍結&lt;/b&gt;全部敵方手下。</zhTW>
+    <zhCN>&lt;b&gt;冻结&lt;/b&gt;所有敌方随从。</zhCN>
+    <ruRU>&lt;b&gt;Замораживает&lt;/b&gt; всех существ противника.</ruRU>
+    <ptBR>&lt;b&gt;Congele&lt;/b&gt; todos os lacaios inimigos.</ptBR>
+    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; wszystkich wrogich stronników.</plPL>
+    <koKR>모든 적 하수인을 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
+    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; a tutti i servitori nemici.</itIT>
+    <esMX>&lt;b&gt;Congela&lt;/b&gt; a todos los esbirros enemigos.</esMX>
+    <esES>&lt;b&gt;Congela&lt;/b&gt; a todos los esbirros enemigos.</esES>
+    <deDE>&lt;b&gt;Friert&lt;/b&gt; alle feindlichen Diener ein.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Rapoza</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.</enUS>
-    <zhTW>有些德魯伊很兇蠻是事實，但是其他的德魯伊還是很喜歡喝杯好茶享受寧靜的時光。</zhTW>
-    <zhCN>确实有些德鲁伊野性十足，但仍有些喜欢在恬静的时刻品上一壶好茶。</zhCN>
-    <ruRU>Конечно, встречаются и дикие друиды, но есть и такие, которым больше по душе чашечка чая в спокойной обстановке.</ruRU>
-    <ptBR>É verdade que alguns druidas são selvagens, mas outros ainda apreciam um momento de paz e um bom chá.</ptBR>
-    <plPL>To prawda, że niektórzy druidzi są dość dzicy, ale inni lubią posiedzieć w ciszy i wypić filiżankę herbatki.</plPL>
-    <koKR>일부 드루이드들이 야생성을 보이는 건 사실이나, 대부분은 조용한 곳에서 차 한잔하는 것을 즐긴답니다.</koKR>
-    <itIT>È vero che alcuni Druidi sono selvaggi, ma altri adorano godersi un po' di pace e sorseggiare un buon tè.</itIT>
-    <frFR>Même le plus timide des druides se transforme en bête sauvage quand on lui prend son miel.</frFR>
-    <esMX>Es cierto, algunos druidas son salvajes, pero también hay otros que disfrutan los momentos de paz con una taza de té.</esMX>
-    <esES>Es cierto que algunos druidas reaccionan así cuando ven una cesta de pícnic, pero otros saben apreciar la tranquilidad y una buena taza de té.</esES>
-    <deDE>Es stimmt schon, dass einige Druiden ganz schön wild sind, aber es gibt auch andere, die gern in Ruhe eine Tasse Tee trinken.</deDE>
+    <enUS>Hey man, that's cold.  Literally and metaphorically.</enUS>
+    <zhTW>這真的很冷。不管以字面或含意而言。</zhTW>
+    <zhCN>嘿，伙计，这会冻死你的。我是说真的。</zhCN>
+    <ruRU>Тепло ли тебе, девица? Тепло ли тебе, красная?</ruRU>
+    <ptBR>Isso é frio, hein? Literal e metaforicamente.</ptBR>
+    <plPL>Zimno wszędzie, mroźno wszędzie, co to będzie, co to będzie.</plPL>
+    <koKR>주의: 연속으로 쓰면 따귀를 맞을지도 모름</koKR>
+    <itIT>Accidenti che freddura. Letteralmente e metaforicamente.</itIT>
+    <frFR>Ça a jeté un froid. Métaphoriquement et littéralement.</frFR>
+    <esMX>Me dejas helado. Literal y metafóricamente hablando.</esMX>
+    <esES>Demuestras un comportamiento muy frío.</esES>
+    <deDE>Friert außerdem die Gesichtszüge des Gegners ein.</deDE>
   </Tag>
-  <Power definition="df2d11fa-bec4-4185-960b-fe0045645279">
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Josh Tallman</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 44.</enUS>
+  </Tag>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="cb0b6a1a-8c22-4904-a480-39acafd24d3d" />
 </Entity>

@@ -1,62 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_304">
-  <MasterPower>5c1e2577-5995-40a0-9b89-533372e84877</MasterPower>
+<Entity version="2" CardID="TU4f_004">
+  <MasterPower>db37c987-f1fc-4260-bbe2-ced6d207ea29</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Void Terror</enUS>
-    <frFR>Terreur du Vide</frFR>
-    <zhTW>虛無恐獸</zhTW>
-    <zhCN>虚空恐魔</zhCN>
-    <ruRU>Ужасень Бездны</ruRU>
-    <ptBR>Terror do Caos</ptBR>
-    <plPL>Postrach Pustki</plPL>
-    <koKR>공허의 괴물</koKR>
-    <itIT>Terrore del Vuoto</itIT>
-    <esMX>Terror del vacío</esMX>
-    <esES>Terror del vacío</esES>
-    <deDE>Schrecken der Leere</deDE>
+    <enUS>Legacy of the Emperor</enUS>
+    <frFR>Héritage de l’Empereur</frFR>
+    <zhTW>御傳心法</zhTW>
+    <zhCN>帝王传承</zhCN>
+    <ruRU>Наследие императора</ruRU>
+    <ptBR>Legado do Imperador</ptBR>
+    <plPL>Dziedzictwo Cesarza</plPL>
+    <koKR>황제의 유산</koKR>
+    <itIT>Eredità dell'Imperatore</itIT>
+    <esMX>Legado del Emperador</esMX>
+    <esES>Legado del Emperador</esES>
+    <deDE>Vermächtnis des Kaisers</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy the minions on either side of this minion and gain their Attack and Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit les serviteurs adjacents et gagne leurs points d’Attaque et de Vie.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀這個手下兩邊的手下，並獲得他們的攻擊力及生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭该随从两侧的随从，并获得他们的攻击力和生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает существа по обе стороны от себя и получает их атаку и здоровье.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua os lacaios dos dois lados deste e receba o Ataque e a Vida deles.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz sąsiadujących z nim stronników, a zyska ich atak oraz zdrowie.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il Terrore del Vuoto distrugge i servitori adiacenti e ne ottiene l'Attacco e la Salute.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye los esbirros que están a ambos lados de este esbirro y obtiene el Ataque y la Salud de los esbirros destruidos.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a los esbirros adyacentes y obtiene su ataque y salud.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet die benachbarten Diener und verleiht ihm deren Angriff und Leben.</deDE>
+    <enUS>Give your minions +2/+2. &lt;i&gt;(+2 Attack/+2 Health)&lt;/i&gt;</enUS>
+    <frFR>Confère à vos serviteurs +2/+2. &lt;i&gt;(+2 ATQ / +2 PV)&lt;/i&gt;</frFR>
+    <zhTW>賦予你的手下+2/+2。&lt;i&gt;(+2攻擊力/+2生命值)&lt;/i&gt;</zhTW>
+    <zhCN>使你的随从获得+2/+2。&lt;i&gt;（+2攻击力/+2生命值）&lt;/i&gt;</zhCN>
+    <ruRU>Ваши существа получают +2/+2. &lt;i&gt;(+2 к атаке/+2 к здоровью)&lt;/i&gt;</ruRU>
+    <ptBR>Conceda +2/+2 aos seus lacaios. &lt;i&gt;(+2 de Ataque/+2 de Vida)&lt;/i&gt;</ptBR>
+    <plPL>Daj swoim stronnikom +2/+2. &lt;i&gt;(+2 do ataku/+2 do zdrowia)&lt;/i&gt;</plPL>
+    <koKR>내 하수인들에게 +2/+2를 부여합니다. &lt;i&gt;(공격력 +2/생명력 +2)&lt;/i&gt;</koKR>
+    <itIT>Fornisce +2/+2 ai tuoi servitori.</itIT>
+    <esMX>Otorga +2/+2 a tus esbirros. &lt;i&gt;(+2 de Ataque/+2 de Salud)&lt;/i&gt;</esMX>
+    <esES>Otorga +2/+2 a tus esbirros. &lt;i&gt;(+2 p. de ataque/+2 p. de salud)&lt;/i&gt;</esES>
+    <deDE>Verleiht Euren Dienern +2/+2. &lt;i&gt;(+2 Angriff/+2 Leben)&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="15" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you put this into your deck, you WILL lose the trust of your other minions.</enUS>
-    <zhTW>如果你把這張放進套牌裡，你絕對會失去其他手下的信任。</zhTW>
-    <zhCN>如果你把这张牌放到你的套牌中，你就会失去其他随从对你的信任。</zhCN>
-    <ruRU>Если вы положите эту карту в колоду, ваши существа перестанут вам доверять.</ruRU>
-    <ptBR>Se você colocar isso no seu deck, você VAI perder a confiança dos seus outros lacaios.</ptBR>
-    <plPL>Jeśli włożysz tę kartę do talii, STRACISZ zaufanie wszystkich swoich stronników.</plPL>
-    <koKR>이 카드를 덱에 넣으면 다른 하수인들의 신뢰를 잃습니다.</koKR>
-    <itIT>Se lo aggiungerai al tuo mazzo, aspettati di perdere la fiducia degli altri tuoi servitori.</itIT>
-    <frFR>Si vous l’ajoutez à votre deck, vous perdrez la confiance de vos autres serviteurs.</frFR>
-    <esMX>Si pones esta carta en tu mazo, sin dudas PERDERÁS la confianza del resto de tus esbirros.</esMX>
-    <esES>Si añades esto a tu mazo, perderás la confianza de tus otros esbirros.</esES>
-    <deDE>Wenn er auftaucht, herrscht um ihn herum gähnende Leere.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="5c1e2577-5995-40a0-9b89-533372e84877" />
+  <Power definition="db37c987-f1fc-4260-bbe2-ced6d207ea29" />
 </Entity>

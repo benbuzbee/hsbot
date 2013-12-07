@@ -1,63 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_549">
-  <MasterPower>ec001c18-5106-4cd3-a9c3-fb35a1153440</MasterPower>
+<Entity version="2" CardID="EX1_091">
+  <MasterPower>857037b7-59bc-4664-8730-4afc2474d7d4</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bestial Wrath</enUS>
-    <frFR>Courroux bestial</frFR>
-    <zhTW>狂野怒火</zhTW>
-    <zhCN>狂野怒火</zhCN>
-    <ruRU>Звериный гнев</ruRU>
-    <ptBR>Ira Bestial</ptBR>
-    <plPL>Bestialski gniew</plPL>
-    <koKR>야수의 격노</koKR>
-    <itIT>Ira Bestiale</itIT>
-    <esMX>Cólera de las bestias</esMX>
-    <esES>Cólera de las bestias</esES>
-    <deDE>Zorn des Wildtiers</deDE>
+    <enUS>Cabal Shadow Priest</enUS>
+    <frFR>Prêtresse de la Cabale</frFR>
+    <zhTW>卡巴暗影牧師</zhTW>
+    <zhCN>秘教暗影祭司</zhCN>
+    <ruRU>Темная жрица</ruRU>
+    <ptBR>Sacerdotisa Sombria do Conluio</ptBR>
+    <plPL>Kabalistka cieni</plPL>
+    <koKR>비밀결사단 어둠사제</koKR>
+    <itIT>Sacerdotessa dell'Ombra</itIT>
+    <esMX>Sacerdotisa de la cábala</esMX>
+    <esES>Sacerdotisa de la Cábala</esES>
+    <deDE>Kabaleschattenpriesterin</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a Beast +2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
-    <frFR>Confère +2 ATQ et l’effet &lt;b&gt;Insensible&lt;/b&gt; à une Bête pendant ce tour.</frFR>
-    <zhTW>賦予一隻野獸+2攻擊力，及本回合&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
-    <zhCN>在本回合中，使一只野兽获得+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>Выбранный зверь получает +2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
-    <ptBR>Conceda +2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; a uma Fera neste turno.</ptBR>
-    <plPL>W tej turze daj Bestii +2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
-    <koKR>이번 턴에 야수에게 공격력 +2와 &lt;b&gt;피해 면역&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce +2 Attacco e &lt;b&gt;Immune&lt;/b&gt; a una Bestia in questo turno.</itIT>
-    <esMX>Otorga +2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; a una Bestia en este turno.</esMX>
-    <esES>Otorga +2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; a una bestia este turno.</esES>
-    <deDE>Verleiht einem Wildtier +2 Angriff und &lt;b&gt;Immunität&lt;/b&gt; in diesem Zug.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Take control of an enemy minion that has 2 or less Attack.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; prend le contrôle d’un serviteur adverse avec 2 en Attaque ou moins.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;控制一個攻擊力在2點以下的敵方手下。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;获得一个攻击力小于或等于2的敌方随从的控制权。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы получаете контроль над существом противника с атакой 2 или меньше.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Assuma o controle de um lacaio inimigo que tenha 2 ou menos de Ataque.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przejmij kontrolę nad wrogim stronnikiem z atakiem 2 lub mniejszym.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 공격력 2 이하인 적 하수인 1마리를 우리편으로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; prendi il controllo di un servitore nemico con Attacco pari a 2 o inferiore.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; toma el control de un esbirro enemigo que tenga 2 de Ataque o menos.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Toma el control de un esbirro enemigo con 2 p. de ataque o menos.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Übernehmt die Kontrolle über einen feindlichen Diener mit max. 2 Angriff.</deDE>
   </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Steal a minion that has 2 or less Attack.</enUS>
+    <frFR>Vole un serviteur qui a 2 Attaque ou moins.</frFR>
+    <zhTW>偷取一個攻擊力在2點以下的手下。</zhTW>
+    <zhCN>偷取一个攻击力小于或等于2的敌方随从。</zhCN>
+    <ruRU>Украсть существо с атакой 2 или меньше</ruRU>
+    <ptBR>Roube um lacaio que tenha 2 ou menos de Ataque.</ptBR>
+    <plPL>Przejmij wrogiego stronnika z atakiem 2 lub mniejszym.</plPL>
+    <koKR>공격력 2 이하 하수인 훔치기</koKR>
+    <itIT>Ruba un servitore con Attacco pari a 2 o inferiore.</itIT>
+    <esMX>Toma control de un esbirro que tenga 2 de Ataque o menos.</esMX>
+    <esES>Se adueña de un esbirro con 2 p. de ataque o menos.</esES>
+    <deDE>Stehlt einen Diener mit max. 2 Angriff.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Brian 'Chippy' Dugan</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The seething wrath is just beneath the surface.  Beneath that is wild abandon, followed by slight annoyance.</enUS>
-    <zhTW>沸騰的憤怒僅僅是表面。在那之下是狂亂的自我解放，隨之而來的是輕微的不快。</zhTW>
-    <zhCN>盛燃的愤怒掩藏于表面之下，同时还伴随着野性的狂放不羁和些许傲慢。</zhCN>
-    <ruRU>Безудержный гнев – лишь внешнее проявление чувств. Под ним скрывается дикая вспыльчивость и легкое недовольство.</ruRU>
-    <ptBR>A ira fervilhante está logo abaixo da superfície. Abaixo dela, fica o abandono selvagem, seguido por uma ligeira irritação.</ptBR>
-    <plPL>Bestialski to on jest tylko z nazwy.</plPL>
-    <koKR>표면적으론 그냥 분노한 걸로 보이겠지만, 사실은 다이어트와 오랜 방치가 원인입니다.</koKR>
-    <itIT>La rabbia ribolle sotto la superficie e sotto di essa c'è l'abbandono selvaggio. Poco più sotto, un leggero fastidio.</itIT>
-    <frFR>Courroux coucou, ça tache ça tache !</frFR>
-    <esMX>Bajo la superficie habita una cólera hirviente. Y bajo esa cólera yace un abandono salvaje, seguido de un ligero fastidio.</esMX>
-    <esES>Es una cólera que está en tu interior, por debajo de las costillas, entre la tostada del desayuno y el pescado del almuerzo.</esES>
-    <deDE>Na toll, jetzt habt Ihr es wütend gemacht!</deDE>
+    <enUS>You never know who may be secretly working for the Cabal....</enUS>
+    <zhTW>你永遠不知道誰可能在偷偷為卡巴做事...</zhTW>
+    <zhCN>你绝不知道谁在为这个秘密组织效劳...</zhCN>
+    <ruRU>Никогда не знаешь, кто плетет интриги за твоей спиной...</ruRU>
+    <ptBR>Você nunca sabe quem pode estar trabalhando secretamente para o Conluio...</ptBR>
+    <plPL>Nigdy nie wiesz, kto może dla niej pracować...</plPL>
+    <koKR>누가 비밀결사단을 위해 일하고 있는지 여러분은 상상조차 못할 겁니다...</koKR>
+    <itIT>Nessuno sa chi stia segretamente lavorando per questa tizia...</itIT>
+    <frFR>Difficile de savoir qui travaille en secret pour la Cabale...</frFR>
+    <esMX>Nunca se sabe quién puede estar trabajando de encubierto para la cábala...</esMX>
+    <esES>Ya nunca sabrás en quién confiar...</esES>
+    <deDE>Man kann sich nie ganz sicher sein, wessen Gedanken diese fragwürdige Dame gerade kontrol...</deDE>
   </Tag>
-  <ReferencedTag name="Cant Be Damaged" enumID="240" type="Bool" value="1" />
-  <Power definition="ec001c18-5106-4cd3-a9c3-fb35a1153440">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="10" param="20" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="857037b7-59bc-4664-8730-4afc2474d7d4">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="8" param="2" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="3" param="" />
+    <PlayRequirement reqID="19" param="2" />
   </Power>
 </Entity>

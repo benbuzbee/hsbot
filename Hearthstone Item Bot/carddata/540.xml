@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_tk11">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_165a">
+  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Spirit Wolf</enUS>
-    <frFR>Esprit du loup</frFR>
-    <zhTW>幽靈狼</zhTW>
-    <zhCN>幽灵狼</zhCN>
-    <ruRU>Дух волка</ruRU>
-    <ptBR>Lobo Espiritual</ptBR>
-    <plPL>Duchowy wilk</plPL>
-    <koKR>늑대 정령</koKR>
-    <itIT>Lupo Spirituale</itIT>
-    <esMX>Espíritu de lobo</esMX>
-    <esES>Espíritu de lobo</esES>
-    <deDE>Geisterwolf</deDE>
+    <enUS>Cat Form</enUS>
+    <frFR>Forme de félin</frFR>
+    <zhTW>獵豹形態</zhTW>
+    <zhCN>猎豹形态</zhCN>
+    <ruRU>Облик кошки</ruRU>
+    <ptBR>Forma de Felino</ptBR>
+    <plPL>Postać kota</plPL>
+    <koKR>표범 변신</koKR>
+    <itIT>Forma Felina</itIT>
+    <esMX>Forma felina</esMX>
+    <esES>Forma felina</esES>
+    <deDE>Katzengestalt</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="495abb2d-62ae-46fd-b716-b61e3f88595d" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419" />
 </Entity>

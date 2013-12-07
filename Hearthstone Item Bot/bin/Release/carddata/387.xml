@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_334e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_013t">
+  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dark Command</enUS>
-    <zhTW>黑暗敕令</zhTW>
-    <zhCN>黑暗命令</zhCN>
-    <ruRU>Темная власть</ruRU>
-    <ptBR>Comando Negro</ptBR>
-    <plPL>Mroczny rozkaz</plPL>
-    <koKR>어둠의 명령</koKR>
-    <itIT>Comando Oscuro</itIT>
-    <frFR>Sombre ordre</frFR>
-    <esMX>Orden oscura</esMX>
-    <esES>Orden oscura</esES>
-    <deDE>Dunkler Befehl</deDE>
+    <enUS>Excess Mana</enUS>
+    <zhTW>法力溢出</zhTW>
+    <zhCN>法力过剩</zhCN>
+    <ruRU>Избыток маны</ruRU>
+    <ptBR>Excesso de Mana</ptBR>
+    <plPL>Nadmiar many</plPL>
+    <koKR>넘치는 마나</koKR>
+    <itIT>Eccesso di Mana</itIT>
+    <frFR>Excès de mana</frFR>
+    <esMX>Exceso de maná</esMX>
+    <esES>Maná sobrante</esES>
+    <deDE>Überschüssiges Mana</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has switched controllers this turn.</enUS>
-    <zhTW>本回合這個手下的控制者換人了。</zhTW>
-    <zhCN>在本回合中，该随从的控制权发生了变化。</zhCN>
-    <ruRU>Это существо сменило владельца до конца хода.</ruRU>
-    <ptBR>Este lacaio trocou de controlador neste turno.</ptBR>
-    <plPL>Kontrola nad tym stronnikiem została zamieniona w tej turze.</plPL>
-    <koKR>이번 턴에는 상대편의 명을 따름</koKR>
-    <itIT>Cambio di padrone per questo turno.</itIT>
-    <frFR>Les commandes de ce serviteur sont échangées pour ce tour.</frFR>
-    <esMX>Este esbirro ha cambiado de controlador en este turno.</esMX>
-    <esES>Este esbirro ha cambiado de dueño este turno.</esES>
-    <deDE>Dieser Diener hat für diesen Zug seinen Meister gewechselt.</deDE>
+    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>
+    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶。)&lt;/i&gt;</zhTW>
+    <zhCN>抽1张牌。&lt;i&gt;（你最多可以拥有10点法力值。）&lt;/i&gt;</zhCN>
+    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>
+    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>
+    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku.)&lt;/i&gt;</plPL>
+    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>
+    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>
+    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>
+    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>
+    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>
+    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
-  <Power definition="ee6d8251-dc1d-45d3-af82-3928d229dcd2" />
-  <Power definition="77b55ec5-7e11-4c32-8e26-a84e0e373f99" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="afbc46d9-471b-4963-944a-fddb08f7df86" />
 </Entity>

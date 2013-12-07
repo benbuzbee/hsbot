@@ -1,40 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CRED_04">
+<Entity version="2" CardID="TU4c_003">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Steven Gabriel</enUS>
-    <zhTW>Steven Gabriel</zhTW>
-    <zhCN>Steven Gabriel</zhCN>
-    <ruRU>Steven Gabriel</ruRU>
-    <ptBR>Steven Gabriel</ptBR>
-    <plPL>Steven Gabriel</plPL>
-    <koKR>스티븐 가브리엘</koKR>
-    <itIT>Steven Gabriel</itIT>
-    <frFR>Steven Gabriel</frFR>
-    <esMX>Steven Gabriel</esMX>
-    <esES>Steven Gabriel</esES>
-    <deDE>Steven Gabriel</deDE>
+    <enUS>Barrel</enUS>
+    <frFR>Tonneau</frFR>
+    <zhTW>桶子</zhTW>
+    <zhCN>木桶</zhCN>
+    <ruRU>Бочка</ruRU>
+    <ptBR>Barril</ptBR>
+    <plPL>Beczka</plPL>
+    <koKR>통</koKR>
+    <itIT>Barile</itIT>
+    <esMX>Barril</esMX>
+    <esES>Barril</esES>
+    <deDE>Fass</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a frothy beverage.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一杯泡沫啤酒。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一杯冰镇饮料。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя пенистый напиток.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque uma bebida espumante.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pienisty trunek.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 거품으로 가득한 음료를 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un boccale ghiacciato.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque une boisson à mousse.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca una bebida espumosa.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca una bebida espumosa.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Beschwört ein stark schäumendes Getränk herbei.</deDE>
+    <enUS>Is something in this barrel?</enUS>
+    <frFR>Il y a quelque chose dans ce tonneau ?</frFR>
+    <zhTW>這個桶子裡面有東西嗎?</zhTW>
+    <zhCN>这木桶里有什么东西？</zhCN>
+    <ruRU>В этой бочке что-то есть!</ruRU>
+    <ptBR>Tem alguma coisa no barril?</ptBR>
+    <plPL>Czy w tej beczce coś jest?</plPL>
+    <koKR>통에 뭔가 있나요?</koKR>
+    <itIT>C'è qualcosa in questo barile?</itIT>
+    <esMX>¿Hay algo en este barril?</esMX>
+    <esES>¿Hay algo dentro de este barril?</esES>
+    <deDE>Was ist in dem Fass?</deDE>
   </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Breakable</enUS>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="a21e94bd-295f-47a0-a704-148140055af6" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

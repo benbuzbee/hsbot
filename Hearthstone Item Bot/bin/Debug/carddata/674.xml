@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="XXX_005">
-  <MasterPower>ddac5dae-7344-4a52-ad10-dce4913c1fa7</MasterPower>
+<Entity version="2" CardID="NEW1_026t">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Destroy</enUS>
+    <enUS>Violet Apprentice</enUS>
+    <frFR>Apprenti pourpre</frFR>
+    <zhTW>紫羅蘭學徒</zhTW>
+    <zhCN>紫罗兰学徒</zhCN>
+    <ruRU>Маг-ученик</ruRU>
+    <ptBR>Aprendiz Violeta</ptBR>
+    <plPL>Czeladnik Purpurowych</plPL>
+    <koKR>보랏빛 수습생</koKR>
+    <itIT>Apprendista Violaceo</itIT>
+    <esMX>Aprendiz violeta</esMX>
+    <esES>Aprendiz violeta</esES>
+    <deDE>Violetter Lehrling</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy a minion or hero.</enUS>
-  </Tag>
-  <Power definition="ddac5dae-7344-4a52-ad10-dce4913c1fa7">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
 </Entity>

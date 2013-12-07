@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_317">
+<Entity version="2" CardID="NEW1_040">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sense Demons</enUS>
-    <frFR>Détection des démons</frFR>
-    <zhTW>感知惡魔</zhTW>
-    <zhCN>感知恶魔</zhCN>
-    <ruRU>Чутье на демонов</ruRU>
-    <ptBR>Detectar Demônios</ptBR>
-    <plPL>Wyczucie demonów</plPL>
-    <koKR>악마 감지</koKR>
-    <itIT>Percepisci Demoni</itIT>
-    <esMX>Captar demonios</esMX>
-    <esES>Captar demonios</esES>
-    <deDE>Dämonen wahrnehmen</deDE>
+    <enUS>Hogger</enUS>
+    <frFR>Lardeur</frFR>
+    <zhTW>霍格</zhTW>
+    <zhCN>霍格</zhCN>
+    <ruRU>Дробитель</ruRU>
+    <ptBR>Hogger</ptBR>
+    <plPL>Wyżer</plPL>
+    <koKR>들창코</koKR>
+    <itIT>Boccalarga</itIT>
+    <esMX>Hogger</esMX>
+    <esES>Hogger</esES>
+    <deDE>Hogger</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Put 2 random Demons from your deck into your hand.</enUS>
-    <frFR>Place dans votre main 2 démons aléatoires de votre jeu.</frFR>
-    <zhTW>從你的牌堆中取出2張隨機惡魔並放到你的手牌中。</zhTW>
-    <zhCN>从你的牌库中随机将2张恶魔牌置入你的手牌。</zhCN>
-    <ruRU>Вы кладете в руку двух случайных демонов из вашей колоды.</ruRU>
-    <ptBR>Coloque 2 Demônios aleatórios do seu deck na sua mão.</ptBR>
-    <plPL>Umieść w ręce 2 losowe demony ze swojej talii.</plPL>
-    <koKR>덱에 있는 무작위 악마 2마리를 내 손으로 가져옵니다.</koKR>
-    <itIT>Pesca 2 Demoni casuali dal tuo mazzo.</itIT>
-    <esMX>Pon 2 Demonios aleatorios de tu mazo en tu mano.</esMX>
-    <esES>Coloca a 2 demonios aleatorios de tu mazo en tu mano.</esES>
-    <deDE>Fügt Eurer Hand zwei zufällige Dämonen aus Eurem Deck hinzu.</deDE>
+    <enUS>At the end of your turn, summon a 2/2 Gnoll with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>À la fin de votre tour, invoque un gnoll 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>在你的回合結束時，召喚一個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2豺狼人。</zhTW>
+    <zhCN>在你的回合结束时，召唤一个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的豺狼人。</zhCN>
+    <ruRU>В конце вашего хода вы призываете на поле боя гнолла 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>No final do seu turno, evoque um Gnoll 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>Na koniec swojej tury przyzwij gnola 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>
+    <koKR>내 턴이 끝날 때, &lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 놀을 소환합니다.</koKR>
+    <itIT>Alla fine del tuo turno, Boccalarga evoca uno Gnoll 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>Al final de tu turno, invoca a un Gnoll 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>Al final de tu turno, invoca a un gnoll 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>Ruft am Ende Eures Zuges einen Gnoll (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raven Mimura</enUS>
+    <enUS>Laurel "LD" Austin</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Generally demons are pretty obvious and you don’t need a spell to sense them.</enUS>
-    <zhTW>通常惡魔看起來都很顯而易見，不太需要什麼法術來偵測他們。</zhTW>
-    <zhCN>一般说来，恶魔总是比较容易辨认的，不需要用一个法术来感知它们。</zhCN>
-    <ruRU>Обычно демонов и так нетрудно заметить. Для этого не нужно особое заклинание.</ruRU>
-    <ptBR>Normalmente os demônios são bem óbvios e você não precisa de um feitiço para detectá-los.</ptBR>
-    <plPL>Z reguły demony rzucają się w oczy i nie trzeba żadnego zaklęcia, żeby je wyczuć.</plPL>
-    <koKR>일반적으로 악마들은 굉장히 눈에 띄는 존재여서, 굳이 주문까지 사용하지 않아도 감지할 수 있습니다.</koKR>
-    <itIT>Generalmente i demoni sono abbastanza evidenti da non aver bisogno di una magia per percepirli...</itIT>
-    <frFR>En général, les démons sont assez faciles à détecter sans avoir besoin d’un sort pour ça.</frFR>
-    <esMX>Generalmente los demonios son bastante obvios y no hace falta un hechizo para captar su atención.</esMX>
-    <esES>¡A mí me daban dos!</esES>
-    <deDE>Dämonen machen normalerweise keinen Hehl aus ihrer Anwesenheit, also braucht es eigentlich keinen Zauber, um sie aufzuspüren.</deDE>
+    <enUS>Hogger is super powerful. If you kill him, it's because he &lt;i&gt;let&lt;/i&gt; you.</enUS>
+    <zhTW>霍格非常強。如果你殺死他，那是因為他&lt;i&gt;讓&lt;/i&gt;你殺他。</zhTW>
+    <zhCN>霍格可是超级厉害的。如果你杀了他，只是因为他让你这么做的。</zhCN>
+    <ruRU>Дробитель ужасно сильный. Если вы убьете его, то это значит, что он вам &lt;i&gt;поддался&lt;/i&gt;.</ruRU>
+    <ptBR>Hogger é superpoderoso. Se conseguir matá-lo, foi porque ele &lt;i&gt;deixou&lt;/i&gt;.</ptBR>
+    <plPL>Wyżer jest supermocny. Jeśli go zabijesz, to tylko dlatego, że ci na to &lt;i&gt;pozwolił&lt;/i&gt;.</plPL>
+    <koKR>들창코는 정말 강력합니다. 만약 처치했다면, 그가 &lt;i&gt;봐줬기&lt;/i&gt; 때문입니다.</koKR>
+    <itIT>Boccalarga è potentissimo. Se lo uccidi è solo perché lui te lo ha permesso.</itIT>
+    <frFR>Lardeur est super fort. Si vous réussissez à le tuer, c’est uniquement parce qu’il vous aura &lt;i&gt;laissé&lt;/i&gt; faire.</frFR>
+    <esMX>Hogger es muy poderoso. Si lo matas, es porque &lt;i&gt;él&lt;/i&gt; así lo quiso.</esMX>
+    <esES>Hogger ya se ha cobrado más víctimas que el Cataclismo.</esES>
+    <deDE>Hogger ist so mächtig, dass Ihr ihn nur töten könnt, wenn er Euch &lt;i&gt;lässt&lt;/i&gt;.</deDE>
   </Tag>
-  <Power definition="a3ba6234-d2bd-4e53-adad-e07db204defa" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="479ded85-ed2c-49de-97c4-35a543c7e2a7" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

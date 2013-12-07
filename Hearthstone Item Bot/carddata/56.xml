@@ -1,63 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_038">
-  <MasterPower>3f0a117e-1171-4a4b-b2c5-53cacdebad2e</MasterPower>
+<Entity version="2" CardID="EX1_565">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ancestral Spirit</enUS>
-    <frFR>Esprit ancestral</frFR>
-    <zhTW>先祖之魂</zhTW>
-    <zhCN>先祖之魂</zhCN>
-    <ruRU>Дух предков</ruRU>
-    <ptBR>Espírito Ancestral</ptBR>
-    <plPL>Duch przodków</plPL>
-    <koKR>고대의 영혼</koKR>
-    <itIT>Spirito Ancestrale</itIT>
-    <esMX>Espíritu ancestral</esMX>
-    <esES>Espíritu ancestral</esES>
-    <deDE>Geist der Ahnen</deDE>
+    <enUS>Flametongue Totem</enUS>
+    <zhTW>火舌圖騰</zhTW>
+    <zhCN>火舌图腾</zhCN>
+    <ruRU>Тотем языка пламени</ruRU>
+    <ptBR>Totem de Labaredas</ptBR>
+    <plPL>Totem ognistego języka</plPL>
+    <koKR>불꽃의 토템</koKR>
+    <itIT>Totem: Lingua di Fuoco</itIT>
+    <frFR>Totem Langue de feu</frFR>
+    <esMX>Tótem Lengua de fuego</esMX>
+    <esES>Tótem Lengua de Fuego</esES>
+    <deDE>Flammenzungentotem</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Choose a minion. When that minion is destroyed, return it to the battlefield.</enUS>
-    <frFR>Choisissez un serviteur. Quand il est détruit, il revient sur le champ de bataille.</frFR>
-    <zhTW>選擇一個手下。當該手下被摧毀時，使其返回戰場。</zhTW>
-    <zhCN>选择一个随从，当该随从被消灭时，它将返回战场。</zhCN>
-    <ruRU>Выберите существо. Когда его уничтожат, оно вернется на поле боя. </ruRU>
-    <ptBR>Escolha um lacaio. Quando o lacaio for destruído, devolva-o ao campo de batalha.</ptBR>
-    <plPL>Wybierz stronnika. Kiedy zostanie zniszczony, przywróć go na pole bitwy.</plPL>
-    <koKR>하수인을 선택합니다. 그 하수인이 죽으면 다시 전장으로 돌려보냅니다.</koKR>
-    <itIT>Scegli un servitore: quando quel servitore viene sconfitto, ritorna sul campo di battaglia.</itIT>
-    <esMX>Elige un esbirro. Cuando ese esbirro sea destruido, devuélvelo al campo de batalla.</esMX>
-    <esES>Elige a un esbirro. Cuando dicho esbirro es destruido, vuelve al campo de batalla.</esES>
-    <deDE>Wählt einen Diener aus. Wenn dieser Diener vernichtet wird, lasst ihn aufs Schlachtfeld zurückkehren.</deDE>
+    <enUS>Adjacent minions have +2 Attack.</enUS>
+    <zhTW>兩側的手下+2攻擊力。</zhTW>
+    <zhCN>相邻的随从获得+2攻击力。</zhCN>
+    <ruRU>Находящиеся по обе стороны существа получают +2 к атаке.</ruRU>
+    <ptBR>Lacaios adjacentes têm +2 de Ataque.</ptBR>
+    <plPL>Sąsiedni stronnicy otrzymują +2 do ataku.</plPL>
+    <koKR>양옆의 하수인들이 공격력을 +2 얻습니다.</koKR>
+    <itIT>I servitori adiacenti hanno +2 Attacco.</itIT>
+    <frFR>Les serviteurs adjacents ont +2 ATQ.</frFR>
+    <esMX>Los esbirros adyacentes tienen +2 de Ataque.</esMX>
+    <esES>Los esbirros adyacentes tienen +2 p. de ataque.</esES>
+    <deDE>Benachbarte Diener haben +2 Angriff.</deDE>
   </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Flametongue</enUS>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="21" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Zoltan &amp; Gabor</enUS>
+    <enUS>Jonathan Ryder</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It was just a flesh wound.</enUS>
-    <zhTW>這只是皮肉之傷。</zhTW>
-    <zhCN>只是伤到些皮毛而已。</zhCN>
-    <ruRU>Это была всего лишь царапина.</ruRU>
-    <ptBR>Foi só um arranhão.</ptBR>
-    <plPL>To była powierzchowna rana.</plPL>
-    <koKR>네가 죽은 건 추진력을 얻기 위해서였다!</koKR>
-    <itIT>Mi ha detto un mio gildano che una volta è morto.</itIT>
-    <frFR>Pfff, c’est seulement une égratignure.</frFR>
-    <esMX>Apenas fue un rasguño.</esMX>
-    <esES>Solo fue una herida superficial.</esES>
-    <deDE>Der Tod war lediglich ein Rückschlag!</deDE>
+    <enUS>Totemsmiths like to use the rarest woods for their totems.  There are even rumors of totems made of Ironbark Protectors.</enUS>
+    <zhTW>圖騰雕刻師喜歡用最罕見的木頭來雕刻圖騰。謠傳中甚至有用鐵桉保衛者製作的圖騰。</zhTW>
+    <zhCN>图腾制造师喜欢用最稀有的木材来打造图腾。甚至有传言说，这些图腾是由埃隆巴克保护者身上的树皮做的。</zhCN>
+    <ruRU>Изготовители тотемов предпочитают использовать для своих изделий самое редкое дерево. Поговаривают, что можно найти тотемы даже из сторожевого древа.</ruRU>
+    <ptBR>Escultores de totens gostam de usar as madeiras mais raras para seus totens. Há rumores até de totens feitos de Protetores Cascaferro.</ptBR>
+    <plPL>Podobno do tworzenia tych totemów używa się „wody ognistej”.</plPL>
+    <koKR>토템 장인들은 본인의 토템에는 가장 희귀한 나무를 사용하곤 합니다. 심지어 무쇠껍질 수호정령으로 만든 토템도 있다는군요.</koKR>
+    <itIT>I costruttori di totem utilizzano legni molto rari. Si mormora esistano totem fatti addirittura con i Protettori Legnoferreo.</itIT>
+    <frFR>Les fabricants de totems aiment utiliser les essences de bois les plus rares pour leurs totems. On dit même qu’il en existerait en bois de protecteur Ecorcefer !</frFR>
+    <esMX>A los creadores de tótems les gusta usar las maderas más exóticas para sus creaciones. Incluso se dice que existen tótems creados con madera de protectores cortezaférrea.</esMX>
+    <esES>A los fabricantes de tótems les gusta usar las maderas más nobles. Incluso se dice que a veces usan protectores Cortezaférrea.</esES>
+    <deDE>Totemschmiede verwenden nur die seltensten Hölzer, um ihre Totems herzustellen. Es gibt sogar Gerüchte, dass einige aus Eisenborkenbeschützern bestehen.</deDE>
   </Tag>
-  <Power definition="3f0a117e-1171-4a4b-b2c5-53cacdebad2e">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 4.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 42.</enUS>
+  </Tag>
+  <Tag name="AdjacentBuff" enumID="350" type="Bool" value="1" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="1a283390-e0ba-4b4f-9374-677396e89338" />
+  <Power definition="8c786bf8-7ca9-477f-b776-9f74500267f9" />
 </Entity>

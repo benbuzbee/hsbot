@@ -1,46 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4c_003">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_622">
+  <MasterPower>af8152e7-6136-43c5-bf1d-7fdeb5e92066</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Barrel</enUS>
-    <frFR>Tonneau</frFR>
-    <zhTW>桶子</zhTW>
-    <zhCN>木桶</zhCN>
-    <ruRU>Бочка</ruRU>
-    <ptBR>Barril</ptBR>
-    <plPL>Beczka</plPL>
-    <koKR>통</koKR>
-    <itIT>Barile</itIT>
-    <esMX>Barril</esMX>
-    <esES>Barril</esES>
-    <deDE>Fass</deDE>
+    <enUS>Shadow Word: Death</enUS>
+    <zhTW>暗言術:死</zhTW>
+    <zhCN>暗言术：灭</zhCN>
+    <ruRU>Слово Тьмы: Смерть</ruRU>
+    <ptBR>Palavra Sombria: Morte</ptBR>
+    <plPL>Słowo cienia: Śmierć</plPL>
+    <koKR>어둠의 권능: 죽음</koKR>
+    <itIT>Parola d'Ombra: Morte</itIT>
+    <frFR>Mot de l’ombre : Mort</frFR>
+    <esMX>Palabra de las sombras: Muerte</esMX>
+    <esES>Palabra de Sombras: muerte</esES>
+    <deDE>Schattenwort: Tod</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Is something in this barrel?</enUS>
-    <frFR>Il y a quelque chose dans ce tonneau ?</frFR>
-    <zhTW>這個桶子裡面有東西嗎?</zhTW>
-    <zhCN>这木桶里有什么东西？</zhCN>
-    <ruRU>В этой бочке что-то есть!</ruRU>
-    <ptBR>Tem alguma coisa no barril?</ptBR>
-    <plPL>Czy w tej beczce coś jest?</plPL>
-    <koKR>통에 뭔가 있나요?</koKR>
-    <itIT>C'è qualcosa in questo barile?</itIT>
-    <esMX>¿Hay algo en este barril?</esMX>
-    <esES>¿Hay algo dentro de este barril?</esES>
-    <deDE>Was ist in dem Fass?</deDE>
+    <enUS>Destroy a minion with an Attack of 5 or more.</enUS>
+    <zhTW>摧毀一個攻擊力在5點以上的手下。</zhTW>
+    <zhCN>消灭一个攻击力大于或等于5的随从。</zhCN>
+    <ruRU>Уничтожает существо с атакой 5 или больше.</ruRU>
+    <ptBR>Destrua um lacaio com 5 ou mais de Ataque.</ptBR>
+    <plPL>Zniszcz stronnika z atakiem 5 lub większym.</plPL>
+    <koKR>공격력 5 이상인 하수인을 1마리 처치합니다.</koKR>
+    <itIT>Distrugge un servitore con Attacco pari a 5 o superiore.</itIT>
+    <frFR>Détruit un serviteur avec 5 ou plus à l’Attaque.</frFR>
+    <esMX>Destruye a un esbirro con 5 de Ataque o más.</esMX>
+    <esES>Destruye a un esbirro con 5 p. de ataque o más.</esES>
+    <deDE>Vernichtet einen Diener mit mind. 5 Angriff.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Breakable</enUS>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Raymond Swanland</enUS>
   </Tag>
-  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
-  <Power definition="a21e94bd-295f-47a0-a704-148140055af6" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 46.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>If you miss, it leaves a lightning-bolt-shaped scar on your target.</enUS>
+    <zhTW>如果你施放失敗，只會在目標身上留下一個閃電箭形狀的疤痕。</zhTW>
+    <zhCN>“他去哪儿了？”“先别管他！帮我解决这个鱼人！”</zhCN>
+    <ruRU>Если вы промахнетесь, оно оставит на лбу вашей цели шрам в виде молнии.</ruRU>
+    <ptBR>"Aonde ele foi?" "Deixa ele pra lá! Me ajuda com esse murloc!"</ptBR>
+    <plPL>Jeśli spudłujesz, na celu zostanie blizna w kształcie błyskawicy.</plPL>
+    <koKR>"그놈 어디 갔지?" "그냥 잊어버리고 이 멀록 처치나 도와줘!"</koKR>
+    <itIT>Se manca il bersaglio, lascia una cicatrice a forma di saetta sulla sua fronte.</itIT>
+    <frFR>Si ce sort rate, il laisse une marque en forme d’éclair sur le front de votre cible.</frFR>
+    <esMX>"¡Ey! ¿A dónde fue?" "¡Qué importa! Ayúdame con este múrloc".</esMX>
+    <esES>Un buen sacerdote sabe cuándo retirarse: en cuanto un enemigo se fija en él.</esES>
+    <deDE>Wenn dieser Zauber danebengeht, hinterlässt er lediglich eine blitzförmige Narbe auf Eurem Ziel.</deDE>
+  </Tag>
+  <Power definition="af8152e7-6136-43c5-bf1d-7fdeb5e92066">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="41" param="5" />
+  </Power>
 </Entity>

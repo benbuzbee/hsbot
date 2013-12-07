@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_046e">
+<Entity version="2" CardID="CS2_084e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Tempered</enUS>
-    <frFR>Acier trempé</frFR>
-    <zhTW>淬鍛</zhTW>
-    <zhCN>淬火</zhCN>
-    <ruRU>Закаленная сталь</ruRU>
-    <ptBR>Temperado</ptBR>
-    <plPL>Hartowanie</plPL>
-    <koKR>단련</koKR>
-    <itIT>Temprato</itIT>
-    <esMX>Templado</esMX>
-    <esES>Templado</esES>
-    <deDE>Gehärtet</deDE>
+    <enUS>Hunter's Mark</enUS>
+    <frFR>Marque du chasseur</frFR>
+    <zhTW>獵人印記</zhTW>
+    <zhCN>猎人印记</zhCN>
+    <ruRU>Метка охотника</ruRU>
+    <ptBR>Marca do Caçador</ptBR>
+    <plPL>Znak łowcy</plPL>
+    <koKR>사냥꾼의 징표</koKR>
+    <itIT>Marchio del Cacciatore</itIT>
+    <esMX>Marca del cazador</esMX>
+    <esES>Marca del cazador</esES>
+    <deDE>Mal des Jägers</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack.</enUS>
-    <frFR>+2 ATQ.</frFR>
-    <zhTW>+2攻擊力。</zhTW>
-    <zhCN>+2攻击力。</zhCN>
-    <ruRU>+2 к атаке.</ruRU>
-    <ptBR>+2 de Ataque</ptBR>
-    <plPL>+2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>+2 Attacco.</itIT>
-    <esMX>+2 de Ataque.</esMX>
-    <esES>+2 p. de ataque.</esES>
-    <deDE>+2 Angriff.</deDE>
+    <enUS>This minion has 1 Health.</enUS>
+    <frFR>Ce serviteur a 1 PV.</frFR>
+    <zhTW>這個手下的生命值為1點。</zhTW>
+    <zhCN>该随从的生命值变为1。</zhCN>
+    <ruRU>Здоровье этого существа равно 1.</ruRU>
+    <ptBR>Este lacaio tem 1 de Vida.</ptBR>
+    <plPL>Ten stronnik ma 1 pkt. zdrowia.</plPL>
+    <koKR>생명력 1</koKR>
+    <itIT>Salute pari a 1.</itIT>
+    <esMX>Este esbirro tiene 1 de Salud.</esMX>
+    <esES>Este esbirro tiene 1 p. de salud.</esES>
+    <deDE>Dieser Diener hat 1 Leben.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="95990bd4-b96e-4aa2-92c0-fb76c1300033" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
+  <Power definition="c5bcb972-3b4d-4050-81b9-fff433db99fe" />
 </Entity>

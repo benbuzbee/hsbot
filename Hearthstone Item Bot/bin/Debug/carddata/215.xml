@@ -1,62 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_014">
-  <MasterPower>bfc8471e-08fb-412b-a569-c7f1709c90eb</MasterPower>
+<Entity version="2" CardID="EX1_625t">
+  <MasterPower>229425c1-cca1-4e74-8985-2ba7689d9fb8</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>King Mukla</enUS>
-    <frFR>Roi Mukla</frFR>
-    <zhTW>穆克拉</zhTW>
-    <zhCN>穆克拉</zhCN>
-    <ruRU>Король Мукла</ruRU>
-    <ptBR>Rei Mukla</ptBR>
-    <plPL>Król Mukla</plPL>
-    <koKR>밀림의 왕 무클라</koKR>
-    <itIT>Re Mukla</itIT>
-    <esMX>Rey Mukla</esMX>
-    <esES>Rey Mukla</esES>
-    <deDE>König Mukla</deDE>
+    <enUS>Mind Spike</enUS>
+    <frFR>Pointe mentale</frFR>
+    <zhTW>心靈鑽刺</zhTW>
+    <zhCN>心灵尖刺</zhCN>
+    <ruRU>Пронзание разума</ruRU>
+    <ptBR>Aguilhão Mental</ptBR>
+    <plPL>Igła umysłu</plPL>
+    <koKR>정신의 쐐기</koKR>
+    <itIT>Aculeo Mentale</itIT>
+    <esMX>Púa mental</esMX>
+    <esES>Púa mental</esES>
+    <deDE>Gedankenstachel</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent 2 Bananas.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne 2 bananes à votre adversaire.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;給你的對手2根香蕉。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使你的对手获得2个香蕉。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваш противник получает 2 банана.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda 2 Bananas ao seu oponente.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przeciwnikowi 2 banany.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편에게 바나나 2개를 줍니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce 2 Banane all'avversario.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga 2 Bananas a tu adversario.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Da 2 plátanos a tu oponente.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Gebt Eurem Gegner 2 Bananen.</deDE>
+    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Deal 2 damage.</enUS>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nInflige 2 points de dégâts.</frFR>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n造成2點傷害。</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n造成2点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n Наносит 2 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Cause 2 de dano.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Zadaj 2 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 피해를 2 줍니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \nInfligge 2 danni.</itIT>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Inflige de 2 daño.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Inflige 2 p. de daño.</esES>
+    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n Verursacht 2 Schaden.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Imaginary FS</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>King Mukla wanders Jaguero Isle, searching for love.</enUS>
-    <zhTW>穆克拉在哈圭羅島上遊盪，尋找他的真愛。</zhTW>
-    <zhCN>穆克拉在哈圭罗岛上徘徊，寻找他的真爱。</zhCN>
-    <ruRU>Однажды король Мукла блуждал по острову Жагуаро в поисках любви.</ruRU>
-    <ptBR>O Rei Mukla vaga pela Ilha Jaguara em busca do amor.</ptBR>
-    <plPL>Król Mukla spaceruje po dżungli rozpaczliwie szukając miłości.</plPL>
-    <koKR>밀림의 왕 무클라는 오늘도 자구에로 섬을 떠돕니다. 진정한 사랑을 찾기 위해...</koKR>
-    <itIT>Signore e signori, ecco a voi Mukla, l'ottava meraviglia del mondo.</itIT>
-    <frFR>Le roi Mukla s’est rendu sur l’île aux Jagueros pour trouver l’amour.</frFR>
-    <esMX>Rey Mukla merodea por la Isla Jaguero... en busca de amor.</esMX>
-    <esES>La única carta que se preocupa por el nivel de potasio del contrincante.</esES>
-    <deDE>König Mukla durchstreift die Insel Jaguero auf der Suche nach Liebe.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="bfc8471e-08fb-412b-a569-c7f1709c90eb" />
+  <Power definition="229425c1-cca1-4e74-8985-2ba7689d9fb8">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

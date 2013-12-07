@@ -1,67 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_170">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_562">
+  <MasterPower>cde7eb0e-6173-490f-8901-5799cd878305</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Emperor Cobra</enUS>
-    <frFR>Cobra empereur</frFR>
-    <zhTW>帝王眼鏡蛇</zhTW>
-    <zhCN>帝王眼镜蛇</zhCN>
-    <ruRU>Императорская кобра</ruRU>
-    <ptBR>Naja Imperatriz</ptBR>
-    <plPL>Cesarska kobra</plPL>
-    <koKR>황제 코브라</koKR>
-    <itIT>Cobra Imperatore</itIT>
-    <esMX>Cobra emperador</esMX>
-    <esES>Cobra emperador</esES>
-    <deDE>Kaiserkobra</deDE>
+    <enUS>Onyxia</enUS>
+    <frFR>Onyxia</frFR>
+    <zhTW>奧妮克希亞</zhTW>
+    <zhCN>奥妮克希亚</zhCN>
+    <ruRU>Ониксия</ruRU>
+    <ptBR>Onyxia</ptBR>
+    <plPL>Onyxia</plPL>
+    <koKR>오닉시아</koKR>
+    <itIT>Onyxia</itIT>
+    <esMX>Onyxia</esMX>
+    <esES>Onyxia</esES>
+    <deDE>Onyxia</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy any minion damaged by this minion.</enUS>
-    <frFR>Détruit tout serviteur blessé par ce serviteur.</frFR>
-    <zhTW>摧毀被帝王眼鏡蛇傷害到的任何手下。</zhTW>
-    <zhCN>消灭任何受到该随从伤害的随从。</zhCN>
-    <ruRU>Уничтожает любое существо, которому нанесла урон.</ruRU>
-    <ptBR>Destrua qualquer lacaio atingido por este lacaio.</ptBR>
-    <plPL>Zniszcz każdego stronnika zranionego przez tego stronnika.</plPL>
-    <koKR>이 하수인에게 피해를 입은 하수인은 무조건 죽습니다.</koKR>
-    <itIT>Distrugge qualsiasi servitore danneggiato da questo servitore.</itIT>
-    <esMX>Destruye cualquier esbirro dañado por este esbirro.</esMX>
-    <esES>Destruye a cualquier esbirro dañado por este esbirro.</esES>
-    <deDE>Vernichtet jeden Diener, der von diesem Diener verletzt wurde.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Fanged</enUS>
-  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="24" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Lars Grant-West</enUS>
-  </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Scholozar Basin is home to a lot of really horrible things. If you're going to visit, wear bug spray.  And plate armor.</enUS>
-    <zhTW>休拉薩盆地有許多可怕的生物。如果你要去度假，記得帶殺蟲劑。最好再穿上鎧甲。</zhTW>
-    <zhCN>索拉查盆地栖息着很多非常恐怖的生物。如果你一定要去那里，带上杀虫剂，还要穿上板甲。</zhCN>
-    <ruRU>В Низине Шолазар водятся ужасные твари. Если вы собираетесь посетить это место, не забудьте репеллент и латные доспехи.</ruRU>
-    <ptBR>A Bacia Sholazar é o lar de várias coisas terríveis. Se você pretende fazer uma visita, não esqueça o repelente. E a armadura de placas.</ptBR>
-    <plPL>Był plan, żeby zrzucić kilka tych gadów z maszyny latającej na Śmiercioskrzydłego i zakończyć Kataklizm. Niestety kobry pogryzły wszystkich pasażerów. Powstała o tym opowieść pod tytułem „Kobry w żyrokopterze”.</plPL>
-    <koKR>숄라자르 분지는 정말 위험한 곳입니다. 그래도 갈 생각이 있다면 제충제를 꼭 바르세요. 아, 판금 갑옷도 준비하시고요.</koKR>
-    <itIT>Il Bacino di Sholazar ospita alcune delle creature più letali. Se hai intenzione di visitarlo, usa un insetticida... e un'armatura a piastre.</itIT>
-    <frFR>Le bassin de Sholazar est l’habitat naturel d’un tas de bêtes pas très sympa. N’oubliez pas votre vaporisateur anti-insectes, si vous vous rendez sur place. Ni votre armure.</frFR>
-    <esMX>En la Cuenca de Sholazar hay muchas cosas horrendas. Si vas a visitarla, usa repelente. Y armadura.</esMX>
-    <esES>En la Cuenca de Sholazar viven todo tipo de criaturas horribles. Si tienes pensado viajar allí, ponte repelente. Y armadura de placas.</esES>
-    <deDE>Das Sholazarbecken ist Heimat vieler wirklich fürchterlicher Dinge. Falls Ihr dort Urlaub machen wollt, dann bringt Insektenspray mit. Und eine Plattenrüstung.</deDE>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon 1/1 Whelps until your side of the battlefield is full.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque des dragonnets 1/1 jusqu’à remplir votre côté du plateau.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚1/1幼龍直到你戰場的位置全滿。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤数个1/1的雏龙，直到你的随从数量达到上限。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на вашу сторону дракончиков 1/1, пока поле боя не заполнится.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque Dragonetes 1/1 até seu lado do campo de batalha estar cheio.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pisklęta 1/1, aż zapełnią twoje pole bitwy.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 하수인을 소환할 공간이 다 찰 때까지 1/1 새끼용을 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca Draghetti 1/1 fino a riempire il tuo lato del campo di battaglia.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca Crías 1/1 hasta que tu lado del campo de batalla esté completo.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca crías 1/1 hasta que tu lado del campo de batalla esté lleno.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft Welpen (1/1) herbei, bis Eure Seite des Schlachtfelds voll ist.</deDE>
   </Tag>
-  <Tag name="Poisonous" enumID="363" type="Bool" value="1" />
-  <Power definition="b0d3211b-9f61-4c75-88d8-8a267917639a" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dany Orizio</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Onyxia long manipulated the Stormwind Court by disguising herself as Lady Katrana Prestor.   You would have thought that the giant wings and scales would have been a giveaway.</enUS>
+    <zhTW>奧妮克希亞化身為卡特拉娜·普瑞斯托女士，操縱了暴風城上層社會很長的時間。你會以為她巨大的翅膀跟鱗片應該會洩漏她的真實身分才對。</zhTW>
+    <zhCN>伪装成女伯爵卡特拉娜·普瑞斯托，奥妮克希亚长期控制着暴风城议会。你可能会想，一定是她的大翅膀和鳞片让她漏出了马脚。</zhCN>
+    <ruRU>Давным-давно Ониксия плела интриги при королевском дворе Штормграда, выдавая себя за леди Катрану Престор. И как только ей удавалось прятать когтистые лапы и огромные крылья?</ruRU>
+    <ptBR>Onyxia manipulou por muito tempo a Corte de Ventobravo disfarçada de Lady Katrana Prestor. Era de se imaginar que as asas e escamas gigantescas seriam notadas, não?</ptBR>
+    <plPL>Onyxia przez długi czas przebywała na Dworze Wichrogrodu pod przebraniem Lady Katrany Prestor. A wydawałoby się, że zdradzą ją wielkie skrzydła i łuski.</plPL>
+    <koKR>오닉시아는 여군주 카트라나 프레스톨로 변신한 채 오랫동안 스톰윈드 의회를 조종했습니다. 저 커다란 날개와 비늘을 보면 누구라도 알아챘을 거라고 생각하시겠죠?</koKR>
+    <itIT>Onyxia ha manipolato a lungo la Corte di Roccavento spacciandosi per Dama Katrana Prestor. Indubbiamente è riuscita a nascondere bene le scaglie e le ali giganti.</itIT>
+    <frFR>Onyxia a longtemps manipulé la cour de Hurlevent en se faisant passer pour dame Katrana Prestor. Les ailes immenses et les écailles auraient dû leur mettre la puce à l’oreille.</frFR>
+    <esMX>Durante mucho tiempo, Onyxia manipuló a la Corte de Ventormenta disfrazándose de Lady Katrana Prestor. Aparentemente, nadie reparó en las alas gigantes y las escamas.</esMX>
+    <esES>Onyxia manipuló a la corte de Ventormenta durante mucho tiempo disfrazada de Lady Katrana Prestor. La gente debería haber sospechado de las alas gigantes y el aliento de fuego.</esES>
+    <deDE>Onyxia manipulierte lange Zeit die Geschicke von Sturmwind, indem sie sich als Lady Katrana Prestor tarnte. Man hätte meinen können, dass die enormen Schwingen und Schuppen jemanden ins Grübeln hätten bringen sollen.</deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="cde7eb0e-6173-490f-8901-5799cd878305" />
 </Entity>

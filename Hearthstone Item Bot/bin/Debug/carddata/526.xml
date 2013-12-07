@@ -1,62 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_617">
-  <MasterPower>09a28389-535a-4368-9cdb-6a62e2604fbe</MasterPower>
+<Entity version="2" CardID="EX1_384">
+  <MasterPower>6b2a252b-6666-4520-a960-fbe88a54aafd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Deadly Shot</enUS>
-    <zhTW>致命射擊</zhTW>
-    <zhCN>致命射击</zhCN>
-    <ruRU>Смертельный выстрел</ruRU>
-    <ptBR>Disparo Mortal</ptBR>
-    <plPL>Zabójczy strzał</plPL>
-    <koKR>치명적인 사격</koKR>
-    <itIT>Tiro Mortale</itIT>
-    <frFR>Tir meurtrier</frFR>
-    <esMX>Disparo mortal</esMX>
-    <esES>Disparo mortal</esES>
-    <deDE>Tödlicher Schuss</deDE>
+    <enUS>Avenging Wrath</enUS>
+    <frFR>Courroux vengeur</frFR>
+    <zhTW>復仇之怒</zhTW>
+    <zhCN>复仇之怒</zhCN>
+    <ruRU>Гнев карателя</ruRU>
+    <ptBR>Ira Vingativa</ptBR>
+    <plPL>Gniew zemsty</plPL>
+    <koKR>응징의 격노</koKR>
+    <itIT>Ira Vendicatrice</itIT>
+    <esMX>Cólera vengativa</esMX>
+    <esES>Cólera vengativa</esES>
+    <deDE>Zornige Vergeltung</deDE>
+  </Tag>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Deal $8 damage randomly split among enemy characters.</enUS>
+    <frFR>Inflige $8 |4(point,points) de dégâts répartis de façon aléatoire entre les personnages adverses.</frFR>
+    <zhTW>造成$8點傷害，隨機分給敵方角色。</zhTW>
+    <zhCN>造成$8点伤害，随机分配给敌方角色。</zhCN>
+    <ruRU>Наносит $8 ед. урона, случайно распределенного между персонажами противника.</ruRU>
+    <ptBR>Cause $8 de dano dividido aleatoriamente entre os personagens inimigos.</ptBR>
+    <plPL>Zadaj $8 pkt. obrażeń, losowo rozdzielone pomiędzy wrogimi postaciami.</plPL>
+    <koKR>적 캐릭터들에게 $8의 피해를 무작위로 나누어 입힙니다.</koKR>
+    <itIT>Infligge $8 danni suddivisi casualmente tra i personaggi nemici.</itIT>
+    <esMX>Inflige $8 de daño dividido aleatoriamente entre los personajes enemigos.</esMX>
+    <esES>Inflige $8 p. de daño, divididos aleatoriamente entre los personajes enemigos.</esES>
+    <deDE>Verursacht $8 Schaden, der zufällig auf feindliche Charaktere verteilt wird.</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="8" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy a random enemy minion.</enUS>
-    <zhTW>摧毀一個隨機敵方手下。</zhTW>
-    <zhCN>随机消灭一个敌方随从。</zhCN>
-    <ruRU>Уничтожает случайное существо противника.</ruRU>
-    <ptBR>Destrua um lacaio inimigo aleatório.</ptBR>
-    <plPL>Zniszcz losowego stronnika przeciwnika.</plPL>
-    <koKR>무작위 적 하수인을 처치합니다.</koKR>
-    <itIT>Distrugge un servitore nemico casuale.</itIT>
-    <frFR>Détruit un serviteur adverse aléatoire.</frFR>
-    <esMX>Destruye un esbirro enemigo aleatorio.</esMX>
-    <esES>Destruye un esbirro enemigo aleatorio.</esES>
-    <deDE>Vernichtet einen zufälligen feindlichen Diener.</deDE>
-  </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Steve Prescott</enUS>
+    <enUS>Alex Garner</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Accuracy is not a highly valued trait among the mok'nathal.  Deadliness is near the top, though.</enUS>
-    <zhTW>精準度在摩克納薩爾族當中並非受到極大青睞的優點。不過致命度還排在挺前面的。</zhTW>
-    <zhCN>在莫克纳萨村，瞄得准并不是什么值得称道的本事。最重要的是，能不能给猎物致命的一击。</zhCN>
-    <ruRU>Точность не очень ценится среди мок'натальских охотников, в отличие от смертоносности.</ruRU>
-    <ptBR>Precisão não é uma característica muito valorizada entre os mok'nathal. Letalidade, no entanto, está perto do topo.</ptBR>
-    <plPL>Celność nie należy do najbardziej cenionych cech wśród mok’nathal. Ale zabójczość jest na samym szczycie.</plPL>
-    <koKR>모크나탈에게 정확성은 별로 중요한 덕목이 아닙니다. 다만, 살상력은 꽤 중요하다고 할 수 있죠.</koKR>
-    <itIT>L'accuratezza non è un valore importante per i Mok'Nathal, ma lo è la letalità.</itIT>
-    <frFR>Les Mok’Nathal manquent cruellement de subtilité. Mais ils débordent de cruauté.</frFR>
-    <esMX>La precisión no es una cualidad muy valorada entre los mok'nathal. Pero la mortalidad es una característica casi sagrada.</esMX>
-    <esES>La precisión no es una cualidad muy valorada entre los Mok'nathal, pero la letalidad es indispensable.</esES>
-    <deDE>Zielgenauigkeit wird von den Mok'nathal nicht sehr hoch geschätzt. Tödlichkeit hingegen steht ganz oben auf der Liste.</deDE>
+    <enUS>Wham! Wham! Wham! Wham! Wham! Wham! Wham! Wham!</enUS>
+    <zhTW>轟!轟!轟!轟!轟!轟!轟!轟!</zhTW>
+    <zhCN>打！打！打！打！打！打！打！打！</zhCN>
+    <ruRU>Бам! Бам! Бам! Бам! Бам! Бам! Бам! Бам!</ruRU>
+    <ptBR>Bam! Bam! Bam! Bam! Bam! Bam! Bam! Bam! Bam!</ptBR>
+    <plPL>Zemsta, zemsta, zemsta na wroga! Aż z bólu będzie krzyczeć „Olaboga”!</plPL>
+    <koKR>쿠쾅쾅쾅쾅쾅쾅쾅!</koKR>
+    <itIT>Bam! Bam! Bam! Bam! Bam! Bam! Bam! Bam!</itIT>
+    <frFR>Bam ! Bam ! Bam ! Bam ! Bam ! Bam ! Bam ! Bam !</frFR>
+    <esMX>¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum!</esMX>
+    <esES>A la Luz rogando, y con el mazo dando.</esES>
+    <deDE>Bämm! Bämm! Bämm! Bämm! Bämm! Bämm! Bämm! Bämm!</deDE>
   </Tag>
-  <Power definition="09a28389-535a-4368-9cdb-6a62e2604fbe">
-    <PlayRequirement reqID="23" param="1" />
-  </Power>
+  <Tag name="ImmuneToSpellpower" enumID="349" type="Bool" value="1" />
+  <Power definition="6b2a252b-6666-4520-a960-fbe88a54aafd" />
 </Entity>

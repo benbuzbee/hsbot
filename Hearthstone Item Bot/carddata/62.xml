@@ -1,67 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_045">
-  <MasterPower>3581b0c4-e8c0-4d5e-9773-7add416504a6</MasterPower>
+<Entity version="2" CardID="CS2_181">
+  <MasterPower>6b4c2fa7-4dfe-497f-b662-0968a935ea70</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Rockbiter Weapon</enUS>
-    <frFR>Arme croque-roc</frFR>
-    <zhTW>石化武器</zhTW>
-    <zhCN>石化武器</zhCN>
-    <ruRU>Камнедробитель</ruRU>
-    <ptBR>Arma Trinca-pedra</ptBR>
-    <plPL>Kruszyskalny oręż</plPL>
-    <koKR>대지의 무기</koKR>
-    <itIT>Arma della Roccia Dura</itIT>
-    <esMX>Arma muerdepiedras</esMX>
-    <esES>Arma Muerdepiedras</esES>
-    <deDE>Waffe des Felsbeißers</deDE>
+    <enUS>Injured Blademaster</enUS>
+    <frFR>Maître-lame blessé</frFR>
+    <zhTW>受傷的大劍師</zhTW>
+    <zhCN>无畏剑圣</zhCN>
+    <ruRU>Раненый рубака</ruRU>
+    <ptBR>Mestre de Espadas Ferido</ptBR>
+    <plPL>Ranny mistrz ostrzy</plPL>
+    <koKR>부상당한 검귀</koKR>
+    <itIT>Maestro di Spade Ferito</itIT>
+    <esMX>Maestro del acero herido</esMX>
+    <esES>Maestro del acero herido</esES>
+    <deDE>Verletzter Klingenmeister</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a friendly character +3 Attack this turn.</enUS>
-    <frFR>Confère à un personnage allié +3 ATQ pendant ce tour.</frFR>
-    <zhTW>本回合賦予一個友方角色+3攻擊力。</zhTW>
-    <zhCN>在本回合中，使一个友方角色获得+3攻击力。</zhCN>
-    <ruRU>Ваш выбранный персонаж получает +3 к атаке до конца хода.</ruRU>
-    <ptBR>Conceda +3 de Ataque a um aliado neste turno.</ptBR>
-    <plPL>Daj przyjaznej postaci +3 do ataku w tej turze.</plPL>
-    <koKR>이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다.</koKR>
-    <itIT>Fornisce +3 Attacco a un tuo personaggio in questo turno.</itIT>
-    <esMX>Otorga +3 de Ataque a un personaje aliado en este turno.</esMX>
-    <esES>Otorga +3 p. de ataque a un personaje amistoso este turno.</esES>
-    <deDE>Verleiht einem befreundeten Charakter +3 Angriff in diesem Zug.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 4 damage to HIMSELF.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; s’inflige 4 points de dégâts.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;對他自己造成4點傷害。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;对自身造成4点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 4 ед. урона самому себе.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 4 de dano a ELE MESMO.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaje SOBIE 4 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 자신에게 피해를 4 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il Maestro di Spade Ferito infligge 4 danni a SE STESSO.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; se AUTOINFLIGE 4 de daño.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Se inflige 4 p. de daño a sí mismo.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Fügt SICH SELBST 4 Schaden zu.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Weakened</enUS>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Samwise Didier</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This would be real handy if your enemy is made of rock.</enUS>
-    <zhTW>如果可以把敵人石化就更好了。</zhTW>
-    <zhCN>如果你的敌人是石头做的，那就再好不过了。</zhCN>
-    <ruRU>Эх, вот был бы противник сделан из камня...</ruRU>
-    <ptBR>Isso é muito útil se seu inimigo for feito de pedra.</ptBR>
-    <plPL>Dobrze sprawdza się, jeśli przeciwnik jest z kamienia.</plPL>
-    <koKR>적이 돌로 만들어졌다면 매우 좋을 무기입니다.</koKR>
-    <itIT>Particolarmente efficiente contro i nemici duri come una roccia.</itIT>
-    <frFR>Elle ne craint ni roi ni roc !</frFR>
-    <esMX>Esto sería súper útil si tu enemigo estuviese hecho de piedras.</esMX>
-    <esES>Esto sería la mar de útil si tu enemigo estuviera hecho de piedra.</esES>
-    <deDE>Womöglich noch effektiver, wenn Euer Gegner aus Stein besteht. Allerdings können wir dafür keine Garantie geben.</deDE>
+    <enUS>He claims it is an old war wound, but we think he just cut himself shaving.</enUS>
+    <zhTW>他宣稱那是在戰爭中受到的舊傷，但我們認為那只是刮鬍子時不小心刮傷的。</zhTW>
+    <zhCN>他说这是在一次惨烈的战斗中留下的伤疤，但我们觉得，他只是刮胡子的时候弄伤了自己。</zhCN>
+    <ruRU>Он утверждает, что получил эту рану в бою, но, по-моему, он просто порезался, когда брился.</ruRU>
+    <ptBR>Ele diz que é um ferimento de guerra antigo, mas nós achamos que ele só se cortou fazendo a barba.</ptBR>
+    <plPL>Twierdzi, że to stara rana z czasów wojny, ale najpewniej sam się zaciął przy goleniu.</plPL>
+    <koKR>본인은 옛 전쟁에서 얻은 상처라고 주장하지만, 모두들 면도하다 난 상처라고 생각합니다.</koKR>
+    <itIT>Lui sostiene che si tratti di una vecchia ferita di guerra, ma noi pensiamo si sia solo tagliato radendosi.</itIT>
+    <frFR>Il affirme que c’est une vieille blessure de guerre, mais en fait, il s’est juste blessé en se rasant.</frFR>
+    <esMX>Dice que es una vieja herida de guerra, pero nosotros estamos seguros de que se cortó mientras se afeitaba.</esMX>
+    <esES>Dice que es una herida de batalla, pero en realidad se cortó pelando patatas.</esES>
+    <deDE>Er behauptet, dass es eine alte Kriegsverletzung ist, aber wir vermuten, dass er sich einfach beim Rasieren geschnitten hat.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 32.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="3581b0c4-e8c0-4d5e-9773-7add416504a6">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="6b4c2fa7-4dfe-497f-b662-0968a935ea70" />
 </Entity>

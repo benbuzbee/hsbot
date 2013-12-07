@@ -1,40 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_573a">
-  <MasterPower>f52f098d-dd17-41af-b8d7-694ba480e7ba</MasterPower>
+<Entity version="2" CardID="CS2_061">
+  <MasterPower>56647e8e-df83-4230-b6f9-1755433490f3</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Demigod's Favor</enUS>
-    <frFR>Faveur du demi-dieu</frFR>
-    <zhTW>半神的恩眷</zhTW>
-    <zhCN>半神的恩赐</zhCN>
-    <ruRU>Милость полубога</ruRU>
-    <ptBR>Presente de Semideus</ptBR>
-    <plPL>Łaska półboga</plPL>
-    <koKR>반신의 총애</koKR>
-    <itIT>Favore del Semidio</itIT>
-    <esMX>Favor de semidiós</esMX>
-    <esES>Favor del semidiós</esES>
-    <deDE>Gunst des Halbgotts</deDE>
+    <enUS>Drain Life</enUS>
+    <frFR>Drain de vie</frFR>
+    <zhTW>吸取生命</zhTW>
+    <zhCN>吸取生命</zhCN>
+    <ruRU>Похищение жизни</ruRU>
+    <ptBR>Drenar Vida</ptBR>
+    <plPL>Wyssanie życia</plPL>
+    <koKR>생명력 흡수</koKR>
+    <itIT>Risucchio di Vita</itIT>
+    <esMX>Drenar vida</esMX>
+    <esES>Drenar vida</esES>
+    <deDE>Blutsauger</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your other minions +2/+2.</enUS>
-    <frFR>Confère +2/+2 à vos autres serviteurs.</frFR>
-    <zhTW>賦予你其他手下+2/+2。</zhTW>
-    <zhCN>使你的所有其他随从获得+2/+2。</zhCN>
-    <ruRU>Остальные ваши существа получают +2/+2.</ruRU>
-    <ptBR>Conceda aos seus outros lacaios +2/+2.</ptBR>
-    <plPL>Twoi pozostali stronnicy otrzymują +2/+2.</plPL>
-    <koKR>내 다른 아군 하수인들에게 +2/+2를 부여합니다.</koKR>
-    <itIT>Fornisce +2/+2 a tutti gli altri tuoi servitori.</itIT>
-    <esMX>Otorga +2/+2 a tus otros esbirros.</esMX>
-    <esES>Otorga +2/+2 a tus otros esbirros.</esES>
-    <deDE>Verleiht Euren anderen Dienern +2/+2.</deDE>
+    <enUS>Deal $2 damage. Restore #2 Health to your hero.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts. Rend #2 |4(point,points) de vie à votre héros.</frFR>
+    <zhTW>造成$2點傷害。使你的英雄恢復#2點生命值。</zhTW>
+    <zhCN>造成$2点伤害，为你的英雄恢复#2点生命值。</zhCN>
+    <ruRU>Наносит $2 ед. урона. Восстанавливает #2 ед. здоровья вашему герою.</ruRU>
+    <ptBR>Cause $2 de dano. Restaure #2 de Vida do seu herói.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń. Przywróć #2 pkt. zdrowia swojemu bohaterowi.</plPL>
+    <koKR>피해를 $2 줍니다. 내 영웅이 생명력을 #2 회복합니다.</koKR>
+    <itIT>Infligge $2 danni. Rigenera #2 Salute al tuo eroe.</itIT>
+    <esMX>Inflige $2 de daño. Restaura #2 de Salud a tu héroe.</esMX>
+    <esES>Inflige $2 p. de daño. Restaura #2 p. de salud a tu héroe.</esES>
+    <deDE>Verursacht $2 Schaden. Stellt bei Eurem Helden #2 Leben wieder her.</deDE>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Don Hazeltine</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"I've just sucked one year of your life away."</enUS>
+    <zhTW>「我剛吸走了你一年的壽命。」</zhTW>
+    <zhCN>“我只是减少了你一年的寿命而已。”</zhCN>
+    <ruRU>«Я только что отнял у тебя лучший год твоей жизни».</ruRU>
+    <ptBR>"Acabei de sugar um ano da sua vida."</ptBR>
+    <plPL>„Właśnie wyssałem ci rok życia”.</plPL>
+    <koKR>"제가 동안을 유지하는 비결이죠."</koKR>
+    <itIT>"Ti ho appena risucchiato un anno di vita."</itIT>
+    <frFR>« Tu ne le sais pas encore mais tu es déjà mort ! »</frFR>
+    <esMX>"Tu sufrimiento es mi felicidad".</esMX>
+    <esES>"Te acabo de quitar un año de vida. No se admiten devoluciones".</esES>
+    <deDE>„Ich habe Euch gerade ein Jahr Eures Lebens ausgesaugt.“</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="f52f098d-dd17-41af-b8d7-694ba480e7ba" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 20.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="56647e8e-df83-4230-b6f9-1755433490f3">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

@@ -1,66 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_125">
+<Entity version="2" CardID="CRED_07">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ironfur Grizzly</enUS>
-    <frFR>Grizzly Ferpoil</frFR>
-    <zhTW>鐵鬃灰熊</zhTW>
-    <zhCN>铁鬃灰熊</zhCN>
-    <ruRU>Гриззли-сталемех</ruRU>
-    <ptBR>Veloférreo Cinzento</ptBR>
-    <plPL>Grizli żelaznoskóry</plPL>
-    <koKR>무쇠가죽 불곰</koKR>
-    <itIT>Grizzly Peloduro</itIT>
-    <esMX>Oso pardo cueracero</esMX>
-    <esES>Oso pardo Cueracero</esES>
-    <deDE>Eisenpelzgrizzly</deDE>
+    <enUS>Zwick</enUS>
+    <zhTW>Zwick</zhTW>
+    <zhCN>Zwick</zhCN>
+    <ruRU>Zwick</ruRU>
+    <ptBR>Zwick</ptBR>
+    <plPL>Zwick</plPL>
+    <koKR>즈윅</koKR>
+    <itIT>Zwick</itIT>
+    <frFR>Zwick</frFR>
+    <esMX>Zwick</esMX>
+    <esES>Zwick</esES>
+    <deDE>Zwick</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Complain about bacon prices.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抱怨培根的價格。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抱怨火腿的价格。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; возмущается ценами на бекон.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Reclama sobre o preço do bacon.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Narzekaj na ceny bekonu.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 베이컨 가격이 너무 비싸다고 불평합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; si lamenta dei prezzi del bacon.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; se plaint du prix du bacon.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; se queja de lo caro que está el tocino.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Se queja por el precio del bacon.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Beschwert Euch über die Bacon-Preise.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Lars Grant-West</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Hunter Level 58.</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Bear Carcass 1/10"</enUS>
-    <zhTW>「熊的屍體-1/10」</zhTW>
-    <zhCN>“瘦死的棕熊比兽人大。”</zhCN>
-    <ruRU>«Скелет медведя 1/10»</ruRU>
-    <ptBR>"Carcaça de Urso 1/10"</ptBR>
-    <plPL>„O, grizli?” „Nie, strielali.”</plPL>
-    <koKR>이름만 들어도 부드러워 보이네요.</koKR>
-    <itIT>"Carcasse d'Orso 1/10"</itIT>
-    <frFR>Touchez pas au grizzly !</frFR>
-    <esMX>"Cadáver de oso 1/10".</esMX>
-    <esES>Pellejo de oso 1/10</esES>
-    <deDE>"1/10 Bärengerippe gesammelt"</deDE>
-  </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="6edff011-5929-467f-b27a-13745f2de532" />
 </Entity>

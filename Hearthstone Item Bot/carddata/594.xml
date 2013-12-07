@@ -1,78 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_019">
+<Entity version="2" CardID="NEW1_022">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Knife Juggler</enUS>
-    <frFR>Jongleur de couteaux</frFR>
-    <zhTW>飛刀手</zhTW>
-    <zhCN>飞刀杂耍者</zhCN>
-    <ruRU>Жонглер кинжалами</ruRU>
-    <ptBR>Malabarista de Facas</ptBR>
-    <plPL>Nożownik</plPL>
-    <koKR>단검 곡예사</koKR>
-    <itIT>Lanciatore di Coltelli</itIT>
-    <esMX>Malabarista de cuchillos</esMX>
-    <esES>Malabarista de cuchillos</esES>
-    <deDE>Messerjongleur</deDE>
+    <enUS>Dread Corsair</enUS>
+    <zhTW>驚懼海盜</zhTW>
+    <zhCN>恐怖海盗</zhCN>
+    <ruRU>Жуткий корсар</ruRU>
+    <ptBR>Corsário Terrível</ptBR>
+    <plPL>Straszliwy korsarz</plPL>
+    <koKR>공포의 해적</koKR>
+    <itIT>Corsaro del Terrore</itIT>
+    <frFR>Corsaire de l’effroi</frFR>
+    <esMX>Corsario aterrador</esMX>
+    <esES>Corsario aterrador</esES>
+    <deDE>Schreckenskorsar</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
   <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="23" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>After you summon a minion, deal 1 damage to a random enemy.</enUS>
-    <frFR>Inflige 1 point de dégâts à un adversaire aléatoire après que vous avez invoqué un serviteur.</frFR>
-    <zhTW>在你召喚手下之後，對一個隨機敵人造成1點傷害。</zhTW>
-    <zhCN>每当你召唤一个随从时，对一个随机敌方角色造成1点伤害。</zhCN>
-    <ruRU>Каждый раз, когда вы призываете существо, наносит 1 ед. урона случайному персонажу противника.</ruRU>
-    <ptBR>Depois de evocar um lacaio, cause 1 de dano a um inimigo aleatório.</ptBR>
-    <plPL>Zadaje 1 pkt. obrażeń losowemu wrogowi za każdym razem, gdy przyzywasz stronnika.</plPL>
-    <koKR>내 하수인이 소환될 때마다 무작위 적에게 피해를 1 줍니다.</koKR>
-    <itIT>Quando evochi un servitore, il Lanciatore di Coltelli infligge 1 danno a un nemico casuale.</itIT>
-    <esMX>Después de invocar un esbirro, inflige 1 de daño a un enemigo aleatorio.</esMX>
-    <esES>Cuando invocas a un esbirro, inflige 1 p. de daño a un enemigo aleatorio.</esES>
-    <deDE>Fügt einem zufälligen Feind 1 Schaden zu, nachdem Ihr einen Diener herbeigerufen habt.</deDE>
+    <enUS>&lt;b&gt;Taunt.&lt;/b&gt; Costs (1) less per Attack of your weapon.</enUS>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。你的每一點武器攻擊力會減少其消耗(1)點。</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，你的武器每有1点攻击力，该牌的法力值消耗便减少（1）点。</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. Стоит на (1) ману меньше за каждую единицу атаки вашего оружия.</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. Custa (1) a menos por Ataque da sua arma.</ptBR>
+    <plPL>&lt;b&gt;Prowokacja.&lt;/b&gt; Kosztuje (1) mniej za każdy punkt ataku twojej broni.</plPL>
+    <koKR>&lt;b&gt;도발.&lt;/b&gt; 내 무기의 공격력만큼 비용이 감소합니다.</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. Costa (1) Mana in meno per ogni punto Attacco della tua arma.</itIT>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. Coûte (1) cristal de moins par Attaque de votre arme.</frFR>
+    <esMX>&lt;b&gt;Provocación.&lt;/b&gt; Cuesta (1) menos por cada punto de Ataque de tu arma.</esMX>
+    <esES>&lt;b&gt;Provocar.&lt;/b&gt; Cuesta (1) cristal menos por cada punto de ataque de tu arma.</esES>
+    <deDE>&lt;b&gt;Spott.&lt;/b&gt; Kostet (1) weniger für jeden Angriffspunkt Eurer Waffe.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Juggler</enUS>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Cavotta</enUS>
+    <enUS>Trent Kaniuga</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers.    They never last long enough to make it onto a card though.</enUS>
-    <zhTW>有野心的飛刀手有時候會轉行玩炸彈。但是我們完全找不到轉行後還能活著讓我們做卡片的飛刀手。</zhTW>
-    <zhCN>更具野心的飞刀杂耍者会晋升为“炸弹杂耍者”。只是现在还没有谁能够坚持到被做成卡牌。</zhCN>
-    <ruRU>Некоторые отчаянные жонглеры кинжалами меняют профессию и начинают жонглировать бомбами, но еще ни одному не удалось продержаться так долго, чтобы стать одной из карт.</ruRU>
-    <ptBR>Malabaristas de Facas ambiciosos às vezes são promovidos a Malabaristas de Bombas. Mas eles nunca sobrevivem o suficiente para colocar isso num cartão de visitas.</ptBR>
-    <plPL>Wołają na niego „Ed Nożoręki”</plPL>
-    <koKR>야심찬 단검 곡예사가 자라면 폭탄 곡예사가 되기도 합니다. 하지만 카드로 만들어질 만큼 오래 살아남는 경우는 없습니다.</koKR>
-    <itIT>I Lanciatori di Coltelli ambiziosi a volte vengono promossi a Lanciatori di Bombe. Purtroppo non sopravvivono mai abbastanza a lungo da dedicargli una carta.</itIT>
-    <frFR>Les jongleurs de couteaux doués sont parfois promus jongleurs de bombes. Mais ils ne survivent jamais assez longtemps pour devenir une carte.</frFR>
-    <esMX>A menudo, los malabaristas de cuchillos ascienden a malabaristas de bombas. Lamentablemente, duran tan poco que nunca llegan a convertirse en cartas.</esMX>
-    <esES>¿Dónde si no íbamos a ponernos la manzana?</esES>
-    <deDE>Die ambitionierteren Jongleure wechseln oft von Messern zu Bomben. Leider halten sie nie lang genug durch, um es auf eine Karte zu schaffen.</deDE>
+    <enUS>"Yarrrr" is a pirate word that means "Greetings, milord."</enUS>
+    <zhTW>「殺啊啊啊」其實是海盜語中「先生，您好」的意思。</zhTW>
+    <zhCN>“呀”在海盗的行话中代表“你好啊，有钱人。”</zhCN>
+    <ruRU>Если вы видите пирата, который кричит вам «Арррр!», не бойтесь – он просто здоровается.</ruRU>
+    <ptBR>Iarrrr é uma palavra pirata que quer dizer "Olá, milorde".</ptBR>
+    <plPL>„Arrrr” w pirackim narzeczu oznacza „Witaj, jaśnie panie.”</plPL>
+    <koKR>"야아아르"는 해적 말로 "안녕하십니까"라는 뜻입니다.</koKR>
+    <itIT>"Yarrrr" è una parola piratesca che significa: "Buongiorno, ser.".</itIT>
+    <frFR>En langage pirate, « Yarrrr » signifie « Bien le bonjour, mon seigneur. ». Évidemment.</frFR>
+    <esMX>"Aarrrr" es una palabra pirata que significa "Saludos, milord".</esMX>
+    <esES>"Arrr" es una palabra del idioma pirata que significa "Buenos días tenga vuestra merced".</esES>
+    <deDE>„Yarrrr“ ist ein Wort in der Piratensprache, das in etwa als „Meinen ergebensten Gruß, Euer Durchlaucht“ übersetzt werden kann.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="efbe4fc8-2e30-4ebb-a902-f31152276933" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <enUS>Knife Juggler dealt 1 damage to a random enemy</enUS>
-    <frFR>Le jongleur de couteaux a infligé 1 point de dégâts à un adversaire aléatoire.</frFR>
-    <zhTW>飛刀手對一個隨機敵人造成了1點傷害。</zhTW>
-    <zhCN>飞刀杂耍者随机对一个敌人造成1点伤害。</zhCN>
-    <ruRU>Жонглер кинжалами нанес 1 ед. урона случайному персонажу противника.</ruRU>
-    <ptBR>Malabarista de Facas causou 1 de dano a um inimigo aleatório</ptBR>
-    <plPL>Nożownik zadał 1 pkt. obrażeń losowemu wrogowi.</plPL>
-    <koKR>단검 곡예사가 무작위 적에게 피해 1 줌</koKR>
-    <itIT>Il Lanciatore di Coltelli ha inflitto 1 danno a un nemico casuale</itIT>
-    <esMX>El malabarista de cuchillos infligió 1 de daño a un enemigo aleatorio</esMX>
-    <esES>El malabarista de cuchillos ha infligido 1 p. de daño a un enemigo aleatorio.</esES>
-    <deDE>Der Messerjongleur hat einem zufälligen Feind 1 Schaden zugefügt.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="6dfc62b8-15d6-4a90-9717-f31bf1c57236" />
+  <Power definition="94961708-4c62-4f7b-a634-fdae1b555f90" />
 </Entity>

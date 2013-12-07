@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_197">
+<Entity version="2" CardID="EX1_162">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ogre Magi</enUS>
-    <frFR>Ogre-magi</frFR>
-    <zhTW>巨魔法師</zhTW>
-    <zhCN>食人魔法师</zhCN>
-    <ruRU>Огр-маг</ruRU>
-    <ptBR>Ogro Mago</ptBR>
-    <plPL>Ogrzy mag</plPL>
-    <koKR>오우거 마법사</koKR>
-    <itIT>Magus Ogre</itIT>
-    <esMX>Magi ogro</esMX>
-    <esES>Mago ogro</esES>
-    <deDE>Ogermagier</deDE>
+    <enUS>Dire Wolf Alpha</enUS>
+    <zhTW>原生恐狼</zhTW>
+    <zhCN>恐狼前锋</zhCN>
+    <ruRU>Вожак лютых волков</ruRU>
+    <ptBR>Lobo Hediondo Alfa</ptBR>
+    <plPL>Wilkor Alfa</plPL>
+    <koKR>광포한 늑대 우두머리</koKR>
+    <itIT>Metalupo Alfa</itIT>
+    <frFR>Loup alpha redoutable</frFR>
+    <esMX>Lobo alfa temible</esMX>
+    <esES>Lobo temible alfa</esES>
+    <deDE>Terrorwolfalpha</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Siła zaklęć +1&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Zauberschaden +1&lt;/b&gt;</deDE>
+    <enUS>Adjacent minions have +1 Attack.</enUS>
+    <zhTW>兩側的手下+1攻擊力。</zhTW>
+    <zhCN>相邻的随从获得+1攻击力。</zhCN>
+    <ruRU>Находящиеся по обе стороны существа получают +1 к атаке.</ruRU>
+    <ptBR>Lacaios adjacentes têm +1 de Ataque.</ptBR>
+    <plPL>Sąsiedni stronnicy otrzymują +1 do ataku.</plPL>
+    <koKR>양옆의 하수인들이 공격력을 +1 얻습니다.</koKR>
+    <itIT>I servitori adiacenti hanno +1 Attacco.</itIT>
+    <frFR>Les serviteurs adjacents ont +1 ATQ.</frFR>
+    <esMX>Los esbirros adyacentes tienen +1 de Ataque.</esMX>
+    <esES>Los esbirros adyacentes tienen +1 p. de ataque.</esES>
+    <deDE>Benachbarte Diener haben +1 Angriff.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Alpha Dog</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warlock Level 54.</enUS>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>John Dickenson</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Training Ogres in the art of spellcasting is a questionable decision.</enUS>
-    <zhTW>去訓練巨魔施法的藝術是一個令人質疑的決定。</zhTW>
-    <zhCN>教授食人魔如何施法是个值得商榷的决定。</zhCN>
-    <ruRU>Непонятно, кому пришла в голову идея учить огров волшебству.</ruRU>
-    <ptBR>Treinar ogros na arte de lançar feitiços é uma decisão condenável.</ptBR>
-    <plPL>Nauczanie ogrów magii to dość kontrowersyjny pomysł.</plPL>
-    <koKR>오우거에게 마법을 가르치다니, 차라리 드워프에게 금주를 권하겠어요! 어우, 끔찍해라.</koKR>
-    <itIT>Insegnare agli Ogre la nobile arte della magia è una decisione molto discutibile...</itIT>
-    <frFR>Apprendre aux ogres à lancer des sorts est une décision des plus douteuses.</frFR>
-    <esMX>Iniciar a un ogro en las artes mágicas no es una decisión demasiado sabia.</esMX>
-    <esES>¿A quién se le ocurre enseñar magia a los ogros?</esES>
-    <deDE>Es war eine äußerst fragwürdige Entscheidung, Ogern das Zaubern beizubringen.</deDE>
+    <enUS>We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.</enUS>
+    <zhTW>他們說原生的恐狼比較大隻。我想，他們咬人應該也會比較痛。要不然你去讓牠咬咬看?</zhTW>
+    <zhCN>这支球队没有后卫。</zhCN>
+    <ruRU>Если по обе стороны находятся одинаковые существа, вожак лютых волков загадывает желание.</ruRU>
+    <ptBR>Estamos bem animados com o lançamento do Lobo Hediondo Beta. É só compartilhar esta mensagem para concorrer a uma chave.</ptBR>
+    <plPL>Nie możemy się doczekać wydania Bety Wilkora. Przekażcie dalej ten wpis, aby wziąć udział w losowaniu kluczy!</plPL>
+    <koKR>정작 광포해지는 건 양옆이지만, 어쨌든 먼저 처치해야 할 것 같습니다.</koKR>
+    <itIT>Siamo entusiasti di annunciare l'arrivo del Meta Lupo Beta, copia e incolla questo testo per avere l'occasione di vincere una chiave d'accesso!</itIT>
+    <frFR>Je suis l’alpha et l’oméga, bébé !</frFR>
+    <esMX>Estamos muy contentos de anunciar el lanzamiento de Lobo beta temible. Compartan este mensaje y tendrán la posibilidad de ganarse una clave.</esMX>
+    <esES>Pensamos en añadir un lobo temible beta, pero la gente se quejaría de no tener claves.</esES>
+    <deDE>Wir freuen uns schon auf die bevorstehende Terrorwolfbeta. Teilt diese Nachricht mit Euren Freunden und gewinnt mit etwas Glück einen Beta-Key!</deDE>
   </Tag>
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="5d486b7b-1622-4ab7-adec-7919eaa1c563" />
+  <Tag name="AdjacentBuff" enumID="350" type="Bool" value="1" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="42e56f47-08b9-439f-a1d9-7b96f4cacf1c" />
+  <Power definition="6ad4a15c-045d-4e3c-9dd7-648939d717d1" />
 </Entity>

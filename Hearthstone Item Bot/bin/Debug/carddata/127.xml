@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_122e">
+<Entity version="2" CardID="EX1_084e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Enhanced</enUS>
-    <frFR>Amélioration</frFR>
-    <zhTW>強化</zhTW>
-    <zhCN>强化</zhCN>
-    <ruRU>Усиление</ruRU>
-    <ptBR>Aprimorado</ptBR>
-    <plPL>Wzmocnienie</plPL>
-    <koKR>고양</koKR>
-    <itIT>Potenziato</itIT>
-    <esMX>Mejorado</esMX>
-    <esES>Mejorado</esES>
-    <deDE>Verbessert</deDE>
+    <enUS>Charge</enUS>
+    <frFR>Charge</frFR>
+    <zhTW>衝鋒</zhTW>
+    <zhCN>冲锋</zhCN>
+    <ruRU>Рывок</ruRU>
+    <ptBR>Investida</ptBR>
+    <plPL>Szarża</plPL>
+    <koKR>돌진</koKR>
+    <itIT>Carica</itIT>
+    <esMX>Carga</esMX>
+    <esES>Cargar</esES>
+    <deDE>Sturmangriff</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Raid Leader is granting this minion +1 Attack.</enUS>
-    <frFR>Le chef de raid confère +1 ATQ à ce serviteur.</frFR>
-    <zhTW>團隊隊長賦予了這個手下+1攻擊力。</zhTW>
-    <zhCN>团队领袖使得该随从获得+1攻击力。</zhCN>
-    <ruRU>+1 к атаке от &lt;i&gt;Лидера рейда&lt;/i&gt;.</ruRU>
-    <ptBR>O Líder do Raide está concedendo +1 de ataque a este lacaio.</ptBR>
-    <plPL>Dowódca rajdu daje temu stronnikowi +1 do ataku.</plPL>
-    <koKR>공격대장이 공격력 +1 부여</koKR>
-    <itIT>+1 Attacco dal Capoincursione.</itIT>
-    <esMX>El Líder de banda le otorga +1 de Ataque a este esbirro.</esMX>
-    <esES>El líder de banda otorga +1 p. de ataque a este esbirro.</esES>
-    <deDE>Der Schlachtzugsleiter verleiht diesem Diener +1 Angriff.</deDE>
+    <enUS>This minion has &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Ce serviteur a &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>這個手下擁有&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
+    <zhCN>该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Это существо имеет способность «Рывок».</ruRU>
+    <ptBR>Este lacaio ganha &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>Ten stronnik otrzymuje &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt; dal Capitano dei Cantaguerra.</itIT>
+    <esMX>Este esbirro tiene &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Este esbirro tiene &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Dieser Diener hat &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="ff43a337-8acf-4bf6-a593-dd670e01f2cf" />
-  <Power definition="ab600413-07b4-4bff-aec8-1b74b191763d" />
+  <Power definition="a3a776ef-4cd5-41d2-89f7-06c159151961" />
 </Entity>

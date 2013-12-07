@@ -1,68 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_129">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_571">
+  <MasterPower>d693477e-0b88-45d1-bad5-5384baaeb1f7</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Fan of Knives</enUS>
-    <frFR>Éventail de couteaux</frFR>
-    <zhTW>飛舞刀刃</zhTW>
-    <zhCN>刀扇</zhCN>
-    <ruRU>Веер клинков</ruRU>
-    <ptBR>Leque de Facas</ptBR>
-    <plPL>Wachlarz ostrzy</plPL>
-    <koKR>칼날 부채</koKR>
-    <itIT>Ventaglio di Lame</itIT>
-    <esMX>Abanico de cuchillos</esMX>
-    <esES>Abanico de cuchillos</esES>
-    <deDE>Dolchfächer</deDE>
+    <enUS>Force of Nature</enUS>
+    <frFR>Force de la nature</frFR>
+    <zhTW>自然之力</zhTW>
+    <zhCN>自然之力</zhCN>
+    <ruRU>Сила природы</ruRU>
+    <ptBR>Força da Natureza</ptBR>
+    <plPL>Siła natury</plPL>
+    <koKR>자연의 군대</koKR>
+    <itIT>Forza della Natura</itIT>
+    <esMX>Fuerza de la naturaleza</esMX>
+    <esES>Fuerza de la Naturaleza</esES>
+    <deDE>Naturgewalt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $1 damage to all enemy minions. Draw a card.</enUS>
-    <frFR>Inflige $1 |4(point,points) de dégâts à tous les serviteurs adverses. Vous piochez une carte.</frFR>
-    <zhTW>對全部敵方手下造成$1點傷害。抽一張牌。</zhTW>
-    <zhCN>对所有敌方随从造成$1点伤害，抽一张牌。</zhCN>
-    <ruRU>Наносит $1 ед. урона всем существам противника. Вы берете карту.</ruRU>
-    <ptBR>Cause $1 de dano a todos os lacaios inimigos. Compre um card.</ptBR>
-    <plPL>Zadaj $1 pkt. obrażeń wszystkim wrogim stronnikom. Dobierz kartę.</plPL>
-    <koKR>모든 적 하수인에게 피해를 $1 줍니다. 카드를 1장 뽑습니다.</koKR>
-    <itIT>Infligge $1 danno a tutti i servitori nemici. Pesca una carta.</itIT>
-    <esMX>Inflige $1 de daño a todos los esbirros enemigos. Roba una carta.</esMX>
-    <esES>Inflige $1 p. de daño a todos los esbirros enemigos. Roba una carta.</esES>
-    <deDE>Fügt allen feindlichen Dienern $1 Schaden zu. Zieht eine Karte.</deDE>
+    <enUS>Summon three 2/2 Treants with &lt;b&gt;Charge&lt;/b&gt; that die at the end of the turn.</enUS>
+    <frFR>Invoque trois tréants 2/2 avec &lt;b&gt;Charge&lt;/b&gt; qui meurent à la fin du tour.</frFR>
+    <zhTW>召喚三個有&lt;b&gt;衝鋒&lt;/b&gt;，並在回合結束即死亡的2/2樹人。</zhTW>
+    <zhCN>召唤3个2/2并具有&lt;b&gt;冲锋&lt;/b&gt;的树人，在回合结束时，消灭这些树人。</zhCN>
+    <ruRU>Призывает на поле боя трех древней 2/2 со способностью &lt;b&gt;«Рывок»&lt;/b&gt;, которые умрут в конце хода.</ruRU>
+    <ptBR>Evoque três Arvorosos 2/2 com &lt;b&gt;Investida&lt;/b&gt;, que morrerão no fim do turno.</ptBR>
+    <plPL>Przyzwij trzy drzewce z &lt;b&gt;Szarżą&lt;/b&gt;, które zginą na koniec tury.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt; 능력이 있는 2/2 나무정령을 3마리 소환합니다. 이들은 내 턴이 끝날 때 모두 죽습니다.</koKR>
+    <itIT>Evoca tre Treant 2/2 con &lt;b&gt;Carica&lt;/b&gt; che muoiono alla fine del tuo turno.</itIT>
+    <esMX>Invoca tres Antárboles 2/2 con &lt;b&gt;Carga&lt;/b&gt; que mueren al final del turno.</esMX>
+    <esES>Invoca tres antárboles 2/2 con &lt;b&gt;Cargar&lt;/b&gt; que mueren al final del turno.</esES>
+    <deDE>Ruft drei Treants (2/2) mit &lt;b&gt;Ansturm&lt;/b&gt; herbei, die am Ende des Zuges sterben.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Andrew Robinson</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>I wouldn't say I LOVE knives, but I'm definitely a fan.</enUS>
-    <zhTW>我不敢說我喜歡刀刃，不過我是非常喜歡飛舞的。</zhTW>
-    <zhCN>转瞬即逝的寒光闪过，漫天飞舞的血花绽放。</zhCN>
-    <ruRU>Из инструкции к вееру клинков: обмахивать только неприятелей!</ruRU>
-    <ptBR>Eu não diria que ADORO facas. Mas sou fã com certeza.</ptBR>
-    <plPL>Nie powiem, że kocham noże, ale czasem lubię sobie nimi powachlować.</plPL>
-    <koKR>시전할 때 생기는 바람이 시원해서 지어진 이름이란 소문이 있습니다.</koKR>
-    <itIT>Non è consigliabile usarlo per rinfrescarsi nelle giornate più afose.</itIT>
-    <frFR>Je ne dirais pas que j’ai des tonnes de couteaux, mais plutôt un éventail bien fourni.</frFR>
-    <esMX>No hay mejor manera de matar el calor.</esMX>
-    <esES>Todo pícaro que se precie posee un amplio abanico de cuchillos.</esES>
-    <deDE>Macht nicht einfachen, nicht zweifachen, sondern gleich dolchfachen Schaden!</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Trevor Jacobs</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 42.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"I think I'll just nap under these trees. Wait... AAAAAHHH!" - Blinkfizz, the Unfortunate Gnome</enUS>
+    <zhTW>「我想先在那些樹下打個盹。等等...啊啊啊啊!!!」-不幸的地精布林克非茲</zhTW>
+    <zhCN>“我想我可以在这片树荫下打个盹儿。等等...啊啊啊啊啊！”——不幸的侏儒布林克菲兹</zhCN>
+    <ruRU>«Я хочу прикорнуть под этими деревьями. Эй, что это? АААААААА!» – Микрутень, невезучий гном.</ruRU>
+    <ptBR>"Acho que vou cochilar embaixo dessa árvore. Espera... AAAHHHH!" — Piscaxispa, o Gnomo Azarado</ptBR>
+    <plPL>„Chyba kimnę się zdziebko pod tymi drzewkami. Chwilę... AAAAAAA!” - Migotek, pechowy gnom.</plPL>
+    <koKR>"이 나무들 밑에서 한숨 자야겠어. 잠깐... 으아아아아악!" - 운 나쁜 노움, 블링크피즈</koKR>
+    <itIT>"Penso che farò un sonnellino all'ombra di questi alberi. Un momento... AAAAAHHH!" - Blinkfizz, lo Gnomo Sfortunato</itIT>
+    <frFR>« Je crois que je vais faire un somme sous ces arbres. Hé, qu’est-ce que... AAAAAHHH ! » - Folbulle, le malheureux gnome</frFR>
+    <esMX>"Me echaré a dormir una siesta bajo estos árboles. Un momento... ¡AAAHHHHH!". —Chispita, el gnomo desafortunado</esMX>
+    <esES>"¡Menuda siesta me voy a echar a la sombra de estos chopos! ... ¡AAAAAAAAH!" - Burbujillo, el gnomo desgraciado</esES>
+    <deDE>„Ich mache mal ein Nickerchen unter diesen Bäumen dort. Wartet ... AAAHHH!“ - Zwinkerfizz, der unglückselige Gnom</deDE>
   </Tag>
-  <Power definition="2e8eabed-03ab-42b4-a2a2-b520297d0a2b" />
+  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="d693477e-0b88-45d1-bad5-5384baaeb1f7" />
 </Entity>

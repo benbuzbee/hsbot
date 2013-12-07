@@ -1,67 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_003">
-  <MasterPower>f7e4f69e-1f6e-4387-9b55-b7fd51f76a5b</MasterPower>
+<Entity version="2" CardID="NEW1_017">
+  <MasterPower>c5b2cfe4-3a01-423a-82be-cf633d4b215c</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mind Vision</enUS>
-    <frFR>Vision télépathique</frFR>
-    <zhTW>心靈幻象</zhTW>
-    <zhCN>心灵视界</zhCN>
-    <ruRU>Внутреннее зрение</ruRU>
-    <ptBR>Visão da Mente</ptBR>
-    <plPL>Wizja umysłu</plPL>
-    <koKR>마음의 눈</koKR>
-    <itIT>Visione Mentale</itIT>
-    <esMX>Visión mental</esMX>
-    <esES>Visión mental</esES>
-    <deDE>Gedankensicht</deDE>
+    <enUS>Hungry Crab</enUS>
+    <frFR>Crabe affamé</frFR>
+    <zhTW>飢餓的螃蟹</zhTW>
+    <zhCN>鱼人杀手蟹</zhCN>
+    <ruRU>Голодный краб</ruRU>
+    <ptBR>Caranguejo Faminto</ptBR>
+    <plPL>Głodny krab</plPL>
+    <koKR>굶주린 게</koKR>
+    <itIT>Granchio Affamato</itIT>
+    <esMX>Cangrejo hambriento</esMX>
+    <esES>Cangrejo hambriento</esES>
+    <deDE>Hungrige Krabbe</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Put a copy of a random card in your opponent's hand into your hand.</enUS>
-    <frFR>Place une copie d’une carte aléatoire de l’adversaire dans votre main.</frFR>
-    <zhTW>從你的對手手上複製一張隨機卡片，並放到你的手牌裡。</zhTW>
-    <zhCN>随机复制你的对手手牌中的一张牌，将其置入你的手牌。</zhCN>
-    <ruRU>Вы кладете в руку копию случайной карты из руки противника.</ruRU>
-    <ptBR>Coloque uma cópia de um card aleatório da mão do seu oponente na sua mão.</ptBR>
-    <plPL>Umieść kopię losowej karty z ręki przeciwnika w swojej ręce.</plPL>
-    <koKR>상대편 손에 있는 카드 1장을 무작위로 복사하여 내 손으로 가져옵니다.</koKR>
-    <itIT>Metti una copia di una carta casuale proveniente dalla mano dell'avversario nella tua mano.</itIT>
-    <esMX>Pon una copia de una carta aleatoria de la mano de tu adversario en tu mano.</esMX>
-    <esES>Coloca una copia de una carta aleatoria de la mano de tu oponente en tu mano.</esES>
-    <deDE>Kopiert eine zufällige Karte aus der Hand Eures Gegners und fügt sie Eurer Hand hinzu.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a Murloc and gain +2/+2.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit un murloc et gagne +2/+2.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個魚人並獲得+2/+2。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个鱼人，并获得+2/+2。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает выбранного мурлока и получает +2/+2.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um murloc e receba +2/+2.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz murloka, a dostanie +2/+2.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 멀록을 처치하고 +2/+2를 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il Granchio Affamato distrugge un Murloc e ottiene +2/+2.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye un múrloc y obtiene +2/+2.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a un múrloc y obtiene +2/+2.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet einen Murloc und erhält +2/+2.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Jaemin Kim</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Michael Komarck</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>I see what you did there.</enUS>
-    <zhTW>我知道你幹過哪些好事。</zhTW>
-    <zhCN>你刚才做的事情我都看见了。</zhCN>
-    <ruRU>А я все вижу!</ruRU>
-    <ptBR>Eu vi o que você fez aí.</ptBR>
-    <plPL>To się nazywa redystrybucja dóbr!</plPL>
-    <koKR>손이 눈보다 빠를 필요가 없습니다. 이 카드만 있으면요.</koKR>
-    <itIT>So cosa hai fatto.</itIT>
-    <frFR>Je vois des cartes qui sont... miennes !</frFR>
-    <esMX>A mí no me puedes ocultar nada.</esMX>
-    <esES>Te he visto.</esES>
-    <deDE>„Jemandem in die Karten sehen“ ist hier noch wortwörtlich zu verstehen.</deDE>
+    <enUS>Murloc.  It's what's for dinner.</enUS>
+    <zhTW>魚人。就是晚餐。</zhTW>
+    <zhCN>又是鱼人。开饭了。</zhCN>
+    <ruRU>Сегодня у нас на ужин мурлоки!</ruRU>
+    <ptBR>Murloc. É isso que tem pra janta.</ptBR>
+    <plPL>Murlok doda ci skrzy... znaczy siły, siły doda.</plPL>
+    <koKR>멀록은 저녁 거리입니다.</koKR>
+    <itIT>Murloc. Il piatto del giorno.</itIT>
+    <frFR>Du murloc, voilà ce qu’on mange ce soir.</frFR>
+    <esMX>Múrloc. Esa es la cena.</esMX>
+    <esES>¡Hoy cenamos múrloc!</esES>
+    <deDE>Krabben würden Murlocs kaufen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 42.</enUS>
-  </Tag>
-  <Power definition="f7e4f69e-1f6e-4387-9b55-b7fd51f76a5b" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="c5b2cfe4-3a01-423a-82be-cf633d4b215c">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="10" param="14" />
+  </Power>
 </Entity>

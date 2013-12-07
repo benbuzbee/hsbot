@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="GAME_003">
+<Entity version="2" CardID="CRED_02">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Coin's Vengeance</enUS>
-    <zhTW>擲幣之復仇</zhTW>
-    <zhCN>幸运币复仇</zhCN>
-    <ruRU>Месть монетки</ruRU>
-    <ptBR>Vingança da Moeda</ptBR>
-    <plPL>Zemsta monety</plPL>
-    <koKR>동전의 복수</koKR>
-    <itIT>Vendetta della Moneta</itIT>
-    <frFR>Vengeance de la pièce</frFR>
-    <esMX>Venganza de la moneda</esMX>
-    <esES>La venganza de la moneda</esES>
-    <deDE>Rache der Münze</deDE>
+    <enUS>Eric Dodds</enUS>
+    <zhTW>Eric Dodds</zhTW>
+    <zhCN>Eric Dodds</zhCN>
+    <ruRU>Eric Dodds</ruRU>
+    <ptBR>Eric Dodds</ptBR>
+    <plPL>Eric Dodds</plPL>
+    <koKR>에릭 다즈</koKR>
+    <itIT>Eric Dodds</itIT>
+    <frFR>Eric Dodds</frFR>
+    <esMX>Eric Dodds</esMX>
+    <esES>Eric Dodds</esES>
+    <deDE>Eric Dodds</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Going second makes your first minion stronger.</enUS>
-    <zhTW>後手讓你的第一個手下變得更強大。</zhTW>
-    <zhCN>后手出牌会使你的第一个随从获得增强。</zhCN>
-    <ruRU>Если вы ходите вторым, первое разыгранное вами существо становится сильнее.</ruRU>
-    <ptBR>Ser o segundo a jogar deixa seu primeiro lacaio mais forte.</ptBR>
-    <plPL>Dzięki temu, że jesteś drugim graczem, twój pierwszy stronnik jest silniejszy.</plPL>
-    <koKR>후공으로 시작하면 첫 하수인이 강해집니다.</koKR>
-    <itIT>Cominciare per secondo rende più forte il tuo primo servitore.</itIT>
-    <frFR>Passer en second renforce votre premier serviteur.</frFR>
-    <esMX>Ser el segundo fortalece a tu primer esbirro.</esMX>
-    <esES>Ir en segundo lugar hace que tu primer esbirro sea más fuerte.</esES>
-    <deDE>Da Ihr als Zweiter dran seid, wird Euer zuerst ausgespielter Diener stärker.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/2 Pirate and destroy all Ninjas.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一個2/2的海盜並摧毀全部忍者。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一个2/2的海盗并消灭所有忍者。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя пирата 2/2 и уничтожает всех ниндзя.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque um Pirata 2/2 e destrua todos os Ninjas.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pirata 2/2 i zniszcz wszystkich nindżów.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 2/2 해적을 소환하고 모든 닌자를 처치합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un Pirata 2/2 e distrugge tutti i Ninja.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; Invoque un pirate 2/2 et détruit tous les ninjas.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca un Pirata 2/2 y destruye a todos los Ninjas.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca a un pirata 2/2 y destruye a todos los ninjas.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft einen Piraten (2/2) herbei und zerstört alle Ninjas.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="921f9dba-a203-402f-95e2-c60a6cc1120e" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

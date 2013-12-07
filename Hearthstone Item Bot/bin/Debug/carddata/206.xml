@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_004e">
+<Entity version="2" CardID="HERO_03">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Elune's Grace</enUS>
-    <frFR>Grâce d’Élune</frFR>
-    <zhTW>伊露恩之賜</zhTW>
-    <zhCN>艾露恩的赐福</zhCN>
-    <ruRU>Благодать Элуны</ruRU>
-    <ptBR>Graça de Eluna</ptBR>
-    <plPL>Łaska Eluny</plPL>
-    <koKR>엘룬의 은총</koKR>
-    <itIT>Grazia di Elune</itIT>
-    <esMX>La gracia de Elune</esMX>
-    <esES>Gracia de Elune</esES>
-    <deDE>Elunes Anmut</deDE>
+    <enUS>Valeera Sanguinar</enUS>
+    <zhTW>瓦麗拉·桑古納爾</zhTW>
+    <zhCN>瓦莉拉·萨古纳尔</zhCN>
+    <ruRU>Валира Сангвинар</ruRU>
+    <ptBR>Valira Sanguinar</ptBR>
+    <plPL>Valeera Sangwinar</plPL>
+    <koKR>발리라 생귀나르</koKR>
+    <itIT>Valeera Sanguinar</itIT>
+    <frFR>Valeera Sanguinar</frFR>
+    <esMX>Valeera Sanguinar</esMX>
+    <esES>Valeera Sanguinar</esES>
+    <deDE>Valeera Sanguinar</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Increased Health.</enUS>
-    <frFR>Vie augmentée.</frFR>
-    <zhTW>生命值提高。</zhTW>
-    <zhCN>生命值增加。</zhCN>
-    <ruRU>Здоровье увеличено.</ruRU>
-    <ptBR>Vida aumentada.</ptBR>
-    <plPL>Zwiększone zdrowie.</plPL>
-    <koKR>생명력 증가</koKR>
-    <itIT>Salute aumentata.</itIT>
-    <esMX>Salud aumentada.</esMX>
-    <esES>Salud aumentada.</esES>
-    <deDE>Erhöhtes Leben.</deDE>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="bf160fa3-e50b-4076-a8ed-6b0ab27a1863" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="30" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Power definition="fa70116c-dccd-4283-8f09-dfda53854b79" />
 </Entity>

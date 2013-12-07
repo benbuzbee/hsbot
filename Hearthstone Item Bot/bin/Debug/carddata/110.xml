@@ -1,72 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_103">
-  <MasterPower>30511767-3711-465e-bb62-114a8880691d</MasterPower>
+<Entity version="2" CardID="CS2_011o">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Charge</enUS>
-    <zhTW>衝鋒</zhTW>
-    <zhCN>冲锋</zhCN>
-    <ruRU>Рывок</ruRU>
-    <ptBR>Investida</ptBR>
-    <plPL>Szarża</plPL>
-    <koKR>돌진</koKR>
-    <itIT>Carica</itIT>
-    <frFR>Charge</frFR>
-    <esMX>Carga</esMX>
-    <esES>Cargar</esES>
-    <deDE>Sturmangriff</deDE>
+    <enUS>Savage Roar</enUS>
+    <frFR>Rugissement sauvage</frFR>
+    <zhTW>兇蠻咆哮</zhTW>
+    <zhCN>野蛮咆哮</zhCN>
+    <ruRU>Дикий рев</ruRU>
+    <ptBR>Rugido Selvagem</ptBR>
+    <plPL>Dziki ryk</plPL>
+    <koKR>야생의 포효</koKR>
+    <itIT>Ruggito Selvaggio</itIT>
+    <esMX>Rugido salvaje</esMX>
+    <esES>Rugido salvaje</esES>
+    <deDE>Wildes Brüllen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a friendly minion &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <zhTW>賦予一個友方手下&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
-    <zhCN>在本回合中，使一个友方随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Ваше выбранное существо получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Conceda &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado.</ptBR>
-    <plPL>Daj przyjaznemu stronnikowi &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>아군 하수인에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce &lt;b&gt;Carica&lt;/b&gt; a un tuo servitore.</itIT>
-    <frFR>Confère &lt;b&gt;Charge&lt;/b&gt; à un serviteur allié.</frFR>
-    <esMX>Otorga &lt;b&gt;Carga&lt;/b&gt; a un esbirro aliado.</esMX>
-    <esES>Otorga &lt;b&gt;Cargar&lt;/b&gt; a un esbirro amistoso.</esES>
-    <deDE>Verleiht einem befreundeten Diener &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+    <enUS>+2 Attack this turn.</enUS>
+    <frFR>+2 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合+2攻擊力。</zhTW>
+    <zhCN>在本回合中，获得+2攻击力。</zhCN>
+    <ruRU>+2 к атаке до конца хода.</ruRU>
+    <ptBR>+2 de Ataque neste turno.</ptBR>
+    <plPL>+2 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +2</koKR>
+    <itIT>+2 Attacco in questo turno.</itIT>
+    <esMX>+2 de Ataque en este turno.</esMX>
+    <esES>+2 p. de ataque este turno.</esES>
+    <deDE>+2 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Guys! Guys! Slow down!" - some kind of non-warrior minion</enUS>
-    <zhTW>「喂!喂!慢一點啊!」-某個不是戰士的手下</zhTW>
-    <zhCN>“伙计们！伙计们！你们稳着点儿！”——某些不属于战士的随从。</zhCN>
-    <ruRU>«Эй, куда вы? Подождите меня!» Какое-то существо не из колоды воина</ruRU>
-    <ptBR>"Galera! Galera! Mais devagar!" — Algum tipo de lacaio não-guerreiro.</ptBR>
-    <plPL>Szarżować każdy może, jeden lepiej, inny trochę gorzej.</plPL>
-    <koKR>다음 턴까지는 안전할 거라는 상대의 믿음을 박살냅니다.</koKR>
-    <itIT>"Ragazzi! Ragazzi! Rallentate!" - Un servitore non Guerriero</itIT>
-    <frFR>« Soyez pas vache, attendez-moi ! » - De toute évidence, pas un serviteur de guerrier</frFR>
-    <esMX>"¡Ey, vamos! ¡Cálmense un poco!" —especie de esbirro no acostumbrado a la guerra</esMX>
-    <esES>La táctica favorita de los guerreros en las mazmorras.</esES>
-    <deDE>„He, Leute! Macht mal etwas langsamer!“ – ein überraschter Diener</deDE>
-  </Tag>
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="30511767-3711-465e-bb62-114a8880691d">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="2" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="4d5a47f7-8940-4e72-8d3a-db4acb830aca" />
+  <Power definition="fbf66db6-a4dc-4591-aed5-642a127f3127" />
+  <Power definition="9b5e0d2f-6dd1-4e76-9983-de11e6a1d4d3" />
 </Entity>

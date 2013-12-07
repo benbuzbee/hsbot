@@ -1,52 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_106">
+<Entity version="2" CardID="NEW1_005">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Fiery War Axe</enUS>
-    <frFR>Hache de guerre embrasée</frFR>
-    <zhTW>熾炎戰斧</zhTW>
-    <zhCN>炽炎战斧</zhCN>
-    <ruRU>Огненная секира</ruRU>
-    <ptBR>Machado de Guerra Abrasador</ptBR>
-    <plPL>Ognisty wojenny topór</plPL>
-    <koKR>이글거리는 전쟁 도끼</koKR>
-    <itIT>Ascia da Guerra Ardente</itIT>
-    <esMX>Hacha de guerra ígnea</esMX>
-    <esES>Hacha de guerra ígnea</esES>
-    <deDE>Feurige Kriegsaxt</deDE>
+    <enUS>Kidnapper</enUS>
+    <frFR>Kidnappeur</frFR>
+    <zhTW>綁匪</zhTW>
+    <zhCN>劫持者</zhCN>
+    <ruRU>Похититель</ruRU>
+    <ptBR>Sequestrador</ptBR>
+    <plPL>Porywacz</plPL>
+    <koKR>납치범</koKR>
+    <itIT>Sequestratore</itIT>
+    <esMX>Secuestrador</esMX>
+    <esES>Secuestrador</esES>
+    <deDE>Entführer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="7" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Durability" enumID="187" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Combo:&lt;/b&gt; Return a minion to its owner's hand.</enUS>
+    <frFR>&lt;b&gt;Combo :&lt;/b&gt; renvoie un serviteur dans la main de son propriétaire.</frFR>
+    <zhTW>&lt;b&gt;連擊:&lt;/b&gt;將一個手下返回擁有者手上。</zhTW>
+    <zhCN>&lt;b&gt;连击：&lt;/b&gt;将一个随从移回其拥有者的手牌。</zhCN>
+    <ruRU>&lt;b&gt;Серия приемов:&lt;/b&gt; возвращает выбранное существо в руку владельца.</ruRU>
+    <ptBR>&lt;b&gt;Combo:&lt;/b&gt; Devolva um lacaio à mão do dono.</ptBR>
+    <plPL>&lt;b&gt;Kombinacja:&lt;/b&gt; Cofasz stronnika do ręki właściciela.</plPL>
+    <koKR>&lt;b&gt;연계:&lt;/b&gt; 하수인을 주인의 손으로 돌려보냅니다.</koKR>
+    <itIT>&lt;b&gt;Combo:&lt;/b&gt; fa tornare un servitore nella mano del suo proprietario.</itIT>
+    <esMX>&lt;b&gt;Combo:&lt;/b&gt; devuelve un esbirro a la mano de su propietario.</esMX>
+    <esES>&lt;b&gt;Combo:&lt;/b&gt; Devuelve a un esbirro a la mano de su dueño.</esES>
+    <deDE>&lt;b&gt;Combo:&lt;/b&gt; Lasst einen Diener auf die Hand seines Besitzers zurückkehren.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Lucas Graciano</enUS>
+    <enUS>Dave Allsop</enUS>
+  </Tag>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Return a minion to hand.</enUS>
+    <zhTW>使一個手下返回手上。</zhTW>
+    <zhCN>将一个随从移回手牌。</zhCN>
+    <ruRU>Вернуть существо в руку</ruRU>
+    <ptBR>Devolva um lacaio à mão.</ptBR>
+    <plPL>Cofnij stronnika na rękę.</plPL>
+    <koKR>손으로 하수인 돌려보내기</koKR>
+    <itIT>Fa tornare un servitore nella tua mano.</itIT>
+    <frFR>Renvoie un serviteur dans la main.</frFR>
+    <esMX>Devuelve un esbirro a la mano.</esMX>
+    <esES>Devuelve a un esbirro a la mano.</esES>
+    <deDE>Lasst einen Diener auf die Hand des Besitzers zurückkehren.</deDE>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe.</enUS>
-    <zhTW>在和平安詳的年代，這把武器有著另一個沒那麼出名的稱呼，叫「冷凍和平斧」。</zhTW>
-    <zhCN>在安宁祥和的年代，人们用另一个不太流行的名字称呼这把武器，寒冰静谧之斧。</zhCN>
-    <ruRU>В мирные времена этот топор носил иное, менее популярное название, – «Секира ледяного спокойствия».</ruRU>
-    <ptBR>Nos tempos de tranquilidade e harmonia, esta arma era chamada por seu nome menos conhecido, Machado da Paz Na Moral, Aí.</ptBR>
-    <plPL>W czasach pokoju i ogólnej harmonii broń ta znana jest pod mniej popularną nazwą: Pieligrządek Pokoju.</plPL>
-    <koKR>한창 평화롭던 시절에는 사람들이 이 도끼를 다르게 불렀습니다. 싸늘한 평화 도끼라고 말이죠... 이 싸늘한 분위기는 뭘까요?</koKR>
-    <itIT>Durante periodi di tranquillità e armonia, quest'arma veniva chiamata Ascia da Pace Rinfrescante.</itIT>
-    <frFR>En période de paix et d’harmonie, cette arme portait un nom beaucoup moins populaire. Hache de guerre froide.</frFR>
-    <esMX>En épocas de paz y tranquilidad, esta arma era conocida por su nombre menos habitual: Hacha de la paz helada.</esMX>
-    <esES>En épocas de tranquilidad y armonía, a esta arma se la conoce por su nombre menos popular: hacha de paz fresquita.</esES>
-    <deDE>In Zeiten der Ruhe und der Harmonie wurde diese Waffe bei ihrem weniger bekannten Namen genannt: Kühlende Friedensaxt.</deDE>
+    <enUS>He just wants people to see his vacation photos.</enUS>
+    <zhTW>他只是想要大家看看他度假時拍的照片。</zhTW>
+    <zhCN>他只是希望有人能看看他在假期里拍摄的照片而已。</zhCN>
+    <ruRU>Он вовсе не злой. Просто ему не с кем поговорить.</ruRU>
+    <ptBR>Ele só quer que as pessoas vejam as fotos que tirou na viagem.</ptBR>
+    <plPL>Najpierw ich porywa, a potem pokazuje im swoje zdjęcia z wakacji.</plPL>
+    <koKR>하수인을 돌려보낸 죄밖에 없습니다.</koKR>
+    <itIT>Vuole solo mostrare alla gente le foto delle sue vacanze...</itIT>
+    <frFR>Il veut seulement montrer ses photos de vacances à quelqu’un.</frFR>
+    <esMX>Lo único que quiere es que la gente vea las fotos de sus vacaciones.</esMX>
+    <esES>Se siente terriblemente solo.</esES>
+    <deDE>Er möchte Leuten einfach nur seine Briefmarkensammlung zeigen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 36.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
+  <Tag name="Combo" enumID="220" type="Bool" value="1" />
+  <Power definition="47a778e3-ca65-4a61-9712-70939c44c140">
+    <PlayRequirement reqID="24" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

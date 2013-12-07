@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DREAM_03">
+<Entity version="2" CardID="CS2_074e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Emerald Drake</enUS>
-    <frFR>Drake émeraude</frFR>
-    <zhTW>翡翠龍</zhTW>
-    <zhCN>翡翠幼龙</zhCN>
-    <ruRU>Изумрудный дракон</ruRU>
-    <ptBR>Draco Esmeralda</ptBR>
-    <plPL>Szmaragdowy smokowiec</plPL>
-    <koKR>에메랄드 비룡</koKR>
-    <itIT>Draco di Smeraldo</itIT>
-    <esMX>Draco esmeralda</esMX>
-    <esES>Draco esmeralda</esES>
-    <deDE>Smaragddrache</deDE>
+    <enUS>Deadly Poison</enUS>
+    <zhTW>致命毒藥</zhTW>
+    <zhCN>致命药膏</zhCN>
+    <ruRU>Смертоносный яд</ruRU>
+    <ptBR>Veneno Mortal</ptBR>
+    <plPL>Zabójcza trucizna</plPL>
+    <koKR>맹독</koKR>
+    <itIT>Veleno Mortale</itIT>
+    <frFR>Poison mortel</frFR>
+    <esMX>Veneno mortal</esMX>
+    <esES>Veneno mortal</esES>
+    <deDE>Tödliches Gift</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>+2 Attack.</enUS>
+    <zhTW>+2攻擊力。</zhTW>
+    <zhCN>+2攻击力。</zhCN>
+    <ruRU>+2 к атаке.</ruRU>
+    <ptBR>+2 de Ataque.</ptBR>
+    <plPL>+2 do ataku.</plPL>
+    <koKR>공격력 +2</koKR>
+    <itIT>+2 Attacco.</itIT>
+    <frFR>+2 ATQ.</frFR>
+    <esMX>+2 de Ataque.</esMX>
+    <esES>+2 p. de ataque.</esES>
+    <deDE>+2 Angriff.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Class" enumID="199" type="Class" value="11" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
+  <Power definition="413a42ee-15fe-492d-90ae-a6765d8c2cd8" />
 </Entity>

@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_175o">
+<Entity version="2" CardID="TU4e_001">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Furious Howl</enUS>
-    <frFR>Hurlement furieux</frFR>
-    <zhTW>狂怒之嚎</zhTW>
-    <zhCN>狂怒之嚎</zhCN>
-    <ruRU>Неистовый вой</ruRU>
-    <ptBR>Uivo Furioso</ptBR>
-    <plPL>Wściekły skowyt</plPL>
-    <koKR>사나운 울음소리</koKR>
-    <itIT>Ululato Furioso</itIT>
-    <esMX>Aullido furioso</esMX>
-    <esES>Aullido furioso</esES>
-    <deDE>Wutgeheul</deDE>
+    <enUS>Illidan Stormrage</enUS>
+    <frFR>Illidan Hurlorage</frFR>
+    <zhTW>伊利丹·怒風</zhTW>
+    <zhCN>伊利丹·怒风</zhCN>
+    <ruRU>Иллидан Ярость Бури</ruRU>
+    <ptBR>Illidan Tempesfúria</ptBR>
+    <plPL>Illidan Burzogniewny</plPL>
+    <koKR>일리단 스톰레이지</koKR>
+    <itIT>Illidan Grantempesta</itIT>
+    <esMX>Illidan Tempestira</esMX>
+    <esES>Illidan Tempestira</esES>
+    <deDE>Illidan Sturmgrimm</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="30" />
   <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This Beast has +1 Attack from Timber Wolf.</enUS>
-    <frFR>Le loup des bois confère +1 ATQ à cette Bête.</frFR>
-    <zhTW>這隻野獸從森林狼獲得+1攻擊力。</zhTW>
-    <zhCN>森林狼使得这只野兽获得+1攻击力。</zhCN>
-    <ruRU>+1 к атаке от &lt;i&gt;Лесного волка.&lt;/i&gt;</ruRU>
-    <ptBR>Esta Fera ganha +1 de ataque do Lobo Silvestre.</ptBR>
-    <plPL>Ta Bestia ma +1 do ataku dzięki leśnemu wilkowi.</plPL>
-    <koKR>회갈색 늑대가 공격력 +1 부여</koKR>
-    <itIT>+1 Attacco dal Lupo della Foresta.</itIT>
-    <esMX>Esta Bestia tiene +1 de Ataque del Lobo gris.</esMX>
-    <esES>El lobo gris otorga +1 p. de ataque a esta bestia.</esES>
-    <deDE>Dieses Wildtier hat +1 Angriff durch den Waldwolf.</deDE>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="c63d38ba-e97e-44d1-b120-c4d1adc97648" />
+  <Power definition="867aafb7-a471-4fb8-909a-02e2a8f8bb2b" />
+  <Power definition="c538aa7e-c281-4526-9557-d7c28f671258" />
+  <Power definition="9a4aa88e-d14f-4c80-bd51-5a139f1d64b4" />
+  <Power definition="9d2c394a-87a9-4dc5-8893-f7d92c9eae5a" />
+  <Power definition="48f46f94-6113-43ac-866a-fb43f2cc4814" />
+  <Power definition="3ff9f237-d993-422c-af30-911f5cabc322" />
+  <Power definition="b59b5e0d-9062-447a-b643-f99b3de1f039" />
+  <Power definition="a7ef0239-6ba3-4b8d-a61e-1e8f965e15f5" />
+  <Power definition="f1ba3e5b-5dee-4095-ae05-f88ac523880e" />
+  <Power definition="0042b5e5-a890-4158-8f4a-8863cc7a83b4" />
 </Entity>

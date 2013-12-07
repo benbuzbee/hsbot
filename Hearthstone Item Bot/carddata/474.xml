@@ -1,76 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_565">
+<Entity version="2" CardID="EX1_559">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Flametongue Totem</enUS>
-    <zhTW>火舌圖騰</zhTW>
-    <zhCN>火舌图腾</zhCN>
-    <ruRU>Тотем языка пламени</ruRU>
-    <ptBR>Totem de Labaredas</ptBR>
-    <plPL>Totem ognistego języka</plPL>
-    <koKR>불꽃의 토템</koKR>
-    <itIT>Totem: Lingua di Fuoco</itIT>
-    <frFR>Totem Langue de feu</frFR>
-    <esMX>Tótem Lengua de fuego</esMX>
-    <esES>Tótem Lengua de Fuego</esES>
-    <deDE>Flammenzungentotem</deDE>
+    <enUS>Archmage Antonidas</enUS>
+    <frFR>Archimage Antonidas</frFR>
+    <zhTW>大法師安東尼達斯</zhTW>
+    <zhCN>大法师安东尼达斯</zhCN>
+    <ruRU>Архимаг Антонидас</ruRU>
+    <ptBR>Arquimago Antônidas</ptBR>
+    <plPL>Arcymag Antonidas</plPL>
+    <koKR>대마법사 안토니다스</koKR>
+    <itIT>Arcimago Antonidas</itIT>
+    <esMX>Archimago Antonidas</esMX>
+    <esES>Archimago Antonidas</esES>
+    <deDE>Erzmagier Antonidas</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Adjacent minions have +2 Attack.</enUS>
-    <zhTW>兩側的手下+2攻擊力。</zhTW>
-    <zhCN>相邻的随从获得+2攻击力。</zhCN>
-    <ruRU>Находящиеся по обе стороны существа получают +2 к атаке.</ruRU>
-    <ptBR>Lacaios adjacentes têm +2 de Ataque.</ptBR>
-    <plPL>Sąsiedni stronnicy otrzymują +2 do ataku.</plPL>
-    <koKR>양옆의 하수인들이 공격력을 +2 얻습니다.</koKR>
-    <itIT>I servitori adiacenti hanno +2 Attacco.</itIT>
-    <frFR>Les serviteurs adjacents ont +2 ATQ.</frFR>
-    <esMX>Los esbirros adyacentes tienen +2 de Ataque.</esMX>
-    <esES>Los esbirros adyacentes tienen +2 p. de ataque.</esES>
-    <deDE>Benachbarte Diener haben +2 Angriff.</deDE>
+    <enUS>Whenever you cast a spell, put a 'Fireball' spell into your hand.</enUS>
+    <frFR>Chaque fois que vous lancez un sort, place un sort « boule de feu » dans votre main.</frFR>
+    <zhTW>每當你施放法術，就放一張「火球術」到你的手牌中。</zhTW>
+    <zhCN>每当你施放一个法术时，将一张“火球术”法术牌置入你的手牌。</zhCN>
+    <ruRU>Каждый раз, когда вы разыгрываете карту заклинания, вы кладете карту «Огненный шар» к себе в руку.</ruRU>
+    <ptBR>Sempre que você lançar um feitiço, coloque uma "Bola de Fogo" na sua mão.</ptBR>
+    <plPL>Za każdym razem kiedy rzucasz zaklęcie, weź do ręki zaklęcie „Kula ognia”.</plPL>
+    <koKR>내가 주문을 시전할 때마다 '화염구' 주문을 손으로 가져옵니다.</koKR>
+    <itIT>Ogni volta che lanci una Magia, ottieni una carta Palla di Fuoco.</itIT>
+    <esMX>Cada vez que lanzas un hechizo, pon un hechizo "Bola de Fuego" en tu mano.</esMX>
+    <esES>Cada vez que lanzas un hechizo, coloca un hechizo "Bola de Fuego" en tu mano.</esES>
+    <deDE>Erhaltet jedes Mal einen „Feuerball“-Zauber auf Eure Hand, wenn Ihr einen Zauber wirkt.</deDE>
   </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Flametongue</enUS>
+    <enUS>Grand Magus</enUS>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="21" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jonathan Ryder</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Totemsmiths like to use the rarest woods for their totems.  There are even rumors of totems made of Ironbark Protectors.</enUS>
-    <zhTW>圖騰雕刻師喜歡用最罕見的木頭來雕刻圖騰。謠傳中甚至有用鐵桉保衛者製作的圖騰。</zhTW>
-    <zhCN>图腾制造师喜欢用最稀有的木材来打造图腾。甚至有传言说，这些图腾是由埃隆巴克保护者身上的树皮做的。</zhCN>
-    <ruRU>Изготовители тотемов предпочитают использовать для своих изделий самое редкое дерево. Поговаривают, что можно найти тотемы даже из сторожевого древа.</ruRU>
-    <ptBR>Escultores de totens gostam de usar as madeiras mais raras para seus totens. Há rumores até de totens feitos de Protetores Cascaferro.</ptBR>
-    <plPL>Podobno do tworzenia tych totemów używa się „wody ognistej”.</plPL>
-    <koKR>토템 장인들은 본인의 토템에는 가장 희귀한 나무를 사용하곤 합니다. 심지어 무쇠껍질 수호정령으로 만든 토템도 있다는군요.</koKR>
-    <itIT>I costruttori di totem utilizzano legni molto rari. Si mormora esistano totem fatti addirittura con i Protettori Legnoferreo.</itIT>
-    <frFR>Les fabricants de totems aiment utiliser les essences de bois les plus rares pour leurs totems. On dit même qu’il en existerait en bois de protecteur Ecorcefer !</frFR>
-    <esMX>A los creadores de tótems les gusta usar las maderas más exóticas para sus creaciones. Incluso se dice que existen tótems creados con madera de protectores cortezaférrea.</esMX>
-    <esES>A los fabricantes de tótems les gusta usar las maderas más nobles. Incluso se dice que a veces usan protectores Cortezaférrea.</esES>
-    <deDE>Totemschmiede verwenden nur die seltensten Hölzer, um ihre Totems herzustellen. Es gibt sogar Gerüchte, dass einige aus Eisenborkenbeschützern bestehen.</deDE>
+    <enUS>Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor.  This was a big step up from being Grand Magus of Jelly Donuts.</enUS>
+    <zhTW>安東尼達斯生前是祈倫托的大魔導師，也是珍娜的導師。這比果凍甜甜圈的大魔導師高尚多了。</zhTW>
+    <zhCN>肯瑞托的首席法师，达拉然最伟大的子民，安东尼达斯在被巫妖王阿尔萨斯杀死之前，曾是吉安娜的导师。</zhCN>
+    <ruRU>Антонидас был великим магом Кирин-Тора и учителем Джайны. После предыдущей работы великим зачаровывателем пончиков с джемом это было серьезное повышение.</ruRU>
+    <ptBR>Antônidas foi o Grão-mago do Kirin Tor e mentor de Jaina. Foi um enorme passo desde seu tempo como Grão-mago das Jujubas.</ptBR>
+    <plPL>Antonidas był Wielkim Magiem Kirin Toru oraz mentorem Jainy. To znaczny awans w porównaniu z Wielkim Magiem Domowych Babeczek.</plPL>
+    <koKR>안토니다스는 키린 토의 대학자이자 제이나의 스승이었습니다. 젤리 도넛의 대학자였던 그로선 장족의 발전이라할 수 있죠.</koKR>
+    <itIT>Antonidas era il Gran Magus del Kirin Tor e il mentore di Jaina. Prima era solo il Gran Magus delle Ciambelle alla Crema.</itIT>
+    <frFR>Antonidas était le grand magus du Kirin Tor et le mentor de Jaina. C’était une sacrée ascension sociale par rapport à l’époque où les gens l’appelaient le faux mage blanc.</frFR>
+    <esMX>Antes de llegar a ser el Gran mago de los Kirin Tor y el mentor de Jaina, Antonidas era mejor conocido como el Gran mago de los bizcochos.</esMX>
+    <esES>Antonidas fue el gran mago del Kirin Tor, y el mentor de Jaina. Todo esto antes de convertirse en monumento conmemorativo.</esES>
+    <deDE>Der Großmagus der Kirin Tor und Dalarans großartigster Sohn. Selbst Zwerge beneideten ihn um seinen Bart.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Wayne Reynolds</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 42.</enUS>
-  </Tag>
-  <Tag name="AdjacentBuff" enumID="350" type="Bool" value="1" />
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="1a283390-e0ba-4b4f-9374-677396e89338" />
-  <Power definition="8c786bf8-7ca9-477f-b776-9f74500267f9" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="11c61eb0-e38e-42e2-9240-706392b332a6" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

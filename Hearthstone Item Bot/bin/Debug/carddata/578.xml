@@ -1,38 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_007a">
-  <MasterPower>4cec1d62-00e3-41f3-9d43-2cbc6550656d</MasterPower>
+<Entity version="2" CardID="CS2_168">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Starfall</enUS>
-    <frFR>Météores</frFR>
-    <zhTW>星殞術</zhTW>
-    <zhCN>星辰坠落</zhCN>
-    <ruRU>Звездопад</ruRU>
-    <ptBR>Chuva Estelar</ptBR>
-    <plPL>Spadające gwiazdy</plPL>
-    <koKR>별똥별</koKR>
-    <itIT>Pioggia di Stelle</itIT>
-    <esMX>Lluvia de estrellas</esMX>
-    <esES>Lluvia de estrellas</esES>
-    <deDE>Sternenregen</deDE>
+    <enUS>Murloc Raider</enUS>
+    <frFR>Écumeur murloc</frFR>
+    <zhTW>魚人劫掠者</zhTW>
+    <zhCN>鱼人袭击者</zhCN>
+    <ruRU>Мурлок-налетчик</ruRU>
+    <ptBR>Murloc Saqueador</ptBR>
+    <plPL>Murlok grabieżca</plPL>
+    <koKR>멀록 약탈꾼</koKR>
+    <itIT>Murloc Incursore</itIT>
+    <esMX>Asaltante múrloc</esMX>
+    <esES>Asaltante múrloc</esES>
+    <deDE>Murlocräuber</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage to all enemy minions.</enUS>
-    <frFR>Inflige $2 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
-    <zhTW>對全部敵方手下造成$2點傷害。</zhTW>
-    <zhCN>对所有敌方随从造成$2点伤害。</zhCN>
-    <ruRU>Наносит $2 ед. урона всем существам противника. </ruRU>
-    <ptBR>Cause $2 de dano a todos os lacaios inimigos.</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń wszystkim wrogim stronnikom.</plPL>
-    <koKR>모든 적 하수인에게 피해를 $2 줍니다.</koKR>
-    <itIT>Infligge $2 danni a tutti i servitori nemici.</itIT>
-    <esMX>Inflige $2 de daño a todos los esbirros enemigos.</esMX>
-    <esES>Inflige $2 p. de daño a todos los esbirros enemigos.</esES>
-    <deDE>Fügt allen feindlichen Dienern $2 Schaden zu.</deDE>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dan Scott</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="4cec1d62-00e3-41f3-9d43-2cbc6550656d" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</enUS>
+    <zhTW>姆拉嘎啦啦嘎嘎，啦姆嘎姆嘎嘎啦啦，姆啦嘎嘎嘎嘎嘎嘎，嘎啦卡爾洛斯嘎嘎啦嘎嘎嘎啦啦嘎!</zhTW>
+    <zhCN>姆啦啦咯哈姆噶啊啊嘎，姆啦嘎嘎咯，啵啦啦嗯嘞噶哈，姆啦嗝，咯啦哈哈吧啦咯。加尔鲁什咯嘛啦喝，嘛啦咯呵！</zhCN>
+    <ruRU>Мррраггглхлхгхгхлгх, мргаааг бларргхлгаахахл мргггг глхалхах а бгххлл граггмгмг Гаррош мглхлхлх мргхлхлх!!!</ruRU>
+    <ptBR>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</ptBR>
+    <plPL>Mrrraggglhlhghghlgh, śpiewać... mrgaaag... każdy... blarrghlgaahahle... może mrgggg... trochę lepiej... glhalhah a bghhll... lub trochę gorzej... mglhlhlh mrghlhlhl!!</plPL>
+    <koKR>아옳옳옳옳옳옳옳, 아옳옳옳 옳옳옳옳옳, 옳옳옳옳옳, 아옳옳옳옳옳옳옳! 아옳옳옳, 아옳옳옳옳!</koKR>
+    <itIT>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</itIT>
+    <frFR>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlh l!!</frFR>
+    <esMX>¡Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!</esMX>
+    <esES>¡¡Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</esES>
+    <deDE>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Priest Level 50.</enUS>
+  </Tag>
 </Entity>

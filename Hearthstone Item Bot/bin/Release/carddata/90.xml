@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_077">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_031">
+  <MasterPower>9ec73fe1-8c73-4322-88b0-2cd1f762a8bb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sprint</enUS>
-    <frFR>Sprint</frFR>
-    <zhTW>疾跑</zhTW>
-    <zhCN>疾跑</zhCN>
-    <ruRU>Спринт</ruRU>
-    <ptBR>Disparada</ptBR>
-    <plPL>Sprint</plPL>
-    <koKR>전력 질주</koKR>
-    <itIT>Scatto</itIT>
-    <esMX>Sprint</esMX>
-    <esES>Sprint</esES>
-    <deDE>Sprinten</deDE>
+    <enUS>Animal Companion</enUS>
+    <frFR>Compagnon animal</frFR>
+    <zhTW>動物夥伴</zhTW>
+    <zhCN>动物伙伴</zhCN>
+    <ruRU>Питомец</ruRU>
+    <ptBR>Companheiro Animal</ptBR>
+    <plPL>Zwierzęcy towarzysz</plPL>
+    <koKR>야생의 벗</koKR>
+    <itIT>Famiglio Animale</itIT>
+    <esMX>Compañero animal</esMX>
+    <esES>Compañero animal</esES>
+    <deDE>Tierbegleiter</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw 4 cards.</enUS>
-    <frFR>Vous piochez 4 cartes.</frFR>
-    <zhTW>抽4張牌。</zhTW>
-    <zhCN>抽4张牌。</zhCN>
-    <ruRU>Вы берете 4 карты.</ruRU>
-    <ptBR>Compre 4 cards.</ptBR>
-    <plPL>Dobierz 4 karty.</plPL>
-    <koKR>카드를 4장 뽑습니다.</koKR>
-    <itIT>Pesca 4 carte.</itIT>
-    <esMX>Roba 4 cartas.</esMX>
-    <esES>Roba 4 cartas.</esES>
-    <deDE>Zieht 4 Karten.</deDE>
+    <enUS>Summon a random Beast Companion.</enUS>
+    <frFR>Invoque un compagnon animal aléatoire.</frFR>
+    <zhTW>召喚一隻隨機的野獸夥伴。</zhTW>
+    <zhCN>随机召唤一个野兽伙伴。</zhCN>
+    <ruRU>Призывает случайного зверя.</ruRU>
+    <ptBR>Evoque um Fera Companheira aleatória.</ptBR>
+    <plPL>Przyzwij losowo jednego ze zwierzęcych towarzyszy Rexxara.</plPL>
+    <koKR>무작위 동료 야수를 소환합니다.</koKR>
+    <itIT>Evoca una Bestia casuale.</itIT>
+    <esMX>Invoca una Bestia compañera aleatoria.</esMX>
+    <esES>Invoca a una bestia compañera aleatoria.</esES>
+    <deDE>Ruft einen zufälligen Wildtierbegleiter herbei.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tom Fleming</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 10.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 48.</enUS>
+    <enUS>Wei Wang</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Rogues are not good joggers.</enUS>
-    <zhTW>盜賊不一定跑得快。</zhTW>
-    <zhCN>潜行者们通常都不擅长慢跑。</zhCN>
-    <ruRU>Разбойники не очень любят затяжные марафоны.</ruRU>
-    <ptBR>Ladinos não sabem correr muito bem.</ptBR>
-    <plPL>Łotrowie nie są dobrymi długodystansowcami.</plPL>
-    <koKR>카드가 모자라면 몸이 고생이군요.</koKR>
-    <itIT>"Sono sprecato per la corsa campestre! Noi Ladri siamo scattisti nati! Micidiali sulle brevi distanze!" - un Nano Ladro</itIT>
-    <frFR>Les voleurs ne sont pas de bons coureurs.</frFR>
-    <esMX>No le pidas a un pícaro que vaya al trote.</esMX>
-    <esES>Es un detalle que no te las roben a ti.</esES>
-    <deDE>Schurken sind keine Ausdauersportler.</deDE>
+    <enUS>You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.</enUS>
+    <zhTW>你能召喚出米莎、里奧克或胡佛。胡佛造成的麻煩比他的用處還大。</zhTW>
+    <zhCN>你可以召唤米莎，雷欧克或是霍弗！霍弗又没用，又爱惹麻烦！</zhCN>
+    <ruRU>Вы можете призвать Мишу, Леокка или Хаффера. От последнего больше неприятностей, чем пользы.</ruRU>
+    <ptBR>Você poderia evocar Misha, Leokk ou Bufo! Bufo não vale o trabalho que dá.</ptBR>
+    <plPL>Możesz przyzwać Miszę, Leoka lub Prychacza! Prychacz sprawia więcej kłopotów niż jest wart.</plPL>
+    <koKR>미샤나 레오크, 혹은 킁킁이를 소환할 수 있습니다! 근데 킁킁이는 좀 말썽꾸러기라는 거.</koKR>
+    <itIT>Potresti evocare Misha, Leokk o Huffer! Ma probabilmente per Huffer non ne vale la pena.</itIT>
+    <frFR>Vous pourriez invoquer Misha, Leokk ou Souffleur ! Enfin, Souffleur n’en vaut pas vraiment la peine.</frFR>
+    <esMX>¡Podrías invocar a Misha, a Leokk o a Bufar! Aunque Bufar es demasiado problemático...</esMX>
+    <esES>Podrías invocar a Misha, Leokk o Bufar. Bufar da más problemas que otra cosa.</esES>
+    <deDE>Ihr könntet Misha, Leokk oder Grummel herbeirufen! Allerdings macht Grummel mehr Ärger als irgendwas.</deDE>
   </Tag>
-  <Power definition="34aaeb77-af17-4f26-b325-540123cbb04a" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 2.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 40.</enUS>
+  </Tag>
+  <Power definition="9ec73fe1-8c73-4322-88b0-2cd1f762a8bb">
+    <PlayRequirement reqID="12" param="1" />
+  </Power>
+  <EntourageCard cardID="NEW1_032" />
+  <EntourageCard cardID="NEW1_033" />
+  <EntourageCard cardID="NEW1_034" />
 </Entity>

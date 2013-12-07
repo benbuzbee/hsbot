@@ -1,40 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_040t">
+<Entity version="2" CardID="Mekka4e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gnoll</enUS>
-    <frFR>Gnoll</frFR>
-    <zhTW>豺狼人</zhTW>
-    <zhCN>豺狼人</zhCN>
-    <ruRU>Гнолл</ruRU>
-    <ptBR>Gnoll</ptBR>
-    <plPL>Gnol</plPL>
-    <koKR>놀</koKR>
-    <itIT>Gnoll</itIT>
-    <esMX>Gnoll</esMX>
-    <esES>Gnoll</esES>
-    <deDE>Gnoll</deDE>
+    <enUS>Transformed</enUS>
+    <zhTW>變形</zhTW>
+    <zhCN>变形</zhCN>
+    <ruRU>Превращение</ruRU>
+    <ptBR>Transformado</ptBR>
+    <plPL>Transformacja</plPL>
+    <koKR>변신</koKR>
+    <itIT>Trasformato</itIT>
+    <frFR>Transformé</frFR>
+    <esMX>Transformado</esMX>
+    <esES>Transformado</esES>
+    <deDE>Verwandelt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Taunt</enUS>
-    <frFR>Provocation</frFR>
-    <zhTW>嘲諷</zhTW>
-    <zhCN>嘲讽</zhCN>
-    <ruRU>Провокация</ruRU>
-    <ptBR>Provocar</ptBR>
-    <plPL>Prowokacja</plPL>
-    <koKR>도발</koKR>
-    <itIT>Provocazione</itIT>
-    <esMX>Provocación</esMX>
-    <esES>Provocar</esES>
-    <deDE>Spott</deDE>
+    <enUS>Has been transformed into a chicken!</enUS>
+    <zhTW>被變形為雞!</zhTW>
+    <zhCN>被变形为小鸡。</zhCN>
+    <ruRU>Превращение в курицу!</ruRU>
+    <ptBR>Foi transformado em galinha!</ptBR>
+    <plPL>Ten stronnik został zamieniony w kurczaka!</plPL>
+    <koKR>닭으로 변신!</koKR>
+    <itIT>Trasformato in una Gallina.</itIT>
+    <frFR>A été transformé en poulet !</frFR>
+    <esMX>¡Ha sido transformado en un pollo!</esMX>
+    <esES>¡Se ha transformado en un pollo!</esES>
+    <deDE>Wurde in ein Huhn verwandelt!</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="6f058cac-9d51-49ea-9704-35959c9f8af8" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Morph" enumID="293" type="Bool" value="1" />
+  <Power definition="7e0d0886-68b8-4cf7-9a7d-48470352452f" />
 </Entity>

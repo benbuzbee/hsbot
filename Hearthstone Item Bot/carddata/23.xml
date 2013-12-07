@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1_129e">
+<Entity version="2" CardID="EX1_345t">
   <MasterPower>
   </MasterPower>
-  <Tag name="CardName" enumID="185" type="String">
-    <enUS>Inner Fire</enUS>
-    <zhTW>心靈之火</zhTW>
-    <zhCN>心灵之火</zhCN>
-    <ruRU>Внутренний огонь</ruRU>
-    <ptBR>Fogo Interior</ptBR>
-    <plPL>Wewnętrzny żar</plPL>
-    <koKR>내면의 열정</koKR>
-    <itIT>Fuoco Interiore</itIT>
-    <frFR>Feu intérieur</frFR>
-    <esMX>Fuego interno</esMX>
-    <esES>Fuego interno</esES>
-    <deDE>Inneres Feuer</deDE>
-  </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion's Attack is equal to its Health.</enUS>
-    <zhTW>這個手下的攻擊力等於生命值。</zhTW>
-    <zhCN>该随从的攻击力等同于其生命值。</zhCN>
-    <ruRU>Атака этого существа равна его здоровью.</ruRU>
-    <ptBR>O Ataque deste lacaio é igual à Vida dele.</ptBR>
-    <plPL>Atak stronnika jest równy jego zdrowiu.</plPL>
-    <koKR>공격력과 생명력이 같아짐</koKR>
-    <itIT>Attacco pari alla sua Salute.</itIT>
-    <frFR>L’Attaque de ce serviteur est égale à ses PV.</frFR>
-    <esMX>El Ataque de este esbirro es equivalente a su Salud.</esMX>
-    <esES>El ataque de este esbirro es igual a su salud.</esES>
-    <deDE>Der Angriff dieses Dieners entspricht seinem Leben.</deDE>
+    <enUS>Mindgames whiffed! Your opponent had no minions!</enUS>
+    <zhTW>心理遊戲失效!你的對手沒有手下!</zhTW>
+    <zhCN>控心术无效！你的对手的牌库中没有随从牌了！</zhCN>
+    <ruRU>Игры разума не сработали! У вашего противника не было существ!</ruRU>
+    <ptBR>Jogos Mentais não deu em nada! Seu oponente não tinha lacaios!</ptBR>
+    <plPL>Starcie umysłów przegrane! Twój przeciwnik nie ma stronników!</plPL>
+    <koKR>심리 조작 실패! 상대편에게 하수인이 없었습니다!</koKR>
+    <itIT>Giochi Mentali non ha funzionato! L'avversario non ha servitori!</itIT>
+    <frFR>Comment ça « Votre adversaire n’a plus de serviteurs » ?</frFR>
+    <esMX>¡Los Juegos mentales fallaron! ¡Tu adversario no tenía esbirros!</esMX>
+    <esES>¡Los Juegos mentales han fracasado! ¡Tu oponente no tenía esbirros!</esES>
+    <deDE>Gedankenspiele verpufft! Euer Gegner hat keine Diener!</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="ac6151ef-62e8-4888-81a0-c31d617d9807" />
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Shadow of Nothing</enUS>
+    <zhTW>虛無之影</zhTW>
+    <zhCN>空无之影</zhCN>
+    <ruRU>Тень пустоты</ruRU>
+    <ptBR>Sombra do Nada</ptBR>
+    <plPL>Cień nicości</plPL>
+    <koKR>허무의 그림자</koKR>
+    <itIT>Ombra del Nulla</itIT>
+    <frFR>Ombre du néant</frFR>
+    <esMX>Sombra de la nada</esMX>
+    <esES>Sombra de la nada</esES>
+    <deDE>Schatten des Nichts</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="035f9703-4e69-421c-a0a1-8c94b54f4ede" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

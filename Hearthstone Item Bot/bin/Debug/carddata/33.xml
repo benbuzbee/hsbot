@@ -1,70 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_009">
-  <MasterPower>12d263a6-bdff-4ce1-af5f-cbd7e5ac7806</MasterPower>
+<Entity version="2" CardID="EX1_007">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mark of the Wild</enUS>
-    <frFR>Marque du fauve</frFR>
-    <zhTW>野性印記</zhTW>
-    <zhCN>野性印记</zhCN>
-    <ruRU>Знак дикой природы</ruRU>
-    <ptBR>Marca do Indomado</ptBR>
-    <plPL>Znak ostępów</plPL>
-    <koKR>야생의 징표</koKR>
-    <itIT>Marchio Selvaggio</itIT>
-    <esMX>Marca de lo salvaje</esMX>
-    <esES>Marca de lo Salvaje</esES>
-    <deDE>Mal der Wildnis</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a minion &lt;b&gt;Taunt&lt;/b&gt; and +2/+2.&lt;i&gt; (+2 Attack/+2 Health)&lt;/i&gt;</enUS>
-    <frFR>Confère &lt;b&gt;Provocation&lt;/b&gt; et +2/+2 à un serviteur.&lt;i&gt; (+2 ATQ/+2 PV)&lt;/i&gt;</frFR>
-    <zhTW>賦予一個手下&lt;b&gt;嘲諷&lt;/b&gt;及+2/+2&lt;i&gt;(+2攻擊力及+2生命值)&lt;/i&gt;</zhTW>
-    <zhCN>使一个随从获得&lt;b&gt;嘲讽&lt;/b&gt;和+2/+2。&lt;i&gt;（+2攻击力/+2生命值）&lt;/i&gt;</zhCN>
-    <ruRU>Выбранное существо получает способность &lt;b&gt;«Провокация»&lt;/b&gt; и +2/+2.&lt;i&gt; (+2 к атаке и +2 к здоровью)&lt;/i&gt; </ruRU>
-    <ptBR>Conceda &lt;b&gt;Provocar&lt;/b&gt; e +2/+2 a um lacaio.&lt;i&gt; (+2 de Ataque/+2 de Vida)&lt;/i&gt;</ptBR>
-    <plPL>Daj stronnikowi &lt;b&gt;Prowokację&lt;/b&gt; oraz +2/+2.&lt;i&gt; (+2 do ataku/+2 do zdrowia)&lt;/i&gt;</plPL>
-    <koKR>하수인에게 &lt;b&gt;도발&lt;/b&gt;과 +2/+2를 부여합니다.</koKR>
-    <itIT>Fornisce &lt;b&gt;Provocazione&lt;/b&gt; e +2/+2 a un servitore.</itIT>
-    <esMX>Otorga &lt;b&gt;Provocación&lt;/b&gt; y +2/+2 a un esbirro.&lt;i&gt; (+2 de Ataque y +2 de Salud)&lt;/i&gt;</esMX>
-    <esES>Otorga &lt;b&gt;Provocar&lt;/b&gt; y +2/+2 a un esbirro. &lt;i&gt;(+2 p. de ataque/+2 p. de salud)&lt;/i&gt;</esES>
-    <deDE>Verleiht einem Diener &lt;b&gt;Spott&lt;/b&gt; und +2/+2.</deDE>
+    <enUS>Acolyte of Pain</enUS>
+    <frFR>Acolyte de la souffrance</frFR>
+    <zhTW>苦痛侍僧</zhTW>
+    <zhCN>苦痛侍僧</zhCN>
+    <ruRU>Служитель боли</ruRU>
+    <ptBR>Acólito da Dor</ptBR>
+    <plPL>Akolita bólu</plPL>
+    <koKR>고통의 수행사제</koKR>
+    <itIT>Accolito del Dolore</itIT>
+    <esMX>Acólito de dolor</esMX>
+    <esES>Acólito de dolor</esES>
+    <deDE>Akolyth des Schmerzes</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever this minion takes damage, draw a card.</enUS>
+    <frFR>Vous piochez une carte chaque fois que ce serviteur subit des dégâts.</frFR>
+    <zhTW>每當此手下受到傷害，抽一張牌。</zhTW>
+    <zhCN>每当该随从受到伤害时，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда это существо получает урон, вы берете карту.</ruRU>
+    <ptBR>Sempre que este lacaio receber dano, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy ten stronnik otrzyma obrażenia.</plPL>
+    <koKR>이 하수인이 피해를 입을 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Quando l'Accolito del Dolore subisce danni, pesca una carta.</itIT>
+    <esMX>Cada vez que este esbirro recibe daño, roba una carta.</esMX>
+    <esES>Roba una carta cada vez que este esbirro recibe daño.</esES>
+    <deDE>Zieht jedes Mal eine Karte, wenn dieser Diener Schaden erleidet.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brad Vancata</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 28.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+    <enUS>Dave Kendall</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Not to be confused with Jim of the Wild.</enUS>
-    <zhTW>不要搞錯。不是水性，也不是油性，是野性。</zhTW>
-    <zhCN>这种爪子形状的印记如果纹在身上，人们一定知道你是德鲁伊玩家。</zhCN>
-    <ruRU>Не путать со знаком «Осторожно, дикие животные».</ruRU>
-    <ptBR>Não confundir com Marca do Lindonaldo.</ptBR>
-    <plPL>Nie należy mylić tej karty ze „Znakiem postępów”.</plPL>
-    <koKR>드루이드가 아닌 사람들은 그냥 다 '발바닥'이라고 부르더군요.</koKR>
-    <itIT>Da non confondere con il Mucchio Selvaggio.</itIT>
-    <frFR>À ne pas confondre avec la marque du chauve.</frFR>
-    <esMX>Este es el hechizo preferido de Jake La Motta.</esMX>
-    <esES>No confudir con la Marca del cazador.</esES>
-    <deDE>Nicht zu verwechseln mit Malle der Wildnis, dem Lieblingsurlaubsort der Druiden von Nachthafen.</deDE>
+    <enUS>He trained when he was younger to be an acolyte of joy, but things didn’t work out like he thought they would.</enUS>
+    <zhTW>他年輕時本來是想要受訓成為快樂侍僧，但是後來的發展並不如他原本的預期。</zhTW>
+    <zhCN>在他年轻的时候，他经受的是“快乐寺僧”的训练，但是训练成果并不如他想象的那么好。</zhCN>
+    <ruRU>Вообще-то он учился на служителя радости, но что-то пошло не так... </ruRU>
+    <ptBR>Quando era mais jovem, ele estava treinando para ser um Acólito da Alegria, mas as coisas não saíram bem como ele esperava.</ptBR>
+    <plPL>Kiedy był młody, miał zostać akolitą radości, ale coś poszło nie tak.</plPL>
+    <koKR>사실은 기쁨의 수행사제가 되고 싶었던 사람입니다. 이것으로 우리는 고통과 기쁨이 종이 한 장 차이라는 걸 알 수 있습니다.</koKR>
+    <itIT>"È stato imbarazzante... Ogni volta che subiva un colpo, gli scappavano dei gridolini di piacere."</itIT>
+    <frFR>Quand il était plus jeune, il voulait devenir acolyte de la joie, mais on ne fait pas toujours ce qu’on veut, dans la vie.</frFR>
+    <esMX>De joven entrenó mucho para convertirse en un acólito de alegría, pero las cosas no le salieron como esperaba.</esMX>
+    <esES>Cuando era joven intentó buscar trabajo como acólito de la alegría, pero la economía lo convirtió en lo que es ahora.</esES>
+    <deDE>Als er klein war, wollte er eines Tages ein Akolyth der Freude werden, aber manchmal kommen die Dinge eben anders, als man denkt.</deDE>
   </Tag>
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="12d263a6-bdff-4ce1-af5f-cbd7e5ac7806">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="2a056b4e-d140-469c-a114-3093f89a45d4" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

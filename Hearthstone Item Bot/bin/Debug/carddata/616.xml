@@ -1,42 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_036e2">
+<Entity version="2" CardID="CS2_131">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Commanding Shout</enUS>
-    <frFR>Cri de commandement</frFR>
-    <zhTW>命令之吼</zhTW>
-    <zhCN>命令怒吼</zhCN>
-    <ruRU>Командирский крик</ruRU>
-    <ptBR>Brado de Comando</ptBR>
-    <plPL>Rozkazujący okrzyk</plPL>
-    <koKR>지휘의 외침</koKR>
-    <itIT>Urlo di Comando</itIT>
-    <esMX>Grito de orden</esMX>
-    <esES>Grito de orden</esES>
-    <deDE>Befehlsruf</deDE>
+    <enUS>Stormwind Knight</enUS>
+    <frFR>Chevalier de Hurlevent</frFR>
+    <zhTW>暴風城騎士</zhTW>
+    <zhCN>暴风城骑士</zhCN>
+    <ruRU>Рыцарь Штормграда</ruRU>
+    <ptBR>Cavaleiro de Ventobravo</ptBR>
+    <plPL>Rycerz z Wichrogrodu</plPL>
+    <koKR>스톰윈드 기사</koKR>
+    <itIT>Cavaliere di Roccavento</itIT>
+    <esMX>Caballero de Ventormenta</esMX>
+    <esES>Caballero de Ventormenta</esES>
+    <deDE>Ritter von Sturmwind</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your minions can't be reduced below 1 Health this turn.</enUS>
-    <frFR>Les points de vie de vos serviteurs ne peuvent pas passer en dessous de 1 ce tour-ci.</frFR>
-    <zhTW>你的手下們在本回合內生命值不會低於1點。</zhTW>
-    <zhCN>在本回合中，你的随从的生命值无法被降到1点以下。</zhCN>
-    <ruRU>Здоровье ваших существ не может быть уменьшено ниже 1 ед. до конца хода.</ruRU>
-    <ptBR>A Vida de seus lacaios não pode ser reduzida a menos de 1 neste turno.</ptBR>
-    <plPL>W tej turze twoi stronnicy nie mogą zejść poniżej 1 pkt. zdrowia.</plPL>
-    <koKR>이번 턴에는 내 하수인들의 생명력이 1 미만으로 내려가지 않습니다.</koKR>
-    <itIT>In questo turno, i tuoi servitori non possono essere portati al di sotto di 1 Salute.</itIT>
-    <esMX>La Salud de tus esbirros no puede reducirse a menos de 1 en este turno.</esMX>
-    <esES>La salud de tus esbirros no puede bajar de 1 p. este turno.</esES>
-    <deDE>Das Leben Eurer Diener kann in diesem Zug nicht unter 1 fallen.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="b420abe4-00ad-40c7-91ad-4a00f8dd91df" />
-  <Power definition="ff62df1d-a870-4772-add2-088eb2aefe7d" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ladronn</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>They're still embarassed about "The Deathwing Incident".</enUS>
+    <zhTW>他們對於那次的「死亡之翼事件」仍然感到羞愧。</zhTW>
+    <zhCN>对于”死亡之翼毁城事件“，他仍然耿耿于怀。</zhCN>
+    <ruRU>Ему все еще стыдно за тот инцидент со Смертокрылом.</ruRU>
+    <ptBR>Eles ainda ficam constrangidos com aquele caso do Asa da Morte.</ptBR>
+    <plPL>Wciąż im wstyd z powodu „Incydentu ze Śmiercioskrzydłym”.</plPL>
+    <koKR>"스톰윈드 파괴 사건"은 그에게 모욕감을 주었습니다.</koKR>
+    <itIT>Si sentono ancora a disagio per "L'Incidente di Alamorte".</itIT>
+    <frFR>Il est encore un peu gêné pour « l’incident » avec Aile de mort.</frFR>
+    <esMX>Todavía están avergonzados por el "Incidente con Alamuerte".</esMX>
+    <esES>¿Por qué dicen los humanos que va a llover? ¡Porque ven tormenta!</esES>
+    <deDE>Die ganze Sache mit Todesschwinge ist ihm immer noch ein bisschen peinlich.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Paladin Level 54.</enUS>
+  </Tag>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="1abb5974-43df-4f5d-aa49-da323f9bfc1a" />
 </Entity>

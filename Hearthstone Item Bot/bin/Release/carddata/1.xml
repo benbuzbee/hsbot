@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CRED_02">
+<Entity version="2" CardID="CS2_188o">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Eric Dodds</enUS>
-    <zhTW>Eric Dodds</zhTW>
-    <zhCN>Eric Dodds</zhCN>
-    <ruRU>Eric Dodds</ruRU>
-    <ptBR>Eric Dodds</ptBR>
-    <plPL>Eric Dodds</plPL>
-    <koKR>에릭 다즈</koKR>
-    <itIT>Eric Dodds</itIT>
-    <frFR>Eric Dodds</frFR>
-    <esMX>Eric Dodds</esMX>
-    <esES>Eric Dodds</esES>
-    <deDE>Eric Dodds</deDE>
+    <enUS>'Inspired'</enUS>
+    <frFR>« Inspiré »</frFR>
+    <zhTW>精神振奮</zhTW>
+    <zhCN>“深受鼓舞”</zhCN>
+    <ruRU>Прилив «вдохновения»</ruRU>
+    <ptBR>"Inspirado"</ptBR>
+    <plPL>Inspiracja</plPL>
+    <koKR>'고무됨'</koKR>
+    <itIT>Ispirato</itIT>
+    <esMX>Inspirado</esMX>
+    <esES>Inspiración</esES>
+    <deDE>„Inspiriert“</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/2 Pirate and destroy all Ninjas.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一個2/2的海盜並摧毀全部忍者。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一个2/2的海盗并消灭所有忍者。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя пирата 2/2 и уничтожает всех ниндзя.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque um Pirata 2/2 e destrua todos os Ninjas.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij pirata 2/2 i zniszcz wszystkich nindżów.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 2/2 해적을 소환하고 모든 닌자를 처치합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un Pirata 2/2 e distrugge tutti i Ninja.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; Invoque un pirate 2/2 et détruit tous les ninjas.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca un Pirata 2/2 y destruye a todos los Ninjas.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca a un pirata 2/2 y destruye a todos los ninjas.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Ruft einen Piraten (2/2) herbei und zerstört alle Ninjas.</deDE>
+    <enUS>This minion has +2 Attack this turn.</enUS>
+    <frFR>Ce serviteur a +2 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合這個手下擁有+2攻擊力。</zhTW>
+    <zhCN>在本回合中，该随从获得+2攻击力。</zhCN>
+    <ruRU>Это существо получило +2 к атаке до конца хода.</ruRU>
+    <ptBR>Este lacaio tem +2 de Ataque neste turno.</ptBR>
+    <plPL>Ten stronnik ma +2 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +2</koKR>
+    <itIT>+2 Attacco in questo turno.</itIT>
+    <esMX>Este esbirro tiene +2 de Ataque en este turno.</esMX>
+    <esES>Este esbirro tiene +2 p. de ataque este turno.</esES>
+    <deDE>Dieser Diener hat +2 Angriff in diesem Zug.</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="e144bfc2-e52f-403b-9171-4c7e895127e7" />
+  <Power definition="cd3664ec-11d4-41c4-9527-2eb5e756401e" />
+  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
 </Entity>

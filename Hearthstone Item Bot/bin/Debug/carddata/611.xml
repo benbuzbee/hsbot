@@ -1,45 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_032">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_094">
+  <MasterPower>f406e1e1-0503-4e05-827e-cbc6f2ac6afe</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Misha</enUS>
-    <frFR>Misha</frFR>
-    <zhTW>米莎</zhTW>
-    <zhCN>米莎</zhCN>
-    <ruRU>Миша</ruRU>
-    <ptBR>Misha</ptBR>
-    <plPL>Misza</plPL>
-    <koKR>미샤</koKR>
-    <itIT>Misha</itIT>
-    <esMX>Misha</esMX>
-    <esES>Misha</esES>
-    <deDE>Misha</deDE>
+    <enUS>Hammer of Wrath</enUS>
+    <frFR>Marteau de courroux</frFR>
+    <zhTW>憤怒之錘</zhTW>
+    <zhCN>愤怒之锤</zhCN>
+    <ruRU>Молот гнева</ruRU>
+    <ptBR>Martelo da Ira</ptBR>
+    <plPL>Młot Gniewu</plPL>
+    <koKR>천벌의 망치</koKR>
+    <itIT>Martello dell'Ira</itIT>
+    <esMX>Martillo de cólera</esMX>
+    <esES>Martillo de cólera</esES>
+    <deDE>Hammer des Zorns</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>Deal $3 damage.  Draw a card.</enUS>
+    <frFR>Inflige $3 |4(point,points) de dégâts. Vous piochez une carte.</frFR>
+    <zhTW>造成$3點傷害。抽一張牌。</zhTW>
+    <zhCN>造成$3点伤害，抽一张牌。</zhCN>
+    <ruRU>Наносит $3 ед. урона. Вы берете карту.</ruRU>
+    <ptBR>Cause $3 de dano. Compre um card.</ptBR>
+    <plPL>Zadaj $3 pkt. obrażeń. Dobierz kartę.</plPL>
+    <koKR>피해를 $3 줍니다. 카드를 1장 뽑습니다.</koKR>
+    <itIT>Infligge $3 danni. Pesca una carta.</itIT>
+    <esMX>Inflige $3 de daño. Roba una carta.</esMX>
+    <esES>Inflige $3 p. de daño. Roba una carta.</esES>
+    <deDE>Verursacht $3 Schaden. Zieht eine Karte.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="0fc584f4-98fe-456f-99d1-cb088410c3fd" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Efrem Palacios</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 32.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="f406e1e1-0503-4e05-827e-cbc6f2ac6afe">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

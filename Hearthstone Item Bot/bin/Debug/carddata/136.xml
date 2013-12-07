@@ -1,65 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_147">
+<Entity version="2" CardID="CS1_129e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gnomish Inventor</enUS>
-    <frFR>Inventeur gnome</frFR>
-    <zhTW>地精發明家</zhTW>
-    <zhCN>侏儒发明家</zhCN>
-    <ruRU>Гном-изобретатель</ruRU>
-    <ptBR>Inventora Gnômica</ptBR>
-    <plPL>Gnomka wynalazca</plPL>
-    <koKR>노움 발명가</koKR>
-    <itIT>Gnoma Inventrice</itIT>
-    <esMX>Inventora gnómica</esMX>
-    <esES>Inventora gnoma</esES>
-    <deDE>Gnomische Erfinderin</deDE>
+    <enUS>Inner Fire</enUS>
+    <zhTW>心靈之火</zhTW>
+    <zhCN>心灵之火</zhCN>
+    <ruRU>Внутренний огонь</ruRU>
+    <ptBR>Fogo Interior</ptBR>
+    <plPL>Wewnętrzny żar</plPL>
+    <koKR>내면의 열정</koKR>
+    <itIT>Fuoco Interiore</itIT>
+    <frFR>Feu intérieur</frFR>
+    <esMX>Fuego interno</esMX>
+    <esES>Fuego interno</esES>
+    <deDE>Inneres Feuer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; roba una carta.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Roba una carta.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht eine Karte.</deDE>
+    <enUS>This minion's Attack is equal to its Health.</enUS>
+    <zhTW>這個手下的攻擊力等於生命值。</zhTW>
+    <zhCN>该随从的攻击力等同于其生命值。</zhCN>
+    <ruRU>Атака этого существа равна его здоровью.</ruRU>
+    <ptBR>O Ataque deste lacaio é igual à Vida dele.</ptBR>
+    <plPL>Atak stronnika jest równy jego zdrowiu.</plPL>
+    <koKR>공격력과 생명력이 같아짐</koKR>
+    <itIT>Attacco pari alla sua Salute.</itIT>
+    <frFR>L’Attaque de ce serviteur est égale à ses PV.</frFR>
+    <esMX>El Ataque de este esbirro es equivalente a su Salud.</esMX>
+    <esES>El ataque de este esbirro es igual a su salud.</esES>
+    <deDE>Der Angriff dieses Dieners entspricht seinem Leben.</deDE>
   </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Court Jones</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>She's never quite sure what she's making, she just knows it's AWESOME!</enUS>
-    <zhTW>她不太清楚她在製造什麼，她只知道做出來的東西一定棒透了!</zhTW>
-    <zhCN>她从来不知道她想发明的是什么，她只知道要发明很棒的东西！</zhCN>
-    <ruRU>Она никогда не знает, что изобретет в следующий раз, но уверена, что это будет нечто потрясающее!</ruRU>
-    <ptBR>Ela nunca tem certeza do que está fazendo, mas sabe que é DEMAIS!</ptBR>
-    <plPL>Nigdy nie jest pewna, co właściwie wymyśla. Ale wie jedno - będzie ODJAZDOWE!</plPL>
-    <koKR>사실 본인도 뭘 만들고 있는지 잘 모릅니다. 그게 끝내주는 물건이라는 점만 빼고요.</koKR>
-    <itIT>Prima inventa, poi decide a cosa servirà l'invenzione.</itIT>
-    <frFR>Quelles que soient ses inventions, elles sont toujours GÉNIALES !</frFR>
-    <esMX>Nunca sabe bien qué está construyendo, lo único que sabe es que será ¡FABULOSO!</esMX>
-    <esES>No sabe lo que está inventando, ¡pero está segura de que será genial!</esES>
-    <deDE>Wenn sie etwas bastelt, weiß sie nie, was am Ende dabei herauskommt.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Priest Level 56.</enUS>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="13c353eb-f689-41f5-a5b5-daed2388805c" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="ac6151ef-62e8-4888-81a0-c31d617d9807" />
 </Entity>

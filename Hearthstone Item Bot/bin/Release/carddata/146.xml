@@ -1,50 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_172">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_581">
+  <MasterPower>891e592b-29b8-43e7-bb92-a6d72780117c</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bloodfen Raptor</enUS>
-    <zhTW>血沼迅猛龍</zhTW>
-    <zhCN>血沼迅猛龙</zhCN>
-    <ruRU>Ящер Кровавой Топи</ruRU>
-    <ptBR>Raptor Dinossangue</ptBR>
-    <plPL>Bagienny raptor</plPL>
-    <koKR>붉은늪지랩터</koKR>
-    <itIT>Raptor Codarossa</itIT>
-    <frFR>Raptor Rougefange</frFR>
-    <esMX>Raptor cienorrojo</esMX>
-    <esES>Raptor Cienorrojo</esES>
-    <deDE>Blutsumpfraptor</deDE>
+    <enUS>Sap</enUS>
+    <frFR>Assommer</frFR>
+    <zhTW>悶棍</zhTW>
+    <zhCN>闷棍</zhCN>
+    <ruRU>Ошеломление</ruRU>
+    <ptBR>Aturdir</ptBR>
+    <plPL>Ogłuszenie</plPL>
+    <koKR>혼절시키기</koKR>
+    <itIT>Tramortimento</itIT>
+    <esMX>Porrazo</esMX>
+    <esES>Porrazo</esES>
+    <deDE>Kopfnuss</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Return an enemy minion to its owner's hand.</enUS>
+    <frFR>Renvoie un serviteur adverse dans la main de son propriétaire.</frFR>
+    <zhTW>使一個敵方手下返回其擁有者的手上。</zhTW>
+    <zhCN>将一个敌方随从移回其拥有者的手牌。</zhCN>
+    <ruRU>Возвращает существо противника в руку владельца.</ruRU>
+    <ptBR>Devolva um lacaio inimigo à mão do dono.</ptBR>
+    <plPL>Cofasz wrogiego stronnika na rękę właściciela.</plPL>
+    <koKR>적 하수인을 주인의 손으로 돌려보냅니다.</koKR>
+    <itIT>Fa tornare un servitore nemico nella mano del suo proprietario.</itIT>
+    <esMX>Devuelve un esbirro enemigo a la mano de su propietario.</esMX>
+    <esES>Devuelve a un esbirro enemigo a la mano de su dueño.</esES>
+    <deDE>Lasst einen feindlichen Diener auf die Hand seines Besitzers zurückkehren.</deDE>
+  </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Brereton</enUS>
+    <enUS>Scott Altmann</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 32.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Kill 30 raptors." - Hemet Nesingwary</enUS>
-    <zhTW>「殺死30隻迅猛龍。」-赫米特·奈辛瓦里</zhTW>
-    <zhCN>“去杀30条迅猛龙。”——赫米特·奈辛瓦里</zhCN>
-    <ruRU>«Убей 30 ящеров». – Хеминг Эрнестуэй</ruRU>
-    <ptBR>"Mate 30 raptores." - Rosarães Guima</ptBR>
-    <plPL>Ten gatunek raptorów żyje na Krwawych Bagnach. Hemet Nesingwary radzi, aby zabijać je po 30 sztuk.</plPL>
-    <koKR>"랩터 30마리를 처치하세요." - 헤멧 네싱워리</koKR>
-    <itIT>"Uccidi 30 Raptor." - Hemet Nesingwary</itIT>
-    <frFR>« Tuez 30 raptors. » - Hemet Nesingwary</frFR>
-    <esMX>"Mata a 30 raptores". - Hemet Nesingwary</esMX>
-    <esES>"Mata 30 raptores". - Hemet Nesingwary</esES>
-    <deDE>„Tötet 30 Raptoren.“ – Hemet Nesingwary</deDE>
+    <enUS>Rogues love sappy movies.</enUS>
+    <zhTW>警衛!有這樣敲了又敲，敲了又敲的嗎?</zhTW>
+    <zhCN>“潜行者”的闷棍技术比“盗贼”好很多，他们不用天赋支持，就可以保证百分之百闷棍命中。</zhCN>
+    <ruRU>Разбойники обожают выглядеть ошеломляюще.</ruRU>
+    <ptBR>Ladinos adoram filmes de suspense.</ptBR>
+    <plPL>Dzięki umiejętności ogłuszania wielu łotrów dorabia na boku jako anestezjolodzy.</plPL>
+    <koKR>도적은 적을 혼절시키는 걸 좋아하지요.</koKR>
+    <itIT>Le Ladre usano sempre Tramortimento sui loro compagni per costringerli a guardare i film romantici.</itIT>
+    <frFR>Les voleurs adorent les films assommants.</frFR>
+    <esMX>Los Pícaros adoran las películas de porristas.</esMX>
+    <esES>No solo de dagas viven los pícaros.</esES>
+    <deDE>Verschafft den Gegnern des Schurken eine Denkpause.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Hunter Level 56.</enUS>
-  </Tag>
+  <Power definition="891e592b-29b8-43e7-bb92-a6d72780117c">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="3" param="" />
+  </Power>
 </Entity>

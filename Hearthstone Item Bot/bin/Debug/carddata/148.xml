@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_179">
+<Entity version="2" CardID="CS2_147">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sen'jin Shieldmasta</enUS>
-    <frFR>Maître-bouclier de Sen’jin</frFR>
-    <zhTW>森金禦盾大師</zhTW>
-    <zhCN>森金持盾卫士</zhCN>
-    <ruRU>Щитоносец Сен'джин</ruRU>
-    <ptBR>Mestre Escudeiro de Sen'jin</ptBR>
-    <plPL>Tarczowy z Sen'jinu</plPL>
-    <koKR>센진 방패대가</koKR>
-    <itIT>Guardiano di Sen'jin</itIT>
-    <esMX>Sen'jin Maestro de escudos</esMX>
-    <esES>Maestro de escudos Sen'jin</esES>
-    <deDE>Schildmeista von Sen'jin</deDE>
+    <enUS>Gnomish Inventor</enUS>
+    <frFR>Inventeur gnome</frFR>
+    <zhTW>地精發明家</zhTW>
+    <zhCN>侏儒发明家</zhCN>
+    <ruRU>Гном-изобретатель</ruRU>
+    <ptBR>Inventora Gnômica</ptBR>
+    <plPL>Gnomka wynalazca</plPL>
+    <koKR>노움 발명가</koKR>
+    <itIT>Gnoma Inventrice</itIT>
+    <esMX>Inventora gnómica</esMX>
+    <esES>Inventora gnoma</esES>
+    <deDE>Gnomische Erfinderin</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous piochez une carte.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; roba una carta.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Roba una carta.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht eine Karte.</deDE>
   </Tag>
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brian Despain</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Rogue and Warrior Level 59.</enUS>
+    <enUS>Court Jones</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Sen'jin Villiage is nice, if you like trolls and dust.</enUS>
-    <zhTW>如果你不介意食人妖跟灰塵的話，森金村其實是個還不錯的地方。</zhTW>
-    <zhCN>如果你喜欢巨魔和沙尘的话，森金村还是个不错的地方。</zhCN>
-    <ruRU>Если вы любите пыль и троллей, вам понравится деревня Сен'джин.</ruRU>
-    <ptBR>A Aldeia Sen'jin é muito legal. Se você gosta de trolls e poeira.</ptBR>
-    <plPL>Wioska Sen'jin jest bardzo sympatyczna. O ile lubisz kurz i trolle.</plPL>
-    <koKR>센진 마을은 쾌적합니다. 트롤과 먼지만 감당할 수 있으면요.</koKR>
-    <itIT>Il Villaggio di Sen'jin è bello... se ti piacciono i Troll e la polvere.</itIT>
-    <frFR>Sen’jin est un chouette village, si vous aimez les trolls et vous vautrer dans la poussière.</frFR>
-    <esMX>El Poblado Sen'jin es un lindo lugar, siempre que te gusten los trols y el polvo.</esMX>
-    <esES>El Poblado Sen'jin es un éxito entre los fans de los trols y el polvo.</esES>
-    <deDE>Sen'jin ist ein grandioser Ort, wenn man Gefallen an Trollen und Staub findet.</deDE>
+    <enUS>She's never quite sure what she's making, she just knows it's AWESOME!</enUS>
+    <zhTW>她不太清楚她在製造什麼，她只知道做出來的東西一定棒透了!</zhTW>
+    <zhCN>她从来不知道她想发明的是什么，她只知道要发明很棒的东西！</zhCN>
+    <ruRU>Она никогда не знает, что изобретет в следующий раз, но уверена, что это будет нечто потрясающее!</ruRU>
+    <ptBR>Ela nunca tem certeza do que está fazendo, mas sabe que é DEMAIS!</ptBR>
+    <plPL>Nigdy nie jest pewna, co właściwie wymyśla. Ale wie jedno - będzie ODJAZDOWE!</plPL>
+    <koKR>사실 본인도 뭘 만들고 있는지 잘 모릅니다. 그게 끝내주는 물건이라는 점만 빼고요.</koKR>
+    <itIT>Prima inventa, poi decide a cosa servirà l'invenzione.</itIT>
+    <frFR>Quelles que soient ses inventions, elles sont toujours GÉNIALES !</frFR>
+    <esMX>Nunca sabe bien qué está construyendo, lo único que sabe es que será ¡FABULOSO!</esMX>
+    <esES>No sabe lo que está inventando, ¡pero está segura de que será genial!</esES>
+    <deDE>Wenn sie etwas bastelt, weiß sie nie, was am Ende dabei herauskommt.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="57fb63a6-5259-468c-bf47-e74a08754c02" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Priest Level 56.</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="13c353eb-f689-41f5-a5b5-daed2388805c" />
 </Entity>

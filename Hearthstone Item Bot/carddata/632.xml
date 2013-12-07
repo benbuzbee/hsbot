@@ -1,40 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="tt_010a">
+<Entity version="2" CardID="EX1_398t">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Spellbender</enUS>
-    <frFR>Courbe-sort</frFR>
-    <zhTW>法術扭曲者</zhTW>
-    <zhCN>扰咒师</zhCN>
-    <ruRU>Чароплет</ruRU>
-    <ptBR>Dobradora de Feitiços</ptBR>
-    <plPL>Naginaczka zaklęć</plPL>
-    <koKR>주문왜곡사</koKR>
-    <itIT>Flettimagie</itIT>
-    <esMX>Dominahechizos</esMX>
-    <esES>Tuercehechizos</esES>
-    <deDE>Zauberformerin</deDE>
+    <enUS>Battle Axe</enUS>
+    <frFR>Hache d’armes</frFR>
+    <zhTW>戰鬥斧</zhTW>
+    <zhCN>战斧</zhCN>
+    <ruRU>Боевой топор</ruRU>
+    <ptBR>Machado de Batalha</ptBR>
+    <plPL>Bitewny topór</plPL>
+    <koKR>전투 도끼</koKR>
+    <itIT>Ascia da Battaglia</itIT>
+    <esMX>Hacha de batalla</esMX>
+    <esES>Hacha de batalla</esES>
+    <deDE>Streitaxt</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>
-    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>
-    <ptBR>&lt;b&gt;&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>
-  </Tag>
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Durability" enumID="187" type="Number" value="2" />
 </Entity>

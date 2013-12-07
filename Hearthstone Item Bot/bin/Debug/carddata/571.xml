@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka4e">
+<Entity version="2" CardID="NEW1_025e">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Transformed</enUS>
-    <zhTW>變形</zhTW>
-    <zhCN>变形</zhCN>
-    <ruRU>Превращение</ruRU>
-    <ptBR>Transformado</ptBR>
-    <plPL>Transformacja</plPL>
-    <koKR>변신</koKR>
-    <itIT>Trasformato</itIT>
-    <frFR>Transformé</frFR>
-    <esMX>Transformado</esMX>
-    <esES>Transformado</esES>
-    <deDE>Verwandelt</deDE>
+    <enUS>Bolstered</enUS>
+    <frFR>Renforcement</frFR>
+    <zhTW>激勵</zhTW>
+    <zhCN>加固</zhCN>
+    <ruRU>Поддержка</ruRU>
+    <ptBR>Fortalecido</ptBR>
+    <plPL>Wzmocnienie</plPL>
+    <koKR>고무</koKR>
+    <itIT>Rassicurato</itIT>
+    <esMX>Reforzado</esMX>
+    <esES>Refuerzo</esES>
+    <deDE>Verstärkt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Has been transformed into a chicken!</enUS>
-    <zhTW>被變形為雞!</zhTW>
-    <zhCN>被变形为小鸡。</zhCN>
-    <ruRU>Превращение в курицу!</ruRU>
-    <ptBR>Foi transformado em galinha!</ptBR>
-    <plPL>Ten stronnik został zamieniony w kurczaka!</plPL>
-    <koKR>닭으로 변신!</koKR>
-    <itIT>Trasformato in una Gallina.</itIT>
-    <frFR>A été transformé en poulet !</frFR>
-    <esMX>¡Ha sido transformado en un pollo!</esMX>
-    <esES>¡Se ha transformado en un pollo!</esES>
-    <deDE>Wurde in ein Huhn verwandelt!</deDE>
+    <enUS>Increased Health.</enUS>
+    <frFR>Vie augmentée.</frFR>
+    <zhTW>生命值提高。</zhTW>
+    <zhCN>生命值增加。</zhCN>
+    <ruRU>Здоровье увеличено.</ruRU>
+    <ptBR>Vida aumentada.</ptBR>
+    <plPL>Zwiększone zdrowie.</plPL>
+    <koKR>생명력 증가</koKR>
+    <itIT>Salute aumentata.</itIT>
+    <esMX>Salud aumentada.</esMX>
+    <esES>Salud aumentada.</esES>
+    <deDE>Erhöhtes Leben.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Morph" enumID="293" type="Bool" value="1" />
-  <Power definition="7e0d0886-68b8-4cf7-9a7d-48470352452f" />
+  <Power definition="f0d8c252-0703-475c-902a-1c8c8e4dc8dd" />
 </Entity>

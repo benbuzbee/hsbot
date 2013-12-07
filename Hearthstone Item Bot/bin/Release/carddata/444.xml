@@ -1,78 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_509">
+<Entity version="2" CardID="CS1_042">
   <MasterPower>
   </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Tidecaller</enUS>
-    <frFR>Maître des flots murloc</frFR>
-    <zhTW>魚人招潮者</zhTW>
-    <zhCN>鱼人招潮者</zhCN>
-    <ruRU>Мурлок-волномут</ruRU>
-    <ptBR>Chamaré Murloc</ptBR>
-    <plPL>Poskramiacz fal</plPL>
-    <koKR>멀록 파도술사</koKR>
-    <itIT>Murloc Invocamaree</itIT>
-    <esMX>Clamamareas múrloc</esMX>
-    <esES>Clamamareas múrloc</esES>
-    <deDE>Murlocgezeitenrufer</deDE>
+    <enUS>Goldshire Footman</enUS>
+    <zhTW>閃金鎮步卒</zhTW>
+    <zhCN>闪金镇步兵</zhCN>
+    <ruRU>Солдат Златоземья</ruRU>
+    <ptBR>Soldado Raso de Vila d'Ouro</ptBR>
+    <plPL>Piechur ze Złotych Włości</plPL>
+    <koKR>황금골 보병</koKR>
+    <itIT>Coscritto di Borgodoro</itIT>
+    <frFR>Soldat de Comté-de-l’Or</frFR>
+    <esMX>Lacayo de Villadorada</esMX>
+    <esES>Lacayo de Villadorada</esES>
+    <deDE>Fußsoldat von Goldhain</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="Atk" enumID="47" type="Number" value="1" />
   <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a Murloc is summoned, gain +1 Attack.</enUS>
-    <frFR>Chaque fois qu’un murloc est invoqué, gagne +1 ATQ.</frFR>
-    <zhTW>每當一個魚人被召喚，獲得+1攻擊力。</zhTW>
-    <zhCN>每当有玩家召唤一个鱼人时，便获得+1攻击力。</zhCN>
-    <ruRU>Каждый раз, когда на поле боя призывается мурлок, это существо получает +1 к атаке.</ruRU>
-    <ptBR>Sempre que um Murloc for evocado, receba +1 de Ataque.</ptBR>
-    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy zostaje przyzwany murlok.</plPL>
-    <koKR>멀록이 소환될 때마다 공격력을 +1 얻습니다.</koKR>
-    <itIT>Quando un Murloc viene evocato, il Murloc Invocamaree ottiene +1 Attacco.</itIT>
-    <esMX>Cada vez que se invoca a un múrloc, obtiene +1 de Ataque.</esMX>
-    <esES>Obtiene +1 p. de ataque cada vez que se invoca a un múrloc.</esES>
-    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Murloc herbeigerufen wird.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jaemin Kim</enUS>
+    <enUS>Donato Giancola</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Paladin Level 56.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This guy gets crazy strong at family reunions.</enUS>
-    <zhTW>這個傢伙每次在家族聚會時都會變得無比強悍。</zhTW>
-    <zhCN>每当他和他的家人团聚时，这个家伙会变得特别厉害。</zhCN>
-    <ruRU>Когда они собираются, чтобы вместе помутить волны, с ними лучше не связываться!</ruRU>
-    <ptBR>Esse carinha fica insanamente forte nos encontros de família.</ptBR>
-    <plPL>Na spotkaniach rodzinnych robi się z niego prawdziwy siłacz.</plPL>
-    <koKR>함께 있으면, 우린 아무 것도 두려울 게 없었다!</koKR>
-    <itIT>Questo tizio diventa incredibilmente forte durante le riunioni di famiglia.</itIT>
-    <frFR>Il devient super fort pendant les réunions de famille !</frFR>
-    <esMX>No querrás encontrarte con este tipo en una reunión familiar...</esMX>
-    <esES>Se vuelve extraordinariamente fuerte en las cenas familiares.</esES>
-    <deDE>Familienfeste sind sein Ding.</deDE>
+    <enUS>If 1/2 minions are all that is defending Goldshire, you would think it would have been overrun years ago.</enUS>
+    <zhTW>如果防禦閃金鎮的全是1/2的手下，那個地方應該早就被敵人碾過去了才對。</zhTW>
+    <zhCN>如果闪金镇只是由一个1/2的步兵把守的话，那它早在多年以前就被毁了。</zhCN>
+    <ruRU>Если Златоземье защищают только эти существа 1/2, странно, что его еще не захватили.</ruRU>
+    <ptBR>Se lacaios 1/2 fossem todas as defesas da Vila d'Ouro, ela teria sido dominada há muito tempo.</ptBR>
+    <plPL>Jeśli na straży Złotych Włości stoją stronnicy z 1/2, to i tak cud, że nie zostały jeszcze spalone.</plPL>
+    <koKR>만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.</koKR>
+    <itIT>Se dei servitori 1/2 sono tutto ciò che difende Borgodoro, verrebbe da domandarsi perché non sia stata distrutta anni fa.</itIT>
+    <frFR>Si Comté-de-l’Or n’est protégée que par des serviteurs 1/2, elle aurait dû être envahie il y a des années.</frFR>
+    <esMX>Si por toda defensa Villadorada tiene esbirros 1/2, uno creería que la tendrían que haber arrasado hace muchos años.</esMX>
+    <esES>Si estos esbirros 1/2 son los únicos guardias de Villadorada, no es de extrañar que allí se libren tantos duelos impunemente.</esES>
+    <deDE>Man könnte annehmen, dass Goldhain schon längst überrannt sein sollte, wenn es lediglich durch Diener mit 1/2 verteidigt wird.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="32ccddc7-49a5-43bf-bd9b-25c5d098eeab" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False">
-    <enUS>Dealt 1 damage to a random enemy.</enUS>
-    <frFR>A infligé 1 point de dégâts à un adversaire aléatoire.</frFR>
-    <zhTW>對一個隨機敵人造成1點傷害。</zhTW>
-    <zhCN>对一个随机敌人造成1点伤害。</zhCN>
-    <ruRU>Случайный персонаж противника получил 1 ед. урона.</ruRU>
-    <ptBR>Causou 1 de dano a um inimigo aleatório.</ptBR>
-    <plPL>Zadano 1 pkt. obrażeń losowemu wrogowi.</plPL>
-    <koKR>무작위 적에게 피해 1 줌</koKR>
-    <itIT>Il Murloc Invocamaree ha inflitto 1 danno a un nemico casuale.</itIT>
-    <esMX>Infligió 1 de daño a un enemigo aleatorio.</esMX>
-    <esES>El clamamareas múrloc ha infligido 1 p. de daño a un enemigo aleatorio.</esES>
-    <deDE>Fügt einem zufälligen Feind 1 Schaden zu.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="54e57583-ce5c-46e3-899a-39bd2181468d" />
 </Entity>

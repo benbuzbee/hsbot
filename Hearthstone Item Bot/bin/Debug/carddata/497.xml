@@ -1,62 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_590">
-  <MasterPower>b83882c2-46ab-4376-b5f1-b9118273d371</MasterPower>
+<Entity version="2" CardID="Mekka3">
+  <MasterPower>
+  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Blood Knight</enUS>
-    <frFR>Chevalier de sang</frFR>
-    <zhTW>血騎士</zhTW>
-    <zhCN>血骑士</zhCN>
-    <ruRU>Рыцарь крови</ruRU>
-    <ptBR>Cavaleiro Sangrento</ptBR>
-    <plPL>Krwawy rycerz</plPL>
-    <koKR>혈기사</koKR>
-    <itIT>Cavaliere del Sangue</itIT>
-    <esMX>Caballero de sangre</esMX>
-    <esES>Caballero de sangre</esES>
-    <deDE>Blutritter</deDE>
+    <enUS>Emboldener 3000</enUS>
+    <zhTW>勇氣給予者3000</zhTW>
+    <zhCN>壮胆机器人3000型</zhCN>
+    <ruRU>Воодушевитель 3000</ruRU>
+    <ptBR>Encorajador 3000</ptBR>
+    <plPL>Dopingator 3000</plPL>
+    <koKR>강화 구슬 3000</koKR>
+    <itIT>Ingrossatore 3000</itIT>
+    <frFR>Encourageur 3000</frFR>
+    <esMX>Fortalecedor 3000</esMX>
+    <esES>Corajizador 3000</esES>
+    <deDE>Kraftverstärker 3000</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; All minions lose &lt;b&gt;Divine Shield&lt;/b&gt;. Gain +3/+3 for each Shield lost.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; tous les serviteurs perdent &lt;b&gt;Bouclier divin&lt;/b&gt;. Gagne +3/+3 pour chaque bouclier perdu.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;全部手下失去&lt;b&gt;聖盾術&lt;/b&gt;。每一個失去的聖盾術將使這名手下獲得+3/+3。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;所有随从失去&lt;b&gt;圣盾&lt;/b&gt;。每有一个随从失去圣盾，便获得+3/+3。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все существа теряют &lt;b&gt;«Божественный щит»&lt;/b&gt;. Рыцарь получает +3/+3 за каждый поглощенный щит.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Todos os lacaios perdem &lt;b&gt;Escudo Divino&lt;/b&gt;. Receba +3/+3 para cada Escudo perdido.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Wszyscy stronnicy tracą &lt;b&gt;Boską tarczę&lt;/b&gt;. Otrzymuje +3/+3 za każdą straconą tarczę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; &lt;b&gt;모든&lt;/b&gt; 하수인이 &lt;b&gt;천상의 보호막&lt;/b&gt;을 잃고, 잃은 보호막 1개당 +3/+3을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; tutti i servitori perdono &lt;b&gt;Scudo Divino&lt;/b&gt;. Il Cavaliere del Sangue ottiene +3/+3 per ogni Scudo Divino dissolto.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; remueve &lt;b&gt;Escudo divino&lt;/b&gt; de los esbirros. Obtiene +3/+3 por cada Escudo perdido. </esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Todos los esbirros pierden &lt;b&gt;Escudo divino&lt;/b&gt;. Obtiene +3/+3 por cada escudo perdido.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Alle Diener verlieren &lt;b&gt;Gottesschild&lt;/b&gt;. Erhält +3/+3 für jeden verlorenen Schild.</deDE>
+    <enUS>At the end of your turn, give a random minion +1/+1.</enUS>
+    <zhTW>在你的回合結束時，賦予一個隨機手下+1/+1。</zhTW>
+    <zhCN>在你的回合结束时，使一个随机随从获得+1/+1。</zhCN>
+    <ruRU>В конце вашего хода случайное существо получает +1/+1.</ruRU>
+    <ptBR>No final do seu turno, conceda +1/+1 a um lacaio aleatório.</ptBR>
+    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1/+1.</plPL>
+    <koKR>내 턴이 끝날 때, 무작위 하수인에게 +1/+1을 부여합니다.</koKR>
+    <itIT>Alla fine del tuo turno, fornisce +1/+1 a un servitore casuale.</itIT>
+    <frFR>À la fin de votre tour, confère +1/+1 à un serviteur aléatoire.</frFR>
+    <esMX>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esMX>
+    <esES>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esES>
+    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1/+1.</deDE>
   </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Emboldening</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trent Kaniuga</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.</enUS>
-    <zhTW>血騎士從太陽之井獲得了他們的神聖力量。話說，你最好別想去那裡泡溫泉。</zhTW>
-    <zhCN>血骑士从太阳井中获得他们的神圣能量，太阳井可不是洗澡的地方。</zhCN>
-    <ruRU>Рыцари крови черпают божественные силы из Солнечного Колодца. Ведрами.</ruRU>
-    <ptBR>Os Cavaleiros Sangrentos recebem seus poderes sagrados da Nascente do Sol, que NÃO é um lugar para tomar banho.</ptBR>
-    <plPL>Krwawi rycerze otrzymują swoje święte mocy ze Słonecznej Studni. Kąpiel w niej jest surowo wzbroniona!</plPL>
-    <koKR>혈기사는 신성한 힘의 원천으로 태양샘을 사용합니다. 태양샘에서 물놀이를 할 생각은 꿈도 꾸지 마세요.</koKR>
-    <itIT>I Cavalieri del Sangue traggono il loro potere sacro dal Pozzo Solare, nel quale NON dovresti mai fare il bagno.</itIT>
-    <frFR>Le chevalier de sang obtient ses pouvoirs du Puits de soleil. Mais ce n’est pas le meilleur endroit pour faire bronzette.</frFR>
-    <esMX>Los Caballeros de sangre obtienen su poder sagrado de la Fuente del Sol. Te recomendamos que NO la uses para bañarte.</esMX>
-    <esES>Los caballeros de sangre obtenían sus poderes sagrados de la Fuente del Sol, hasta que la Plaga cerró el grifo.</esES>
-    <deDE>Die Blutritter ziehen ihre Kraft aus den heiligen Energien des Sonnenbrunnens, in dem Baden STRENG VERBOTEN ist.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="b83882c2-46ab-4376-b5f1-b9118273d371" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="87895dbc-a492-4910-b2ee-950caa9b5d4a" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>
