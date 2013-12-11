@@ -1,62 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_024">
-  <MasterPower>9436ba03-1e46-4c42-8b2b-a030fa53ea42</MasterPower>
+<Entity version="2" CardID="CS2_122e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Captain Greenskin</enUS>
-    <frFR>Capitaine Vertepeau</frFR>
-    <zhTW>綠皮隊長</zhTW>
-    <zhCN>绿皮船长</zhCN>
-    <ruRU>Капитан Зеленямс</ruRU>
-    <ptBR>Capitão Peleverde</ptBR>
-    <plPL>Kapitan Zielonoskóry</plPL>
-    <koKR>선장 그린스킨</koKR>
-    <itIT>Capitano Pelleverde</itIT>
-    <esMX>Capitán Verdetez</esMX>
-    <esES>Capitán Verdetez</esES>
-    <deDE>Kapitän Grünhaut</deDE>
+    <enUS>Enhanced</enUS>
+    <frFR>Amélioration</frFR>
+    <zhTW>強化</zhTW>
+    <zhCN>强化</zhCN>
+    <ruRU>Усиление</ruRU>
+    <ptBR>Aprimorado</ptBR>
+    <plPL>Wzmocnienie</plPL>
+    <koKR>고양</koKR>
+    <itIT>Potenziato</itIT>
+    <esMX>Mejorado</esMX>
+    <esES>Mejorado</esES>
+    <deDE>Verbessert</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give your weapon +1/+1.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +1/+1 à votre arme.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予你的武器+1/+1。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使你的武器获得+1/+1。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше оружие получает +1/+1.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 à sua arma.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj swojej broni +1/+1.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 무기에 +1/+1을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce alla tua arma +1/+1.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; le otorga +1/+1 a tu arma.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 a tu arma.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht Eurer Waffe +1/+1.</deDE>
+    <enUS>Raid Leader is granting this minion +1 Attack.</enUS>
+    <frFR>Le chef de raid confère +1 ATQ à ce serviteur.</frFR>
+    <zhTW>團隊隊長賦予了這個手下+1攻擊力</zhTW>
+    <zhCN>团队领袖使得该随从获得+1攻击力。</zhCN>
+    <ruRU>+1 к атаке от &lt;i&gt;Лидера рейда&lt;/i&gt;.</ruRU>
+    <ptBR>O Líder do Raide está concedendo +1 de ataque a este lacaio.</ptBR>
+    <plPL>Dowódca rajdu daje temu stronnikowi +1 do ataku.</plPL>
+    <koKR>공격대장이 공격력 +1 부여</koKR>
+    <itIT>+1 Attacco dal Capoincursione.</itIT>
+    <esMX>El Líder de banda le otorga +1 de Ataque a este esbirro.</esMX>
+    <esES>El líder de banda otorga +1 p. de ataque a este esbirro.</esES>
+    <deDE>Der Schlachtzugsleiter verleiht diesem Diener +1 Angriff.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Scott</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He was &lt;i&gt;this close&lt;/i&gt; to piloting a massive juggernaut into Stormwind Harbor. If it weren't for those pesky kids!</enUS>
-    <zhTW>如果不是那些圍觀的臭小孩，他&lt;i&gt;差點&lt;/i&gt;就成功把一個大巨人開到暴風港裡面!</zhTW>
-    <zhCN>要不是因为那些调皮捣蛋的小家伙们，他差点就把那辆超级战舰开进暴风城港口了！</zhCN>
-    <ruRU>Он должен был вести исполинский корабль на Штормград, но эти противные дети опять все испортили!</ruRU>
-    <ptBR>Ele estava &lt;i&gt;pertinho assim&lt;/i&gt; de bater um Arrojo enorme contra o porto de Ventobravo. Ah, se não fossem aqueles garotos intrometidos!!</ptBR>
-    <plPL>Przykład wspaniałego awansu społecznego wśród goblinów.</plPL>
-    <koKR>그 말썽장이 아이들만 아니었다면, 거대한 전함을 끌고 스톰윈드 항구로 쳐들어갈 뻔 했습니다.</koKR>
-    <itIT>Era andato &lt;i&gt;così vicino&lt;/i&gt; dal pilotare un'enorme nave da guerra nel Porto di Roccavento. Non fosse stato per quelle piccole pesti...</itIT>
-    <frFR>Il était &lt;i&gt;à ça&lt;/i&gt; de pénétrer dans le port de Hurlevent avec un énorme mastodonte. Mais à cause de ces foutus gamins, il n’a pas réussi !</frFR>
-    <esMX>Estuvo &lt;i&gt;así de cerca&lt;/i&gt; de ser el piloto de una nave gigante que partió rumbo al Puerto de Ventormenta. ¡Si no hubiera sido por esos niños molestos!</esMX>
-    <esES>Estuvo a punto de aplastar Ventormenta con un robot enorme. Si no fuera por los grupos de aventureros...</esES>
-    <deDE>Er war &lt;i&gt;so kurz&lt;/i&gt; davor, einen Moloch in den Hafen von Sturmwind zu steuern, wenn nur nicht diese nervigen Kinder gewesen wären.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="9436ba03-1e46-4c42-8b2b-a030fa53ea42" />
+  <Power definition="ff43a337-8acf-4bf6-a593-dd670e01f2cf" />
+  <Power definition="ab600413-07b4-4bff-aec8-1b74b191763d" />
 </Entity>

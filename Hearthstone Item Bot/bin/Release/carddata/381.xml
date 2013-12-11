@@ -1,67 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_013">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_040">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Wild Growth</enUS>
-    <frFR>Croissance sauvage</frFR>
-    <zhTW>野性成長</zhTW>
-    <zhCN>野性成长</zhCN>
-    <ruRU>Буйный рост</ruRU>
-    <ptBR>Crescimento Silvestre</ptBR>
-    <plPL>Gwałtowny wzrost</plPL>
-    <koKR>급속 성장</koKR>
-    <itIT>Crescita Rigogliosa</itIT>
-    <esMX>Crecimiento salvaje</esMX>
-    <esES>Crecimiento salvaje</esES>
-    <deDE>Wildwuchs</deDE>
+    <enUS>Hogger</enUS>
+    <frFR>Lardeur</frFR>
+    <zhTW>霍格</zhTW>
+    <zhCN>霍格</zhCN>
+    <ruRU>Дробитель</ruRU>
+    <ptBR>Hogger</ptBR>
+    <plPL>Wyżer</plPL>
+    <koKR>들창코</koKR>
+    <itIT>Boccalarga</itIT>
+    <esMX>Hogger</esMX>
+    <esES>Hogger</esES>
+    <deDE>Hogger</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Gain an empty Mana Crystal.</enUS>
-    <frFR>Confère un cristal de mana vide.</frFR>
-    <zhTW>獲得一顆空的法力水晶。</zhTW>
-    <zhCN>获得一个空的法力水晶。</zhCN>
-    <ruRU>Вы получаете пустой кристалл маны.</ruRU>
-    <ptBR>Receba um Cristal de Mana vazio.</ptBR>
-    <plPL>Otrzymujesz pusty kryształ many.</plPL>
-    <koKR>빈 마나 수정을 획득합니다.</koKR>
-    <itIT>Fornisce 1 Cristallo di Mana vuoto.</itIT>
-    <esMX>Obtienes un Cristal de maná vacío.</esMX>
-    <esES>Obtienes un cristal de maná vacío.</esES>
-    <deDE>Ihr erhaltet einen leeren Manakristall.</deDE>
+    <enUS>At the end of your turn, summon a 2/2 Gnoll with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>À la fin de votre tour, invoque un gnoll 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>在你的回合結束時，召喚一個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2豺狼人</zhTW>
+    <zhCN>在你的回合结束时，召唤一个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的豺狼人。</zhCN>
+    <ruRU>В конце вашего хода вы призываете на поле боя гнолла 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>No final do seu turno, evoque um Gnoll 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>Na koniec swojej tury przyzwij gnola 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>
+    <koKR>내 턴이 끝날 때, &lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 놀을 1마리 소환합니다.</koKR>
+    <itIT>Alla fine del tuo turno, evoca uno Gnoll 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>Al final de tu turno, invoca a un Gnoll 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>Al final de tu turno, invoca a un gnoll 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>Ruft am Ende Eures Zuges einen Gnoll (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>
   </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
+    <enUS>Laurel "LD" Austin</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!</enUS>
-    <zhTW>用這個法力水晶成長包，種出屬於你自己的法力水晶，只賣99元!</zhTW>
-    <zhCN>使用法力水晶增长装置增加你的法力值，只要399！</zhCN>
-    <ruRU>С помощью этого набора вы сможете выращивать собственные кристаллы маны! Всего за 99 рублей 99 копеек!</ruRU>
-    <ptBR>Crie seus próprios cristais de mana com esse Kit de Criação de Cristais de Mana, só 39,99!</ptBR>
-    <plPL>Wyhoduj własne kryształy many za pomocą naszego zestawu! Tylko 49,90 + VAT!</plPL>
-    <koKR>마나 수정 재배기로 자신만의 마나 수정을 키우세요! 믿을 수 없는 가격! 39,900 골드!</koKR>
-    <itIT>Produci in casa i tuoi Cristalli di Mana con questo stupendo kit pronto all'uso, a soli 39,99!</itIT>
-    <frFR>Faites pousser vos propres cristaux de mana avec ce set de croissance au prix défiant toute concurrence de 39,99 pièces d’or !</frFR>
-    <esMX>Cultiva tus propios cristales de maná con este revolucionario equipo de crecimiento, por solo 39 dólares.</esMX>
-    <esES>Cultiva tus propios cristales de maná con este kit de cultivo de cristales de maná, ¡por solo 39,99!</esES>
-    <deDE>Züchtet Euren eigenen Manakristall mit diesem Manakristallzuchtset – nur 39,99!</deDE>
+    <enUS>Hogger is super powerful. If you kill him, it's because he &lt;i&gt;let&lt;/i&gt; you.</enUS>
+    <zhTW>霍格非常強。如果你殺死他，那是因為他&lt;b&gt;讓&lt;/b&gt;你殺他。</zhTW>
+    <zhCN>霍格可是超级厉害的。如果你杀了他，只是因为他让你这么做的。</zhCN>
+    <ruRU>Дробитель ужасно сильный. Если вы убьете его, то это значит, что он вам &lt;i&gt;поддался&lt;/i&gt;.</ruRU>
+    <ptBR>Hogger é superpoderoso. Se conseguir matá-lo, foi porque ele &lt;i&gt;deixou&lt;/i&gt;.</ptBR>
+    <plPL>Wyżer jest supermocny. Jeśli go zabijesz, to tylko dlatego, że ci na to &lt;i&gt;pozwolił&lt;/i&gt;.</plPL>
+    <koKR>들창코는 정말 강력합니다. 만약 처치했다면, 그가 &lt;i&gt;봐줬기&lt;/i&gt; 때문입니다.</koKR>
+    <itIT>Boccalarga è potentissimo. Se lo uccidi è solo perché lui &lt;i&gt;te lo ha permesso&lt;/i&gt;.</itIT>
+    <frFR>Lardeur est super fort. Si vous réussissez à le tuer, c’est uniquement parce qu’il vous aura &lt;i&gt;laissé&lt;/i&gt; faire.</frFR>
+    <esMX>Hogger es muy poderoso. Si lo matas, es porque &lt;i&gt;él&lt;/i&gt; así lo quiso.</esMX>
+    <esES>Hogger ya se ha cobrado más víctimas que el Cataclismo.</esES>
+    <deDE>Hogger ist so mächtig, dass Ihr ihn nur töten könnt, wenn er Euch &lt;i&gt;lässt&lt;/i&gt;.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="8b5c8d41-e080-44c4-9858-c23777be8b4c" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="479ded85-ed2c-49de-97c4-35a543c7e2a7" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

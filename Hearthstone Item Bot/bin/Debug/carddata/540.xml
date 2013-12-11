@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_165a">
-  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>
+<Entity version="2" CardID="CS2_236e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Cat Form</enUS>
-    <frFR>Forme de félin</frFR>
-    <zhTW>獵豹形態</zhTW>
-    <zhCN>猎豹形态</zhCN>
-    <ruRU>Облик кошки</ruRU>
-    <ptBR>Forma de Felino</ptBR>
-    <plPL>Postać kota</plPL>
-    <koKR>표범 변신</koKR>
-    <itIT>Forma Felina</itIT>
-    <esMX>Forma felina</esMX>
-    <esES>Forma felina</esES>
-    <deDE>Katzengestalt</deDE>
+    <enUS>Divine Spirit</enUS>
+    <frFR>Esprit divin</frFR>
+    <zhTW>神聖精神</zhTW>
+    <zhCN>神圣之灵</zhCN>
+    <ruRU>Божественный дух</ruRU>
+    <ptBR>Espírito Divino</ptBR>
+    <plPL>Boski duch</plPL>
+    <koKR>천상의 정신</koKR>
+    <itIT>Spirito Divino</itIT>
+    <esMX>Espíritu divino</esMX>
+    <esES>Espíritu divino</esES>
+    <deDE>Göttlicher Wille</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+    <enUS>This minion has double Health.</enUS>
+    <frFR>Les points de vie de ce serviteur sont doublés.</frFR>
+    <zhTW>這個手下擁有雙倍的生命值</zhTW>
+    <zhCN>该随从的生命值翻倍。</zhCN>
+    <ruRU>Здоровье этого существа удвоено.</ruRU>
+    <ptBR>Este lacaio tem o dobro de Vida.</ptBR>
+    <plPL>Ten stronnik ma podwojone zdrowie.</plPL>
+    <koKR>생명력 2배 증가</koKR>
+    <itIT>Salute raddoppiata.</itIT>
+    <esMX>Este esbirro tiene el doble de Salud.</esMX>
+    <esES>Este esbirro tiene el doble de salud.</esES>
+    <deDE>Dieser Diener hat doppeltes Leben.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="a0145a49-c8c4-449e-ae1f-7b973c84cd3b" />
 </Entity>

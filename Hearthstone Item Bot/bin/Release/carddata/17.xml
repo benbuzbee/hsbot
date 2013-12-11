@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_244">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Totemic Might</enUS>
     <frFR>Puissance totémique</frFR>
@@ -26,7 +24,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Give your Totems +2 Health.</enUS>
     <frFR>Confère +2 PV à vos totems.</frFR>
-    <zhTW>賦予你的圖騰+2生命值。</zhTW>
+    <zhTW>賦予你的圖騰+2生命值</zhTW>
     <zhCN>使你的图腾获得+2生命值。</zhCN>
     <ruRU>Ваши тотемы получают +2 к здоровью.</ruRU>
     <ptBR>Conceda +2 de Vida aos seus Totens.</ptBR>
@@ -47,7 +45,7 @@
     <enUS>Unlocked at Level 6.</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 44.</enUS>
+    <enUS>Unlocked at Level 28.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>Totem-stomping is no longer recommended.</enUS>
@@ -56,7 +54,7 @@
     <ruRU>Топтать тотемы больше не рекомендуется.</ruRU>
     <ptBR>Pisar no totem não é mais recomendado.</ptBR>
     <plPL>Chroni totem przed łomotem.</plPL>
-    <koKR>이 정도면 이제 밟아 꺼트릴 수준이 아닙니다.</koKR>
+    <koKR>자, 이제 제 토템 한 번 밟아 보시죠. (사악한 미소)</koKR>
     <itIT>La distruzione dei totem non è più un'attività ricreativa.</itIT>
     <frFR>Désormais, plus besoin de ressortir ses totems toutes les deux minutes !</frFR>
     <esMX>La administración desaconseja el aplastamiento de tótems.</esMX>

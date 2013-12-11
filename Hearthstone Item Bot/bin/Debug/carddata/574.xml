@@ -1,71 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_572">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_012">
+  <MasterPower>754440d0-0f8f-45a2-bd5d-e350aa2daf71</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ysera</enUS>
-    <frFR>Ysera</frFR>
-    <zhTW>伊瑟拉</zhTW>
-    <zhCN>伊瑟拉</zhCN>
-    <ruRU>Изера</ruRU>
-    <ptBR>Ysera</ptBR>
-    <plPL>Ysera</plPL>
-    <koKR>이세라</koKR>
-    <itIT>Ysera</itIT>
-    <esMX>Ysera</esMX>
-    <esES>Ysera</esES>
-    <deDE>Ysera</deDE>
+    <enUS>Swipe</enUS>
+    <frFR>Balayage</frFR>
+    <zhTW>揮擊</zhTW>
+    <zhCN>横扫</zhCN>
+    <ruRU>Размах</ruRU>
+    <ptBR>Patada</ptBR>
+    <plPL>Zamaszysty cios</plPL>
+    <koKR>휘둘러치기</koKR>
+    <itIT>Spazzata</itIT>
+    <esMX>Flagelo</esMX>
+    <esES>Flagelo</esES>
+    <deDE>Prankenhieb</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="12" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, draw a Dream Card.</enUS>
-    <frFR>Vous piochez une carte Rêve à la fin de votre tour.</frFR>
-    <zhTW>在你的回合結束時，抽一張夢境卡。</zhTW>
-    <zhCN>在你的回合结束时，获得一张梦境牌。</zhCN>
-    <ruRU>В конце вашего хода вы берете карту Сна.</ruRU>
-    <ptBR>No final do seu turno, compre um Card de Sonho.</ptBR>
-    <plPL>Na koniec swojej tury dobierz Kartę Snu.</plPL>
-    <koKR>내 턴이 끝날 때,\n&lt;b&gt;꿈 카드&lt;/b&gt;를 뽑습니다.</koKR>
-    <itIT>Alla fine del tuo turno, pesca una carta Sogno.</itIT>
-    <esMX>Al final de tu turno, roba una carta de Sueño.</esMX>
-    <esES>Al final de tu turno, roba una carta de sueño.</esES>
-    <deDE>Zieht am Ende Eures Zuges eine Traumkarte.</deDE>
+    <enUS>Deal $4 damage to an enemy and $1 damage to all other enemies.</enUS>
+    <frFR>Inflige $4 |4(point,points) de dégâts à un adversaire et $1 |4(point,points) de dégâts à tous les autres adversaires.</frFR>
+    <zhTW>對一個敵人造成$4點傷害，並對其他敵人造成$1點傷害</zhTW>
+    <zhCN>对一个敌人造成$4点伤害，并对所有其他敌人造成$1点伤害。</zhCN>
+    <ruRU>Наносит $4 ед. урона выбранному персонажу противника и $1 ед. урона остальным персонажам противника.</ruRU>
+    <ptBR>Cause $4 de dano a um inimigo e $1 de dano a todos os outros inimigos.</ptBR>
+    <plPL>Zadaj $4 pkt. obrażeń wrogowi i $1 pkt. obrażeń wszystkim pozostałym wrogom.</plPL>
+    <koKR>선택한 적 하나에게 피해를 $4 주고 다른 모든 적에게 피해를 $1 줍니다.</koKR>
+    <itIT>Infligge $4 danni a un singolo nemico e $1 danno a tutti gli altri nemici.</itIT>
+    <esMX>Inflige $4 de daño a un enemigo y $1 de daño a todos los otros enemigos.</esMX>
+    <esES>Inflige $4 p. de daño a un enemigo y $1 p. de daño a todos los demás enemigos.</esES>
+    <deDE>Fügt einem Feind $4 Schaden und allen anderen Feinden $1 Schaden zu.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gabor Szikszai</enUS>
+    <enUS>Sean O’Daniels</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Ysera rules the Emerald Dream.  Which is some kind of green-mirror-version of the real world, or something?</enUS>
-    <zhTW>伊瑟拉統治著翡翠夢境，一個像是真實世界的綠色鏡像版本之類的世界。</zhTW>
-    <zhCN>伊瑟拉统治翡翠梦境。所谓翡翠梦境，究竟只是现实世界的绿色朦胧倒影，还是其它别的什么地方？</zhCN>
-    <ruRU>Изера правит царством Изумрудного Сна. Интересно, есть ли там дорога из желтого кирпича?</ruRU>
-    <ptBR>Ysera governa o Sonho Esmeralda. Que é tipo uma versão espelhada e esverdeada do mundo real. É isso mesmo?</ptBR>
-    <plPL>Ysera włada Szmaragdowym Snem. A ten wygląda zupełnie jak prawdziwy świat, tyle że podpicowany na zielono.</plPL>
-    <koKR>이세라는 에메랄드의 꿈을 지배합니다. 에메랄드의 꿈이 어떻냐고요? 실제 세상의 녹색 버전이랄까요?</koKR>
-    <itIT>Un drago da sogno. Letteralmente.</itIT>
-    <frFR>Ysera règne sur le Rêve d’émeraude. C’est une copie plus verte du monde réel. Ce n’est pas ça ?</frFR>
-    <esMX>Ysera gobierna el Sueño Esmeralda, que es una especie de mundo paralelo, igual al real pero verde... o algo así.</esMX>
-    <esES>Ysera gobierna el Sueño Esmeralda, la excusa perfecta de los druidas que quieren echar una cabezadita.</esES>
-    <deDE>Diese Karte ist der smaragdgrüne Traum eines jeden Spielers.</deDE>
+    <enUS>When a bear rears back and extends his arms, he's about to Swipe!  ... or hug.</enUS>
+    <zhTW>當熊站起來張開雙臂的時候，小心，他即將要伸爪揮擊了!...不過當然，也有可能只是想要抱抱你而已。</zhTW>
+    <zhCN>当一只熊向后仰身张开它的前臂时，他就要横扫！...或者拥抱你了。</zhCN>
+    <ruRU>Если вы видите медведя, который ревет и широко разводит лапы, не пугайтесь! Возможно, он не размахивается, чтобы ударить вас, а просто хочет сказать: «Привет!»</ruRU>
+    <ptBR>Quando um urso se afasta e estende os braços ele está pronro para dar uma patada! ... ou um abraço.</ptBR>
+    <plPL>Ulubiony cios zamachowców!</plPL>
+    <koKR>곰이 팔을 뒤로 젖히면 당신을 확 휘둘러치거나! ...꼭 안아주려는 겁니다.</koKR>
+    <itIT>Se un orso si alza in piedi e allarga le zampe significa che vuole spazzarti via... o abbracciarti. In ogni caso è meglio scappare!</itIT>
+    <frFR>Quand un ours se met sur ses pattes arrière et tend celles de devant, vous êtes bon pour un balayage ! ... ou un gros câlin.</frFR>
+    <esMX>Cuando un oso se levanta y extiende los brazos, está a punto de desatar el flagelo de su furia... O de darte un abrazo.</esMX>
+    <esES>Desde que practican con esbirros, los druidas ya no se tienen que afilar las garras en los muebles.</esES>
+    <deDE>Wenn ein Bär sich aufrichtet und seine Arme ausstreckt, dann steht Euch entweder eine Umarmung oder ein Prankenhieb bevor. Viel Glück.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="e32c5ce1-f12d-4712-ae6f-784876be5a03" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
-  <EntourageCard cardID="DREAM_01" />
-  <EntourageCard cardID="DREAM_02" />
-  <EntourageCard cardID="DREAM_03" />
-  <EntourageCard cardID="DREAM_04" />
-  <EntourageCard cardID="DREAM_05" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 47.</enUS>
+  </Tag>
+  <Power definition="754440d0-0f8f-45a2-bd5d-e350aa2daf71">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="3" param="" />
+  </Power>
 </Entity>

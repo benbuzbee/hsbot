@@ -1,64 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_543">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_131">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>King Krush</enUS>
-    <frFR>Roi Krush</frFR>
-    <zhTW>克洛許王</zhTW>
-    <zhCN>暴龙王克鲁什</zhCN>
-    <ruRU>Король Круш</ruRU>
-    <ptBR>Rei Mó</ptBR>
-    <plPL>Król Kruszor</plPL>
-    <koKR>왕 크루쉬</koKR>
-    <itIT>Re Krush</itIT>
-    <esMX>Rey Krush</esMX>
-    <esES>Rey Krush</esES>
-    <deDE>König Knirsch</deDE>
+    <enUS>Defias Ringleader</enUS>
+    <frFR>Meneur défias</frFR>
+    <zhTW>迪菲亞頭目</zhTW>
+    <zhCN>迪菲亚头目</zhCN>
+    <ruRU>Главарь Братства</ruRU>
+    <ptBR>Líder Défias</ptBR>
+    <plPL>Herszt kręgu Nieskornych</plPL>
+    <koKR>데피아즈단 두목</koKR>
+    <itIT>Capo dei Defias</itIT>
+    <esMX>Gerifalte Defias</esMX>
+    <esES>Gerifalte Defias</esES>
+    <deDE>Rädelsführer der Defias</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Combo:&lt;/b&gt; Summon a 2/1 Defias Bandit.</enUS>
+    <frFR>&lt;b&gt;Combo :&lt;/b&gt; invoque un bandit défias 2/1.</frFR>
+    <zhTW>&lt;b&gt;連擊:&lt;/b&gt;召喚一個2/1的迪菲亞強盜</zhTW>
+    <zhCN>&lt;b&gt;连击：&lt;/b&gt;召唤一个2/1的迪菲亚强盗。</zhCN>
+    <ruRU>&lt;b&gt;Серия приемов:&lt;/b&gt; призывает на поле боя бандита Братства 2/1.</ruRU>
+    <ptBR>&lt;b&gt;Combo:&lt;/b&gt; Evoque um Bandido Défias 2/1.</ptBR>
+    <plPL>&lt;b&gt;Kombinacja:&lt;/b&gt; Przyzwij Bandytę Nieskornych 2/1.</plPL>
+    <koKR>&lt;b&gt;연계:&lt;/b&gt; 2/1 데피아즈단 무법자를 1명 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Combo:&lt;/b&gt; evoca un Bandito dei Defias 2/1.</itIT>
+    <esMX>&lt;b&gt;Combo:&lt;/b&gt; invoca un Bandido Defias 2/1.</esMX>
+    <esES>&lt;b&gt;Combo:&lt;/b&gt; Invoca a un bandido Defias 2/1.</esES>
+    <deDE>&lt;b&gt;Combo:&lt;/b&gt; Ruft einen Banditen der Defias (2/1) herbei.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Efrem Palacios</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The best defense against King Krush is to have someone you don’t like standing in front of you.</enUS>
-    <zhTW>要防禦克洛許王最好的辦法就是讓你討厭的某個人站在你前面。</zhTW>
-    <zhCN>对付暴龙王克鲁什最好的办法就是让某个你讨厌的人站在你前面。</zhCN>
-    <ruRU>Лучшая защита от короля Круша – встать за спиной у какого-нибудь неприятного вам существа.</ruRU>
-    <ptBR>A melhor defesa contra o Rei Mó é botar alguém de quem você não gosta na sua frente.</ptBR>
-    <plPL>Najlepsza obrona przed Królem Kruszorem to umieszczenie przed sobą kogoś, kogo nie lubisz.</plPL>
-    <koKR>왕 크루쉬에게서 자신을 보호하는 가장 좋은 방법은 싫어하는 누군가를 앞에 세워놓는 것입니다.</koKR>
-    <itIT>La miglior difesa contro Re Krush è mettere qualcuno che non ti piace tra te e lui.</itIT>
-    <frFR>Le meilleur moyen de se protéger contre Krush, c’est de se cacher derrière quelqu’un qu’on aime pas.</frFR>
-    <esMX>La mejor defensa contra el Rey Krush es buscar a alguien que te caiga mal y usarlo de escudo.</esMX>
-    <esES>La mejor defensa contra el rey Krush es ponerte detrás de alguien que te caiga mal.</esES>
-    <deDE>Die beste Verteidigung gegen König Knirsch ist, sich hinter jemandem zu positionieren, den man nicht besonders mag.</deDE>
+    <enUS>He stole the deed to town years ago, so technically the town &lt;i&gt;is&lt;/i&gt; his. He just calls people Scrub to be mean.</enUS>
+    <zhTW>他很多年前就偷走了小鎮的地契。所以按理來說，小鎮的確&lt;b&gt;是&lt;/b&gt;屬於他。他看到每個人都叫對方「少年」，雖然他自己也沒多老。</zhTW>
+    <zhCN>他在数年前偷走了地契，所以理论上说这片地盘确实是他的。他还喜欢用“白痴”称呼别人，显得自己很有势力。</zhCN>
+    <ruRU>Пару лет назад он украл дарственную на город, так что на самом деле весь город &lt;i&gt;действительно&lt;/i&gt; принадлежит ему. А еще он называет других ничтожествами, чтобы все знали, какой он злой.</ruRU>
+    <ptBR>Ele roubou a escritura da cidade há muitos anos, então tecnicamente, a cidade &lt;i&gt;é&lt;/i&gt; dele. Ele só chama o pessoal de verme pra ser malvado mesmo.</ptBR>
+    <plPL>Chciałby, żeby mówić do niego per Hegemon. Sęk w tym, że nie ma jeszcze swojego kaprala.</plPL>
+    <koKR>두목은 묵직해야 합니다.</koKR>
+    <itIT>Un buon capobanda ha &lt;i&gt;sempre&lt;/i&gt; qualche bandito pronto a combattere al suo posto.</itIT>
+    <frFR>Il aime bien traiter les gens de grouillots. Mais pourquoi est-il aussi méchant ?</frFR>
+    <esMX>Hace años se robó el título de propiedad de la ciudad, así que técnicamente es cierto que le pertenece. Lo de "novato" lo dice por pura maldad.</esMX>
+    <esES>Ahora que lo dice, es verdad que Arroyo de la Luna pertenece a los Defias...</esES>
+    <deDE>Ein echter Rädelsführer hat &lt;i&gt;immer&lt;/i&gt; ein paar Schergen dabei.</deDE>
   </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="949e2fe5-a42d-48ad-a25a-89e4942dec8b" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Combo" enumID="220" type="Bool" value="1" />
+  <Power definition="20575742-50c8-47d7-a05e-82322beae882" />
 </Entity>

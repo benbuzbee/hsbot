@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_345t">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />

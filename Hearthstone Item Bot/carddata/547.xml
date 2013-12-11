@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_009">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="TU4c_008e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Healing Totem</enUS>
-    <frFR>Totem de soins</frFR>
-    <zhTW>治療圖騰</zhTW>
-    <zhCN>治疗图腾</zhCN>
-    <ruRU>Тотем исцеления</ruRU>
-    <ptBR>Totem de Cura</ptBR>
-    <plPL>Uzdrawiający totem</plPL>
-    <koKR>치유 토템</koKR>
-    <itIT>Totem: Flusso Vitale</itIT>
-    <esMX>Tótem sanador</esMX>
-    <esES>Tótem sanador</esES>
-    <deDE>Heiltotem</deDE>
+    <enUS>Might of Mukla</enUS>
+    <frFR>Puissance de Mukla</frFR>
+    <zhTW>穆克拉的力量</zhTW>
+    <zhCN>穆克拉之力</zhCN>
+    <ruRU>Мощь Муклы</ruRU>
+    <ptBR>Poder de Mukla</ptBR>
+    <plPL>Moc Mukli</plPL>
+    <koKR>무클라의 힘</koKR>
+    <itIT>Vigore di Mukla</itIT>
+    <esMX>Poderío de Mukla</esMX>
+    <esES>Poderío de Mukla</esES>
+    <deDE>Die Macht Muklas</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, restore 1 Health to all friendly minions.</enUS>
-    <frFR>À la fin de votre tour, rend 1 point de vie à tous vos serviteurs.</frFR>
-    <zhTW>在你的回合結束時，替全部友方手下恢復1點生命值。</zhTW>
-    <zhCN>在你的回合结束时，为所有友方随从恢复1点生命值。</zhCN>
-    <ruRU>В конце вашего хода восстанавливает 1 ед. здоровья всем вашим существам.</ruRU>
-    <ptBR>No fim do seu turno, restaure 1 de Vida de todos os lacaios aliados.</ptBR>
-    <plPL>Na koniec swojej tury przywróć 1 pkt. zdrowia wszystkim przyjaznym stronnikom.</plPL>
-    <koKR>내 턴이 끝날 때, 모든 아군 하수인의 생명력을 1 회복시킵니다.</koKR>
-    <itIT>Alla fine del tuo turno, il Totem: Flusso Vitale rigenera 1 Salute a tutti i tuoi servitori.</itIT>
-    <esMX>Al final de tu turno, restaura 1 de Salud a todos los esbirros aliados.</esMX>
-    <esES>Al final de tu turno, restaura 1 p. de salud a todos los esbirros amistosos.</esES>
-    <deDE>Stellt am Ende Eures Zuges bei allen befreundeten Dienern 1 Leben wieder her.</deDE>
+    <enUS>King Mukla has +8 Attack this turn.</enUS>
+    <frFR>Le roi Mukla a +8 en Attaque pendant ce tour.</frFR>
+    <zhTW>穆克拉本回合+8攻擊力</zhTW>
+    <zhCN>在本回合中，穆克拉获得+8攻击力。</zhCN>
+    <ruRU>Король Мукла получает +8 к атаке до конца хода.</ruRU>
+    <ptBR>O Rei Mukla tem +8 de Ataque neste turno.</ptBR>
+    <plPL>Król Mukla ma +8 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +8</koKR>
+    <itIT>Re Mukla ha +8 Attacco per questo turno.</itIT>
+    <esMX>El Rey Mukla tiene +8 de Ataque en este turno.</esMX>
+    <esES>El rey Mukla tiene +8 p. de ataque este turno.</esES>
+    <deDE>König Mukla hat +8 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Race" enumID="200" type="Race" value="21" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="006bb647-67b0-4fbd-9472-65633e958b45" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="35946200-4ff8-4149-a67d-497f1bf9233d" />
+  <Power definition="471982da-3d38-4d11-a52c-8bc5492e64a4" />
 </Entity>

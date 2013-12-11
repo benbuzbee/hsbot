@@ -1,40 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1h_292">
-  <MasterPower>c89937a8-b00c-4410-bf24-82b162821bd5</MasterPower>
+<Entity version="2" CardID="EX1_238">
+  <MasterPower>1092910a-734d-44e9-a8a6-bd53a37b4899</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Steady Shot</enUS>
-    <frFR>Tir assuré</frFR>
-    <zhTW>穩固射擊</zhTW>
-    <zhCN>稳固射击</zhCN>
-    <ruRU>Верный выстрел</ruRU>
-    <ptBR>Tiro firme</ptBR>
-    <plPL>Pewny strzał</plPL>
-    <koKR>고정 사격</koKR>
-    <itIT>Tiro Stabilizzato</itIT>
-    <esMX>Disparo firme</esMX>
-    <esES>Disparo firme</esES>
-    <deDE>Zuverlässiger Schuss</deDE>
+    <enUS>Lightning Bolt</enUS>
+    <frFR>Éclair</frFR>
+    <zhTW>閃電箭</zhTW>
+    <zhCN>闪电箭</zhCN>
+    <ruRU>Молния</ruRU>
+    <ptBR>Raio</ptBR>
+    <plPL>Błyskawica</plPL>
+    <koKR>번개 화살</koKR>
+    <itIT>Dardo Fulminante</itIT>
+    <esMX>Descarga de relámpagos</esMX>
+    <esES>Descarga de relámpagos</esES>
+    <deDE>Blitzschlag</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Deal 2 damage to the enemy hero.</enUS>
-    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nInflige 2 points de dégâts au héros adverse.</frFR>
-    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n對敵方英雄造成2點傷害。</zhTW>
-    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n 对敌方英雄造成2点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\n Наносит 2 ед. урона герою противника.</ruRU>
-    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Cause 2 de dano ao herói inimigo.</ptBR>
-    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Zadaj 2 pkt. obrażeń wrogiemu bohaterowi.</plPL>
-    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 적 영웅에게 피해를 2 줍니다.</koKR>
-    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nInfligge 2 danni all'eroe nemico.</itIT>
-    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Inflige 2 de daño al héroe enemigo.</esMX>
-    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Inflige 2 p. de daño al héroe enemigo.</esES>
-    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n Fügt dem feindlichen Helden 2 Schaden zu.</deDE>
+    <enUS>Deal $3 damage. &lt;b&gt;Overload:&lt;/b&gt; (1)</enUS>
+    <frFR>Inflige $3 |4(point,points) de dégâts. &lt;b&gt;Surcharge :&lt;/b&gt; (1)</frFR>
+    <zhTW>造成$3點傷害。&lt;b&gt;超載:&lt;/b&gt;(1)</zhTW>
+    <zhCN>造成$3点伤害，&lt;b&gt;过载：&lt;/b&gt;（1）</zhCN>
+    <ruRU>Наносит $3 ед. урона. &lt;b&gt;Перегрузка:&lt;/b&gt; (1)</ruRU>
+    <ptBR>Cause $3 de dano. &lt;b&gt;Sobrecarga:&lt;/b&gt; (1)</ptBR>
+    <plPL>Zadaj $3 pkt. obrażeń. &lt;b&gt;Przeciążenie:&lt;/b&gt; (1)</plPL>
+    <koKR>피해를 $3 줍니다. &lt;b&gt;과부하:&lt;/b&gt; (1)</koKR>
+    <itIT>Infligge $3 danni. &lt;b&gt;Sovraccarico:&lt;/b&gt; (1) Cristallo di Mana.</itIT>
+    <esMX>Inflige $3 de daño. &lt;b&gt;Sobrecarga:&lt;/b&gt; (1)</esMX>
+    <esES>Inflige $3 p. de daño. &lt;b&gt;Sobrecarga:&lt;/b&gt; (1)</esES>
+    <deDE>Verursacht $3 Schaden. &lt;b&gt;Überladung:&lt;/b&gt; (1)</deDE>
   </Tag>
-  <Power definition="c89937a8-b00c-4410-bf24-82b162821bd5" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Mike "Daarken" Lim</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Lightning Bolt! Lightning Bolt! Lightning Bolt!</enUS>
+    <zhTW>閃電箭!閃電箭!閃電箭!</zhTW>
+    <zhCN>闪电箭！闪电箭！闪电箭！</zhCN>
+    <ruRU>Знаете, почему вы сначала видите молнию, а потом слышите гром? Потому что глаза у вас впереди, а уши – сзади!</ruRU>
+    <ptBR>Raio! Raio! Raios!</ptBR>
+    <plPL>A niech to jasny piorun strzeli!</plPL>
+    <koKR>번개 화살! 번개 화살! 번개 화살!</koKR>
+    <itIT>Sparane 10 e hai vinto! Peccato tu possa averne solo 2 nel mazzo...</itIT>
+    <frFR>Foudre, éclair et tonnerre !</frFR>
+    <esMX>¡Relámpagos! ¡Relámpagos! ¡Más relámpagos!</esMX>
+    <esES>¡Relámpagos! ¡Relámpagos! ¡Relámpagos!</esES>
+    <deDE>Auf Azeroth ist die Chance, vom Blitz getroffen zu werden, ziemlich hoch.</deDE>
+  </Tag>
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="1092910a-734d-44e9-a8a6-bd53a37b4899">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

@@ -30,7 +30,7 @@
     <ruRU>Выбранное существо получает +4/+4. &lt;i&gt;(+4 к атаке/+4 к здоровью)&lt;/i&gt;</ruRU>
     <ptBR>Conceda +4/+4 a um lacaio. &lt;i&gt;(+4 de Ataque/+4 de Vida)&lt;/i&gt;</ptBR>
     <plPL>Daj stronnikowi +4/+4 &lt;i&gt;(+4 do ataku/+4 do zdrowia)&lt;/i&gt;.</plPL>
-    <koKR>하수인에게 +4/+4를 부여합니다. &lt;i&gt;(공격력 +4/생명력 +4)&lt;/i&gt;</koKR>
+    <koKR>하수인 하나에게 +4/+4를 부여합니다.</koKR>
     <itIT>Fornisce +4/+4 a un servitore.</itIT>
     <esMX>Otorga +4/+4 a un esbirro. &lt;i&gt;(+4 de Ataque/+4 de Salud)&lt;/i&gt;</esMX>
     <esES>Otorga +4/+4 a un esbirro. &lt;i&gt;(+4 p. de ataque/+4 p. de salud)&lt;/i&gt;</esES>
@@ -60,7 +60,7 @@
     <enUS>Unlocked at Level 10.</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 48.</enUS>
+    <enUS>Unlocked at Level 49.</enUS>
   </Tag>
   <Power definition="3999cb63-121b-4da3-9561-a53b698820ca">
     <PlayRequirement reqID="11" param="" />

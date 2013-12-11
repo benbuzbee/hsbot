@@ -1,67 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_399">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_009">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gurubashi Berserker</enUS>
-    <frFR>Berserker gurubashi</frFR>
-    <zhTW>古拉巴什狂戰士</zhTW>
-    <zhCN>古拉巴什狂暴者</zhCN>
-    <ruRU>Берсерк Гурубаши</ruRU>
-    <ptBR>Berserker Gurubashi</ptBR>
-    <plPL>Berserker z Gurubaszi</plPL>
-    <koKR>구루바시 광전사</koKR>
-    <itIT>Berserker Gurubashi</itIT>
-    <esMX>Rabioso gurubashi</esMX>
-    <esES>Rabioso Gurubashi</esES>
-    <deDE>Gurubashiberserker</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="7" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever this minion takes damage, gain +3 Attack.</enUS>
-    <frFR>Quand ce serviteur subit des dégâts, il gagne +3 ATQ.</frFR>
-    <zhTW>每當這個手下受到傷害，獲得+3攻擊力。</zhTW>
-    <zhCN>每当该随从受到伤害时，获得+3攻击力。</zhCN>
-    <ruRU>Когда это существо получает урон, оно получает +3 к атаке.</ruRU>
-    <ptBR>Sempre que este lacaio receber dano, ele recebe +3 de Ataque.</ptBR>
-    <plPL>Otrzymuje +3 do ataku za każdym razem, gdy zostanie zraniony.</plPL>
-    <koKR>이 하수인은 피해를 입을 때마다 공격력을 +3 얻습니다.</koKR>
-    <itIT>Quando il Berserker Gurubashi subisce danni, ottiene +3 Attacco.</itIT>
-    <esMX>Cada vez que este esbirro recibe daño, obtiene +3 de Ataque.</esMX>
-    <esES>Cada vez que este esbirro recibe daño, obtiene +3 p. de ataque.</esES>
-    <deDE>Erhält jedes Mal +3 Angriff, wenn dieser Diener Schaden erleidet.</deDE>
+    <enUS>Angry Chicken</enUS>
+    <frFR>Poulet furieux</frFR>
+    <zhTW>憤怒雞</zhTW>
+    <zhCN>愤怒的小鸡</zhCN>
+    <ruRU>Злая курица</ruRU>
+    <ptBR>Frango Nervoso</ptBR>
+    <plPL>Wściekły kurczak</plPL>
+    <koKR>화난 닭</koKR>
+    <itIT>Gallina Arrabbiata</itIT>
+    <esMX>Pollo enfadado</esMX>
+    <esES>Pollo furioso</esES>
+    <deDE>Wütendes Huhn</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Enrage:&lt;/b&gt; +5 Attack.</enUS>
+    <frFR>&lt;b&gt;Accès de rage :&lt;/b&gt; +5 ATQ.</frFR>
+    <zhTW>&lt;b&gt;狂怒:&lt;/b&gt;+5攻擊力</zhTW>
+    <zhCN>&lt;b&gt;激怒：&lt;/b&gt;+5攻击力。</zhCN>
+    <ruRU>&lt;b&gt;Исступление:&lt;/b&gt; +5 к атаке.</ruRU>
+    <ptBR>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 de Ataque.</ptBR>
+    <plPL>&lt;b&gt;Szał:&lt;/b&gt; +5 do ataku.</plPL>
+    <koKR>&lt;b&gt;격노:&lt;/b&gt; 공격력 +5</koKR>
+    <itIT>&lt;b&gt;Rabbia:&lt;/b&gt; +5 Attacco.</itIT>
+    <esMX>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 de Ataque.</esMX>
+    <esES>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 p. de ataque.</esES>
+    <deDE>&lt;b&gt;Wutanfall:&lt;/b&gt; +5 Angriff.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warlock Level 56.</enUS>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Mike Sass</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>No Pain, No Gain.</enUS>
-    <zhTW>痛過，才會有所成長。</zhTW>
-    <zhCN>如果那些伤痛没能让你死掉，它们就会让你更强大。</zhCN>
-    <ruRU>Ничто так не придает сил, как ярость!</ruRU>
-    <ptBR>Sem sofrimento não tem graça.</ptBR>
-    <plPL>Tak naprawdę to lubi, gdy go boli.</plPL>
-    <koKR>아픈 만큼 성숙하는 법입니다.</koKR>
-    <itIT>Ciò che non ti uccide ti fortifica.</itIT>
-    <frFR>On n’a rien sans rien.</frFR>
-    <esMX>El que no pena, no gana.</esMX>
-    <esES>¡No hay dolor!</esES>
-    <deDE>Wer den Schaden hat, braucht für den ... Schaden nicht zu sorgen.</deDE>
+    <enUS>There is no beast more frightening (or ridiculous) than a fully enraged chicken.</enUS>
+    <zhTW>憤怒到極點的禽類是最可怕&lt;b&gt;(或最可笑)&lt;/b&gt;的生物。</zhTW>
+    <zhCN>没有什么野兽比一只彻底发疯的小鸡更加吓人（或者更加可笑）的了。</zhCN>
+    <ruRU>Нет зверя страшнее (или смешнее?), чем разъяренная курица.</ruRU>
+    <ptBR>Não existe criatura mais assustadora (ou ridícula) que uma galinha totalmente enfurecida.</ptBR>
+    <plPL>"Lusia wściekła się, gdy odwołano obchody Święta Kreta" - Pan Józek, znany hodowca kurczaków.</plPL>
+    <koKR>완전히 격노한 닭보다 무시무시한(또는 황당한) 야수는 없습니다.</koKR>
+    <itIT>Non c'è bestia più spaventosa (o ridicola) di una gallina sull'orlo di una crisi di nervi.</itIT>
+    <frFR>Tais-toi, tais-toi, tais-toi, la patte de poulet furieux satan hérétique !!!</frFR>
+    <esMX>No hay bestia más aterradora (o ridícula) que una gallina completamente fuera de sus casillas.</esMX>
+    <esES>¡Es el pollo diablo!</esES>
+    <deDE>Kein Wesen ist furchteinflößender (oder lächerlicher) als ein echt wütendes Huhn.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="a3af8c2b-c744-4ebf-86b4-4130748f7dcb" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Enrage" enumID="212" type="Bool" value="1" />
+  <Power definition="9c93272d-f906-465d-8b05-f4316f07ba9d" />
 </Entity>

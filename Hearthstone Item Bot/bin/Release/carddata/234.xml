@@ -1,65 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_249">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_105">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Baron Geddon</enUS>
-    <frFR>Baron Geddon</frFR>
-    <zhTW>迦頓男爵</zhTW>
-    <zhCN>迦顿男爵</zhCN>
-    <ruRU>Барон Геддон</ruRU>
-    <ptBR>Barão Geddon</ptBR>
-    <plPL>Baron Geddon</plPL>
-    <koKR>남작 게돈</koKR>
-    <itIT>Barone Geddon</itIT>
-    <esMX>Barón Geddon</esMX>
-    <esES>Barón Geddon</esES>
-    <deDE>Baron Geddon</deDE>
+    <enUS>Mountain Giant</enUS>
+    <frFR>Géant des montagnes</frFR>
+    <zhTW>山嶺巨人</zhTW>
+    <zhCN>山岭巨人</zhCN>
+    <ruRU>Горный великан</ruRU>
+    <ptBR>Gigante da Montanha</ptBR>
+    <plPL>Górski olbrzym</plPL>
+    <koKR>산악거인</koKR>
+    <itIT>Gigante di Montagna</itIT>
+    <esMX>Gigante montés</esMX>
+    <esES>Gigante montés</esES>
+    <deDE>Bergriese</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="7" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="12" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, deal 2 damage to ALL other characters.</enUS>
-    <frFR>À la fin de votre tour, inflige 2 points de dégâts à TOUS les autres personnages.</frFR>
-    <zhTW>在你的回合結束時，對全部其他角色造成2點傷害。</zhTW>
-    <zhCN>在你的回合结束时，对所有其他角色造成2点伤害。</zhCN>
-    <ruRU>В конце вашего хода наносит 2 ед. урона ВСЕМ остальным персонажам.</ruRU>
-    <ptBR>No final do seu turno, cause 2 de dano a TODOS os outros personagens.</ptBR>
-    <plPL>Na koniec swojej tury zadaj 2 pkt. obrażeń WSZYSTKIM innym postaciom.</plPL>
-    <koKR>내 턴이 끝날 때, 다른 모든 캐릭터에게 피해를 2 줍니다.</koKR>
-    <itIT>Alla fine del tuo turno, il Barone Geddon infligge 2 danni a TUTTI gli altri personaggi.</itIT>
-    <esMX>Al final de tu turno, inflige 2 de daño a TODOS los otros personajes.</esMX>
-    <esES>Al final de tu turno, inflige 2 p. de daño a todos los demás personajes.</esES>
-    <deDE>Fügt am Ende Eures Zuges ALLEN anderen Charakteren 2 Schaden zu.</deDE>
+    <enUS>Costs (1) less for each other card in your hand.</enUS>
+    <frFR>Coûte (1) cristal de moins pour chaque autre carte dans votre main.</frFR>
+    <zhTW>你手上的其他每一張牌使消耗減少(1)點</zhTW>
+    <zhCN>你每有一张其他手牌，该牌的法力值消耗便减少（1）点。</zhCN>
+    <ruRU>Стоит на (1) ману меньше за каждую карту в вашей руке.</ruRU>
+    <ptBR>Custa (1) a menos para cada um dos outros cards na sua mão.</ptBR>
+    <plPL>Kosztuje (1) mniej za każdą pozostałą kartę w twojej ręce.</plPL>
+    <koKR>내 손에 있는 다른 카드 1장당 비용이 (1)씩 감소합니다.</koKR>
+    <itIT>Costa (1) Mana in meno per ogni carta che hai in mano.</itIT>
+    <esMX>Cuesta (1) menos por cada una de las otras cartas que hay en tu mano.</esMX>
+    <esES>Cuesta (1) cristal menos por cada carta adicional que tengas en tu mano.</esES>
+    <deDE>Kostet (1) weniger für jede andere Karte auf Eurer Hand.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ian Ameling</enUS>
+    <enUS>Samwise Didier</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.</enUS>
-    <zhTW>迦頓男爵曾是拉格納羅斯手下的首席軍官。直到他被「火」掉。</zhTW>
-    <zhCN>迦顿男爵曾经是拉格纳罗斯的首席副官，因为他实在太“火”了。</zhCN>
-    <ruRU>В детстве его дразнили «Геддон-армагеддон». Он вырос и пошел работать на Рагнароса.</ruRU>
-    <ptBR>O Barão Geddon era o primeiro tenente de Ragnaros, até que ele ficou QUEIMADO com o chefe.</ptBR>
-    <plPL>Baron Geddon był pierwszym przybocznym Ragnarosa, ale stosunki między nimi się ZAOGNIŁY.</plPL>
-    <koKR>한때 라그나로스의 충직한 부관이었지만, 지금은 실직자입니다.</koKR>
-    <itIT>Il Barone Geddon era il primo luogotenente di Ragnaros, finché un giorno non l'ha svegliato TROPPO PRESTO.</itIT>
-    <frFR>Le baron Geddon était le premier lieutenant de Ragnaros, mais il s’enflammait trop vite, et il a été viré.</frFR>
-    <esMX>Y después se pregunta por qué nadie lo quiere...</esMX>
-    <esES>El barón Geddon era el teniente de Ragnaros, pero el puesto le daba ardores.</esES>
-    <deDE>Baron Geddon war Ragnaros' oberster Leutnant, bevor er GEFEUERT wurde.</deDE>
+    <enUS>His mother said that he was just big boned.</enUS>
+    <zhTW>他媽媽跟他說，他只是骨架大而已。</zhTW>
+    <zhCN>他的妈妈说，他只是骨架比较大而已。</zhCN>
+    <ruRU>Его мама считает, что у него просто широкая кость.</ruRU>
+    <ptBR>A mãe dele dizia que ele só tinha ossos grandes.</ptBR>
+    <plPL>Nie jest otyły, ma po prostu grube kości.</plPL>
+    <koKR>이 친구의 어머니 말로는 좀 통뼈라 커보이는 거랍니다.</koKR>
+    <itIT>Sua madre dice che ha solo le ossa grosse.</itIT>
+    <frFR>Il n’est pas gros, il a une ossature lourde !</frFR>
+    <esMX>Su madre siempre decía que no era gordo, sino que tenía huesos grandes.</esMX>
+    <esES>No está gordo, es que es bajo para su peso.</esES>
+    <deDE>Seine Mutter meinte immer nur, dass er schwere Knochen hätte.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="a63ac6ab-34d7-458f-9dcc-04af6b2bcf4f" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
+  <Power definition="1d951bba-8ba1-40c1-8b6d-c8c073e8420b" />
 </Entity>

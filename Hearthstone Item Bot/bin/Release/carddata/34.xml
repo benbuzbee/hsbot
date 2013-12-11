@@ -25,7 +25,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Deal $2 damage to all enemies.  Restore #2 Health to all  friendly characters.</enUS>
     <frFR>Inflige $2 |4(point,points) de dégâts à tous les adversaires. Rend #2 |4(point,points) de vie à tous les personnages alliés.</frFR>
-    <zhTW>對全部敵人造成$2點傷害。使全部友方角色恢復#2點生命值。</zhTW>
+    <zhTW>造成全部敵人$2點傷害。恢復全部友方角色#2點生命值</zhTW>
     <zhCN>对所有敌方角色造成$2点伤害，为所有友方角色恢复#2点生命值。</zhCN>
     <ruRU>Наносит $2 ед. урона всем противникам. Восстанавливает #2 ед. здоровья всем вашим персонажам.</ruRU>
     <ptBR>Cause $2 de dano a todos os inimigos. Restaure #2 de Vida de todos os personagens aliados.</ptBR>
@@ -60,7 +60,7 @@
     <enUS>Unlocked at Level 6.</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 44.</enUS>
+    <enUS>Unlocked at Level 45.</enUS>
   </Tag>
   <Power definition="add8d26e-2838-4f10-97f4-d2a9312b79b5" />
 </Entity>

@@ -1,74 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_084">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_558">
+  <MasterPower>5d39914d-7f77-4fef-8c69-fa08db5ab6ae</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Warsong Commander</enUS>
-    <frFR>Officier chanteguerre</frFR>
-    <zhTW>戰歌指揮官</zhTW>
-    <zhCN>战歌指挥官</zhCN>
-    <ruRU>Командир Песни Войны</ruRU>
-    <ptBR>Comandante do Brado Guerreiro</ptBR>
-    <plPL>Dowódca Wojennej Pieśni</plPL>
-    <koKR>전쟁노래 사령관</koKR>
-    <itIT>Capitano dei Cantaguerra</itIT>
-    <esMX>Comandante Grito de guerra</esMX>
-    <esES>Comandante Grito de Guerra</esES>
-    <deDE>Kriegshymnenanführerin</deDE>
+    <enUS>Harrison Jones</enUS>
+    <frFR>Harrison Jones</frFR>
+    <zhTW>哈里遜·瓊斯</zhTW>
+    <zhCN>哈里森·琼斯</zhCN>
+    <ruRU>Харрисон Джонс</ruRU>
+    <ptBR>Harrison Jones</ptBR>
+    <plPL>Harrison Jones</plPL>
+    <koKR>해리슨 존스</koKR>
+    <itIT>Harrison Jones</itIT>
+    <esMX>Harrison Jones</esMX>
+    <esES>Harrison Jones</esES>
+    <deDE>Harrison Jones</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other minions have &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <frFR>Vos autres serviteurs ont &lt;b&gt;Charge&lt;/b&gt;.</frFR>
-    <zhTW>你的其他手下擁有&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
-    <zhCN>你的其他随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Другие ваши существа получают способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Seus demais lacaios ganham &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
-    <plPL>Twoi pozostali stronnicy otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>나의 다른 하수인들이 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
-    <itIT>Gli altri tuoi servitori hanno &lt;b&gt;Carica&lt;/b&gt;.</itIT>
-    <esMX>Tus otros esbirros tienen &lt;b&gt;Carga&lt;/b&gt;.</esMX>
-    <esES>Tus demás esbirros tienen &lt;b&gt;Cargar&lt;/b&gt;.</esES>
-    <deDE>Eure anderen Diener haben &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon and draw cards equal to its Durability.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit l’arme de votre adversaire. Vous piochez le nombre de cartes équivalent à sa durabilité.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀對手的武器並抽相當於其耐久度的牌</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁对手的武器，并抽数量等同于其耐久度的牌。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает оружие противника. Вы берете карты в количестве, равном его прочности.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua a arma de seu oponente e compre o mesmo número de cards que a durabilidade da arma.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz broń przeciwnika i dobierz tyle kart, ile wynosiła jej wytrzymałość.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편의 무기를 파괴하고 그 무기의 내구도만큼 카드를 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge l'arma dell'avversario e pesca un numero di carte pari alla sua Integrità.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye el arma de tu adversario y roba cartas equivalentes a su Durabilidad.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye el arma de tu oponente y roba una cantidad de cartas equivalente a su durabilidad.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zerstört die Waffe Eures Gegners. Zieht ihrer Haltbarkeit entsprechend Karten.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Wei Wang</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 32.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+    <enUS>Matt Dixon</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Warsong clan is &lt;i&gt;such drama&lt;/i&gt;. It's really not worth it to become a commander.</enUS>
-    <zhTW>戰歌這個部族非常&lt;i&gt;戲劇化&lt;/i&gt;。當上他們的指揮官未必是一件好事。</zhTW>
-    <zhCN>战歌氏族中闹剧不断，什么三教九流的人都能当上他们的指挥官。</zhCN>
-    <ruRU>В клане Песни Войны очень любят устраивать драмы. И пост командира себя не окупает...</ruRU>
-    <ptBR>O Clã Brado Guerreiro tem &lt;i&gt;tanto drama&lt;/i&gt;. Nem vale a pena virar comandante.</ptBR>
-    <plPL>Są dumni z nazwy swojego klanu - choć zdaniem elfów bierze tą pieśnią jest „Nic się nie stało, orki, nic się nie stało...”</plPL>
-    <koKR>그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?</koKR>
-    <itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un capitano dei Cantaguerra.</itIT>
-    <frFR>Le clan Chanteguerre se la &lt;i&gt;joue&lt;/i&gt; trop. Ça ne vaut pas vraiment le coup de devenir officier.</frFR>
-    <esMX>El clan Grito de guerra es &lt;i&gt;drama, drama, drama&lt;/i&gt;. La verdad, no vale la pena llegar a comandante.</esMX>
-    <esES>El clan Grito de Guerra es muy estresante. Siempre están corriendo en busca de banderas.</esES>
-    <deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
+    <enUS>“That belongs in the Hall of Explorers!”</enUS>
+    <zhTW>「那件文物應該被放到探險者大廳!」</zhTW>
+    <zhCN>“这东西应该陈列在探险者大厅里！”</zhCN>
+    <ruRU>«Этому место в Зале Исследователей!»</ruRU>
+    <ptBR>"Isso pertence ao Salão dos Exploradores!"</ptBR>
+    <plPL>„Jestem poszukiwaczem zaginionej parki!”</plPL>
+    <koKR>"저건 탐험가의 전당에 있어야만 해!"</koKR>
+    <itIT>“Deve stare in un museo!”</itIT>
+    <frFR>« Sa place est dans le hall des Explorateurs ! »</frFR>
+    <esMX>“Debería estar en la Sala de los Expedicionarios”.</esMX>
+    <esES>"¡Debería estar en la Sala de los Expedicionarios!".</esES>
+    <deDE>„Das gehört in die Halle der Forscher!“</deDE>
   </Tag>
-  <Tag name="GrantCharge" enumID="355" type="Bool" value="1" />
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="b241283b-6883-4897-b7a3-9a4a33b848f5" />
-  <Power definition="33a1e034-5156-4d78-9a4c-c61f9c70c8fe" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="5d39914d-7f77-4fef-8c69-fa08db5ab6ae" />
 </Entity>

@@ -1,61 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_020">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="GAME_005">
+  <MasterPower>355b524d-2e9b-4a97-81c3-7ae0ac4cdf0f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Scarlet Crusader</enUS>
-    <frFR>Croisée écarlate</frFR>
-    <zhTW>血色十字軍</zhTW>
-    <zhCN>血色十字军战士</zhCN>
-    <ruRU>Алый крестоносец</ruRU>
-    <ptBR>Cruzada Escarlate</ptBR>
-    <plPL>Szkarłatny krzyżowiec</plPL>
-    <koKR>붉은십자군 성전사</koKR>
-    <itIT>Crociata Scarlatta</itIT>
-    <esMX>Cruzada escarlata</esMX>
-    <esES>Cruzada Escarlata</esES>
-    <deDE>Scharlachrote Fanatikerin</deDE>
+    <enUS>The Coin</enUS>
+    <zhTW>幸運幣</zhTW>
+    <zhCN>幸运币</zhCN>
+    <ruRU>Монетка</ruRU>
+    <ptBR>A Moeda</ptBR>
+    <plPL>Moneta</plPL>
+    <koKR>동전 한 닢</koKR>
+    <itIT>Moneta</itIT>
+    <frFR>La pièce</frFR>
+    <esMX>La moneda</esMX>
+    <esES>La moneda</esES>
+    <deDE>Die Münze</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;圣盾&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Божественный щит&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Escudo divino&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Gottesschild&lt;/b&gt;</deDE>
+    <enUS>Gain 1 Mana Crystal this turn only.</enUS>
+    <zhTW>在本回合內獲得額外一顆法力水晶</zhTW>
+    <zhCN>在本回合中，获得一个法力水晶。</zhCN>
+    <ruRU>Вы получаете 1 дополнительный кристалл маны до конца хода.</ruRU>
+    <ptBR>Receba 1 Cristal de Mana somente neste turno.</ptBR>
+    <plPL>Otrzymujesz 1 kryształ many w tej turze.</plPL>
+    <koKR>이번 턴에만 마나 수정을 1개 획득합니다.</koKR>
+    <itIT>Ottieni 1 Cristallo di Mana solo per questo turno.</itIT>
+    <frFR>Confère 1 cristal de mana pendant ce tour uniquement.</frFR>
+    <esMX>Obtienes 1 Cristal de maná solo en este turno.</esMX>
+    <esES>Obtienes 1 cristal de maná solo para este turno.</esES>
+    <deDE>Erhaltet 1 Manakristall nur für diesen Zug.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gonzalo Ordonez</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Never wash your whites with a Scarlet Crusader.</enUS>
-    <zhTW>洗白衣服的時候，千萬不要跟血色十字軍的人一起洗。</zhTW>
-    <zhCN>他们的狂热使衣衫上的猩红色更加刺眼。</zhCN>
-    <ruRU>Привезите ей цветочек аленький. Она будет счастлива.</ruRU>
-    <ptBR>Nunca lave suas roupas brancas com um Cruzado Escarlate.</ptBR>
-    <plPL>Kiedyś śniło się jej, że poślubiła karmazynowego króla.</plPL>
-    <koKR>세탁할 때 흰 옷이 물들지 않게 조심해야겠군요.</koKR>
-    <itIT>Non lavare mai i tuoi capi chiari insieme a quelli di una Crociata Scarlatta.</itIT>
-    <frFR>La croisée écarlate prend soin du linge que vous aimez.</frFR>
-    <esMX>Consejo de amigo: no pongas a lavar tu ropa blanca con el traje de esta Cruzada.</esMX>
-    <esES>¡El infiel será purificado!</esES>
-    <deDE>Niemals gemeinsam mit weißer Wäsche waschen!</deDE>
-  </Tag>
-  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="38bc664c-98c8-41e2-8569-8811effc8b06" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="355b524d-2e9b-4a97-81c3-7ae0ac4cdf0f" />
 </Entity>

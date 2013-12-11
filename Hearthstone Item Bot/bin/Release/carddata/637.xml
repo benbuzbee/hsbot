@@ -1,46 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_200">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_091">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Boulderfist Ogre</enUS>
-    <frFR>Ogre rochepoing</frFR>
-    <zhTW>石拳巨魔</zhTW>
-    <zhCN>石拳食人魔</zhCN>
-    <ruRU>Огр Тяжелого Кулака</ruRU>
-    <ptBR>Ogro Punho de Pedra</ptBR>
-    <plPL>Ogr z Głazograbych</plPL>
-    <koKR>돌주먹 오우거</koKR>
-    <itIT>Ogre Rocciadura</itIT>
-    <esMX>Ogro Puño de roca</esMX>
-    <esES>Ogro Puño de Roca</esES>
-    <deDE>Oger der Felsfäuste</deDE>
+    <enUS>Light's Justice</enUS>
+    <frFR>Justice de la Lumière</frFR>
+    <zhTW>聖光正義之錘</zhTW>
+    <zhCN>圣光的正义</zhCN>
+    <ruRU>Правосудие Света</ruRU>
+    <ptBR>Justiça da Luz</ptBR>
+    <plPL>Prawo Światłości</plPL>
+    <koKR>빛의 정의</koKR>
+    <itIT>Giustizia della Luce</itIT>
+    <esMX>Justicia de la luz</esMX>
+    <esES>Justicia de la Luz</esES>
+    <deDE>Gerechtigkeit des Lichts</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Durability" enumID="187" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brian Despain</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warlock Level 50.</enUS>
+    <enUS>Glenn Rane</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"ME HAVE GOOD STATS FOR THE COST"</enUS>
-    <zhTW>「以費用來說偶的屬性算很好的!」</zhTW>
-    <zhCN>“我非常厉害，绝对值这个价格！”</zhCN>
-    <ruRU>«Моя стоить много, зато и бить сильно!»</ruRU>
-    <ptBR>"EU TEM ATRIBUTOS BONS PELO CUSTO."</ptBR>
-    <plPL>„JA MIEĆ DOBRE STATY ZA NISKOM CENE!”</plPL>
-    <koKR>"나, 비용에 비해 능력치 좋다!"</koKR>
-    <itIT>"IO HA OTTIME CAPACITÀ PER COSTO!"</itIT>
-    <frFR>MOI TROP BIEN POUR CE COÛT !</frFR>
-    <esMX>"YO TENER BUENAS ESTADÍSTICAS POR EL COSTO".</esMX>
-    <esES>¿Sabes cuántos ogros Puño de Roca hacen falta para secuestrar a un gnomo? 15. Uno que agarre al gnomo y 14 que escriban la nota de rescate.</esES>
-    <deDE>Rechtfertigt seine Kosten durch felsenfeste Argumente.</deDE>
+    <enUS>Prince Malchezaar was a collector of rare weapons. He'd animate them and have them dance for him.</enUS>
+    <zhTW>莫克札王子是稀有武器的收藏家。他會把它們活化，讓它們為他跳舞。</zhTW>
+    <zhCN>玛克扎尔王子收集了不少稀有的武器，他赋予它们生命，并让它们为他起舞。</zhCN>
+    <ruRU>Принц Малчезар был собирателем редкого оружия, которое он затем оживлял и заставлял плясать себе на потеху. </ruRU>
+    <ptBR>O Príncipe Malquezaar foi um colecionador de armas raras. Ele as animava para que dançassem para ele.</ptBR>
+    <plPL>W wersji dla mańkutów oręż ten nosi nazwę „Lewo Światłości”.</plPL>
+    <koKR>공작 말체자르는 희귀한 무기를 모으는 수집가였습니다. 무기를 살아 움직이게 하고는 자신 앞에서 춤추게 했죠.</koKR>
+    <itIT>Il Principe Malchezaar era un grande collezionista di armi rare. Si divertiva ad animarle e a farle ballare per lui.</itIT>
+    <frFR>Le prince Malchezaar était un grand collectionneur d’armes rares. Il les animait et les faisait danser pour son plaisir.</frFR>
+    <esMX>El Príncipe Malchezaar era un coleccionista de armas exóticas. Solía darles vida y hacer que dancen para él.</esMX>
+    <esES>El príncipe Malchezaar coleccionaba armas poco comunes. Las animaba y hacía que bailasen para él.</esES>
+    <deDE>Prinz Malchezaar war ein Sammler seltener Waffen. Er hauchte ihnen Leben ein und ließ sie für sich tanzen.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 36.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
   </Tag>
 </Entity>

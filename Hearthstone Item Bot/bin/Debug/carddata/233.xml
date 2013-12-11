@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_017">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_284">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Jungle Panther</enUS>
-    <zhTW>叢林豹</zhTW>
-    <zhCN>丛林猎豹</zhCN>
-    <ruRU>Тропическая пантера</ruRU>
-    <ptBR>Pantera da Selva</ptBR>
-    <plPL>Przyczajona pantera</plPL>
-    <koKR>밀림 표범</koKR>
-    <itIT>Pantera della Giungla</itIT>
-    <frFR>Panthère de la jungle</frFR>
-    <esMX>Pantera de la selva</esMX>
-    <esES>Pantera de la selva</esES>
-    <deDE>Dschungelpanther</deDE>
+    <enUS>Azure Drake</enUS>
+    <frFR>Drake azur</frFR>
+    <zhTW>蒼藍龍</zhTW>
+    <zhCN>碧蓝幼龙</zhCN>
+    <ruRU>Лазурный дракон</ruRU>
+    <ptBR>Draco Lazúli</ptBR>
+    <plPL>Lazurowy smokowiec</plPL>
+    <koKR>하늘빛 비룡</koKR>
+    <itIT>Draco di Zaffiro</itIT>
+    <esMX>Draco azur</esMX>
+    <esES>Draco azur</esES>
+    <deDE>Azurblauer Drache</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;. &lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
+    <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;. &lt;b&gt;Cri de guerre :&lt;/b&gt; vous piochez une carte.</frFR>
+    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;。&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌</zhTW>
+    <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;，&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
+    <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;. &lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
+    <ptBR>&lt;b&gt;+1 de Dano de Feitiço&lt;/b&gt;. &lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
+    <plPL>&lt;b&gt;Siła zaklęć +1&lt;/b&gt;. &lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
+    <koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;. &lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;. &lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
+    <esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; roba una carta.</esMX>
+    <esES>&lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt;. &lt;b&gt;Grito de batalla:&lt;/b&gt; Roba una carta.</esES>
+    <deDE>&lt;b&gt;Zauberschaden +1&lt;/b&gt;. &lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht eine Karte.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jaemin Kim</enUS>
+    <enUS>Ben Zhang</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Stranglethorn is a beautiful place to visit, but you wouldn't want to live there.</enUS>
-    <zhTW>荊棘谷是個觀光的好去處，但你不會想要住在那裡。</zhTW>
-    <zhCN>荆棘谷是一个很适合观光的地方，但你绝对不会想住在那儿。</zhCN>
-    <ruRU>Тернистая долина – чудесное место для отдыха, но вряд ли вам захочется там жить.</ruRU>
-    <ptBR>A Selva do Espinhaço é um lugar lindo para se visitar, mas você não gostaria de morar lá.</ptBR>
-    <plPL>Weszła kiedyś w spółkę z ukrytym smokiem.</plPL>
-    <koKR>가시덤불 골짜기는 아름답습니다. 등 뒤에 항상 누군가 있다는 걸 빼면요.</koKR>
-    <itIT>Rovotorto è un posto bellissimo da visitare, ma viverci è tutta un'altra cosa.</itIT>
-    <frFR>Strangleronce est un endroit magnifique où partir en vacances, mais vous ne voudriez pas y vivre.</frFR>
-    <esMX>Tuercespina es un hermoso lugar para visitar, pero no creo que te guste mucho vivir ahí.</esMX>
-    <esES>Tuercespina es un lugar precioso, pero la esperanza de vida es alarmante.</esES>
-    <deDE>Das Schlingendorntal ist der sprichwörtliche Dschungel. Überleben ist Glückssache.</deDE>
+    <enUS>They initially planned to be the Beryl or Cerulean drakes, but those felt a tad too pretentious.</enUS>
+    <zhTW>牠們本來是想要叫碧晶龍或天藍龍，後來覺得那樣聽起來不夠神秘。蒼藍好像也沒好多少就是了。</zhTW>
+    <zhCN>它们本来应该是宝蓝色或是蔚蓝色，但这几个颜色显得有点太耀眼了。</zhCN>
+    <ruRU>Не называйте их голубыми драконами, они обижаются.</ruRU>
+    <ptBR>Eles na verdade planejavam ser Dracos de Berílio ou Cerúleo, mas pareceu pretensioso demais.</ptBR>
+    <plPL>W przyszłości ma plany osiąść na jakimś wybrzeżu. Też najlepiej lazurowym.</plPL>
+    <koKR>처음엔 녹황색 비룡이나 군청색 비룡을 생각했습니다만, 너무 촌스러운 느낌이라 바꿨습니다.</koKR>
+    <itIT>Inizialmente dovevano essere Drachi di Berillo o di Cobalto, ma questi nomi erano troppo pretenziosi.</itIT>
+    <frFR>Au départ, il voulait s’appeler drake béryl ou céruléen, mais ça faisait un peu trop prétentieux.</frFR>
+    <esMX>Al principio querían ser Dragones rubí o berilo, pero les pareció demasiado pretencioso.</esMX>
+    <esES>Mucha gente los llama dracos "azules", pero no tiene el mismo prestigio.</esES>
+    <deDE>Ursprünglich wollten sie sich die Beryll- oder Saphirdrachen nennen, aber das war ihnen dann doch ein wenig zu hochgestochen.</deDE>
   </Tag>
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Power definition="6be4628e-c598-4cd9-970d-44cb7b052a1a" />
+  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="4d8005a1-3d46-45b2-af67-b1f47cd61dd4" />
+  <Power definition="5cc417a4-2a75-433a-966e-c081ed160ac4" />
 </Entity>

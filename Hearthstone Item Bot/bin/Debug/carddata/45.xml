@@ -25,12 +25,12 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Transform a minion into a 1/1 Sheep.</enUS>
     <frFR>Transforme un serviteur en mouton 1/1.</frFR>
-    <zhTW>將一個手下變形為一隻1/1的羊。</zhTW>
+    <zhTW>將一個手下變形為一隻1/1的羊</zhTW>
     <zhCN>使一个随从变形成为1/1的绵羊。</zhCN>
     <ruRU>Превращает выбранное существо в овцу 1/1.</ruRU>
     <ptBR>Transforme um lacaio em uma Ovelha 1/1.</ptBR>
     <plPL>Przemień stronnika w owcę 1/1.</plPL>
-    <koKR>하수인을 1/1 양으로 변신시킵니다.</koKR>
+    <koKR>하수인 하나를 1/1 양으로 변신시킵니다.</koKR>
     <itIT>Trasforma un servitore in una Pecora 1/1.</itIT>
     <esMX>Transforma a un esbirro en una Oveja 1/1.</esMX>
     <esES>Transforma a un esbirro en una oveja 1/1.</esES>
@@ -43,7 +43,7 @@
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>There was going to be a pun in this flavor text, but it just came out baa-d.</enUS>
     <zhTW>本來這一段是要講雙關話，不過說出口的時候變成了咩...</zhTW>
-    <zhCN>你能想象一个嗜血的兽人发出咩咩的叫声么？</zhCN>
+    <zhCN>你能想象一个嗜血的兽人发出咩咩的叫声吗？</zhCN>
     <ruRU>Здесь могла бы быть ваша шутка.</ruRU>
     <ptBR>Era pra ter uma piadinha aqui, mas era uma mééé...</ptBR>
     <plPL>Mieliśmy tu napisać jakiś fajny tekst, ale wyszedł beeeeeee-znadziejnie.</plPL>
@@ -58,7 +58,7 @@
     <enUS>Vance Kovacs</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
+    <enUS>Unlocked at Level 47.</enUS>
   </Tag>
   <Tag name="HowToGetThisCard" enumID="364" type="String">
     <enUS>Unlocked at Level 1.</enUS>

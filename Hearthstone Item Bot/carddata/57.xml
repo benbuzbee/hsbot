@@ -1,71 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_076">
-  <MasterPower>2223ff8e-c651-42c7-914e-d722a0130103</MasterPower>
+<Entity version="2" CardID="CS2_024">
+  <MasterPower>ea3beb34-7358-422b-8194-5f1999561bab</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Assassinate</enUS>
-    <frFR>Assassiner</frFR>
-    <zhTW>暗殺</zhTW>
-    <zhCN>刺杀</zhCN>
-    <ruRU>Ликвидация</ruRU>
-    <ptBR>Assassinar</ptBR>
-    <plPL>Skrytobójstwo</plPL>
-    <koKR>암살</koKR>
-    <itIT>Assassinio</itIT>
-    <esMX>Asesinato</esMX>
-    <esES>Asesinato</esES>
-    <deDE>Attentat</deDE>
+    <enUS>Frostbolt</enUS>
+    <frFR>Éclair de givre</frFR>
+    <zhTW>寒冰箭</zhTW>
+    <zhCN>寒冰箭</zhCN>
+    <ruRU>Ледяная стрела</ruRU>
+    <ptBR>Seta de Gelo</ptBR>
+    <plPL>Pocisk lodu</plPL>
+    <koKR>얼음 화살</koKR>
+    <itIT>Dardo di Gelo</itIT>
+    <esMX>Descarga de escarcha</esMX>
+    <esES>Descarga de Escarcha</esES>
+    <deDE>Frostblitz</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy an enemy minion.</enUS>
-    <frFR>Détruit un serviteur adverse.</frFR>
-    <zhTW>摧毀一個敵方手下。</zhTW>
-    <zhCN>消灭一个敌方随从。</zhCN>
-    <ruRU>Уничтожает выбранное существо противника.</ruRU>
-    <ptBR>Destrua um lacaio inimigo.</ptBR>
-    <plPL>Zniszcz wrogiego stronnika.</plPL>
-    <koKR>적 하수인을 처치합니다.</koKR>
-    <itIT>Distrugge un servitore nemico.</itIT>
-    <esMX>Destruye un esbirro enemigo.</esMX>
-    <esES>Destruye a un esbirro enemigo.</esES>
-    <deDE>Vernichtet einen feindlichen Diener.</deDE>
+    <enUS>Deal $3 damage to a character and &lt;b&gt;Freeze&lt;/b&gt; it.</enUS>
+    <frFR>Inflige $3 |4(point,points) de dégâts à un personnage et le &lt;b&gt;gèle&lt;/b&gt;.</frFR>
+    <zhTW>對一個角色造成$3點傷害並使其&lt;b&gt;凍結&lt;/b&gt;</zhTW>
+    <zhCN>对一个角色造成$3点伤害，并使其&lt;b&gt;冻结&lt;/b&gt;。</zhCN>
+    <ruRU>Наносит $3 ед. урона выбранному персонажу и &lt;b&gt;замораживает&lt;/b&gt; его.</ruRU>
+    <ptBR>Cause $3 de dano a um personagem e &lt;b&gt;Congele&lt;/b&gt;-o.</ptBR>
+    <plPL>Zadaj $3 pkt. obrażeń dowolnej postaci i ją &lt;b&gt;Zamroź&lt;/b&gt;.</plPL>
+    <koKR>캐릭터 하나에게 피해를 $3 주고 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
+    <itIT>Infligge $3 danni a un personaggio e causa &lt;b&gt;Congelamento&lt;/b&gt;.</itIT>
+    <esMX>Inflige $3 de daño a un personaje y lo &lt;b&gt;Congela&lt;/b&gt;.</esMX>
+    <esES>Inflige $3 p. de daño a un personaje y lo &lt;b&gt;congela&lt;/b&gt;.</esES>
+    <deDE>Fügt einem Charakter $3 Schaden zu und &lt;b&gt;friert&lt;/b&gt; ihn ein.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you don't want to be assassinated, move to the Barrens and change your name. Good luck!</enUS>
-    <zhTW>如果你不想被暗殺，搬去貧瘠之地然後改名換姓。祝你好運!</zhTW>
-    <zhCN>要是你不想被人暗杀，躲到贫瘠之地，然后隐姓埋名。祝你好运！</zhCN>
-    <ruRU>Если не хотите, чтобы вас ликвидировали, бегите в Степи и смените имя. Удачи!</ruRU>
-    <ptBR>Se você não quer ser assassinado, mude-se para os Sertões e troque seu nome. Boa sorte!</ptBR>
-    <plPL>Jeśli nie chcesz paść ofiarą skrytobójców, przenieś się na Pustkowia i zmień imię. Powodzenia!</plPL>
-    <koKR>암살당하기 싫다고요? 이름을 바꾸고 불모의 땅으로 가세요. 행운을 빕니다!</koKR>
-    <itIT>Se non vuoi farti assassinare è meglio se ti trasferisci nelle Savane e cambi nome. Buona fortuna!</itIT>
-    <frFR>Si vous ne voulez pas être assassiné, fuyez dans les Tarides et changez de nom. Bonne chance !</frFR>
-    <esMX>Si no quieres que te asesinen, huye hacia los Baldíos y cámbiate el nombre. ¡Buena suerte!</esMX>
-    <esES>Si no quieres que te asesinen, múdate a Los Baldíos y cambia de nombre. ¡Buena suerte!</esES>
-    <deDE>Über Risiken und Nebenwirkungen braucht Ihr Euch keine Gedanken zu machen. </deDE>
+    <enUS>It is customary to yell "Chill out!" or "Freeze!" or "Ice ice, baby!" when you play this card.</enUS>
+    <zhTW>大喊「冷爆了!」、「好冷喔!」或「冰一下，寶貝!」是打出這張牌的傳統。</zhTW>
+    <zhCN>在你用这张牌的时候，你可以随意喊出一些咒语，比如“冻住！”“冻结！”或者“结冰，结冰吧，宝贝儿！”</zhCN>
+    <ruRU>Разыгрывая эту карту, не стесняйтесь кричать: «Остудись!» «Застынь!» или даже «Мороз и солнце, день чудесный!»</ruRU>
+    <ptBR>É de praxe gritar "Fica frio!" ou "Estátua!" ou até "Não esquenta!" quando se joga este card.</ptBR>
+    <plPL>Przy zagraniu tej karty zwykło się wołać „Mrożonka!” albo „Bałwan!”, ewentualnie „Zostawiam cię na lodzie”.</plPL>
+    <koKR>이 카드를 낼 때는 "열 좀 식히세요!", "얼음!", 또는 "손이 시려워, 꽁!"라고 외치는 게 관례입니다.</koKR>
+    <itIT>Quando si gioca questa carta si è soliti urlare "Stai fresco!" o "Ma che freddo fa!".</itIT>
+    <frFR>D’habitude, quand on joue cette carte, on crie « Un gros cube, un petit cube, c’est l’heure du frigi-cube ! ».</frFR>
+    <esMX>Cuando juegas esta carta, es costumbre gritar: "¡Qué frío, madrecita mía!".</esMX>
+    <esES>Una auténtica canción de hielo y escarcha.</esES>
+    <deDE>Es ist üblich, „Bleib cool!“, „Eiskalt erwischt!“ oder „Ice Ice Baby!“ zu rufen, wenn Ihr diese Karte ausspielt.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Steve Ellis</enUS>
   </Tag>
   <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+    <enUS>Unlocked at Level 2.</enUS>
   </Tag>
-  <Power definition="2223ff8e-c651-42c7-914e-d722a0130103">
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 40.</enUS>
+  </Tag>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="ea3beb34-7358-422b-8194-5f1999561bab">
     <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="3" param="" />
   </Power>
 </Entity>

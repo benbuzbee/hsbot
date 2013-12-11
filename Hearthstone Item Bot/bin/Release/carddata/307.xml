@@ -1,69 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_226">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_612">
+  <MasterPower>87fac18f-63f8-4d0f-b005-adf249191811</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Frostwolf Warlord</enUS>
-    <frFR>Chef de guerre loup-de-givre</frFR>
-    <zhTW>霜狼督軍</zhTW>
-    <zhCN>霜狼督军</zhCN>
-    <ruRU>Вождь Северного Волка</ruRU>
-    <ptBR>Senhor da Guerra Lobo do Gelo</ptBR>
-    <plPL>Wódz Mroźnych Wilków</plPL>
-    <koKR>서리늑대 전쟁군주</koKR>
-    <itIT>Signore dei Lupi Bianchi</itIT>
-    <esMX>Señor de la guerra Lobo gélido</esMX>
-    <esES>Señor Lobo Gélido</esES>
-    <deDE>Frostwolfkriegsfürst</deDE>
+    <enUS>Kirin Tor Mage</enUS>
+    <frFR>Mage du Kirin Tor</frFR>
+    <zhTW>祈倫托法師</zhTW>
+    <zhCN>肯瑞托法师</zhCN>
+    <ruRU>Маг Кирин-Тора</ruRU>
+    <ptBR>Maga do Kirin Tor</ptBR>
+    <plPL>Magini Kirin Toru</plPL>
+    <koKR>키린 토 마법사</koKR>
+    <itIT>Maga del Kirin Tor</itIT>
+    <esMX>Maga del Kirin Tor</esMX>
+    <esES>Maga del Kirin Tor</esES>
+    <deDE>Magierin der Kirin Tor</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1/+1 for each other friendly minion on the battlefield.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; Gagne +1/+1 pour chaque autre serviteur allié sur le champ de bataille.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;戰場上每一個友方手下都使其+1/+1。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;战场上每有1个其他友方随从，便获得+1/+1。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; получает +1/+1 за каждое другое ваше существо на поле боя.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Receba +1/+1 para cada outro lacaio aliado no campo de batalha.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje +1/+1 za każdego innego przyjaznego stronnika na polu bitwy.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 전장의 다른 아군 하수인 1마리당 +1/+1을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; ottiene +1/+1 per ogni altro tuo servitore sul campo di battaglia.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene +1/+1 por cada uno de los demás esbirros aliados en el campo de batalla.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene +1/+1 por cada esbirro amistoso adicional en el campo de batalla.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält +1/+1 für jeden anderen befreundeten Diener auf dem Schlachtfeld.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Warlord</enUS>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; The next &lt;b&gt;Secret&lt;/b&gt; you play this turn costs (0).</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; le prochain &lt;b&gt;Secret&lt;/b&gt; que vous jouez ce tour-ci coûte (0).</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你本回合內使用的下一個&lt;b&gt;秘密&lt;/b&gt;消耗為(0)點</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;在本回合中，你使用的下一个&lt;b&gt;奥秘&lt;/b&gt;的法力值消耗为（0）点。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; следующий &lt;b&gt;Секрет&lt;/b&gt;, который вы разыграете на этом ходу, будет стоить (0) маны.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; O próximo &lt;b&gt;Segredo&lt;/b&gt; que você lançar neste turno custará (0).</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Następny &lt;b&gt;Sekret&lt;/b&gt;, który zagrasz w tej turze, kosztuje (0).</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 내는 나의 다음 &lt;b&gt;비밀&lt;/b&gt; 비용이 (0)이 됩니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il prossimo &lt;b&gt;Segreto&lt;/b&gt; che giochi in questo turno costa (0) Mana.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; el próximo &lt;b&gt;Secreto&lt;/b&gt; que juegues en este turno cuesta (0).</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; El siguiente &lt;b&gt;Secreto&lt;/b&gt; que juegues este turno costará (0) cristales.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Das nächste &lt;b&gt;Geheimnis&lt;/b&gt;, das Ihr in diesem Zug ausspielt, kostet (0).</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Shaman Level 52.</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Frostwolves are locked in combat with the Stormpike Expedition over control of Alterac Valley.  Every attempt at peace-talks has ended with Captain Galvangar killing the mediator.</enUS>
-    <zhTW>霜狼部族與雷矛遠征隊在奧特蘭克山谷陷入了拉鋸戰。每次和平會談的結果都是以加爾凡加上尉殺死調停的使者告終。</zhTW>
-    <zhCN>为了争夺奥克兰特山谷的控制权，霜狼氏族和雷矛探险队打的不可开交。任何前来企图进行和平谈判的斡旋者都会被处死。</zhCN>
-    <ruRU>Клан Северного Волка увяз в бесконечной войне со Стражей Грозовой Вершины за Альтеракскую долину. Все попытки мирных переговоров закончились, как только капитан Гальвангар убил посланника.</ruRU>
-    <ptBR>Os Lobos do Gelo estão lutando contra a Expedição Lançatroz pelo controle do Vale Alterac. Todas as tentativas de um acordo de paz acabaram com o Capitão Galvangar matando o negociador.</ptBR>
-    <plPL>Mroźne Wilki wciąż walczą z ekspedycją Gromdardy o kontrolę nad doliną Alterac. Każda próba negocjacji pokojowych kończyła się na tym, że kapitan Galvangar pożerał mediatora.</plPL>
-    <koKR>서리늑대 부족은 알터랙 계곡에서 스톰파이크 원정대와 수많은 전투를 치렀습니다. 평화 협정을 체결하러 올 때마다 부대장 갈반가르가 사절을 죽였다는군요.</koKR>
-    <itIT>I Lupi Bianchi sono perennemente in guerra con i Piccatonante per il controllo della Valle d'Alterac. Ogni tentativo di riappacificazione è fallito poiché il Capitano Galvangar ha sempre ucciso il mediatore.</itIT>
-    <frFR>Les Loups-de-givre affrontent les Foudrepiques pour le contrôle de la vallée d’Alterac. Le capitaine Galvangar a étouffé dans l’œuf toutes les tentatives de pourparlers de paix en tuant le médiateur.</frFR>
-    <esMX>Los Lobo gélido están trabados en combate con la Expedición Pico tormenta por el control del Valle de Alterac. Todos los intentos de tregua han terminado con la muerte del mediador a manos del Capitán Galvangar.</esMX>
-    <esES>Los Lobo Gélido se disputan el control del Valle de Alterac con la Expedición Pico Tormenta. Hasta la fecha todas las negociaciones han acabado con el capitán Galvangar matando al mediador.</esES>
-    <deDE>Schon lange streiten die Frostwölfe und der Sturmlanzenklan um die Vorherrschaft im Alteractal. Bisher sind sämtliche Friedensverhandlungen daran gescheitert, dass Hauptmann Galvangar die Vermittler getötet hat.</deDE>
+    <enUS>The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.</enUS>
+    <zhTW>祈倫托住在飄浮的城市達拉然裡。如何調製飄浮達拉然?兩球冰淇淋，一球達拉然。</zhTW>
+    <zhCN>肯瑞托的法师们居住在飘浮之城达拉然。怎样让达拉然飘起来？只要用魔法把氢气球变成透明的就行了。</zhCN>
+    <ruRU>Кирин-Тор заседает в парящем городе Даларане. Хотите рецепт парящего Даларана? Два шарика мороженого, один шарик Даларана.</ruRU>
+    <ptBR>A sede do Kirin Tor fica na cidade flutuante de Dalaran. Como é que ela flutua? Será que usam balões? Balões nunca são uma boa ideia.</ptBR>
+    <plPL>Kirin Tor ma siedzibę w latającym mieście Dalaran. Jak Dalaran utrzymuje się w powietrzu? Dwie gałki lodów, a na to jedna gałka Dalaranu.</plPL>
+    <koKR>누구에게도 말할 수 없는 비밀이 있다면 키린 토 마법사를 찾아가세요. 공짜로 들어준답니다. 단, 선착순 1명만이랍니다.</koKR>
+    <itIT>Il Kirin Tor ha sede nella città sospesa di Dalaran. Come si fa a sospendere Dalaran? Con una bella nota sul registro! </itIT>
+    <frFR>Les mages du Kirin Tor résident dans la cité flottante de Dalaran. Une ville qui flotte ? Et pourquoi pas des chevaux ailés !!!</frFR>
+    <esMX>Los Kirin Tor viven en la ciudad flotante de Dalaran. ¿Cómo logran que flote? Baten siete claras a punto nieve y agregan una pizca de Dalaran.</esMX>
+    <esES>El Kirin Tor se encuentra en la ciudad flotante de Dalaran. ¿Cómo flota Dalaran? Apunta al suelo y falla.</esES>
+    <deDE>Die Kirin Tor sind die mächtigsten Magier von ganz Azeroth und leben in der schwebenden Stadt Dalaran. Sie mögen Tore und Torten.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Concept Art House</enUS>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="52e05bfa-7a84-450a-bc68-dbe2abc96913" />
+  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
+  <Power definition="87fac18f-63f8-4d0f-b005-adf249191811" />
 </Entity>

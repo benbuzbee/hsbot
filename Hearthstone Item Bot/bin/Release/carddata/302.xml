@@ -1,38 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_399e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_222o">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Berserking</enUS>
-    <frFR>Berserker</frFR>
-    <zhTW>狂暴</zhTW>
-    <zhCN>狂暴</zhCN>
-    <ruRU>Берсерк</ruRU>
-    <ptBR>Entrar em Berserk</ptBR>
-    <plPL>Bojowy szał</plPL>
-    <koKR>광폭화</koKR>
-    <itIT>Berserker</itIT>
-    <esMX>Rabioso</esMX>
-    <esES>Rabia</esES>
-    <deDE>Amoklauf</deDE>
+    <enUS>Might of Stormwind</enUS>
+    <frFR>Puissance de Hurlevent</frFR>
+    <zhTW>暴風城之力</zhTW>
+    <zhCN>暴风城之力</zhCN>
+    <ruRU>Мощь Штормграда</ruRU>
+    <ptBR>Poder de Ventobravo</ptBR>
+    <plPL>Potęga Wichrogrodu</plPL>
+    <koKR>스톰윈드의 힘</koKR>
+    <itIT>Vigore di Roccavento</itIT>
+    <esMX>Poder de Ventormenta</esMX>
+    <esES>Poderío de Ventormenta</esES>
+    <deDE>Die Macht Sturmwinds</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has increased Attack.</enUS>
-    <frFR>L’Attaque de ce serviteur est augmentée.</frFR>
-    <zhTW>這個手下的攻擊力提高。</zhTW>
-    <zhCN>该随从的攻击力增加。</zhCN>
-    <ruRU>Атака этого существа увеличена.</ruRU>
-    <ptBR>Este lacaio tem o Ataque aumentado.</ptBR>
-    <plPL>Ten stronnik ma zwiększony atak.</plPL>
-    <koKR>공격력 증가</koKR>
-    <itIT>Attacco aumentato.</itIT>
-    <esMX>Este esbirro tiene Ataque aumentado.</esMX>
-    <esES>Este esbirro tiene ataque aumentado.</esES>
-    <deDE>Dieser Diener hat erhöhten Angriff.</deDE>
+    <enUS>Has +1/+1.</enUS>
+    <frFR>A +1/+1.</frFR>
+    <zhTW>擁有+1/+1</zhTW>
+    <zhCN>获得+1/+1。</zhCN>
+    <ruRU>+1/+1.</ruRU>
+    <ptBR>Tem +1/+1.</ptBR>
+    <plPL>Ma +1/+1.</plPL>
+    <koKR>+1/+1</koKR>
+    <itIT>+1/+1 dal Campione di Roccavento.</itIT>
+    <esMX>Tiene +1/+1.</esMX>
+    <esES>Tiene +1/+1.</esES>
+    <deDE>Hat +1/+1.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="09327317-7d39-43d5-ad07-97c160d518e7" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="7725eeb1-e64e-4268-be4e-4769c51d7c28" />
 </Entity>

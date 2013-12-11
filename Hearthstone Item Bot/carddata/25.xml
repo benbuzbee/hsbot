@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_396">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Mogu'shan Warden</enUS>
     <frFR>Gardien mogu’shan</frFR>
@@ -47,10 +45,10 @@
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>All these guys ever do is talk about the Thunder King.   BOOOORRRINNG!</enUS>
     <zhTW>這些傢伙成天只會說雷王這樣雷王那樣。無聊死了!</zhTW>
-    <zhCN>这些家伙每天就在谈论雷神。真无聊！</zhCN>
-    <ruRU>Эти парни только и делают, что болтают о Властелине Грома. Скукотища!</ruRU>
+    <zhCN>这些家伙们每天做的就是谈论雷神。真无聊！</zhCN>
+    <ruRU>«Могу охранять! Могу – не охранять...»\n\nМедведыч</ruRU>
     <ptBR>Esses caras só sabem falar sobre o Rei Trovão. CHAAAATOOOO!</ptBR>
-    <plPL>Jedyne co robią przez całe dnie, to rozmowy o Królu Gromów. NUUUUDY!</plPL>
+    <plPL>Jedyne co robią przez całe dnie, to gadają o Królu Gromów. NUUUUDY!</plPL>
     <koKR>천둥왕 밖에 모르는 바보!</koKR>
     <itIT>Sempre a parlare del Re del Tuono... CHE NOIAAAAAAA!</itIT>
     <frFR>Le roi-tonnerre par-ci, le roi-tonnerre par là... Il n’a que ce nom à la bouche !</frFR>

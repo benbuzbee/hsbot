@@ -1,66 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_125">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_383">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ironfur Grizzly</enUS>
-    <frFR>Grizzly Ferpoil</frFR>
-    <zhTW>鐵鬃灰熊</zhTW>
-    <zhCN>铁鬃灰熊</zhCN>
-    <ruRU>Гриззли-сталемех</ruRU>
-    <ptBR>Veloférreo Cinzento</ptBR>
-    <plPL>Grizli żelaznoskóry</plPL>
-    <koKR>무쇠가죽 불곰</koKR>
-    <itIT>Grizzly Peloduro</itIT>
-    <esMX>Oso pardo cueracero</esMX>
-    <esES>Oso pardo Cueracero</esES>
-    <deDE>Eisenpelzgrizzly</deDE>
+    <enUS>Tirion Fordring</enUS>
+    <frFR>Tirion Fordring</frFR>
+    <zhTW>提里奧·弗丁</zhTW>
+    <zhCN>提里奥·弗丁</zhCN>
+    <ruRU>Тирион Фордринг</ruRU>
+    <ptBR>Tirion Fordring</ptBR>
+    <plPL>Tyrion Fordring</plPL>
+    <koKR>티리온 폴드링</koKR>
+    <itIT>Tirion Fordring</itIT>
+    <esMX>Tirion Vadín</esMX>
+    <esES>Tirion Vadín</esES>
+    <deDE>Tirion Fordring</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>&lt;b&gt;Divine Shield&lt;/b&gt;. &lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Equip a 5/3 Ashbringer.</enUS>
+    <frFR>&lt;b&gt;Bouclier divin&lt;/b&gt;.\n&lt;b&gt;Provocation&lt;/b&gt;.\n&lt;b&gt;Râle d’agonie :&lt;/b&gt; vous équipe de Porte-cendres 5/3.</frFR>
+    <zhTW>&lt;b&gt;聖盾術&lt;/b&gt;。&lt;b&gt;嘲諷&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;裝備5/3的灰燼使者</zhTW>
+    <zhCN>&lt;b&gt;圣盾&lt;/b&gt;，&lt;b&gt;嘲讽&lt;/b&gt;，&lt;b&gt;亡语：&lt;/b&gt;装备一把5/3的灰烬使者。</zhCN>
+    <ruRU>&lt;b&gt;Божественный щит&lt;/b&gt;. &lt;b&gt;Провокация&lt;/b&gt;. &lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы берете в руки Испепелитель 5/3.</ruRU>
+    <ptBR>&lt;b&gt;Escudo Divino&lt;/b&gt;. &lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último Suspiro:&lt;/b&gt; Equipe uma Crematória 5/3.</ptBR>
+    <plPL>&lt;b&gt;Boska tarcza&lt;/b&gt;. &lt;b&gt;Prowokacja&lt;/b&gt;. &lt;b&gt;Agonia:&lt;/b&gt; Wyposaża bohatera w Spopielacz 5/3.</plPL>
+    <koKR>&lt;b&gt;천상의 보호막&lt;/b&gt;. &lt;b&gt;도발&lt;/b&gt;. &lt;b&gt;죽음의 메아리:&lt;/b&gt; 5/3 파멸의 인도자를 장착합니다.</koKR>
+    <itIT>&lt;b&gt;Scudo Divino&lt;/b&gt;. &lt;b&gt;Provocazione&lt;/b&gt;. &lt;b&gt;Rantolo di Morte:&lt;/b&gt; equipaggia una Brandicenere 5/3.</itIT>
+    <esMX>&lt;b&gt;Escudo divino&lt;/b&gt;. &lt;b&gt;Provocación&lt;/b&gt;. &lt;b&gt;Estertor:&lt;/b&gt; equipa una Crematoria 5/3.</esMX>
+    <esES>&lt;b&gt;Escudo divino&lt;/b&gt;. &lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Último aliento:&lt;/b&gt; Equipa una Crematoria 5/3.</esES>
+    <deDE>&lt;b&gt;Gottesschild&lt;/b&gt;. &lt;b&gt;Spott&lt;/b&gt;. &lt;b&gt;Todesröcheln:&lt;/b&gt; Legt einen Aschenbringer (5/3) an.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Lars Grant-West</enUS>
+    <enUS>Brom</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Hunter Level 58.</enUS>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Bear Carcass 1/10"</enUS>
-    <zhTW>「熊的屍體-1/10」</zhTW>
-    <zhCN>“瘦死的棕熊比兽人大。”</zhCN>
-    <ruRU>«Скелет медведя 1/10»</ruRU>
-    <ptBR>"Carcaça de Urso 1/10"</ptBR>
-    <plPL>„O, grizli?” „Nie, strielali.”</plPL>
-    <koKR>이름만 들어도 부드러워 보이네요.</koKR>
-    <itIT>"Carcasse d'Orso 1/10"</itIT>
-    <frFR>Touchez pas au grizzly !</frFR>
-    <esMX>"Cadáver de oso 1/10".</esMX>
-    <esES>Pellejo de oso 1/10</esES>
-    <deDE>"1/10 Bärengerippe gesammelt"</deDE>
+    <enUS>If you haven't heard the Tirion Fordring theme song, it's because it doesn't exist.</enUS>
+    <zhTW>你沒聽過提里奧·弗丁主題曲的原因是...它根本不存在。</zhTW>
+    <zhCN>如果你还没听过《提里奥·弗丁主题曲》，那是因为它还没被谱写出来。</zhCN>
+    <ruRU>Если вы никогда не слышали музыкальную тему Тириона Фордринга, то это потому, что ее не существует.</ruRU>
+    <ptBR>Se você ainda não ouviu a música tema do Tirion Fordring, é porque ela não existe.</ptBR>
+    <plPL>Największym zaskoczeniem dla osób nieznających Tyriona jest fakt, że wcale nie jest karłem!</plPL>
+    <koKR>혹시 티리온 폴드링 테마 송 들어 보셨나요? 못 들어보셨다고요? 네, 그딴 건 없습니다.</koKR>
+    <itIT>Se non hai ancora sentito il tema musicale di Tirion Fordring è perché non esiste.</itIT>
+    <frFR>Il faut que nous tirions la sonnette d’alarme sur cette carte !</frFR>
+    <esMX>Si no has oído la oda a Tirion Vadín, es sencillamente porque no existe.</esMX>
+    <esES>Si no has oído la canción de Tirion, es porque no existe.</esES>
+    <deDE>Der bekannteste Paladin – gleich nach Uther, Mograine, Bolvar, Arthas ...\n– Felix A.</deDE>
   </Tag>
+  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
   <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="6edff011-5929-467f-b27a-13745f2de532" />
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="2292fec4-f27a-4074-8ee6-594887ecffbe" />
+  <Power definition="b292817a-f990-4880-a3e7-48b2fbfdb239" />
+  <Power definition="369cc858-369c-43a4-afa7-f13408467e89" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

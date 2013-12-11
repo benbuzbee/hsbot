@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="HERO_06">
-  <MasterPower>15375f72-fc71-4829-a9d4-7d75f5a21b34</MasterPower>
+<Entity version="2" CardID="NEW1_034">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Malfurion Stormrage</enUS>
-    <zhTW>瑪法里恩·怒風</zhTW>
-    <zhCN>玛法里奥·怒风</zhCN>
-    <ruRU>Малфурион</ruRU>
-    <ptBR>Malfurion Tempesfúria</ptBR>
-    <plPL>Malfurion Burzogniewny</plPL>
-    <koKR>말퓨리온 스톰레이지</koKR>
-    <itIT>Malfurion Grantempesta</itIT>
-    <frFR>Malfurion Hurlorage</frFR>
-    <esMX>Malfurion Tempestira</esMX>
-    <esES>Malfurion Tempestira</esES>
-    <deDE>Malfurion Sturmgrimm</deDE>
+    <enUS>Huffer</enUS>
+    <frFR>Souffleur</frFR>
+    <zhTW>胡佛</zhTW>
+    <zhCN>霍弗</zhCN>
+    <ruRU>Хаффер</ruRU>
+    <ptBR>Bufo</ptBR>
+    <plPL>Prychacz</plPL>
+    <koKR>킁킁이</koKR>
+    <itIT>Huffer</itIT>
+    <esMX>Bufar</esMX>
+    <esES>Bufar</esES>
+    <deDE>Grummel</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="30" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Power definition="15375f72-fc71-4829-a9d4-7d75f5a21b34" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="00bca6a8-1155-4ab6-816c-2c8a020342b9" />
 </Entity>

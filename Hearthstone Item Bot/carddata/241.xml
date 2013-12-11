@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_033">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_091o">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Leokk</enUS>
-    <frFR>Leokk</frFR>
-    <zhTW>里奧克</zhTW>
-    <zhCN>雷欧克</zhCN>
-    <ruRU>Леокк</ruRU>
-    <ptBR>Leokk</ptBR>
-    <plPL>Leok</plPL>
-    <koKR>레오크</koKR>
-    <itIT>Leokk</itIT>
-    <esMX>Leokk</esMX>
-    <esES>Leokk</esES>
-    <deDE>Leokk</deDE>
+    <enUS>Cabal Control</enUS>
+    <frFR>Contrôle de la Cabale</frFR>
+    <zhTW>卡巴控制</zhTW>
+    <zhCN>秘教掌控</zhCN>
+    <ruRU>Темная власть</ruRU>
+    <ptBR>Controle do Conluio</ptBR>
+    <plPL>Wpływ kabalistki</plPL>
+    <koKR>비밀결사단의 조종</koKR>
+    <itIT>Controllo dell'Ombra</itIT>
+    <esMX>Control de la cábala</esMX>
+    <esES>Control de la Cábala</esES>
+    <deDE>Kontrolle der Kabale</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Other friendly minions have +1 Attack.</enUS>
-    <frFR>Les autres serviteurs alliés ont +1 ATQ.</frFR>
-    <zhTW>其他友方手下擁有+1攻擊力。</zhTW>
-    <zhCN>其他友方随从获得+1攻击力。</zhCN>
-    <ruRU>Прочие ваши существа получают +1 к атаке.</ruRU>
-    <ptBR>Outros lacaios aliados têm +1 de Ataque.</ptBR>
-    <plPL>Pozostali przyjaźni stronnicy otrzymują +1 do ataku.</plPL>
-    <koKR>다른 아군 하수인들이 공격력을 +1 얻습니다.</koKR>
-    <itIT>Gli altri tuoi servitori hanno +1 Attacco.</itIT>
-    <esMX>Los otros esbirros aliados tienen +1 de Ataque.</esMX>
-    <esES>Los demás esbirros amistosos obtienen +1 p. de ataque.</esES>
-    <deDE>Andere befreundete Diener haben +1 Angriff.</deDE>
+    <enUS>This minion has been stolen by Cabal Shadow Priest.</enUS>
+    <frFR>Ce serviteur a été volé par la prêtresse des ombres de la Cabale.</frFR>
+    <zhTW>這個手下被卡巴暗影牧師偷走了</zhTW>
+    <zhCN>该随从被秘教暗影祭司控制。</zhCN>
+    <ruRU>Это существо похищено &lt;i&gt;Темной жрицей&lt;/i&gt;.</ruRU>
+    <ptBR>Este lacaio foi roubado pelo Sacerdote Sombrio do Conluio.</ptBR>
+    <plPL>Ten stronnik został przejęty przez kabalistkę cieni.</plPL>
+    <koKR>비밀결사단 어둠사제에게 넘어감</koKR>
+    <itIT>Rubato dalla Sacerdotessa dell'Ombra.</itIT>
+    <esMX>Este esbirro ha sido robado por la Sacerdotisa de la cábala.</esMX>
+    <esES>La sacerdotisa de la Cábala se ha adueñado de este esbirro.</esES>
+    <deDE>Dieser Diener wurde von einer Kabaleschattenpriesterin gestohlen.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="779cbc2a-9f38-409f-8e42-dfeeaf113089" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="3" />
+  <Power definition="e111816d-e1da-48be-a162-07d8d888a82d" />
 </Entity>

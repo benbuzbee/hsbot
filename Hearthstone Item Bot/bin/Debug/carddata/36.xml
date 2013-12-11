@@ -23,13 +23,13 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Your minions can't be reduced below 1 Health this turn.  Draw a card.</enUS>
     <frFR>Les points de vie de vos serviteurs ne peuvent pas passer en dessous de 1 ce tour-ci. Vous piochez une carte.</frFR>
-    <zhTW>你的手下們在本回合內生命值不會低於1點。抽一張牌。</zhTW>
+    <zhTW>你手下的生命值在本回合內不會低於1點。抽一張牌</zhTW>
     <zhCN>在本回合中，你的随从的生命值无法被降到1点以下。抽一张牌。</zhCN>
     <ruRU>Здоровье ваших существ не может опуститься ниже 1 ед. до конца хода. Вы берете карту.</ruRU>
-    <ptBR>A Vida de seus lacaios não pode ser reduzida a menos de 1 neste turno.</ptBR>
+    <ptBR>A Vida de seus lacaios não pode ser reduzida a menos de 1 neste turno. Compre um card.</ptBR>
     <plPL>W tej turze twoi stronnicy nie mogą zejść poniżej 1 pkt. zdrowia. Dobierz kartę.</plPL>
     <koKR>이번 턴에는 내 하수인들의 생명력이 1 미만으로 내려가지 않습니다. 카드를 1장 뽑습니다.</koKR>
-    <itIT>In questo turno, i tuoi servitori non possono essere portati al di sotto di 1 Salute. Pesca una carta.</itIT>
+    <itIT>Per questo turno, i tuoi servitori non possono essere portati al di sotto di 1 Salute. Pesca una carta.</itIT>
     <esMX>La Salud de tus esbirros no puede reducirse a menos de 1 en este turno. Roba una carta.</esMX>
     <esES>La salud de tus esbirros no puede bajar de 1 p. este turno. Roba una carta.</esES>
     <deDE>Das Leben Eurer Diener kann in diesem Zug nicht unter 1 fallen. Zieht eine Karte.</deDE>

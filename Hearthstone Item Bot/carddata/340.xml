@@ -1,66 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_173">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_365">
+  <MasterPower>5387f21c-5014-485e-a39f-3d05c5e1d592</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bluegill Warrior</enUS>
-    <frFR>Guerrier branchie-bleue</frFR>
-    <zhTW>藍鰓戰士</zhTW>
-    <zhCN>蓝腮战士</zhCN>
-    <ruRU>Воин Синежабрых</ruRU>
-    <ptBR>Guerreiro Guelrazul</ptBR>
-    <plPL>Wojownik Błękitnoskrzelich</plPL>
-    <koKR>푸른아가미 전사</koKR>
-    <itIT>Guerriero Branchiazzurra</itIT>
-    <esMX>Guerrero branquiazul</esMX>
-    <esES>Guerrero Branquiazul</esES>
-    <deDE>Blaukiemenkrieger</deDE>
+    <enUS>Holy Wrath</enUS>
+    <frFR>Colère divine</frFR>
+    <zhTW>神聖憤怒</zhTW>
+    <zhCN>神圣愤怒</zhCN>
+    <ruRU>Гнев небес</ruRU>
+    <ptBR>Ira Sagrada</ptBR>
+    <plPL>Święty gniew</plPL>
+    <koKR>신의 격노</koKR>
+    <itIT>Ira Sacra</itIT>
+    <esMX>Cólera sagrada</esMX>
+    <esES>Cólera Sagrada</esES>
+    <deDE>Heiliger Zorn</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+    <enUS>Draw a card and deal damage equal to its cost.</enUS>
+    <frFR>Vous piochez une carte qui inflige des dégâts d’un montant égal à son coût.</frFR>
+    <zhTW>抽一張牌，並造成等同於其法力消耗的傷害</zhTW>
+    <zhCN>抽一张牌，并造成等同于其法力值消耗的伤害。</zhCN>
+    <ruRU>Вы берете карту и наносите урон, равный ее стоимости.</ruRU>
+    <ptBR>Compre um card e cause dano equivalente ao custo dele.</ptBR>
+    <plPL>Dobierz kartę i zadaj obrażenia równe jej kosztowi.</plPL>
+    <koKR>카드를 1장 뽑고 그 카드의 비용만큼 피해를 줍니다.</koKR>
+    <itIT>Pesca una carta e infligge danni pari al suo costo.</itIT>
+    <esMX>Roba una carta e inflige daño equivalente a su costo.</esMX>
+    <esES>Roba una carta e inflige un daño equivalente a su coste.</esES>
+    <deDE>Zieht eine Karte und verursacht Schaden, der ihren Kosten entspricht.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jakub Kasper</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Paladin Level 52.</enUS>
+    <enUS>Justin Sweet</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He just wants a hug.   A sloppy... slimy... hug.</enUS>
-    <zhTW>他只是想要一個擁抱。一個濕熱...黏糊糊的...擁抱。</zhTW>
-    <zhCN>他只是想要一个拥抱。一个黏黏的...滑滑的...拥抱。</zhCN>
-    <ruRU>Ну и что, что он мокрый и осклизлый. Он все тоже хочет, чтобы его кто-нибудь обнял.</ruRU>
-    <ptBR>Ele só quer um abraço... um bem molenga e gosmento...</ptBR>
-    <plPL>On tylko chce buziaka. Mokrego... lepkiego buziaka.</plPL>
-    <koKR>안아달라고 달려오는군요. 일단 젖을 각오는 해야겠습니다.</koKR>
-    <itIT>Vuole solo un abbraccio. Un molliccio... viscido... abbraccio.</itIT>
-    <frFR>Il veut juste vous faire un câlin. Un bon gros câlin bien baveux.</frFR>
-    <esMX>Solo quiere un abrazo. Un resbaloso y baboso abrazo.</esMX>
-    <esES>Solo quiere un abrazo. Un abrazo húmedo y viscoso.</esES>
-    <deDE>Er will Euch doch nur umarmen. Auf äußerst glibberige Art und Weise.</deDE>
+    <enUS>C'mon Molten Giant!!</enUS>
+    <zhTW>拜託，讓我抽到熔火巨人!!</zhTW>
+    <zhCN>来个熔核巨人吧！！</zhCN>
+    <ruRU>Ну же, пусть это будет «Огненный великан!»</ruRU>
+    <ptBR>Vamos lá, Gigante Derretido!</ptBR>
+    <plPL>Dawaj na gołe klaty!</plPL>
+    <koKR>제발, 용암거인아 나와라!</koKR>
+    <itIT>Speriamo nel Gigante Fuso!</itIT>
+    <frFR>Viens à moi, géant de lave !</frFR>
+    <esMX>¡Vamos, Gigante fundido!</esMX>
+    <esES>¡Ojalá salga un Gigante fundido!</esES>
+    <deDE>Los, los, los ... einen Geschmolzenen Riesen, bitte!</deDE>
   </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="00000012-63d5-47c6-a508-76da1ed8d507" />
+  <Power definition="5387f21c-5014-485e-a39f-3d05c5e1d592">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

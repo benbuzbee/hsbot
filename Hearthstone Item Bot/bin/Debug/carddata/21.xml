@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="TU4d_001">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Hemet Nesingwary</enUS>
     <frFR>Hemet Nesingwary</frFR>

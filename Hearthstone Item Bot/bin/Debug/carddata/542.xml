@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_131">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_165a">
+  <MasterPower>f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Defias Ringleader</enUS>
-    <frFR>Meneur défias</frFR>
-    <zhTW>迪菲亞頭目</zhTW>
-    <zhCN>迪菲亚头目</zhCN>
-    <ruRU>Главарь Братства</ruRU>
-    <ptBR>Líder Défias</ptBR>
-    <plPL>Herszt kręgu Nieskornych</plPL>
-    <koKR>데피아즈단 두목</koKR>
-    <itIT>Capo dei Defias</itIT>
-    <esMX>Gerifalte Defias</esMX>
-    <esES>Gerifalte Defias</esES>
-    <deDE>Rädelsführer der Defias</deDE>
+    <enUS>Cat Form</enUS>
+    <frFR>Forme de félin</frFR>
+    <zhTW>獵豹形態</zhTW>
+    <zhCN>猎豹形态</zhCN>
+    <ruRU>Облик кошки</ruRU>
+    <ptBR>Forma de Felino</ptBR>
+    <plPL>Postać kota</plPL>
+    <koKR>표범 변신</koKR>
+    <itIT>Forma Felina</itIT>
+    <esMX>Forma felina</esMX>
+    <esES>Forma felina</esES>
+    <deDE>Katzengestalt</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Combo:&lt;/b&gt; Summon a 2/1 Defias Bandit.</enUS>
-    <frFR>&lt;b&gt;Combo :&lt;/b&gt; invoque un bandit défias 2/1.</frFR>
-    <zhTW>&lt;b&gt;連擊:&lt;/b&gt;召喚一個2/1的迪菲亞強盜。</zhTW>
-    <zhCN>&lt;b&gt;连击：&lt;/b&gt;召唤一个2/1的迪菲亚强盗。</zhCN>
-    <ruRU>&lt;b&gt;Серия приемов:&lt;/b&gt; призывает на поле боя бандита Братства 2/1.</ruRU>
-    <ptBR>&lt;b&gt;Combo:&lt;/b&gt; Evoque um Bandido Défias 2/1.</ptBR>
-    <plPL>&lt;b&gt;Kombinacja:&lt;/b&gt; Przyzwij Bandytę Nieskornych 2/1.</plPL>
-    <koKR>&lt;b&gt;연계:&lt;/b&gt; 2/1 데피아즈단 무법자를 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Combo:&lt;/b&gt; evoca un Bandito dei Defias 2/1.</itIT>
-    <esMX>&lt;b&gt;Combo:&lt;/b&gt; invoca un Bandido Defias 2/1.</esMX>
-    <esES>&lt;b&gt;Combo:&lt;/b&gt; Invoca a un bandido Defias 2/1.</esES>
-    <deDE>&lt;b&gt;Combo:&lt;/b&gt; Ruft einen Banditen der Defias (2/1) herbei.</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Efrem Palacios</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He stole the deed to town years ago, so technically the town &lt;i&gt;is&lt;/i&gt; his. He just calls people Scrub to be mean.</enUS>
-    <zhTW>他很多年前就偷走了小鎮的地契。所以按理來說，小鎮的確&lt;i&gt;是&lt;/i&gt;屬於他。他看到每個人都叫對方「少年」，雖然他自己也沒多老。</zhTW>
-    <zhCN>他在数年前偷走了地契，所以理论上说这片地盘确实是他的。他还喜欢用“白痴”称呼别人，显得自己很有势力。</zhCN>
-    <ruRU>Пару лет назад он украл дарственную на город, так что на самом деле весь город &lt;i&gt;действительно&lt;/i&gt; принадлежит ему. А еще он называет других ничтожествами, чтобы все знали, какой он злой.</ruRU>
-    <ptBR>Ele roubou a escritura da cidade há muitos anos, então tecnicamente, a cidade &lt;i&gt;é&lt;/i&gt; dele. Ele só chama o pessoal de verme pra ser malvado mesmo.</ptBR>
-    <plPL>Chciałby, żeby mówić do niego per Hegemon. Sęk w tym, że nie ma jeszcze swojego kaprala.</plPL>
-    <koKR>눈 깔아!</koKR>
-    <itIT>Un buon capobanda ha &lt;i&gt;sempre&lt;/i&gt; qualche bandito pronto a combattere al suo posto.</itIT>
-    <frFR>Il aime bien traiter les gens de grouillots. Mais pourquoi est-il aussi méchant ?</frFR>
-    <esMX>Hace años se robó el título de propiedad de la ciudad, así que técnicamente es cierto que le pertenece. Lo de "novato" lo dice por pura maldad.</esMX>
-    <esES>Ahora que lo dice, es verdad que Arroyo de la Luna pertenece a los Defias...</esES>
-    <deDE>Ein echter Rädelsführer hat &lt;i&gt;immer&lt;/i&gt; ein paar Schergen dabei.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Combo" enumID="220" type="Bool" value="1" />
-  <Power definition="20575742-50c8-47d7-a05e-82322beae882" />
+  <Power definition="f436bbc4-fd5f-42e2-8a02-6f1ef7bf6419" />
 </Entity>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_522">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Patient Assassin</enUS>
     <frFR>Assassin patient</frFR>
@@ -31,7 +29,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Stealth&lt;/b&gt;. Destroy any minion damaged by this minion.</enUS>
     <frFR>&lt;b&gt;Camouflage&lt;/b&gt;. Détruit tout serviteur blessé par ce serviteur.</frFR>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;。摧毀任何被這個手下傷害的手下。</zhTW>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;。摧毀任何被這個手下傷害的手下</zhTW>
     <zhCN>&lt;b&gt;潜行&lt;/b&gt;，消灭任何受到该随从伤害的随从。</zhCN>
     <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. Уничтожает любое существо, которому наносит урон.</ruRU>
     <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;. Destrua qualquer lacaio atingido por este lacaio.</ptBR>

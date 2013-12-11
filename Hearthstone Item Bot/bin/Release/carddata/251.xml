@@ -1,40 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CRED_10">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="DS1_175">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Michael Schweitzer</enUS>
-    <zhTW>Michael Schweitzer</zhTW>
-    <zhCN>Michael Schweitzer</zhCN>
-    <ruRU>Michael Schweitzer</ruRU>
-    <ptBR>Michael Schweitzer</ptBR>
-    <plPL>Michael Schweitzer</plPL>
-    <koKR>마이클 슈바이처</koKR>
-    <itIT>Michael Schweitzer</itIT>
-    <frFR>Michael Schweitzer</frFR>
-    <esMX>Michael Schweitzer</esMX>
-    <esES>Michael Schweitzer</esES>
-    <deDE>Michael Schweitzer</deDE>
+    <enUS>Timber Wolf</enUS>
+    <frFR>Loup des bois</frFR>
+    <zhTW>森林狼</zhTW>
+    <zhCN>森林狼</zhCN>
+    <ruRU>Лесной волк</ruRU>
+    <ptBR>Lobo Silvestre</ptBR>
+    <plPL>Leśny wilk</plPL>
+    <koKR>회갈색 늑대</koKR>
+    <itIT>Lupo della Foresta</itIT>
+    <esMX>Lobo gris</esMX>
+    <esES>Lobo gris</esES>
+    <deDE>Waldwolf</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; Destroy a minion.</enUS>
-    <zhTW>&lt;b&gt;連連連擊:&lt;/b&gt;摧毀一個手下。</zhTW>
-    <zhCN>&lt;b&gt;连-连-连-连击：&lt;/b&gt;消灭一个随从。</zhCN>
-    <ruRU>&lt;b&gt;С-С-Серия приемов:&lt;/b&gt; уничтожает существо.</ruRU>
-    <ptBR>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; Destrua um lacaio.</ptBR>
-    <plPL>&lt;b&gt;KO-KO-KO-KOMBO:&lt;/b&gt; Zniszcz stronnika.</plPL>
-    <koKR>&lt;b&gt;여-여-여-연계:&lt;/b&gt; 하수인을 처치합니다.</koKR>
-    <itIT>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; distrugge un servitore nemico.</itIT>
-    <frFR>&lt;b&gt;C-C-C-COMBO :&lt;/b&gt; détruit un serviteur.</frFR>
-    <esMX>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; destruye un esbirro.</esMX>
-    <esES>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; Destruye a un esbirro.</esES>
-    <deDE>&lt;b&gt;C-C-C-COMBO:&lt;/b&gt; Zerstört einen Diener.</deDE>
+    <enUS>Your other Beasts have +1 Attack.</enUS>
+    <frFR>Vos autres Bêtes ont +1 ATQ.</frFR>
+    <zhTW>你的其他野獸獲得+1攻擊力</zhTW>
+    <zhCN>你的其他野兽获得+1攻击力。</zhCN>
+    <ruRU>Другие ваши звери получают +1 к атаке.</ruRU>
+    <ptBR>Suas Feras têm +1 de Ataque.</ptBR>
+    <plPL>Twoje pozostałe Bestie mają +1 do ataku.</plPL>
+    <koKR>나의 다른 야수들이 공격력을 +1 얻습니다.</koKR>
+    <itIT>Le tue altre Bestie hanno +1 Attacco.</itIT>
+    <esMX>Tus otras Bestias tienen +1 de Ataque.</esMX>
+    <esES>Tus demás bestias tienen +1 p. de ataque.</esES>
+    <deDE>Eure anderen Wildtiere haben +1 Angriff.</deDE>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Malcolm Davis</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Other beasts totally dig hanging out with timber wolves.</enUS>
+    <zhTW>其他野獸超愛跟森林狼一起出門的。</zhTW>
+    <zhCN>其他野兽最喜欢和森林狼一起外出打猎了。</zhCN>
+    <ruRU>Все звери просто обожают лесных волков.</ruRU>
+    <ptBR>As outras feras adoram ficar perto de lobos silvestres.</ptBR>
+    <plPL>Leśne wilki mają spore powodzenie wśród innych bestii.</plPL>
+    <koKR>다른 야수들의 사랑을 독차지한답니다.</koKR>
+    <itIT>Le altre bestie adorano uscire con i lupi della foresta.</itIT>
+    <frFR>Toutes les bêtes adorent traîner avec les loups des bois.</frFR>
+    <esMX>A las otras bestias les fascina salir a pasear con los lobos grises.</esMX>
+    <esES>Tu oponente le verá las orejas al lobo.</esES>
+    <deDE>Unglaublich beliebt bei anderen Wildtieren. Wahrscheinlich ist es sein unwiderstehlicher Charme.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 23.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="f1c7f4ea-e90e-4c5d-a65b-7a8b36de5772" />
 </Entity>

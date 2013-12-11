@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_398">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Arathi Weaponsmith</enUS>
     <frFR>Fabricante d’armes</frFR>
@@ -11,7 +9,7 @@
     <ptBR>Armeira de Arathi</ptBR>
     <plPL>Zbrojmistrzyni z Arathi</plPL>
     <koKR>아라시 무기제작자</koKR>
-    <itIT>Fabbro d'Armi d'Arathi</itIT>
+    <itIT>Fabbro d'Arathi</itIT>
     <esMX>Forjadora de armas de Arathi</esMX>
     <esES>Armera de Arathi</esES>
     <deDE>Arathiwaffenschmiedin</deDE>
@@ -28,7 +26,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Equip a 2/2 weapon.</enUS>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous équipe d’une arme 2/2.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;裝備一把2/2的武器。</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;裝備一把2/2的武器</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;装备一把2/2的武器。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; снаряжает вас оружием 2/2.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Equipe uma arma 2/2.</ptBR>
@@ -56,7 +54,7 @@
     <itIT>Sconto del 50% sui Tirapugni, solo per un periodo limitato!</itIT>
     <frFR>50% de réduction sur les armes de pugilat pour une durée limitée !</frFR>
     <esMX>¡50% de descuento en armas de puño! ¡Solo por tiempo limitado! </esMX>
-    <esES>¡Armas de puño al 50% por tiempo limitado!</esES>
+    <esES>¡Es una orca asesina!</esES>
     <deDE>50 % Rabatt auf alle Faustwaffen! Nur begrenzte Zeit verfügbar!</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />

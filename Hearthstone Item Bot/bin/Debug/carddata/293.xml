@@ -1,67 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_531">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_339">
+  <MasterPower>fc872394-056c-4192-a448-2e2b675340e1</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Scavenging Hyena</enUS>
-    <frFR>Hyène charognarde</frFR>
-    <zhTW>食腐土狼</zhTW>
-    <zhCN>食腐土狼</zhCN>
-    <ruRU>Гиена-падальщица</ruRU>
-    <ptBR>Hiena Carniceira</ptBR>
-    <plPL>Padlinożerna hiena</plPL>
-    <koKR>청소부 하이에나</koKR>
-    <itIT>Iena Rovistatrice</itIT>
-    <esMX>Hiena carroñera</esMX>
-    <esES>Hiena carroñera</esES>
-    <deDE>Aasfressende Hyäne</deDE>
+    <enUS>Thoughtsteal</enUS>
+    <frFR>Vol d’esprit</frFR>
+    <zhTW>思想竊取</zhTW>
+    <zhCN>思维窃取</zhCN>
+    <ruRU>Украденные мысли</ruRU>
+    <ptBR>Roubo de Pensamentos</ptBR>
+    <plPL>Kradzież myśli</plPL>
+    <koKR>생각 훔치기</koKR>
+    <itIT>Furto del Pensiero</itIT>
+    <esMX>Sustracción de intelecto</esMX>
+    <esES>Robo de ideas</esES>
+    <deDE>Gedankenraub</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Copy 2 cards from your opponent's deck and put them into your hand.</enUS>
+    <frFR>Copie 2 cartes du jeu de votre adversaire et les place dans votre main.</frFR>
+    <zhTW>從你對手的牌堆中複製2張牌，並放到你的手牌裡</zhTW>
+    <zhCN>复制对手的牌库中的两张牌，并将其置入你的手牌。</zhCN>
+    <ruRU>Вы копируете 2 карты из колоды противника и кладете их в свою руку.</ruRU>
+    <ptBR>Copie 2 cards do deck do oponente e ponha-os na sua mão.</ptBR>
+    <plPL>Skopiuj dwie karty z talii przeciwnika i umieść je w swojej ręce.</plPL>
+    <koKR>상대편의 덱에서 카드를 2장 복사하여 내 손으로 가져옵니다.</koKR>
+    <itIT>Copia 2 carte del mazzo dell'avversario e le mette nella tua mano.</itIT>
+    <esMX>Copia 2 cartas del mazo de tu adversario y ponlas en tu mano.</esMX>
+    <esES>Copia 2 cartas del mazo de tu oponente y las coloca en tu mano.</esES>
+    <deDE>Kopiert 2 Karten aus dem Deck Eures Gegners und fügt sie Eurer Hand hinzu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a friendly Beast dies, gain +2/+1.</enUS>
-    <frFR>Chaque fois qu’une bête alliée meurt, gagne +2/+1.</frFR>
-    <zhTW>每當一隻友方野獸死亡，獲得+2/+1。</zhTW>
-    <zhCN>每当一个友方野兽死亡时，便获得+2/+1。</zhCN>
-    <ruRU>Каждый раз, когда ваш зверь умирает, это существо получает +2/+1.</ruRU>
-    <ptBR>Sempre que uma Fera aliada morrer, receba +2/+1.</ptBR>
-    <plPL>Za każdym razem gdy zginie przyjazna Bestia, otrzymuje +2/+1.</plPL>
-    <koKR>아군 야수가 죽을 때마다 +2/+1을 얻습니다.</koKR>
-    <itIT>Quando muore una tua Bestia, la Iena Rovistatrice ottiene +2/+1.</itIT>
-    <esMX>Cada vez que muere una Bestia aliada, obtiene +2/+1.</esMX>
-    <esES>Obtiene +2/+1 cada vez que muere una bestia amistosa.</esES>
-    <deDE>Erhält jedes Mal +2/+1, wenn ein befreundetes Wildtier stirbt.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Scavenging</enUS>
-  </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jim Nelson</enUS>
+    <enUS>Alex Garner</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Hyenas prefer the bones of kodos or windserpents, but they'll eat pretty much anything.  Even brussel sprouts.</enUS>
-    <zhTW>土狼喜歡啃科多獸或風蛇的骨頭，但是基本上牠們什麼都吃。牠們甚至會吃孢子甘藍。</zhTW>
-    <zhCN>土狼偏爱科多兽和风蛇的骨头，但是其实他们什么都吃。甚至是孢子甘蓝。</zhCN>
-    <ruRU>Гиены предпочитают питаться костями кодо или крылатых змеев, но на самом деле они едят практически все. Даже вареный лук.</ruRU>
-    <ptBR>Hienas preferem carne de kodo ou de serpentes aladas, mas elas comem basicamente de tudo. Até jiló.</ptBR>
-    <plPL>Hieny wolą ogryzać kości kodo lub latających węży, ale zeżrą właściwie wszystko. Nawet rozgotowane brukselki.</plPL>
-    <koKR>하이에나는 코도나 천둥매의 뼈를 선호하긴 하지만, 뭐든 가리지 않고 먹습니다. 심지어 싹양배추까지...</koKR>
-    <itIT>Le iene preferiscono le ossa dei kodo o dei serpenti volanti, ma sono pronte a mangiare qualsiasi cosa. Anche i broccoli.</itIT>
-    <frFR>Les hyènes préfèrent les os de kodo ou de serpent des vents, mais elles mangent n’importe quoi. Même des petits pois !</frFR>
-    <esMX>Las hienas prefieren huesos de kodos o serpientes aladas, pero en realidad comen cualquier cosa. Incluso brócoli.</esMX>
-    <esES>Lo interesante de su nombre es que te hace pensar que existen hienas de cualquier otro tipo.</esES>
-    <deDE>Hyänen bevorzugen Kodo- oder Windschlangenknochen, aber sie fressen eigentlich alles. Sogar Rosenkohl.</deDE>
+    <enUS>"What do you get when you cast Thoughtsteal on an Orc?  Nothing!" - Tauren joke</enUS>
+    <zhTW>「你對獸人施放思想竊取會偷到什麼?什麼都偷不到!」-牛頭人笑話</zhTW>
+    <zhCN>“人类喜欢说‘对牛弹琴’来形容白费功夫，哼，我们喜欢说‘对兽人使用思维窃取’！”——牛头人长者</zhCN>
+    <ruRU>«Сколько мыслей можно украсть у орка? Ни одной!» (тауренская шутка)</ruRU>
+    <ptBR>"O que acontece quando você lança Roubo de Pensamentos em um orc? Nada!" — Piada tauren.</ptBR>
+    <plPL>„Co dostaniesz jak rzucisz kradzież myśli na orka? Nic!” - taureński dowcip</plPL>
+    <koKR>"오크에게 생각 훔치기를 쓰면 뭘 얻는지 알아? 돌.덩.어.리!" - 타우렌 농담</koKR>
+    <itIT>"Cosa succede quando lanci Furto del Pensiero su un Orco? Niente!" - Barzelletta dei Tauren</itIT>
+    <frFR>« Que se passe-t-il quand on utilise Vol d’esprit contre un orc ? Rien ! » - Blague de tauren</frFR>
+    <esMX>"¿Qué consigues si le lanzas Sustracción de intelecto a un orco? ¡Nada!". —Broma tauren</esMX>
+    <esES>"¿Qué consigues cuando le lanzas Robo de ideas a un orco? ¡Nada!" - Chiste tauren</esES>
+    <deDE>„Was erhält man, wenn man Gedankenraub auf einen Orc wirkt? Nichts!“ – Alter Taurenwitz</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="9b194dde-3a32-48b8-b649-f91e503714d5" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="fc872394-056c-4192-a448-2e2b675340e1" />
 </Entity>

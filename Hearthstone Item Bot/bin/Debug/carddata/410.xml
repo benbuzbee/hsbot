@@ -1,49 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_tk9">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_169">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Treant</enUS>
-    <frFR>Tréant</frFR>
-    <zhTW>樹人</zhTW>
-    <zhCN>树人</zhCN>
-    <ruRU>Древень</ruRU>
-    <ptBR>Arvoroso</ptBR>
-    <plPL>Drzewiec</plPL>
-    <koKR>나무정령</koKR>
-    <itIT>Treant</itIT>
-    <esMX>Antárbol</esMX>
-    <esES>Antárbol</esES>
-    <deDE>Treant</deDE>
+    <enUS>Young Dragonhawk</enUS>
+    <frFR>Jeune faucon-dragon</frFR>
+    <zhTW>小龍鷹</zhTW>
+    <zhCN>幼龙鹰</zhCN>
+    <ruRU>Молодой дракондор</ruRU>
+    <ptBR>Falcodrago Jovem</ptBR>
+    <plPL>Smoczy jastrząb</plPL>
+    <koKR>어린 용매</koKR>
+    <itIT>Dragofalco Giovane</itIT>
+    <esMX>Dracohalcón joven</esMX>
+    <esES>Dracohalcón joven</esES>
+    <deDE>Junger Drachenfalke</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;.  At the end of the turn, destroy this minion.</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;. Ce serviteur est détruit à la fin du tour.</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。在回合結束時，摧毀這個手下。</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，在回合结束时，消灭该随从。</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. В конце хода это существо будет уничтожено.</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. No final do turno, destrua este lacaio.</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. Na początku następnej tury zniszcz tego stronnika.</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;. 턴이 끝날 때, 이 하수인을 처치합니다.</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;. Alla fine del turno, distruggi questo servitore.</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;. Al final del turno, destruye a este esbirro.</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;. Al final del turno, destruye a este esbirro.</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;. Vernichtet diesen Diener am Ende des Zuges.</deDE>
-  </Tag>
   <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="99b8b63c-3954-4284-8a25-0452670c588e" />
-  <Power definition="15e283bd-d6e9-4d50-acb3-92a86c6cf510" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Greg Hildebrandt</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>They were the inspiration for the championship Taurenball team: The Dragonhawks.</enUS>
+    <zhTW>冠軍牛頭球隊「龍鷹隊」就是以牠們做為吉祥物的。</zhTW>
+    <zhCN>无论是战士还是诗人，都能从美丽的龙鹰身上获取战斗或是写作的灵感。</zhCN>
+    <ruRU>В их честь таурены назвали свою лучшую команду по тауренболу «Дракондоры».</ruRU>
+    <ptBR>Eles foram a inspiração para o time campeão de Taurenbol: Os Falcodracos.</ptBR>
+    <plPL>Próba nazwania ich „smostrząbami” nie spotkała się z akceptacją.</plPL>
+    <koKR>벌처럼 날아 나비처럼 쏩니다.</koKR>
+    <itIT>Non è drago, non è falco... sa soltanto quello che non è!</itIT>
+    <frFR>L’équipe championne de tournoi de balle au tauren s’en est inspirée pour choisir leur nom : les faucons-dragons.</frFR>
+    <esMX>¿Es un pájaro? ¿Es un avión? ¡No! ¡Es un dracohalcón!</esMX>
+    <esES>Dan nombre a los Dracohalcones, los deportistas de élite de Cima del Trueno.</esES>
+    <deDE>So zäh und stark wie ein Falke und so leicht und agil wie ein Drache ...</deDE>
+  </Tag>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="3d475a80-25de-4b52-8c22-baecfa5bff4f" />
 </Entity>

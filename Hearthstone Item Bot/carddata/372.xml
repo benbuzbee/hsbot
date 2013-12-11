@@ -1,63 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_390">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_573">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Tauren Warrior</enUS>
-    <frFR>Guerrier tauren</frFR>
-    <zhTW>牛頭人戰士</zhTW>
-    <zhCN>牛头人战士</zhCN>
-    <ruRU>Таурен-воин</ruRU>
-    <ptBR>Guerreiro Tauren</ptBR>
-    <plPL>Tauren wojownik</plPL>
-    <koKR>타우렌 전사</koKR>
-    <itIT>Guerriero Tauren</itIT>
-    <esMX>Tauren guerrero</esMX>
-    <esES>Tauren guerrero</esES>
-    <deDE>Taurenkrieger</deDE>
+    <enUS>Cenarius</enUS>
+    <frFR>Cénarius</frFR>
+    <zhTW>塞納留斯</zhTW>
+    <zhCN>塞纳留斯</zhCN>
+    <ruRU>Кенарий</ruRU>
+    <ptBR>Cenarius</ptBR>
+    <plPL>Cenarius</plPL>
+    <koKR>세나리우스</koKR>
+    <itIT>Cenarius</itIT>
+    <esMX>Cenarius</esMX>
+    <esES>Cenarius</esES>
+    <deDE>Cenarius</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="9" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Enrage:&lt;/b&gt; +3 Attack</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. &lt;b&gt;Accès de rage :&lt;/b&gt; +3 ATQ</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。&lt;b&gt;狂怒:&lt;/b&gt;+3攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，&lt;b&gt;激怒：&lt;/b&gt;+3攻击力。</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. &lt;b&gt;Исступление:&lt;/b&gt; получает +3 к атаке.</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Enfurecer:&lt;/b&gt; +3 de Ataque.</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;. &lt;b&gt;Szał:&lt;/b&gt; +3 do ataku.</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;. &lt;b&gt;격노:&lt;/b&gt; 공격력 +3</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. &lt;b&gt;Rabbia:&lt;/b&gt; +3 Attacco.</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;. &lt;b&gt;Enfurecer:&lt;/b&gt; +3 de Ataque</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Enfurecer:&lt;/b&gt; +3 p. de ataque.</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;, &lt;b&gt;Wutanfall:&lt;/b&gt; +3 Angriff</deDE>
+    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Give your other minions +2/+2; or Summon two 2/2 Treants with &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; confère +2/+2 à vos autres serviteurs ou invoque deux tréants 2/2 avec &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;使你其他的手下+2/+2，或召喚兩個有&lt;b&gt;嘲諷&lt;/b&gt;的2/2樹人</zhTW>
+    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：使你的所有其他随从获得+2/+2；或者召唤两个2/2并具有&lt;b&gt;嘲讽&lt;/b&gt;的树人。</zhCN>
+    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; остальные ваши существа получают +2/+2; или призовите на поле боя двух древней 2/2 со способностью &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +2/+2 aos seus outros lacaios ou evoque dois Arvorosos 2/2 com &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj wszystkim swoim pozostałym stronnikom +2/+2; lub przyzwij dwa drzewce 2/2 z &lt;b&gt;Prowokacją&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;선택&lt;/b&gt; - 내 다른 하수인들에게 +2/+2를 부여합니다. 또는 &lt;b&gt;도발&lt;/b&gt; 능력이 있는 2/2 나무정령을 둘 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; fornisce +2/+2 a tutti gli altri tuoi servitori o evoca due Treant 2/2 con &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +2/+2 a tus otros esbirros o invoca dos Antárboles 2/2 con &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Otorga +2/+2 a tus otros esbirros, o bien invoca dos antárboles 2/2 con &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Verleiht Euren anderen Dienern +2/+2; oder ruft zwei Treants (2/2) mit &lt;b&gt;Spott&lt;/b&gt; herbei.</deDE>
   </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Demigod</enUS>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Paul Warzecha</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Tauren Warrior: Champion of Mulgore, Slayer of Quilboar, Rider of Thunderbluff Elevators.</enUS>
-    <zhTW>牛頭人戰士:莫高雷的勇士，野豬人的殺手，雷霆崖電梯的乘客。</zhTW>
-    <zhCN>牛头人战士：莫高雷勇士，野猪人杀手，雷霆崖电梯发明者。</zhCN>
-    <ruRU>Таурен-воин, защитник Мулгора, гроза Иглошкурых и покоритель подъемников Громового Утеса.</ruRU>
-    <ptBR>Guerreiro Tauren: Campeão de Mulgore, Matador de Javatuscos, Passageiro dos Elevadores do Penhasco do Trovão.</ptBR>
-    <plPL>Tauren w walce, Hordzie lżej!</plPL>
-    <koKR>타우렌 전사: 멀고어의 용사, 가시멧돼지 학살자, 썬더블러프 승강기 애호가</koKR>
-    <itIT>Guerriero Tauren: Campione di Mulgore, Sterminatore di Verrospino, Cavalcascensori di Picco del Tuono.</itIT>
-    <frFR>Guerrier tauren : champion d’arène, tueur de hyènes, chevaucheur de phalènes.</frFR>
-    <esMX>Tauren guerrero: Campeón de Mulgore, Asesino de Jabaespines, Jinete de los ascensores de la Cima del Trueno.</esMX>
-    <esES>El tauren guerrero: campeón de Mulgore, asesino de jabaespines, superviviente de los ascensores de Cima del Trueno.</esES>
-    <deDE>Taurenkrieger: Champion von Mulgore, Schrecken der Stacheleber, Befahrer der Aufzüge von Donnerfels.</deDE>
+    <enUS>Yes, he's a demigod. No, he doesn't need to wear a shirt.</enUS>
+    <zhTW>是的，他是個半神。不，他不需要穿上衣。</zhTW>
+    <zhCN>没错，他是个半神。不，他没必要穿衬衫。</zhCN>
+    <ruRU>Да, он действительно полубог. Нет, он не носит рубашки.</ruRU>
+    <ptBR>Sim ele é um semideus. Não, ele não precisa usar uma camisa.</ptBR>
+    <plPL>Tak, to półbóg. Nie, nie musi nosić koszuli.</plPL>
+    <koKR>반신반의하시나요? 네, 이 친구 반신반인 맞습니다. 그래서인지 반신욕을 싫어한다더군요.</koKR>
+    <itIT>Sì, è un semidio. No, non ha bisogno di indossare una maglietta.</itIT>
+    <frFR>Oui, c’est un demi-dieu et non, il n’a pas besoin de porter de chemise.</frFR>
+    <esMX>Sí, es un semidiós. No, no necesita una camisa.</esMX>
+    <esES>Sí, es un semidiós. No, no le pasa nada en la mano.</esES>
+    <deDE>Ja, er ist ein Halbgott. Und nein, er braucht kein Hemd zu tragen.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Tag name="Enrage" enumID="212" type="Bool" value="1" />
-  <Power definition="2230834b-e487-4757-a6a7-eac254e65f81" />
-  <Power definition="a556b058-cbd3-4548-b5fd-2596c782201c" />
+  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
 </Entity>

@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_155ae">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_409e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mark of Nature</enUS>
-    <frFR>Marque de la nature</frFR>
-    <zhTW>自然印記</zhTW>
-    <zhCN>自然印记</zhCN>
-    <ruRU>Знак Природы</ruRU>
-    <ptBR>Marca da Natureza</ptBR>
-    <plPL>Znak natury</plPL>
-    <koKR>자연의 징표</koKR>
-    <itIT>Marchio della Natura</itIT>
-    <esMX>Marca de la naturaleza</esMX>
-    <esES>Marca de la Naturaleza</esES>
-    <deDE>Mal der Natur</deDE>
+    <enUS>Upgraded</enUS>
+    <frFR>Améliorée</frFR>
+    <zhTW>已升級</zhTW>
+    <zhCN>升级</zhCN>
+    <ruRU>Улучшение</ruRU>
+    <ptBR>Aprimorado</ptBR>
+    <plPL>Ulepszono</plPL>
+    <koKR>강화됨</koKR>
+    <itIT>Perfezionata</itIT>
+    <esMX>Mejorada</esMX>
+    <esES>Mejorada</esES>
+    <deDE>Aufgewertet</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This minion has +4 Attack.</enUS>
-    <frFR>Ce serviteur a +4 ATQ.</frFR>
-    <zhTW>這個手下擁有+4攻擊力。</zhTW>
-    <zhCN>该随从获得+4攻击力。</zhCN>
-    <ruRU>Это существо получило +4 к атаке.</ruRU>
-    <ptBR>Este lacaio tem +4 de Ataque.</ptBR>
-    <plPL>Ten stronnik ma +4 do ataku.</plPL>
-    <koKR>공격력 +4</koKR>
-    <itIT>+4 Attacco.</itIT>
-    <esMX>Este esbirro tiene +4 de Ataque.</esMX>
-    <esES>Este esbirro tiene +4 p. de ataque.</esES>
-    <deDE>Dieser Diener hat +4 Angriff.</deDE>
+    <enUS>+1 Attack and +1 Durability.</enUS>
+    <frFR>+1 ATQ et +1 Durabilité.</frFR>
+    <zhTW>+1攻擊力及+1耐久度</zhTW>
+    <zhCN>+1攻击力和+1耐久度。</zhCN>
+    <ruRU>+1 к атаке, +1 к прочности.</ruRU>
+    <ptBR>+1 de Ataque e +1 de Durabilidade.</ptBR>
+    <plPL>+1 do ataku oraz +1 do wytrzymałości.</plPL>
+    <koKR>공격력 +1, 내구도 +1</koKR>
+    <itIT>+1 Attacco e +1 Integrità.</itIT>
+    <esMX>+1 de Ataque y +1 de Durabilidad.</esMX>
+    <esES>+1 p. de ataque y +1 p. de durabilidad.</esES>
+    <deDE>+1 Angriff und +1 Haltbarkeit.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="77783117-f736-4243-a5c4-7634a79acb2d" />
+  <Power definition="a9c9276c-7b7e-432f-a92b-665db5999e7c" />
 </Entity>

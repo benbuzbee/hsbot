@@ -1,65 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_414">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_189">
+  <MasterPower>1d8c64df-efd1-4c47-8a7c-fe2b670aa3f5</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Grommash Hellscream</enUS>
-    <frFR>Grommash Hurlenfer</frFR>
-    <zhTW>葛羅瑪許·地獄吼</zhTW>
-    <zhCN>格罗玛什·地狱咆哮</zhCN>
-    <ruRU>Громмаш Адский Крик</ruRU>
-    <ptBR>Grommash Grito Infernal</ptBR>
-    <plPL>Grommasz Piekłorycz</plPL>
-    <koKR>그롬마쉬 헬스크림</koKR>
-    <itIT>Grommash Malogrido</itIT>
-    <esMX>Grommash Grito Infernal</esMX>
-    <esES>Grommash Grito Infernal</esES>
-    <deDE>Grommash Höllschrei</deDE>
+    <enUS>Elven Archer</enUS>
+    <frFR>Archère elfe</frFR>
+    <zhTW>精靈弓箭手</zhTW>
+    <zhCN>精灵弓箭手</zhCN>
+    <ruRU>Эльфийская лучница</ruRU>
+    <ptBR>Arqueira Élfica</ptBR>
+    <plPL>Elfia łuczniczka</plPL>
+    <koKR>엘프 궁수</koKR>
+    <itIT>Arciera Elfica</itIT>
+    <esMX>Arquera élfica</esMX>
+    <esES>Arquera elfa</esES>
+    <deDE>Elfenbogenschützin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="8" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="9" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;.  &lt;b&gt;Enrage:&lt;/b&gt; +6 Attack</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;. &lt;b&gt;Accès de rage :&lt;/b&gt; +6 ATQ</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。&lt;b&gt;狂怒:&lt;/b&gt;+6攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，&lt;b&gt;激怒：&lt;/b&gt;+6攻击力</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Исступление:&lt;/b&gt; +6 к атаке.</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. &lt;b&gt;Enfurecer:&lt;/b&gt; +6 de Ataque</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. &lt;b&gt;Szał:&lt;/b&gt; +6 do ataku.</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;. &lt;b&gt;격노:&lt;/b&gt; 공격력 +6</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Rabbia:&lt;/b&gt; +6 Attacco.</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;. &lt;b&gt;Enfurecer:&lt;/b&gt; +6 de Ataque</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;. &lt;b&gt;Enfurecer:&lt;/b&gt; +6 p. de ataque.</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;, &lt;b&gt;Wutanfall:&lt;/b&gt; +6 Angriff</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 1 point de dégâts.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成1點傷害</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;造成1点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 1 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 1 de dano.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 1 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 피해를 1 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 1 danno.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 1 de daño.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 1 p. de daño.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verursacht 1 Schaden.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Deal 1 damage.</enUS>
+    <frFR>Inflige 1 point de dégâts.</frFR>
+    <zhTW>造成1點傷害。</zhTW>
+    <zhCN>造成1点伤害。</zhCN>
+    <ruRU>Нанести 1 ед. урона</ruRU>
+    <ptBR>Cause 1 de dano.</ptBR>
+    <plPL>Zadaj 1 pkt. obrażeń.</plPL>
+    <koKR>피해 1</koKR>
+    <itIT>Infligge 1 danno.</itIT>
+    <esMX>Inflige 1 de daño.</esMX>
+    <esES>Inflige 1 p. de daño.</esES>
+    <deDE>Verursacht 1 Schaden.</deDE>
+  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Glenn Rane</enUS>
+    <enUS>Steve Prescott</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Grommash drank the tainted blood of Mannoroth, dooming the orcs to green skin and red eyes!  Maybe not his best decisision.</enUS>
-    <zhTW>葛羅瑪許喝了瑪諾洛斯的腐化之血，使得獸人皮膚變綠，眼睛變紅!這應該是他比較爛的決定之一。</zhTW>
-    <zhCN>格罗玛什饮下玛诺洛斯之血，让因此受到诅咒的兽人们皮肤变绿、双眼变红！真是不明智的选择。</zhCN>
-    <ruRU>Громмаш выпил оскверненную кровь Маннорота, и с тех пор у всех орков зеленая кожа и красные глаза. Никогда не повторяйте его ошибки!</ruRU>
-    <ptBR>Grommash bebeu do sangue maculado de Mannoroth, amaldiçoando todos os orcs com pele verde e olhos vermelhos! Acho que não foi uma boa decisão.</ptBR>
-    <plPL>Grommasz wypił splugawioną krew Mannorota, skazując orków na zieloną skórę i czerwone oczy. To chyba nie była najlepsza decyzja.</plPL>
-    <koKR>그롬마쉬는 만노로스의 오염된 피를 마시고, 오크들에게 영원히 사라지지 않는 초록색 피부와 붉은 눈을 남겼습니다! 썩 좋은 생각은 아니었던 것 같네요.</koKR>
-    <itIT>Grommash bevve il sangue infetto di Mannoroth, condannando gli Orchi alla pelle verde e agli occhi rossi! Forse non è stata la sua decisione migliore.</itIT>
-    <frFR>Grommash a bu le sang contaminé de Mannoroth, condamnant les orcs à avoir la peau verte et les yeux rouges ! Ce n’était peut-être pas sa meilleure décision...</frFR>
-    <esMX>Grommash bebió la sangre mácula de Mannoroth, ¡y condenó a los orcos a tener piel verde y ojos rojos! No fue su mejor momento...</esMX>
-    <esES>Grommash bebió la sangre demoníaca de Mannoroth, condenando a los orcos a tener piel verde y desatando el primer escándalo de dopaje de Azeroth.</esES>
-    <deDE>Grommash trank einst das verderbte Blut Mannoroths und verdammte so sein Volk zu grüner Haut und roten Augen! Er soll schon bessere Entscheidungen getroffen haben.</deDE>
+    <enUS>Don't bother asking her out on a date.  She'll shoot you down.</enUS>
+    <zhTW>不要想約她出去。她會朝著你放箭。</zhTW>
+    <zhCN>媚眼如丝，轻盈如燕，致命如箭。</zhCN>
+    <ruRU>Даже не пытайтесь пригласить ее на свидание. Она умеет стрелять не только глазами.</ruRU>
+    <ptBR>Nem adianta se apaixonar. Ela atira para todos os lados.</ptBR>
+    <plPL>Lepiej nie zapraszaj jej na randkę. Bo jak cię strzeli...</plPL>
+    <koKR>그녀에게 작업 걸 생각 마세요. 머리에 화살 맞습니다.</koKR>
+    <itIT>Si sconsiglia di non invitarla fuori a cena. Farebbe letteralmente breccia nel tuo cuore. </itIT>
+    <frFR>N’essayez même pas de l’inviter à sortir, elle filerait comme une flèche.</frFR>
+    <esMX>No te molestes en invitarla a salir: te va a dejar clavado.</esMX>
+    <esES>No te molestes en ligar con ella. Las flechas de Cupido no le impresionan.</esES>
+    <deDE>Fragt sie bloß nicht nach einem Date – oder Ihr werdet erfahren, wie sehr Amors Pfeil schmerzen kann.</deDE>
   </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Tag name="Enrage" enumID="212" type="Bool" value="1" />
-  <Power definition="55bfc2cf-d7ec-4b5f-afbe-6d1e782cbe07" />
-  <Power definition="693463cf-4069-4133-a3a0-fd9f63ad1b15" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Druid Level 57.</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="1d8c64df-efd1-4c47-8a7c-fe2b670aa3f5">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="9" param="" />
+  </Power>
 </Entity>

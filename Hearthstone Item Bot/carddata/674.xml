@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_026t">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_554t">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Violet Apprentice</enUS>
-    <frFR>Apprenti pourpre</frFR>
-    <zhTW>紫羅蘭學徒</zhTW>
-    <zhCN>紫罗兰学徒</zhCN>
-    <ruRU>Маг-ученик</ruRU>
-    <ptBR>Aprendiz Violeta</ptBR>
-    <plPL>Czeladnik Purpurowych</plPL>
-    <koKR>보랏빛 수습생</koKR>
-    <itIT>Apprendista Violaceo</itIT>
-    <esMX>Aprendiz violeta</esMX>
-    <esES>Aprendiz violeta</esES>
-    <deDE>Violetter Lehrling</deDE>
+    <enUS>Snake</enUS>
+    <frFR>Serpent</frFR>
+    <zhTW>蛇</zhTW>
+    <zhCN>蛇</zhCN>
+    <ruRU>Змея</ruRU>
+    <ptBR>Cobra</ptBR>
+    <plPL>Wąż</plPL>
+    <koKR>뱀</koKR>
+    <itIT>Serpe</itIT>
+    <esMX>Culebra</esMX>
+    <esES>Culebra</esES>
+    <deDE>Schlange</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
   <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
 </Entity>

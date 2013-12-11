@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_011">
-  <MasterPower>70d268ce-756c-49cf-9437-fb0dbceb0ac4</MasterPower>
+<Entity version="2" CardID="EX1_597">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Savage Roar</enUS>
-    <frFR>Rugissement sauvage</frFR>
-    <zhTW>兇蠻咆哮</zhTW>
-    <zhCN>野蛮咆哮</zhCN>
-    <ruRU>Дикий рев</ruRU>
-    <ptBR>Rugido Selvagem</ptBR>
-    <plPL>Dziki ryk</plPL>
-    <koKR>야생의 포효</koKR>
-    <itIT>Ruggito Selvaggio</itIT>
-    <esMX>Rugido salvaje</esMX>
-    <esES>Rugido salvaje</esES>
-    <deDE>Wildes Brüllen</deDE>
+    <enUS>Imp Master</enUS>
+    <zhTW>小鬼召喚師</zhTW>
+    <zhCN>小鬼召唤师</zhCN>
+    <ruRU>Владычица бесов</ruRU>
+    <ptBR>Diabrete Mestre</ptBR>
+    <plPL>Chochlistrzyni</plPL>
+    <koKR>임프 소환사</koKR>
+    <itIT>Signora degli Imp</itIT>
+    <frFR>Maître des diablotins</frFR>
+    <esMX>Maestra de diablillos</esMX>
+    <esES>Maestra de diablillos</esES>
+    <deDE>Wichtelmeisterin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your characters +2 Attack this turn.</enUS>
-    <frFR>Confère +2 ATQ à vos personnages pendant ce tour.</frFR>
-    <zhTW>本回合賦予你全部的角色+2攻擊力。</zhTW>
-    <zhCN>在本回合中，使你的所有角色获得+2攻击力。</zhCN>
-    <ruRU>Ваши персонажи получают +2 к атаке до конца хода.</ruRU>
-    <ptBR>Conceda +2 de Ataque aos seus personagens neste turno.</ptBR>
-    <plPL>W tej turze daj swoim postaciom +2 do ataku.</plPL>
-    <koKR>이번 턴에 내 캐릭터들에게 공격력을 +2 부여합니다.</koKR>
-    <itIT>Fornisce +2 Attacco ai tuoi personaggi in questo turno.</itIT>
-    <esMX>Otorga a tus personajes +2 de Ataque en este turno.</esMX>
-    <esES>Otorga a tus personajes +2 p. de ataque este turno.</esES>
-    <deDE>Verleiht Euren Charakteren +2 Angriff in diesem Zug.</deDE>
+    <enUS>At the end of your turn, deal 1 damage to this minion and summon a 1/1 Imp.</enUS>
+    <zhTW>你的回合結束時，使其受到1點傷害並召喚一個1/1小鬼</zhTW>
+    <zhCN>在你的回合结束时，对该随从造成1点伤害，并召唤一个1/1的小鬼。</zhCN>
+    <ruRU>В конце вашего хода получает 1 ед. урона и призывает на поле боя беса 1/1.</ruRU>
+    <ptBR>No final do seu turno, cause 1 de dano a este lacaio e evoque um Diabrete 1/1.</ptBR>
+    <plPL>Na koniec twojej tury ten stronnik otrzymuje 1 pkt. obrażeń i przyzywa chochlika 1/1.</plPL>
+    <koKR>내 턴이 끝날 때, 피해를 1 입고 1/1 임프를 하나 소환합니다.</koKR>
+    <itIT>Alla fine del tuo turno, la Signora degli Imp subisce 1 danno ed evoca un Imp 1/1.</itIT>
+    <frFR>À la fin de votre tour, ce serviteur subit 1 point de dégâts et invoque un diablotin 1/1.</frFR>
+    <esMX>Al final de tu turno, inflige 1 de daño a este esbirro e invoca un Diablillo 1/1.</esMX>
+    <esES>Al final de tu turno, inflige 1 p. de daño a este esbirro e invoca a un diablillo 1/1.</esES>
+    <deDE>Fügt am Ende Eures Zuges diesem Diener 1 Schaden zu und beschwört einen Wichtel (1/1).</deDE>
   </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Imp Master</enUS>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Grace Liu</enUS>
+    <enUS>Mark Gibbons</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>What do they roar? Nobody can quite tell, but it sounds like "Elephant Macho Breeze".  It's probably not that, though.</enUS>
-    <zhTW>他們在吼什麼?沒有人能說得清楚，不過聽起來像是在大吼「我是猛男」。這大概也不是真正的涵義啦。</zhTW>
-    <zhCN>显然这对火元素和水元素也有作用。难道这说明元素也是长耳朵的吗？</zhCN>
-    <ruRU>О чем они ревут? Никто не знает. Может, о далеких краях и прекрасных женщинах. Хотя вряд ли.</ruRU>
-    <ptBR>O que elas rugem? Ninguém sabe ao certo, mas parece "Xampu de Elefante Vesgo". Só que provavelmente não é isso.</ptBR>
-    <plPL>Co dokładnie ryczą? Tego nie wie nikt, ale brzmi jak ryk godowy słonia. Choć to pewnie nie to.</plPL>
-    <koKR>뭐라고 포효하는 걸까요? 아무도 자신 있게 말할 순 없지만, 얼핏 들리기로는 "이이!"라고 외치는 것 같습니다. 이게 대체 무슨 뜻일까요?</koKR>
-    <itIT>Cosa esprimono i loro ruggiti? Nessuno può dirlo, ma sembra quasi "Oh Long Johnson". Probabilmente non si tratta di questo.</itIT>
-    <frFR>C’est quoi ce rugissement ? On dirait un éléphant en rut... Mais ce n’est probablement pas ça.</frFR>
-    <esMX>¿Por qué rugen? Nadie lo sabe, pero tampoco importa. Si los oyes, lo más sensato es correr.</esMX>
-    <esES>¿Por qué rugen? ¿Tienen hambre? Nadie lo sabe.</esES>
-    <deDE>Immer noch besser als wildes Geheule.</deDE>
+    <enUS>She would enjoy the job a lot more if she just could get the imps to QUIT BITING HER.</enUS>
+    <zhTW>如果那些小鬼不會一直咬她，她應該會更喜歡這份工作。</zhTW>
+    <zhCN>如果她能让这些小鬼不再咬她的话，她会更加享受这份工作的。</zhCN>
+    <ruRU>Эта работа нравилась бы ей гораздо больше, если б только бесы не были такими кусачими!</ruRU>
+    <ptBR>Ela gostaria mais do trabalho se conseguisse fazer com que os diabretes parem de mordê-la.</ptBR>
+    <plPL>Znacznie bardziej lubiłaby swoją pracę, gdyby chochliki w końcu przestały JĄ KĄSAĆ!</plPL>
+    <koKR>"임프들이 자꾸 깨물지만 않는다면, 아마 이 일이 훨씬 더 즐거울 거야."</koKR>
+    <itIT>Apprezzerebbe molto di più il suo lavoro se riuscisse a convincere gli imp a SMETTERE DI MORDERLA.</itIT>
+    <frFR>Elle apprécierait davantage son travail si elle pouvait empêcher les diablotins de la MORDRE.</frFR>
+    <esMX>Disfrutaría mucho más del trabajo si pudiera lograr que los diablillos DEJARAN DE MORDERLA.</esMX>
+    <esES>Disfrutaría más de su trabajo si no fuera por los mordiscos de los diablillos.</esES>
+    <deDE>Viele Wichtel waren schon immer Teil ihrer Zukunftsplanung.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 42.</enUS>
-  </Tag>
-  <Power definition="70d268ce-756c-49cf-9437-fb0dbceb0ac4" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="d7439ffd-d405-44f7-bc0c-d774f53584e0" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

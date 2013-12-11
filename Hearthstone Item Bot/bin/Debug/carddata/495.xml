@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_118">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_509e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Magma Rager</enUS>
-    <frFR>Enragé du magma</frFR>
-    <zhTW>熔岩狂怒者</zhTW>
-    <zhCN>岩浆暴怒者</zhCN>
-    <ruRU>Магмовый яростень</ruRU>
-    <ptBR>Furiante de Magma</ptBR>
-    <plPL>Wulkaniczny furiat</plPL>
-    <koKR>용암 광전사</koKR>
-    <itIT>Furia di Magma</itIT>
-    <esMX>Furibundo de magma</esMX>
-    <esES>Furibundo de magma</esES>
-    <deDE>Magmawüter</deDE>
+    <enUS>Blarghghl</enUS>
+    <frFR>Blarghghl</frFR>
+    <zhTW>布拉勾勾</zhTW>
+    <zhCN>咘啦咯咯啦！</zhCN>
+    <ruRU>Арггггг</ruRU>
+    <ptBR>Blarghghl</ptBR>
+    <plPL>Blarghghl</plPL>
+    <koKR>블라옳옳옳</koKR>
+    <itIT>Blarghghl</itIT>
+    <esMX>Blarghghl</esMX>
+    <esES>Blarghghl</esES>
+    <deDE>Blarghghl</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Gaser</enUS>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Increased Attack.</enUS>
+    <frFR>Attaque augmentée.</frFR>
+    <zhTW>攻擊力提高</zhTW>
+    <zhCN>攻击力增加。</zhCN>
+    <ruRU>Атака увеличена.</ruRU>
+    <ptBR>Ataque aumentado.</ptBR>
+    <plPL>Zwiększony atak.</plPL>
+    <koKR>공격력 증가</koKR>
+    <itIT>Attacco aumentato.</itIT>
+    <esMX>Ataque aumentado.</esMX>
+    <esES>Ataque aumentado.</esES>
+    <deDE>Erhöhter Angriff.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Shaman Level 50.</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He likes to think he is powerful, but pretty much anyone can solo Molten Core now.</enUS>
-    <zhTW>牠覺得自己很強，但是現在幾乎每個人都能單刷熔火之心了。</zhTW>
-    <zhCN>尽管现在每个人都能单刷熔火之心了，但他依然觉得自己很厉害。</zhCN>
-    <ruRU>Он воображает себя всемогущим, хотя сейчас любой может пробежать Огненные Недра в одиночку.</ruRU>
-    <ptBR>Ele gosta de se achar poderoso, mas praticamente qualquer um consegue solar o Núcleo Derretido hoje em dia.</ptBR>
-    <plPL>Łudzi się, że jest potężny, ale tak naprawdę każdy może wyskoczyć z nim teraz na solo.</plPL>
-    <koKR>자신이 강하다고 생각하고 생각하지만, 이제 모두 화산 심장부 정도는 혼자 돌 수 있잖아요?</koKR>
-    <itIT>Gli piace pensare di essere potente, ma ormai praticamente chiunque può affrontare Nucleo Ardente in solitaria.</itIT>
-    <frFR>Il se croit puissant, mais de nos jours, quasiment tout le monde peut soloter le Cœur du Magma.</frFR>
-    <esMX>Se cree muy poderoso, pero ahora casi cualquiera puede andar solo por el Núcleo de Magma.</esMX>
-    <esES>Decidió marcharse del Núcleo de Magma por todos esos aventureros que ahora se pasean por la mazmorra como si nada.</esES>
-    <deDE>Er hält sich noch immer für ziemlich mächtig, doch eigentlich kann heutzutage jeder den Geschmolzenen Kern im Alleingang bewältigen.</deDE>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="1355dea6-7725-4a7d-a7dd-4ff073ec504b" />
 </Entity>

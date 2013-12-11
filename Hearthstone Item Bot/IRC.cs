@@ -115,14 +115,15 @@ namespace HSBot
             
             // Otherwise search using contains
             Cards.Card closestMatch = null;
-            int closestDistance = cardname.Length;
+            double closestPercentMatch = 0;
             foreach (Cards.Card c in cards.Values)
             {
-                if (c.Name.ToLower().Contains(cardname.ToLower())) return c;
-                int distance = LevenshteinDistance(cardname.ToLower(), c.Name.ToLower());
-                if (distance <= 3 && distance < closestDistance)
+                
+                double percentMatch = 1 - (LevenshteinDistance(cardname.ToLower(), c.Name.ToLower()) / (double)c.Name.Length);
+                if (c.Name.ToLower().Contains(cardname.ToLower())) percentMatch += .5; // Abuse system a bit by boosting match rate if its a substring
+                if (percentMatch >= .5 && percentMatch > closestPercentMatch)
                 {
-                    closestDistance = distance;
+                    closestPercentMatch = percentMatch;
                     closestMatch = c;
                 }
             }

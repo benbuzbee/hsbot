@@ -1,63 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_316">
-  <MasterPower>74f19b0e-2f0f-40ea-bf8c-3db37a308ddd</MasterPower>
+<Entity version="2" CardID="NEW1_023">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Power Overwhelming</enUS>
-    <frFR>Puissance accablante</frFR>
-    <zhTW>壓倒性的力量</zhTW>
-    <zhCN>力量的代价</zhCN>
-    <ruRU>Переполняющая мощь</ruRU>
-    <ptBR>Poder Esmagador</ptBR>
-    <plPL>Nadmiar mocy</plPL>
-    <koKR>압도적인 힘</koKR>
-    <itIT>Potere Travolgente</itIT>
-    <esMX>Poder sobrecogedor</esMX>
-    <esES>Poder sobrecogedor</esES>
-    <deDE>Überwältigende Macht</deDE>
+    <enUS>Faerie Dragon</enUS>
+    <frFR>Dragon féerique</frFR>
+    <zhTW>精靈龍</zhTW>
+    <zhCN>精灵龙</zhCN>
+    <ruRU>Чудесный дракончик</ruRU>
+    <ptBR>Dragoleta</ptBR>
+    <plPL>Baśniowy smok</plPL>
+    <koKR>요정용</koKR>
+    <itIT>Drago Fatato</itIT>
+    <esMX>Dragón feérico</esMX>
+    <esES>Dragón feérico</esES>
+    <deDE>Feendrache</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.</enUS>
-    <frFR>Confère +4/+4 à un serviteur allié jusqu’à la fin du tour. Puis il meurt. De façon horrible.</frFR>
-    <zhTW>賦予一個友方手下+4/+4直到回合結束。然後，它便會死去。悲慘地死去。</zhTW>
-    <zhCN>直到回合结束，使一个友方随从获得+4/+4，然后将其消灭。</zhCN>
-    <ruRU>Ваше существо получает +4/+4 до конца хода. Потом оно умирает. Ужасной смертью.</ruRU>
-    <ptBR>Conceda +4/+4 a um lacaio aliado até o fim do turno. Depois, ele morre. Uma morte horrível.</ptBR>
-    <plPL>Daj przyjaznemu stronnikowi +4/+4 do końca tury. Następnie stronnik umrze. W męczarniach.</plPL>
-    <koKR>턴이 끝날 때까지 아군 하수인에게 +4/+4를 부여합니다. 턴이 끝나면 하수인은 죽습니다. 처참하게.</koKR>
-    <itIT>Fornisce +4/+4 a un tuo servitore fino alla fine del turno. Poi muore in modo orribile.</itIT>
-    <esMX>Otorga +4/+4 a un esbirro aliado hasta el final del turno. Luego muere. De una forma horrible.</esMX>
-    <esES>Otorga +4/+4 a un esbirro amistoso hasta el final del turno. Luego, el esbirro muere. De forma horrible.</esES>
-    <deDE>Verleiht einem befreundeten Diener bis zum Ende des Zuges +4/+4. Dann stirbt er. Auf schreckliche Art und Weise.</deDE>
+    <enUS>Can't be targeted by Spells or Hero Powers.</enUS>
+    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>
+    <zhTW>無法被法術或英雄能力指定</zhTW>
+    <zhCN>无法成为法术或者英雄技能的目标。</zhCN>
+    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>
+    <ptBR>Não pode ser alvo de Feitiços nem de Poderes Heroicos.</ptBR>
+    <plPL>Nie może stać się celem zaklęcia lub mocy specjalnej.</plPL>
+    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>
+    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>
+    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe</esMX>
+    <esES>No puede ser objetivo de hechizos ni de poderes de héroe.</esES>
+    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten gewählt werden.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tom Baxa</enUS>
+    <enUS>Samwise Didier</enUS>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>We cannot even describe how horrible the death is.  It's CRAZY bad!  Maybe worse than that.  Just don't do it.</enUS>
-    <zhTW>我們根本無法描述這種死亡有多悲慘。像瘋狂一般的慘啊!也許比那樣還糟。反正別這麼做就對了。</zhTW>
-    <zhCN>别让那个随从知道他死后的样子。那惨象无可言状。</zhCN>
-    <ruRU>У нас не хватит слов, чтобы описать, насколько ужасна будет его смерть. Чудовищно ужасна! Или даже хуже... В общем, пожалейте бедное существо.</ruRU>
-    <ptBR>Não conseguimos nem descrever a morte dele, de tão horrível. É BIZARRO de ruim! Talvez ainda pior. É melhor não fazer isso.</ptBR>
-    <plPL>Nie jesteśmy w stanie opisać, jak ogromne są to męczarnie. Są PRZERAŻAJĄCE! Albo jeszcze gorzej. Po prostu tego nie rób.</plPL>
-    <koKR>얼마나 처참하게 죽는지 차마 말로 표현할 수 없을 정도입니다. 너무 끔찍합니다! 아니, 끔찍 그 이상입니다. 그냥 상상하지 마십시오.</koKR>
-    <itIT>Non è possibile descrivere quanto sia atroce questa morte. È terribilmente crudele! Forse anche peggio. Non dovresti farlo.</itIT>
-    <frFR>Impossible de décrire l’horreur de cette mort. Ce n’est VRAIMENT pas beau à voir. Pire encore. Ne le faites pas.</frFR>
-    <esMX>No hay palabras para describir lo horrible que es esa muerte. ¡Es TREMENDAMENTE fea! Horripilante. No lo hagas, por favor.</esMX>
-    <esES>Ni siquiera podríamos describir lo horrible que es esa muerte. ¡Es increíblemente horrorosa! Puede que incluso peor. No lo hagas.</esES>
-    <deDE>Aus überwältigender Macht folgt überwältigende Verantwortung.</deDE>
+    <enUS>Adorable.  Immune to Magic.  Doesn't pee on the rug.  The perfect pet!</enUS>
+    <zhTW>可愛。對魔法免疫。不會在地毯上小便。簡直是完美的寵物!</zhTW>
+    <zhCN>可爱至极，免疫魔法，不会在毯子上撒尿。真是完美的宠物！</zhCN>
+    <ruRU>Очаровательный, милый, неуязвимый к магии и не точит когти о ковер. Идеальный питомец!</ruRU>
+    <ptBR>Adorável. Imune a magia. Não faz xixi no carpete. A mascote perfeita!</ptBR>
+    <plPL>Rozkoszny. Niewrażliwy na magię. Nie sika na dywan. Idealny domowy zwierzak.</plPL>
+    <koKR>깜찍합니다. 마법에 면역입니다. 바닥에 쉬를 하지도 않습니다. 정말 완벽한 애완동물 아닌가요?</koKR>
+    <itIT>Adorabile. Immune alla magia. Non fa i bisogni sul tappeto. Il perfetto animale domestico.</itIT>
+    <frFR>Adorable, insensible à la magie et ne fait pas pipi sur la moquette. L’animal de compagnie parfait !</frFR>
+    <esMX>Adorable. Inmune a la magia. No hace pipí en la alfombra. La mascota ideal.</esMX>
+    <esES>Es adorable, inmune a la magia y barato de mantener. ¡Es la mascota perfecta!</esES>
+    <deDE>Putzig. Immun gegen Magie. Pinkelt nicht auf den Teppich. Das perfekte Haustier!</deDE>
   </Tag>
-  <Power definition="74f19b0e-2f0f-40ea-bf8c-3db37a308ddd">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Power definition="5ec0e8f9-5e93-4545-b083-43f9732457be" />
 </Entity>

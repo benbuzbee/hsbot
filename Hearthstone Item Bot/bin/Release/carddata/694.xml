@@ -1,67 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_122">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_089">
+  <MasterPower>e6c228a5-77cf-4ef5-add4-ed4c3197ce0f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Raid Leader</enUS>
-    <frFR>Chef de raid</frFR>
-    <zhTW>團隊隊長</zhTW>
-    <zhCN>团队领袖</zhCN>
-    <ruRU>Лидер рейда</ruRU>
-    <ptBR>Líder do Raide</ptBR>
-    <plPL>Dowódca rajdu</plPL>
-    <koKR>공격대장</koKR>
-    <itIT>Capoincursione</itIT>
-    <esMX>Líder de banda</esMX>
-    <esES>Líder de banda</esES>
-    <deDE>Schlachtzugsleiter</deDE>
+    <enUS>Holy Light</enUS>
+    <frFR>Lumière sacrée</frFR>
+    <zhTW>聖光術</zhTW>
+    <zhCN>圣光术</zhCN>
+    <ruRU>Свет небес </ruRU>
+    <ptBR>Luz Sagrada</ptBR>
+    <plPL>Święta światłość</plPL>
+    <koKR>성스러운 빛</koKR>
+    <itIT>Luce Sacra</itIT>
+    <esMX>Luz sagrada</esMX>
+    <esES>Luz Sagrada</esES>
+    <deDE>Heiliges Licht</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Restore #6 Health.</enUS>
+    <frFR>Rend #6 |4(point,points) de vie.</frFR>
+    <zhTW>恢復#6點生命值</zhTW>
+    <zhCN>恢复#6点生命值。</zhCN>
+    <ruRU>Восстанавливает #6 ед. здоровья.</ruRU>
+    <ptBR>Restaure #6 de Vida.</ptBR>
+    <plPL>Przywróć #6 pkt. zdrowia.</plPL>
+    <koKR>생명력을 #6 회복시킵니다.</koKR>
+    <itIT>Rigenera #6 Salute.</itIT>
+    <esMX>Restaura #6 de Salud.</esMX>
+    <esES>Restaura #6 p. de salud.</esES>
+    <deDE>Stellt #6 Leben wieder her.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other minions have +1 Attack.</enUS>
-    <frFR>Vos autres serviteurs ont +1 ATQ.</frFR>
-    <zhTW>你的其他手下擁有+1攻擊力。</zhTW>
-    <zhCN>你的其他随从获得+1攻击力。</zhCN>
-    <ruRU>Другие ваши существа получают +1 к атаке.</ruRU>
-    <ptBR>Seus outros lacaios têm +1 de Ataque.</ptBR>
-    <plPL>Twoi pozostali stronnicy otrzymują +1 do ataku.</plPL>
-    <koKR>내 다른 하수인들이 공격력을 +1 얻습니다.</koKR>
-    <itIT>Gli altri tuoi servitori hanno +1 Attacco.</itIT>
-    <esMX>Tus otros esbirros tienen +1 de Ataque.</esMX>
-    <esES>Tus demás esbirros tienen +1 p. de ataque.</esES>
-    <deDE>Eure anderen Diener haben +1 Angriff.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Lead</enUS>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Phill Gonzales</enUS>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warrior Level 55.</enUS>
+    <enUS>Zoltan &amp; Gabor</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"That's a 50 DKP minus!"</enUS>
-    <zhTW>「這要扣掉你50點的DKP!」</zhTW>
-    <zhCN>“谁再敢OT的，扣掉50DKP！”</zhCN>
-    <ruRU>«Минус 50 ДКП!»</ruRU>
-    <ptBR>"Parem de conar, seus cones!"</ptBR>
-    <plPL>Zadaniem dowódcy rajdu jest zaplanować taktykę na wroga, wspierać swoją drużynę w czasie walki i nie załamywać się, kiedy po raz kolejny wszystko pójdzie w diabły.</plPL>
-    <koKR>"바닥! 바닥을 피하라고!"</koKR>
-    <itIT>"Meno 50 DKP!"</itIT>
-    <frFR>Moins 50 DKP !</frFR>
-    <esMX>"¡50 DKP menos!".</esMX>
-    <esES>"¡Te acabas de quedar sin 50 DKP!".</esES>
-    <deDE>„Das sind 50 Minus-DKP!“</deDE>
+    <enUS>If you are often bathed in Holy Light, you should consider wearing sunscreen.</enUS>
+    <zhTW>如果你經常沐浴在聖光之下，你可能得考慮擦點防曬油。</zhTW>
+    <zhCN>如果你经常暴露于圣光之下，你应该考虑随身带着防晒霜。</zhCN>
+    <ruRU>Если вы часто купаетесь в лучах света небес, не забывайте о солнцезащитных средствах.</ruRU>
+    <ptBR>Se você sempre se expõe à Luz Sagrada, deveria começar a pensar em usar um protetor solar.</ptBR>
+    <plPL>Jeśli często znajdujesz się pod wpływem świętej światłości, zainwestuj w krem z filtrem.</plPL>
+    <koKR>종종 성스러운 빛에 노출되신다면, 자외선 차단제를 바르세요.</koKR>
+    <itIT>Se sei frequentemente esposto alla Luce Sacra, usa una protezione solare.</itIT>
+    <frFR>L’abus de lumière sacrée peut nuire à la santé de votre peau.</frFR>
+    <esMX>Si vas a exponerte a la Luz sagrada, mejor que uses bronceador.</esMX>
+    <esES>Con tanta Luz Sagrada que invocan los paladines, es muy importante ponerse protección solar.</esES>
+    <deDE>Führt bei fortwährender Anwendung zu einem gesunden Teint.</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="0b60aef9-0ee0-4d18-a768-39a81ac74c64" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 15.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="e6c228a5-77cf-4ef5-add4-ed4c3197ce0f">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

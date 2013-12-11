@@ -1,63 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_558">
-  <MasterPower>5d39914d-7f77-4fef-8c69-fa08db5ab6ae</MasterPower>
+<Entity version="2" CardID="EX1_014">
+  <MasterPower>bfc8471e-08fb-412b-a569-c7f1709c90eb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Harrison Jones</enUS>
-    <frFR>Harrison Jones</frFR>
-    <zhTW>哈里遜·瓊斯</zhTW>
-    <zhCN>哈里森·琼斯</zhCN>
-    <ruRU>Харрисон Джонс</ruRU>
-    <ptBR>Harrison Jones</ptBR>
-    <plPL>Harrison Jones</plPL>
-    <koKR>해리슨 존스</koKR>
-    <itIT>Harrison Jones</itIT>
-    <esMX>Harrison Jones</esMX>
-    <esES>Harrison Jones</esES>
-    <deDE>Harrison Jones</deDE>
+    <enUS>King Mukla</enUS>
+    <frFR>Roi Mukla</frFR>
+    <zhTW>穆克拉</zhTW>
+    <zhCN>穆克拉</zhCN>
+    <ruRU>Король Мукла</ruRU>
+    <ptBR>Rei Mukla</ptBR>
+    <plPL>Król Mukla</plPL>
+    <koKR>밀림의 왕 무클라</koKR>
+    <itIT>Re Mukla</itIT>
+    <esMX>Rey Mukla</esMX>
+    <esES>Rey Mukla</esES>
+    <deDE>König Mukla</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon and draw cards equal to its Durability.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit l’arme de votre adversaire. Vous piochez le nombre de cartes équivalent à sa durabilité.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀對手的武器並抽相當於其耐久度的牌。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁对手的武器，并抽数量等同于其耐久度的牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает оружие противника. Вы берете карты в количестве, равном его прочности.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua a arma de seu oponente e compre o mesmo número de cards que a durabilidade da arma.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz broń przeciwnika i dobierz tyle kart, ile wynosiła jej wytrzymałość.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편의 무기를 파괴하고 그 무기의 내구도만큼 카드를 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge l'arma dell'avversario e pesca un numero di carte pari alla sua Integrità.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye el arma de tu adversario y roba cartas equivalentes a su Durabilidad.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye el arma de tu oponente y roba una cantidad de cartas equivalente a su durabilidad.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zerstört die Waffe Eures Gegners. Zieht ihrer Haltbarkeit entsprechend Karten.</deDE>
-  </Tag>
+  <Tag name="Health" enumID="45" type="Number" value="5" />
   <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give your opponent 2 Bananas.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne 2 bananes à votre adversaire.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;給你的對手2根香蕉</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使你的对手获得2个香蕉。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваш противник получает 2 банана.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda 2 Bananas ao seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przeciwnikowi 2 banany.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편에게 바나나 2개를 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce 2 Banane all'avversario.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga 2 Bananas a tu adversario.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Da 2 plátanos a tu oponente.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Gebt Eurem Gegner 2 Bananen.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Dixon</enUS>
+    <enUS>Imaginary FS</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>“That belongs in the Hall of Explorers!”</enUS>
-    <zhTW>「那件文物應該被放到探險者大廳!」</zhTW>
-    <zhCN>“这东西应该陈列在探险者大厅里！”</zhCN>
-    <ruRU>«Этому место в Зале Исследователей!»</ruRU>
-    <ptBR>"Isso pertence ao Salão dos Exploradores!"</ptBR>
-    <plPL>„Jestem poszukiwaczem zaginionej parki!”</plPL>
-    <koKR>"저건 탐험가의 전당에 있어야만 해!"</koKR>
-    <itIT>“Deve stare in un museo!”</itIT>
-    <frFR>« Sa place est dans le hall des Explorateurs ! »</frFR>
-    <esMX>“Debería estar en la Sala de los Expedicionarios”.</esMX>
-    <esES>"¡Debería estar en la Sala de los Expedicionarios!".</esES>
-    <deDE>„Das gehört in die Halle der Forscher!“</deDE>
+    <enUS>King Mukla wanders Jaguero Isle, searching for love.</enUS>
+    <zhTW>穆克拉在哈圭羅島上遊盪，尋找他的真愛。</zhTW>
+    <zhCN>穆克拉在哈圭罗岛上徘徊，寻找他的真爱。</zhCN>
+    <ruRU>Однажды король Мукла блуждал по острову Жагуаро в поисках любви.</ruRU>
+    <ptBR>O Rei Mukla vaga pela Ilha Jaguara em busca do amor.</ptBR>
+    <plPL>Ulubiona potrawa Króla Mukli to oczywiście banany. I bułka!</plPL>
+    <koKR>밀림의 왕 무클라는 오늘도 자구에로 섬을 떠돕니다. 진정한 사랑을 찾기 위해...</koKR>
+    <itIT>Signore e signori, ecco a voi Mukla, l'ottava meraviglia del mondo.</itIT>
+    <frFR>Le roi Mukla s’est rendu sur l’île aux Jagueros pour trouver l’amour.</frFR>
+    <esMX>Rey Mukla merodea por la Isla Jaguero... en busca de amor.</esMX>
+    <esES>La única carta que se preocupa por el nivel de potasio del contrincante.</esES>
+    <deDE>König Mukla durchstreift die Insel Jaguero auf der Suche nach Liebe.</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="5d39914d-7f77-4fef-8c69-fa08db5ab6ae" />
+  <Power definition="bfc8471e-08fb-412b-a569-c7f1709c90eb" />
 </Entity>

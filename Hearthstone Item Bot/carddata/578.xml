@@ -1,49 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_168">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_059">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Raider</enUS>
-    <frFR>Écumeur murloc</frFR>
-    <zhTW>魚人劫掠者</zhTW>
-    <zhCN>鱼人袭击者</zhCN>
-    <ruRU>Мурлок-налетчик</ruRU>
-    <ptBR>Murloc Saqueador</ptBR>
-    <plPL>Murlok grabieżca</plPL>
-    <koKR>멀록 약탈꾼</koKR>
-    <itIT>Murloc Incursore</itIT>
-    <esMX>Asaltante múrloc</esMX>
-    <esES>Asaltante múrloc</esES>
-    <deDE>Murlocräuber</deDE>
+    <enUS>Blood Imp</enUS>
+    <frFR>Diablotin de sang</frFR>
+    <zhTW>血之小鬼</zhTW>
+    <zhCN>鲜血小鬼</zhCN>
+    <ruRU>Кровавый бес</ruRU>
+    <ptBR>Diabrete de Sangue</ptBR>
+    <plPL>Chochlik krwi</plPL>
+    <koKR>피의 임프</koKR>
+    <itIT>Imp del Sangue</itIT>
+    <esMX>Diablillo de sangre</esMX>
+    <esES>Diablillo sangriento</esES>
+    <deDE>Blutwichtel</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;. Your other minions have +1 Health.</enUS>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;. Vos autres serviteurs ont +1 PV.</frFR>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;。你的其他手下獲得+1生命值</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;，你的其他随从获得+1生命值。</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. Другие ваши существа получают +1 к здоровью.</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;. Seus outros lacaios têm +1 de Vida.</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Twoi pozostali stronnicy otrzymują +1 do zdrowia.</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;. 내 다른 하수인들이 생명력을 +1 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;. Gli altri tuoi servitori hanno +1 Salute.</itIT>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;. Tus otros esbirros tienen +1 de Salud.</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;. Tus demás esbirros tienen +1 p. de salud.</esES>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;. Eure anderen Diener haben +1 Leben.</deDE>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="15" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Blood Pact</enUS>
+  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Scott</enUS>
+    <enUS>Bernie Kang</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</enUS>
-    <zhTW>姆拉嘎啦啦嘎嘎，啦姆嘎姆嘎嘎啦啦，姆啦嘎嘎嘎嘎嘎嘎，嘎啦卡爾洛斯嘎嘎啦嘎嘎嘎啦啦嘎!</zhTW>
-    <zhCN>姆啦啦咯哈姆噶啊啊嘎，姆啦嘎嘎咯，啵啦啦嗯嘞噶哈，姆啦嗝，咯啦哈哈吧啦咯。加尔鲁什咯嘛啦喝，嘛啦咯呵！</zhCN>
-    <ruRU>Мррраггглхлхгхгхлгх, мргаааг бларргхлгаахахл мргггг глхалхах а бгххлл граггмгмг Гаррош мглхлхлх мргхлхлх!!!</ruRU>
-    <ptBR>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</ptBR>
-    <plPL>Mrrraggglhlhghghlgh, śpiewać... mrgaaag... każdy... blarrghlgaahahle... może mrgggg... trochę lepiej... glhalhah a bghhll... lub trochę gorzej... mglhlhlh mrghlhlhl!!</plPL>
-    <koKR>아옳옳옳옳옳옳옳, 아옳옳옳 옳옳옳옳옳, 옳옳옳옳옳, 아옳옳옳옳옳옳옳! 아옳옳옳, 아옳옳옳옳!</koKR>
-    <itIT>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</itIT>
-    <frFR>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlh l!!</frFR>
-    <esMX>¡Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!</esMX>
-    <esES>¡¡Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</esES>
-    <deDE>Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!</deDE>
+    <enUS>Imps are content to hide and viciously taunt everyone nearby.</enUS>
+    <zhTW>小鬼對於能躲起來並滿懷惡意地嘲諷附近的所有人感到很滿意。</zhTW>
+    <zhCN>小鬼喜欢躲在暗处嘲讽附近的所有人，并且对此乐此不疲。</zhCN>
+    <ruRU>Почему у кровавых бесов глаза желтые? Чтобы лучше прятаться в бананах! Что, вы никогда не видели беса в бананах? Хорошо прячется!</ruRU>
+    <ptBR>Os diabretes se contentam em se esconder e provocar todo mundo feito um grude.</ptBR>
+    <plPL>Chochliki uwielbiają chować się w cieniu i złośliwie działać wszystkim na nerwy.</plPL>
+    <koKR>임프들은 숨어서 주위의 모두를 격하게 도발하는 행위를 즐깁니다. 그냥 즐깁니다.</koKR>
+    <itIT>Può sembrare strano, ma gli piace la carne ben cotta.</itIT>
+    <frFR>Ces petits diablotins adorent se cacher et jouer de mauvais tours à tous ceux qui passent à leur portée.</frFR>
+    <esMX>Los diablillos se conforman con ocultarse y provocar a todos los paseantes.</esMX>
+    <esES>¡Esto no estaba en su contrato!</esES>
+    <deDE>Wichtel geben sich damit zufrieden, sich zu verstecken und dann wahllos Leute zu beleidigen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Priest Level 50.</enUS>
-  </Tag>
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="87bd7870-bbcc-4953-875e-b7c76cdbc397" />
+  <Power definition="9fdc365e-edd4-4d6d-842e-315e5c632b1b" />
 </Entity>

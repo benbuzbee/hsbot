@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_355e">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Templar's Verdict</enUS>
     <frFR>Verdict du templier</frFR>
@@ -22,7 +20,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>This minion's Attack has been doubled.</enUS>
     <frFR>L’Attaque de ce serviteur a été doublée.</frFR>
-    <zhTW>這個手下的攻擊力加倍。</zhTW>
+    <zhTW>這個手下的攻擊力加倍</zhTW>
     <zhCN>该随从的攻击力翻倍。</zhCN>
     <ruRU>Атака этого существа удвоена.</ruRU>
     <ptBR>O Ataque do seu lacaio foi dobrado.</ptBR>

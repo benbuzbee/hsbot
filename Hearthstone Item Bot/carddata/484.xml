@@ -1,65 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_055">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_061">
+  <MasterPower>56647e8e-df83-4230-b6f9-1755433490f3</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Darkscale Healer</enUS>
-    <frFR>Soigneuse sombrécaille</frFR>
-    <zhTW>暗鱗醫者</zhTW>
-    <zhCN>暗鳞治愈者</zhCN>
-    <ruRU>Нага-целительница</ruRU>
-    <ptBR>Curadora Escamanegra</ptBR>
-    <plPL>Uzdrawiaczka Mrocznołuskich</plPL>
-    <koKR>어둠비늘 치유사</koKR>
-    <itIT>Guaritrice Scagliascura</itIT>
-    <esMX>Sanadora escama oscura</esMX>
-    <esES>Sanadora Escama Oscura</esES>
-    <deDE>Dunkelschuppenheilerin</deDE>
+    <enUS>Drain Life</enUS>
+    <frFR>Drain de vie</frFR>
+    <zhTW>吸取生命</zhTW>
+    <zhCN>吸取生命</zhCN>
+    <ruRU>Похищение жизни</ruRU>
+    <ptBR>Drenar Vida</ptBR>
+    <plPL>Wyssanie życia</plPL>
+    <koKR>생명력 흡수</koKR>
+    <itIT>Risucchio di Vita</itIT>
+    <esMX>Drenar vida</esMX>
+    <esES>Drenar vida</esES>
+    <deDE>Blutsauger</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 2 Health to all friendly characters.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; rend 2 points de vie à tous les personnages alliés.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;替全部友方角色恢復2點生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;为所有友方角色恢复2点生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; восстанавливает 2 ед. здоровья всем вашим персонажам.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Restaure 2 de Vida de todos os personagens aliados.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przywróć 2 pkt. zdrowia wszystkim przyjaznym postaciom.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 모든 아군 캐릭터의 생명력을 2 회복시킵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; rigenera 2 Salute a tutti i tuoi personaggi.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; restaura 2 de Salud a todos los personajes aliados.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Restaura 2 p. de salud a todos los personajes amistosos.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Stellt bei allen befreundeten Charakteren 2 Leben wieder her.</deDE>
+    <enUS>Deal $2 damage. Restore #2 Health to your hero.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts. Rend #2 |4(point,points) de vie à votre héros.</frFR>
+    <zhTW>造成$2點傷害。使你的英雄恢復#2點生命值</zhTW>
+    <zhCN>造成$2点伤害，为你的英雄恢复#2点生命值。</zhCN>
+    <ruRU>Наносит $2 ед. урона. Восстанавливает #2 ед. здоровья вашему герою.</ruRU>
+    <ptBR>Cause $2 de dano. Restaure #2 de Vida do seu herói.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń. Przywróć #2 pkt. zdrowia swojemu bohaterowi.</plPL>
+    <koKR>피해를 $2 줍니다. 내 영웅이 생명력을 #2 회복합니다.</koKR>
+    <itIT>Infligge $2 danni. Rigenera #2 Salute al tuo eroe.</itIT>
+    <esMX>Inflige $2 de daño. Restaura #2 de Salud a tu héroe.</esMX>
+    <esES>Inflige $2 p. de daño. Restaura #2 p. de salud a tu héroe.</esES>
+    <deDE>Verursacht $2 Schaden. Stellt bei Eurem Helden #2 Leben wieder her.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jesper Ejsing</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Priest Level 54.</enUS>
+    <enUS>Don Hazeltine</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Healing is just something she does in her free time.   It's more of a hobby really.</enUS>
-    <zhTW>治療只是她閒暇時做的事情。其實應該算是嗜好，真的。</zhTW>
-    <zhCN>她只是在闲暇时间做一些治疗工作。这其实只不过是一个爱好罢了。</zhCN>
-    <ruRU>Целительством она занимается в свободное время. Вообще, это просто ее хобби.</ruRU>
-    <ptBR>Ela só cura quando tem um tempo livre mesmo. É mais um hobby, na verdade.</ptBR>
-    <plPL>Uzdrawianiem zajmuje się w wolnym czasie. To w zasadzie hobby takie.</plPL>
-    <koKR>차가워 보이지만 사실은 따스하게 회복해주는 여자입니다. </koKR>
-    <itIT>Curare è una cosa che fa solo nel tempo libero. È più un hobby, in realtà.</itIT>
-    <frFR>Soigner, c’est juste ce qu’elle fait dès qu’elle a un peu de temps libre. Une sorte de passe-temps, quoi.</frFR>
-    <esMX>Sanar es algo que hace en su tiempo libre. Hasta podría decirse que es un pasatiempo.</esMX>
-    <esES>Le gusta sanar en su tiempo libre.</esES>
-    <deDE>Sie ist eigentlich nur eine Heilerin auf Teilzeit.</deDE>
+    <enUS>"I've just sucked one year of your life away."</enUS>
+    <zhTW>「我剛吸走了你一年的壽命。」</zhTW>
+    <zhCN>“我只是减少了你一年的寿命而已。”</zhCN>
+    <ruRU>«Я только что отнял у тебя лучший год твоей жизни».</ruRU>
+    <ptBR>"Acabei de sugar um ano da sua vida."</ptBR>
+    <plPL>„Właśnie wyssałem ci rok życia”.</plPL>
+    <koKR>"제가 동안을 유지하는 비결이죠."</koKR>
+    <itIT>"Ti ho appena risucchiato un anno di vita."</itIT>
+    <frFR>« Tu ne le sais pas encore mais tu es déjà mort ! »</frFR>
+    <esMX>"Tu sufrimiento es mi felicidad".</esMX>
+    <esES>"Te acabo de quitar un año de vida. No se admiten devoluciones".</esES>
+    <deDE>„Ich habe Euch gerade ein Jahr Eures Lebens ausgesaugt.“</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="591b001d-08af-4377-b046-74f1d700531d" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 45.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="56647e8e-df83-4230-b6f9-1755433490f3">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

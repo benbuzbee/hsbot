@@ -1,64 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_507">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CRED_07">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Warleader</enUS>
-    <frFR>Chef de guerre murloc</frFR>
-    <zhTW>魚人隊長</zhTW>
-    <zhCN>鱼人领军</zhCN>
-    <ruRU>Мурлок-полководец</ruRU>
-    <ptBR>Líder Guerreiro Murloc</ptBR>
-    <plPL>Nadmurlok</plPL>
-    <koKR>멀록 전투대장</koKR>
-    <itIT>Gran Condottiero Murloc</itIT>
-    <esMX>Líder de guerra múrloc</esMX>
-    <esES>Líder de guerra múrloc</esES>
-    <deDE>Murlocanführer</deDE>
+    <enUS>Zwick</enUS>
+    <zhTW>Zwick</zhTW>
+    <zhCN>Zwick</zhCN>
+    <ruRU>Zwick</ruRU>
+    <ptBR>Zwick</ptBR>
+    <plPL>Zwick</plPL>
+    <koKR>즈윅</koKR>
+    <itIT>Zwick</itIT>
+    <frFR>Zwick</frFR>
+    <esMX>Zwick</esMX>
+    <esES>Zwick</esES>
+    <deDE>Zwick</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>ALL other Murlocs have +2/+1.</enUS>
-    <frFR>TOUS les autres murlocs ont +2/+1.</frFR>
-    <zhTW>全部其他魚人獲得+2/+1。</zhTW>
-    <zhCN>所有其他鱼人获得+2/+1。</zhCN>
-    <ruRU>ВСЕ прочие мурлоки получают +2/+1.</ruRU>
-    <ptBR>TODOS os outros Murlocs têm +2/+1.</ptBR>
-    <plPL>Wszystkie pozostałe murloki otrzymują +2/+1.</plPL>
-    <koKR>다른 &lt;b&gt;모든&lt;/b&gt; 멀록이 +2/+1을 얻습니다.</koKR>
-    <itIT>TUTTI gli altri Murloc hanno +2/+1.</itIT>
-    <esMX>TODOS los otros múrlocs tienen +2/+1.</esMX>
-    <esES>Todos los demás múrlocs tienen +2/+1.</esES>
-    <deDE>ALLE anderen Murlocs haben +2/+1.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Complain about bacon prices.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抱怨培根的價格</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抱怨火腿的价格。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; возмущается ценами на бекон.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Reclama sobre o preço do bacon.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Narzekaj na ceny bekonu.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 베이컨 가격이 너무 비싸다고 불평합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; si lamenta dei prezzi del bacon.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; se plaint du prix du bacon.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; se queja de lo caro que está el tocino.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Se queja por el precio del bacon.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Beschwert Euch über die Bacon-Preise.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tim McBurnie</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!</enUS>
-    <zhTW>魚人一直叫同樣的聲音不累嗎?並不會!姆拉嘎啦啦嘎嘎!!</zhTW>
-    <zhCN>鱼人们老是发出一样的声音，难道不觉得厌烦吗？不！姆格拉咕嗯噜咕噜咕噜咕噜咕噜！</zhCN>
-    <ruRU>Как вы думаете, мурлоки когда-нибудь устают издавать один и тот же звук? Ничего подобного! Мрглглглглглглг!</ruRU>
-    <ptBR>Os murlocs não enjoam de ficar fazendo sempre o mesmo som? Não! Mrglglrglglglglglglgl!</ptBR>
-    <plPL>Czy murloki znudzą się kiedyś wydawaniem tego dźwięku?  Nie ma mowy!  Mrglglrglglglglglglgl!</plPL>
-    <koKR>멀록들은 매일 똑같은 소리만 내는 게 지겹지 않을까요? 아니요! 므라아옳옳옳옳옳옳!</koKR>
-    <itIT>Ma i Murloc non si stancano mai di ripetere sempre lo stesso verso? NO. Mrglglrglglglglglglgl!</itIT>
-    <frFR>Est-ce que les murlocs se lassent de pousser toujours le même cri ? Bien sûr que non ! Mrglglrglglglglglglgl !</frFR>
-    <esMX>¿Los múrlocs nunca se cansan de hacer el mismo ruidito? ¡No! Mrglglrglglglglglglgl</esMX>
-    <esES>¿Alguna vez nos cansaremos de imitar el sonido de los múrlocs? ¡No! ¡Mrglglrglglglglglglgl!</esES>
-    <deDE>Wird es Murlocs jemals zu blöd, immer wieder denselben alten Laut von sich zu geben? Neeee! Mrglglrglglglglglglgl!</deDE>
-  </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="58695e7b-cec4-4333-9dc5-26bebcef653f" />
 </Entity>

@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_089">
-  <MasterPower>e6c228a5-77cf-4ef5-add4-ed4c3197ce0f</MasterPower>
+<Entity version="2" CardID="EX1_102">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Holy Light</enUS>
-    <frFR>Lumière sacrée</frFR>
-    <zhTW>聖光術</zhTW>
-    <zhCN>圣光术</zhCN>
-    <ruRU>Свет небес </ruRU>
-    <ptBR>Luz Sagrada</ptBR>
-    <plPL>Święta światłość</plPL>
-    <koKR>성스러운 빛</koKR>
-    <itIT>Luce Sacra</itIT>
-    <esMX>Luz sagrada</esMX>
-    <esES>Luz Sagrada</esES>
-    <deDE>Heiliges Licht</deDE>
+    <enUS>Demolisher</enUS>
+    <frFR>Démolisseur</frFR>
+    <zhTW>石毀車</zhTW>
+    <zhCN>攻城车</zhCN>
+    <ruRU>Разрушитель</ruRU>
+    <ptBR>Demolidor</ptBR>
+    <plPL>Burzyciel</plPL>
+    <koKR>파괴전차</koKR>
+    <itIT>Demolitore</itIT>
+    <esMX>Demoledor</esMX>
+    <esES>Demoledor</esES>
+    <deDE>Verwüster</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="8" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Catapult</enUS>
+  </Tag>
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore #6 Health.</enUS>
-    <frFR>Rend #6 |4(point,points) de vie.</frFR>
-    <zhTW>恢復#6點生命值。</zhTW>
-    <zhCN>恢复#6点生命值。</zhCN>
-    <ruRU>Восстанавливает #6 ед. здоровья.</ruRU>
-    <ptBR>Restaure #6 de Vida.</ptBR>
-    <plPL>Przywróć #6 pkt. zdrowia.</plPL>
-    <koKR>생명력을 #6 회복시킵니다.</koKR>
-    <itIT>Rigenera #6 Salute.</itIT>
-    <esMX>Restaura #6 de Salud.</esMX>
-    <esES>Restaura #6 p. de salud.</esES>
-    <deDE>Stellt #6 Leben wieder her.</deDE>
+    <enUS>At the start of your turn, deal 2 damage to a random enemy.</enUS>
+    <frFR>Au début de votre tour, inflige 2 points de dégâts à un adversaire aléatoire.</frFR>
+    <zhTW>在你的回合開始時，對隨機一名敵人造成2點傷害</zhTW>
+    <zhCN>在你的回合开始时，对一个随机敌人造成2点伤害。</zhCN>
+    <ruRU>В начале вашего хода наносит 2 ед. урона случайному персонажу противника.</ruRU>
+    <ptBR>No início do seu turno, cause 2 de dano a um inimigo aleatório.</ptBR>
+    <plPL>Na początku swojej tury zadaj 2 pkt. obrażeń losowemu wrogowi.</plPL>
+    <koKR>내 턴이 시작될 때, 무작위 적 하나에게 피해를 2 줍니다.</koKR>
+    <itIT>All'inizio del tuo turno, infligge 2 danni a un nemico casuale.</itIT>
+    <esMX>Al comienzo de tu turno, inflige 2 de daño a un enemigo aleatorio.</esMX>
+    <esES>Al comienzo de tu turno, inflige 2 p. de daño a un enemigo aleatorio.</esES>
+    <deDE>Fügt zu Beginn Eures Zuges einem zufälligen Feind 2 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Zoltan &amp; Gabor</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you are often bathed in Holy Light, you should consider wearing sunscreen.</enUS>
-    <zhTW>如果你經常沐浴在聖光之下，你可能得考慮擦點防曬油。</zhTW>
-    <zhCN>如果你经常暴露于圣光之下，你应该考虑随身带着防晒霜。</zhCN>
-    <ruRU>Если вы часто купаетесь в лучах света небес, не забывайте о солнцезащитных средствах.</ruRU>
-    <ptBR>Se você sempre se expõe à Luz Sagrada, deveria começar a pensar em usar um protetor solar.</ptBR>
-    <plPL>Jeśli często znajdujesz się pod wpływem świętej światłości, zainwestuj w krem z filtrem.</plPL>
-    <koKR>종종 성스러운 빛에 노출되신다면, 자외선 차단제를 바르세요.</koKR>
-    <itIT>Se sei frequentemente esposto alla Luce Sacra, usa una protezione solare.</itIT>
-    <frFR>L’abus de lumière sacrée peut nuire à la santé de votre peau.</frFR>
-    <esMX>Si vas a exponerte a la Luz sagrada, mejor que uses bronceador.</esMX>
-    <esES>Con tanta Luz Sagrada que invocan los paladines, es muy importante ponerse protección solar.</esES>
-    <deDE>Führt bei fortwährender Anwendung zu einem gesunden Teint.</deDE>
+    <enUS>Laying siege isn't fun for anyone.  It's not even all that effective, now that everyone has a flying mount.</enUS>
+    <zhTW>攻城戰對大家來說都不好玩。而且，效果還不怎麼樣，因為現在大家都有飛行坐騎了。</zhTW>
+    <zhCN>攻城这件事一点儿也不好玩，而且通常还不怎么奏效，因为现在人人都有飞行坐骑。</zhCN>
+    <ruRU>Какой смысл начинать осаду, когда нынче почти у всех есть летающие средства передвижения?</ruRU>
+    <ptBR>Os cercos já não são mais tão divertidos. Eles nem têm mais tanto sentido, agora que todo mundo tem montarias voadoras.</ptBR>
+    <plPL>Prowadzenie oblężeń nie jest już zabawne. Ani też skuteczne, odkąd każdy ma latającego wierzchowca.</plPL>
+    <koKR>모두 나는 탈것을 타고 다니는 지금은 설 곳을 잃은 녀석입니다.</koKR>
+    <itIT>Costruire macchine d'assedio non è più utile come una volta. Specialmente ora che tutti hanno una cavalcatura volante.</itIT>
+    <frFR>Les sièges, personne n’aime ça. En plus, ce n’est vraiment pas efficace maintenant que tout le monde a des montures volantes.</frFR>
+    <esMX>No a todos les parece divertido asediar fortalezas. Y ahora que todos tienen monturas voladoras, ni siquiera es tan efectivo.</esMX>
+    <esES>Los asedios ya no son lo mismo ahora que todo el mundo tiene montura voladora.</esES>
+    <deDE>Belagerungen sind nicht für jeden etwas. Sie sind nicht einmal mehr effektiv, jetzt da alle ein Flugreittier besitzen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 20.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="e6c228a5-77cf-4ef5-add4-ed4c3197ce0f">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="2d0126bc-9600-4aab-ba63-094ad5167af1" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

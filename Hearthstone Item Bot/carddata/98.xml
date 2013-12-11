@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_275">
-  <MasterPower>b13d477d-17c7-42d5-884a-a8518077e042</MasterPower>
+<Entity version="2" CardID="EX1_095">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Cone of Cold</enUS>
-    <frFR>Cône de froid</frFR>
-    <zhTW>冰錐術</zhTW>
-    <zhCN>冰锥术</zhCN>
-    <ruRU>Конус холода</ruRU>
-    <ptBR>Cone de Frio</ptBR>
-    <plPL>Stożek zimna</plPL>
-    <koKR>냉기 돌풍</koKR>
-    <itIT>Cono di Freddo</itIT>
-    <esMX>Cono de frío</esMX>
-    <esES>Cono de frío</esES>
-    <deDE>Kältekegel</deDE>
+    <enUS>Gadgetzan Auctioneer</enUS>
+    <frFR>Commissaire-priseur</frFR>
+    <zhTW>加基森拍賣師</zhTW>
+    <zhCN>加基森拍卖师</zhCN>
+    <ruRU>Гоблин-аукционист</ruRU>
+    <ptBR>Leiloeiro de Geringontzan</ptBR>
+    <plPL>Licytator z Gadżetonu</plPL>
+    <koKR>가젯잔 경매인</koKR>
+    <itIT>Banditore di Meccania</itIT>
+    <esMX>Subastador de Gadgetzan</esMX>
+    <esES>Subastador de Gadgetzan</esES>
+    <deDE>Goblinauktionator</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Freeze&lt;/b&gt; a minion and the minions next to it, and deal $1 damage to them.</enUS>
-    <frFR>&lt;b&gt;Gèle&lt;/b&gt; et inflige $1 |4(point,points) de dégâts à un serviteur et ceux à côté de lui.</frFR>
-    <zhTW>&lt;b&gt;凍結&lt;/b&gt;一個手下及其兩側的手下，並對他們造成$1點傷害。</zhTW>
-    <zhCN>&lt;b&gt;冻结&lt;/b&gt;一个随从和其相邻的随从，并对它们造成$1点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Замораживает&lt;/b&gt; выбранное существо и существа по обе стороны от него и наносит им $1 ед. урона.</ruRU>
-    <ptBR>&lt;b&gt;Congele&lt;/b&gt; um lacaio e os lacaios vizinhos, causando-lhes $1 de dano.</ptBR>
-    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; stronnika oraz stronników obok niego i zadaj im $1 pkt. obrażeń.</plPL>
-    <koKR>하수인과 그 양옆의 하수인들을 &lt;b&gt;빙결&lt;/b&gt; 상태로 만들고 피해를 $1 줍니다.</koKR>
-    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; a un servitore e ai servitori adiacenti, e infligge loro $1 danno.</itIT>
-    <esMX>&lt;b&gt;Congela&lt;/b&gt; a un esbirro y a los esbirros adyacentes a él y les inflige $1 de daño.</esMX>
-    <esES>&lt;b&gt;Congela&lt;/b&gt; a un esbirro y a los esbirros adyacentes al mismo y les inflige $1 p. de daño.</esES>
-    <deDE>&lt;b&gt;Friert&lt;/b&gt; einen Diener sowie seine benachbarten Diener ein und fügt ihnen $1 Schaden zu.</deDE>
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Auctioning</enUS>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever you cast a spell, draw a card.</enUS>
+    <frFR>Vous piochez une carte chaque fois que vous lancez un sort.</frFR>
+    <zhTW>每當你施放法術，抽一張牌</zhTW>
+    <zhCN>每当你施放一个法术时，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда вы разыгрываете заклинание, вы берете карту.</ruRU>
+    <ptBR>Ao lançar um feitiço, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy rzucisz zaklęcie.</plPL>
+    <koKR>내가 주문을 한 번 시전할 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Ogni volta che lanci una Magia, pesca una carta.</itIT>
+    <esMX>Cada vez que lanzas un hechizo, roba una carta.</esMX>
+    <esES>Cuando lanzas un hechizo, roba una carta.</esES>
+    <deDE>Zieht jedes Mal eine Karte, wenn Ihr einen Zauber wirkt.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.</enUS>
-    <zhTW>祈倫托的法師本來都愛用&lt;i&gt;冰塊術&lt;/i&gt;，直到90多年前甜筒開始流行。</zhTW>
-    <zhCN>冰锥术在大约90年前开始流行起来，而在那之前，肯瑞托的法师们习惯用的是冰块术。</zhCN>
-    <ruRU>Маги Кирин-Тора издавна создавали Кубики холода, но кубизм вышел из моды лет этак 90 назад.</ruRU>
-    <ptBR>Os magos do Kirin Tor já lançavam Cubos de Frio muitos anos antes de os Cones entrarem na moda, há uns 90 anos.</ptBR>
-    <plPL>Tak wygląda walec zimna poddany obróbce ze skrawaniem.</plPL>
-    <koKR>키린 토 마법사들은 주문 시전의 최신 유행을 선도합니다. 90년 전 마법사들이 냉기 장풍을 쓰는 모습을 본다면, 분명 촌스럽다고 생각하실 겁니다.</koKR>
-    <itIT>I Maghi del Kirin Tor capaci di lanciare questo incantesimo sono molto ricercati sulle spiagge di Azeroth.</itIT>
-    <frFR>Les magi du Kirin Tor ont longtemps lancé des cubes de froid avant que les cônes ne deviennent à la mode il y a environ 90 ans.</frFR>
-    <esMX>Los magos del Kirin Tor conjuraban cubos de frío mucho antes de que los conos se pusieran de moda hace unos 90 años.</esMX>
-    <esES>Más frío que robando pingüinos.</esES>
-    <deDE>Die Magier der Kirin Tor wirkten lange Jahre den „Kältekubus“, bevor der Kegel vor etwa 90 Jahren in Mode kam.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Concept Art House</enUS>
+    <enUS>Matt Dixon</enUS>
   </Tag>
-  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
-  <Power definition="b13d477d-17c7-42d5-884a-a8518077e042">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He used to run the black market auction house, but there was just too much violence and he had to move.</enUS>
+    <zhTW>他原本在經營黑市的拍賣場，後來暴力問題實在太嚴重，他只好搬家。</zhTW>
+    <zhCN>他曾经经营过黑市的拍卖行，但是那里的暴力冲突太多了，他只好被迫离开。</zhCN>
+    <ruRU>Когда-то он заведовал аукционом на черном рынке, но его утомляли постоянные драки среди покупателей.</ruRU>
+    <ptBR>Ele costumava gerenciar a casa de leilões do mercado negro, mas a violência foi aumentando e ele teve que mudar de negócio.</ptBR>
+    <plPL>Kiedyś prowadził czarnorynkowy dom aukcyjny, ale zrezygnował z powodu nadmiaru przemocy.</plPL>
+    <koKR>암시장 경매장을 운영하던 때도 있었지만, 너무 폭력이 난무하는 바람에 옮길 수 밖에 없었답니다.</koKR>
+    <itIT>Gestiva l'asta del mercato nero di Meccania, ma c'era troppa violenza e si è dovuto trasferire.</itIT>
+    <frFR>Il était en charge de l’hôtel des ventes au marché noir, mais il y avait trop de violence et il a dû partir.</frFR>
+    <esMX>Alguna vez fue el encargado de la casa de subastas del mercado negro, pero el lugar era tan violento que al final tuvo que irse.</esMX>
+    <esES>¡Viva el mal, viva el capital!</esES>
+    <deDE>Früher leitete er das Schwarzmarktauktionshaus, aber leider endete es nur in Gewalt und er musste sich ein neues Auskommen sichern.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="7352f544-1894-4ec6-a5a0-1c51b3ef8535" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

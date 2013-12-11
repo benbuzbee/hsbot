@@ -1,80 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_150">
-  <MasterPower>67914002-5c70-412e-aa3d-6e08983694fd</MasterPower>
+<Entity version="2" CardID="EX1_165b">
+  <MasterPower>8121198e-6dc6-405d-8b2d-0c4d2a6e4e59</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Stormpike Commando</enUS>
-    <frFR>Commando foudrepique</frFR>
-    <zhTW>雷矛特種兵</zhTW>
-    <zhCN>雷矛特种兵</zhCN>
-    <ruRU>Дворф-диверсант</ruRU>
-    <ptBR>Comando Lançatroz</ptBR>
-    <plPL>Komandos Gromdardy</plPL>
-    <koKR>스톰파이크 특공대</koKR>
-    <itIT>Commando dei Piccatonante</itIT>
-    <esMX>Comando Pico tormenta</esMX>
-    <esES>Comando Pico Tormenta</esES>
-    <deDE>Sturmlanzenkommando</deDE>
+    <enUS>Bear Form</enUS>
+    <frFR>Forme d’ours</frFR>
+    <zhTW>熊形態</zhTW>
+    <zhCN>熊形态</zhCN>
+    <ruRU>Облик медведя</ruRU>
+    <ptBR>Forma de Urso</ptBR>
+    <plPL>Postać niedźwiedzia</plPL>
+    <koKR>곰 변신</koKR>
+    <itIT>Forma d'Orso</itIT>
+    <esMX>Forma de oso</esMX>
+    <esES>Forma de oso</esES>
+    <deDE>Bärengestalt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 2 damage.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 2 points de dégâts.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成2點傷害。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;造成2点伤害。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 2 ед. урона.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 2 de dano.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 2 pkt. obrażeń.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 피해를 2 줍니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 2 danni.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 2 de daño.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 2 p. de daño.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verursacht 2 Schaden.</deDE>
+    <enUS>+2 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>+2 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>+2生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>+2生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+    <ruRU>+2 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>+2 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>+2 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
+    <koKR>생명력 +2와 &lt;b&gt;도발&lt;/b&gt; 능력을 얻습니다.</koKR>
+    <itIT>+2 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>+2 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>+2 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>+2 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Deal 2 damage.</enUS>
-    <frFR>Inflige 2 points de dégâts.</frFR>
-    <zhTW>造成2點傷害。</zhTW>
-    <zhCN>造成2点伤害。</zhCN>
-    <ruRU>Нанести 2 ед. урона</ruRU>
-    <ptBR>Cause 2 de dano.</ptBR>
-    <plPL>Zadaj 2 pkt. obrażeń.</plPL>
-    <koKR>피해 2</koKR>
-    <itIT>Infligge 2 danni.</itIT>
-    <esMX>Inflige 2 de daño.</esMX>
-    <esES>Inflige 2 p. de daño.</esES>
-    <deDE>Verursacht 2 Schaden.</deDE>
-  </Tag>
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Kev Walker</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Stormpike Commandos are demolition experts.  They also bake a mean cupcake.</enUS>
-    <zhTW>雷矛特種兵是爆破專家。他們也非常會烤杯形餅。</zhTW>
-    <zhCN>雷矛特种兵都是爆破专家。他们还会烘焙简易的蛋糕。</zhCN>
-    <ruRU>Дворфы-диверсанты специализируются на подрывных работах. И никогда не откажутся от ром-бабы.</ruRU>
-    <ptBR>Os Comandos Lançatroz são peritos em demolição. Eles também preparam uns bolinhos deliciosos.</ptBR>
-    <plPL>Komandosi Gromdardy to eksperci od materiałów wybuchowych. Wypiekają także przepyszne babeczki.</plPL>
-    <koKR>스톰파이크 특공대는 파괴 전문가들입니다. 그렇다고 컵케잌까지 그런 방식으로 만들 필요는 없었잖아요.</koKR>
-    <itIT>I Commando dei Piccatonante sono esperti in demolizioni, ma preparano dei pasticcini veramente orrendi... evitateli!</itIT>
-    <frFR>Les commandos foudrepiques sont des experts en démolition. Mais aussi du barbecue en toute saison.</frFR>
-    <esMX>Los comando Pico tormenta son expertos en demolición. Y hornean unos pastelitos deliciosos.</esMX>
-    <esES>Los comandos Pico Tormenta se infiltran en territorio enemigo para quemar torres Lobo Gélido.</esES>
-    <deDE>Diese Elitesoldaten der Sturmlanzen sind Meister sowohl im Abreißen feindlicher Türme als auch im Backen bombiger Küchlein.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Paladin Level 50.</enUS>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="67914002-5c70-412e-aa3d-6e08983694fd">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="9" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="8121198e-6dc6-405d-8b2d-0c4d2a6e4e59" />
 </Entity>

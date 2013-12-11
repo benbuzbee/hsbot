@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_074e">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_590e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Deadly Poison</enUS>
-    <zhTW>致命毒藥</zhTW>
-    <zhCN>致命药膏</zhCN>
-    <ruRU>Смертоносный яд</ruRU>
-    <ptBR>Veneno Mortal</ptBR>
-    <plPL>Zabójcza trucizna</plPL>
-    <koKR>맹독</koKR>
-    <itIT>Veleno Mortale</itIT>
-    <frFR>Poison mortel</frFR>
-    <esMX>Veneno mortal</esMX>
-    <esES>Veneno mortal</esES>
-    <deDE>Tödliches Gift</deDE>
+    <enUS>Shadows of M'uru</enUS>
+    <frFR>Ombres de M’uru</frFR>
+    <zhTW>莫魯之影</zhTW>
+    <zhCN>穆鲁之影</zhCN>
+    <ruRU>Тени М'ууру</ruRU>
+    <ptBR>Sombras de M'uru</ptBR>
+    <plPL>Cienie M'uru</plPL>
+    <koKR>므우루의 그림자</koKR>
+    <itIT>Ombre di M'uru</itIT>
+    <esMX>Sombras de M'uru</esMX>
+    <esES>Sombras de M'uru</esES>
+    <deDE>Schatten von M'uru</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack.</enUS>
-    <zhTW>+2攻擊力。</zhTW>
-    <zhCN>+2攻击力。</zhCN>
-    <ruRU>+2 к атаке.</ruRU>
-    <ptBR>+2 de Ataque.</ptBR>
-    <plPL>+2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>+2 Attacco.</itIT>
-    <frFR>+2 ATQ.</frFR>
-    <esMX>+2 de Ataque.</esMX>
-    <esES>+2 p. de ataque.</esES>
-    <deDE>+2 Angriff.</deDE>
+    <enUS>This minion has consumed Divine Shields and has increased Attack and Health.</enUS>
+    <frFR>Ce serviteur a consumé les Boucliers divins, et ses points d’Attaque et de Vie sont augmentés.</frFR>
+    <zhTW>這個手下吞噬了聖盾術，攻擊力及生命值提高</zhTW>
+    <zhCN>该随从吞噬了圣盾，攻击力和生命值增加。</zhCN>
+    <ruRU>Поглощенные щиты увеличили атаку и здоровье.</ruRU>
+    <ptBR>Este lacaio consumiu Escudos Divinos e tem Vida e o Ataque aumentados.</ptBR>
+    <plPL>Ten stronnik wchłonął boskie tarcze i ma zwiększony atak i zdrowie.</plPL>
+    <koKR>천상의 보호막을 흡수하여 공격력과 생명력 증가</koKR>
+    <itIT>Attacco e Salute aumentati in seguito al consumo degli Scudi Divini.</itIT>
+    <esMX>Este esbirro ha consumido Escudos divinos y tiene Ataque y Salud aumentados.</esMX>
+    <esES>Este esbirro ha consumido Escudos divinos y ha aumentado su ataque y su salud.</esES>
+    <deDE>Angriff und Leben durch aufgezehrte Gottesschilde erhöht.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="413a42ee-15fe-492d-90ae-a6765d8c2cd8" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="de86eae2-d7ae-44f9-803e-600f223cf3a7" />
 </Entity>

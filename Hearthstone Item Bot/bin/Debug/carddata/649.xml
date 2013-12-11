@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_146o">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_053e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sharpened</enUS>
-    <frFR>Aiguisé</frFR>
-    <zhTW>磨利</zhTW>
-    <zhCN>打磨</zhCN>
-    <ruRU>Отточенный до блеска</ruRU>
-    <ptBR>Afiada</ptBR>
-    <plPL>Ostrość</plPL>
-    <koKR>무기 연마</koKR>
-    <itIT>Affilata</itIT>
-    <esMX>Afilado</esMX>
-    <esES>Afilada</esES>
-    <deDE>Geschärft</deDE>
+    <enUS>Far Sight</enUS>
+    <zhTW>視界術</zhTW>
+    <zhCN>视界术</zhCN>
+    <ruRU>Дальнее зрение</ruRU>
+    <ptBR>Visão Distante</ptBR>
+    <plPL>Dalekowidzenie</plPL>
+    <koKR>천리안</koKR>
+    <itIT>Sguardo Lontano</itIT>
+    <frFR>Double vue</frFR>
+    <esMX>Visión lejana</esMX>
+    <esES>Visión lejana</esES>
+    <deDE>Fernsicht</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+1 Durability.</enUS>
-    <frFR>+1 Durabilité.</frFR>
-    <zhTW>+1耐久度。</zhTW>
-    <zhCN>+1耐久度。</zhCN>
-    <ruRU>+1 к прочности.</ruRU>
-    <ptBR>+1 de Durabilidade.</ptBR>
-    <plPL>+1 do wytrzymałości.</plPL>
-    <koKR>내구도 +1</koKR>
-    <itIT>+1 Integrità.</itIT>
-    <esMX>+1 de Durabilidad.</esMX>
-    <esES>+1 p. de durabilidad.</esES>
-    <deDE>+1 Haltbarkeit.</deDE>
+    <enUS>One of your cards costs (3) less.</enUS>
+    <zhTW>你的其中一張牌消耗減少(3)點</zhTW>
+    <zhCN>你的一张手牌的法力值消耗减少（3）点。</zhCN>
+    <ruRU>Одна из ваших карт стоит на (3) маны меньше.</ruRU>
+    <ptBR>Um de seus cards custa (3) a menos.</ptBR>
+    <plPL>Jedna z twoich kart kosztuje (3) mniej.</plPL>
+    <koKR>카드 1장의 비용이 (3) 감소</koKR>
+    <itIT>Una delle tue carte costa (3) Mana in meno.</itIT>
+    <frFR>Une de vos cartes coûte (3) cristaux de moins.</frFR>
+    <esMX>Una de tus cartas cuesta (3) menos.</esMX>
+    <esES>Una de tus cartas cuesta (3) cristales menos.</esES>
+    <deDE>Eine Eurer Karten kostet (3) weniger.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="eaffeed6-b1a5-4d36-98e7-80a3ccbca4cf" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Lars Grant-West</enUS>
+  </Tag>
+  <Power definition="e6a83073-6fbd-4922-a0a3-8da51ec5f809" />
 </Entity>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CRED_17">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Rob Pardo</enUS>
     <zhTW>Rob Pardo</zhTW>
@@ -25,7 +23,7 @@
   <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>You can't start a game without this minion in your deck.</enUS>
-    <zhTW>你的套牌裡面必須要有這個手下，否則無法開始。</zhTW>
+    <zhTW>你的套牌裡面必須要有這個手下，否則無法開始</zhTW>
     <zhCN>如果你的套牌中没有该随从，则你无法开始任何比赛。</zhCN>
     <ruRU>Вы не можете начать игру без этого существа в колоде.</ruRU>
     <ptBR>Você não pode começar o jogo sem esse lacaio no seu deck.</ptBR>

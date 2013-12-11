@@ -27,7 +27,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 1 damage. &lt;b&gt;Combo:&lt;/b&gt; Deal 2 instead.</enUS>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 1 point de dégâts. &lt;b&gt;Combo :&lt;/b&gt; inflige 2 points de dégâts à la place.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成1點傷害。&lt;b&gt;連擊:&lt;/b&gt;改為造成2點傷害。</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成1點傷害。&lt;b&gt;連擊:&lt;/b&gt;改為造成2點傷害</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;造成1点伤害。&lt;b&gt;连击：&lt;/b&gt;改为造成2点伤害。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 1 ед. урона. &lt;b&gt;Серия приемов:&lt;/b&gt; вместо этого наносит 2 ед. урона.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 1 de dano. &lt;b&gt;Combo:&lt;/b&gt; Em vez de 1, cause 2 de dano.</ptBR>
@@ -61,7 +61,7 @@
     <enUS>Perdition's Blade is Ragnaros's back-up weapon while Sulfuras is in the shop.</enUS>
     <zhTW>墮滅之刃是拉格納羅斯把薩弗拉斯放在拍賣場時拿來備用的武器。</zhTW>
     <zhCN>当拉格纳罗斯还买不起萨弗拉斯的时候，他的武器正是毁灭之刃。</zhCN>
-    <ruRU>Клинок вечных мук – запасное оружие Рагнароса. Он пользуется им, когда отдает  Сульфурас на полировку.</ruRU>
+    <ruRU>Клинок вечных мук – запасное оружие Рагнароса. Он пользуется им, когда отдает Сульфурас на полировку.</ruRU>
     <ptBR>A Lâmina da Perdição é a arma reserva de Ragnaros enquanto Sulfuras está na loja.</ptBR>
     <plPL>Ostrze Zatracenia ma w sobie moc Ragnarosa - Pana Ognia, najpotężniejszego spośród płonących żywiołaków.</plPL>
     <koKR>설퍼라스가 수리 중이면 라그나로스가 이걸 꺼내든다고 합니다.</koKR>

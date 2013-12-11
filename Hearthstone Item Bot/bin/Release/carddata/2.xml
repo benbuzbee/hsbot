@@ -21,12 +21,12 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Deal $5 damage to a minion.</enUS>
     <frFR>Inflige $5 |4(point,points) de dégâts à un serviteur.</frFR>
-    <zhTW>對一個手下造成$5點傷害。</zhTW>
+    <zhTW>對一個手下造成$5點傷害</zhTW>
     <zhCN>对一个随从造成$5点伤害。</zhCN>
     <ruRU>Наносит существу $5 ед. урона.</ruRU>
     <ptBR>Cause $5 de dano a um lacaio.</ptBR>
     <plPL>Zadaj $5 pkt. obrażeń stronnikowi.</plPL>
-    <koKR>하수인에게 피해를 $5 줍니다.</koKR>
+    <koKR>하수인 하나에게 피해를 $5 줍니다.</koKR>
     <itIT>Infligge $5 danni a un servitore.</itIT>
     <esMX>Inflige $5 de daño a un esbirro.</esMX>
     <esES>Inflige $5 p. de daño a un esbirro.</esES>

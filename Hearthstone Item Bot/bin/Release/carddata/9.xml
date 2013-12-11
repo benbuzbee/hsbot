@@ -24,13 +24,13 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain Attack equal to the Attack of your weapon.</enUS>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; gagne des points d’Attaque d’un montant équivalent à ceux de votre arme.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;獲得與你武器相當的攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;获得等同于你的武器攻击力的攻击力</zhCN>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;獲得與你武器相當的攻擊力</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;获得等同于你的武器攻击力的攻击力。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; получает бонус к атаке, равный атаке вашего оружия.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Ela Recebe Ataque equivalente ao Ataque da sua arma.</ptBR>
     <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje premię do ataku równą wartości ataku twojej broni.</plPL>
     <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 무기의 공격력만큼 공격력을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; l'Incursore dei Velerosse ottiene Attacco pari all'Attacco della tua arma.</itIT>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; l'Incursore dei Velerosse ottiene un incremento all'Attacco pari all'Attacco della tua arma.</itIT>
     <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene Ataque equivalente al Ataque de tu arma.</esMX>
     <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene una cantidad de puntos de ataque equivalente al ataque de tu arma.</esES>
     <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält Angriff entsprechend dem Angriff Eurer Waffe.</deDE>
@@ -44,12 +44,12 @@
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>"I only plunder on days that end in 'y'."</enUS>
-    <zhTW>我只在以「星期」為開頭的日子裡搶劫。</zhTW>
-    <zhCN>“我一个星期只有七天出去打劫。”</zhCN>
+    <zhTW>我只在以「星期」為開頭的日子搶劫。</zhTW>
+    <zhCN>“我一个星期只出去打劫七天。”</zhCN>
     <ruRU>«Я граблю только семь дней в неделю».</ruRU>
     <ptBR>"Eu só saqueio nos dias que terminam com -feira. Ah, e fins de semana."</ptBR>
-    <plPL>Jego ulubiona broń to grabie.</plPL>
-    <koKR>"난 숫자 '1'이 포함된 날짜에만 약탈을 하지."</koKR>
+    <plPL>Jej ulubiona broń to grabie.</plPL>
+    <koKR>"난 '요'가 포함된 요일에만 약탈을 하지."</koKR>
     <itIT>"Saccheggio solo nei giorni che finiscono per -dì, -abato e -enica."</itIT>
     <frFR>Le pillage pour moi, c’est seulement les jours en « di ».</frFR>
     <esMX>"Solo saqueo de lunes a lunes".</esMX>

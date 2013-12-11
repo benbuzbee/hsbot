@@ -21,8 +21,8 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Draw 2 cards.</enUS>
     <frFR>Vous piochez 2 cartes.</frFR>
-    <zhTW>抽兩張牌。</zhTW>
-    <zhCN>抽2张牌。</zhCN>
+    <zhTW>抽2張牌</zhTW>
+    <zhCN>抽两张牌。</zhCN>
     <ruRU>Вы берете 2 карты.</ruRU>
     <ptBR>Compre 2 cards.</ptBR>
     <plPL>Dobierz 2 karty.</plPL>

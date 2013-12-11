@@ -1,81 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_049">
-  <MasterPower>821b0a33-8fd7-4c38-af65-500b69b27e9a</MasterPower>
+<Entity version="2" CardID="EX1_593">
+  <MasterPower>edb9d489-93ea-4ab6-94c0-5866dc2fc9e7</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Youthful Brewmaster</enUS>
-    <frFR>Jeune maître brasseur</frFR>
-    <zhTW>年輕的釀酒大師</zhTW>
-    <zhCN>年轻的酒仙</zhCN>
-    <ruRU>Молодой хмелевар</ruRU>
-    <ptBR>Mestre Cervejeiro Jovem</ptBR>
-    <plPL>Dziarski gorzelnik</plPL>
-    <koKR>젊은 양조사</koKR>
-    <itIT>Mastro Birraio Giovane</itIT>
-    <esMX>Maestro cervecero joven</esMX>
-    <esES>Maestro cervecero joven</esES>
-    <deDE>Junger Braumeister</deDE>
+    <enUS>Nightblade</enUS>
+    <frFR>Lamenuit</frFR>
+    <zhTW>夜刃刺客</zhTW>
+    <zhCN>夜刃刺客</zhCN>
+    <ruRU>Ночной Клинок</ruRU>
+    <ptBR>Lâmina Soturna</ptBR>
+    <plPL>Ostrze Nocy</plPL>
+    <koKR>암흑칼날</koKR>
+    <itIT>Lamascura</itIT>
+    <esMX>Hoja de la noche</esMX>
+    <esES>Hoja de la noche</esES>
+    <deDE>Nachtklinge</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Return a friendly minion from the battlefield to your hand.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; renvoie un serviteur allié du champ de bataille et le place dans votre main.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;使一個友方手下從戰場返回你的手上。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从从战场上移回你的手牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; возвращает ваше существо с поля боя в руку.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Devolva um lacaio aliado do campo de batalha à sua mão.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Cofnij przyjaznego stronnika z pola bitwy na rękę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 전장의 아군 하수인을 내 손으로 다시 가져옵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fa tornare un altro tuo servitore dal campo di battaglia alla tua mano.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; devuelve un esbirro aliado del campo de batalla a tu mano.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Devuelve a tu mano a un esbirro amistoso del campo de batalla.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Lasst einen befreundeten Diener vom Schlachtfeld auf Eure Hand zurückkehren.</deDE>
+    <enUS>&lt;b&gt;Battlecry: &lt;/b&gt;Deal 3 damage to the enemy hero.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 3 points de dégâts au héros adverse.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;對敵方英雄造成3點傷害</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;对敌方英雄造成3点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 3 ед. урона герою противника.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 3 de dano ao herói inimigo.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 3 pkt. obrażeń wrogiemu bohaterowi.</plPL>
+    <koKR>&lt;b&gt;전투의 함성: &lt;/b&gt;적 영웅에게 피해를 3 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 3 danni all'eroe nemico.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 3 de daño al héroe enemigo.</esMX>
+    <esES>&lt;b&gt;Grito de batalla: &lt;/b&gt;Inflige 3 p. de daño al héroe enemigo.</esES>
+    <deDE>&lt;b&gt;Kampfschrei: &lt;/b&gt;Fügt dem feindlichen Helden 3 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Return a minion to your hand.</enUS>
-    <frFR>Renvoie un serviteur dans votre main.</frFR>
-    <zhTW>使一個手下返回你的手上。</zhTW>
-    <zhCN>将一个随从移回你的手牌。</zhCN>
-    <ruRU>Вернуть существо в вашу руку</ruRU>
-    <ptBR>Devolva um lacaio à sua mão.</ptBR>
-    <plPL>Cofnij stronnika na rękę.</plPL>
-    <koKR>손으로 하수인 가져오기</koKR>
-    <itIT>Fa tornare un servitore nella tua mano.</itIT>
-    <esMX>Devuelve un esbirro a tu mano.</esMX>
-    <esES>Devuelve a un esbirro a tu mano.</esES>
-    <deDE>Lasst einen Diener auf Eure Hand zurückkehren.</deDE>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Wei Wang</enUS>
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Druid Level 53.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>His youthful enthusiasm doesn’t always equal excellence in his brews.   Don’t drink the Mogu Stout!</enUS>
-    <zhTW>他年輕的熱忱並無法保證他釀酒的品質。千萬不要喝他釀的魔古黑啤!</zhTW>
-    <zhCN>他对酿酒的热忱并不意味着他有出色的酿酒技术。别碰魔古烈酒！</zhCN>
-    <ruRU>Его отвары пока что далеки от совершенства. «Могушанское темное» вообще пить невозможно.</ruRU>
-    <ptBR>Sua alegria juvenil nem sempre equivale a cervejas boas. Não beba a Stout Mogu!</ptBR>
-    <plPL>Jego młodzieńczy entuzjazm nie zawsze idzie w parze z jakością trunków. Lepiej nie pij pasteryzowanego „Pandarena”! </plPL>
-    <koKR>젊음의 패기가 꼭 맥주의 맛으로 이어지는 건 아닙니다.</koKR>
-    <itIT>Anche se è un giovane dal grande entusiasmo, ha ancora molto da imparare. Non bevete la sua Birra alla Mogu.</itIT>
-    <frFR>Ses breuvages ne sont pas toujours à la hauteur de son enthousiasme juvénile. Ne buvez surtout pas la brune mogu !</frFR>
-    <esMX>Su entusiasmo jovial no siempre se refleja en la calidad de sus cervezas. Ni siquiera intentes probar la Mogu negra.</esMX>
-    <esES>Su entusiasmo juvenil no siempre equivale a brebajes deliciosos. ¡No pruebes su "Sorpresa Mogu"!</esES>
-    <deDE>Sein jugendlicher Enthusiasmus lässt nicht zwingend auf die Qualität seines Gebräus schließen – Finger weg vom Mogu-Alt!</deDE>
+    <enUS>Your face is the place you'd probably least like a dagger, and where rogues are most likely to deliver them.</enUS>
+    <zhTW>臉應該是你最不希望被匕首割到的地方，而盜賊偏偏最喜歡用匕首割人家的臉。</zhTW>
+    <zhCN>你的脸可能是你最不希望被刀子碰到的地方，但却是潜行者们最喜欢下手的地方。</zhCN>
+    <ruRU>Вам вряд ли хочется увеличить содержание железа в вашей голове, но разбойники именно на нее нацеливают свои клинки.</ruRU>
+    <ptBR>O lugar onde você menos gostaria de levar uma adaga é a sua cara (e é onde os ladinos gostam de tacar adagas).</ptBR>
+    <plPL>Ostrze Nocy zawsze jest chętne do skrytej pomocy.</plPL>
+    <koKR>단검을 가장 피하고 싶은 부분은 당신의 얼굴일 겁니다. 그러니 도적이 그곳을 노릴 겁니다.</koKR>
+    <itIT>La tua faccia è l'ultimo posto nel quale vorresti un pugnale, ed è esattamente dove un Ladro te lo infilzerebbe.</itIT>
+    <frFR>Les voleurs mettent leurs lames où ils veulent... et c’est souvent dans la gueule.</frFR>
+    <esMX>Es probable que tu cara sea el último lugar donde quieras ver una daga, y es precisamente ahí donde los pícaros apuntan más a menudo.</esMX>
+    <esES>La cara es el último lugar en el que te apetece que te claven una daga, y el primero que van a probar los pícaros.</esES>
+    <deDE>In Eurem Gesicht habt Ihr wahrscheinlich nicht gern einen Dolch stecken, doch genau dort stecken ihn Schurken besonders gern hin.</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="821b0a33-8fd7-4c38-af65-500b69b27e9a">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="9" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Power definition="edb9d489-93ea-4ab6-94c0-5866dc2fc9e7" />
 </Entity>

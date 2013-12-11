@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_533">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Misdirection</enUS>
     <zhTW>誤導</zhTW>
@@ -24,12 +22,12 @@
   <Tag name="Class" enumID="199" type="Class" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Secret:&lt;/b&gt; When a character attacks your hero, instead he attacks another random character.</enUS>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當一個角色攻擊你的英雄時，會改為攻擊另一個隨機角色。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;每当一个角色攻击你的英雄时，改为该角色随机攻击其他另一个角色。</zhCN>
+    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;攻擊你英雄的角色，會改為攻擊另一個隨機角色</zhTW>
+    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当一个角色攻击你的英雄时，改为该角色攻击另一个随机角色。</zhCN>
     <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда персонаж атакует вашего героя, вместо этого он атакует другого случайного персонажа.</ruRU>
     <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando um personagem tentar atacar o seu herói, ele atacará outro personagem aleatório.</ptBR>
     <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy jakaś postać zaatakuje twojego bohatera, zamiast tego zaatakuje inną losową postać.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터를 공격하게 됩니다.</koKR>
+    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅을 공격하는 캐릭터가 다른 무작위 캐릭터 하나를 공격하게 됩니다.</koKR>
     <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando un personaggio attacca il tuo eroe, attacca invece un personaggio casuale.</itIT>
     <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand un personnage attaque votre héros, il attaque un autre personnage aléatoire à la place.</frFR>
     <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando un personaje ataca a tu héroe, el ataque se desvía a otro personaje aleatorio.</esMX>
@@ -43,10 +41,10 @@
     <enUS>Daren Bader</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Sometimes its as simple as putting on a fake mustache and pointing at someone else.</enUS>
+    <enUS>Sometimes it's as simple as putting on a fake mustache and pointing at someone else.</enUS>
     <zhTW>有時候簡單到只要戴上假鬍子然後指著另一個人就行了。</zhTW>
     <zhCN>有时候，这就和贴上假胡子，然后指着别人一样简单。</zhCN>
-    <ruRU>Иногда это так же просто, как нацепить фальшивые усы и ткнуть пальцем в соседа.</ruRU>
+    <ruRU>Иногда это так же просто, как позвонить в чью-то дверь и выбежать из подъезда.</ruRU>
     <ptBR>Às vezes é tão fácil que basta um bigode falso e o dedo em riste na direção de alguém.</ptBR>
     <plPL>Czasami wystarczy przykleić sztuczne wąsy i wskazać kogoś innego.</plPL>
     <koKR>가짜 수염을 달고 옆 사람을 가리키는 것 만으로도 잘 속아줄 때가 있죠.</koKR>

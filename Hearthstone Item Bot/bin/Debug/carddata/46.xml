@@ -25,12 +25,12 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a minion +2 Attack.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+2攻擊力。</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+2攻擊力</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个随从获得+2攻击力。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; выбранное существо получает +2 к атаке.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio.</ptBR>
     <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj stronnikowi +2 do ataku.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인에게 공격력을 +2 부여합니다.</koKR>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인 하나에게 공격력을 +2 부여합니다.</koKR>
     <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un altro servitore.</itIT>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 ATQ à un serviteur.</frFR>
     <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro.</esMX>

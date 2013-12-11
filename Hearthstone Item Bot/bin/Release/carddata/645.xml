@@ -1,65 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_379">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_622">
+  <MasterPower>af8152e7-6136-43c5-bf1d-7fdeb5e92066</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Repentance</enUS>
-    <frFR>Repentir</frFR>
-    <zhTW>懺悔</zhTW>
-    <zhCN>忏悔</zhCN>
-    <ruRU>Покаяние</ruRU>
-    <ptBR>Contrição</ptBR>
-    <plPL>Skrucha</plPL>
-    <koKR>참회</koKR>
-    <itIT>Penitenza</itIT>
-    <esMX>Arrepentimiento</esMX>
-    <esES>Arrepentimiento</esES>
-    <deDE>Buße</deDE>
+    <enUS>Shadow Word: Death</enUS>
+    <zhTW>暗言術:死</zhTW>
+    <zhCN>暗言术：灭</zhCN>
+    <ruRU>Слово Тьмы: Смерть</ruRU>
+    <ptBR>Palavra Sombria: Morte</ptBR>
+    <plPL>Słowo cienia: Śmierć</plPL>
+    <koKR>어둠의 권능: 죽음</koKR>
+    <itIT>Parola d'Ombra: Morte</itIT>
+    <frFR>Mot de l’ombre : Mort</frFR>
+    <esMX>Palabra de las sombras: Muerte</esMX>
+    <esES>Palabra de Sombras: muerte</esES>
+    <deDE>Schattenwort: Tod</deDE>
   </Tag>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, reduce its Health to 1.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre adversaire joue un serviteur, ses points de vie sont réduits à 1.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的對手召喚手下時，將該手下的生命值降為1點。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的对手召唤一个随从，使该随从的生命值降为1。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда противник разыгрывает карту существа, здоровье этого существа становится равно 1.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu oponente jogar um lacaio, reduza a Vida dele para 1.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy twój przeciwnik zagra stronnika, zmniejsz jego zdrowie do 1.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando l'avversario gioca un servitore, riduce la sua Salute a 1.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu adversario juegue un esbirro, reduce su Salud a 1.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu oponente juega un esbirro, reduce su salud a 1 p.</esES>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Gegner einen Diener ausspielt, wird dessen Leben auf 1 verringert.</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Destroy a minion with an Attack of 5 or more.</enUS>
+    <zhTW>摧毀一個攻擊力在5點以上的手下</zhTW>
+    <zhCN>消灭一个攻击力大于或等于5的随从。</zhCN>
+    <ruRU>Уничтожает существо с атакой 5 или больше.</ruRU>
+    <ptBR>Destrua um lacaio com 5 ou mais de Ataque.</ptBR>
+    <plPL>Zniszcz stronnika z atakiem 5 lub większym.</plPL>
+    <koKR>공격력 5 이상인 하수인을 하나 처치합니다.</koKR>
+    <itIT>Distrugge un servitore con Attacco pari a 5 o superiore.</itIT>
+    <frFR>Détruit un serviteur avec 5 ou plus à l’Attaque.</frFR>
+    <esMX>Destruye a un esbirro con 5 de Ataque o más.</esMX>
+    <esES>Destruye a un esbirro con 5 p. de ataque o más.</esES>
+    <deDE>Vernichtet einen Diener mit mind. 5 Angriff.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gonzalo Ordonez</enUS>
+    <enUS>Raymond Swanland</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 8.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 43.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Repentance often comes in the moment before obliteration. Curious.</enUS>
-    <zhTW>人們通常在生命結束的前一刻才會懺悔。真有意思。</zhTW>
-    <zhCN>忏悔总会在湮灭前一刻到来。多么奥妙。</zhCN>
-    <ruRU>Любопытно, но покаяние зачастую приходит за секунду до гибели. </ruRU>
-    <ptBR>O arrependimento frequentemente antecede a aniquilação. Curioso.</ptBR>
-    <plPL>Skrucha często pojawia się tuż przed klęską. Ciekawe.</plPL>
-    <koKR>누구든 죄는 짓는 법이니까요.</koKR>
-    <itIT>La penitenza spesso è più pesante della morte. Curioso.</itIT>
-    <frFR>Les gens se repentent souvent au moment de disparaître. Comme c’est curieux.</frFR>
-    <esMX>El arrepentimiento siempre aparece justo antes de la aniquilación. Muy oportuno.</esMX>
-    <esES>El arrepentimiento suele ser lo que precede a la aniquilación. Un dato curioso.</esES>
-    <deDE>Ironischerweise kommt die Buße oft vor der Vernichtung.</deDE>
+    <enUS>If you miss, it leaves a lightning-bolt-shaped scar on your target.</enUS>
+    <zhTW>如果你施放失敗，只會在目標身上留下一個閃電形狀的疤痕。</zhTW>
+    <zhCN>如果你的法术没有命中，那么你的目标身上会留下一道闪电箭形状的伤疤。</zhCN>
+    <ruRU>Если вы промахнетесь, оно оставит на лбу вашей цели шрам в виде молнии.</ruRU>
+    <ptBR>"Aonde ele foi?" "Deixa ele pra lá! Me ajuda com esse murloc!"</ptBR>
+    <plPL>Jeśli spudłujesz, na celu zostanie blizna w kształcie błyskawicy.</plPL>
+    <koKR>빗맞히면 대상의 이마에 번개 모양의 흉터를 남깁니다.</koKR>
+    <itIT>Se manca il bersaglio, lascia una cicatrice a forma di saetta sulla sua fronte.</itIT>
+    <frFR>Si ce sort rate, il laisse une marque en forme d’éclair sur le front de votre cible.</frFR>
+    <esMX>"¡Ey! ¿A dónde fue?" "¡Qué importa! Ayúdame con este múrloc".</esMX>
+    <esES>Un buen sacerdote sabe cuándo retirarse: en cuanto un enemigo se fija en él.</esES>
+    <deDE>Wenn dieser Zauber danebengeht, hinterlässt er lediglich eine blitzförmige Narbe auf Eurem Ziel.</deDE>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="cce7670c-3470-46a4-b56a-9f7c1e61f204" />
-  <Power definition="863ac1d9-0deb-46c8-b6bb-82ced27b7bf9" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
-  <TriggeredPowerHistoryInfo effectIndex="1" showInHistory="False" />
+  <Power definition="af8152e7-6136-43c5-bf1d-7fdeb5e92066">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="41" param="5" />
+  </Power>
 </Entity>

@@ -1,63 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_022">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_154">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Dread Corsair</enUS>
-    <zhTW>驚懼海盜</zhTW>
-    <zhCN>恐怖海盗</zhCN>
-    <ruRU>Жуткий корсар</ruRU>
-    <ptBR>Corsário Terrível</ptBR>
-    <plPL>Straszliwy korsarz</plPL>
-    <koKR>공포의 해적</koKR>
-    <itIT>Corsaro del Terrore</itIT>
-    <frFR>Corsaire de l’effroi</frFR>
-    <esMX>Corsario aterrador</esMX>
-    <esES>Corsario aterrador</esES>
-    <deDE>Schreckenskorsar</deDE>
+    <enUS>Wrath</enUS>
+    <frFR>Colère</frFR>
+    <zhTW>憤怒</zhTW>
+    <zhCN>愤怒</zhCN>
+    <ruRU>Гнев</ruRU>
+    <ptBR>Ira</ptBR>
+    <plPL>Gniew</plPL>
+    <koKR>천벌</koKR>
+    <itIT>Ira Silvana</itIT>
+    <esMX>Cólera</esMX>
+    <esES>Cólera</esES>
+    <deDE>Zorn</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt.&lt;/b&gt; Costs (1) less per Attack of your weapon.</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。你的每一點武器攻擊力會減少其消耗(1)點。</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，你的武器每有1点攻击力，该牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. Стоит на (1) ману меньше за каждую единицу атаки вашего оружия.</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. Custa (1) a menos por Ataque da sua arma.</ptBR>
-    <plPL>&lt;b&gt;Prowokacja.&lt;/b&gt; Kosztuje (1) mniej za każdy punkt ataku twojej broni.</plPL>
-    <koKR>&lt;b&gt;도발.&lt;/b&gt; 내 무기의 공격력만큼 비용이 감소합니다.</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. Costa (1) Mana in meno per ogni punto Attacco della tua arma.</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. Coûte (1) cristal de moins par Attaque de votre arme.</frFR>
-    <esMX>&lt;b&gt;Provocación.&lt;/b&gt; Cuesta (1) menos por cada punto de Ataque de tu arma.</esMX>
-    <esES>&lt;b&gt;Provocar.&lt;/b&gt; Cuesta (1) cristal menos por cada punto de ataque de tu arma.</esES>
-    <deDE>&lt;b&gt;Spott.&lt;/b&gt; Kostet (1) weniger für jeden Angriffspunkt Eurer Waffe.</deDE>
+    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Deal $3 damage to a minion; or $1 damage and draw a card.</enUS>
+    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 |4(point, points) de dégâts à un serviteur ; ou inflige $1 |4(point,points) de dégâts et vous piochez une carte.</frFR>
+    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;對一個手下造成$3點傷害，或造成$1點傷害並抽一張牌</zhTW>
+    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：对一个随从造成$3点伤害；或者造成$1点伤害并抽一张牌。</zhCN>
+    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; наносит существу $3 ед. урона; или наносит $1 ед. урона существу и вы берете карту.</ruRU>
+    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause $3 de dano a um lacaio; ou cause $1 de dano e compre um card.</ptBR>
+    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj $3 pkt. obrażeń stronnikowi; lub zadaj $1 pkt. obrażeń stronnikowi i dobierz kartę.</plPL>
+    <koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인 하나에게 피해를 $3 줍니다. 또는 피해를 $1 주고 카드를 1장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni a un servitore o infligge $1 danno e pesca una carta.</itIT>
+    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige $3 de daño a un esbirro o inflige $1 de daño y roba una carta.</esMX>
+    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Inflige $3 p. de daño a un esbirro, o bien inflige $1 p. de daño y roba una carta.</esES>
+    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Fügt einem Diener $3 Schaden zu; oder fügt einem Diener $1 Schaden zu und zieht eine Karte.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trent Kaniuga</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Yarrrr" is a pirate word that means "Greetings, milord."</enUS>
-    <zhTW>「殺啊啊啊」其實是海盜語中「先生，您好」的意思。</zhTW>
-    <zhCN>“呀”在海盗的行话中代表“你好啊，有钱人。”</zhCN>
-    <ruRU>Если вы видите пирата, который кричит вам «Арррр!», не бойтесь – он просто здоровается.</ruRU>
-    <ptBR>Iarrrr é uma palavra pirata que quer dizer "Olá, milorde".</ptBR>
-    <plPL>„Arrrr” w pirackim narzeczu oznacza „Witaj, jaśnie panie.”</plPL>
-    <koKR>"야아아르"는 해적 말로 "안녕하십니까"라는 뜻입니다.</koKR>
-    <itIT>"Yarrrr" è una parola piratesca che significa: "Buongiorno, ser.".</itIT>
-    <frFR>En langage pirate, « Yarrrr » signifie « Bien le bonjour, mon seigneur. ». Évidemment.</frFR>
-    <esMX>"Aarrrr" es una palabra pirata que significa "Saludos, milord".</esMX>
-    <esES>"Arrr" es una palabra del idioma pirata que significa "Buenos días tenga vuestra merced".</esES>
-    <deDE>„Yarrrr“ ist ein Wort in der Piratensprache, das in etwa als „Meinen ergebensten Gruß, Euer Durchlaucht“ übersetzt werden kann.</deDE>
+    <enUS>The talk around the Ratchet Inn is that this card is too good and should be a Legendary.</enUS>
+    <zhTW>棘齒城旅店裡的人都公認這張牌太強了，應該要是傳說級才對。</zhTW>
+    <zhCN>棘齿城酒馆里的人们纷纷表示，这张牌太强了，应该是传说级别的。</zhCN>
+    <ruRU>В кабестанской таверне уверены, что этой карте самое место среди легендарных.</ruRU>
+    <ptBR>O boato na Estalagem da Vila Catraca é de que esse card é bom demais e deveria ser lendário.</ptBR>
+    <plPL>Panuje ogólna opinia, że ta karta jest za mocna i powinna być legendarna.</plPL>
+    <koKR>톱니항 여관에서 들리는 말에 의하면 이 카드가 너무 좋고, 전설급이 아닌 게 이상하다는군요.</koKR>
+    <itIT>Nella taverna di Porto Paranco si mormora che questa carta sia così buona che dovrebbe essere leggendaria.</itIT>
+    <frFR>Les habitués de l’auberge de Gadgetzan trouvent que cette carte devrait être légendaire parce qu’elle est vraiment trop géniale.</frFR>
+    <esMX>En la Posada de Trinquete se comenta que esta carta es demasiado buena y debería ser Legendaria.</esMX>
+    <esES>¿Qué hace un pollo de 200 kg en un árbol? Lanzar Cólera.</esES>
+    <deDE>Wenn man den Stammtischgesprächen im Gasthaus von Ratschet Glauben schenken darf, dann ist diese Karte viel zu gut und sollte legendär sein.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="6dfc62b8-15d6-4a90-9717-f31bf1c57236" />
-  <Power definition="94961708-4c62-4f7b-a634-fdae1b555f90" />
 </Entity>

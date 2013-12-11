@@ -1,62 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_578">
-  <MasterPower>df2d11fa-bec4-4185-960b-fe0045645279</MasterPower>
+<Entity version="2" CardID="EX1_084">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Savagery</enUS>
-    <frFR>Sauvagerie</frFR>
-    <zhTW>兇蠻</zhTW>
-    <zhCN>野蛮之击</zhCN>
-    <ruRU>Дикость</ruRU>
-    <ptBR>Selvageria</ptBR>
-    <plPL>Dzikość</plPL>
-    <koKR>야생성</koKR>
-    <itIT>Ferocia</itIT>
-    <esMX>Salvajismo</esMX>
-    <esES>Salvajismo</esES>
-    <deDE>Unbändigkeit</deDE>
+    <enUS>Warsong Commander</enUS>
+    <frFR>Officier chanteguerre</frFR>
+    <zhTW>戰歌指揮官</zhTW>
+    <zhCN>战歌指挥官</zhCN>
+    <ruRU>Командир Песни Войны</ruRU>
+    <ptBR>Capitã do Brado Guerreiro</ptBR>
+    <plPL>Dowódca Wojennej Pieśni</plPL>
+    <koKR>전쟁노래 사령관</koKR>
+    <itIT>Capitano Cantaguerra</itIT>
+    <esMX>Comandante Grito de guerra</esMX>
+    <esES>Comandante Grito de Guerra</esES>
+    <deDE>Kriegshymnenanführerin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal damage equal to your hero's Attack to a minion.</enUS>
-    <frFR>Inflige des dégâts d’un montant équivalent à l’Attaque de votre héros à un serviteur adverse.</frFR>
-    <zhTW>對一個敵方手下造成等同於你英雄攻擊力的傷害。</zhTW>
-    <zhCN>对一个随从造成等同于你的英雄攻击力的伤害。</zhCN>
-    <ruRU>Наносит существу противника урон, равный силе атаки вашего героя.</ruRU>
-    <ptBR>Cause dano equivalente ao Ataque do seu herói a um lacaio.</ptBR>
-    <plPL>Zadaj stronnikowi obrażenia równe atakowi twojego bohatera.</plPL>
-    <koKR>내 영웅의 공격력만큼 하수인에게 피해를 줍니다.</koKR>
-    <itIT>Infligge danni pari all'Attacco del tuo eroe a un servitore.</itIT>
-    <esMX>Inflige daño equivalente al Ataque de tu héroe contra un esbirro.</esMX>
-    <esES>Inflige a un esbirro un daño equivalente al ataque de tu héroe.</esES>
-    <deDE>Fügt einem Diener Schaden zu, der dem Angriff Eures Helden entspricht.</deDE>
+    <enUS>Your other minions have &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Vos autres serviteurs ont &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>你的其他手下擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>你的其他随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Другие ваши существа получают способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Seus demais lacaios ganham &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>Twoi pozostali stronnicy otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>나의 다른 하수인들이 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
+    <itIT>Gli altri tuoi servitori hanno &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+    <esMX>Tus otros esbirros tienen &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Tus demás esbirros tienen &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Eure anderen Diener haben &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Rapoza</enUS>
+    <enUS>Wei Wang</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 36.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It is true that some druids are savage, but others still enjoy a quiet moment and a spot of tea.</enUS>
-    <zhTW>有些德魯伊很兇蠻是事實，但是其他的德魯伊還是很喜歡喝杯好茶享受寧靜的時光。</zhTW>
-    <zhCN>确实有些德鲁伊野性十足，但仍有些喜欢在恬静的时刻品上一壶好茶。</zhCN>
-    <ruRU>Конечно, встречаются и дикие друиды, но есть и такие, которым больше по душе чашечка чая в спокойной обстановке.</ruRU>
-    <ptBR>É verdade que alguns druidas são selvagens, mas outros ainda apreciam um momento de paz e um bom chá.</ptBR>
-    <plPL>To prawda, że niektórzy druidzi są dość dzicy, ale inni lubią posiedzieć w ciszy i wypić filiżankę herbatki.</plPL>
-    <koKR>일부 드루이드들이 야생성을 보이는 건 사실이나, 대부분은 조용한 곳에서 차 한잔하는 것을 즐긴답니다.</koKR>
-    <itIT>È vero che alcuni Druidi sono selvaggi, ma altri adorano godersi un po' di pace e sorseggiare un buon tè.</itIT>
-    <frFR>Même le plus timide des druides se transforme en bête sauvage quand on lui prend son miel.</frFR>
-    <esMX>Es cierto, algunos druidas son salvajes, pero también hay otros que disfrutan los momentos de paz con una taza de té.</esMX>
-    <esES>Es cierto que algunos druidas reaccionan así cuando ven una cesta de pícnic, pero otros saben apreciar la tranquilidad y una buena taza de té.</esES>
-    <deDE>Es stimmt schon, dass einige Druiden ganz schön wild sind, aber es gibt auch andere, die gern in Ruhe eine Tasse Tee trinken.</deDE>
+    <enUS>The Warsong clan is &lt;i&gt;such drama&lt;/i&gt;. It's really not worth it to become a commander.</enUS>
+    <zhTW>戰歌這個部族非常&lt;b&gt;戲劇化&lt;/b&gt;。當上他們的指揮官未必是一件好事。</zhTW>
+    <zhCN>战歌氏族中闹剧不断，什么三教九流的人都能当上他们的指挥官。</zhCN>
+    <ruRU>В клане Песни Войны очень любят устраивать драмы. И пост командира себя не окупает...</ruRU>
+    <ptBR>O Clã Brado Guerreiro tem &lt;i&gt;tanto drama&lt;/i&gt; que nem vale a pena subir de patente.</ptBR>
+    <plPL>Są dumni z nazwy swojego klanu - choć zdaniem elfów tą pieśnią jest „Nic się nie stało, orki, nic się nie stało...”</plPL>
+    <koKR>그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?</koKR>
+    <itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un capitano Cantaguerra.</itIT>
+    <frFR>Le clan Chanteguerre se la &lt;i&gt;joue&lt;/i&gt; trop. Ça ne vaut pas vraiment le coup de devenir officier.</frFR>
+    <esMX>El clan Grito de guerra es &lt;i&gt;drama, drama, drama&lt;/i&gt;. La verdad, no vale la pena llegar a comandante.</esMX>
+    <esES>El clan Grito de Guerra es muy estresante. Siempre están corriendo en busca de banderas.</esES>
+    <deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
   </Tag>
-  <Power definition="df2d11fa-bec4-4185-960b-fe0045645279">
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="GrantCharge" enumID="355" type="Bool" value="1" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="b241283b-6883-4897-b7a3-9a4a33b848f5" />
+  <Power definition="33a1e034-5156-4d78-9a4c-c61f9c70c8fe" />
 </Entity>

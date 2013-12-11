@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CS2_045e">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Rockbiter Weapon</enUS>
     <frFR>Arme croque-roc</frFR>
@@ -11,7 +9,7 @@
     <ptBR>Arma Trinca-pedra</ptBR>
     <plPL>Kruszyskalny oręż</plPL>
     <koKR>대지의 무기</koKR>
-    <itIT>Arma della Roccia Dura</itIT>
+    <itIT>Arma Roccia Dura</itIT>
     <esMX>Arma muerdepiedras</esMX>
     <esES>Arma Muerdepiedras</esES>
     <deDE>Waffe des Felsbeißers</deDE>
@@ -22,13 +20,13 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>This character has +3 Attack this turn.</enUS>
     <frFR>Ce personnage a +3 ATQ pendant ce tour.</frFR>
-    <zhTW>這個角色本回合+3攻擊力。</zhTW>
+    <zhTW>這個角色本回合+3攻擊力</zhTW>
     <zhCN>在本回合中，该角色获得+3攻击力。</zhCN>
     <ruRU>Этот персонаж получил +3 к атаке до конца хода.</ruRU>
     <ptBR>Este personagem tem +3 de Ataque neste turno.</ptBR>
     <plPL>Ta postać ma +3 do ataku podczas tej tury.</plPL>
     <koKR>이번 턴에 공격력 +3</koKR>
-    <itIT>+3 Attacco in questo turno.</itIT>
+    <itIT>+3 Attacco per questo turno.</itIT>
     <esMX>Este personaje tiene +3 de Ataque en este turno.</esMX>
     <esES>Este personaje tiene +3 p. de ataque este turno.</esES>
     <deDE>Dieser Charakter hat +3 Angriff in diesem Zug.</deDE>

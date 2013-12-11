@@ -26,12 +26,12 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon a 2/1 Mechanical Dragonling.</enUS>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque un petit dragon mécanique 2/1.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一隻2/1的機械幼龍。</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一隻2/1的機械幼龍</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;召唤一个2/1的机械幼龙。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя механодракончика 2/1.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque um Dragonete Mecânico 2/1.</ptBR>
     <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij mechanicznego smokora 2/1.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 2/1 소형 기계용을 소환합니다.</koKR>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 2/1 소형 기계용을 1마리 소환합니다.</koKR>
     <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca un Minidrago Meccanico 2/1.</itIT>
     <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca un Dragonizo mecánico 2/1.</esMX>
     <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca un dragonizo mecánico 2/1.</esES>
@@ -42,11 +42,11 @@
     <enUS>Warren Mahy</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Mage Level 51.</enUS>
+    <enUS>Unlocked at Mage Level 53.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>She is still working on installing the rocket launcher add-on for Mr. Bitey.</enUS>
-    <zhTW>她還在想辦法，要替咬咬安裝火箭發射器套件。</zhTW>
+    <zhTW>她還在想辦法要替小機器幼龍「咬咬」加裝一套火箭發射器。</zhTW>
     <zhCN>她依然在想办法为咬咬先生装上火箭发射器。</zhCN>
     <ruRU>Она раздумывает над тем, как прикрепить ракетную установку к мистеру Кусаке.</ruRU>
     <ptBR>Ela ainda está tentando instalar o Lança-foguetes no Sr. Mord.</ptBR>

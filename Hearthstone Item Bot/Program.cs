@@ -22,7 +22,7 @@ namespace HSBot
 
             if (hsInstall != null)
             {
-                cardData = System.IO.Path.Combine((String)hsInstall, "Data", "cardxml0.unity3d");
+                cardData = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
             }
             if (cardData == null || !System.IO.File.Exists(cardData))
             {
@@ -49,11 +49,13 @@ namespace HSBot
                                     Console.WriteLine("Not connected...attempting to connect...");
                                     lastMessage = DateTime.Now;
                                     irc = new IRC();
-                                    irc.StartConnect();
+             
                                     irc.RawMessageReceived += new EventHandler<IrcDotNet.IrcRawMessageEventArgs>((arguments, sender) =>
                                     {
+                                     //   Console.WriteLine("Debug: {0}", ((IrcDotNet.IrcRawMessageEventArgs)arguments).RawContent);
                                         lastMessage = DateTime.Now;
                                     });
+                                    irc.StartConnect();
                                 }
                                 System.Threading.Thread.Sleep(2 * (60 * 1000));
                                 

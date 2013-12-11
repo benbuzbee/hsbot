@@ -1,69 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_074">
-  <MasterPower>f51fe4b0-1f7b-45dc-834e-3b4beeaf3109</MasterPower>
+<Entity version="2" CardID="EX1_048">
+  <MasterPower>e796d04c-0b64-4ef5-be1c-fd0bc0e193e5</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Deadly Poison</enUS>
-    <frFR>Poison mortel</frFR>
-    <zhTW>致命毒藥</zhTW>
-    <zhCN>致命药膏</zhCN>
-    <ruRU>Смертоносный яд</ruRU>
-    <ptBR>Veneno Mortal</ptBR>
-    <plPL>Zabójcza trucizna</plPL>
-    <koKR>맹독</koKR>
-    <itIT>Veleno Mortale</itIT>
-    <esMX>Veneno mortal</esMX>
-    <esES>Veneno mortal</esES>
-    <deDE>Tödliches Gift</deDE>
+    <enUS>Spellbreaker</enUS>
+    <frFR>Brise-sort</frFR>
+    <zhTW>破法者</zhTW>
+    <zhCN>破法者</zhCN>
+    <ruRU>Разрушитель чар</ruRU>
+    <ptBR>Quebra-feitiço</ptBR>
+    <plPL>Łamacz zaklęć</plPL>
+    <koKR>주문파괴자</koKR>
+    <itIT>Spezzamagie</itIT>
+    <esMX>Rompedor de hechizos</esMX>
+    <esES>Rompehechizos</esES>
+    <deDE>Zauberbrecher</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your weapon +2 Attack.</enUS>
-    <frFR>Confère +2 ATQ à votre arme.</frFR>
-    <zhTW>賦予你的武器+2攻擊力。</zhTW>
-    <zhCN>使你的武器获得+2攻击力。</zhCN>
-    <ruRU>Ваше оружие получает +2 к атаке.</ruRU>
-    <ptBR>Conceda +2 de Ataque à sua arma.</ptBR>
-    <plPL>Daj swojej broni +2 do ataku.</plPL>
-    <koKR>내 무기에 공격력을 +2 부여합니다.</koKR>
-    <itIT>Fornisce +2 Attacco alla tua arma.</itIT>
-    <esMX>Le otorga a tu arma +2 de Ataque.</esMX>
-    <esES>Otorga +2 p. de ataque a tu arma equipada.</esES>
-    <deDE>Eure Waffe erhält +2 Angriff. </deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; &lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; накладывает эффект &lt;b&gt;немоты&lt;/b&gt; на выбранное существо.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; &lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; &lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; causa &lt;b&gt;Silenzio&lt;/b&gt; a un altro servitore.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; &lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; &lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trevor Jacobs</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.</enUS>
-    <zhTW>盜賊非常小心地保護著製作毒藥的秘密，否則若法師開始把毒藥弄進法術就麻煩了。毒箭術?毒雨術?毒元素?沒有人想要看到那種東西。</zhTW>
-    <zhCN>潜行者们都小心翼翼地保守着制毒的秘密，唯恐法师们把毒药用在他们的法术之中。毒性箭？剧毒之雨？毒元素？听上去就很可怕。</zhCN>
-    <ruRU>Разбойники тщательно охраняют секреты изготовления ядов, особенно от магов. Кому нужны заклинания типа «Ядовитый ливень» или «Отравляющий элементаль»? Правильно, никому.</ruRU>
-    <ptBR>Ladinos guardam suas receitas de veneno muito bem. Imagina se os magos começam a incorporar os venenos nos feitiços? Seta Venenosa? Chuva de Veneno? Elemental de Veneno? Ninguém quer isso.</ptBR>
-    <plPL>Sekrety wyrobu trucizn są zazdrośnie strzeżone przez łotrów, aby magowie nie tworzyli zatrutych zaklęć. Zatruty pocisk? Deszcz trucizny? Żywiołak trucizn? Nikt tego nie chce.</plPL>
-    <koKR>도적들의 독 제조술은 극비 사항입니다. 마법사들이 주문에 사용 못 하게 하기 위해서죠. 맹독 화살? 맹독의 비? 맹독 정령? 생각만 해도 끔찍하군요.</koKR>
-    <itIT>I Ladri custodiscono gelosamente i segreti della creazione di veleni, temendo che i Maghi possano utilizzarli nelle loro magie. Dardi Avvelenati? Pioggia di Veleno? Meglio evitare.</itIT>
-    <frFR>Les voleurs gardent jalousement les secrets de la fabrication des poisons, de crainte que les magi n’en intègrent dans leurs sorts. Éclair de poison ? Pluie de poison ? Élémentaire de poison ? Personne n’a envie de voir ça !</frFR>
-    <esMX>Los pícaros guardan celosamente los secretos de la elaboración de veneno por temor a que los magos lo incorporen en sus hechizos. ¿Descarga de veneno? ¿Lluvia de veneno? ¿Elemental de veneno? No, gracias, mejor evitarlo.</esMX>
-    <esES>Los pícaros guardan celosamente los secretos de la elaboración de venenos, para que los magos no empiecen a incorporarlos a sus hechizos. ¿Descarga de veneno? ¿Lluvia de veneno? ¿Elemental de veneno? Nadie quiere que eso llegue a pasar.</esES>
-    <deDE>Schurken hüten das Geheimnis der Giftmischerei wie ihren Augapfel, aus Furcht davor, dass Magier es für ihre Zauber verwenden könnten. Giftblitz? Giftregen? Giftelementar? Das will doch niemand.</deDE>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
+    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
+    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下。</zhTW>
+    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
+    <ruRU>Наложить &lt;b&gt;немоту&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
+    <plPL>Wycisz stronnika.</plPL>
+    <koKR>하수인 하나 &lt;b&gt;침묵&lt;/b&gt;시키기</koKR>
+    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
+    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
+    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 28.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Matt Cavotta</enUS>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Spellbreakers can rip enchantments from magic-wielders.  The process is painless and can be performed on an outpatient basis.</enUS>
+    <zhTW>破法者能夠將施法者身上的附魔取下來。此過程無痛，可在門診時完成。</zhTW>
+    <zhCN>破法者能够轻易地破除施法者制造的法术，整个过程就像大夫看门诊一样，毫无痛苦。</zhCN>
+    <ruRU>Разрушители чар могут вырывать заклинания у магических существ. Операция совершенно безболезненна и проводится в амбулаторных условиях.</ruRU>
+    <ptBR>Quebra-feitiços podem eliminar encantamentos de manipuladores de magia. Não há dor no processo e pode ser executado em um ambulatório.</ptBR>
+    <plPL>„Abrakadabra, cieciu!”</plPL>
+    <koKR>이로운 마법은 물론 해로운 마법도 제거해드립니다. 외래 진료도 가능하지만, 보험 처리는 불가합니다.</koKR>
+    <itIT>Gli Spezzamagie possono strappare gli incantamenti da chi esercita la magia. L'intervento è indolore e può essere effettuato senza ricovero.</itIT>
+    <frFR>Les brise-sorts peuvent arracher les enchantements des manieurs de magie. Le procédé est sans douleur et peut aussi se faire à domicile. </frFR>
+    <esMX>Los rompedores de hechizos pueden destruir los encantamientos de los usuarios de la magia. El procedimiento es indoloro y puede hacerse con un tratamiento ambulatorio.</esMX>
+    <esES>A los elfos de sangre no les gusta compartir la magia.</esES>
+    <deDE>Spezialist im ambulanten Entfernen von Verzauberungen und Stärkungseffekten.</deDE>
   </Tag>
-  <Power definition="f51fe4b0-1f7b-45dc-834e-3b4beeaf3109">
-    <PlayRequirement reqID="13" param="" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <ReferencedTag name="Silence" enumID="339" type="Bool" value="1" />
+  <Power definition="e796d04c-0b64-4ef5-be1c-fd0bc0e193e5">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="9" param="" />
   </Power>
 </Entity>

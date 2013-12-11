@@ -1,66 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_184">
-  <MasterPower>7d56ad57-6aea-484b-ae4c-899658cb3125</MasterPower>
+<Entity version="2" CardID="EX1_567">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Tracking</enUS>
-    <frFR>Pistage</frFR>
-    <zhTW>追蹤</zhTW>
-    <zhCN>追踪术</zhCN>
-    <ruRU>Выслеживание</ruRU>
-    <ptBR>Rastreamento</ptBR>
-    <plPL>Tropienie</plPL>
-    <koKR>추적</koKR>
-    <itIT>Tracciamento</itIT>
-    <esMX>Rastreo</esMX>
-    <esES>Rastrear</esES>
-    <deDE>Fährtenlesen</deDE>
+    <enUS>Doomhammer</enUS>
+    <frFR>Marteau-du-Destin</frFR>
+    <zhTW>末日錘</zhTW>
+    <zhCN>毁灭之锤</zhCN>
+    <ruRU>Молот Рока</ruRU>
+    <ptBR>Martelo da Perdição</ptBR>
+    <plPL>Zgładziciel</plPL>
+    <koKR>둠해머</koKR>
+    <itIT>Martelfato</itIT>
+    <esMX>Martillo maldito</esMX>
+    <esES>Martillo maldito</esES>
+    <deDE>Schicksalshammer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Durability" enumID="187" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Look at the top three cards of your deck. Draw one and discard the others.</enUS>
-    <frFR>Affiche les trois cartes du dessus du deck. Vous en piochez une et vous vous défaussez des autres.</frFR>
-    <zhTW>瀏覽你牌堆中最上面的三張牌。選擇一張，並捨棄其他兩張。</zhTW>
-    <zhCN>检视你的牌库顶的3张牌，将1张置入手牌，弃掉其余牌。</zhCN>
-    <ruRU>Посмотрите три верхние карты вашей колоды. Возьмите одну карту и сбросьте остальные.</ruRU>
-    <ptBR>Olhe os três cards do topo do seu deck. Compre um e descarte os outros.</ptBR>
-    <plPL>Spójrz na trzy górne karty ze swojej talii. Jedną dobierz na rękę, a dwie pozostałe odrzuć.</plPL>
-    <koKR>내가 다음에 뽑을 카드 3장을 미리 봅니다. 1장을 선택해 갖고, 나머지는 버립니다.</koKR>
-    <itIT>Guarda le prime tre carte del tuo mazzo. Pescane una e scarta le altre.</itIT>
-    <esMX>Mira las tres primeras cartas de tu mazo. Roba una y descarta las otras.</esMX>
-    <esES>Mira las tres cartas superiores de tu mazo. Roba una y descarta las demás.</esES>
-    <deDE>Schaut Euch die drei obersten Karten Eures Decks an. Zieht eine davon und werft die anderen beiden ab.</deDE>
+    <enUS>&lt;b&gt;Windfury, Overload:&lt;/b&gt; (2)</enUS>
+    <frFR>&lt;b&gt;Furie des vents. Surcharge :&lt;/b&gt; (2)</frFR>
+    <zhTW>&lt;b&gt;風怒，超載:&lt;/b&gt;(2)</zhTW>
+    <zhCN>&lt;b&gt;风怒，过载：&lt;/b&gt;（2）</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;. &lt;b&gt;Перегрузка:&lt;/b&gt; (2)</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos, Sobrecarga:&lt;/b&gt; (2)</ptBR>
+    <plPL>&lt;b&gt;Furia wichru, Przeciążenie:&lt;/b&gt; (2)</plPL>
+    <koKR>&lt;b&gt;질풍, 과부하:&lt;/b&gt; (2)</koKR>
+    <itIT>&lt;b&gt;Furia del Vento, Sovraccarico:&lt;/b&gt; (2) Cristalli di Mana.</itIT>
+    <esMX>&lt;b&gt;Viento furioso, Sobrecarga:&lt;/b&gt; (2)</esMX>
+    <esES>&lt;b&gt;Viento Furioso, Sobrecarga:&lt;/b&gt; (2)</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;, &lt;b&gt;Überladung:&lt;/b&gt; (2)</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Mauro Cascioli</enUS>
+    <enUS>John "JP" Polidora</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>For the person who just cannot decide what card to put in their deck!</enUS>
-    <zhTW>這張是給無法決定要放哪張卡進套牌的人用的!</zhTW>
-    <zhCN>为了那些不知道该把什么牌放入套牌的人准备的！</zhCN>
-    <ruRU>Отличное заклинание для тех, кто никак не может решить, какую карту положить в колоду!</ruRU>
-    <ptBR>Para a pessoa que não consegue decidir que card botar no deck!</ptBR>
-    <plPL>W sam raz dla osoby, która nie może zdecydować się, jakie karty wsadzić do talii!</plPL>
-    <koKR>어떤 카드를 덱에 넣어야 할지 결정 못 하는 소심한 분들을 위해!</koKR>
-    <itIT>Per il giocatore che non sa quale carta inserire nel proprio mazzo.</itIT>
-    <frFR>Idéal pour ceux qui n’arrivent pas à décider quelles cartes mettre dans leur deck !</frFR>
-    <esMX>Para los que sufren de indecisión crónica.</esMX>
-    <esES>"Espera, aquí hay huellas". - Vladimir Barbafuego "Sí, pero, ¿de verdad quieres averiguar de qué son?" - Baxter Rompeyunques</esES>
-    <deDE>Ideal für diejenigen, die sich nicht entscheiden können, was sie ihrem Deck hinzufügen sollen. Denn so wissen sie auch nicht, was sie ihrer Hand hinzufügen sollen.</deDE>
+    <enUS>Orgrim Doomhammer gave this legendary weapon to Thrall.  His name is a total coincidence.</enUS>
+    <zhTW>奧格林·末日錘將這把傳說武器給了索爾。至於他的名字，完全是巧合。</zhTW>
+    <zhCN>奥格瑞姆·毁灭之锤将他的传奇武器赠与了萨尔。他的名字只是纯属巧合。</zhCN>
+    <ruRU>Это легендарное оружие подарил Траллу Оргрим Молот Рока. Совпадение имен — чистая случайность.</ruRU>
+    <ptBR>Orgrim Martelo da Perdição deu sua arma lendária para Thrall. O nome dele é só uma coincidência.</ptBR>
+    <plPL>Orgrim Zgładziciel dał ten legendarny oręż Thrallowi. Nazwa to zupełny przypadek.</plPL>
+    <koKR>오그림 둠해머는 자신의 전설적인 무기를 스랄에게 주었습니다. 무기와 그의 이름이 같은 건... 그저 우연입니다.</koKR>
+    <itIT>Orgrim Martelfato diede quest'arma leggendaria a Thrall. Il suo nome è solamente una piccola coincidenza.</itIT>
+    <frFR>Cette arme légendaire fut offerte à Thrall par Orgrim Marteau-du-Destin. Mais son nom est une simple coïncidence.</frFR>
+    <esMX>Orgrim Martillo Maldito le dio esta arma legendaria a Thrall. Su nombre es pura coincidencia.</esMX>
+    <esES>Thrall recibió esta arma legendaria de manos de Orgrim Martillo Maldito, pero rechazó quedarse también con el apellido.</esES>
+    <deDE>Orgrim Schicksalshammer gab Thrall diese legendäre Waffe. Ähnlichkeiten zwischen den Namen sind rein zufällig.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 36.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="7d56ad57-6aea-484b-ae4c-899658cb3125" />
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Tag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="56d28c52-0f37-4b9d-a820-f2da1a249071" />
+  <Power definition="30c7ff8d-c1fc-426a-8b8c-60f53440e00e" />
 </Entity>

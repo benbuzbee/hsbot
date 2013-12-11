@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_112">
-  <MasterPower>2203d6c9-3572-49c7-a8c7-f8d2095237db</MasterPower>
+<Entity version="2" CardID="CS2_124">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gelbin Mekkatorque</enUS>
-    <zhTW>傑爾賓·梅卡托克</zhTW>
-    <zhCN>格尔宾·梅卡托克</zhCN>
-    <ruRU>Гелбин Меггакрут</ruRU>
-    <ptBR>Gelbin Mekkatorque</ptBR>
-    <plPL>Gelbin Mekanownik</plPL>
-    <koKR>겔빈 멕카토크</koKR>
-    <itIT>Gelbin Meccatork</itIT>
-    <frFR>Gelbin Mekkanivelle</frFR>
-    <esMX>Gelbin Mekkatorque</esMX>
-    <esES>Gelbin Mekkatorque</esES>
-    <deDE>Gelbin Mekkadrill</deDE>
+    <enUS>Wolfrider</enUS>
+    <frFR>Chevaucheur de loup</frFR>
+    <zhTW>狼騎兵</zhTW>
+    <zhCN>狼骑兵</zhCN>
+    <ruRU>Всадник на волке </ruRU>
+    <ptBR>Cavalga-lobo</ptBR>
+    <plPL>Wilczy jeździec</plPL>
+    <koKR>늑대기수</koKR>
+    <itIT>Cavalcalupi</itIT>
+    <esMX>Jinete de lobos</esMX>
+    <esES>Jinete de lobos</esES>
+    <deDE>Wolfsreiter</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Health" enumID="45" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="6" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Summon an AWESOME invention.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;召喚一個超讚的發明。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;进行一次惊人的发明。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; призывает на поле боя удивительное изобретение.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Evoque uma invenção FABULOSA.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przyzwij NIESAMOWITY wynalazek.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 끝내주는 발명품을 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; evoca una MERAVIGLIOSA invenzione.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; invoque une invention GÉNIALE.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; invoca una invención INCREÍBLE.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Invoca un invento GENIAL.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Konstruiert eine FANTASTISCHE Erfindung.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>He's the leader of the gnomes, and an incredible inventor.  He's getting better, too; He turns things into chickens WAY less than he used to.</enUS>
-    <zhTW>他是地精的領袖，還是個驚人的發明家。而且他越來越厲害了，他把東西變成雞的次數比以前少&lt;i&gt;非常&lt;/i&gt;多。</zhTW>
-    <zhCN>他是侏儒的领袖，无与伦比的发明家。而且他变得越来越像个领袖了：相比他只是个发明家的时候，他已经不那么经常把人变成小鸡了。</zhCN>
-    <ruRU>Предводитель гномов и выдающийся изобретатель. Надо заметить, теперь он гораздо реже превращает предметы в куриц.</ruRU>
-    <ptBR>Ele é o líder dos gnomos e um inventor incrível. E também está melhorando: ele transforma BEM menos coisas em galinhas hoje em dia.</ptBR>
-    <plPL>Jest przywódcą gnomów i wspaniałym wynalazcą. Z każdym dniem coraz mniej rzeczy zamienia w kurczaki.</plPL>
-    <koKR>노움의 지도자이자 엄청난 발명가입니다. 게다가 실력도 조금씩 나아지고 있죠. 뭐든 닭으로 만들어버리는 빈도가 &lt;b&gt;많이&lt;/b&gt; 줄었으니까요.</koKR>
-    <itIT>È il capo degli Gnomi e un incredibile inventore, e sta persino migliorando: trasforma le cose in galline MOLTO meno spesso di quanto non facesse in passato.</itIT>
-    <frFR>C’est le chef des gnomes, et un formidable inventeur. Mais il y a mieux : il transforme beaucoup MOINS souvent les choses en poulet.</frFR>
-    <esMX>Es el líder de los gnomos y un inventor increíble. Además, ha mejorado mucho: ahora convierte cosas en pollos MUCHO menos que antes.</esMX>
-    <esES>Abres la guía de mazmorras y sale una planta mustia. ¿Cómo se llama la estancia? ¡Gnomerriegan!</esES>
-    <deDE>Er ist der Anführer der Gnome und ein unglaublicher Erfinder. Außerdem lernt er immer noch dazu: Er verwandelt jetzt viel weniger Dinge in Hühner als früher.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ludo Lullabi</enUS>
+    <enUS>Dany Orizio</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>This was rewarded to players who helped test the Store during the Beta.</enUS>
+    <enUS>Unlocked at Warrior Level 59.</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="2203d6c9-3572-49c7-a8c7-f8d2095237db" />
-  <EntourageCard cardID="Mekka1" />
-  <EntourageCard cardID="Mekka2" />
-  <EntourageCard cardID="Mekka3" />
-  <EntourageCard cardID="Mekka4" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Orcish raiders ride wolves because they are well adapted to harsh environments, and because they are soft and cuddly.</enUS>
+    <zhTW>獸人騎狼是因為狼能夠適應惡劣的環境，而且毛茸茸又愛撒嬌。</zhTW>
+    <zhCN>兽人劫掠者们以狼作为坐骑是因为它们能够适应艰苦的环境，而且它们特别温顺，很会讨兽人喜欢。</zhCN>
+    <ruRU>Орки ездят на волках потому, что эти животные лучше всего приспосабливаются к суровой окружающей среде, а также потому, что они милые и пушистые.</ruRU>
+    <ptBR>Saqueadores órquicos cavalgam lobos porque eles são mais adaptados a ambientes inóspitos e porque eles são macios e fofinhos.</ptBR>
+    <plPL>Orkowie jeżdżą na wilkach, ponieważ są dobrze przystosowane do trudnego środowiska. No i mają mięciutkie futerko.</plPL>
+    <koKR>늑대는 정말 최고의 탈것입니다. 척박한 환경에도 적응하고, 승차감도 좋고, 무엇보다 복실복실하고 귀여우니까요.</koKR>
+    <itIT>Gli Orchi cavalcano i lupi perché si adattano meglio negli ambienti ostili... e perché sono soffici e coccolosi.</itIT>
+    <frFR>Les chevaucheurs préfèrent monter des loups parce qu’ils sont extrêmement bien adaptés aux environnements rigoureux, mais aussi parce qu’ils ont le poil doux et brillant.</frFR>
+    <esMX>Los jinetes orcos montan en lobos porque se adaptan bien a los ambientes duros... y porque son suaves y peluditos.</esMX>
+    <esES>Cabalgando con lobos.</esES>
+    <deDE>Orcs reiten auf Wölfen, weil diese allerlei Arten von widrigen Witterungen widerstehen können ... und weil sie so weich und kuschlig sind.</deDE>
+  </Tag>
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="a9c551bf-2302-4da8-9c6d-393c82df745e" />
 </Entity>

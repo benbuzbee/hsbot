@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CS2_059o">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Blood Pact</enUS>
     <frFR>Pacte de sang</frFR>
@@ -22,7 +20,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Blood Imp is granting +1 Health.</enUS>
     <frFR>Le diablotin de sang confère +1 PV.</frFR>
-    <zhTW>血之小鬼賦予了+1生命值。</zhTW>
+    <zhTW>血之小鬼賦予了+1生命值</zhTW>
     <zhCN>鲜血小鬼使其获得+1生命值。</zhCN>
     <ruRU>+1 к здоровью от &lt;i&gt;Кровавого беса&lt;/i&gt;.</ruRU>
     <ptBR>O Diabrete de Sangue está concedendo +1 de Vida.</ptBR>

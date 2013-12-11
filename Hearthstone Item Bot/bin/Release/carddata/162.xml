@@ -1,80 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_188">
-  <MasterPower>365c063e-5364-433c-acf3-700fecc72b2e</MasterPower>
+<Entity version="2" CardID="EX1_363">
+  <MasterPower>463a57fd-c5cf-4676-8bac-b19f94d7f68f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Abusive Sergeant</enUS>
-    <frFR>Sergent grossier</frFR>
-    <zhTW>愛虐待的士官</zhTW>
-    <zhCN>叫嚣的中士</zhCN>
-    <ruRU>Бранящийся сержант</ruRU>
-    <ptBR>Sargento Abusivo</ptBR>
-    <plPL>Grubiański sierżant</plPL>
-    <koKR>가혹한 하사관</koKR>
-    <itIT>Sergente Violento</itIT>
-    <esMX>Sargento abusivo</esMX>
-    <esES>Sargento abusón</esES>
-    <deDE>Ruchloser Unteroffizier</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +2 Attack this turn.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +2 ATQ à un serviteur allié pendant ce tour.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;本回合賦予一個友方手下+2攻擊力。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;本回合中，使一个友方随从获得+2攻击力。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает +2 к атаке до конца хода.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Ataque a um lacaio aliado neste turno.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +2 do ataku w tej turze.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 아군 하수인에게 공격력을 +2 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Attacco a un altro tuo servitore in questo turno.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Ataque a un esbirro aliado en este turno.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de ataque a un esbirro amistoso este turno.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +2 Angriff in diesem Zug.</deDE>
+    <enUS>Blessing of Wisdom</enUS>
+    <frFR>Bénédiction de sagesse</frFR>
+    <zhTW>智慧祝福</zhTW>
+    <zhCN>智慧祝福</zhCN>
+    <ruRU>Печать мудрости</ruRU>
+    <ptBR>Bênção de Sabedoria</ptBR>
+    <plPL>Dar mądrości</plPL>
+    <koKR>지혜의 축복</koKR>
+    <itIT>Benedizione: Saggezza</itIT>
+    <esMX>Bendición de sabiduría</esMX>
+    <esES>Bendición de sabiduría</esES>
+    <deDE>Segen der Weisheit</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Grant +2 Attack.</enUS>
-    <frFR>Confère +2 ATQ.</frFR>
-    <zhTW>賦予+2攻擊力。</zhTW>
-    <zhCN>获得+2攻击力。</zhCN>
-    <ruRU>Добавить +2 к атаке</ruRU>
-    <ptBR>Conceda +2 de Ataque.</ptBR>
-    <plPL>Daj +2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>Fornisce +2 Attacco.</itIT>
-    <esMX>Otorga +2 de Ataque.</esMX>
-    <esES>Otorga +2 p. de ataque.</esES>
-    <deDE>Verleiht +2 Angriff.</deDE>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Choose a minion.  Whenever it attacks, draw a card.</enUS>
+    <frFR>Choisissez un serviteur. Chaque fois qu’il attaque, vous piochez une carte.</frFR>
+    <zhTW>選擇一個手下。每當它進行攻擊，抽一張牌</zhTW>
+    <zhCN>选择一个随从，每当它进行攻击时，抽一张牌。</zhCN>
+    <ruRU>Выберите существо. Когда оно атакует, вы берете карту.</ruRU>
+    <ptBR>Escolha um lacaio. Sempre que ele atacar, compre um card.</ptBR>
+    <plPL>Wybierz stronnika. Dobierz kartę za każdym razem, gdy zaatakuje.</plPL>
+    <koKR>하수인 하나를 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Seleziona un servitore. Ogni volta che attacca, pesca una carta.</itIT>
+    <esMX>Elige un esbirro. Cada vez que ese esbirro ataque, roba una carta.</esMX>
+    <esES>Elige a un esbirro. Cada vez que ataca, roba una carta.</esES>
+    <deDE>Wählt einen Diener aus. Zieht jedes Mal eine Karte, wenn er angreift.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Luca Zontini</enUS>
+    <enUS>Brian 'Chippy' Dugan</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>ADD ME TO YOUR DECK, MAGGOT!</enUS>
-    <zhTW>把我加進你的套牌裡，蠢蛋!</zhTW>
-    <zhCN>“把我加入你的套牌，白痴！”</zhCN>
-    <ruRU>ПОЛОЖИ МЕНЯ В КОЛОДУ, ТУПИЦА!</ruRU>
-    <ptBR>ME ADICIONE AO SEU DECK, VERME!</ptBR>
-    <plPL>DODAJ MNIE DO SWOJEJ TALII, ŚMIECIU!</plPL>
-    <koKR>날 덱에 추가해라, 이 고문관 녀석아!</koKR>
-    <itIT>AGGIUNGIMI AL TUO MAZZO, VERME!</itIT>
-    <frFR>AJOUTE-MOI À TON DECK, MINABLE !</frFR>
-    <esMX>¡AGRÉGAME A TU MAZO, GUSANO!</esMX>
-    <esES>¡AÑÁDEME A TU MAZO, GUSANO!</esES>
-    <deDE>Zu der Art seiner „Ruchlosigkeit“ sollte man ihm besser keine Fragen stellen.</deDE>
+    <enUS>Apparently with wisdom comes the knowledge that you should probably be attacking every turn.</enUS>
+    <zhTW>顯然有了智慧，就會帶來「你大概應該每回合都進行攻擊」這樣的常識。</zhTW>
+    <zhCN>显然是智慧让他认清了这样一条真理：作为一个随从，每回合都要攻击才能体现其价值。</zhCN>
+    <ruRU>Очевидно, с мудростью приходит понимание, что атаковать надо каждый ход.</ruRU>
+    <ptBR>Aparentemente, com sabedoria vem o conhecimento de que você provavelmente deveria atacar em todos os turnos.</ptBR>
+    <plPL>Z nabytą mądrością wiesz teraz, że wypadałoby atakować co turę.</plPL>
+    <koKR>이게 어떤 지혜인지는 모르겠지만, 일단 매 턴마다 한 번씩 공격해야 할 것 같군요.</koKR>
+    <itIT>Insieme alla saggezza, fornisce anche la consapevolezza che è meglio attaccare a ogni turno.</itIT>
+    <frFR>On dit que de la sagesse découle le savoir. Et vous savez qu’il faut attaquer à chaque tour.</frFR>
+    <esMX>Aparentemente, con la sabiduría llega la conciencia de que te conviene atacar en todos los turnos.</esMX>
+    <esES>Al parecer, la sabiduría aporta el conocimiento de que seguramente deberías atacar cada turno.</esES>
+    <deDE>Anscheinend kommt mit der Weisheit auch das Wissen, dass man wohl in jedem Zug angreifen sollte.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="365c063e-5364-433c-acf3-700fecc72b2e">
-    <PlayRequirement reqID="22" param="" />
+  <Power definition="463a57fd-c5cf-4676-8bac-b19f94d7f68f">
+    <PlayRequirement reqID="11" param="" />
     <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
   </Power>
 </Entity>

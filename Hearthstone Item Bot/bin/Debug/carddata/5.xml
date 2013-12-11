@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_613">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Edwin VanCleef</enUS>
     <frFR>Edwin VanCleef</frFR>
@@ -28,8 +26,8 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Combo:&lt;/b&gt; Gain +2/+2 for each card played earlier this turn.</enUS>
     <frFR>&lt;b&gt;Combo :&lt;/b&gt; gagne +2/+2 pour chaque carte jouée auparavant pendant ce tour.</frFR>
-    <zhTW>&lt;b&gt;連擊:&lt;/b&gt;在本回合當中，之前所打出的每一張牌，都使其獲得+2/+2。</zhTW>
-    <zhCN>&lt;b&gt;连击：&lt;/b&gt;在本回合中，每有一张其他牌在该牌前被使用，便获得+2/+2。</zhCN>
+    <zhTW>&lt;b&gt;連擊:&lt;/b&gt;在本回合中，之前所打出的每一張牌，都使其獲得+2/+2</zhTW>
+    <zhCN>&lt;b&gt;连击：&lt;/b&gt;在本回合中，使用此牌前每打出一张其他牌，便获得+2/+2。</zhCN>
     <ruRU>&lt;b&gt;Серия приемов:&lt;/b&gt; это существо получает +2/+2 за каждую другую карту, разыгранную ранее на этом ходу.</ruRU>
     <ptBR>&lt;b&gt;Combo:&lt;/b&gt; Receba +2/+2 para cada um dos cards jogados antes neste turno.</ptBR>
     <plPL>&lt;b&gt;Kombinacja:&lt;/b&gt; Otrzymuje +2/+2 za każdą kartę zagraną wcześniej w tej turze.</plPL>
@@ -46,7 +44,7 @@
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>He led the Stonemasons in the reconstruction of Stormwind, and when the nobles refused to pay, he founded the Defias Brotherhood to, well, &lt;i&gt;deconstruct&lt;/i&gt; Stormwind.</enUS>
-    <zhTW>他帶領石匠協會重建暴風城。當貴族們拒絕付賬後，他成立了迪菲亞兄弟會來，嗯，&lt;i&gt;拆除&lt;/i&gt;暴風城。</zhTW>
+    <zhTW>他帶領石匠協會重建暴風城。當貴族們拒絕付賬後，他成立了迪菲亞兄弟會來，嗯，&lt;b&gt;拆除&lt;/b&gt;暴風城。</zhTW>
     <zhCN>他领导石匠协会重建了暴风城，而当贵族们拒绝支付工钱的时候，他将领导迪菲亚兄弟会，嗯，拆掉暴风城。</zhCN>
     <ruRU>Он возглавлял братство Каменщиков, помогавших восстанавливать Штормград. Когда знать отказалась платить за их услуги, ван Клиф основал Братство Справедливости, чьей целью было &lt;i&gt;разобрать&lt;/i&gt; Штормград по камешку.</ruRU>
     <ptBR>Ele liderou os Alvanéis na reconstrução de Ventobravo. Quando os nobres se recusaram a pagar, ele fundou a Irmandade Défias para... bem, &lt;i&gt;desconstruir&lt;/i&gt; Ventobravo.</ptBR>
@@ -55,7 +53,7 @@
     <itIT>Ha guidato i tagliapietre nella ricostruzione di Roccavento, e quando i nobili si sono rifiutati di pagare ha fondato la Fratellanza dei Defias per... be'... &lt;i&gt;decostruire&lt;/i&gt; la capitale.</itIT>
     <frFR>Il a dirigé les maçons lors de la reconstruction de Hurlevent, et lorsque les nobles ont refusé de payer, il a fondé la Confrérie défias pour, eh bien, &lt;i&gt;redécorer&lt;/i&gt; la ville.</frFR>
     <esMX>Comandó a los Albañiles durante la reconstrucción de Ventormenta, y cuando los nobles se negaron a pagar, fundó la Hermandad Defias para... bueno, para &lt;i&gt;destruir&lt;/i&gt; Ventormenta.</esMX>
-    <esES>Lideraba a los albañiles que reconstruyeron Ventormenta, y cuando los nobles se negaron a pagarle fundó la Hermandad Defias para, en fin, &lt;i&gt;deconstruir&lt;/i&gt; Ventormenta.</esES>
+    <esES>Lideraba a los albañiles que reconstruyeron Ventormenta, y cuando los nobles se negaron a pagarle, fundó la Hermandad Defias para, en fin, &lt;i&gt;deconstruir&lt;/i&gt; Ventormenta.</esES>
     <deDE>Er leitete die Steinmetze beim Wiederaufbau von Sturmwind, und als die Adligen nicht zahlen wollten, gründete er die Bruderschaft der Defias, um Sturmwind, nun ja, wieder &lt;i&gt;abzubauen&lt;/i&gt;.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />

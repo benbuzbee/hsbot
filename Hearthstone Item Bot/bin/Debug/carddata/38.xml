@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_258">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Unbound Elemental</enUS>
     <frFR>Élémentaire délié</frFR>
@@ -27,12 +25,12 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Whenever you play a card with &lt;b&gt;Overload&lt;/b&gt;, gain +1/+1.</enUS>
     <frFR>Chaque fois que vous jouez une carte avec &lt;b&gt;Surcharge&lt;/b&gt;, gagne +1/+1.</frFR>
-    <zhTW>每當你打出有&lt;b&gt;超載&lt;/b&gt;的牌，便獲得+1/+1。</zhTW>
+    <zhTW>每當你打出有&lt;b&gt;超載&lt;/b&gt;的牌，便獲得+1/+1</zhTW>
     <zhCN>每当你使用一张具有&lt;b&gt;过载&lt;/b&gt;的牌，便获得+1/+1。</zhCN>
     <ruRU>Когда вы разыгрываете карту с &lt;b&gt;Перегрузкой&lt;/b&gt;, это существо получает +1/+1. </ruRU>
     <ptBR>Sempre que você jogar um card com &lt;b&gt;Sobrecarga&lt;/b&gt;, receba +1/+1.</ptBR>
     <plPL>Otrzymuje +1/+1 za każdym razem, gdy zagrasz kartę z &lt;b&gt;Przeciążeniem&lt;/b&gt;.</plPL>
-    <koKR>내가 &lt;b&gt;과부하&lt;/b&gt; 카드를 낼 때마다 +1/+1을 얻습니다.</koKR>
+    <koKR>내가 &lt;b&gt;과부하&lt;/b&gt; 카드를 1장 낼 때마다 +1/+1을 얻습니다.</koKR>
     <itIT>Ogni volta che giochi una carta con &lt;b&gt;Sovraccarico&lt;/b&gt;, l'Elementale Indomabile ottiene +1/+1.</itIT>
     <esMX>Cada vez que juegas una carta con &lt;b&gt;Sobrecarga&lt;/b&gt;, obtiene +1/+1.</esMX>
     <esES>Cuando juegas una carta con &lt;b&gt;Sobrecarga&lt;/b&gt;, obtiene +1/+1.</esES>
@@ -60,6 +58,7 @@
     <deDE>Anders als gefesselte Elementare gehen ungefesselte Elementare auch öfters mal aus.</deDE>
   </Tag>
   <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <ReferencedTag name="Recall" enumID="215" type="Number" value="1" />
   <Power definition="e134bcf9-5480-432e-a702-47b3e3e3ef6f" />
   <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

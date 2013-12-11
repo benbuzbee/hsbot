@@ -1,42 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4c_007">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_166b">
+  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mukla's Big Brother</enUS>
-    <frFR>Grand frère de Mukla</frFR>
-    <zhTW>穆克拉的大哥</zhTW>
-    <zhCN>穆克拉的大表哥</zhCN>
-    <ruRU>Старший брат Муклы</ruRU>
-    <ptBR>Irmão Mais Velho de Mukla</ptBR>
-    <plPL>Wielki brat Mukli</plPL>
-    <koKR>무클라의 큰형</koKR>
-    <itIT>Fratello Maggiore di Mukla</itIT>
-    <esMX>Hermano mayor de Mukla</esMX>
-    <esES>Hermano mayor de Mukla</esES>
-    <deDE>Muklas großer Bruder</deDE>
+    <enUS>Dispel</enUS>
+    <frFR>Dissipation</frFR>
+    <zhTW>驅散</zhTW>
+    <zhCN>禁魔</zhCN>
+    <ruRU>Рассеивание</ruRU>
+    <ptBR>Dissipar</ptBR>
+    <plPL>Rozproszenie</plPL>
+    <koKR>무효화</koKR>
+    <itIT>Dissoluzione</itIT>
+    <esMX>Disipar</esMX>
+    <esES>Disipar</esES>
+    <deDE>Bannen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>So strong! And only 6 Mana?!</enUS>
-    <frFR>Il est si fort, et pour seulement 6 cristaux de mana ?!</frFR>
-    <zhTW>好強!而且只消耗6點法力?!</zhTW>
-    <zhCN>如此强大！而且只要6点法力值？！</zhCN>
-    <ruRU>Такой большой, и всего за 6 маны?!</ruRU>
-    <ptBR>Tão forte! E só custa 6 de Mana?!</ptBR>
-    <plPL>Ależ siłacz! I za jedyne 6 many?!</plPL>
-    <koKR>이렇게 센데 마나는 6밖에 안 든다고?!</koKR>
-    <itIT>Così forte! E solo 6 Mana?!?</itIT>
-    <esMX>¡¿Tan poderoso y solo cuesta 6 de maná?!</esMX>
-    <esES>¡Qué fuerte! ¿Y solo cuesta 6 cristales de maná?</esES>
-    <deDE>So stark! Und nur 6 Mana?!</deDE>
+    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
+    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
+    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>
+    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
+    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
+    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>
+    <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
+    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore.</itIT>
+    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
+    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="10" />
-  <Tag name="Health" enumID="45" type="Number" value="10" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="e55bd426-e61d-4414-b396-e64a04125814" />
+  <Tag name="Silence" enumID="339" type="Bool" value="1" />
+  <Power definition="963b5b27-818e-4915-815d-c7fc3a1c330e">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

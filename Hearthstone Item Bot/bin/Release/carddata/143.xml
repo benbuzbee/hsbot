@@ -1,59 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_538">
-  <MasterPower>b560ff40-9ed7-4ff7-8a7a-120d802afb3c</MasterPower>
+<Entity version="2" CardID="CS2_028">
+  <MasterPower>16d6dfb5-899a-4a22-8893-bf11e98a76cb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Unleash the Hounds</enUS>
-    <frFR>Lâcher les chiens</frFR>
-    <zhTW>放狗</zhTW>
-    <zhCN>关门放狗</zhCN>
-    <ruRU>Спустить собак</ruRU>
-    <ptBR>Soltem os Cães</ptBR>
-    <plPL>Spuścić psy!</plPL>
-    <koKR>개들을 풀어라</koKR>
-    <itIT>Sguinzaglia i Segugi</itIT>
-    <esMX>Suelten a los canes</esMX>
-    <esES>Soltad a los perros</esES>
-    <deDE>Lasst die Hunde los!</deDE>
+    <enUS>Blizzard</enUS>
+    <frFR>Blizzard</frFR>
+    <zhTW>暴風雪</zhTW>
+    <zhCN>暴风雪</zhCN>
+    <ruRU>Снежная буря</ruRU>
+    <ptBR>Nevasca</ptBR>
+    <plPL>Zamieć</plPL>
+    <koKR>눈보라</koKR>
+    <itIT>Tormenta</itIT>
+    <esMX>Ventisca</esMX>
+    <esES>Ventisca</esES>
+    <deDE>Blizzard</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your Beasts +1 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <frFR>Confère +1 ATQ et &lt;b&gt;Charge&lt;/b&gt; à vos bêtes.</frFR>
-    <zhTW>賦予你全部的野獸+1攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;。</zhTW>
-    <zhCN>使你的野兽获得+1攻击力并具有&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Ваши звери получают +1 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Conceda +1 de Ataque e &lt;b&gt;Investida&lt;/b&gt; às suas Feras.</ptBR>
-    <plPL>Daj swoim Bestiom +1 do ataku oraz &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>내 야수들에게 공격력 +1과 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce +1 Attacco e &lt;b&gt;Carica&lt;/b&gt; alle tue Bestie.</itIT>
-    <esMX>Otorga +1 de Ataque y &lt;b&gt;Carga&lt;/b&gt; a tus Bestias.</esMX>
-    <esES>Otorga +1 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt; a tus bestias.</esES>
-    <deDE>Verleiht Euren Wildtieren +1 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+    <enUS>Deal $2 damage to all enemy minions and &lt;b&gt;Freeze&lt;/b&gt; them.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts à tous les serviteurs adverses et les &lt;b&gt;gèle&lt;/b&gt;.</frFR>
+    <zhTW>對全部敵方手下造成$2點傷害並使其&lt;b&gt;凍結&lt;/b&gt;</zhTW>
+    <zhCN>对所有敌方随从造成$2点伤害，并使其&lt;b&gt;冻结&lt;/b&gt;。</zhCN>
+    <ruRU>Наносит $2 ед. урона всем существам противника и &lt;b&gt;замораживает&lt;/b&gt; их.</ruRU>
+    <ptBR>Cause $2 de dano a todos os lacaios inimigos e &lt;b&gt;Congele&lt;/b&gt;-os.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń wszystkim wrogim stronnikom i ich &lt;b&gt;Zamroź&lt;/b&gt;.</plPL>
+    <koKR>모든 적 하수인에게 피해를 $2 주고 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
+    <itIT>Infligge $2 danni a tutti i servitori nemici e causa &lt;b&gt;Congelamento&lt;/b&gt;.</itIT>
+    <esMX>Inflige $2 de daño a todos los esbirros enemigos y los &lt;b&gt;Congela&lt;/b&gt;.</esMX>
+    <esES>Inflige $2 p. de daño a todos los esbirros enemigos y los &lt;b&gt;congela&lt;/b&gt;.</esES>
+    <deDE>Fügt allen feindlichen Dienern $2 Schaden zu und &lt;b&gt;friert&lt;/b&gt; sie ein.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Velvet Engine</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You must read the name of this card out loud each time you play it.</enUS>
-    <zhTW>你每次打這張牌時，記得把牌的名稱大喊出來。</zhTW>
-    <zhCN>在你使用这张牌的时候，一定要喊出它的名字。</zhCN>
-    <ruRU>Громко зачитывайте название этой карты каждый раз, когда будете ее разыгрывать.</ruRU>
-    <ptBR>Você precisa dizer o nome deste card em alto e bom som cada vez que você jogá-lo.</ptBR>
-    <plPL>Kto dogoni psa? Może ty, może ty? Może jednak ja!</plPL>
-    <koKR>이 카드를 낼 때마다 "물어!"라고 크게 외쳐야 합니다.</koKR>
-    <itIT>Devi gridare il nome di questa carta ogni volta che la giochi.</itIT>
-    <frFR>J’ai déjà entendu ça quelque part...</frFR>
-    <esMX>Cada vez que juegues esta carta, tienes que leer su nombre en voz alta.</esMX>
-    <esES>Después de jugar esta carta, queda bien juntar las manos y decir "¡Excelente!".</esES>
-    <deDE>Ihr müsst den Namen dieser Karte jedes Mal laut aussprechen, wenn Ihr sie ausspielt.</deDE>
+    <enUS>This spell can be very Entertaining.</enUS>
+    <zhTW>降下的暴雪有很強的娛樂作用。</zhTW>
+    <zhCN>这张牌象征了很多强大而美好的东西。尤其是它的名字。</zhCN>
+    <ruRU>Осторожно. Говорят, это эпическое заклинание отвлекает детей от школы.</ruRU>
+    <ptBR>Este feitiço pode ser bastente Divertido.</ptBR>
+    <plPL>Zamieć, jak co roku, zaskoczyła gierowców.</plPL>
+    <koKR>왠지 모르게 정이 가는 이름의 주문입니다.</koKR>
+    <itIT>Questa carta non ha bisogno di ulteriori freddure.</itIT>
+    <frFR>Ce sort a vraiment un nom génial !</frFR>
+    <esMX>Ahora solo necesitamos unos palitos y podemos hacer... ¡helado de esbirros!</esMX>
+    <esES>Se acerca un frente frío.</esES>
+    <deDE>Dieser Zauber ist pures Entertainment.</deDE>
   </Tag>
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="b560ff40-9ed7-4ff7-8a7a-120d802afb3c" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Chris Seaman</enUS>
+  </Tag>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="16d6dfb5-899a-4a22-8893-bf11e98a76cb" />
 </Entity>

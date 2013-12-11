@@ -1,69 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_277">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_067">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Arcane Missiles</enUS>
-    <frFR>Projectiles des Arcanes</frFR>
-    <zhTW>秘法飛彈</zhTW>
-    <zhCN>奥术飞弹</zhCN>
-    <ruRU>Чародейские стрелы</ruRU>
-    <ptBR>Mísseis Arcanos</ptBR>
-    <plPL>Tajemne pociski</plPL>
-    <koKR>신비한 화살</koKR>
-    <itIT>Missili Arcani</itIT>
-    <esMX>Misiles arcanos</esMX>
-    <esES>Misiles Arcanos</esES>
-    <deDE>Arkane Geschosse</deDE>
+    <enUS>Argent Commander</enUS>
+    <frFR>Commandant d’argent</frFR>
+    <zhTW>銀白指揮官</zhTW>
+    <zhCN>银色指挥官</zhCN>
+    <ruRU>Командир Авангарда</ruRU>
+    <ptBR>Comandante Argênteo</ptBR>
+    <plPL>Dowódca Argentu</plPL>
+    <koKR>은빛십자군 부대장</koKR>
+    <itIT>Ufficiale d'Argento</itIT>
+    <esMX>Comandante argenta</esMX>
+    <esES>Comandante Argenta</esES>
+    <deDE>Argentumkommandant</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $3 damage randomly split among enemy characters.</enUS>
-    <frFR>Inflige $3 |4(point,points) de dégâts répartis de façon aléatoire entre les personnages adverses.</frFR>
-    <zhTW>造成$3點傷害，隨機分給敵方角色。</zhTW>
-    <zhCN>造成$3点伤害，随机分配给敌方角色。</zhCN>
-    <ruRU>Наносит $3 ед. урона, случайно распределенного среди персонажей противника.</ruRU>
-    <ptBR>Cause $3 de dano dividido aleatoriamente entre os personagens inimigos.</ptBR>
-    <plPL>Zadaj $3 pkt. obrażeń, losowo rozdzielone pomiędzy wrogimi postaciami.</plPL>
-    <koKR>적 캐릭터들에게 $3의 피해를 무작위로 나누어 입힙니다.</koKR>
-    <itIT>Infligge $3 danni suddivisi casualmente tra i personaggi nemici.</itIT>
-    <esMX>Inflige $3 de daño dividido aleatoriamente entre los personajes enemigos.</esMX>
-    <esES>Inflige $3 p. de daño, divididos aleatoriamente entre los personajes enemigos.</esES>
-    <deDE>Verursacht $3 Schaden, der zufällig auf feindliche Charaktere verteilt wird.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Divine Shield&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;, &lt;b&gt;Bouclier divin&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;，&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. &lt;b&gt;Божественный щит&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;, &lt;b&gt;Escudo Divino&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;, &lt;b&gt;Boska tarcza&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;, &lt;b&gt;천상의 보호막&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;. &lt;b&gt;Scudo Divino&lt;/b&gt;.</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;, &lt;b&gt;Escudo divino&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;, &lt;b&gt;Escudo divino&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;, &lt;b&gt;Gottesschild&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.</enUS>
-    <zhTW>你本來以為你能更熟練地控制這些飛彈，畢竟你是個強大的法師，對吧。</zhTW>
-    <zhCN>既然你想要做一个超级厉害的法师，就必须得把奥术飞弹控制得好一些。</zhCN>
-    <ruRU>Такому могущественному магу как вы наверняка хотелось бы лучше управлять своими чародейскими стрелами.</ruRU>
-    <ptBR>E você que pensava que ficaria um pouco mais fácil controlar os mísseis, sendo um mago poderoso e tal.</ptBR>
-    <plPL>Potężni magowie powinni chyba lepiej kontrolować swoje pociski, co nie?</plPL>
-    <koKR>솔직히 당신은 엄청나게 강한 마법사니까 신비한 화살 정도는 잘 조준할 수 있을 거라 생각하셨죠?</koKR>
-    <itIT>Visto che sei un Mago potentissimo, ci si aspetterebbe un po' di più da te sul controllo dei Missili Arcani.</itIT>
-    <frFR>Vous devriez pouvoir contrôler vos missiles un peu mieux que ça puisque vous êtes un puissant mage et tout et tout.</frFR>
-    <esMX>Un mago tan poderoso y con tanta experiencia como tú debería poder controlar un poco mejor sus misiles, ¿no te parece?</esMX>
-    <esES>Para ser un mago tan poderoso, podrías controlar tus misiles un poco mejor.</esES>
-    <deDE>Man möchte glauben, dass Ihr Eure Geschosse etwas besser kontrollieren könntet, nun da Ihr ein mächtiger Magier und so weiter seid.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Warren Mahy</enUS>
+    <enUS>James Ryman</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 32.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Argent Dawn stands vigilant against the Scourge, as well as people who cut in line at coffee shops.</enUS>
+    <zhTW>銀色黎明對於天譴軍團的動向十分關注，對在咖啡廳插隊的人也非常關注。</zhTW>
+    <zhCN>银色指挥官总是机警地注意着天灾军团的动向，同时阻止任何想在咖啡店里插队买咖啡的人。</zhCN>
+    <ruRU>Серебряный Рассвет ревностно оберегает мир от двух явлений: от Плети и от тех, кто лезет в кассу без очереди.</ruRU>
+    <ptBR>A Aurora Argêntea continua sua vigília contra o Flagelo, assim como contra pessoas que furam fila nos cafés.</ptBR>
+    <plPL>Należał do Argentu zanim to było modne.</plPL>
+    <koKR>은빛십자군 부대장은 스컬지의 동태를 주시합니다. 버스 정류장에서 새치기하는 사람도 주시합니다.</koKR>
+    <itIT>L'ordine dell'Alba d'Argento è sempre in guardia contro il Flagello... e contro le persone che saltano la fila in caffetteria.</itIT>
+    <frFR>Quiconque possédera ce marteau, s’il s’en trouve digne recevra le bouclier divin.</frFR>
+    <esMX>El Alba Argenta está siempre alerta a la Plaga... y a la gente que se mete en la cola del banco.</esMX>
+    <esES>El Alba Argenta protege al mundo de la Plaga y de la gente que se salta las colas.</esES>
+    <deDE>Die Argentumdämmerung stellt sich tapfer der Geißel entgegen – und Leuten, die sich an der Supermarktkasse vordrängeln wollen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Tag name="ImmuneToSpellpower" enumID="349" type="Bool" value="1" />
-  <Power definition="72ca23c3-af5c-481b-aee8-e758e1ffbf27" />
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Tag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="16d80976-87fa-43ba-b48c-c43c9e602243" />
+  <Power definition="21943f5e-03f9-4ce4-a08b-ed1e1c146968" />
 </Entity>

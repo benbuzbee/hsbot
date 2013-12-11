@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4c_008">
-  <MasterPower>ed93e085-4e8f-42b0-9155-96b1cacb9464</MasterPower>
+<Entity version="2" CardID="CS2_041e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Will of Mukla</enUS>
-    <frFR>Volonté de Mukla</frFR>
-    <zhTW>穆克拉的意志</zhTW>
-    <zhCN>穆克拉的意志</zhCN>
-    <ruRU>Воля Муклы</ruRU>
-    <ptBR>Vontade de Mukla</ptBR>
-    <plPL>Wola Mukli</plPL>
-    <koKR>무클라의 의지</koKR>
-    <itIT>Volontà di Mukla</itIT>
-    <esMX>Voluntad de Mukla</esMX>
-    <esES>Voluntad de Mukla</esES>
-    <deDE>Der Wille Muklas</deDE>
+    <enUS>Ancestral Infusion</enUS>
+    <zhTW>先祖灌注</zhTW>
+    <zhCN>先祖眷顾</zhCN>
+    <ruRU>Сила предков</ruRU>
+    <ptBR>Infusão Ancestral</ptBR>
+    <plPL>Pradawna infuzja</plPL>
+    <koKR>선인의 주입</koKR>
+    <itIT>Infusione Ancestrale</itIT>
+    <frFR>Infusion ancestrale</frFR>
+    <esMX>Brebaje ancestral</esMX>
+    <esES>Infusión ancestral</esES>
+    <deDE>Macht der Ahnen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore 8 Health.</enUS>
-    <frFR>Rend 8 points de vie.</frFR>
-    <zhTW>恢復8點生命值。</zhTW>
-    <zhCN>恢复8点生命值。</zhCN>
-    <ruRU>Восстанавливает 8 ед. здоровья.</ruRU>
-    <ptBR>Restaure 8 de Vida.</ptBR>
-    <plPL>Przywróć 8 pkt. zdrowia.</plPL>
-    <koKR>생명력을 8 회복시킵니다.</koKR>
-    <itIT>Rigenera 8 Salute.</itIT>
-    <esMX>Restaura 8 de Salud.</esMX>
-    <esES>Restaura 8 p. de salud.</esES>
-    <deDE>Stellt 8 Leben wieder her.</deDE>
+    <enUS>Taunt.</enUS>
+    <zhTW>嘲諷。</zhTW>
+    <zhCN>嘲讽</zhCN>
+    <ruRU>Провокация.</ruRU>
+    <ptBR>Provocar.</ptBR>
+    <plPL>Prowokacja</plPL>
+    <koKR>도발</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <frFR>Provocation.</frFR>
+    <esMX>Provocación.</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="ed93e085-4e8f-42b0-9155-96b1cacb9464" />
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="0627b4a6-f5fb-447c-94ee-6fda016fca3d" />
 </Entity>

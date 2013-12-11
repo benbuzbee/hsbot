@@ -21,7 +21,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Deal $2 damage to all enemy minions.</enUS>
     <frFR>Inflige $2 |4(point,points) de dégâts à tous les serviteurs adverses.</frFR>
-    <zhTW>對全部敵方手下造成$2點傷害。</zhTW>
+    <zhTW>對全部敵方手下造成$2點傷害</zhTW>
     <zhCN>对所有敌方随从造成$2点伤害。</zhCN>
     <ruRU>Наносит $2 ед. урона всем существам противника. </ruRU>
     <ptBR>Cause $2 de dano a todos os lacaios inimigos.</ptBR>

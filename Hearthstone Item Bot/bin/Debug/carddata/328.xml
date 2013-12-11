@@ -1,67 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_055">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_117">
+  <MasterPower>d37a04da-f446-40c8-8ddb-1f77659837cd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mana Addict</enUS>
-    <frFR>Accro au mana</frFR>
-    <zhTW>魔法成癮者</zhTW>
-    <zhCN>魔瘾者</zhCN>
-    <ruRU>Любительница маны</ruRU>
-    <ptBR>Viciada em Mana</ptBR>
-    <plPL>Manoholiczka</plPL>
-    <koKR>마나 중독자</koKR>
-    <itIT>Manadipendente</itIT>
-    <esMX>Adicta al maná</esMX>
-    <esES>Adicta al maná</esES>
-    <deDE>Manasüchtige</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Addicted</enUS>
-  </Tag>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you cast a spell, gain +2 Attack this turn.</enUS>
-    <frFR>Chaque fois que vous lancez un sort, gagne +2 ATQ pendant ce tour.</frFR>
-    <zhTW>在本回合中，每當你施展法術，就獲得+2攻擊力。</zhTW>
-    <zhCN>在本回合中，每当你施放一个法术，便获得+2攻击力。</zhCN>
-    <ruRU>Каждый раз, когда вы разыгрываете карту заклинания, получает +2 к атаке до конца хода.</ruRU>
-    <ptBR>Sempre que você lançar um feitiço, receba +2 de Ataque no mesmo turno.</ptBR>
-    <plPL>Otrzymuje +2 do ataku w tej turze za każdym razem, gdy rzucisz zaklęcie.</plPL>
-    <koKR>내가 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다.</koKR>
-    <itIT>Ogni volta che lanci una Magia, la Manadipendente ottiene +2 Attacco in questo turno.</itIT>
-    <esMX>Cada vez que lanzas un hechizo, obtiene +2 de Ataque en este turno.</esMX>
-    <esES>Cada vez que lanzas un hechizo, obtiene +2 p. de ataque este turno.</esES>
-    <deDE>Erhält jedes Mal +2 Angriff in diesem Zug, wenn Ihr einen Zauber wirkt.</deDE>
+    <enUS>Earthen Ring Farseer</enUS>
+    <frFR>Prophète du Cercle terrestre</frFR>
+    <zhTW>陶土議會先知</zhTW>
+    <zhCN>大地之环先知</zhCN>
+    <ruRU>Служитель Земли</ruRU>
+    <ptBR>Clarividente Telúrico</ptBR>
+    <plPL>Widzący z Kręgu Ziemi</plPL>
+    <koKR>대지 고리회 선견자</koKR>
+    <itIT>Chiaroveggente della Terra</itIT>
+    <esMX>Vidente del Anillo de la Tierra</esMX>
+    <esES>Chamán clarividente</esES>
+    <deDE>Seher des Irdenen Rings</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Restore 3 Health.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; rend 3 points de vie.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;恢復3點生命值</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;恢复3点生命值。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; восстанавливает 3 ед. здоровья.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Restaure 3 de Vida.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Przywróć 3 pkt. zdrowia.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 생명력을 3 회복시킵니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; rigenera 3 Salute.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; restaura 3 de Salud.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Restaura 3 p. de salud.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Stellt 3 Leben wieder her.</deDE>
+  </Tag>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Restore 3 Health.</enUS>
+    <frFR>Rend 3 points de vie.</frFR>
+    <zhTW>恢復3點生命值。</zhTW>
+    <zhCN>恢复3点生命值。</zhCN>
+    <ruRU>Восстановить 3 ед. здоровья</ruRU>
+    <ptBR>Restaure 3 de Vida.</ptBR>
+    <plPL>Przywróć 3 pkt. zdrowia.</plPL>
+    <koKR>생명력 3 회복</koKR>
+    <itIT>Rigenera 3 Salute.</itIT>
+    <esMX>Restaura 3 de Salud.</esMX>
+    <esES>Restaura 3 p. de salud.</esES>
+    <deDE>Stellt 3 Leben wieder her.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Hideaki Takamura</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>She’s trying to kick the habit, but still takes some mana whenever she has a stressful day.</enUS>
-    <zhTW>她有試著戒除這個惡習，不過在壓力過大的日子她還是會吸點法力。</zhTW>
-    <zhCN>她很想戒掉这嗜好，但是每当她感到压力很大的时候，她总是会吸上几口。</zhCN>
-    <ruRU>Она пытается побороть эту дурную привычку, но после долгого и трудного дня как отказаться от глоточка маны?</ruRU>
-    <ptBR>Ela está tentando parar, mas ainda precisa de um pouco de mana para encarar um dia estressante.</ptBR>
-    <plPL>Stara się zerwać z nałogiem, ale wciąż szprycuje się maną, gdy ma stresujący dzień.</plPL>
-    <koKR>끊으려고 노력하는 그녀지만 스트레스 받은 날에는 참기 힘들답니다.</koKR>
-    <itIT>Sta cercando di smettere, ma fa ancora uso di Mana quando la giornata è stata particolarmente pesante.</itIT>
-    <frFR>Elle tente de se défaire de cette mauvaise habitude, mais après une mauvaise journée, c’est dur de résister.</frFR>
-    <esMX>Está tratando de dejar el hábito. Pero todavía toma un poco de maná de vez en cuando, si tiene un día difícil.</esMX>
-    <esES>Está intentando dejarlo, pero sigue tomando maná cuando tiene un día duro.</esES>
-    <deDE>Sie versucht vom Mana weg zu kommen, aber sie nimmt immer noch ein wenig, wenn sie einen stressigen Tag hat.</deDE>
+    <enUS>He can see really far, and he doesn't use a telescope like those filthy pirates.</enUS>
+    <zhTW>忙著看未來的發展，導致他一直沒注意到現在發生的事。嗯...是什麼燒起來了?</zhTW>
+    <zhCN>他确实能看得很远，他才不像那些肮脏的海盗们需要用望远镜。</zhCN>
+    <ruRU>Как же он спит, если его глаза всегда открыты?</ruRU>
+    <ptBR>Ele vê tudo claramente, e nem precisa de óculos!</ptBR>
+    <plPL>Spojrzeniem sięga tam, gdzie wzrok innych nie sięga.</plPL>
+    <koKR>선견지명이 대단합니다. 이름값을 한다고나 할까요.</koKR>
+    <itIT>Vede talmente bene che a volte gli sembra di osservare il futuro.</itIT>
+    <frFR>Avant, il faisait partie du Cercle des prophètes disparus, mais on ne sait pas ce qu’ils sont devenus.</frFR>
+    <esMX>Tiene la capacidad de ver muy lejos, y sin usar telescopio como esos piratas mugrosos.</esMX>
+    <esES>Puede ver a lo lejos, y no le hace falta un catalejo como a los piratas.</esES>
+    <deDE>Er kann wirklich ziemlich gut sehen. Für alles andere ist er allerdings nicht unbedingt Experte.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="01a150d7-8384-46a0-8cb8-e54b24c2b0cf" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="d37a04da-f446-40c8-8ddb-1f77659837cd">
+    <PlayRequirement reqID="22" param="" />
+  </Power>
 </Entity>

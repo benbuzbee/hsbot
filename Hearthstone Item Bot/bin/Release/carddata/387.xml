@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_013t">
-  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>
+<Entity version="2" CardID="CRED_05">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Excess Mana</enUS>
-    <zhTW>法力溢出</zhTW>
-    <zhCN>法力过剩</zhCN>
-    <ruRU>Избыток маны</ruRU>
-    <ptBR>Excesso de Mana</ptBR>
-    <plPL>Nadmiar many</plPL>
-    <koKR>넘치는 마나</koKR>
-    <itIT>Eccesso di Mana</itIT>
-    <frFR>Excès de mana</frFR>
-    <esMX>Exceso de maná</esMX>
-    <esES>Maná sobrante</esES>
-    <deDE>Überschüssiges Mana</deDE>
+    <enUS>Kyle Harrison</enUS>
+    <zhTW>Kyle Harrison</zhTW>
+    <zhCN>Kyle Harrison</zhCN>
+    <ruRU>Kyle Harrison</ruRU>
+    <ptBR>Kyle Harrison</ptBR>
+    <plPL>Kyle Harrison</plPL>
+    <koKR>카일 해리슨</koKR>
+    <itIT>Kyle Harrison</itIT>
+    <frFR>Kyle Harrison</frFR>
+    <esMX>Kyle Harrison</esMX>
+    <esES>Kyle Harrison</esES>
+    <deDE>Kyle Harrison</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>
-    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶。)&lt;/i&gt;</zhTW>
-    <zhCN>抽1张牌。&lt;i&gt;（你最多可以拥有10点法力值。）&lt;/i&gt;</zhCN>
-    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>
-    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>
-    <plPL>Dobierz kartę. &lt;i&gt;(Możesz mieć maksymalnie 10 many w zasobniku.)&lt;/i&gt;</plPL>
-    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>
-    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>
-    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>
-    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>
-    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>
-    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>
+    <enUS>&lt;i&gt;3 for a 5/4? That's a good deal!&lt;/i&gt;</enUS>
+    <zhTW>3點叫5/4?這還真划算啊!</zhTW>
+    <zhCN>&lt;i&gt;3点召唤一个5/4的大块头？这可真划算！&lt;/i&gt;</zhCN>
+    <ruRU>&lt;i&gt;5/4 за 3 маны? Дайте два!&lt;/i&gt;</ruRU>
+    <ptBR>&lt;i&gt;3 por um 5/4? Ótimo negócio!&lt;/i&gt;</ptBR>
+    <plPL>&lt;i&gt;3 za 5/4? To dobry interes!&lt;/i&gt;</plPL>
+    <koKR>&lt;i&gt;5/4인데 3밖에 안 들어? 요거 괜찮네!&lt;/i&gt;</koKR>
+    <itIT>&lt;i&gt;3 Mana per una carta 5/4? Ottimo affare!&lt;/i&gt;</itIT>
+    <frFR>&lt;i&gt;3 cristaux pour un 5/4 ? Ça c’est une affaire !&lt;/i&gt;</frFR>
+    <esMX>&lt;i&gt;¿3 de maná por un 5/4? ¡Trato hecho!&lt;/i&gt;</esMX>
+    <esES>&lt;i&gt;¿(3) cristales por un 5/4? No está mal.&lt;/i&gt;</esES>
+    <deDE>&lt;i&gt;3 für einen Diener mit 5/4? Kein schlechter Tausch!&lt;/i&gt;</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="afbc46d9-471b-4963-944a-fddb08f7df86" />
 </Entity>

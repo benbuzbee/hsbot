@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_365">
-  <MasterPower>5387f21c-5014-485e-a39f-3d05c5e1d592</MasterPower>
+<Entity version="2" CardID="EX1_590">
+  <MasterPower>b83882c2-46ab-4376-b5f1-b9118273d371</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Holy Wrath</enUS>
-    <frFR>Colère divine</frFR>
-    <zhTW>神聖憤怒</zhTW>
-    <zhCN>神圣愤怒</zhCN>
-    <ruRU>Гнев небес</ruRU>
-    <ptBR>Ira Sagrada</ptBR>
-    <plPL>Święty gniew</plPL>
-    <koKR>신의 격노</koKR>
-    <itIT>Ira Sacra</itIT>
-    <esMX>Cólera sagrada</esMX>
-    <esES>Cólera Sagrada</esES>
-    <deDE>Heiliger Zorn</deDE>
-  </Tag>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card and deal damage equal to its cost.</enUS>
-    <frFR>Vous piochez une carte qui inflige des dégâts d’un montant égal à son coût.</frFR>
-    <zhTW>抽一張牌，並造成等同於其法力消耗的傷害。</zhTW>
-    <zhCN>抽一张牌，并造成等同于其法力值消耗的伤害。</zhCN>
-    <ruRU>Вы берете карту и наносите урон, равный ее стоимости.</ruRU>
-    <ptBR>Compre um card e cause dano equivalente ao custo dele.</ptBR>
-    <plPL>Dobierz kartę i zadaj obrażenia równe jej kosztowi.</plPL>
-    <koKR>카드를 뽑고 그 카드의 비용과 같은 수치의 피해를 줍니다.</koKR>
-    <itIT>Pesca una carta e infligge danni pari al suo costo.</itIT>
-    <esMX>Roba una carta e inflige daño equivalente a su costo.</esMX>
-    <esES>Roba una carta e inflige un daño equivalente a su coste.</esES>
-    <deDE>Zieht eine Karte und verursacht Schaden, der ihren Kosten entspricht.</deDE>
+    <enUS>Blood Knight</enUS>
+    <frFR>Chevalier de sang</frFR>
+    <zhTW>血騎士</zhTW>
+    <zhCN>血骑士</zhCN>
+    <ruRU>Рыцарь крови</ruRU>
+    <ptBR>Cavaleiro Sangrento</ptBR>
+    <plPL>Krwawy rycerz</plPL>
+    <koKR>혈기사</koKR>
+    <itIT>Cavaliere del Sangue</itIT>
+    <esMX>Caballero de sangre</esMX>
+    <esES>Caballero de sangre</esES>
+    <deDE>Blutritter</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; All minions lose &lt;b&gt;Divine Shield&lt;/b&gt;. Gain +3/+3 for each Shield lost.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; tous les serviteurs perdent &lt;b&gt;Bouclier divin&lt;/b&gt;. Gagne +3/+3 pour chaque bouclier perdu.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;全部手下失去&lt;b&gt;聖盾術&lt;/b&gt;。每個聖盾術將使其獲得+3/+3</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;所有随从失去&lt;b&gt;圣盾&lt;/b&gt;。每有一个随从失去圣盾，便获得+3/+3。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все существа теряют &lt;b&gt;«Божественный щит»&lt;/b&gt;. Рыцарь получает +3/+3 за каждый поглощенный щит.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Todos os lacaios perdem &lt;b&gt;Escudo Divino&lt;/b&gt;. Receba +3/+3 para cada Escudo perdido.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Wszyscy stronnicy tracą &lt;b&gt;Boską tarczę&lt;/b&gt;. Otrzymuje +3/+3 za każdą straconą tarczę.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; &lt;b&gt;모든&lt;/b&gt; 하수인의 &lt;b&gt;천상의 보호막&lt;/b&gt;을 흡수하여, 보호막 1개당 +3/+3을 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; tutti i servitori perdono &lt;b&gt;Scudo Divino&lt;/b&gt;. Ottiene +3/+3 per ogni Scudo Divino dissolto.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; remueve &lt;b&gt;Escudo divino&lt;/b&gt; de los esbirros. Obtiene +3/+3 por cada Escudo perdido. </esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Todos los esbirros pierden &lt;b&gt;Escudo divino&lt;/b&gt;. Obtiene +3/+3 por cada escudo perdido.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Alle Diener verlieren &lt;b&gt;Gottesschild&lt;/b&gt;. Erhält +3/+3 für jeden verlorenen Schild.</deDE>
+  </Tag>
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Justin Sweet</enUS>
+    <enUS>Trent Kaniuga</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>C'mon Molten Giant!!</enUS>
-    <zhTW>拜託，讓我抽到熔火巨人!!</zhTW>
-    <zhCN>来个熔核巨人吧！！</zhCN>
-    <ruRU>Ну же, пусть это будет «Огненный великан!»</ruRU>
-    <ptBR>Vamos lá, Gigante Derretido!</ptBR>
-    <plPL>Niech to będzie ognisty olbrzym!</plPL>
-    <koKR>제발, 용암거인아 나와라!</koKR>
-    <itIT>Speriamo nel Gigante Fuso!</itIT>
-    <frFR>Viens à moi, géant de lave !</frFR>
-    <esMX>¡Vamos, Gigante fundido!</esMX>
-    <esES>¡Ojalá salga un Gigante fundido!</esES>
-    <deDE>Los, los, los ... einen Geschmolzenen Riesen, bitte!</deDE>
+    <enUS>The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.</enUS>
+    <zhTW>血騎士從太陽之井獲得他們的神聖力量。話說，你最好別想去那裡泡溫泉。</zhTW>
+    <zhCN>血骑士从太阳井中获得他们的神圣能量，所以你别把那里当成是洗太阳浴的地方。</zhCN>
+    <ruRU>Рыцари крови черпают божественные силы из Солнечного Колодца. Ведрами.</ruRU>
+    <ptBR>Os Cavaleiros Sangrentos recebem seus poderes sagrados da Nascente do Sol, que NÃO é um lugar para tomar banho.</ptBR>
+    <plPL>Krwawi rycerze otrzymują swoje święte moce ze Słonecznej Studni. Kąpiel w niej jest surowo wzbroniona!</plPL>
+    <koKR>혈기사는 신성한 힘의 원천으로 태양샘을 사용합니다. 태양샘에서 물놀이를 할 생각은 꿈도 꾸지 마세요.</koKR>
+    <itIT>I Cavalieri del Sangue traggono il loro potere sacro dal Pozzo Solare, nel quale NON dovresti mai fare il bagno.</itIT>
+    <frFR>Le chevalier de sang obtient ses pouvoirs du Puits de soleil. Mais ce n’est pas le meilleur endroit pour faire bronzette.</frFR>
+    <esMX>Los Caballeros de sangre obtienen su poder sagrado de la Fuente del Sol. Te recomendamos que NO la uses para bañarte.</esMX>
+    <esES>Los caballeros de sangre obtenían sus poderes sagrados de la Fuente del Sol, hasta que la Plaga cerró el grifo.</esES>
+    <deDE>Die Blutritter ziehen ihre Kraft aus den heiligen Energien des Sonnenbrunnens, in dem Baden STRENG VERBOTEN ist.</deDE>
   </Tag>
-  <Power definition="5387f21c-5014-485e-a39f-3d05c5e1d592">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="b83882c2-46ab-4376-b5f1-b9118273d371" />
 </Entity>

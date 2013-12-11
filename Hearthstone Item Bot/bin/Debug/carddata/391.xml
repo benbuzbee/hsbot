@@ -1,67 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_045">
-  <MasterPower>3581b0c4-e8c0-4d5e-9773-7add416504a6</MasterPower>
+<Entity version="2" CardID="EX1_tk11">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Rockbiter Weapon</enUS>
-    <frFR>Arme croque-roc</frFR>
-    <zhTW>石化武器</zhTW>
-    <zhCN>石化武器</zhCN>
-    <ruRU>Камнедробитель</ruRU>
-    <ptBR>Arma Trinca-pedra</ptBR>
-    <plPL>Kruszyskalny oręż</plPL>
-    <koKR>대지의 무기</koKR>
-    <itIT>Arma della Roccia Dura</itIT>
-    <esMX>Arma muerdepiedras</esMX>
-    <esES>Arma Muerdepiedras</esES>
-    <deDE>Waffe des Felsbeißers</deDE>
+    <enUS>Spirit Wolf</enUS>
+    <frFR>Esprit du loup</frFR>
+    <zhTW>幽靈狼</zhTW>
+    <zhCN>幽灵狼</zhCN>
+    <ruRU>Дух волка</ruRU>
+    <ptBR>Lobo Espiritual</ptBR>
+    <plPL>Duchowy wilk</plPL>
+    <koKR>늑대 정령</koKR>
+    <itIT>Lupo Spirituale</itIT>
+    <esMX>Espíritu de lobo</esMX>
+    <esES>Espíritu de lobo</esES>
+    <deDE>Geisterwolf</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a friendly character +3 Attack this turn.</enUS>
-    <frFR>Confère à un personnage allié +3 ATQ pendant ce tour.</frFR>
-    <zhTW>本回合賦予一個友方角色+3攻擊力。</zhTW>
-    <zhCN>在本回合中，使一个友方角色获得+3攻击力。</zhCN>
-    <ruRU>Ваш выбранный персонаж получает +3 к атаке до конца хода.</ruRU>
-    <ptBR>Conceda +3 de Ataque a um aliado neste turno.</ptBR>
-    <plPL>Daj przyjaznej postaci +3 do ataku w tej turze.</plPL>
-    <koKR>이번 턴에 아군 캐릭터에게 공격력을 +3 부여합니다.</koKR>
-    <itIT>Fornisce +3 Attacco a un tuo personaggio in questo turno.</itIT>
-    <esMX>Otorga +3 de Ataque a un personaje aliado en este turno.</esMX>
-    <esES>Otorga +3 p. de ataque a un personaje amistoso este turno.</esES>
-    <deDE>Verleiht einem befreundeten Charakter +3 Angriff in diesem Zug.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This would be real handy if your enemy is made of rock.</enUS>
-    <zhTW>如果可以把敵人石化就更好了。</zhTW>
-    <zhCN>如果你的敌人是石头做的，那就再好不过了。</zhCN>
-    <ruRU>Эх, вот был бы противник сделан из камня...</ruRU>
-    <ptBR>Isso é muito útil se seu inimigo for feito de pedra.</ptBR>
-    <plPL>Dobrze sprawdza się, jeśli przeciwnik jest z kamienia.</plPL>
-    <koKR>적이 돌로 만들어졌다면 매우 좋을 무기입니다.</koKR>
-    <itIT>Particolarmente efficiente contro i nemici duri come una roccia.</itIT>
-    <frFR>Elle ne craint ni roi ni roc !</frFR>
-    <esMX>Esto sería súper útil si tu enemigo estuviese hecho de piedras.</esMX>
-    <esES>Esto sería la mar de útil si tu enemigo estuviera hecho de piedra.</esES>
-    <deDE>Womöglich noch effektiver, wenn Euer Gegner aus Stein besteht. Allerdings können wir dafür keine Garantie geben.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 32.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="3581b0c4-e8c0-4d5e-9773-7add416504a6">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="495abb2d-62ae-46fd-b716-b61e3f88595d" />
 </Entity>

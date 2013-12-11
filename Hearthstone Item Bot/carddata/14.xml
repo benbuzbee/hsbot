@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CRED_12">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Rachelle Davis</enUS>
     <zhTW>Rachelle Davis</zhTW>
@@ -21,7 +19,7 @@
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Draw TWO cards. &lt;i&gt;She's not a novice engineer.&lt;/i&gt;</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抽兩張牌。她不是見習工程師。</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抽兩張牌。她不是見習工程師</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抓两张牌。&lt;i&gt;她才不是工程师学徒呢。&lt;/i&gt;</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы берете ДВЕ карты. &lt;i&gt;Это вам не инженер-новичок!&lt;/i&gt;</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre DOIS cards. &lt;i&gt;Ela não é uma engenheira novata.&lt;/i&gt;</ptBR>

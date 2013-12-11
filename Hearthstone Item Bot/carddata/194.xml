@@ -1,42 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1h_001">
-  <MasterPower>5f0999b3-52fd-4382-90d4-296de2994e34</MasterPower>
+<Entity version="2" CardID="TU4e_001">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Lesser Heal</enUS>
-    <frFR>Soins inférieurs</frFR>
-    <zhTW>次級治療術</zhTW>
-    <zhCN>次级治疗术</zhCN>
-    <ruRU>Малое исцеление</ruRU>
-    <ptBR>Cura Inferior</ptBR>
-    <plPL>Pomniejsze uzdrowienie</plPL>
-    <koKR>하급 치유</koKR>
-    <itIT>Cura Inferiore</itIT>
-    <esMX>Sanación inferior</esMX>
-    <esES>Sanación inferior</esES>
-    <deDE>Geringe Heilung</deDE>
+    <enUS>Illidan Stormrage</enUS>
+    <frFR>Illidan Hurlorage</frFR>
+    <zhTW>伊利丹·怒風</zhTW>
+    <zhCN>伊利丹·怒风</zhCN>
+    <ruRU>Иллидан Ярость Бури</ruRU>
+    <ptBR>Illidan Tempesfúria</ptBR>
+    <plPL>Illidan Burzogniewny</plPL>
+    <koKR>일리단 스톰레이지</koKR>
+    <itIT>Illidan Grantempesta</itIT>
+    <esMX>Illidan Tempestira</esMX>
+    <esES>Illidan Tempestira</esES>
+    <deDE>Illidan Sturmgrimm</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="10" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Restore 2 Health.</enUS>
-    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nRend 2 PV.</frFR>
-    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n恢復2點生命值。</zhTW>
-    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt; \n 恢复2点生命值。</zhCN>
-    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n Восстанавливает 2 ед. здоровья.</ruRU>
-    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Restaure 2 de Vida.</ptBR>
-    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Przywróć 2 pkt. zdrowia.</plPL>
-    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 생명력을 2 회복시킵니다.</koKR>
-    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt; \nRigenera 2 Salute.</itIT>
-    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Restaura 2 de Salud.</esMX>
-    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Restaura 2 p. de salud.</esES>
-    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n Stellt 2 Leben wieder her.</deDE>
-  </Tag>
-  <Power definition="5f0999b3-52fd-4382-90d4-296de2994e34">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="30" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="867aafb7-a471-4fb8-909a-02e2a8f8bb2b" />
+  <Power definition="c538aa7e-c281-4526-9557-d7c28f671258" />
+  <Power definition="9a4aa88e-d14f-4c80-bd51-5a139f1d64b4" />
+  <Power definition="9d2c394a-87a9-4dc5-8893-f7d92c9eae5a" />
+  <Power definition="48f46f94-6113-43ac-866a-fb43f2cc4814" />
+  <Power definition="3ff9f237-d993-422c-af30-911f5cabc322" />
+  <Power definition="b59b5e0d-9062-447a-b643-f99b3de1f039" />
+  <Power definition="a7ef0239-6ba3-4b8d-a61e-1e8f965e15f5" />
+  <Power definition="f1ba3e5b-5dee-4095-ae05-f88ac523880e" />
+  <Power definition="0042b5e5-a890-4158-8f4a-8863cc7a83b4" />
 </Entity>

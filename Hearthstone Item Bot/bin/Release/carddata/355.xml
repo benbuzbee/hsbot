@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_323">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_056">
+  <MasterPower>78d0b174-c5ca-4a4b-b9d4-b7edfe8bf029</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Lord Jaraxxus</enUS>
-    <frFR>Seigneur Jaraxxus</frFR>
-    <zhTW>賈拉克瑟斯領主</zhTW>
-    <zhCN>加拉克苏斯大王</zhCN>
-    <ruRU>Лорд Джараксус</ruRU>
-    <ptBR>Lorde Jaraxxus</ptBR>
-    <plPL>Lord Jaraxxus</plPL>
-    <koKR>군주 자락서스</koKR>
-    <itIT>Sire Jaraxxus</itIT>
-    <esMX>Lord Jaraxxus</esMX>
-    <esES>Lord Jaraxxus</esES>
-    <deDE>Lord Jaraxxus</deDE>
+    <enUS>Life Tap</enUS>
+    <frFR>Connexion</frFR>
+    <zhTW>生命分流</zhTW>
+    <zhCN>生命分流</zhCN>
+    <ruRU>Жизнеотвод</ruRU>
+    <ptBR>Conversão de Vida</ptBR>
+    <plPL>Moc krwi</plPL>
+    <koKR>생명력 전환</koKR>
+    <itIT>Conversione Vitale</itIT>
+    <esMX>Transfusión de vida</esMX>
+    <esES>Transfusión de vida</esES>
+    <deDE>Aderlass</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your hero and replace him with Lord Jaraxxus.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; le seigneur Jaraxxus détruit votre héros et prend sa place.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀你的英雄並以賈拉克瑟斯領主取代他。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭你的英雄，并用加拉克苏斯大王替换他。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает вашего героя и заменяет его лордом Джараксусом.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua seu herói e substitua-o pelo Lorde Jaraxxus.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz swojego bohatera i zastąp go Lordem Jaraxxusem.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 영웅을 군주 자락서스로 교체합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge il tuo eroe e lo sostituisce con Sire Jaraxxus.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye a tu héroe y reemplázalo por Lord Jaraxxus.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a tu héroe y lo reemplaza con Lord Jaraxxus.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet Euren Helden und ersetzt ihn durch Lord Jaraxxus.</deDE>
+    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Draw a card and take 2 damage.</enUS>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nSubit 2 points de dégâts. Vous piochez une carte.</frFR>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n抽一張牌並受到2點傷害</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n抽一张牌并受到2点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n Вы берете карту и получаете 2 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Compre um card e receba 2 de dano.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Dobierz kartę i otrzymaj 2 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 피해를 2 입는 대신 카드를 1장 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nPesca una carta e subisce 2 danni.</itIT>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Roba una carta y recibe 2 de daño.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Roba una carta y recibe 2 p. de daño.</esES>
+    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n Zieht eine Karte und erleidet 2 Schaden.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Race" enumID="200" type="Race" value="15" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="15" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!"</enUS>
-    <zhTW>「卑微的地精!你的傲慢將使你喪命!」</zhTW>
-    <zhCN>“渺小的侏儒！你们的傲慢将会招致灭亡！”</zhCN>
-    <ruRU>«НИЧТОЖНЫЙ ГНОМ! ТВОЯ САМОУВЕРЕННОСТЬ ТЕБЯ ПОГУБИТ!»</ruRU>
-    <ptBR>"GNOMO INSIGNIFICANTE! TANTA ARROGÂNCIA SERÁ SUA RUÍNA!"</ptBR>
-    <plPL>„ŻAŁOSNY GNOMIE! TWOJA AROGANCJA DOPROWADZI CIĘ DO ZGUBY!!!!”</plPL>
-    <koKR>"벼에서 쌀을!!!!"</koKR>
-    <itIT>"GNOMO INSIGNIFICANTE! LA TUA ARROGANZA SARÀ LA TUA ROVINA!"</itIT>
-    <frFR>« Misérable gnome ! Ton arrogance te perdra ! »</frFR>
-    <esMX>¡GNOMO INSIGNIFICANTE! ¡TU ARROGANCIA SERÁ TU PERDICIÓN!</esMX>
-    <esES>¡UN GNOMO INSIGNIFICANTE! ¡¡¡TU ARROGANCIA SERÁ TU PERDICIÓN!!!</esES>
-    <deDE>„UNBEDEUTENDER GNOM! DEINE ARROGANZ WIRD DIR ZUM VERHÄNGNIS!!!“</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="143d9297-dcf4-4d68-ba3b-364ec8727640" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Power definition="78d0b174-c5ca-4a4b-b9d4-b7edfe8bf029" />
 </Entity>

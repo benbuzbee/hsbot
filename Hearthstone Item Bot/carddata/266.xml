@@ -1,66 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_062">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_604">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hellfire</enUS>
-    <frFR>Flammes infernales</frFR>
-    <zhTW>地獄烈焰</zhTW>
-    <zhCN>地狱烈焰</zhCN>
-    <ruRU>Адское пламя</ruRU>
-    <ptBR>Fogo do Inferno</ptBR>
-    <plPL>Piekielny ogień</plPL>
-    <koKR>지옥의 불길</koKR>
-    <itIT>Fuoco Infernale</itIT>
-    <esMX>Llamas infernales</esMX>
-    <esES>Llamas infernales</esES>
-    <deDE>Höllenfeuer</deDE>
+    <enUS>Frothing Berserker</enUS>
+    <frFR>Berserker écumant</frFR>
+    <zhTW>白沫狂戰士</zhTW>
+    <zhCN>暴乱狂战士</zhCN>
+    <ruRU>Разъяренный берсерк</ruRU>
+    <ptBR>Berserker Espumante</ptBR>
+    <plPL>Fanatyczny berserker</plPL>
+    <koKR>거품 무는 광전사</koKR>
+    <itIT>Berserker Rabbioso</itIT>
+    <esMX>Rabioso espumoso</esMX>
+    <esES>Rabioso demente</esES>
+    <deDE>Wütender Berserker</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $3 damage to ALL characters.</enUS>
-    <frFR>Inflige $3 |4(point,points) de dégâts à TOUS les personnages.</frFR>
-    <zhTW>對全部角色造成$3點傷害。</zhTW>
-    <zhCN>对所有角色造成$3点伤害。</zhCN>
-    <ruRU>Наносит $3 ед. урона ВСЕМ персонажам.</ruRU>
-    <ptBR>Cause $3 de dano a TODOS os personagens.</ptBR>
-    <plPL>Zadaj $3 pkt. obrażeń WSZYSTKIM postaciom.</plPL>
-    <koKR>&lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 $3 줍니다.</koKR>
-    <itIT>Infligge $3 danni a TUTTI i personaggi.</itIT>
-    <esMX>Inflige $3 de daño a TODOS los personajes.</esMX>
-    <esES>Inflige $3 p. de daño a todos los personajes.</esES>
-    <deDE>Fügt ALLEN Charakteren $3 Schaden zu.</deDE>
+    <enUS>Whenever a minion takes damage, gain +1 Attack.</enUS>
+    <frFR>Chaque fois qu’un serviteur subit des dégâts, gagne +1 ATQ.</frFR>
+    <zhTW>每當一個手下受到傷害，獲得+1攻擊力</zhTW>
+    <zhCN>每当一个随从受到伤害时，便获得+1攻击力。</zhCN>
+    <ruRU>Когда любое существо получает урон, разъяренный берсерк получает +1 к атаке. </ruRU>
+    <ptBR>Sempre que um lacaio receber dano, receba +1 de Ataque.</ptBR>
+    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy dowolny stronnik zostanie zraniony.</plPL>
+    <koKR>하수인이 피해를 입을 때마다 공격력을 +1 얻습니다.</koKR>
+    <itIT>Quando un servitore subisce danni, il Berserker Rabbioso ottiene +1 Attacco.</itIT>
+    <esMX>Cada vez que un esbirro recibe daño, obtiene +1 de Ataque.</esMX>
+    <esES>Cada vez que un esbirro recibe daño, obtiene 1 p. de ataque.</esES>
+    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Diener Schaden erleidet.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Berserk</enUS>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brian 'Chippy' Dugan</enUS>
+    <enUS>Simon Bisley</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It's spells like these that make it hard for Warlocks to get decent help.</enUS>
-    <zhTW>像這種無差別攻擊的法術就是術士很難找到夥伴的原因。</zhTW>
-    <zhCN>鸟尽弓藏，兔死狗烹，术士才不需要什么忠心耿耿的随从。</zhCN>
-    <ruRU>Из-за подобных заклинаний у чернокнижников плохая репутация.</ruRU>
-    <ptBR>É por causa de feitiços como este que os bruxos não conseguem muita ajuda.</ptBR>
-    <plPL>To przez takie zaklęcia czarnoksiężnicy mają problemy ze znalezieniem pomocników.</plPL>
-    <koKR>흑마법사를 신뢰할 수 없는 대표적인 이유로 이 주문을 꼽을 수 있습니다.</koKR>
-    <itIT>È proprio a causa di questo genere di incantesimi che gli Stregoni hanno pochi amici.</itIT>
-    <frFR>C’est à cause de ce genre de sorts que les démonistes ont du mal à lier des relations durables.</frFR>
-    <esMX>Hechizos como este hacen que nadie quiera ayudar a los Brujos.</esMX>
-    <esES>Es por hechizos como estos por lo que los brujos no tienen amigos.</esES>
-    <deDE>Zauber wie dieser machen es anderen schwer, gute Beziehungen zu Hexenmeistern zu pflegen.</deDE>
+    <enUS>He used to work as an accountant before he tried his hand at Berserkering.</enUS>
+    <zhTW>他在當狂戰士之前原本是個會計師。</zhTW>
+    <zhCN>在投身狂战士这份很有前途的工作之前，他是一个会计。</zhCN>
+    <ruRU>До того как стать берсерком, он работал бухгалтером.</ruRU>
+    <ptBR>Ele era contador antes de tentar ser um berserker.</ptBR>
+    <plPL>Zanim zajął się berserkowaniem, pracował jako księgowy.</plPL>
+    <koKR>거품 물기 전까지는 회계사였답니다.</koKR>
+    <itIT>Un tempo faceva il contabile, prima di lasciarsi tentare dalle esperienze forti.</itIT>
+    <frFR>Il était comptable avant de tenter une carrière de berserker.</frFR>
+    <esMX>Antes era contador, hasta que descubrió su talento como rabioso.</esMX>
+    <esES>Era contable antes de convertirse en rabioso profesional. Se ve que le salía a cuenta.</esES>
+    <deDE>Bevor er zum Berserker wurde, war er Buchhalter.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 24.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="f9aa8f68-1fdb-44b4-b100-cc018a4272f9" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="8794895b-e6c1-4564-bcd1-d2e17d129b77" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

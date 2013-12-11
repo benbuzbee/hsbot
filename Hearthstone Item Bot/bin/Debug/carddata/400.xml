@@ -1,61 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_544">
-  <MasterPower>41c49567-b4aa-4294-8ade-46c180c66131</MasterPower>
+<Entity version="2" CardID="EX1_145">
+  <MasterPower>0cc6ff8b-fd76-4877-8348-578aef4059a9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Flare</enUS>
-    <frFR>Fusée éclairante</frFR>
-    <zhTW>照明彈</zhTW>
-    <zhCN>照明弹</zhCN>
-    <ruRU>Осветительная ракета</ruRU>
-    <ptBR>Sinalizador</ptBR>
-    <plPL>Flara</plPL>
-    <koKR>섬광</koKR>
-    <itIT>Bengala</itIT>
-    <esMX>Bengala</esMX>
-    <esES>Bengala</esES>
-    <deDE>Leuchtfeuer</deDE>
+    <enUS>Preparation</enUS>
+    <frFR>Préparation</frFR>
+    <zhTW>準備</zhTW>
+    <zhCN>伺机待发</zhCN>
+    <ruRU>Подготовка</ruRU>
+    <ptBR>Preparação</ptBR>
+    <plPL>Przygotowanie</plPL>
+    <koKR>마음가짐</koKR>
+    <itIT>Preparazione</itIT>
+    <esMX>Preparación</esMX>
+    <esES>Preparación</esES>
+    <deDE>Vorbereitung</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>All minions lose &lt;b&gt;Stealth&lt;/b&gt;. Destroy all enemy &lt;b&gt;Secrets&lt;/b&gt;. Draw a card.</enUS>
-    <frFR>Tous les serviteurs perdent le &lt;b&gt;Camouflage&lt;/b&gt;. Détruit tous les &lt;b&gt;Secrets&lt;/b&gt; adverses. Vous piochez une carte.</frFR>
-    <zhTW>全部手下失去&lt;b&gt;潛行&lt;/b&gt;。摧毀全部敵方的&lt;b&gt;秘密&lt;/b&gt;。抽一張牌。</zhTW>
-    <zhCN>所有随从失去&lt;b&gt;潜行&lt;/b&gt;，消灭所有敌方&lt;b&gt;奥秘&lt;/b&gt;，抽一张牌。</zhCN>
-    <ruRU>Все существа теряют &lt;b&gt;«Маскировку»&lt;/b&gt;. Уничтожает все &lt;b&gt;Секреты&lt;/b&gt; противника. Вы берете карту.</ruRU>
-    <ptBR>Todos os lacaios perdem &lt;b&gt;Furtividade&lt;/b&gt;. Destrua todos os &lt;b&gt;Segredos&lt;/b&gt; do inimigo. Compre um card.</ptBR>
-    <plPL>Wszyscy stronnicy tracą &lt;b&gt;Ukrycie&lt;/b&gt;. Zniszcz wszystkie wrogie &lt;b&gt;Sekrety&lt;/b&gt;. Dobierz kartę.</plPL>
-    <koKR>모든 하수인이 &lt;b&gt;은신&lt;/b&gt; 상태에서 벗어납니다. 적의 모든 &lt;b&gt;비밀&lt;/b&gt;을 없앱니다. 카드를 1장 뽑습니다.</koKR>
-    <itIT>Tutti i servitori perdono &lt;b&gt;Furtività&lt;/b&gt;. Distrugge tutti i &lt;b&gt;Segreti&lt;/b&gt; nemici. Pesca una carta.</itIT>
-    <esMX>Todos los esbirros pierden &lt;b&gt;Sigilo&lt;/b&gt;. Destruye todos los &lt;b&gt;Secretos&lt;/b&gt; enemigos. Roba una carta.</esMX>
-    <esES>Todos los esbirros pierden &lt;b&gt;Sigilo&lt;/b&gt;. Destruye todos los &lt;b&gt;secretos&lt;/b&gt; del enemigo. Roba una carta.</esES>
-    <deDE>Alle Diener verlieren &lt;b&gt;Verstohlenheit&lt;/b&gt;. Zerstört alle feindlichen &lt;b&gt;Geheimnisse&lt;/b&gt;. Zieht eine Karte.</deDE>
+    <enUS>The next spell you cast this turn costs (3) less.</enUS>
+    <frFR>Le prochain sort que vous lancez coûte (3) cristaux de moins.</frFR>
+    <zhTW>你在本回合內施放的下一個法術消耗減少(3)點</zhTW>
+    <zhCN>在本回合中，你所施放的下一个法术的法力值消耗减少（3）点。</zhCN>
+    <ruRU>Следующее заклинание, которое вы разыграете в этот ход, стоит на (3) маны меньше.</ruRU>
+    <ptBR>O próximo feitiço que você lançar custará (3) a menos.</ptBR>
+    <plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (3) mniej.</plPL>
+    <koKR>이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.</koKR>
+    <itIT>La prossima Magia che lanci in questo turno costa (3) Mana in meno.</itIT>
+    <esMX>El próximo hechizo que juegues en este turno cuesta (3) menos.</esMX>
+    <esES>El siguiente hechizo que lances este turno costará (3) cristales menos.</esES>
+    <deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (3) weniger.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tyler Walpole</enUS>
+    <enUS>Clint Langley</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Not only does it reveal your enemies, but its also great for parties!</enUS>
-    <zhTW>這不只是能照出你敵人的行蹤，在派對上也很好用!</zhTW>
-    <zhCN>它不但能让你的敌人无处遁形，还能让整个晚会熠熠生辉！</zhCN>
-    <ruRU>С этой штукой вам будут рады на любой вечеринке!</ruRU>
-    <ptBR>Não só revela os inimigos como é ótimo para festas!</ptBR>
-    <plPL>Nie tylko ujawnia ukrytych przeciwników, ale też świetnie sprawdza się na imprezach!</plPL>
-    <koKR>적의 모습을 드러낼 뿐만 아니라 파티의 분위기를 띄울 때도 좋습니다.</koKR>
-    <itIT>Perfetto per rivelare nemici invisibili e per una serata con fuochi d'artificio.</itIT>
-    <frFR>Non seulement elle révèle les adversaires, mais en plus, elle est très utile pendant les fêtes !</frFR>
-    <esMX>No solo revela a tus enemigos, ¡es ideal para las fiestas!</esMX>
-    <esES>También viene bien en caso de naufragio.</esES>
-    <deDE>Deckt alle Eure Feinde auf, aber natürlich darf es auch auf keiner Party fehlen.</deDE>
+    <enUS>"Be Prepared" - Rogue Motto</enUS>
+    <zhTW>「準備妥當」-盜賊的信條</zhTW>
+    <zhCN>“随时准备伺机待发。”——潜行者座右铭</zhCN>
+    <ruRU>«Главное – хорошая подготовка.» Девиз разбойников.</ruRU>
+    <ptBR>"Esteja preparado." — Lema Ladino</ptBR>
+    <plPL>Trucizna? Jest. Kamuflaż? Jest. Zaostrzona broń? Jest. Przeciwnik? Jeszcze jest.</plPL>
+    <koKR>"항상 대비하라." - 도적 격언</koKR>
+    <itIT>"Siate pronti." - Un motto dei Ladri</itIT>
+    <frFR>« Toujours prêt » - Devise des voleurs</frFR>
+    <esMX>"Estén preparados" —Lema de Pícaros.</esMX>
+    <esES>"¡Siempre preparados!" - Lema de los pícaros</esES>
+    <deDE>Manchmal ist Vorbereitung das halbe Leben ... im wahrsten Sinne des Wortes.</deDE>
   </Tag>
-  <ReferencedTag name="Stealth" enumID="191" type="Bool" value="1" />
-  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="41c49567-b4aa-4294-8ade-46c180c66131" />
+  <Power definition="0cc6ff8b-fd76-4877-8348-578aef4059a9" />
 </Entity>

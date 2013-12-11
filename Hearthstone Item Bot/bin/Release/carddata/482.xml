@@ -1,69 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_061">
-  <MasterPower>56647e8e-df83-4230-b6f9-1755433490f3</MasterPower>
+<Entity version="2" CardID="EX1_575">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Drain Life</enUS>
-    <frFR>Drain de vie</frFR>
-    <zhTW>吸取生命</zhTW>
-    <zhCN>吸取生命</zhCN>
-    <ruRU>Похищение жизни</ruRU>
-    <ptBR>Drenar Vida</ptBR>
-    <plPL>Wyssanie życia</plPL>
-    <koKR>생명력 흡수</koKR>
-    <itIT>Risucchio di Vita</itIT>
-    <esMX>Drenar vida</esMX>
-    <esES>Drenar vida</esES>
-    <deDE>Blutsauger</deDE>
+    <enUS>Mana Tide Totem</enUS>
+    <zhTW>法力之潮圖騰</zhTW>
+    <zhCN>法力之潮图腾</zhCN>
+    <ruRU>Тотем прилива маны</ruRU>
+    <ptBR>Totem de Vagalhão de Mana</ptBR>
+    <plPL>Totem przypływu many</plPL>
+    <koKR>마나 해일 토템</koKR>
+    <itIT>Totem: Marea di Mana</itIT>
+    <frFR>Totem de vague de mana</frFR>
+    <esMX>Tótem Marea de maná</esMX>
+    <esES>Tótem Marea de maná</esES>
+    <deDE>Manafluttotem</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage. Restore #2 Health to your hero.</enUS>
-    <frFR>Inflige $2 |4(point,points) de dégâts. Rend #2 |4(point,points) de vie à votre héros.</frFR>
-    <zhTW>造成$2點傷害。使你的英雄恢復#2點生命值。</zhTW>
-    <zhCN>造成$2点伤害，为你的英雄恢复#2点生命值。</zhCN>
-    <ruRU>Наносит $2 ед. урона. Восстанавливает #2 ед. здоровья вашему герою.</ruRU>
-    <ptBR>Cause $2 de dano. Restaure #2 de Vida do seu herói.</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń. Przywróć #2 pkt. zdrowia swojemu bohaterowi.</plPL>
-    <koKR>피해를 $2 줍니다. 내 영웅이 생명력을 #2 회복합니다.</koKR>
-    <itIT>Infligge $2 danni. Rigenera #2 Salute al tuo eroe.</itIT>
-    <esMX>Inflige $2 de daño. Restaura #2 de Salud a tu héroe.</esMX>
-    <esES>Inflige $2 p. de daño. Restaura #2 p. de salud a tu héroe.</esES>
-    <deDE>Verursacht $2 Schaden. Stellt bei Eurem Helden #2 Leben wieder her.</deDE>
+    <enUS>At the end of your turn, draw a card.</enUS>
+    <zhTW>在你的回合結束時，抽一張牌</zhTW>
+    <zhCN>在你的回合结束时，抽一张牌。</zhCN>
+    <ruRU>В конце вашего хода вы берете карту.</ruRU>
+    <ptBR>No final do seu turno, compre um card.</ptBR>
+    <plPL>Na koniec swojej tury dobierz kartę.</plPL>
+    <koKR>내 턴이 끝날 때, 카드를 1장 뽑습니다.</koKR>
+    <itIT>Alla fine del tuo turno, pesca una carta.</itIT>
+    <frFR>Vous piochez une carte à la fin de votre tour.</frFR>
+    <esMX>Al final de tu turno, roba una carta.</esMX>
+    <esES>Al final de tu turno, roba una carta.</esES>
+    <deDE>Zieht am Ende Eures Zuges eine Karte.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Don Hazeltine</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"I've just sucked one year of your life away."</enUS>
-    <zhTW>「我剛吸走了你一年的壽命。」</zhTW>
-    <zhCN>“我只是减少了你一年的寿命而已。”</zhCN>
-    <ruRU>«Я только что отнял у тебя лучший год твоей жизни».</ruRU>
-    <ptBR>"Acabei de sugar um ano da sua vida."</ptBR>
-    <plPL>„Właśnie wyssałem ci rok życia”.</plPL>
-    <koKR>"제가 동안을 유지하는 비결이죠."</koKR>
-    <itIT>"Ti ho appena risucchiato un anno di vita."</itIT>
-    <frFR>« Tu ne le sais pas encore mais tu es déjà mort ! »</frFR>
-    <esMX>"Tu sufrimiento es mi felicidad".</esMX>
-    <esES>"Te acabo de quitar un año de vida. No se admiten devoluciones".</esES>
-    <deDE>„Ich habe Euch gerade ein Jahr Eures Lebens ausgesaugt.“</deDE>
-  </Tag>
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="21" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 20.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Scott Altmann</enUS>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>It is said that some shaman can say "Floatin' totem" 10 times, fast.</enUS>
+    <zhTW>據說有些薩滿可以連續10次快速念完「漂浮圖騰」。</zhTW>
+    <zhCN>据说，有些萨满能够以很快的速度连着说十遍“疼痛的图腾”。</zhCN>
+    <ruRU>Говорят, некоторые шаманы используют название этой карты как скороговорку.</ruRU>
+    <ptBR>Dizem que alguns xamãs conseguem dizer "Totem Flutuante" dez vezes bem rápido.</ptBR>
+    <plPL>Podobno niektórzy szamani potrafią 10 razy szybko powtórzyć „Tam mam ten totem”.</plPL>
+    <koKR>주술사들의 여름철 필수품입니다.</koKR>
+    <itIT>Scommettiamo che non sopravvivrà più di 1 turno?</itIT>
+    <frFR>Il paraît que certains chamans arrivent à dire « Trois petits totems sur un trottoir étroit » plus de 10 fois de suite sans se tromper !</frFR>
+    <esMX>Se dice que hay un chamán que puede decir "Tótem flotante" 10 veces seguidas sin que se le lengüe la traba.</esMX>
+    <esES>Se rumorea que los chamanes más ilustres son capaces de decir "Tres tristes tótems" diez veces seguidas sin que se les trabe la lengua.</esES>
+    <deDE>Für die Extraportion Karten.</deDE>
   </Tag>
-  <Power definition="56647e8e-df83-4230-b6f9-1755433490f3">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="e8d5a339-f032-48d6-9897-c6ea03b28b93" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

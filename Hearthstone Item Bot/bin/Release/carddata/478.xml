@@ -1,45 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_052">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_033o">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Wrath of Air Totem</enUS>
-    <frFR>Totem de courroux de l’air</frFR>
-    <zhTW>風懲圖騰</zhTW>
-    <zhCN>空气之怒图腾</zhCN>
-    <ruRU>Тотем гнева воздуха</ruRU>
-    <ptBR>Totem de Cólera dos Ares</ptBR>
-    <plPL>Eteryczny totem</plPL>
-    <koKR>천벌의 토템</koKR>
-    <itIT>Totem: Ira dell'Aria</itIT>
-    <esMX>Tótem cólera de aire</esMX>
-    <esES>Tótem Cólera de aire</esES>
-    <deDE>Sturmzorntotem</deDE>
+    <enUS>Eye In The Sky</enUS>
+    <frFR>Œil céleste</frFR>
+    <zhTW>空中之眼</zhTW>
+    <zhCN>天空之眼</zhCN>
+    <ruRU>Взгляд с неба</ruRU>
+    <ptBR>Olho no Céu</ptBR>
+    <plPL>Oko na niebie</plPL>
+    <koKR>창공의 눈</koKR>
+    <itIT>Sguardo dal Cielo</itIT>
+    <esMX>Ojo en el cielo</esMX>
+    <esES>Ojo en el cielo</esES>
+    <deDE>Himmelsauge</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Siła zaklęć +1&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+1 Potenza Magica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+1 p. de daño con hechizos.&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Zauberschaden +1&lt;/b&gt;</deDE>
+    <enUS>Leokk is granting this minion +1 Attack.</enUS>
+    <frFR>Leokk confère +1 ATQ à ce serviteur.</frFR>
+    <zhTW>里奧克賦予了這個手下+1攻擊力</zhTW>
+    <zhCN>雷欧克使该随从获得+1攻击力。</zhCN>
+    <ruRU>+1 к атаке от Леокка.</ruRU>
+    <ptBR>Leokk está concedendo +1 de Ataque a este lacaio.</ptBR>
+    <plPL>Leok daje temu stronnikowi +1 do ataku.</plPL>
+    <koKR>레오크가 공격력 +1 부여</koKR>
+    <itIT>+1 Attacco da Leokk.</itIT>
+    <esMX>Leokk le otorga +1 de Ataque a este esbirro.</esMX>
+    <esES>Leokk otorga +1 p. de ataque a este esbirro.</esES>
+    <deDE>Leokk verleiht diesem Diener +1 Angriff.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="21" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="c72b990b-eabb-48fe-bac2-8432c75fb99b" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Power definition="bc8692d8-9e69-4e58-b392-62bc3d451771" />
 </Entity>

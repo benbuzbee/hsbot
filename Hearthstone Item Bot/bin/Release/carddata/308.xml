@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_608">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_021">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sorcerer's Apprentice</enUS>
-    <frFR>Apprentie du sorcier</frFR>
-    <zhTW>巫士的學徒</zhTW>
-    <zhCN>巫师学徒</zhCN>
-    <ruRU>Ученица чародея</ruRU>
-    <ptBR>Aprendiz de Feiticeiro</ptBR>
-    <plPL>Uczennica czarownika</plPL>
-    <koKR>마술사의 수습생</koKR>
-    <itIT>Apprendista Occultista</itIT>
-    <esMX>Aprendiz de hechicero</esMX>
-    <esES>Aprendiza de hechicera</esES>
-    <deDE>Zauberlehrling</deDE>
+    <enUS>Thrallmar Farseer</enUS>
+    <frFR>Long-voyant de Thrallmar</frFR>
+    <zhTW>索爾瑪先知</zhTW>
+    <zhCN>萨尔玛先知</zhCN>
+    <ruRU>Провидец Траллмара</ruRU>
+    <ptBR>Clarividente de Thrallmar</ptBR>
+    <plPL>Wieszcz z Thrallmaru</plPL>
+    <koKR>스랄마 선견자</koKR>
+    <itIT>Veggente di Thrallmar</itIT>
+    <esMX>Clarividente de Thrallmar</esMX>
+    <esES>Clarividente de Thrallmar</esES>
+    <deDE>Scharfseher von Thrallmar</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your spells cost (1) less.</enUS>
-    <frFR>Vos sorts coûtent (1) cristal de moins.</frFR>
-    <zhTW>你的法術消耗減少(1)點。</zhTW>
-    <zhCN>你的法术的法力值消耗减少（1）点。</zhCN>
-    <ruRU>Ваши заклинания стоят на (1) ману меньше.</ruRU>
-    <ptBR>Seus feitiços custam (1) a menos.</ptBR>
-    <plPL>Twoje zaklęcia kosztują (1) mniej.</plPL>
-    <koKR>내가 쓰는 주문의 비용이 (1) 감소합니다.</koKR>
-    <itIT>Le Magie costano (1) Mana in meno.</itIT>
-    <esMX>Tus hechizos cuestan (1) menos.</esMX>
-    <esES>Tus hechizos cuestan (1) cristal menos.</esES>
-    <deDE>Eure Zauber kosten (1) weniger.</deDE>
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Apprentices are great for bossing around.  "Conjure me some mana buns! And a coffee!  Make that a mana coffee!"</enUS>
-    <zhTW>學徒非常好使喚。「幫我做些法力麵包!和一杯咖啡!不然乾脆做杯法力咖啡好了!」</zhTW>
-    <zhCN>学徒们就是用来到处使唤的。“给我做点魔法面包，再来被咖啡！我要魔法咖啡！”</zhCN>
-    <ruRU>Маги обожают командовать своими учениками. «Сотвори-ка мне булочки из маны! И кофе! С маной!»</ruRU>
-    <ptBR>Aprendizes servem para obedecer. "Conjure uns pãezinhos de mana para mim! E um café! Ou melhor, um café de mana!"</ptBR>
-    <plPL>Uczniowie świetnie się nadają do wykorzystywania. „Hej, przyzwij mi trochę tych bułeczek z maną! I kawy! A właściwie to kawy z maną!”</plPL>
-    <koKR>수습생들은 이래라 저래라 시키기 좋습니다. 마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!"</koKR>
-    <itIT>È divertente dare ordini agli Apprendisti: "Evocami una Ciambella di Mana! E un caffè! Anzi, voglio un Caffè al Mana!"</itIT>
-    <frFR>Les apprentis, c’est utile pour les basses besognes. «  Invoque-moi des pains de manne ! Et un café ! Non, plutôt un café de manne ! »</frFR>
-    <esMX>No hay nada como mandonear aprendices. "¡Que aparezcan unas tostadas de maná! ¡Y un café! ¡Que sea un café de maná!".</esMX>
-    <esES>Tiene prohibido encantar escobas.</esES>
-    <deDE>Lehrlinge eignen sich prima zum Herumkommandieren. „Zauber mir ein paar Manabrötchen herbei! Und einen Kaffee! Ach was, mach' einen Manakaffee draus!“ </deDE>
-  </Tag>
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="05da507e-472c-489d-9c9d-2bbd7608846d" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Efrem Palacios</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>He's stationed in the Hellfire Peninsula, but he's hoping for a reassignment closer to Orgrimmar, or really anywhere the ground is less on fire.</enUS>
+    <zhTW>他被派駐在地獄火半島，但是他很希望能轉調到靠近奧格瑪的地方，或者只要地上沒著火的地方就好。</zhTW>
+    <zhCN>他受命驻扎在地狱火半岛，但他很希望能够被调配到奥格瑞玛附近，或者随便什么地方，只要那里的土地不要老是着火就行。</zhCN>
+    <ruRU>Он служит на Полуострове Адского Пламени, но мечтает, чтобы его перевели в Оргриммар или куда-нибудь, где не так много огня.</ruRU>
+    <ptBR>Ele está alocado na Península Fogo do Inferno, mas tem esperanças de ser transferido para algum lugar mais perto de Orgrimmar... ou em qualquer lugar que o chão não esteja pegando fogo.</ptBR>
+    <plPL>Postanowił napisać epicki poemat. Ma już pierwszy wers: „Thrallmarze, ojczyzno moja, ty jesteś jak zdrowie.”</plPL>
+    <koKR>지금은 지옥불 반도에서 근무 중이지만, 오그리마에 더 가까운 곳으로 배치되길 원합니다. 최소한 땅에서 불을 뿜지는 않은 곳으로요.</koKR>
+    <itIT>Attualmente è di stanza nella Penisola del Fuoco Infernale, ma spera di essere riassegnato più vicino a Orgrimmar... o da qualsiasi parte in cui la terra non sia in fiamme.</itIT>
+    <frFR>Il est en poste dans la péninsule des Flammes infernales, mais il espère être réaffecté plus près d’Orgrimmar, ou à tout autre endroit qui ne soit pas en feu.</frFR>
+    <esMX>Lo enviaron a la Península del Fuego Infernal, pero pidió que lo reasignaran más cerca de Orgrimmar... o, para ser sinceros, a cualquier otro lugar donde no se le quemaran los pies.</esMX>
+    <esES>Trabaja en la Península del Fuego Infernal, pero le gustaría que lo destacaran en Orgrimmar, o en cualquier otro sitio que no esté ardiendo permanentemente.</esES>
+    <deDE>Er ist momentan auf der Höllenfeuerhalbinsel stationiert, hofft aber darauf, nach Orgrimmar verlegt zu werden – oder an irgendeinen anderen Ort, an dem der Boden weniger brennt.</deDE>
+  </Tag>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="52171593-d4a9-49e2-a647-d5e3dbc63aea" />
 </Entity>

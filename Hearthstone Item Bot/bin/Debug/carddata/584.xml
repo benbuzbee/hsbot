@@ -1,68 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_234">
-  <MasterPower>36c113fe-50dd-42bc-b88c-ba7b5c1a0c5e</MasterPower>
+<Entity version="2" CardID="EX1_316">
+  <MasterPower>74f19b0e-2f0f-40ea-bf8c-3db37a308ddd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Shadow Word: Pain</enUS>
-    <frFR>Mot de l’ombre : Douleur</frFR>
-    <zhTW>暗言術:痛</zhTW>
-    <zhCN>暗言术：痛</zhCN>
-    <ruRU>Слово Тьмы: Боль</ruRU>
-    <ptBR>Palavra Sombria: Dor</ptBR>
-    <plPL>Słowo cienia: Ból</plPL>
-    <koKR>어둠의 권능: 고통</koKR>
-    <itIT>Parola d'Ombra: Dolore</itIT>
-    <esMX>Palabra de las sombras: Dolor</esMX>
-    <esES>Palabra de Sombras: dolor</esES>
-    <deDE>Schattenwort: Schmerz</deDE>
+    <enUS>Power Overwhelming</enUS>
+    <frFR>Puissance accablante</frFR>
+    <zhTW>壓倒性的力量</zhTW>
+    <zhCN>力量的代价</zhCN>
+    <ruRU>Переполняющая мощь</ruRU>
+    <ptBR>Poder Esmagador</ptBR>
+    <plPL>Nadmiar mocy</plPL>
+    <koKR>압도적인 힘</koKR>
+    <itIT>Potere Travolgente</itIT>
+    <esMX>Poder sobrecogedor</esMX>
+    <esES>Poder sobrecogedor</esES>
+    <deDE>Überwältigende Macht</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy a minion with 3 or less Attack.</enUS>
-    <frFR>Détruit un serviteur avec 3 Attaque ou moins.</frFR>
-    <zhTW>摧毀一個攻擊力在3點以下的手下。</zhTW>
-    <zhCN>消灭一个攻击力小于或等于3的随从。</zhCN>
-    <ruRU>Уничтожает существо с атакой 3 или меньше.</ruRU>
-    <ptBR>Destrua um lacaio com 3 ou menos de Ataque.</ptBR>
-    <plPL>Zniszcz stronnika z atakiem 3 lub mniejszym.</plPL>
-    <koKR>공격력 3 이하인 하수인을 1마리 처치합니다.</koKR>
-    <itIT>Distrugge un servitore con Attacco pari a 3 o inferiore.</itIT>
-    <esMX>Destruye un esbirro con 3 de Ataque o menos.</esMX>
-    <esES>Destruye a un esbirro con 3 p. de ataque o menos.</esES>
-    <deDE>Vernichtet einen Diener mit max. 3 Angriff.</deDE>
+    <enUS>Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.</enUS>
+    <frFR>Confère +4/+4 à un serviteur allié jusqu’à la fin du tour. Puis il meurt. De façon horrible.</frFR>
+    <zhTW>賦予一個友方手下+4/+4到回合結束。然後它會悲慘地死去</zhTW>
+    <zhCN>使一个友方随从获得+4/+4，在回合结束时，将其消灭。</zhCN>
+    <ruRU>Ваше существо получает +4/+4 до конца хода. Потом оно умирает. Ужасной смертью.</ruRU>
+    <ptBR>Conceda +4/+4 a um lacaio aliado até o fim do turno. Depois, ele morre. Uma morte horrível.</ptBR>
+    <plPL>Daj przyjaznemu stronnikowi +4/+4 do końca tury. Następnie stronnik umrze. W męczarniach.</plPL>
+    <koKR>아군 하수인 하나에게 +4/+4를 부여합니다. 턴이 끝나면 그 하수인은 죽습니다. 처참하게.</koKR>
+    <itIT>Fornisce +4/+4 a un tuo servitore fino alla fine del turno. Poi muore in modo orribile.</itIT>
+    <esMX>Otorga +4/+4 a un esbirro aliado hasta el final del turno. Luego muere. De una forma horrible.</esMX>
+    <esES>Otorga +4/+4 a un esbirro amistoso hasta el final del turno. Luego, el esbirro muere. De forma horrible.</esES>
+    <deDE>Verleiht einem befreundeten Diener bis zum Ende des Zuges +4/+4. Dann stirbt er. Auf schreckliche Art und Weise.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Tom Baxa</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>A step up from a spell cast by many beginning  acolytes: "Shadow Word: Annoy".</enUS>
-    <zhTW>這是許多見習牧師施放的「暗言術:煩」的升級版。</zhTW>
-    <zhCN>许多寺僧学徒都会施放：“暗言术：怒”，这个法术是它的进阶法术。</zhCN>
-    <ruRU>Обратите внимание, что степень причиняемой боли не указана, так что вы даже не знаете, насколько сильно вам стоит бояться.</ruRU>
-    <ptBR>Um passo à frente de um feitiço lançado por muitos acólitos iniciantes: "Palavra Sombria: Pentelhar".</ptBR>
-    <plPL>Ulepszona wersja zaklęcia rzucanego przez wielu początkujących akolitów: „Słowo cienia: Irytacja”.</plPL>
-    <koKR>초급 수행사제들이 배우는 "어둠의 권능: 성가심"보다 한 단계 높은 등급의 주문입니다.</koKR>
-    <itIT>Un miglioramento rispetto all'incantesimo lanciato da molti accoliti novizi: "Parola d'Ombra: Fastidio".</itIT>
-    <frFR>Un cran au dessus des acolytes débutants avec leur « Mot de l’ombre : Ennui ».</frFR>
-    <esMX>La nueva versión de un hechizo muy popular entre los acólitos principiantes: "Palabra de las Sombras: Irritar".</esMX>
-    <esES>Pronto serás Exaltado con el ángel de la Resurrección.</esES>
-    <deDE>Dazu muss gesagt werden, dass das Ausmaß der Schmerzen nicht näher beschrieben ist. Es ist also unklar, wie viel Angst Ihr davor haben solltet.</deDE>
+    <enUS>We cannot even describe how horrible the death is.  It's CRAZY bad!  Maybe worse than that.  Just don't do it.</enUS>
+    <zhTW>我們根本無法描述這種死亡有多悲慘。像瘋狂一般的慘啊!也許比那樣還糟。反正別這麼做就對了。</zhTW>
+    <zhCN>别让那个随从知道他死后的样子。那惨象无可言状。</zhCN>
+    <ruRU>У нас не хватит слов, чтобы описать, насколько ужасна будет его смерть. Чудовищно ужасна! Или даже хуже... В общем, пожалейте бедное существо.</ruRU>
+    <ptBR>Não conseguimos nem descrever a morte dele, de tão horrível. É BIZARRO de ruim! Talvez ainda pior. Não faça isso.</ptBR>
+    <plPL>Nie jesteśmy w stanie opisać, jak ogromne są to męczarnie. Są PRZERAŻAJĄCE! Albo jeszcze gorzej. Po prostu tego nie rób.</plPL>
+    <koKR>얼마나 처참하게 죽는지 차마 말로 표현할 수 없을 정도입니다. 너무 끔찍합니다! 아니, 끔찍 그 이상입니다. 그냥 상상하지 마십시오.</koKR>
+    <itIT>Non è possibile descrivere quanto sia atroce questa morte. È terribilmente crudele! Forse anche peggio. Non dovresti farlo.</itIT>
+    <frFR>Impossible de décrire l’horreur de cette mort. Ce n’est VRAIMENT pas beau à voir. Pire encore. Ne le faites pas.</frFR>
+    <esMX>No hay palabras para describir lo horrible que es esa muerte. ¡Es TREMENDAMENTE fea! Horripilante. No lo hagas, por favor.</esMX>
+    <esES>Ni siquiera podríamos describir lo horrible que es esa muerte. ¡Es increíblemente horrorosa! Puede que incluso peor. No lo hagas.</esES>
+    <deDE>Aus überwältigender Macht folgt überwältigende Verantwortung.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 32.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="36c113fe-50dd-42bc-b88c-ba7b5c1a0c5e">
+  <Power definition="74f19b0e-2f0f-40ea-bf8c-3db37a308ddd">
     <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="8" param="3" />
     <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="2" param="" />
   </Power>
 </Entity>

@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_616">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_608">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mana Wraith</enUS>
-    <frFR>Âme en peine de mana</frFR>
-    <zhTW>法力怨靈</zhTW>
-    <zhCN>法力怨魂</zhCN>
-    <ruRU>Магический призрак</ruRU>
-    <ptBR>Aparição de Mana</ptBR>
-    <plPL>Upiór many</plPL>
-    <koKR>마나 망령</koKR>
-    <itIT>Presenza di Mana</itIT>
-    <esMX>Ánima de maná</esMX>
-    <esES>Ánima de maná</esES>
-    <deDE>Managespenst</deDE>
+    <enUS>Sorcerer's Apprentice</enUS>
+    <frFR>Apprentie du sorcier</frFR>
+    <zhTW>巫士的學徒</zhTW>
+    <zhCN>巫师学徒</zhCN>
+    <ruRU>Ученица чародея</ruRU>
+    <ptBR>Aprendiz de Feiticeiro</ptBR>
+    <plPL>Uczennica czarownika</plPL>
+    <koKR>마술사의 수습생</koKR>
+    <itIT>Apprendista Occultista</itIT>
+    <esMX>Aprendiz de hechicero</esMX>
+    <esES>Aprendiza de hechicera</esES>
+    <deDE>Zauberlehrling</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>ALL minions cost (1) more.</enUS>
-    <frFR>TOUS les serviteurs coûtent (1) cristal de plus.</frFR>
-    <zhTW>全部手下額外消耗(1)點。</zhTW>
-    <zhCN>召唤所有随从的法力值消耗增加（1）点。</zhCN>
-    <ruRU>Все существа стоят на (1) ману больше.</ruRU>
-    <ptBR>TODOS os lacaios custam (1) a mais.</ptBR>
-    <plPL>WSZYSCY stronnicy kosztują (1) więcej.</plPL>
-    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인의 비용이 (1) 증가합니다.</koKR>
-    <itIT>TUTTI i servitori costano (1) Mana in più.</itIT>
-    <esMX>TODOS los esbirros cuestan (1) más.</esMX>
-    <esES>Todos los esbirros cuestan (1) cristal más.</esES>
-    <deDE>ALLE Diener kosten (1) mehr.</deDE>
+    <enUS>Your spells cost (1) less.</enUS>
+    <frFR>Vos sorts coûtent (1) cristal de moins.</frFR>
+    <zhTW>你的法術消耗減少(1)點</zhTW>
+    <zhCN>你的法术的法力值消耗减少（1）点。</zhCN>
+    <ruRU>Ваши заклинания стоят на (1) ману меньше.</ruRU>
+    <ptBR>Seus feitiços custam (1) a menos.</ptBR>
+    <plPL>Twoje zaklęcia kosztują (1) mniej.</plPL>
+    <koKR>내가 쓰는 주문의 비용이 (1) 감소합니다.</koKR>
+    <itIT>Le tue Magie costano (1) Mana in meno.</itIT>
+    <esMX>Tus hechizos cuestan (1) menos.</esMX>
+    <esES>Tus hechizos cuestan (1) cristal menos.</esES>
+    <deDE>Eure Zauber kosten (1) weniger.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Apprentices are great for bossing around.  "Conjure me some mana buns! And a coffee!  Make that a mana coffee!"</enUS>
+    <zhTW>學徒非常好使喚。「幫我做些法力麵包!和一杯咖啡!不然乾脆做杯法力咖啡好了!」</zhTW>
+    <zhCN>学徒们就是用来到处使唤的。“给我做点魔法面包，再来杯咖啡！我要魔法咖啡！”</zhCN>
+    <ruRU>Маги обожают командовать своими учениками. «Сотвори-ка мне булочки из маны! И кофе! С маной!»</ruRU>
+    <ptBR>Aprendizes servem para obedecer. "Conjure uns pãezinhos de mana para mim! E um café! Ou melhor, um café de mana!"</ptBR>
+    <plPL>Uczniowie świetnie się nadają do wykorzystywania. „Hej, przyzwij mi trochę tych bułeczek z maną! I kawy! A właściwie to kawy z maną!”</plPL>
+    <koKR>수습생들은 이래라 저래라 시키기 좋습니다. "마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!"</koKR>
+    <itIT>È divertente dare ordini agli Apprendisti: "Evocami una Ciambella di Mana! E un caffè! Anzi, voglio un Caffè al Mana!"</itIT>
+    <frFR>Les apprentis, c’est utile pour les basses besognes. « Invoque-moi des pains de manne ! Et un café ! Non, plutôt un café de manne ! »</frFR>
+    <esMX>No hay nada como mandonear aprendices. "¡Que aparezcan unas tostadas de maná! ¡Y un café! ¡Que sea un café de maná!".</esMX>
+    <esES>Tiene prohibido encantar escobas.</esES>
+    <deDE>Lehrlinge eignen sich prima zum Herumkommandieren. „Zauber mir ein paar Manabrötchen herbei! Und einen Kaffee! Ach was, mach' einen Manakaffee draus!“</deDE>
+  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Luca Zontini</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>They come out at night to eat leftover mana crystals. "Mmmmmm," they say.</enUS>
-    <zhTW>他們會在晚上出現，偷吃剩下的法力水晶。嗯...好吃!</zhTW>
-    <zhCN>它们在晚上出没，吸食残余的法力水晶。“嗯...”它们发出这样的声音。</zhCN>
-    <ruRU>По ночам они выходят питаться неиспользованными кристаллами маны.</ruRU>
-    <ptBR>Elas chegam de noite para comer os restos de cristais de mana. Elas dizem "nomnomnomnom".</ptBR>
-    <plPL>Wypełzają w nocy, żeby zeżreć resztki kryształów many.</plPL>
-    <koKR>이들은 밤에 나타나 남은 마나 수정을 먹습니다. "으으으음..." 소리를 내곤 하지요.</koKR>
-    <itIT>Escono di notte per mangiare i Cristalli di Mana avanzati... "Mmmmmm!".</itIT>
-    <frFR>Elles sortent de nuit pour manger les restes des cristaux de mana en poussant des « mmmmm » de contentement.</frFR>
-    <esMX>Salen por la noche para comer sobras de cristales de maná. "Mmm, ñami", dicen.</esMX>
-    <esES>Se manifiestan por las noches para devorar los cristales de maná que sobran de las partidas.</esES>
-    <deDE>Des Nachts spuken sie herum und verspeisen übrig gebliebene Manakristalle.</deDE>
-  </Tag>
   <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="f10bd736-54f1-405b-8fd7-bbffc0465403" />
+  <Power definition="05da507e-472c-489d-9c9d-2bbd7608846d" />
 </Entity>

@@ -1,66 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_563">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_312">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Malygos</enUS>
-    <frFR>Malygos</frFR>
-    <zhTW>瑪里苟斯</zhTW>
-    <zhCN>玛里苟斯</zhCN>
-    <ruRU>Малигос</ruRU>
-    <ptBR>Malygos</ptBR>
-    <plPL>Malygos</plPL>
-    <koKR>말리고스</koKR>
-    <itIT>Malygos</itIT>
-    <esMX>Malygos</esMX>
-    <esES>Malygos</esES>
-    <deDE>Malygos</deDE>
+    <enUS>Twisting Nether</enUS>
+    <frFR>Néant distordu</frFR>
+    <zhTW>扭曲虛空</zhTW>
+    <zhCN>扭曲虚空</zhCN>
+    <ruRU>Круговерть Пустоты</ruRU>
+    <ptBR>Espiral Etérea</ptBR>
+    <plPL>Wypaczona Otchłań</plPL>
+    <koKR>뒤틀린 황천</koKR>
+    <itIT>Distorsione Fatua</itIT>
+    <esMX>Vacío abisal</esMX>
+    <esES>Vacío Abisal</esES>
+    <deDE>Wirbelnder Nether</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="12" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Damage +5&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Dégâts des sorts : +5&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術傷害+5&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术伤害+5&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Урон от заклинаний +5&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+5 de Dano de Feitiço&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Siła zaklęć +5&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문 공격력 +5&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+5 Potenza Magica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Daño de hechizo +5&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+5 p. de daño con hechizos&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Zauberschaden +5&lt;/b&gt;</deDE>
+    <enUS>Destroy all minions.</enUS>
+    <frFR>Détruit tous les serviteurs.</frFR>
+    <zhTW>摧毀全部手下</zhTW>
+    <zhCN>消灭所有随从。</zhCN>
+    <ruRU>Уничтожает всех существ.</ruRU>
+    <ptBR>Destrua todos os lacaios.</ptBR>
+    <plPL>Zniszcz wszystkich stronników.</plPL>
+    <koKR>모든 하수인을 처치합니다.</koKR>
+    <itIT>Distrugge tutti i servitori.</itIT>
+    <esMX>Destruye a todos los esbirros.</esMX>
+    <esES>Destruye a todos los esbirros.</esES>
+    <deDE>Vernichtet alle Diener.</deDE>
   </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Michael Komarck</enUS>
+    <enUS>Dave Allsop</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Malygos hates it when mortals use magic.  He gets so mad!</enUS>
-    <zhTW>瑪里苟斯非常討厭凡人使用魔法。他會瘋狂暴怒!</zhTW>
-    <zhCN>玛里苟斯憎恨凡人使用魔法。那会让他气急败坏！</zhCN>
-    <ruRU>Малигос терпеть не может, когда смертные пользуются магией. Это выводит его из себя!</ruRU>
-    <ptBR>Malygos odeia quando mortais usam magia. Odeia!</ptBR>
-    <plPL>Malygos nie znosi, kiedy ludzie używają magii. Normalnie szaleje z wściekłości!</plPL>
-    <koKR>말리고스는 필멸자들이 마법 쓰는 걸 싫어합니다. 그럼 제이나는?</koKR>
-    <itIT>Malygos dà fuori di testa quando i mortali usano la magia.</itIT>
-    <frFR>Malygos déteste que les humains utilisent la magie, ça le rend fou !</frFR>
-    <esMX>Malygos odia que los mortales usen magia. Se pone como loco.</esMX>
-    <esES>¡La magia le vuelve loco!</esES>
-    <deDE>Malygos mag es nicht, wenn Sterbliche Magie anwenden, aber andererseits verstärkt er sie. Kein Wunder, dass er da den Verstand verliert.</deDE>
+    <enUS>The Twisting Nether is a formless place of magic and illusion and destroyed minions.</enUS>
+    <zhTW>扭曲虛空是個沒有形體的地方，有著魔法、幻影及被摧毀的手下。</zhTW>
+    <zhCN>扭曲虚空浩渺无际，充满着魔法、幻象和被放逐的生命体。</zhCN>
+    <ruRU>Круговерть Пустоты – это то самое место, куда отправляются с поля боя уничтоженные существа.</ruRU>
+    <ptBR>A Espiral Etérea é um lugar sem forma de magia e ilusão e lacaios destruídos.</ptBR>
+    <plPL>Wypaczona Otchłań to bezkształtne miejsce pełne magii, iluzji i zniszczonych stronników.</plPL>
+    <koKR>뒤틀린 황천은 마법과 환상, 죽은 하수인들로 가득한 형태 없는 공간입니다.</koKR>
+    <itIT>La Distorsione Fatua è un luogo senza forma pervaso da magia, illusioni e servitori annientati.</itIT>
+    <frFR>Le Néant distordu est un endroit sans forme, rempli de magie, d’illusions... et de serviteurs sauvagement sacrifiés.</frFR>
+    <esMX>El Vacío abisal es un lugar amorfo lleno de magia, ilusión y esbirros despedazados.</esMX>
+    <esES>Todos los esbirros van al... ¿Vacío Abisal?</esES>
+    <deDE>Der Wirbelnde Nether ist ein formloser Ort der Magie, der Illusion ... und der vernichteten Diener.</deDE>
   </Tag>
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="dbf200dd-ab0a-438a-85a2-c75d9d28d602" />
-  <Power definition="0511a9c3-bb46-40d0-a6cf-a7ee14195731" />
+  <Power definition="0dcb5c19-b908-4dcc-ad25-c2c643bd4a91" />
 </Entity>

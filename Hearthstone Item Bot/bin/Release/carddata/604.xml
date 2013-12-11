@@ -1,68 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_402">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_236">
+  <MasterPower>80eea4e6-5792-4f2a-9dff-6bf8cb17804f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Armorsmith</enUS>
-    <frFR>Fabricante d’armures</frFR>
-    <zhTW>護甲鍛造師</zhTW>
-    <zhCN>铸甲师</zhCN>
-    <ruRU>Мастер брони</ruRU>
-    <ptBR>Ferreira de Armaduras</ptBR>
-    <plPL>Płatnerz</plPL>
-    <koKR>방어구 제작자</koKR>
-    <itIT>Fabbro d'Armature</itIT>
-    <esMX>Forjadora de armaduras</esMX>
-    <esES>Forjadora de armaduras</esES>
-    <deDE>Rüstungsschmiedin</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a friendly minion takes damage, gain 1 Armor.</enUS>
-    <frFR>Chaque fois qu’un serviteur allié subit des dégâts, vous gagnez 1 point d’armure.</frFR>
-    <zhTW>每當一個友方手下受到傷害，獲得1點護甲值。</zhTW>
-    <zhCN>每当一个友方随从受到伤害，便获得1点护甲值。</zhCN>
-    <ruRU>Каждый раз, когда ваше существо получает урон, вы получаете +1 к броне.</ruRU>
-    <ptBR>Sempre que um lacaio aliado receber dano, receba 1 de Armadura.</ptBR>
-    <plPL>Otrzymujesz 1 pkt. pancerza za każdym razem, gdy przyjazny stronnik zostanie zraniony.</plPL>
-    <koKR>아군 하수인이 피해를 입을 때마다 방어도를 +1 얻습니다.</koKR>
-    <itIT>Quando un tuo servitore subisce danni, ottieni 1 Armatura.</itIT>
-    <esMX>Cuando un esbirro aliado recibe daño, obtienes 1 de Armadura.</esMX>
-    <esES>Tu héroe obtiene 1 p. de armadura cada vez que un esbirro amistoso recibe daño.</esES>
-    <deDE>Ihr erhaltet jedes Mal 1 Rüstung, wenn ein befreundeter Diener Schaden erleidet.</deDE>
-  </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Smithing</enUS>
+    <enUS>Divine Spirit</enUS>
+    <frFR>Esprit divin</frFR>
+    <zhTW>神聖精神</zhTW>
+    <zhCN>神圣之灵</zhCN>
+    <ruRU>Божественный дух</ruRU>
+    <ptBR>Espírito Divino</ptBR>
+    <plPL>Boski duch</plPL>
+    <koKR>천상의 정신</koKR>
+    <itIT>Spirito Divino</itIT>
+    <esMX>Espíritu divino</esMX>
+    <esES>Espíritu divino</esES>
+    <deDE>Göttlicher Wille</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Double a minion's Health.</enUS>
+    <frFR>Double les points de vie d’un serviteur.</frFR>
+    <zhTW>使一個手下的生命值加倍</zhTW>
+    <zhCN>使一个随从的生命值翻倍。</zhCN>
+    <ruRU>Удваивает здоровье выбранного существа.</ruRU>
+    <ptBR>Dobre a Vida de um lacaio.</ptBR>
+    <plPL>Podwajasz zdrowie stronnika.</plPL>
+    <koKR>하수인 하나의 생명력을 2배 증가시킵니다.</koKR>
+    <itIT>Raddoppia la Salute di un servitore.</itIT>
+    <esMX>Duplica la Salud de un esbirro.</esMX>
+    <esES>Duplica la salud de un esbirro.</esES>
+    <deDE>Verdoppelt das Leben eines Dieners.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Greg Hildebrandt</enUS>
+    <enUS>Jim Pavelec</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>She accepts guild funds for repairs!</enUS>
-    <zhTW>她接受用公會資金進行修理!</zhTW>
-    <zhCN>她接受公会修理资金！</zhCN>
-    <ruRU>Ремонтирует за счет средств гильдии.</ruRU>
-    <ptBR>Ela aceita fundos da guilda para consertos!</ptBR>
-    <plPL>Przyjmuje też wynagrodzenie w naturze. </plPL>
-    <koKR>길드 자금 환영!</koKR>
-    <itIT>Accetta i fondi della gilda per le riparazioni.</itIT>
-    <frFR>Elle accepte les fonds de la guilde pour les réparations !</frFR>
-    <esMX>¡Acepta fondos de la hermandad para reparaciones!</esMX>
-    <esES>¡Acepta fondos de hermandad a cambio de las reparaciones!</esES>
-    <deDE>Sie akzeptiert Gildengold für Reparaturen.</deDE>
+    <enUS>Double the trouble. Double the fun!</enUS>
+    <zhTW>麻煩加倍，樂趣也加倍!</zhTW>
+    <zhCN>加倍的付出会得到加倍的收获！</zhCN>
+    <ruRU>Вдвое больше веселья, вдвое больше головной боли!</ruRU>
+    <ptBR>Dobro de confusão. Dobro de diversão!</ptBR>
+    <plPL>Takiego potrojenia jak to podwojenie nie ma ani jednego.</plPL>
+    <koKR>골칫거리 2배, 재미도 2배!</koKR>
+    <itIT>Doppia sfida, doppio divertimento!</itIT>
+    <frFR>Règle deux : la double dose !</frFR>
+    <esMX>El doble de problemas. ¡El doble de diversión!</esMX>
+    <esES>El doble de salud, ¡el doble de diversión!</esES>
+    <deDE>Der Beweis für das Sprichwort: Doppelt hält besser!</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="de62bc54-3bc7-46e3-8294-fdbd3dcb9601" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 2.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 28.</enUS>
+  </Tag>
+  <Power definition="80eea4e6-5792-4f2a-9dff-6bf8cb17804f">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_007">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Acolyte of Pain</enUS>
     <frFR>Acolyte de la souffrance</frFR>
@@ -26,7 +24,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Whenever this minion takes damage, draw a card.</enUS>
     <frFR>Vous piochez une carte chaque fois que ce serviteur subit des dégâts.</frFR>
-    <zhTW>每當此手下受到傷害，抽一張牌。</zhTW>
+    <zhTW>每當此手下受到傷害，抽一張牌</zhTW>
     <zhCN>每当该随从受到伤害时，抽一张牌。</zhCN>
     <ruRU>Каждый раз, когда это существо получает урон, вы берете карту.</ruRU>
     <ptBR>Sempre que este lacaio receber dano, compre um card.</ptBR>

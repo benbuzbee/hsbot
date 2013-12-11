@@ -1,68 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_129">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_074">
+  <MasterPower>f51fe4b0-1f7b-45dc-834e-3b4beeaf3109</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Fan of Knives</enUS>
-    <frFR>Éventail de couteaux</frFR>
-    <zhTW>飛舞刀刃</zhTW>
-    <zhCN>刀扇</zhCN>
-    <ruRU>Веер клинков</ruRU>
-    <ptBR>Leque de Facas</ptBR>
-    <plPL>Wachlarz ostrzy</plPL>
-    <koKR>칼날 부채</koKR>
-    <itIT>Ventaglio di Lame</itIT>
-    <esMX>Abanico de cuchillos</esMX>
-    <esES>Abanico de cuchillos</esES>
-    <deDE>Dolchfächer</deDE>
+    <enUS>Deadly Poison</enUS>
+    <frFR>Poison mortel</frFR>
+    <zhTW>致命毒藥</zhTW>
+    <zhCN>致命药膏</zhCN>
+    <ruRU>Смертоносный яд</ruRU>
+    <ptBR>Veneno Mortal</ptBR>
+    <plPL>Zabójcza trucizna</plPL>
+    <koKR>맹독</koKR>
+    <itIT>Veleno Mortale</itIT>
+    <esMX>Veneno mortal</esMX>
+    <esES>Veneno mortal</esES>
+    <deDE>Tödliches Gift</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $1 damage to all enemy minions. Draw a card.</enUS>
-    <frFR>Inflige $1 |4(point,points) de dégâts à tous les serviteurs adverses. Vous piochez une carte.</frFR>
-    <zhTW>對全部敵方手下造成$1點傷害。抽一張牌。</zhTW>
-    <zhCN>对所有敌方随从造成$1点伤害，抽一张牌。</zhCN>
-    <ruRU>Наносит $1 ед. урона всем существам противника. Вы берете карту.</ruRU>
-    <ptBR>Cause $1 de dano a todos os lacaios inimigos. Compre um card.</ptBR>
-    <plPL>Zadaj $1 pkt. obrażeń wszystkim wrogim stronnikom. Dobierz kartę.</plPL>
-    <koKR>모든 적 하수인에게 피해를 $1 줍니다. 카드를 1장 뽑습니다.</koKR>
-    <itIT>Infligge $1 danno a tutti i servitori nemici. Pesca una carta.</itIT>
-    <esMX>Inflige $1 de daño a todos los esbirros enemigos. Roba una carta.</esMX>
-    <esES>Inflige $1 p. de daño a todos los esbirros enemigos. Roba una carta.</esES>
-    <deDE>Fügt allen feindlichen Dienern $1 Schaden zu. Zieht eine Karte.</deDE>
+    <enUS>Give your weapon +2 Attack.</enUS>
+    <frFR>Confère +2 ATQ à votre arme.</frFR>
+    <zhTW>賦予你的武器+2攻擊力</zhTW>
+    <zhCN>使你的武器获得+2攻击力。</zhCN>
+    <ruRU>Ваше оружие получает +2 к атаке.</ruRU>
+    <ptBR>Conceda +2 de Ataque à sua arma.</ptBR>
+    <plPL>Daj swojej broni +2 do ataku.</plPL>
+    <koKR>내 무기에 공격력을 +2 부여합니다.</koKR>
+    <itIT>Fornisce +2 Attacco alla tua arma.</itIT>
+    <esMX>Le otorga a tu arma +2 de Ataque.</esMX>
+    <esES>Otorga +2 p. de ataque a tu arma equipada.</esES>
+    <deDE>Eure Waffe erhält +2 Angriff.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Andrew Robinson</enUS>
+    <enUS>Trevor Jacobs</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>I wouldn't say I LOVE knives, but I'm definitely a fan.</enUS>
-    <zhTW>我不敢說我喜歡刀刃，不過我是非常喜歡飛舞的。</zhTW>
-    <zhCN>转瞬即逝的寒光闪过，漫天飞舞的血花绽放。</zhCN>
-    <ruRU>Из инструкции к вееру клинков: обмахивать только неприятелей!</ruRU>
-    <ptBR>Eu não diria que ADORO facas. Mas sou fã com certeza.</ptBR>
-    <plPL>Nie powiem, że kocham noże, ale czasem lubię sobie nimi powachlować.</plPL>
-    <koKR>시전할 때 생기는 바람이 시원해서 지어진 이름이란 소문이 있습니다.</koKR>
-    <itIT>Non è consigliabile usarlo per rinfrescarsi nelle giornate più afose.</itIT>
-    <frFR>Je ne dirais pas que j’ai des tonnes de couteaux, mais plutôt un éventail bien fourni.</frFR>
-    <esMX>No hay mejor manera de matar el calor.</esMX>
-    <esES>Todo pícaro que se precie posee un amplio abanico de cuchillos.</esES>
-    <deDE>Macht nicht einfachen, nicht zweifachen, sondern gleich dolchfachen Schaden!</deDE>
+    <enUS>Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.</enUS>
+    <zhTW>盜賊非常小心地保護著製作毒藥的秘密，否則若法師開始把毒藥弄進法術就麻煩了。毒箭術?毒雨術?毒元素?沒有人想要看到那種東西。</zhTW>
+    <zhCN>潜行者们都小心翼翼地保守着制毒的秘密，唯恐法师们把毒药用在他们的法术之中。毒性箭？剧毒之雨？毒元素？听上去就很可怕。</zhCN>
+    <ruRU>Разбойники тщательно охраняют секреты изготовления ядов, особенно от магов. Кому нужны заклинания типа «Ядовитый ливень» или «Отравляющий элементаль»? Правильно, никому.</ruRU>
+    <ptBR>Ladinos guardam suas receitas de veneno muito bem. Imagina se os magos começam a incorporar os venenos nos feitiços? Seta Venenosa? Chuva de Veneno? Elemental de Veneno? Ninguém quer isso.</ptBR>
+    <plPL>Sekrety wyrobu trucizn są zazdrośnie strzeżone przez łotrów, aby magowie nie tworzyli zatrutych zaklęć. Zatruty pocisk? Deszcz trucizny? Żywiołak trucizn? Nikt tego nie chce.</plPL>
+    <koKR>도적들의 독 제조술은 극비 사항입니다. 마법사들이 주문에 사용 못 하게 하기 위해서죠. 맹독 화살? 맹독의 비? 맹독 정령? 생각만 해도 끔찍하군요.</koKR>
+    <itIT>I Ladri custodiscono gelosamente i segreti della creazione di veleni, temendo che i Maghi possano utilizzarli nelle loro magie. Dardi Avvelenati? Pioggia di Veleno? Meglio evitare.</itIT>
+    <frFR>Les voleurs gardent jalousement les secrets de la fabrication des poisons, de crainte que les magi n’en intègrent dans leurs sorts. Éclair de poison ? Pluie de poison ? Élémentaire de poison ? Personne n’a envie de voir ça !</frFR>
+    <esMX>Los pícaros guardan celosamente los secretos de la elaboración de veneno por temor a que los magos lo incorporen en sus hechizos. ¿Descarga de veneno? ¿Lluvia de veneno? ¿Elemental de veneno? No, gracias, mejor evitarlo.</esMX>
+    <esES>Los pícaros guardan celosamente los secretos de la elaboración de venenos, para que los magos no empiecen a incorporarlos a sus hechizos. ¿Descarga de veneno? ¿Lluvia de veneno? ¿Elemental de veneno? Nadie quiere que eso llegue a pasar.</esES>
+    <deDE>Schurken hüten das Geheimnis der Giftmischerei wie ihren Augapfel, aus Furcht davor, dass Magier es für ihre Zauber verwenden könnten. Giftblitz? Giftregen? Giftelementar? Das will doch niemand.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
-  </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 42.</enUS>
+    <enUS>Unlocked at Level 43.</enUS>
   </Tag>
-  <Power definition="2e8eabed-03ab-42b4-a2a2-b520297d0a2b" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Power definition="f51fe4b0-1f7b-45dc-834e-3b4beeaf3109">
+    <PlayRequirement reqID="13" param="" />
+  </Power>
 </Entity>

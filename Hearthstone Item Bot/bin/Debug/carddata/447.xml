@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_104">
-  <MasterPower>80e88a5d-1729-42a1-8b7f-d51cf95d3b5e</MasterPower>
+<Entity version="2" CardID="CS1_042">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Rampage</enUS>
-    <frFR>Saccager</frFR>
-    <zhTW>暴怒</zhTW>
-    <zhCN>狂暴</zhCN>
-    <ruRU>Буйство</ruRU>
-    <ptBR>Alvoroço</ptBR>
-    <plPL>Amok</plPL>
-    <koKR>광란</koKR>
-    <itIT>Furia</itIT>
-    <esMX>Desenfreno</esMX>
-    <esES>Desenfreno</esES>
-    <deDE>Toben</deDE>
+    <enUS>Goldshire Footman</enUS>
+    <zhTW>閃金鎮步卒</zhTW>
+    <zhCN>闪金镇步兵</zhCN>
+    <ruRU>Солдат Златоземья</ruRU>
+    <ptBR>Soldado de Vila d'Ouro</ptBR>
+    <plPL>Piechur ze Złotych Włości</plPL>
+    <koKR>황금골 보병</koKR>
+    <itIT>Soldato di Borgodoro</itIT>
+    <frFR>Soldat de Comté-de-l’Or</frFR>
+    <esMX>Lacayo de Villadorada</esMX>
+    <esES>Lacayo de Villadorada</esES>
+    <deDE>Fußsoldat von Goldhain</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a damaged minion +3/+3.</enUS>
-    <frFR>Confère +3/+3 à un serviteur blessé.</frFR>
-    <zhTW>賦予一個受傷的手下+3/+3。</zhTW>
-    <zhCN>使一个受过伤害的随从获得+3/+3。</zhCN>
-    <ruRU>Существо с неполным здоровьем получает +3/+3.</ruRU>
-    <ptBR>Conceda +3/+3 a um lacaio ferido.</ptBR>
-    <plPL>Daj rannemu stronnikowi +3/+3.</plPL>
-    <koKR>피해를 입은 하수인에게 +3/+3을 부여합니다.</koKR>
-    <itIT>Fornisce +3/+3 a un servitore danneggiato.</itIT>
-    <esMX>Otorga +3/+3 a un esbirro dañado.</esMX>
-    <esES>Otorga +3/+3 a un esbirro dañado.</esES>
-    <deDE>Verleiht einem verletzten Diener +3/+3.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jonboy Meyers</enUS>
+    <enUS>Donato Giancola</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Paladin Level 57.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Minion get ANGRY.   Minion SMASH!</enUS>
-    <zhTW>手下憤怒了。手下打打!</zhTW>
-    <zhCN>这个随从很愤怒。这个随从很厉害！</zhCN>
-    <ruRU>Кто буйный? Я БУЙНЫЙ?!</ruRU>
-    <ptBR>Lacaio fica RAIVOSO! Lacaio ESMAGA!</ptBR>
-    <plPL>Stronnik ZŁY! Stronnik będzie BIĆ!</plPL>
-    <koKR>하수인 화났다. 하수인 부순다!</koKR>
-    <itIT>Servitore è ARRABBIATO. Ora servitore SPACCA!</itIT>
-    <frFR>Serviteur pas CONTENT ! Serviteur TOUT CASSER !</frFR>
-    <esMX>Esbirro FURIOSO. ¡Esbirro APLASTA!</esMX>
-    <esES>¡Esbirro, machaca!</esES>
-    <deDE>Diener WÜTEND. Diener ZERQUETSCHT!</deDE>
+    <enUS>If 1/2 minions are all that is defending Goldshire, you would think it would have been overrun years ago.</enUS>
+    <zhTW>如果防禦閃金鎮的全是1/2的手下，那個地方應該早就被敵人碾過去了才對。</zhTW>
+    <zhCN>如果闪金镇都是由1/2的步兵把守的话，那它早在多年以前就被毁了。</zhCN>
+    <ruRU>Если Златоземье защищают только эти существа 1/2, странно, что его еще не захватили.</ruRU>
+    <ptBR>Se lacaios 1/2 fossem todas as defesas da Vila d'Ouro, ela teria sido dominada há muito tempo.</ptBR>
+    <plPL>Jeśli na straży Złotych Włości stoją takie zuchy, to i tak cud, że nie zostały jeszcze spalone.</plPL>
+    <koKR>만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.</koKR>
+    <itIT>Se dei servitori 1/2 sono tutto ciò che difende Borgodoro, verrebbe da domandarsi perché non sia stata distrutta anni fa.</itIT>
+    <frFR>Si Comté-de-l’Or n’est protégée que par des serviteurs 1/2, elle aurait dû être envahie il y a des années.</frFR>
+    <esMX>Si por toda defensa Villadorada tiene esbirros 1/2, uno creería que la tendrían que haber arrasado hace muchos años.</esMX>
+    <esES>Si estos esbirros 1/2 son los únicos guardias de Villadorada, no es de extrañar que allí se libren tantos duelos impunemente.</esES>
+    <deDE>Man könnte annehmen, dass Goldhain schon längst überrannt sein sollte, wenn es lediglich durch Diener mit 1/2 verteidigt wird.</deDE>
   </Tag>
-  <Power definition="80e88a5d-1729-42a1-8b7f-d51cf95d3b5e">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="4" param="" />
-  </Power>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="54e57583-ce5c-46e3-899a-39bd2181468d" />
 </Entity>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CS2_188o">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>'Inspired'</enUS>
     <frFR>« Inspiré »</frFR>
@@ -21,13 +19,13 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>This minion has +2 Attack this turn.</enUS>
     <frFR>Ce serviteur a +2 ATQ pendant ce tour.</frFR>
-    <zhTW>本回合這個手下擁有+2攻擊力。</zhTW>
+    <zhTW>本回合這個手下擁有+2攻擊力</zhTW>
     <zhCN>在本回合中，该随从获得+2攻击力。</zhCN>
     <ruRU>Это существо получило +2 к атаке до конца хода.</ruRU>
     <ptBR>Este lacaio tem +2 de Ataque neste turno.</ptBR>
     <plPL>Ten stronnik ma +2 do ataku w tej turze.</plPL>
     <koKR>이번 턴에 공격력 +2</koKR>
-    <itIT>+2 Attacco in questo turno.</itIT>
+    <itIT>+2 Attacco per questo turno.</itIT>
     <esMX>Este esbirro tiene +2 de Ataque en este turno.</esMX>
     <esES>Este esbirro tiene +2 p. de ataque este turno.</esES>
     <deDE>Dieser Diener hat +2 Angriff in diesem Zug.</deDE>

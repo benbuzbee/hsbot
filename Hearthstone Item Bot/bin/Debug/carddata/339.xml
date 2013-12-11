@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="PRO_001">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_008b">
+  <MasterPower>86973367-f3b2-4554-888d-21faf7cc09fe</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>DEBUG</enUS>
-    <zhTW>除蟲</zhTW>
-    <zhCN>调试</zhCN>
-    <ruRU>ОТЛАДКА</ruRU>
-    <ptBR>DEBUG</ptBR>
-    <plPL>DEBUG</plPL>
-    <koKR>DEBUG</koKR>
-    <itIT>DEBUG</itIT>
-    <frFR>DEBUG</frFR>
-    <esMX>DEBUG</esMX>
-    <esES>DEBUG</esES>
-    <deDE>DEBUG</deDE>
+    <enUS>Ancient Secrets</enUS>
+    <frFR>Secrets anciens</frFR>
+    <zhTW>古老的秘密</zhTW>
+    <zhCN>古老的秘密</zhCN>
+    <ruRU>Древние тайны</ruRU>
+    <ptBR>Segredos Ancestrais</ptBR>
+    <plPL>Pradawne tajemnice</plPL>
+    <koKR>고대의 비밀</koKR>
+    <itIT>Segreti Antichi</itIT>
+    <esMX>Secretos ancestrales</esMX>
+    <esES>Secretos antiguos</esES>
+    <deDE>Uralte Geheimnisse</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Debug text</enUS>
-    <zhTW>除蟲文字</zhTW>
-    <zhCN>调试文本</zhCN>
-    <ruRU>Текст отладчика</ruRU>
-    <ptBR>Debug text</ptBR>
-    <plPL>Debug text</plPL>
-    <koKR>디버그 텍스트</koKR>
-    <itIT>Testo di debug</itIT>
-    <frFR>Texte de débogage</frFR>
-    <esMX>Debug text</esMX>
-    <esES>Debug text</esES>
-    <deDE>Debug text</deDE>
+    <enUS>Restore 5 Health.</enUS>
+    <frFR>Rend 5 points de vie.</frFR>
+    <zhTW>恢復5點生命值</zhTW>
+    <zhCN>恢复5点生命值。</zhCN>
+    <ruRU>Восстанавливает 5 ед. здоровья.</ruRU>
+    <ptBR>Restaure 5 de Vida.</ptBR>
+    <plPL>Przywróć 5 pkt. zdrowia.</plPL>
+    <koKR>생명력을 5 회복시킵니다.</koKR>
+    <itIT>Rigenera 5 Salute.</itIT>
+    <esMX>Restaura 5 de Salud.</esMX>
+    <esES>Restaura 5 p. de salud.</esES>
+    <deDE>Stellt 5 Leben wieder her.</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="86973367-f3b2-4554-888d-21faf7cc09fe">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

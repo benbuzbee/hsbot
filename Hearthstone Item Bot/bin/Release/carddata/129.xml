@@ -1,40 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CRED_07">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_084e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Zwick</enUS>
-    <zhTW>Zwick</zhTW>
-    <zhCN>Zwick</zhCN>
-    <ruRU>Zwick</ruRU>
-    <ptBR>Zwick</ptBR>
-    <plPL>Zwick</plPL>
-    <koKR>즈윅</koKR>
-    <itIT>Zwick</itIT>
-    <frFR>Zwick</frFR>
-    <esMX>Zwick</esMX>
-    <esES>Zwick</esES>
-    <deDE>Zwick</deDE>
+    <enUS>Charge</enUS>
+    <frFR>Charge</frFR>
+    <zhTW>衝鋒</zhTW>
+    <zhCN>冲锋</zhCN>
+    <ruRU>Рывок</ruRU>
+    <ptBR>Investida</ptBR>
+    <plPL>Szarża</plPL>
+    <koKR>돌진</koKR>
+    <itIT>Carica</itIT>
+    <esMX>Carga</esMX>
+    <esES>Cargar</esES>
+    <deDE>Sturmangriff</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Complain about bacon prices.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抱怨培根的價格。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抱怨火腿的价格。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; возмущается ценами на бекон.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Reclama sobre o preço do bacon.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Narzekaj na ceny bekonu.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 베이컨 가격이 너무 비싸다고 불평합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; si lamenta dei prezzi del bacon.</itIT>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; se plaint du prix du bacon.</frFR>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; se queja de lo caro que está el tocino.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Se queja por el precio del bacon.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Beschwert Euch über die Bacon-Preise.</deDE>
+    <enUS>This minion has &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Ce serviteur a &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>這個手下擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Это существо имеет способность «Рывок».</ruRU>
+    <ptBR>Este lacaio ganha &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>Ten stronnik otrzymuje &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt; dal Capitano Cantaguerra.</itIT>
+    <esMX>Este esbirro tiene &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Este esbirro tiene &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Dieser Diener hat &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="a3a776ef-4cd5-41d2-89f7-06c159151961" />
 </Entity>

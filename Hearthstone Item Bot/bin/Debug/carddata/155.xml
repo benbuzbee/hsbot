@@ -1,61 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_355">
-  <MasterPower>e2cd1f16-7678-4a4a-95b2-2193b1aacf1a</MasterPower>
+<Entity version="2" CardID="EX1_066">
+  <MasterPower>83fbbb43-283a-41e1-afc4-c471f4fa1fc8</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Blessed Champion</enUS>
-    <frFR>Bénédiction du champion</frFR>
-    <zhTW>勇者祝福</zhTW>
-    <zhCN>受祝福的勇士</zhCN>
-    <ruRU>Благословение силы</ruRU>
-    <ptBR>Campeão Abençoado</ptBR>
-    <plPL>Błogosławiony czempion</plPL>
-    <koKR>축복받은 용사</koKR>
-    <itIT>Campione Benedetto</itIT>
-    <esMX>Campeón bendito</esMX>
-    <esES>Campeón bendito</esES>
-    <deDE>Gesegneter Champion</deDE>
+    <enUS>Acidic Swamp Ooze</enUS>
+    <frFR>Limon des marais acide</frFR>
+    <zhTW>酸性沼澤軟泥怪</zhTW>
+    <zhCN>酸性沼泽软泥怪</zhCN>
+    <ruRU>Кислотный слизнюк</ruRU>
+    <ptBR>Gosma Ácida do Pântano</ptBR>
+    <plPL>Żrący bagienny szlam</plPL>
+    <koKR>산성 늪수액괴물</koKR>
+    <itIT>Melma delle Paludi</itIT>
+    <esMX>Moco del pantano ácido</esMX>
+    <esES>Moco del pantano ácido</esES>
+    <deDE>Säurehaltiger Schlamm</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit l’arme de votre adversaire.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀你對手的武器</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁你的对手的武器。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает оружие противника.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua a arma do seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz broń przeciwnika.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편의 무기를 파괴합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge l'arma dell'avversario.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye el arma de tu adversario.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye el arma de tu oponente.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zerstört die Waffe Eures Gegners.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Double a minion's Attack.</enUS>
-    <frFR>Double l’Attaque d’un serviteur.</frFR>
-    <zhTW>使一個手下的攻擊力加倍。</zhTW>
-    <zhCN>使一个随从的攻击力翻倍。</zhCN>
-    <ruRU>Удваивает атаку выбранного существа.</ruRU>
-    <ptBR>Dobre o Ataque de um lacaio.</ptBR>
-    <plPL>Podwajasz atak stronnika.</plPL>
-    <koKR>하수인의 공격력을 2배 증가시킵니다.</koKR>
-    <itIT>Raddoppia l'Attacco di un servitore.</itIT>
-    <esMX>Duplica el Ataque de un esbirro.</esMX>
-    <esES>Duplica el ataque de un esbirro.</esES>
-    <deDE>Verdoppelt den Angriff eines Dieners.</deDE>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Chris Rahn</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Oozes love Flamenco.   Don't ask.</enUS>
+    <zhTW>軟泥怪喜歡佛朗明哥舞。不要問為什麼。</zhTW>
+    <zhCN>软泥怪喜欢弗拉曼柯舞。别问为什么。</zhCN>
+    <ruRU>Слизнюки обожают фламенко. Не спрашивайте, почему.</ruRU>
+    <ptBR>Gosmas adoram Flamenco. Nem pergunte.</ptBR>
+    <plPL>Woli, żeby mówić do niego „Glutek”.</plPL>
+    <koKR>늪수액괴물은 플라멩고 모자를 매우 좋아합니다. 이유는 묻지 마십시오.</koKR>
+    <itIT>Le melme amano il flamenco. Non chiederti il perché.</itIT>
+    <frFR>Les limons adorent le flamenco, allez savoir pourquoi...</frFR>
+    <esMX>A los Mocos les gusta el flamenco... Ni preguntes.</esMX>
+    <esES>Hubo un tiempo en que esta ilustración llevaba un sombrero flamenco.</esES>
+    <deDE>Früher trug ein Schlamm, der was auf sich hielt, auch gern mal Fliege.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Rogue Level 57.</enUS>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tyler Walpole</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This card causes double the trouble AND double the fun.</enUS>
-    <zhTW>這張牌會製造加倍的麻煩，還有加倍的樂趣喔!</zhTW>
-    <zhCN>”攻击翻倍，快乐加倍！“</zhCN>
-    <ruRU>Эта карта удваивает все: и радости, и горести.</ruRU>
-    <ptBR>Este card causa o dobro da confusão MAIS o dobro de diversão.</ptBR>
-    <plPL>Podwójny atak to podwójna frajda!</plPL>
-    <koKR>맞는 사람에게는 2배의 고통을! 공격하는 사람에게는 2배의 행복을!</koKR>
-    <itIT>Questa carta raddoppia i problemi E il divertimento.</itIT>
-    <frFR>Cette carte inflige deux fois plus de dégâts ET deux fois plus de joie !</frFR>
-    <esMX>Esta carta duplica el problema y TAMBIÉN la diversión.</esMX>
-    <esES>Esta carta aporta el doble de problemas ¡y el doble de diversión!</esES>
-    <deDE>Diese Karte verursacht den doppelten Ärger UND den doppelten Spaß.</deDE>
-  </Tag>
-  <Power definition="e2cd1f16-7678-4a4a-95b2-2193b1aacf1a">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="83fbbb43-283a-41e1-afc4-c471f4fa1fc8" />
 </Entity>

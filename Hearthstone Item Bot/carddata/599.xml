@@ -1,63 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_594">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_371">
+  <MasterPower>cfb61b8f-4148-4c61-b5a2-89bba5f04bbd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Vaporize</enUS>
-    <frFR>Vaporisation</frFR>
-    <zhTW>氣化</zhTW>
-    <zhCN>蒸发</zhCN>
-    <ruRU>Обращение в пар</ruRU>
-    <ptBR>Vaporizar</ptBR>
-    <plPL>Wyparowanie</plPL>
-    <koKR>증발시키기</koKR>
-    <itIT>Vaporizzazione</itIT>
-    <esMX>Vaporizar</esMX>
-    <esES>Vaporizar</esES>
-    <deDE>Zerstäuben</deDE>
+    <enUS>Hand of Protection</enUS>
+    <frFR>Main de protection</frFR>
+    <zhTW>保護聖禦</zhTW>
+    <zhCN>保护之手</zhCN>
+    <ruRU>Длань защиты</ruRU>
+    <ptBR>Mão da Proteção</ptBR>
+    <plPL>Ręka ochrony</plPL>
+    <koKR>보호의 손길</koKR>
+    <itIT>Imposizione: Protezione</itIT>
+    <esMX>Mano de protección</esMX>
+    <esES>Mano de protección</esES>
+    <deDE>Hand des Schutzes</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When a minion attacks your hero, destroy it.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand un serviteur attaque votre héros, le détruit.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當一個手下攻擊你的英雄時，摧毀它。</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当一个随从攻击你的英雄，将其消灭。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; уничтожает существо, которое атакует вашего героя.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando um lacaio atacar seu herói, destrua-o.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Zniszcz stronnika, który zaatakuje twojego bohatera.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 하수인이 내 영웅을 공격하면, 그 하수인을 처치합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando un servitore attacca il tuo eroe, viene distrutto.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando un esbirro ataque a tu héroe, destrúyelo.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando un esbirro va a atacar a tu héroe, es destruido.</esES>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn ein Diener Euren Helden angreift, wird er vernichtet.</deDE>
+    <enUS>Give a minion &lt;b&gt;Divine Shield&lt;/b&gt;.</enUS>
+    <frFR>Confère &lt;b&gt;Bouclier divin&lt;/b&gt; à un serviteur.</frFR>
+    <zhTW>賦予一個手下&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
+    <zhCN>使一个随从获得&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
+    <ruRU>Выбранное существо получает способность &lt;b&gt;«Божественный щит»&lt;/b&gt;.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Escudo Divino&lt;/b&gt; a um lacaio.</ptBR>
+    <plPL>Daj stronnikowi &lt;b&gt;Boską tarczę&lt;/b&gt;.</plPL>
+    <koKR>하수인 하나에게 &lt;b&gt;천상의 보호막&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Scudo Divino&lt;/b&gt; a un servitore.</itIT>
+    <esMX>Otorga &lt;b&gt;Escudo divino&lt;/b&gt; a un esbirro.</esMX>
+    <esES>Otorga &lt;b&gt;Escudo divino&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Verleiht einem Diener &lt;b&gt;Gottesschild&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Rumor has it that Deathwing brought about the Cataclysm after losing a game to this card.  We may never know the truth.</enUS>
-    <zhTW>謠言說，大災變的起因是因為死亡之翼的對手打了這張牌，導致他輸了一場。我們已經無從得知真相。</zhTW>
-    <zhCN>是不是因为死亡之翼的对手使用这张牌击败了他，所以他一怒之下引发了大灾变？我们不得而知。</zhCN>
-    <ruRU>Был ли Катаклизм результатом того, что Смертокрыл проиграл партию, когда противник использовал эту карту? Мы никогда не узнаем.</ruRU>
-    <ptBR>Ouvi dizer que Asa da Morte causou o Cataclismo depois de perder um jogo para esse card. Nunca saberemos ao certo.</ptBR>
-    <plPL>Czy Śmiercioskrzydły spowodował Kataklizm, bo kiedyś przegrał przez tę kartę? Możemy nigdy się tego nie dowiedzieć.</plPL>
-    <koKR>데스윙이 이 카드 때문에 열 받아 대격변을 일으켰다는 말이 있습니다. 믿거나 말거나.</koKR>
-    <itIT>Si dice che Il Cataclisma venne originato da Alamorte quando perse contro un avversario che giocò questa carta.</itIT>
-    <frFR>Il paraît qu’Aile de mort aurait perdu une partie en jouant cette carte, ce qui aurait provoqué un cataclysme... Mais toutes les preuves sont parties en fumée.</frFR>
-    <esMX>Se rumorea que Alamuerte ocasionó el Cataclismo después de perder una partida por esta carta. Quizá nunca sepamos la verdad.</esMX>
-    <esES>Cuentan por ahí que Alamuerte provocó el Cataclismo tras perder una partida por culpa de esta carta. Nunca lo sabremos.</esES>
-    <deDE>Gerüchten zufolge brachte Todesschwinge den Kataklysmus über Azeroth, nachdem er wegen dieser Karte ein Spiel verloren hatte. Die Wahrheit werden wir wohl nie erfahren ...</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Clint Langley</enUS>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="ff3df7cc-c8e6-4978-9379-46040f393060" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 23.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>This spell has been renamed so many times, even paladins don’t know what it should be called anymore.</enUS>
+    <zhTW>這個法術的名字改了好幾次，改到連聖騎士都不知道現在該怎麼稱呼它了。</zhTW>
+    <zhCN>这个法术的名字已经被修改了太多次，导致连圣骑士们都不知道它应该叫什么了。</zhCN>
+    <ruRU>Это заклинание переименовывали столько раз, что даже паладины не пытаются запомнить его текущее название.</ruRU>
+    <ptBR>Este feitiço foi renomeado tantas vezes, que nem mesmo os paladinos sabem como deve ser chamado.</ptBR>
+    <plPL>To zaklęcie zmieniało nazwę tyle razy, że nawet paladyni już nie wiedzą, jaka jest ostateczna wersja.</plPL>
+    <koKR>이 주문은 이름이 하도 많이 바뀌어서, 성기사들도 이걸 뭐라고 불러야 하는지 잘 모를 때가 많습니다.</koKR>
+    <itIT>Questa magia è stata rinominata talmente tante volte che nemmeno i Paladini sanno come si chiama veramente.</itIT>
+    <frFR>Ce sort a été renommé si souvent que même les paladins ne savent plus comment il s’appelle.</frFR>
+    <esMX>Este hechizo ha tenido tantos nombres que ni siquiera los Paladines saben cómo debería llamarse.</esMX>
+    <esES>Este hechizo ha cambiado de nombre tantas veces que ya ni los paladines saben cómo llamarlo.</esES>
+    <deDE>Dieser Zauber wurde so oft umbenannt, dass sogar unter Paladinen keine Einigkeit über seinen richtigen Namen herrscht.</deDE>
+  </Tag>
+  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
+  <Power definition="cfb61b8f-4148-4c61-b5a2-89bba5f04bbd">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

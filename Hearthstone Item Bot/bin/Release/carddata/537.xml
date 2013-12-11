@@ -1,62 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_027">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="CS2_102">
+  <MasterPower>99f9e182-b386-40b7-93f2-a56a1d3d85b3</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Southsea Captain</enUS>
-    <zhTW>南海船長</zhTW>
-    <zhCN>南海船长</zhCN>
-    <ruRU>Капитан Южных морей</ruRU>
-    <ptBR>Capitão dos Mares do Sul</ptBR>
-    <plPL>Kapitan Południowych Mórz</plPL>
-    <koKR>남쪽바다 선장</koKR>
-    <itIT>Capitano dei Mari del Sud</itIT>
-    <frFR>Capitaine des mers du Sud</frFR>
-    <esMX>Capitán de los Mares del sur</esMX>
-    <esES>Capitán de Mares del Sur</esES>
-    <deDE>Südmeerkapitän</deDE>
+    <enUS>Armor Up!</enUS>
+    <frFR>Gain d’armure !</frFR>
+    <zhTW>護甲提升!</zhTW>
+    <zhCN>全副武装！</zhCN>
+    <ruRU>Поднять щит!</ruRU>
+    <ptBR>Aumentar Armadura!</ptBR>
+    <plPL>Pancerz!</plPL>
+    <koKR>방어도 증가!</koKR>
+    <itIT>Potenziamento Armatura</itIT>
+    <esMX>¡Más Armadura!</esMX>
+    <esES>Blindaje</esES>
+    <deDE>Aufrüsten!</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other Pirates have +1/+1.</enUS>
-    <zhTW>你的其他海盜獲得+1/+1。</zhTW>
-    <zhCN>你的其他海盗获得+1/+1。</zhCN>
-    <ruRU>Другие ваши пираты получают +1/+1.</ruRU>
-    <ptBR>Seus outros Piratas têm +1/+1.</ptBR>
-    <plPL>Twoi pozostali Piraci otrzymują +1/+1.</plPL>
-    <koKR>나의 다른 해적들이 +1/+1을 얻습니다.</koKR>
-    <itIT>I tuoi altri Pirati hanno +1/+1.</itIT>
-    <frFR>Vos autres pirates ont +1/+1.</frFR>
-    <esMX>Tus otros Piratas tienen +1/+1.</esMX>
-    <esES>Tus otros piratas tienen +1/+1.</esES>
-    <deDE>Eure anderen Piraten haben +1/+1.</deDE>
+    <enUS>&lt;b&gt;Hero Power&lt;/b&gt; \n Gain 2 Armor.</enUS>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \nConfère 2 points d’armure.</frFR>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n獲得2點護甲值</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n获得2点护甲值。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt; \n +2 к броне.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt; \n Receba 2 de Armadura.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n Otrzymujesz 2 pkt. pancerza.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt; \n 방어도를 +2 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nOttieni 2 Armatura.</itIT>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Obtienes 2 de Armadura.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt; \n Obtiene 2 p. de armadura.</esES>
+    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n Erhaltet 2 Rüstung.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ken Steacy</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>When he saves enough plunder, he's going to comission an enormous captain's hat.  He has hat envy.</enUS>
-    <zhTW>等他存夠錢，他會去訂做一頂超巨大的船長帽。他有很嚴重的帽子情結。</zhTW>
-    <zhCN>当他掠夺到足够的财宝之后，他一定要去订做一顶帅气的船长帽子。他是帽子控。</zhCN>
-    <ruRU>Когда-нибудь он награбит достаточно и закажет себе огромную капитанскую шляпу. Он к ним неравнодушен.</ruRU>
-    <ptBR>Quando ele já tiver pilhado o suficiente, ele vai mandar fazer um chapéu de capitão enorme. Rola uma certa invejinha de chapéus aí.</ptBR>
-    <plPL>Kiedy zbierze dość łupów, zamówi sobie olbrzymi kapitański kapelusz. Ma kompleks kapelusznika.</plPL>
-    <koKR>그의 꿈은 해적 왕... 아니 어마어마하게 큰 해적 모자를 사는 겁니다. 좀 모자에 많이 집착하는 친구거든요.</koKR>
-    <itIT>Quando avrà accumulato abbastanza bottino, ha intenzione di commissionare un enorme cappello da capitano. Ha la mania dei cappelli.</itIT>
-    <frFR>Il espère pouvoir amasser un butin suffisant pour monter une auberge avec toutes les recettes qu’il a « trouvées ». Pirate !</frFR>
-    <esMX>Cuando ahorre suficiente botín, encargará un sombrero de capitán gigante. Siente envidia por el sombrero.</esMX>
-    <esES>Cuando ahorre suficiente botín, tiene pensado comprarse un sombrero enorme. Le encantan los sombreros.</esES>
-    <deDE>Sobald er genug Beute gemacht hat, wird er sich einen gewaltigen Kapitänshut anfertigen lassen. Er leidet an Hutneid.</deDE>
-  </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="9d08f47b-bb86-4d84-9598-0ace84279ebb" />
+  <Power definition="99f9e182-b386-40b7-93f2-a56a1d3d85b3" />
 </Entity>

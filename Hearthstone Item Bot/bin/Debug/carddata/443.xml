@@ -1,66 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_173">
-  <MasterPower>02786f36-b628-4962-b554-e9bcced94a91</MasterPower>
+<Entity version="2" CardID="CS1_069">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Starfire</enUS>
-    <frFR>Feu stellaire</frFR>
-    <zhTW>星火術</zhTW>
-    <zhCN>星火术</zhCN>
-    <ruRU>Звездный огонь</ruRU>
-    <ptBR>Fogo Estelar</ptBR>
-    <plPL>Gwiezdny ogień</plPL>
-    <koKR>별빛 섬광</koKR>
-    <itIT>Fuoco Stellare</itIT>
-    <esMX>Fuego estelar</esMX>
-    <esES>Fuego estelar</esES>
-    <deDE>Sternenfeuer</deDE>
+    <enUS>Fen Creeper</enUS>
+    <frFR>Rampant des tourbières</frFR>
+    <zhTW>沼地蠕行者</zhTW>
+    <zhCN>沼泽爬行者</zhCN>
+    <ruRU>Трясинный ползун</ruRU>
+    <ptBR>Rastejante do Pântano</ptBR>
+    <plPL>Stwór z moczarów</plPL>
+    <koKR>수렁이끼괴물</koKR>
+    <itIT>Aberrazione delle Paludi</itIT>
+    <esMX>Trepador del pantano</esMX>
+    <esES>Trepador del pantano</esES>
+    <deDE>Moorkrabbler</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $5 damage.  Draw a card.</enUS>
-    <frFR>Inflige $5 |4(point,points) de dégâts. Vous piochez une carte.</frFR>
-    <zhTW>造成$5點傷害。抽一張牌。</zhTW>
-    <zhCN>造成$5点伤害，抽1张牌。</zhCN>
-    <ruRU>Наносит $5 ед. урона. Вы берете карту.</ruRU>
-    <ptBR>Cause $5 de dano. Compre um card.</ptBR>
-    <plPL>Zadaj $5 pkt. obrażeń. Dobierz kartę.</plPL>
-    <koKR>피해를 $5 줍니다. 카드를 1장 뽑습니다.</koKR>
-    <itIT>Infligge $5 danni. Pesca una carta.</itIT>
-    <esMX>Inflige $5 de daño. Roba una carta.</esMX>
-    <esES>Inflige $5 p. de daño. Roba una carta.</esES>
-    <deDE>Verursacht $5 Schaden. Zieht eine Karte.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Monica Langlois</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Balance is important to druids.  This card is perfectly balanced.</enUS>
-    <zhTW>平衡對德魯伊來說非常重要。這是一張完美平衡的卡片。</zhTW>
-    <zhCN>平衡对德鲁伊来说很重要。这张卡就展现了完美的平衡。</zhCN>
-    <ruRU>Для друидов очень важен баланс. Эта карта идеально сбалансирована.</ruRU>
-    <ptBR>Equilíbrio é importante para os druidas. Este card é perfeitamente equilibrado.</ptBR>
-    <plPL>Balans jest bardzo ważny dla druidów. Ta karta jest idealnie zbalansowana.</plPL>
-    <koKR>단언컨대 별빛 섬광은 가장 조화로운 드루이드 카드입니다.</koKR>
-    <itIT>L'equilibrio è importante per i Druidi. Questa carta infatti è perfettamente equilibrata.</itIT>
-    <frFR>L’équilibre est extrêmement important pour les druides. Et cette carte est parfaitement équilibrée.</frFR>
-    <esMX>Para los druidas, el equilibrio es muy importante. Esta carta está en perfecto equilibrio.</esMX>
-    <esES>Con esta carta tu druida será la estrella... de fuego. ¿O era al revés?</esES>
-    <deDE>Das Gleichgewicht liegt Druiden sehr am Herzen. Deshalb hat diese Karte das gleiche Gewicht wie alle anderen Karten.</deDE>
+    <enUS>He used to be called Bog Beast, but it confused people because he wasn't an actual beast.   Boom, New Name!</enUS>
+    <zhTW>原本牠叫沼澤獸，但是那會害人搞混，因為牠並不算野獸。結果呢，嘿，牠就有了新名字!</zhTW>
+    <zhCN>它以前被称作沼泽兽，但这个名字会让人迷惑，因为它根本不是野兽。</zhCN>
+    <ruRU>Когда-то его звали «Трясинным зверем», но это название смущало игроков, потому что какой из него зверь, в конце концов.</ruRU>
+    <ptBR>Ele costumava ser chamado de Fera do Brejo, mas isso confundia as pessoas, porque não era uma fera de verdade. Bum! Novo nome!</ptBR>
+    <plPL>Dawniej zwano go Jozinem z Bazin, ale weszła ustawa o ochronie danych osobowych.</plPL>
+    <koKR>원래 이름은 수렁야수였지만, 실제로는 야수가 아니라서 헷갈려하는 분들이 많았습니다. 그래서 더 예쁜 이름을 붙여줬죠.</koKR>
+    <itIT>Era stato chiamato Bestia della Palude, ma confondeva i giocatori perché effettivamente non è una bestia. TAAAC, nome nuovo!</itIT>
+    <frFR>Autrefois, on l’appelait la créature du marais, mais on le confondait trop souvent avec l’&lt;i&gt;autre&lt;/i&gt;... Alors il a changé de nom !</frFR>
+    <esMX>Solían llamarlo "bestia de la ciénaga", pero era medio confuso porque, en realidad, no era un bestia. Así que, ¡pum!, tiene un nuevo nombre.</esMX>
+    <esES>Antes se llamaba bestia del pantano, pero la gente se confundía porque no era una bestia. Problema resuelto.</esES>
+    <deDE>Früher wurde er immer „Das Ding aus dem Sumpf“ genannt, aber sein neuer Name gefällt ihm auch nicht wirklich besser.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 2.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 40.</enUS>
-  </Tag>
-  <Power definition="02786f36-b628-4962-b554-e9bcced94a91">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="ae5103a4-cd6c-47ec-90b4-88e787de66db" />
 </Entity>

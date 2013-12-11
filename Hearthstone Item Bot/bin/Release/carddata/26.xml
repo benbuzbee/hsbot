@@ -24,12 +24,12 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a Murloc and gain +2/+2.</enUS>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit un murloc et gagne +2/+2.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個魚人並獲得+2/+2。</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個魚人並獲得+2/+2</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个鱼人，并获得+2/+2。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает выбранного мурлока и получает +2/+2.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um murloc e receba +2/+2.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz murloka, a dostanie +2/+2.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 멀록을 처치하고 +2/+2를 얻습니다.</koKR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz murloka, a krab dostanie +2/+2.  </plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 멀록 1마리를 처치하고 +2/+2를 얻습니다.</koKR>
     <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il Granchio Affamato distrugge un Murloc e ottiene +2/+2.</itIT>
     <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye un múrloc y obtiene +2/+2.</esMX>
     <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a un múrloc y obtiene +2/+2.</esES>

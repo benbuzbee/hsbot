@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_finkle">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="TU4e_004">
+  <MasterPower>e62b99b5-f7df-47e6-8439-3da3289f6f6f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Finkle Einhorn</enUS>
-    <frFR>Finkle Einhorn</frFR>
-    <zhTW>芬克·恩霍爾</zhTW>
-    <zhCN>芬克·恩霍尔</zhCN>
-    <ruRU>Айс Вентурон</ruRU>
-    <ptBR>Jonas Tiragosto</ptBR>
-    <plPL>Finkosz Rogoźnik</plPL>
-    <koKR>핑클 아인혼</koKR>
-    <itIT>Finkle Cascorotto</itIT>
-    <esMX>Finkle Einhorn</esMX>
-    <esES>Finkle Einhorn</esES>
-    <deDE>Finkle Einhorn</deDE>
+    <enUS>Warglaive of Azzinoth</enUS>
+    <frFR>Glaive de guerre d’Azzinoth</frFR>
+    <zhTW>埃辛諾斯戰刃</zhTW>
+    <zhCN>埃辛诺斯战刃</zhCN>
+    <ruRU>Клинок Аззинота</ruRU>
+    <ptBR>Glaive de Guerra de Azzinoth</ptBR>
+    <plPL>Bojowa glewia Azzinotha</plPL>
+    <koKR>아지노스의 쌍날검</koKR>
+    <itIT>Lame da Guerra di Azzinoth</itIT>
+    <esMX>Guja de guerra de Azzinoth</esMX>
+    <esES>Guja de guerra de Azzinoth</esES>
+    <deDE>Kriegsgleve von Azzinoth</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Durability" enumID="187" type="Number" value="2" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="e62b99b5-f7df-47e6-8439-3da3289f6f6f" />
 </Entity>

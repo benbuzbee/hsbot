@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_295o">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Ice Block</enUS>
     <frFR>Bloc de glace</frFR>
@@ -22,13 +20,13 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Your hero is &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
     <frFR>Votre héros est &lt;b&gt;Insensible&lt;/b&gt; pour ce tour.</frFR>
-    <zhTW>你的英雄在本回合內&lt;b&gt;免疫&lt;/b&gt;。</zhTW>
+    <zhTW>你的英雄在本回合內&lt;b&gt;免疫&lt;/b&gt;</zhTW>
     <zhCN>在本回合中，你的英雄获得&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
     <ruRU>Ваш герой &lt;b&gt;неуязвим&lt;/b&gt; до конца хода.</ruRU>
     <ptBR>Seu herói fica &lt;b&gt;Imune&lt;/b&gt; até o final do turno.</ptBR>
     <plPL>Twój bohater ma w tej turze &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
     <koKR>이번 턴에 &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
-    <itIT>Il tuo eroe è &lt;b&gt;Immune&lt;/b&gt; in questo turno.</itIT>
+    <itIT>Il tuo eroe è &lt;b&gt;Immune&lt;/b&gt; per questo turno.</itIT>
     <esMX>Tu héroe es &lt;b&gt;Inmune&lt;/b&gt; en este turno.</esMX>
     <esES>Tu héroe es &lt;b&gt;inmune&lt;/b&gt; este turno.</esES>
     <deDE>Euer Held ist &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>

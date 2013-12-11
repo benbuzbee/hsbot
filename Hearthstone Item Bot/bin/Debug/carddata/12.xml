@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CS2_231">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Wisp</enUS>
     <frFR>Feu follet</frFR>
@@ -35,7 +33,7 @@
     <ruRU>Если запустить достаточное количество огоньков в эредарского повелителя, тот взорвется. Но почему?</ruRU>
     <ptBR>Se você atingir um Lorde Eredar com Fogos-fátuos suficientes, ele explode. Mas por quê?</ptBR>
     <plPL>Gdzie ogników kupa, tam i eredar du... znaczy się łatwo nie ma.</plPL>
-    <koKR>충분한 수가 뭉쳐서 에레다르 군주를 때리면 폭발합니다. 도대체 왜?</koKR>
+    <koKR>충분한 수가 뭉쳐서 에레다르 군주를 공격하면 폭발합니다. 도대체 왜?</koKR>
     <itIT>Se colpisci un Signore Eredar con il giusto numero di Fuochi Fatui, esploderà. Ma perché?</itIT>
     <frFR>Si on en rassemble un nombre suffisant, on peut faire exploser un seigneur érédar. Mais comment c’est possible ?</frFR>
     <esMX>Si golpeas a un señor Eredar con suficiente Fuego fatuo, explota... Pero, ¿por qué?</esMX>

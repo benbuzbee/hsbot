@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_073">
-  <MasterPower>0d0e66ed-59ef-4471-b113-4630e520dc2b</MasterPower>
+<Entity version="2" CardID="EX1_596">
+  <MasterPower>1da2233d-656d-4fb4-b78b-3b1c8d538eaa</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Cold Blood</enUS>
-    <frFR>Sang froid</frFR>
-    <zhTW>冷血</zhTW>
-    <zhCN>冷血</zhCN>
-    <ruRU>Хладнокровие</ruRU>
-    <ptBR>Sangue Frio</ptBR>
-    <plPL>Zimna krew</plPL>
-    <koKR>냉혈</koKR>
-    <itIT>Sangue Freddo</itIT>
-    <esMX>Sangre fría</esMX>
-    <esES>Sangre fría</esES>
-    <deDE>Kaltblütigkeit</deDE>
+    <enUS>Demonfire</enUS>
+    <frFR>Feu démoniaque</frFR>
+    <zhTW>惡魔火焰</zhTW>
+    <zhCN>恶魔之火</zhCN>
+    <ruRU>Демонический огонь</ruRU>
+    <ptBR>Fogo Demoníaco</ptBR>
+    <plPL>Demoniczny ogień</plPL>
+    <koKR>악마의 불꽃</koKR>
+    <itIT>Fuoco Demoniaco</itIT>
+    <esMX>Fuego demoníaco</esMX>
+    <esES>Fuego demoníaco</esES>
+    <deDE>Dämonenfeuer</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a minion +2 Attack. &lt;b&gt;Combo:&lt;/b&gt; +4 Attack instead.</enUS>
-    <frFR>Confère +2 ATQ à un serviteur. &lt;b&gt;Combo :&lt;/b&gt; +4 ATQ à la place.</frFR>
-    <zhTW>賦予一個手下+2攻擊力。&lt;b&gt;連擊:&lt;/b&gt;改為+4攻擊力。</zhTW>
-    <zhCN>使一个随从获得+2攻击力；&lt;b&gt;连击：&lt;/b&gt;改为获得+4攻击力。</zhCN>
-    <ruRU>Выбранное существо получает +2 к атаке. &lt;b&gt;Серия приемов:&lt;/b&gt; вместо этого существо получает +4 к атаке.</ruRU>
-    <ptBR>Conceda +2 de Ataque a um lacaio. &lt;b&gt;Combo:&lt;/b&gt; +4 de Ataque em vez de +2.</ptBR>
-    <plPL>Daj stronnikowi +2 do ataku. &lt;b&gt;Kombinacja:&lt;/b&gt; Zamiast tego daj +4 do ataku.</plPL>
-    <koKR>하수인에게 공격력을 +2 부여합니다. &lt;b&gt;연계:&lt;/b&gt; 공격력을 +4 부여합니다.</koKR>
-    <itIT>Fornisce +2 Attacco a un servitore. &lt;b&gt;Combo:&lt;/b&gt; fornisce +4 Attacco.</itIT>
-    <esMX>Otorga +2 de Ataque a un esbirro. &lt;b&gt;Combo:&lt;/b&gt; +4 de Ataque.</esMX>
-    <esES>Otorga a un esbirro +2 p. de ataque. &lt;b&gt;Combo:&lt;/b&gt; +4 p. de ataque.</esES>
-    <deDE>Verleiht einem Diener +2 Angriff. &lt;b&gt;Combo:&lt;/b&gt; Stattdessen +4 Angriff.</deDE>
+    <enUS>Deal $2 damage to a minion.   If it’s a friendly Demon, give it +2/+2 instead.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts à un serviteur. Si la cible est un de vos démons, lui donne +2/+2 à la place.</frFR>
+    <zhTW>對一個手下造成$2點傷害。若目標是友方惡魔，賦予它+2/+2</zhTW>
+    <zhCN>对一个随从造成$2点伤害，如果该随从是友方恶魔，则改为使其获得+2/+2。</zhCN>
+    <ruRU>Наносит $2 ед. урона выбранному существу. Если выбран ваш демон, вместо этого он получает +2/+2.</ruRU>
+    <ptBR>Cause $2 de dano a um lacaio. Se for um Demônio aliado, em vez disso, conceda-lhe +2/+2.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń stronnikowi. Jeśli cel jest przyjaznym demonem, daj mu zamiast tego +2/+2.</plPL>
+    <koKR>하수인 하나에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다.</koKR>
+    <itIT>Infligge $2 danni a un servitore. Se invece il bersaglio è un tuo Demone, gli fornisce +2/+2.</itIT>
+    <esMX>Inflige $2 de daño a un esbirro. Si es un Demonio aliado, entonces le otorga +2/+2.</esMX>
+    <esES>Inflige $2 p. de daño a un esbirro. Si el objetivo es un demonio amistoso, en lugar de dañarlo le otorga +2/+2.</esES>
+    <deDE>Fügt einem Diener $2 Schaden zu. Wenn das Ziel ein verbündeter Dämon ist, erhält er stattdessen +2/+2.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Ben Wootten</enUS>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"I'm cold blooded, check it and see!"</enUS>
-    <zhTW>「我是冷血動物，你摸摸看!」</zhTW>
-    <zhCN>静如冰封，动如激瀑。</zhCN>
-    <ruRU>«Посмотри, насколько я хладнокровен!»</ruRU>
-    <ptBR>"Meu sangue é frio, vem ver!"</ptBR>
-    <plPL>Zachowuję zimną krew w każdej sytuacji!</plPL>
-    <koKR>나는 차가운 도적 남자.</koKR>
-    <itIT>"Ho il sangue freddo, io. Dai, prova. Senti."</itIT>
-    <frFR>Antisocial, tu perds ton sang-froid !</frFR>
-    <esMX>"Mi sangre es más fría que el acero de mis espadas".</esMX>
-    <esES>"Si la tuviera más fría sangraría cubitos".</esES>
-    <deDE>„Ich bin kaltblütig. Hier, fühlt selbst!“</deDE>
+    <enUS>Demonfire is like regular fire except for IT NEVER STOPS BURNING HELLLPPP</enUS>
+    <zhTW>惡魔火焰跟一般的火一樣，除了它根本拍不熄救命啊啊啊啊!!!</zhTW>
+    <zhCN>恶魔之火和普通火焰没什么区别，除了它从来不会熄灭...救命！</zhCN>
+    <ruRU>Демонический огонь – это тот же огонь, только ОН НИКОГДА НЕ ГАСНЕТ. А-А, ГОРЮ-Ю!</ruRU>
+    <ptBR>Fogo Demoníaco é como fogo comum, só que NUNCA PARA DE QUEIMAR, SOCORROOOO!!!</ptBR>
+    <plPL>Demoniczny ogień przypomina zwykły, z tym, że NIE MOŻNA GO UGASIĆ! POMOOOOOCYYYYY!</plPL>
+    <koKR>악마의 불꽃은 절대 꺼지지 않는다는 점만 빼면 일반 불꽃과 똑같습니다. 그러니까 이 불 좀 꺼주세요!!!!!!!</koKR>
+    <itIT>Il Fuoco Demoniaco è come quello normale, tranne che NON SMETTE PIÙ DI BRUCIAREEEEEE!</itIT>
+    <frFR>Le feu démoniaque est comme un feu normal sauf qu’IL NE S’ARRÊTE JAMAIS DE BRÛLER AU SECOURS !</frFR>
+    <esMX>El fuego demoníaco no es muy diferente del fuego normal, con la excepción de que NUNCA DEJA DE QUEMAR. ¡SOCORROOO!</esMX>
+    <esES>El Fuego demoníaco es como cualquier otro fuego, ¡salvo que NUNCA DEJA DE ARDER! ¡AYUDA!</esES>
+    <deDE>Dämonenfeuer ist eigentlich ganz normales Feuer, aber ES HÖRT NICHT AUF ZU BRENNEN! HILFEEEEEE!!!</deDE>
   </Tag>
-  <Tag name="Combo" enumID="220" type="Bool" value="1" />
-  <Power definition="0d0e66ed-59ef-4471-b113-4630e520dc2b">
+  <Power definition="1da2233d-656d-4fb4-b78b-3b1c8d538eaa">
     <PlayRequirement reqID="11" param="" />
     <PlayRequirement reqID="1" param="" />
   </Power>

@@ -1,63 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_103">
-  <MasterPower>ed1b6657-9a0f-4737-ad76-4cd4e95835fe</MasterPower>
+<Entity version="2" CardID="DREAM_05e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Coldlight Seer</enUS>
-    <frFR>Voyant froide-lumière</frFR>
-    <zhTW>冷光先知</zhTW>
-    <zhCN>寒光先知</zhCN>
-    <ruRU>Вайш'ирский провидец</ruRU>
-    <ptBR>Vidente da Luz Fria</ptBR>
-    <plPL>Prorok Światłociemnych</plPL>
-    <koKR>시린빛 예언자</koKR>
-    <itIT>Veggente Lucefredda</itIT>
-    <esMX>Vidente Luz fría</esMX>
-    <esES>Vidente Luz Fría</esES>
-    <deDE>Tiefenlichtseher</deDE>
+    <enUS>Nightmare</enUS>
+    <frFR>Cauchemar</frFR>
+    <zhTW>夢魘</zhTW>
+    <zhCN>噩梦</zhCN>
+    <ruRU>Кошмар</ruRU>
+    <ptBR>Pesadelo</ptBR>
+    <plPL>Koszmar</plPL>
+    <koKR>악몽</koKR>
+    <itIT>Incubo</itIT>
+    <esMX>Pesadilla</esMX>
+    <esES>Pesadilla</esES>
+    <deDE>Alptraum</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 PV à TOUS les autres murlocs.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予全部其他魚人+2生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使所有其他鱼人获得+2生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все прочие мурлоки получают +2 к здоровью.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Vida a TODOS os outros Murlocs.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj wszystkim pozostałym murlokom +2 do zdrowia.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 &lt;b&gt;모든&lt;/b&gt; 멀록에게 생명력을 +2 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Salute a TUTTI gli altri Murloc.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Salud a TODOS los otros múrlocs.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de salud a todos los demás múrlocs.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht ALLEN anderen Murlocs +2 Leben.</deDE>
+    <enUS>This minion has +5/+5, but will be destroyed soon.</enUS>
+    <frFR>Ce serviteur a +5/+5, mais il sera bientôt détruit.</frFR>
+    <zhTW>這個手下擁有+5/+5，但很快就會被摧毀</zhTW>
+    <zhCN>该随从获得+5/+5，但它马上会被消灭。</zhCN>
+    <ruRU>Это существо получило +5/+5, но скоро будет уничтожено.</ruRU>
+    <ptBR>Este lacaio tem com +5/+5, mas será destruído em breve.</ptBR>
+    <plPL>Ten stronnik ma +5/+5, ale wkrótce zostanie zniszczony.</plPL>
+    <koKR>+5/+5, 하지만 곧 죽음</koKR>
+    <itIT>+5/+5, però verrà presto distrutto.</itIT>
+    <esMX>Este esbirro tiene +5/+5, pero pronto será destruido.</esMX>
+    <esES>Este esbirro tiene +5/+5, pero se destruirá pronto.</esES>
+    <deDE>Dieser Diener hat +5/+5, aber er wird bald vernichtet.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Arthur Gimaldinov</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.</enUS>
-    <zhTW>冷光魚人住在地獄深淵最黑暗的洞穴中。所以，想要逃離魚人沒那麼簡單。</zhTW>
-    <zhCN>寒光鱼人终年居住于无底海源最黑暗的洞穴之中。所以，是的，你到哪儿都别想摆脱鱼人。</zhCN>
-    <ruRU>Вайш'ирские мурлоки обитают в самых глубоких расщелинах Бездонных глубин. Это доказывает, что от мурлоков нигде нельзя спрятаться.</ruRU>
-    <ptBR>Os murlocs da Luz Fria residem nos abismos mais escuros das Profundezas Abissais. Então não. Não há mesmo como escapar dos murlocs.</ptBR>
-    <plPL>Choć mieszka w głębinach, nie powala głębią intelektu.</plPL>
-    <koKR>시린빛 멀록들은 심연의 나락 가장 깊은 곳에 삽니다. 즉, 이들을 봤다는 것은 도망칠 곳도 없다는 뜻이죠.</koKR>
-    <itIT>I Murloc Lucefredda risiedono nelle più buie gallerie delle Profondità Abissali. Quindi no, non c'è modo di nascondersi dai Murloc.</itIT>
-    <frFR>Les murlocs froide-lumière vivent dans les fosses les plus sombres des profondeurs Abyssales. Donc oui, il y en a vraiment partout !</frFR>
-    <esMX>Los múrloc Luz fría viven en las fosas más oscuras de las Profundidades Abisales. Grábate la idea: no se puede escapar de los múrlocs.</esMX>
-    <esES>Los múrlocs Luz Fría viven en las simas más oscuras de las Profundidades Abisales. Sí, hay múrlocs en todas partes.</esES>
-    <deDE>Die Tiefenlichtmurlocs leben selbst in den dunkelsten Löchern der Abyssischen Tiefen. Es gibt also wirklich keinen Ort, an dem man vor Murlocs sicher ist.</deDE>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="ed1b6657-9a0f-4737-ad76-4cd4e95835fe" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
+  <Power definition="67714524-7343-414f-8398-c6520ade3c4b" />
+  <Power definition="bb91025b-d3d4-4c58-8e33-2fdccb70e42e" />
+  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
 </Entity>

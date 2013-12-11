@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="CS2_179">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Sen'jin Shieldmasta</enUS>
     <frFR>Maître-bouclier de Sen’jin</frFR>
@@ -44,7 +42,7 @@
     <enUS>Brian Despain</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Rogue and Warrior Level 59.</enUS>
+    <enUS>Unlocked at Rogue Level 59.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
     <enUS>Sen'jin Villiage is nice, if you like trolls and dust.</enUS>
@@ -54,7 +52,7 @@
     <ptBR>A Aldeia Sen'jin é muito legal. Se você gosta de trolls e poeira.</ptBR>
     <plPL>Wioska Sen'jin jest bardzo sympatyczna. O ile lubisz kurz i trolle.</plPL>
     <koKR>센진 마을은 쾌적합니다. 트롤과 먼지만 감당할 수 있으면요.</koKR>
-    <itIT>Il Villaggio di Sen'jin è bello... se ti piacciono i Troll e la polvere.</itIT>
+    <itIT>Nel dubbio... Taz'dingo!\n- Luca Z.</itIT>
     <frFR>Sen’jin est un chouette village, si vous aimez les trolls et vous vautrer dans la poussière.</frFR>
     <esMX>El Poblado Sen'jin es un lindo lugar, siempre que te gusten los trols y el polvo.</esMX>
     <esES>El Poblado Sen'jin es un éxito entre los fans de los trols y el polvo.</esES>

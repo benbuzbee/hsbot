@@ -1,60 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_105">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_019">
+  <MasterPower>a888e345-781f-46bd-a094-870b3680be7d</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mountain Giant</enUS>
-    <frFR>Géant des montagnes</frFR>
-    <zhTW>山嶺巨人</zhTW>
-    <zhCN>山岭巨人</zhCN>
-    <ruRU>Горный великан</ruRU>
-    <ptBR>Gigante da Montanha</ptBR>
-    <plPL>Górski olbrzym</plPL>
-    <koKR>산악거인</koKR>
-    <itIT>Gigante di Montagna</itIT>
-    <esMX>Gigante montés</esMX>
-    <esES>Gigante montés</esES>
-    <deDE>Bergriese</deDE>
+    <enUS>Shattered Sun Cleric</enUS>
+    <zhTW>破碎之日教士</zhTW>
+    <zhCN>破碎残阳祭司</zhCN>
+    <ruRU>Священник син'дорай</ruRU>
+    <ptBR>Clériga do Sol Partido</ptBR>
+    <plPL>Kapłanka Straceńczego Słońca</plPL>
+    <koKR>무너진 태양 성직자</koKR>
+    <itIT>Chierica del Sole Infranto</itIT>
+    <frFR>Clerc du Soleil brisé</frFR>
+    <esMX>Clériga Sol devastado</esMX>
+    <esES>Clériga Sol Devastado</esES>
+    <deDE>Blutelfenklerikerin</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="12" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Costs (1) less for each other card in your hand.</enUS>
-    <frFR>Coûte (1) cristal de moins pour chaque autre carte dans votre main.</frFR>
-    <zhTW>你手上的其他每一張牌使消耗減少(1)點。</zhTW>
-    <zhCN>你每有一张其他手牌，该牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>Стоит на (1) ману меньше за каждую карту в вашей руке.</ruRU>
-    <ptBR>Custa (1) a menos para cada um dos outros cards na sua mão.</ptBR>
-    <plPL>Kosztuje (1) mniej za każdą pozostałą kartę w twojej ręce.</plPL>
-    <koKR>내 손에 있는 다른 카드 1장당 비용이 (1)씩 감소합니다.</koKR>
-    <itIT>Costa (1) Mana in meno per ogni carta che hai in mano.</itIT>
-    <esMX>Cuesta (1) menos por cada una de las otras cartas que hay en tu mano.</esMX>
-    <esES>Cuesta (1) cristal menos por cada carta adicional que tengas en tu mano.</esES>
-    <deDE>Kostet (1) weniger für jede andere Karte auf Eurer Hand.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +1/+1.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;赋予一個友方手下+1/+1</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得+1/+1。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает +1/+1.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 a um lacaio aliado.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +1/+1.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인 하나에게 +1/+1을 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +1/+1 a un altro tuo servitore.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +1/+1 à un serviteur allié.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +1/+1 a un esbirro aliado.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 a un esbirro amistoso.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener +1/+1.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Give +1/+1.</enUS>
+    <zhTW>賦予+1/+1。</zhTW>
+    <zhCN>使一个友方随从获得+1/+1。</zhCN>
+    <ruRU>Добавить +1/+1</ruRU>
+    <ptBR>Conceda +1/+1.</ptBR>
+    <plPL>Daj +1/+1.</plPL>
+    <koKR>+1/+1</koKR>
+    <itIT>Fornisce +1/+1.</itIT>
+    <frFR>Confère +1/+1.</frFR>
+    <esMX>Otorga +1/+1.</esMX>
+    <esES>Otorga +1/+1.</esES>
+    <deDE>Verleiht +1/+1.</deDE>
+  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Samwise Didier</enUS>
+    <enUS>Doug Alexander</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Priest Level 53.</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>His mother said that he was just big boned.</enUS>
-    <zhTW>他媽媽跟他說，他只是骨架大而已。</zhTW>
-    <zhCN>他的妈妈说，他只是骨架比较大而已。</zhCN>
-    <ruRU>Его мама считает, что у него просто широкая кость.</ruRU>
-    <ptBR>A mãe dele dizia que ele só tinha ossos grandes.</ptBR>
-    <plPL>Nie jest otyły, ma po prostu grube kości.</plPL>
-    <koKR>이 친구의 어머니 말로는 좀 통뼈라 커보이는 거랍니다.</koKR>
-    <itIT>Sua madre dice che ha solo le ossa grosse.</itIT>
-    <frFR>Il n’est pas gros, il a une ossature lourde !</frFR>
-    <esMX>Su madre siempre decía que no era gordo, sino que tenía huesos grandes.</esMX>
-    <esES>No está gordo, es que es bajo para su peso.</esES>
-    <deDE>Seine Mutter meinte immer nur, dass er schwere Knochen hätte.</deDE>
+    <enUS>They always have a spare flask of Sunwell Energy Drink™!</enUS>
+    <zhTW>他們最愛萃取自太陽之井的魔力礦泉水!</zhTW>
+    <zhCN>他们会随身带着一瓶太阳井能量饮料！</zhCN>
+    <ruRU>Они всегда носят с собой фляжку энергетического напитка на основе воды из Солнечного Колодца.</ruRU>
+    <ptBR>Eles sempre têm um frasquinho do Energético Nascente do Sol™ à mão!</ptBR>
+    <plPL>Zawsze ma pod ręką napój energetyczny „Słoneczna Studnia™”!</plPL>
+    <koKR>비결이 뭐냐고요? 태양샘 에너지 드링크라고 하네요.</koKR>
+    <itIT>Hanno sempre da parte qualche fiaschetta di Bevanda Energetica del Pozzo Solare™!</itIT>
+    <frFR>Elle a toujours sur elle une flasque de boisson énergétique du Puits de soleil !</frFR>
+    <esMX>Siempre tienen un frasco de energizante Fuente del Sol™ de repuesto.</esMX>
+    <esES>Siempre lleva un frasco de bebida energética marca "Fuente del Sol".</esES>
+    <deDE>Sie hat immer eine Dose Sonnenbrunnen-Energydrink™ dabei!</deDE>
   </Tag>
-  <Power definition="1d951bba-8ba1-40c1-8b6d-c8c073e8420b" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="a888e345-781f-46bd-a094-870b3680be7d">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="2" param="" />
+  </Power>
 </Entity>

@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_534t">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="EX1_080o">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hyena</enUS>
-    <zhTW>土狼</zhTW>
-    <zhCN>土狼</zhCN>
-    <ruRU>Гиена</ruRU>
-    <ptBR>Hiena</ptBR>
-    <plPL>Hiena</plPL>
-    <koKR>하이에나</koKR>
-    <itIT>Iena</itIT>
-    <frFR>Hyène</frFR>
-    <esMX>Hiena</esMX>
-    <esES>Hiena</esES>
-    <deDE>Hyäne</deDE>
+    <enUS>Keeping Secrets</enUS>
+    <zhTW>保密</zhTW>
+    <zhCN>守护奥秘</zhCN>
+    <ruRU>Хранит секреты</ruRU>
+    <ptBR>Guardando Segredos</ptBR>
+    <plPL>Utrzymanie tajemnicy</plPL>
+    <koKR>비밀 간직</koKR>
+    <itIT>Segreti Ben Custoditi</itIT>
+    <frFR>Garde des secrets</frFR>
+    <esMX>Guardar secretos</esMX>
+    <esES>Secretismo</esES>
+    <deDE>Geheimnisse bewahren</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Increased stats.</enUS>
+    <zhTW>屬性提高</zhTW>
+    <zhCN>属性值提高。</zhCN>
+    <ruRU>Характеристики увеличены.</ruRU>
+    <ptBR>Atributos aumentados.</ptBR>
+    <plPL>Zwiększone statystyki.</plPL>
+    <koKR>능력치 증가</koKR>
+    <itIT>Statistiche aumentate.</itIT>
+    <frFR>Caractéristiques augmentées.</frFR>
+    <esMX>Estadísticas aumentadas.</esMX>
+    <esES>Estadísticas aumentadas.</esES>
+    <deDE>Erhöhte Werte.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Andrew Robinson</enUS>
-  </Tag>
+  <Power definition="b96fa853-9d6f-4678-a117-a3d0cd286853" />
 </Entity>

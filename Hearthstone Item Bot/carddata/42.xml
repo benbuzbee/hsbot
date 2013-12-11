@@ -21,12 +21,12 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Give a minion +5/+5.  At the start of your next turn, destroy it.</enUS>
     <frFR>Confère +5/+5 à un serviteur. Au début de votre prochain tour, le détruit.</frFR>
-    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它。</zhTW>
+    <zhTW>賦予一個手下+5/+5。在你下回合開始的時候，摧毀它</zhTW>
     <zhCN>使一个随从获得+5/+5，在你的下一个回合开始时，消灭该随从。</zhCN>
     <ruRU>Выбранное существо получает +5/+5, но будет уничтожено в начале вашего следующего хода.</ruRU>
     <ptBR>Conceda +5/+5 a um lacaio. No início do seu próximo turno, destrua-o.</ptBR>
     <plPL>Daj stronnikowi +5/+5. Zniszcz go na początku swojej następnej tury.</plPL>
-    <koKR>하수인에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 처치합니다.</koKR>
+    <koKR>하수인 하나에게 +5/+5를 부여합니다. 나의 다음 턴이 시작될 때 해당 하수인은 죽습니다.</koKR>
     <itIT>Fornisce +5/+5 a un servitore. All'inizio del tuo turno successivo, viene distrutto.</itIT>
     <esMX>Otorga +5/+5 a un esbirro. Al comienzo de tu próximo turno, destrúyelo.</esMX>
     <esES>Otorga +5/+5 a un esbirro. Al comienzo de tu siguiente turno, lo destruyes.</esES>

@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_506a">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="XXX_042">
+  <MasterPower>421b9d6b-f05e-440d-ba8a-d610803fb682</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Scout</enUS>
-    <frFR>Éclaireur murloc</frFR>
-    <zhTW>魚人斥候</zhTW>
-    <zhCN>鱼人斥候</zhCN>
-    <ruRU>Мурлок-разведчик</ruRU>
-    <ptBR>Batedor Murloc</ptBR>
-    <plPL>Murlok zwiadowca</plPL>
-    <koKR>멀록 정찰병</koKR>
-    <itIT>Murloc Esploratore</itIT>
-    <esMX>Explorador múrloc</esMX>
-    <esES>Explorador múrloc</esES>
-    <deDE>Murlocspäher</deDE>
+    <enUS>Hand to Deck</enUS>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="8" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Shuffle a player's hand into his deck.</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="421b9d6b-f05e-440d-ba8a-d610803fb682">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="17" param="" />
+  </Power>
 </Entity>

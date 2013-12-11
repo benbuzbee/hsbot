@@ -1,63 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_043">
-  <MasterPower>80b6975f-1f7c-42de-ac99-e06a273f4399</MasterPower>
+<Entity version="2" CardID="CS2_084">
+  <MasterPower>a791d666-f98d-43c4-812a-5da475c31d01</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Twilight Drake</enUS>
-    <frFR>Drake du Crépuscule</frFR>
-    <zhTW>暮光飛龍</zhTW>
-    <zhCN>暮光幼龙</zhCN>
-    <ruRU>Сумеречный дракон</ruRU>
-    <ptBR>Draco do Crepúsculo</ptBR>
-    <plPL>Smokowiec zmierzchu</plPL>
-    <koKR>황혼의 비룡</koKR>
-    <itIT>Draco del Crepuscolo</itIT>
-    <esMX>Draco crepuscular</esMX>
-    <esES>Draco Crepuscular</esES>
-    <deDE>Zwielichtdrache</deDE>
+    <enUS>Hunter's Mark</enUS>
+    <frFR>Marque du chasseur</frFR>
+    <zhTW>獵人印記</zhTW>
+    <zhCN>猎人印记</zhCN>
+    <ruRU>Метка охотника</ruRU>
+    <ptBR>Marca do Caçador</ptBR>
+    <plPL>Znak łowcy</plPL>
+    <koKR>사냥꾼의 징표</koKR>
+    <itIT>Marchio del Cacciatore</itIT>
+    <esMX>Marca del cazador</esMX>
+    <esES>Marca del cazador</esES>
+    <deDE>Mal des Jägers</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1 Health for each card in your hand.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; gagne +1 PV pour chaque carte dans votre main.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你的每一張手牌會使其獲得+1生命值。</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;你每有一张手牌，便获得+1生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; это существо получает +1 к здоровью за каждую карту в вашей руке.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Receba +1 de Vida para cada card na sua mão.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje +1 do zdrowia za każdą kartę w ręce.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 손에 있는 카드 1장당 생명력을 +1 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il Draco del Crepuscolo ottiene +1 Salute per ogni carta che hai in mano.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene +1 de Salud por cada carta de tu mano.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene +1 p. de salud por cada carta que tengas en tu mano.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält +1 Leben für jede Karte auf Eurer Hand.</deDE>
+    <enUS>Change a minion's Health to 1.</enUS>
+    <frFR>Fait tomber les points de vie d’un serviteur à 1.</frFR>
+    <zhTW>將一個手下的生命值改為1點</zhTW>
+    <zhCN>使一个随从的生命值变为1。</zhCN>
+    <ruRU>Здоровье выбранного существа становится равно 1.</ruRU>
+    <ptBR>Muda a Vida de um lacaio para 1.</ptBR>
+    <plPL>Zmień zdrowie stronnika na 1.</plPL>
+    <koKR>하수인 하나의 생명력을 1로 바꿉니다.</koKR>
+    <itIT>La Salute di un servitore diventa pari a 1.</itIT>
+    <esMX>Cambia la Salud de un esbirro a 1.</esMX>
+    <esES>Cambia la salud de un esbirro a 1 p.</esES>
+    <deDE>Setzt das Leben eines Dieners auf 1.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jaemin Kim</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Twilight drakes feed on Mystical Energy.  And Tacos.</enUS>
-    <zhTW>暮光飛龍是靠秘法能量為食。還有玉米餅。</zhTW>
-    <zhCN>暮光幼龙以神秘能量为食，还吃玉米卷。</zhCN>
-    <ruRU>Сумеречные драконы питаются духовной энергией и бутербродами с колбасой.</ruRU>
-    <ptBR>Dracos do Crepúsculo se alimentam de Energia Mística. E pizza.</ptBR>
-    <plPL>Smokowce zmierzchu żywią się mistyczną energią. I paluszkami.</plPL>
-    <koKR>황혼의 비룡은 신비한 에너지를 먹고 삽니다. 가끔 타코도 먹지만요.</koKR>
-    <itIT>I Drachi del Crepuscolo si nutrono di energia mistica... e mozzarella.</itIT>
-    <frFR>Les drakes du Crépuscule se nourrissent d’énergie mystique. Et de crêpes au suc’.</frFR>
-    <esMX>Los Draco crepusculares se alimentan de energía mística... y de tacos.</esMX>
-    <esES>Los dracos Crepusculares se alimentan de energía mística. Y de gnomos.</esES>
-    <deDE>Zwielichtdrachen ernähren sich von mystischer Energie. Und von Dönern.</deDE>
+    <enUS>Jimmy Lo</enUS>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="80b6975f-1f7c-42de-ac99-e06a273f4399" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Never play 'Hide and Go Seek' with a  Hunter.</enUS>
+    <zhTW>別跟獵人玩躲貓貓。</zhTW>
+    <zhCN>千万不要和猎人玩捉迷藏的游戏。</zhCN>
+    <ruRU>Никогда не играй в прятки с охотником.</ruRU>
+    <ptBR>Nunca brinque de "esconde esconde" com um Caçador.</ptBR>
+    <plPL>Nigdy nie baw się w chowanego z łowcą.</plPL>
+    <koKR>절대 사냥꾼과 숨바꼭질하지 마십시오.</koKR>
+    <itIT>Mai giocare a nascondino con un Cacciatore.</itIT>
+    <frFR>Attention, chasse gardée !</frFR>
+    <esMX>Nunca juegues a las escondidas con un cazador.</esMX>
+    <esES>Nunca juegues al escondite con un cazador.</esES>
+    <deDE>Dieses Mal ist Euer letztes Mal.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 40.</enUS>
+  </Tag>
+  <Power definition="a791d666-f98d-43c4-812a-5da475c31d01">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

@@ -1,60 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_053">
-  <MasterPower>8e067525-a507-46cd-ba14-f51f55d96303</MasterPower>
+<Entity version="2" CardID="EX1_103">
+  <MasterPower>ed1b6657-9a0f-4737-ad76-4cd4e95835fe</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Far Sight</enUS>
-    <frFR>Double vue</frFR>
-    <zhTW>視界術</zhTW>
-    <zhCN>视界术</zhCN>
-    <ruRU>Дальнее зрение</ruRU>
-    <ptBR>Visão Distante</ptBR>
-    <plPL>Dalekowidzenie</plPL>
-    <koKR>천리안</koKR>
-    <itIT>Sguardo Lontano</itIT>
-    <esMX>Visión lejana</esMX>
-    <esES>Visión lejana</esES>
-    <deDE>Fernsicht</deDE>
+    <enUS>Coldlight Seer</enUS>
+    <frFR>Voyant froide-lumière</frFR>
+    <zhTW>冷光先知</zhTW>
+    <zhCN>寒光先知</zhCN>
+    <ruRU>Вайш'ирский провидец</ruRU>
+    <ptBR>Vidente da Luz Fria</ptBR>
+    <plPL>Prorok Światłociemnych</plPL>
+    <koKR>시린빛 예언자</koKR>
+    <itIT>Veggente Lucefredda</itIT>
+    <esMX>Vidente Luz fría</esMX>
+    <esES>Vidente Luz Fría</esES>
+    <deDE>Tiefenlichtseher</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card. That card costs (3) less.</enUS>
-    <frFR>Vous piochez une carte. Elle coûte (3) cristaux de moins.</frFR>
-    <zhTW>抽一張牌。該卡片消耗減少(3)點。</zhTW>
-    <zhCN>抽一张牌，该牌的法力值消耗减少（3）点。</zhCN>
-    <ruRU>Вы берете карту. Эта карта стоит на (3) маны меньше.</ruRU>
-    <ptBR>Compre um card. Este card custa (3) a menos.</ptBR>
-    <plPL>Dobierz kartę. Ta karta kosztuje (3) mniej.</plPL>
-    <koKR>카드를 1장 뽑습니다. 그 카드의 비용이 (3) 감소합니다.</koKR>
-    <itIT>Pesca una carta: la carta pescata costa (3) Mana in meno.</itIT>
-    <esMX>Roba una carta. Esa carta cuesta (3) menos.</esMX>
-    <esES>Roba una carta. Esa carta cuesta (3) cristales menos.</esES>
-    <deDE>Zieht eine Karte. Diese Karte kostet (3) weniger.</deDE>
-  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 PV à TOUS les autres murlocs.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予全部其他魚人+2生命值</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使所有其他鱼人获得+2生命值。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все прочие мурлоки получают +2 к здоровью.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Vida a TODOS os outros Murlocs.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj wszystkim pozostałym murlokom +2 do zdrowia.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 &lt;b&gt;모든&lt;/b&gt; 멀록에게 생명력을 +2 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +2 Salute a TUTTI gli altri Murloc.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Salud a TODOS los otros múrlocs.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de salud a todos los demás múrlocs.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht ALLEN anderen Murlocs +2 Leben.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Drek'thar can't see, but he can &lt;i&gt;see&lt;/i&gt;. You know what I mean? It's ok if you don't.</enUS>
-    <zhTW>德雷克塔爾看不到，但他「看」得到。懂我意思嗎?不懂也沒關係。</zhTW>
-    <zhCN>德雷克塔尔失明了，但他依然能够看见很多东西。你懂得我的意思吗？你懂得用心灵去观察吗？</zhCN>
-    <ruRU>Дрек'Тар лишен зрения, но он &lt;i&gt;видит&lt;/i&gt;. Понимаете? Если нет, то ничего страшного.</ruRU>
-    <ptBR>Drek'thar não pdoe ver, mas ele pode &lt;i&gt;ver&lt;/i&gt;. Entendeu? Tudo bem se não entendeu.</ptBR>
-    <plPL>Podstawowe narzędzie każdego odkrywcy i taktyka. Zwiedzaj i szpieguj bez ruszania się z miejsca!</plPL>
-    <koKR>조삼모사라고요? 뭐, 꼭 그렇지만은 않습니다.</koKR>
-    <itIT>Drek'thar non può vedere, ma può &lt;i&gt;vedere&lt;/i&gt;. Hai capito cosa intendo? Va bene anche se non lo hai capito.</itIT>
-    <frFR>« Un ami, ça ne se perd pas de vue, un ennemi encore moins. » - Devise de Drek’thar</frFR>
-    <esMX>Drek'thar no ve, pero sí &lt;i&gt;ve&lt;/i&gt;. ¿Entiendes lo que quiero decir? Si no, no hay problema. De veras.</esMX>
-    <esES>Drek'thar está ciego, pero tiene otro tipo de visión: la visión lejana.</esES>
-    <deDE>Drek'thar kann nicht sehen, aber er kann &lt;i&gt;sehen&lt;/i&gt;. Versteht Ihr? Nein? Nicht so schlimm.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Lars Grant-West</enUS>
+    <enUS>Arthur Gimaldinov</enUS>
   </Tag>
-  <Power definition="8e067525-a507-46cd-ba14-f51f55d96303" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.</enUS>
+    <zhTW>要逃離魚人沒那麼簡單，連地獄深淵都有冷光魚人住在那裡。</zhTW>
+    <zhCN>寒光鱼人终年居住于无底海源最黑暗的洞穴之中。所以，是的，你到哪儿都别想摆脱鱼人。</zhCN>
+    <ruRU>Вайш'ирские мурлоки обитают в самых глубоких расщелинах Бездонных глубин. Это доказывает, что от мурлоков нигде нельзя спрятаться.</ruRU>
+    <ptBR>Os murlocs da Luz Fria residem nos abismos mais escuros das Profundezas Abissais. Então não. Não há mesmo como escapar dos murlocs.</ptBR>
+    <plPL>Choć mieszka w głębinach, nie powala głębią intelektu.</plPL>
+    <koKR>시린빛 멀록들은 심연의 나락 가장 깊은 곳에 삽니다. 즉, 이들을 봤다는 것은 도망칠 곳도 없다는 뜻이죠.</koKR>
+    <itIT>I Murloc Lucefredda risiedono nelle più buie gallerie delle Profondità Abissali. Quindi no, non c'è modo di nascondersi dai Murloc.</itIT>
+    <frFR>Les murlocs froide-lumière vivent dans les fosses les plus sombres des profondeurs Abyssales. Donc oui, il y en a vraiment partout !</frFR>
+    <esMX>Los múrloc Luz fría viven en las fosas más oscuras de las Profundidades Abisales. Grábate la idea: no se puede escapar de los múrlocs.</esMX>
+    <esES>Los múrlocs Luz Fría viven en las simas más oscuras de las Profundidades Abisales. Sí, hay múrlocs en todas partes.</esES>
+    <deDE>Die Tiefenlichtmurlocs leben selbst in den dunkelsten Löchern der Abyssischen Tiefen. Es gibt also wirklich keinen Ort, an dem man vor Murlocs sicher ist.</deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="ed1b6657-9a0f-4737-ad76-4cd4e95835fe" />
 </Entity>

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Entity version="2" CardID="EX1_012">
-  <MasterPower>
-  </MasterPower>
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Bloodmage Thalnos</enUS>
     <frFR>Mage de sang Thalnos</frFR>
@@ -11,7 +9,7 @@
     <ptBR>Mago Sangrento Thalnos</ptBR>
     <plPL>Mag krwi Thalnos</plPL>
     <koKR>혈법사 탈노스</koKR>
-    <itIT>Mago del Sangue Thalnos</itIT>
+    <itIT>Thalnos</itIT>
     <esMX>Mago sangriento Thalnos</esMX>
     <esES>Mago sangriento Thalnos</esES>
     <deDE>Blutmagier Thalnos</deDE>
@@ -27,7 +25,7 @@
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;. &lt;b&gt;Deathrattle:&lt;/b&gt; Draw a card.</enUS>
     <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;. &lt;b&gt;Râle d’agonie :&lt;/b&gt; vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;抽一張牌。</zhTW>
+    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;。&lt;b&gt;死亡之聲:&lt;/b&gt;抽一張牌</zhTW>
     <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;，&lt;b&gt;亡语：&lt;/b&gt;抽一张牌。</zhCN>
     <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;. &lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы берете карту.</ruRU>
     <ptBR>&lt;b&gt;+1 de Dano de Feitiço&lt;/b&gt;. &lt;b&gt;Último Suspiro:&lt;/b&gt; Compre um card.</ptBR>
@@ -53,7 +51,7 @@
     <koKR>전설 카드 치고는 좀 초라하죠? 네, 당신만 그렇게 느낀 게 아닙니다.</koKR>
     <itIT>È colui che gestisce la donazione annuale di sangue al Monastero Scarlatto!</itIT>
     <frFR>Il est en charge de la campagne annuelle de don du sang du monastère Écarlate.</frFR>
-    <esMX>Es el jefe del departamento de donación anual de sangre en el Monasterio escarlata.</esMX>
+    <esMX>Es el jefe del departamento de donación anual de sangre en el Monasterio Escarlata.</esMX>
     <esES>Es el encargado de las donaciones de sangre del Monasterio Escarlata.</esES>
     <deDE>Er hat kürzlich eine Kampagne zum Blutspenden ins Leben gerufen – natürlich aus komplett uneigennützigen Gründen.</deDE>
   </Tag>

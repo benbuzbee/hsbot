@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_586">
-  <MasterPower>
-  </MasterPower>
+<Entity version="2" CardID="NEW1_037">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Sea Giant</enUS>
-    <frFR>Géant des mers</frFR>
-    <zhTW>海巨人</zhTW>
-    <zhCN>海巨人</zhCN>
-    <ruRU>Морской великан</ruRU>
-    <ptBR>Gigante do Mar</ptBR>
-    <plPL>Morski olbrzym</plPL>
-    <koKR>바다거인</koKR>
-    <itIT>Gigante del Mare</itIT>
-    <esMX>Gigante de mar</esMX>
-    <esES>Gigante de mar</esES>
-    <deDE>Meeresriese</deDE>
+    <enUS>Master Swordsmith</enUS>
+    <frFR>Maître fabricant d’épées</frFR>
+    <zhTW>劍類鍛造大師</zhTW>
+    <zhCN>铸剑师</zhCN>
+    <ruRU>Мастер ковки клинков</ruRU>
+    <ptBR>Mestre Armeiro</ptBR>
+    <plPL>Mistrz miecznictwa</plPL>
+    <koKR>검 제작의 대가</koKR>
+    <itIT>Fabbro di Spade</itIT>
+    <esMX>Maestro forjador de espadas</esMX>
+    <esES>Maestro forjador de espadas</esES>
+    <deDE>Meisterschwertschmied</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="10" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Costs (1) less for each other minion on the battlefield.</enUS>
-    <frFR>Coûte (1) cristal de moins pour chaque autre serviteur sur le champ de bataille.</frFR>
-    <zhTW>戰場上其他的每一個手下使消耗減少(1)點。</zhTW>
-    <zhCN>战场上每有一个其他随从，该牌的法力值消耗便减少（1）点。</zhCN>
-    <ruRU>Стоит на (1) ману меньше за каждое другое существо на поле боя.</ruRU>
-    <ptBR>Custa (1) a menos para cada um dos outros lacaios no campo de batalha.</ptBR>
-    <plPL>Kosztuje (1) mniej za każdego innego stronnika na polu bitwy.</plPL>
-    <koKR>전장의 하수인 1마리당 비용이 (1)씩 감소합니다.</koKR>
-    <itIT>Costa (1) Mana in meno per ogni servitore sul campo di battaglia.</itIT>
-    <esMX>Cuesta (1) menos por cada uno de los otros esbirros que haya en el campo de batalla.</esMX>
-    <esES>Cuesta (1) cristal menos por cada esbirro adicional en el campo de batalla.</esES>
-    <deDE>Kostet (1) weniger für jeden anderen Diener auf dem Schlachtfeld.</deDE>
+    <enUS>At the end of your turn, give another random friendly minion +1 Attack.</enUS>
+    <frFR>À la fin de votre tour, donne +1 ATQ à un autre serviteur allié.</frFR>
+    <zhTW>你的回合結束時，賦予另一個隨機友方手下+1攻擊力</zhTW>
+    <zhCN>在你的回合结束时，随机使另一个友方随从获得+1攻击力。</zhCN>
+    <ruRU>В конце вашего хода другое ваше случайное существо получает +1 к атаке.</ruRU>
+    <ptBR>No fim do seu turno, conceda +1 de Ataque a outro lacaio aliado aleatório.</ptBR>
+    <plPL>Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do ataku.</plPL>
+    <koKR>내 턴이 끝날 때, 다른 무작위 아군 하수인에게 공격력을 +1 부여합니다.</koKR>
+    <itIT>Alla fine del tuo turno, fornisce +1 Attacco a un altro tuo servitore casuale.</itIT>
+    <esMX>Al final de tu turno, otorga +1 de Ataque a otro esbirro aliado aleatorio.</esMX>
+    <esES>Al final de tu turno, otorga +1 p. de ataque a otro esbirro amistoso aleatorio.</esES>
+    <deDE>Verleiht am Ende Eures Zuges einem anderen zufälligen befreundeten Diener +1 Angriff.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Smithing</enUS>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Svetlin Velinov</enUS>
+    <enUS>E.M. Gist</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>See?  Giant.</enUS>
-    <zhTW>嗨!巨人!</zhTW>
-    <zhCN>看见没？巨人。</zhCN>
-    <ruRU>Ночевала тучка золотая на груди морского великана...</ruRU>
-    <ptBR>Viu? Gigante.</ptBR>
-    <plPL>A może ten olbrzym od morza woli góry?</plPL>
-    <koKR>거인과 바다</koKR>
-    <itIT>Verrà combattuto da robot giganti.</itIT>
-    <frFR>Ho ho ho, géant des mers !</frFR>
-    <esMX>La mar de gigante.</esMX>
-    <esES>Es la mar de salado.</esES>
-    <deDE>Ein Meeresriese genießt gern mal eine kühle Meeresbrise.</deDE>
+    <enUS>He's currently trying to craft a "flail-axe", but all the other swordsmiths say it can't be done.</enUS>
+    <zhTW>他最近想要打造出一條「連枷斧」，但是其他鑄劍師都說那是不可能的。</zhTW>
+    <zhCN>他正在打造一把称为“连枷斧”的武器，但是其他铸剑师都表示那是不可能做到的。</zhCN>
+    <ruRU>В последнее время он пытается выковать «молотопор», хотя другие кузнецы не верят в его успех.</ruRU>
+    <ptBR>Ele está tentando forjar um machado-mangual atualmente, mas todos os outros armeiros dizem que é impossível.</ptBR>
+    <plPL>W chwilach wolnych zajmuje się hodowlą ryb. Jego największym sukcesem jest miecznik.</plPL>
+    <koKR>현재는 다른 모든 대장장이들의 만류에도 불구하고, "도리깨 도끼"라는 무기를 제작하고 있습니다.</koKR>
+    <itIT>Sta cercando di forgiare un "asciafrusto", ma tutti gli altri fabbri dicono che sia impossibile.</itIT>
+    <frFR>Il veut créer une « hache-fléau », mais tous les autres fabricants d’armes affirment que c’est impossible.</frFR>
+    <esMX>Está intentando forjar un hacha-mayal, pero los demás forjadores de espadas no le tienen fe.</esMX>
+    <esES>Está intentando inventar un "hacha mangual", pero los demás forjadores dicen que es imposible.</esES>
+    <deDE>Er versucht gerade, eine siebenschwänzige Axt herzustellen, doch all die anderen Schmiede sagen, das sei unmöglich.</deDE>
   </Tag>
-  <Power definition="c6550b1a-7a9d-48d9-b77e-22c380f0fc37" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="68b24601-9c45-479a-a0f9-06cde1c9ad61" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

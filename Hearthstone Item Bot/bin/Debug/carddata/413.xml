@@ -1,66 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_007">
-  <MasterPower>1978a68f-848d-4fe2-91f4-56039c3676ad</MasterPower>
+<Entity version="2" CardID="EX1_tk9">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Healing Touch</enUS>
-    <frFR>Toucher guérisseur</frFR>
-    <zhTW>治療之觸</zhTW>
-    <zhCN>治疗之触</zhCN>
-    <ruRU>Целебное касание</ruRU>
-    <ptBR>Toque de Cura</ptBR>
-    <plPL>Uzdrawiający dotyk</plPL>
-    <koKR>치유의 손길</koKR>
-    <itIT>Tocco Curativo</itIT>
-    <esMX>Toque de sanación</esMX>
-    <esES>Toque de sanación</esES>
-    <deDE>Heilende Berührung</deDE>
+    <enUS>Treant</enUS>
+    <frFR>Tréant</frFR>
+    <zhTW>樹人</zhTW>
+    <zhCN>树人</zhCN>
+    <ruRU>Древень</ruRU>
+    <ptBR>Arvoroso</ptBR>
+    <plPL>Drzewiec</plPL>
+    <koKR>나무정령</koKR>
+    <itIT>Treant</itIT>
+    <esMX>Antárbol</esMX>
+    <esES>Antárbol</esES>
+    <deDE>Treant</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore #8 Health.</enUS>
-    <frFR>Rend #8 |4(point,points) de vie.</frFR>
-    <zhTW>恢復#8點生命值。</zhTW>
-    <zhCN>恢复#8点生命值。</zhCN>
-    <ruRU>Восстанавливает #8 ед. здоровья.</ruRU>
-    <ptBR>Restaure #8 de Vida.</ptBR>
-    <plPL>Przywróć #8 pkt. zdrowia.</plPL>
-    <koKR>생명력을 #8 회복시킵니다.</koKR>
-    <itIT>Rigenera #8 Salute.</itIT>
-    <esMX>Restaura #8 de Salud.</esMX>
-    <esES>Restaura #8 p. de salud.</esES>
-    <deDE>Stellt #8 Leben wieder her.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;.  At the end of the turn, destroy this minion.</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;. Ce serviteur est détruit à la fin du tour.</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;。在回合結束時，摧毀這個手下</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;，在回合结束时，消灭该随从。</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;. В конце хода это существо будет уничтожено.</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;. No final do turno, destrua este lacaio.</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;. Na początku następnej tury zniszcz tego stronnika.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;. 턴이 끝날 때, 이 하수인을 처치합니다.</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;. Alla fine del turno, distruggi questo servitore.</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;. Al final del turno, destruye a este esbirro.</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;. Al final del turno, destruye a este esbirro.</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;. Vernichtet diesen Diener am Ende des Zuges.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Cyril Van Der Haegen</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>8 Health, no waiting.</enUS>
-    <zhTW>8點生命值，無需等待。</zhTW>
-    <zhCN>见效快，疗效好，无毒副作用。</zhCN>
-    <ruRU>8 ед. здоровья. Без вопросов!</ruRU>
-    <ptBR>8 Pontos de Vida, sem espera.</ptBR>
-    <plPL>8 zdrowia, zero czekania.</plPL>
-    <koKR>생명력 8... 더 망설일 거 있나요?</koKR>
-    <itIT>8 Salute, nessuna attesa.</itIT>
-    <frFR>Exigez le meilleur ! Avec Toucher guérisseur, résultats immédiats, 8 PV garantis !</frFR>
-    <esMX>Ocho de Salud. De espera, cero.</esMX>
-    <esES>¡Marchando 8 p. de salud!</esES>
-    <deDE>8 Leben – das sind sogar noch mehr, als Mr. Bigglesworth übrig hat!</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 20.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="1978a68f-848d-4fe2-91f4-56039c3676ad">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="99b8b63c-3954-4284-8a25-0452670c588e" />
+  <Power definition="15e283bd-d6e9-4d50-acb3-92a86c6cf510" />
+  <Power definition="0a0d724b-33b6-4d17-a546-85c5d161095d" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

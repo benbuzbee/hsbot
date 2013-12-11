@@ -1,63 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_410">
-  <MasterPower>12f75fac-42bf-485b-a10c-9d766d8ab85f</MasterPower>
+<Entity version="2" CardID="EX1_409">
+  <MasterPower>7d8746db-98bb-499c-be00-f37be77cd424</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Shield Slam</enUS>
-    <frFR>Heurt de bouclier</frFR>
-    <zhTW>盾牌猛擊</zhTW>
-    <zhCN>盾牌猛击</zhCN>
-    <ruRU>Мощный удар щитом</ruRU>
-    <ptBR>Escudada</ptBR>
-    <plPL>Grzmotnięcie tarczą</plPL>
-    <koKR>방패 밀쳐내기</koKR>
-    <itIT>Colpo di Scudo</itIT>
-    <esMX>Embate con escudo</esMX>
-    <esES>Embate con escudo</esES>
-    <deDE>Schildschlag</deDE>
+    <enUS>Upgrade!</enUS>
+    <frFR>Amélioration !</frFR>
+    <zhTW>升級!</zhTW>
+    <zhCN>升级！</zhCN>
+    <ruRU>Улучшение</ruRU>
+    <ptBR>Aprimoramento!</ptBR>
+    <plPL>Ulepszenie!</plPL>
+    <koKR>강화!</koKR>
+    <itIT>Potenziamento</itIT>
+    <esMX>¡Mejora!</esMX>
+    <esES>¡Mejora!</esES>
+    <deDE>Aufwertung</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal 1 damage to a minion for each Armor you have.</enUS>
-    <frFR>Inflige 1 point de dégâts à un serviteur pour chaque point d’Armure que vous avez.</frFR>
-    <zhTW>對一個手下造成相當於你護甲值的傷害。</zhTW>
-    <zhCN>你每有1点护甲值，便对一个随从造成1点伤害。</zhCN>
-    <ruRU>Наносит выбранному существу 1 ед. урона за каждую единицу брони вашего героя.</ruRU>
-    <ptBR>Cause 1 de dano a um lacaio para cada ponto de Armadura que você tiver.</ptBR>
-    <plPL>Zadaj 1 pkt. obrażeń stronnikowi za każdy posiadany punkt pancerza.</plPL>
-    <koKR>내가 가진 방어도만큼 하수인에게 피해를 줍니다.</koKR>
-    <itIT>Infligge 1 danno a un servitore per ogni punto Armatura che possiedi.</itIT>
-    <esMX>Inflige 1 de daño a un esbirro por cada punto de Armadura que tienes.</esMX>
-    <esES>Inflige 1 p. de daño a un esbirro por cada punto de armadura que tengas.</esES>
-    <deDE>Fügt einem Diener für jeden Eurer Rüstungspunkte 1 Schaden zu.</deDE>
+    <enUS>If you have a weapon, give it +1/+1.  Otherwise equip a 1/3 weapon.</enUS>
+    <frFR>Si vous avez une arme, lui donne +1/+1. Sinon, vous équipe d’une arme 1/3.</frFR>
+    <zhTW>如果你有武器，賦予它+1/+1。若無，則裝備一把1/3的武器</zhTW>
+    <zhCN>如果你有一把武器，使它获得+1/+1。否则，装备一把1/3的武器。</zhCN>
+    <ruRU>Если у вас есть оружие, оно получает +1/+1. В ином случае вы экипируетесь оружием 1/3.</ruRU>
+    <ptBR>Se você tiver uma arma, conceda-lhe +1/+1. Se não tiver, equipe uma arma 1/3.</ptBR>
+    <plPL>Jeśli masz broń, daj jej +1/+1. W innym przypadku otrzymujesz broń 1/3.</plPL>
+    <koKR>내가 무기를 장착하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다.</koKR>
+    <itIT>Se possiedi un'arma, gli fornisce +1/+1. In caso contrario, equipaggia un'arma 1/3.</itIT>
+    <esMX>Si tienes un arma, le otorga +1/+1. Si no, equipa un arma 1/3.</esMX>
+    <esES>Si tienes un arma, le otorga +1/+1. Si no, equipa un arma 1/3.</esES>
+    <deDE>Wenn Ihr eine Waffe habt, erhält sie +1/+1. Legt anderenfalls eine Waffe (1/3) an.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?" - The Art of Warrior, Chapter 9</enUS>
-    <zhTW>「哪一把武器比較好?是敵人會小心提防的利刃，還是會被他們輕忽的鈍器?」-戰士之道，第9章</zhTW>
-    <zhCN>“什么是更好的武器？是敌人预料之中的利斧，还是敌人意想不到的钝刀？”——《战士的艺术》，第9章</zhCN>
-    <ruRU>«Какое оружие лучше? Острый топор, о котором враг знает, или тупой, на который он не обращает внимания?» – Искусство быть воином, глава 9</ruRU>
-    <ptBR>"Qual é a melhor arma? A afiada que os inimigos esperam ou a cega que eles ignoram?" — A Arte do Guerreiro, capítulo 9</ptBR>
-    <plPL>„Jaki oręż jest lepszy? Ostry, którego spodziewa się przeciwnik, czy tępy, który zostanie zignorowany?” - Sztuka wojownika, rozdział 9</plPL>
-    <koKR>"좋은 무기란 무엇일까? 날카롭지만 상대가 예상할 수 있는 것? 아니면 무디지만 상대가 예상치 못하는 것?" - 전사의 정석, 제 9 장</koKR>
-    <itIT>"Qual è l'arma migliore? Quella tagliente che il nemico si aspetta o quella contundente che egli ignora?" - L'Arte del Guerriero, capitolo 9</itIT>
-    <frFR>« En combat, qu’est-ce qui est le mieux ? L’arme tranchante à laquelle s’attend votre adversaire ou l’arme émoussée à laquelle il ne s’attend pas ? » - L’art du guerrier, chapitre 9</frFR>
-    <esMX>¿Cuál es la mejor arma? ¿La que tus enemigos esperan o la que escondes bajo la manga?. &lt;i&gt;El arte del guerrero&lt;/i&gt;, capítulo 9</esMX>
-    <esES>"¿Qué arma es mejor? ¿La afilada, que tus enemigos se esperan, o la roma, que desconocen?" - El arte del guerrero, capítulo 9</esES>
-    <deDE>„Welches ist die bessere Waffe? Die scharfe, die Eure Feinde erwarten, oder die stumpfe, die sie ignorieren?“ - Die Kunst des Kriegers, Kapitel 9</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Matt Cavotta</enUS>
   </Tag>
-  <Power definition="12f75fac-42bf-485b-a10c-9d766d8ab85f">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Easily worth 50 DKP.</enUS>
+    <zhTW>這至少值50點的DKP。</zhTW>
+    <zhCN>50点DKP玩一下，值！</zhCN>
+    <ruRU>Потянет на 50 ДКП.</ruRU>
+    <ptBR>Vale 50 PCM fácil.</ptBR>
+    <plPL>Z taką bronią nie ma żartów!</plPL>
+    <koKR>상대편의 스트레스 지수도 높아집니다.</koKR>
+    <itIT>Vale di certo almeno 50 DKP.</itIT>
+    <frFR>Elle vaut facilement 50 DKP !</frFR>
+    <esMX>Como mínimo, se merece una recompensa de 50 DKP.</esMX>
+    <esES>Eso valdrá unos 50 DKP.</esES>
+    <deDE>Mindestens 50 DKP wert.</deDE>
+  </Tag>
+  <Power definition="7d8746db-98bb-499c-be00-f37be77cd424" />
 </Entity>
