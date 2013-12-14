@@ -64,8 +64,30 @@ namespace HSBot
             
         }
         Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
-        private void OnChannelMessage(Object sender, IrcMessageEventArgs e)
+        private async void OnChannelMessage(Object sender, IrcMessageEventArgs e)
         {
+
+            if (e.Text.ToLower().StartsWith("!debug ") && e.Text.Length > "!debug ".Length)
+            {
+                Cards.Card c = LookupCard(e.Text.Substring("!debug ".Length).ToLower());
+
+                if (c == null) { Message(e.Targets[0].Name,"Card not found."); return; }
+
+                Console.WriteLine("Source: {0}", c.XmlSource);
+                Console.WriteLine(c.XmlData);
+               // Message(e.Targets[0].Name, "See terminal for debug data.");
+
+
+                String pasteUrl = await Cards.DebugPaster.PasteCard(c);
+
+
+
+                if (pasteUrl == null)
+                    Message(e.Targets[0].Name, "Paste failed.");
+                else
+                    Message(e.Targets[0].Name, "Debug data posted: {0}", pasteUrl);
+                return;
+            }
 
 			if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length && e.Text.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
@@ -96,6 +118,7 @@ namespace HSBot
             else
                 Message(source.Name, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", ""));
         }
+
 
 
         private void Message(String target, String message, params String[] format)

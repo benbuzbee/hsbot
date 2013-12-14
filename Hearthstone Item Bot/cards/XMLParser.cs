@@ -33,6 +33,9 @@ namespace HSBot.Cards
             {
                 try
                 {
+
+                    String xmlData = Encoding.UTF8.GetString(System.IO.File.ReadAllBytes(file));
+                    document.LoadXml(xmlData);
                     document.Load(file);
                     //<Entity version="2" CardID="XXX_039">
                     XmlNode entity = document.DocumentElement.SelectSingleNode("//Entity");
@@ -54,6 +57,11 @@ namespace HSBot.Cards
                         Console.WriteLine("Skipping effect card: {0}", file);
                         continue;
                     }
+                    else if (entityCardID.Value.StartsWith("XXX_"))
+                    {
+                        Console.WriteLine("Skipping special card type: {0}", file);
+                        continue;
+                    }
                     //   <Tag name="CardName" enumID="185" type="String">
 
 
@@ -68,6 +76,8 @@ namespace HSBot.Cards
 
 
                     Card card = new Card(entityCardID.Value);
+                    card.XmlData = xmlData;
+                    card.XmlSource = file;
                     foreach (XmlNode aName in cardName.ChildNodes)
                     {
                         card.SetName(aName.Name, aName.InnerText);
@@ -173,7 +183,21 @@ namespace HSBot.Cards
                     else
                         card.Rarity = Card.RarityValues.UNKNOWN;
 
+
+                    XmlNode type = document.DocumentElement.SelectSingleNode("//Tag[@name=\"CardType\"]");
+                    if ( type != null)
+                    {
+                        card.Type = int.Parse(type.Attributes["value"].Value);
+                        if (card.Type == 3) // Heros? 3 included the Hero "Hogger" 0/10
+                            continue;
+                    }
+
+
                     cards.Add(card);
+
+
+
+
                     
                 }
                 catch (XmlException exception)

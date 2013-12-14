@@ -48,7 +48,13 @@ namespace HSBot.Cards
         public ClassValues Class { get; set; }
         public RarityValues Rarity { get; set; }
 
+        public String XmlData { get; set; }
+
+        public String XmlSource { get; set; }
+
         public Card(String entityCardID) { ID = entityCardID; }
+
+        public int Type { get; set; }
 
         public void SetName(String localization, String name)
         {
