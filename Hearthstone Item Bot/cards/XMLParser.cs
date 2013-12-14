@@ -188,7 +188,7 @@ namespace HSBot.Cards
                     if ( type != null)
                     {
                         card.Type = int.Parse(type.Attributes["value"].Value);
-                        if (card.Type == 3) // Heros? 3 included the Hero "Hogger" 0/10
+                        if (card.Type == (int)Card.CardType.HERO) // Heros? 3 included the Hero "Hogger" 0/10 -- 4 may be creatures -- 7 may be weapons (warrior)
                             continue;
                     }
 

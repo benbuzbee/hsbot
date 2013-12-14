@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IrcDotNet;
+using benbuzbee.LRTIRC;
 using System.Text.RegularExpressions;
 
 namespace HSBot
 {
-    class IRC : IrcClient
+    class IRC
     {
+        public IrcClient Client { get; private set; }
         public IRC()
         {
+            
             RefreshList();
+            Client = new IrcClient();
+
+            Client.Encoding = new System.Text.UTF8Encoding(false);
         }
 
         /**
@@ -20,58 +25,42 @@ namespace HSBot
          * */
         public void StartConnect()
         {
-       
-
-  
-                var registration = new IrcUserRegistrationInfo();
-                registration.NickName = Config.IRCNick;
-                registration.RealName = Config.IRCName;
-                registration.UserName = Config.IRCUser;
 
 
-                this.Connect(Config.IRCHost, false, registration);
+            Client.OnConnect += OnConnect;
+            Client.OnRawMessageReceived += OnRawMessageReceived;
+            Client.OnRawMessageSent += OnRawMessageSent;
+            Client.OnRfcPrivmsg += OnPrivmsg;
 
-                this.Registered += new EventHandler<EventArgs>(OnRegistered);
+            Client.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
+
                 
-
-
-            
-        
-            
-            
         }
-        private void OnRawMessageReceived(IrcRawMessageEventArgs args)
+        private void OnRawMessageReceived(IrcClient sender, String message)
         {
          
-            Console.WriteLine(args.RawContent);
+            Console.WriteLine("<--: {0}", message);
         }
-        private void OnRegistered(Object sender, EventArgs e)
+        private void OnRawMessageSent(IrcClient sender, String message)
         {
 
-            String[] channels = new String[1];
-            channels[0] = Config.IRCChannel;
-            this.SendMessageJoin(channels);
-            new System.Threading.Thread(() => {
+            Console.WriteLine("-->: {0}", message);
+        }
+        private void OnConnect(IrcClient sender)
+        {
 
-                while (Channels.Count == 0)
-                {
-                    System.Threading.Thread.Sleep(1000);
-                }
-
-                Channels[0].MessageReceived += new System.EventHandler<IrcMessageEventArgs>(OnChannelMessage);
-
-            }).Start();
-            
+            sender.SendRawMessage("JOIN {0}",Config.IRCChannel);
+ 
         }
         Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
-        private async void OnChannelMessage(Object sender, IrcMessageEventArgs e)
+        private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
 
-            if (e.Text.ToLower().StartsWith("!debug ") && e.Text.Length > "!debug ".Length)
+            if (message.ToLower().StartsWith("!debug ") && message.Length > "!debug ".Length)
             {
-                Cards.Card c = LookupCard(e.Text.Substring("!debug ".Length).ToLower());
+                Cards.Card c = LookupCard(message.Substring("!debug ".Length).ToLower());
 
-                if (c == null) { Message(e.Targets[0].Name,"Card not found."); return; }
+                if (c == null) { Message(target,"Card not found."); return; }
 
                 Console.WriteLine("Source: {0}", c.XmlSource);
                 Console.WriteLine(c.XmlData);
@@ -83,20 +72,20 @@ namespace HSBot
 
 
                 if (pasteUrl == null)
-                    Message(e.Targets[0].Name, "Paste failed.");
+                    Message(target, "Paste failed.");
                 else
-                    Message(e.Targets[0].Name, "Debug data posted: {0}", pasteUrl);
+                    Message(target, "Debug data posted: {0}", pasteUrl);
                 return;
             }
 
-			if (e.Text.ToLower().StartsWith("!card ") && e.Text.Length > "!card ".Length && e.Text.Length <= (Config.MaxCardNameLength + "!card ".Length))
+			if (message.ToLower().StartsWith("!card ") && message.Length > "!card ".Length && message.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
 				// If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
 				// it's probably too long to be a card.
-				LookupCardNameFor(e.Targets[0], e.Text.Substring("!card ".Length).ToLower());
+				LookupCardNameFor(target, message.Substring("!card ".Length).ToLower());
 			}
 
-            Match match = regex.Match(e.Text);
+            Match match = regex.Match(message);
 
 			for (int i = 0; i < Config.MaxCardsPerLine && match.Success; ++i, match = match.NextMatch())
             {
@@ -106,27 +95,25 @@ namespace HSBot
                     continue;
                 }
 
-                LookupCardNameFor(e.Targets[0], match.Groups[1].Value);
+                LookupCardNameFor(target, match.Groups[1].Value);
             }
         }
 
-        private void LookupCardNameFor(IIrcMessageTarget source, String cardname)
+        private void LookupCardNameFor(String source, String cardname)
         {
             Cards.Card c = LookupCard(cardname);
             if (c == null)
-                this.Message(source.Name, "The card was not found.");
+                this.Message(source, "The card was not found.");
             else
-                Message(source.Name, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", ""));
+                Message(source, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", ""));
         }
 
 
 
         private void Message(String target, String message, params String[] format)
         {
-            // God this library sucks ass
-            String[] targets = new String[1];
-            targets[0] = target;
-            SendMessagePrivateMessage(targets, String.Format(message, format));
+            
+            Client.SendRawMessage("PRIVMSG {0} :{1}", target, String.Format(message, format));
         }
 
         private Cards.Card LookupCard(String cardname)
