@@ -68,12 +68,13 @@ namespace HSBot
         Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
         private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
+            String responseTarget = target.Equals(Client.Nick, StringComparison.CurrentCultureIgnoreCase) ? source.Substring(source.IndexOf(":") + 1, source.IndexOf("!") - (source.IndexOf(":") + 1)) : target; // If its to me, then respond to source. Otherwise, respond to target (channel)
 
             if (message.ToLower().StartsWith("!debug ") && message.Length > "!debug ".Length)
             {
                 Cards.Card c = LookupCard(message.Substring("!debug ".Length).ToLower());
 
-                if (c == null) { Message(target,"Card not found."); return; }
+                if (c == null) { Message(responseTarget, "Card not found."); return; }
 
                 Console.WriteLine("Source: {0}", c.XmlSource);
                 Console.WriteLine(c.XmlData);
@@ -95,7 +96,7 @@ namespace HSBot
             {
 				// If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
 				// it's probably too long to be a card.
-				LookupCardNameFor(target, message.Substring("!card ".Length).ToLower());
+                LookupCardNameFor(responseTarget, message.Substring("!card ".Length).ToLower());
 			}
 
             Match match = regex.Match(message);
@@ -108,7 +109,7 @@ namespace HSBot
                     continue;
                 }
 
-                LookupCardNameFor(target, match.Groups[1].Value);
+                LookupCardNameFor(responseTarget, match.Groups[1].Value);
             }
         }
 

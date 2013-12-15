@@ -129,8 +129,11 @@ namespace benbuzbee.LRTIRC
             String message = String.Format(messageFormat, messageData);
             try
             {
-                await streamWriter.WriteAsync(message + "\n");
-                Task t = streamWriter.FlushAsync();
+                Task t = streamWriter.WriteAsync(message + "\n");
+                t.Wait();
+                if (t.Exception != null) throw t.Exception;
+                t = streamWriter.FlushAsync();
+                t.Wait();
                 if (t.Exception != null) throw t.Exception;
                 if (OnRawMessageSent != null)
                     OnRawMessageSent(this, message);
@@ -289,12 +292,14 @@ namespace benbuzbee.LRTIRC
 
         public delegate void RfcPrivmsgHandler(IrcClient sender, String source, String target, String message);
         public event RfcPrivmsgHandler OnRfcPrivmsg;
-        #endregion Events and Delegates
 
         /// <summary>
         /// Called when LastMessage was more than Timeout ago
         /// </summary>
         public event Action<IrcClient> OnTimeout;
+        #endregion Events and Delegates
+
+   
     }
 
 
