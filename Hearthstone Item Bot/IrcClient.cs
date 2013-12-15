@@ -21,15 +21,21 @@ namespace benbuzbee.LRTIRC
         public int Port { private set; get; }
         public String Password { private set; get; }
         public DateTime LastMessage { private set; get; }
+        /// <summary>
+        /// Set to false until TcpClient connects. Does not necessarily mean we are registered. Set before OnConnect event.
+        /// </summary>
         public bool Connected { private set; get; }
         /// <summary>
-        /// How long without a message before we time out
+        /// How long without a message before we time out. Will take affect next connect
         /// </summary>
         public TimeSpan Timeout { set; get; }
         /// <summary>
-        /// Sets the Encoding. Defaults to UTF8 without BOM. Must reconnect after changing.
+        /// Sets the Encoding. Defaults to UTF8 without BOM. Will take affect next connect.
         /// </summary>
         public Encoding Encoding { set; get; }
+        /// <summary>
+        /// Set to false before PASS/NICK/USER strings are sent, the set to TRUE (does not wait on confirmation from server)
+        /// </summary>
         public Boolean Registered { private set; get; }
         #endregion Properties
 
@@ -65,6 +71,9 @@ namespace benbuzbee.LRTIRC
         }
 
         #region IO
+        /// <summary>
+        /// Disconnects client and disposes of streams. Also stops timeout-check timer.
+        /// </summary>
         public void Disconnect()
         {
             lock (registrationLock)
@@ -91,6 +100,16 @@ namespace benbuzbee.LRTIRC
                 timeoutTimer.Start();
             }
         }
+        /// <summary>
+        /// Connects to the server with the provided details
+        /// </summary>
+        /// <param name="nick">Nickname to use</param>
+        /// <param name="user">Username to use</param>
+        /// <param name="realname">Real name to use</param>
+        /// <param name="host">Host to which to connect</param>
+        /// <param name="port">Port on which to connect</param>
+        /// <param name="password">Password to send on connect</param>
+        /// <returns></returns>
         public async Task Connect(String nick, String user, String realname, String host, int port = 6667, String password = null)
         {
 
@@ -102,7 +121,7 @@ namespace benbuzbee.LRTIRC
                 TCP = new TcpClient();
             }
             Task connectTask = TCP.ConnectAsync(host, port);
-            connectTask.Wait();
+            await connectTask;
 
             if (connectTask.Exception != null)
             {
@@ -119,21 +138,26 @@ namespace benbuzbee.LRTIRC
             streamReader = new System.IO.StreamReader(TCP.GetStream(), Encoding);
             streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
 
-            streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
-
+            var readTask = streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
         }
 
-        public async Task<bool> SendRawMessage(String messageFormat, params String[] messageData)
+        /// <summary>
+        /// Sends an EOL-terminated message to the server (\n is appended by this method)
+        /// </summary>
+        /// <param name="format">Format of message to send</param>
+        /// <param name="formatParameters">Format parameters</param>
+        /// <returns></returns>
+        public async Task<bool> SendRawMessage(String format, params String[] formatParameters)
         {
 
-            String message = String.Format(messageFormat, messageData);
+            String message = String.Format(format, formatParameters);
             try
             {
-                Task t = streamWriter.WriteAsync(message + "\n");
-                t.Wait();
+                Task t = streamWriter.WriteLineAsync(message);
+                await t;
                 if (t.Exception != null) throw t.Exception;
                 t = streamWriter.FlushAsync();
-                t.Wait();
+                await t;
                 if (t.Exception != null) throw t.Exception;
                 if (OnRawMessageSent != null)
                     OnRawMessageSent(this, message);
@@ -151,6 +175,10 @@ namespace benbuzbee.LRTIRC
 
 
         }
+        /// <summary>
+        /// Callback used by StreamReader when a read finishes
+        /// </summary>
+        /// <param name="task"></param>
         private void OnAsyncRead(Task<String> task)
         {
 
@@ -238,9 +266,9 @@ namespace benbuzbee.LRTIRC
             OnRawMessageReceived -= RegisterHandler;
             System.Threading.Thread.Sleep(1000);
             if (Password != null)
-                SendRawMessage("PASS {0}", Password);
-            SendRawMessage("NICK {0}", Nick);
-            SendRawMessage("USER {0} 0 * :{1}", User, RealName);
+                SendRawMessage("PASS {0}", Password).Wait();
+            SendRawMessage("NICK {0}", Nick).Wait();
+            SendRawMessage("USER {0} 0 * :{1}", User, RealName).Wait();
 
 
 
@@ -251,7 +279,9 @@ namespace benbuzbee.LRTIRC
         private void PingHandler(Object sender, String message)
         {
             if (message.StartsWith("PING"))
-                SendRawMessage("PONG {0}", message.Substring("PING ".Length));
+            {
+                var pongTask = SendRawMessage("PONG {0}", message.Substring("PING ".Length));
+            }
         }
 
         private void NumericHandler(Object sender, String message)
@@ -276,21 +306,42 @@ namespace benbuzbee.LRTIRC
 
         #region Events and Delegates
         public delegate void IrcExceptionHandler(IrcClient sender, Exception exception);
+        /// <summary>
+        /// Called when an exception is called by an IRC method, such as failure to connect.
+        /// </summary>
         public event IrcExceptionHandler OnException;
 
         public delegate void IrcRawMessageHandler(IrcClient sender, String message);
+        /// <summary>
+        /// Called when any EOL-terminated message is received on the TcpClient
+        /// </summary>
         public event IrcRawMessageHandler OnRawMessageReceived;
+        /// <summary>
+        /// Called when any message is successfully sent on the TcpClient
+        /// </summary>
         public event IrcRawMessageHandler OnRawMessageSent;
 
         public delegate void RfcOnErrorHandler(IrcClient sender, String message);
+        /// <summary>
+        /// Called when ERROR is received from the server
+        /// </summary>
         public event RfcOnErrorHandler OnRfcError;
 
         public delegate void RfcNumericHandler(IrcClient sender, String source, int numeric, String target, String other);
+        /// <summary>
+        /// Called when an RFC Numeric is received from the server
+        /// </summary>
         public event RfcNumericHandler OnRfcNumeric;
 
+        /// <summary>
+        /// Called when RFC Numeric 001 is received, to confirm we are both connected and registered.
+        /// </summary>
         public event Action<IrcClient> OnConnect;
 
         public delegate void RfcPrivmsgHandler(IrcClient sender, String source, String target, String message);
+        /// <summary>
+        /// Called when a PRIVMSG is received from the client
+        /// </summary>
         public event RfcPrivmsgHandler OnRfcPrivmsg;
 
         /// <summary>

@@ -62,13 +62,16 @@ namespace HSBot
         private void OnConnect(IrcClient sender)
         {
 
-            sender.SendRawMessage("JOIN {0}",Config.IRCChannel);
+            sender.SendRawMessage("JOIN {0}",Config.IRCChannel).Wait();
  
         }
         Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
         private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
-            String responseTarget = target.Equals(Client.Nick, StringComparison.CurrentCultureIgnoreCase) ? source.Substring(source.IndexOf(":") + 1, source.IndexOf("!") - (source.IndexOf(":") + 1)) : target; // If its to me, then respond to source. Otherwise, respond to target (channel)
+            // If its to me (the bot), then respond to source. Otherwise, respond to target (channel)
+            String responseTarget = target.Equals(Client.Nick, StringComparison.CurrentCultureIgnoreCase) ?
+                source.Substring(source.IndexOf(":") + 1, source.IndexOf("!") - (source.IndexOf(":") + 1)) : 
+                target; 
 
             if (message.ToLower().StartsWith("!debug ") && message.Length > "!debug ".Length)
             {
@@ -127,7 +130,7 @@ namespace HSBot
         private void Message(String target, String message, params String[] format)
         {
             
-            Client.SendRawMessage("PRIVMSG {0} :{1}", target, String.Format(message, format));
+            var responseTask = Client.SendRawMessage("PRIVMSG {0} :{1}", target, String.Format(message, format));
         }
 
         private Cards.Card LookupCard(String cardname)
@@ -210,7 +213,7 @@ namespace HSBot
                 {
                     cards.Add(c.Name.ToLower(), c);
                 }
-                catch (ArgumentException e)
+                catch (ArgumentException)
                 {
                     Console.Error.WriteLine("Multiple cards have the name \"{0}\".", c.Name);
                 }

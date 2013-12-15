@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace HSBot.Cards
@@ -124,7 +123,7 @@ namespace HSBot.Cards
             StringBuilder sb = new StringBuilder(2048);
 
             sb.AppendFormat("[{0}{1}]: ", GetColor(), Name);
-            if (Attack != null && Health != null && (Attack != 0 || Health != 0))
+            if (Attack != 0 || Health != 0)
                 sb.AppendFormat("{0}/{1}: ", Attack, Health);
             sb.AppendFormat("Cost: {0} ", Cost);
 
