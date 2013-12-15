@@ -21,8 +21,8 @@
     <name>Hearthstone IRC Bot</name>
     <user>HearthBot</user>
     <channel>#foobarsda</channel>
-    <!-- Time to wait between reconnect attempts -->
-    <reconnecttime>5000</reconnecttime>
+    <!-- Time before timeout in miliseconds -->
+    <reconnecttime>300000</reconnecttime>
   </irc>
   
 </config>

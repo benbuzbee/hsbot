@@ -32,7 +32,20 @@ namespace HSBot
             Client.OnRawMessageSent += OnRawMessageSent;
             Client.OnRfcPrivmsg += OnPrivmsg;
 
-            Client.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
+            Client.Timeout = new TimeSpan(0,0,0,0,Config.IRCReconnectTime);
+            Action<IrcClient> connectAction = (sender) =>
+            {
+                try
+                {
+                    sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
+                } catch (Exception e)
+                {
+                    Console.WriteLine("Exception while connecting: {0}", e);
+                }
+            };
+            Client.OnTimeout += connectAction;
+
+            connectAction(Client);
 
                 
         }

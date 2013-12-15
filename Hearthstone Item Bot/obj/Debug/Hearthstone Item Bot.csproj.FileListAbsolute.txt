@@ -6,6 +6,3 @@ D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item B
 D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
 D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\LRTIRC.dll
-D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\LRTIRC.pdb
