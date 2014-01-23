@@ -21,7 +21,7 @@
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
@@ -58,6 +58,8 @@
     <esES>"La mitad de esta promoción no se licenciará... porque se habrán convertido en pollos". - Maestro manitas Sobrechispa, en su clase de Introducción a los Cachivaches</esES>
     <deDE>„Die Hälfte der anwesenden Studenten wird die Abschlussprüfung nur noch als Hühnchen erleben.“\n– Tüftlermeister Oberfunks</deDE>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
   <Power definition="4295b5dc-4faa-43ab-b755-00d8c5f1b91f" />
 </Entity>

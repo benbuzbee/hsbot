@@ -60,7 +60,6 @@ namespace benbuzbee.LRTIRC
             #region Register Delegates
 
             OnRawMessageReceived += ErrorHandler; // This one looks for ERROR messages
-            OnRawMessageReceived += RegisterHandler;
             OnRawMessageReceived += PingHandler;
             OnRawMessageReceived += NumericHandler;
             OnRawMessageReceived += PrivmsgHandler;
@@ -138,6 +137,8 @@ namespace benbuzbee.LRTIRC
             streamReader = new System.IO.StreamReader(TCP.GetStream(), Encoding);
             streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
 
+            // Register handler to on connect event
+            OnRawMessageReceived += RegisterHandler;
             var readTask = streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
         }
 

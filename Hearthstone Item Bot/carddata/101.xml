@@ -31,7 +31,7 @@
     <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio, então cause $1 de dano a ele.</ptBR>
     <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika, a następnie zadaj mu $1 pkt. obrażeń.</plPL>
     <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시키고, 피해를 $1 줍니다.</koKR>
-    <itIT>Causa &lt;b&gt;Silenzio&lt;/b&gt; a un servitore e gli infligge $1 danno.</itIT>
+    <itIT>Infligge $1 danno a un servitore e lo &lt;b&gt;Silenzia&lt;/b&gt;.</itIT>
     <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 de daño.</esMX>
     <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro y luego le inflige $1 p. de daño.</esES>
     <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt; und fügt ihm dann $1 Schaden zu.</deDE>

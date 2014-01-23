@@ -12,7 +12,7 @@ namespace HSBot.Cards
 
         public enum RarityValues { UNKNOWN, COMMON, FREE, RARE, EPIC, LEGENDARY };
         public enum ClassValues { ALL, DRUID = 2, HUNTER = 3, MAGE = 4, PALADIN = 5, PRIEST = 6, ROGUE = 7, SHAMAN = 8, WARLOCK = 9, WARRIOR = 10 };
-        public enum CardType { WEAPON = 7, HERO = 3 };
+        public enum CardType { WEAPON = 7, HERO = 3, CREATURE = 4, EFFECT = 6 /* Cabal Control */ };
 
         private Dictionary<String, String> localizedNames = new Dictionary<String, String>();
         private Dictionary<String, String> localizedDescriptions = new Dictionary<String, String>();

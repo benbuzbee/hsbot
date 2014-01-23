@@ -20,7 +20,7 @@
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Freeze&lt;/b&gt; all enemy minions.</enUS>
@@ -31,7 +31,7 @@
     <ptBR>&lt;b&gt;Congele&lt;/b&gt; todos os lacaios inimigos.</ptBR>
     <plPL>&lt;b&gt;Zamroź&lt;/b&gt; wszystkich wrogich stronników.</plPL>
     <koKR>모든 적 하수인을 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
-    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; a tutti i servitori nemici.</itIT>
+    <itIT>&lt;b&gt;Congela&lt;/b&gt; tutti i servitori nemici.</itIT>
     <esMX>&lt;b&gt;Congela&lt;/b&gt; a todos los esbirros enemigos.</esMX>
     <esES>&lt;b&gt;Congela&lt;/b&gt; a todos los esbirros enemigos.</esES>
     <deDE>&lt;b&gt;Friert&lt;/b&gt; alle feindlichen Diener ein.</deDE>

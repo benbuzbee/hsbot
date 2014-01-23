@@ -18,18 +18,18 @@
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Has &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <frFR>A &lt;b&gt;Charge&lt;/b&gt;.</frFR>
-    <zhTW>擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Имеет способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Tem &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
-    <plPL>Posiada &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;.</itIT>
-    <esMX>Tiene &lt;b&gt;Carga&lt;/b&gt;.</esMX>
-    <esES>Tiene &lt;b&gt;Cargar&lt;/b&gt;.</esES>
-    <deDE>Hat &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+    <enUS>+2 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>+2 ATQ et &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>+2攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>+2攻击力并获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>+2 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>+2 de Ataque e &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>+2 do ataku oraz &lt;b&gt;Szarża&lt;/b&gt;.</plPL>
+    <koKR>공격력 +2, &lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt; e +2 Attacco.</itIT>
+    <esMX>+2 de Ataque y &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>+2 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>+2 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />

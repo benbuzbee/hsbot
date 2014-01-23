@@ -23,16 +23,16 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead.</enUS>
-    <frFR>Inflige $4 |4(point,points) de dégâts. Si votre héros à 12 PV ou moins, inflige $6 |4(point,points) de dégâts à la place.</frFR>
-    <zhTW>造成$4點傷害。若你英雄生命值在12點以下，則造成$6點傷害</zhTW>
-    <zhCN>造成$4点伤害；如果你的英雄的生命值小于或等于12点，则改为造成$6点伤害。</zhCN>
+    <frFR>Inflige $4 |4(point,points) de dégâts. Si votre héros a 12 PV ou moins, inflige $6 |4(point,points) de dégâts à la place.</frFR>
+    <zhTW>造成$4點傷害。若你生命值在12點以下則造成$6點傷害</zhTW>
+    <zhCN>造成$4点伤害；如果你的生命值小于或等于12点，则改为造成$6点伤害。</zhCN>
     <ruRU>Наносит $4 ед. урона. Если у вашего героя 12 или меньше ед. здоровья, вместо этого наносит $6 ед. урона.</ruRU>
-    <ptBR>Cause $4 de dano. Se o seu herói tiver 12 de Vida ou menos, cause $6 de dano em vez de $4.</ptBR>
-    <plPL>Zadaj $4 pkt. obrażeń. Jeśli twój bohater ma 12 lub mniej zdrowia, zadaj zamiast tego $6 pkt. obrażeń.</plPL>
-    <koKR>피해를 $4 줍니다. 내 영웅의 생명력이 12 이하라면 피해를 $6 줍니다.</koKR>
+    <ptBR>Cause $4 de dano. Se você tiver 12 pontos de vida ou menos, cause $6 de dano em vez de $4.</ptBR>
+    <plPL>Zadaj $4 pkt. obrażeń. Jeśli masz 12 lub mniej zdrowia, zadaj zamiast tego $6 pkt. obrażeń.</plPL>
+    <koKR>피해를 $4 줍니다. 내 생명력이 12 이하라면 피해를 $6 줍니다.</koKR>
     <itIT>Infligge $4 danni. Se il tuo eroe ha Salute pari a 12 o inferiore, infligge $6 danni.</itIT>
-    <esMX>Inflige $4 de daño. Si tu héroe tiene 12 de Salud o menos, entonces inflige $6 de daño.</esMX>
-    <esES>Inflige $4 p. de daño. Si tu héroe tiene 12 p. de salud o menos, inflige $6 p. de daño.</esES>
+    <esMX>Inflige $4 de daño. Si tienes 12 de Salud o menos, inflige $6 de daño.</esMX>
+    <esES>Inflige $4 p. de daño. Si tienes 12 p. de salud o menos, infliges $6 p. de daño.</esES>
     <deDE>Verursacht $4 Schaden. Verursacht stattdessen $6 Schaden, wenn Euer Held max. 12 Leben hat.</deDE>
   </Tag>
   <Tag name="Cost" enumID="48" type="Number" value="4" />

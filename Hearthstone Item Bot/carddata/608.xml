@@ -2,33 +2,33 @@
 <Entity version="2" CardID="NEW1_027e">
   <Tag name="CardName" enumID="185" type="String">
     <enUS>Yarrr!</enUS>
-    <zhTW>耶啊!</zhTW>
+    <zhTW>殺啊啊啊!</zhTW>
     <zhCN>呀！</zhCN>
     <ruRU>Аррр!</ruRU>
     <ptBR>Iaar!</ptBR>
     <plPL>Yarrr!</plPL>
-    <koKR>야아아아아!</koKR>
+    <koKR>요호호호!</koKR>
     <itIT>Arrr!</itIT>
-    <frFR>Yarr !</frFR>
-    <esMX>¡Yarrr!</esMX>
-    <esES>¡Yarrr!</esES>
+    <frFR>Yarrr !</frFR>
+    <esMX>¡Aarrrr!</esMX>
+    <esES>¡Arrr!</esES>
     <deDE>Yarrr!</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Southsea Captain is granting +1/+1.</enUS>
-    <zhTW>Southsea Captain is granting +1/+1.</zhTW>
-    <zhCN>Southsea Captain is granting +1/+1.</zhCN>
-    <ruRU>Southsea Captain is granting +1/+1.</ruRU>
-    <ptBR>Southsea Captain is granting +1/+1.</ptBR>
-    <plPL>Southsea Captain is granting +1/+1.</plPL>
-    <koKR>Southsea Captain is granting +1/+1.</koKR>
-    <itIT>Southsea Captain is granting +1/+1.</itIT>
-    <frFR>Southsea Captain is granting +1/+1.</frFR>
-    <esMX>Southsea Captain is granting +1/+1.</esMX>
-    <esES>Southsea Captain is granting +1/+1.</esES>
-    <deDE>Southsea Captain is granting +1/+1.</deDE>
+    <zhTW>南海船長賦予了+1/+1</zhTW>
+    <zhCN>南海船长使其获得+1/+1</zhCN>
+    <ruRU>+1/+1 от &lt;i&gt;Капитана Южных морей&lt;/i&gt;.</ruRU>
+    <ptBR>Capitão dos Mares do Sul está concedendo +1/+1.</ptBR>
+    <plPL>Kapitan daje +1/+1.</plPL>
+    <koKR>남쪽바다 선장이 +1/+1 부여</koKR>
+    <itIT>+1/+1 dal Bucaniere Acquanera.</itIT>
+    <frFR>Capitaine des mers du Sud confère +1/+1.</frFR>
+    <esMX>El Capitán de los Mares del sur otorga +1/+1.</esMX>
+    <esES>El capitán de Mares del Sur otorga +1/+1.</esES>
+    <deDE>Der Südmeerkapitän verleiht +1/+1.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />

@@ -34,7 +34,7 @@
     <ptBR>Sempre que você lançar um feitiço, receba +2 de Ataque no mesmo turno.</ptBR>
     <plPL>Otrzymuje +2 do ataku w tej turze za każdym razem, gdy rzucisz zaklęcie.</plPL>
     <koKR>내가 주문을 시전할 때마다 이번 턴에만 공격력을 +2 얻습니다.</koKR>
-    <itIT>Ogni volta che lanci una Magia, la Manadipendente ottiene +2 Attacco per questo turno.</itIT>
+    <itIT>Ottiene +2 Attacco per quel turno quando lanci una Magia.</itIT>
     <esMX>Cada vez que lanzas un hechizo, obtiene +2 de Ataque en este turno.</esMX>
     <esES>Cada vez que lanzas un hechizo, obtiene +2 p. de ataque este turno.</esES>
     <deDE>Erhält jedes Mal +2 Angriff in diesem Zug, wenn Ihr einen Zauber wirkt.</deDE>
@@ -57,7 +57,7 @@
     <frFR>Elle tente de se défaire de cette mauvaise habitude, mais après une mauvaise journée, c’est dur de résister.</frFR>
     <esMX>Está tratando de dejar el hábito. Pero todavía toma un poco de maná de vez en cuando, si tiene un día difícil.</esMX>
     <esES>Está intentando dejarlo, pero sigue tomando maná cuando tiene un día duro.</esES>
-    <deDE>Sie versucht vom Mana weg zu kommen, aber sie nimmt immer noch ein wenig, wenn sie einen stressigen Tag hat.</deDE>
+    <deDE>Sie versucht vom Mana wegzukommen, aber sie nimmt immer noch ein wenig, wenn sie einen stressigen Tag hat.</deDE>
   </Tag>
   <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
   <Power definition="01a150d7-8384-46a0-8cb8-e54b24c2b0cf" />

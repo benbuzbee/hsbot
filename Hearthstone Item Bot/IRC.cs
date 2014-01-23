@@ -19,14 +19,15 @@ namespace HSBot
 
             Client.Encoding = new System.Text.UTF8Encoding(false);
         }
-
+        
+        private DateTime startTime = DateTime.Now;
         /**
          * Starts a thread that tries to keep the bot connected
          * */
         public void StartConnect()
         {
 
-
+            
             Client.OnConnect += OnConnect;
             Client.OnRawMessageReceived += OnRawMessageReceived;
             Client.OnRawMessageSent += OnRawMessageSent;
@@ -52,12 +53,12 @@ namespace HSBot
         private void OnRawMessageReceived(IrcClient sender, String message)
         {
          
-            Console.WriteLine("<--: {0}", message);
+            Console.WriteLine("{0} <-- {1}",DateTime.Now - startTime, message);
         }
         private void OnRawMessageSent(IrcClient sender, String message)
         {
 
-            Console.WriteLine("-->: {0}", message);
+            Console.WriteLine("{0} --> {1}", DateTime.Now - startTime, message);
         }
         private void OnConnect(IrcClient sender)
         {

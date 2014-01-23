@@ -8,7 +8,7 @@
     <ptBR>Sacerdotisa Jovem</ptBR>
     <plPL>Nowicjuszka</plPL>
     <koKR>젊은 여사제</koKR>
-    <itIT>Giovane Sacerdotessa</itIT>
+    <itIT>Giovane Vestale</itIT>
     <frFR>Jeune prêtresse</frFR>
     <esMX>Sacerdotisa joven</esMX>
     <esES>Sacerdotisa joven</esES>
@@ -25,11 +25,11 @@
     <enUS>At the end of your turn, give another random friendly minion +1 Health.</enUS>
     <zhTW>你的回合結束時，賦予另一個隨機友方手下+1生命值</zhTW>
     <zhCN>在你的回合结束时，使另一个随机友方随从获得+1生命值。</zhCN>
-    <ruRU>В конце вашего хода другое ваше существо получает +1 к здоровью.</ruRU>
+    <ruRU>В конце вашего хода другое ваше случайное существо получает +1 к здоровью.</ruRU>
     <ptBR>No fim do seu turno, conceda +1 de Vida a outro lacaio aliado aleatório.</ptBR>
     <plPL>Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do zdrowia.</plPL>
     <koKR>내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.</koKR>
-    <itIT>Alla fine del tuo turno, fornisce +1 Salute a un altro tuo servitore casuale.</itIT>
+    <itIT>Alla fine del tuo turno, +1 Salute a un altro tuo servitore casuale.</itIT>
     <frFR>À la fin de votre tour, donne +1 PV à un autre serviteur allié aléatoire.</frFR>
     <esMX>Al final de tu turno, otorga +1 de Salud a otro esbirro aliado aleatorio.</esMX>
     <esES>Al final de tu turno, otorga +1 p. de salud a otro esbirro amistoso aleatorio.</esES>

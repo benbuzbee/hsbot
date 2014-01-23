@@ -23,7 +23,7 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Deal $3 damage to a minion; or $1 damage and draw a card.</enUS>
-    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 |4(point, points) de dégâts à un serviteur ; ou inflige $1 |4(point,points) de dégâts et vous piochez une carte.</frFR>
+    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 |4(point, points) de dégâts à un serviteur ; ou inflige $1 |4(point,points) de dégâts à un serviteur et vous piochez une carte.</frFR>
     <zhTW>&lt;b&gt;二選一:&lt;/b&gt;對一個手下造成$3點傷害，或造成$1點傷害並抽一張牌</zhTW>
     <zhCN>&lt;b&gt;抉择&lt;/b&gt;：对一个随从造成$3点伤害；或者造成$1点伤害并抽一张牌。</zhCN>
     <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; наносит существу $3 ед. урона; или наносит $1 ед. урона существу и вы берете карту.</ruRU>

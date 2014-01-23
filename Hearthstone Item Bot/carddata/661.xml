@@ -30,7 +30,7 @@
     <ruRU>Наносит $1 ед. урона ВСЕМ существам.</ruRU>
     <ptBR>Cause $1 de dano a TODOS os lacaios.</ptBR>
     <plPL>Zadaj $1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
-    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 $1 줍니다.</koKR>
+    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 $1 주고 카드를 1장 뽑습니다.</koKR>
     <itIT>Infligge $1 danno a TUTTI i servitori.</itIT>
     <esMX>Inflige $1 de daño a TODOS los esbirros.</esMX>
     <esES>Inflige $1 p. de daño a todos los esbirros.</esES>
@@ -44,7 +44,7 @@
     <enUS>The way to tell seasoned warriors from novice ones: the novices yell "wheeeee" while whirlwinding.</enUS>
     <zhTW>要分辨老戰士和新手戰士的方法:菜鳥會在用旋風斬時大喊「耶!!」</zhTW>
     <zhCN>分辨资深战士和新手战士的最好办法：新手在用旋风斩时会喊“哇哇哇”。</zhCN>
-    <ruRU>Лучший способ отличить закаленного в боях волшебника от новичка: последние всегда радостно вопят, применяя это заклинание.</ruRU>
+    <ruRU>Лучший способ отличить закаленного в боях воина от новичка: последние всегда радостно вопят, пользуясь этой способностью.</ruRU>
     <ptBR>Uma maneira de distinguir os guerreiros experientes dos novatos: os novatos gritam "urruuuuul" enquanto giram no Redemoinho.</ptBR>
     <plPL>Sposób na rozróżnienie doświadczonych wojowników od żółtodziobów: ci drudzy wołają „fruuuu” rozpoczynając młyniec.</plPL>
     <koKR>노련한 전사와 풋내기 전사의 차이점은 간단합니다. 풋내기들은 소용돌이를 쓰면서 "이얏호!"라고 외치죠.</koKR>

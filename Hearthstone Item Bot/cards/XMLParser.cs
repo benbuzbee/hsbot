@@ -188,7 +188,7 @@ namespace HSBot.Cards
                     if ( type != null)
                     {
                         card.Type = int.Parse(type.Attributes["value"].Value);
-                        if (card.Type == (int)Card.CardType.HERO) // Heros? 3 included the Hero "Hogger" 0/10 -- 4 may be creatures -- 7 may be weapons (warrior)
+                        if (card.Type == (int)Card.CardType.HERO || card.Type == (int)Card.CardType.EFFECT) // Heros? 3 included the Hero "Hogger" 0/10 -- 4 may be creatures -- 7 may be weapons (warrior)
                             continue;
                     }
 
@@ -208,7 +208,14 @@ namespace HSBot.Cards
 
                
             }
-
+            Card hearthbot = new Card("CUSTOM_HEARTHBOT");
+            hearthbot.SetName("enUS", "HearthBot");
+            hearthbot.Cost = 10000;
+            hearthbot.Health = hearthbot.Attack = 10000;
+            hearthbot.Cost = 10000;
+            hearthbot.Class = Card.ClassValues.ALL;
+            hearthbot.SetDescription("enUS",@"<b>Charge.</b> Ignores all taunts. Attacks an infinite number of times. To get it, go here: https://github.com/aca20031/hsbot/");
+            cards.Add(hearthbot);
             return cards;
         }
     }

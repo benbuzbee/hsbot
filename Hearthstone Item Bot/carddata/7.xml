@@ -18,18 +18,18 @@
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Blood Imp is granting +1 Health.</enUS>
-    <frFR>Le diablotin de sang confère +1 PV.</frFR>
-    <zhTW>血之小鬼賦予了+1生命值</zhTW>
-    <zhCN>鲜血小鬼使其获得+1生命值。</zhCN>
-    <ruRU>+1 к здоровью от &lt;i&gt;Кровавого беса&lt;/i&gt;.</ruRU>
-    <ptBR>O Diabrete de Sangue está concedendo +1 de Vida.</ptBR>
-    <plPL>Chochlik krwi daje +1 do zdrowia.</plPL>
-    <koKR>피의 임프가 생명력 +1 부여</koKR>
-    <itIT>+1 Salute dall'Imp del Sangue.</itIT>
-    <esMX>El Diablillo de sangre otorga +1 de Salud.</esMX>
-    <esES>El diablillo sangriento otorga +1 p. de salud.</esES>
-    <deDE>Der Blutwichtel verleiht +1 Leben.</deDE>
+    <enUS>Increased Health.</enUS>
+    <frFR>Vie augmentée.</frFR>
+    <zhTW>生命值提高。</zhTW>
+    <zhCN>生命值增加。</zhCN>
+    <ruRU>Здоровье увеличено.</ruRU>
+    <ptBR>Vida aumentada.</ptBR>
+    <plPL>Zwiększone zdrowie.</plPL>
+    <koKR>생명력 증가</koKR>
+    <itIT>Salute aumentata.</itIT>
+    <esMX>Salud aumentada.</esMX>
+    <esES>Salud aumentada.</esES>
+    <deDE>Erhöhtes Leben.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />

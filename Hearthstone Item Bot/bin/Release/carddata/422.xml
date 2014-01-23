@@ -31,7 +31,7 @@
     <ptBR>Cause $2 de dano a um personagem. Se ele morrer, evoque um Demônio aleatório.</ptBR>
     <plPL>Zadaj $2 pkt. obrażeń dowolnej postaci. Jeśli ją zabijesz, przyzwij losowego demona.</plPL>
     <koKR>캐릭터 하나에게 피해를 $2 줍니다. 그 캐릭터가 죽으면 무작위 악마 하나를 소환합니다.</koKR>
-    <itIT>Infligge $2 danni a un personaggio. Se il bersaglio muore, evoca un Demone casuale.</itIT>
+    <itIT>Infligge $2 danni. Se il bersaglio muore, evoca un Demone casuale.</itIT>
     <esMX>Inflige $2 de daño a un personaje. Si es suficiente para matarlo, invoca un Demonio aleatorio.</esMX>
     <esES>Inflige $2 p. de daño a un personaje. Si eso lo mata, invoca a un demonio aleatorio.</esES>
     <deDE>Fügt einem Charakter $2 Schaden zu. Beschwört einen zufälligen Dämon, wenn der Schaden tödlich ist.</deDE>

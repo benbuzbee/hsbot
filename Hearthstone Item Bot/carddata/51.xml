@@ -22,20 +22,20 @@
   <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give a friendly minion &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <zhTW>賦予一個友方手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>在本回合中，使一个友方随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Ваше выбранное существо получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Conceda &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado.</ptBR>
-    <plPL>Daj przyjaznemu stronnikowi &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>아군 하수인 하나에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>Fornisce &lt;b&gt;Carica&lt;/b&gt; a un tuo servitore.</itIT>
-    <frFR>Confère &lt;b&gt;Charge&lt;/b&gt; à un serviteur allié.</frFR>
-    <esMX>Otorga &lt;b&gt;Carga&lt;/b&gt; a un esbirro aliado.</esMX>
-    <esES>Otorga &lt;b&gt;Cargar&lt;/b&gt; a un esbirro amistoso.</esES>
-    <deDE>Verleiht einem befreundeten Diener &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+    <enUS>Give a friendly minion +2 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <zhTW>賦予一個友方手下+2攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>使一个友方随从获得+2攻击力和&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Ваше выбранное существо получает +2 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Conceda +2 de Ataque e &lt;b&gt;Investida&lt;/b&gt; a um lacaio aliado neste turno.</ptBR>
+    <plPL>Daj przyjaznemu stronnikowi +2 do ataku i &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>아군 하수인 하나에게 공격력 +2와 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Carica&lt;/b&gt; e +2 Attacco a un tuo servitore.</itIT>
+    <frFR>Confère +2 ATQ et &lt;b&gt;Charge&lt;/b&gt; à un serviteur allié.</frFR>
+    <esMX>Otorga +2 de Ataque y &lt;b&gt;Carga&lt;/b&gt; a un esbirro aliado.</esMX>
+    <esES>Otorga +2 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt; a un esbirro amistoso.</esES>
+    <deDE>Verleiht einem befreundeten Diener +2 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />

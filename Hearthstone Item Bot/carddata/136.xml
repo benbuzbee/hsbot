@@ -20,7 +20,7 @@
   <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
@@ -32,7 +32,7 @@
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 e &lt;b&gt;Provocar&lt;/b&gt; aos lacaios adjacentes.</ptBR>
     <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj sąsiednim stronnikom +1/+1 oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
     <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 양옆의 하수인들에게 +1/+1과 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +1/+1 e &lt;b&gt;Provocazione&lt;/b&gt; ai servitori adiacenti.</itIT>
     <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +1/+1 y &lt;b&gt;Provocación&lt;/b&gt; a los esbirros adyacentes.</esMX>
     <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 y &lt;b&gt;Provocar&lt;/b&gt; a los esbirros adyacentes.</esES>
     <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht benachbarten Dienern +1/+1 und &lt;b&gt;Spott&lt;/b&gt;.</deDE>

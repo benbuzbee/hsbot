@@ -24,18 +24,18 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other minions have &lt;b&gt;Charge&lt;/b&gt;.</enUS>
-    <frFR>Vos autres serviteurs ont &lt;b&gt;Charge&lt;/b&gt;.</frFR>
-    <zhTW>你的其他手下擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>你的其他随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
-    <ruRU>Другие ваши существа получают способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
-    <ptBR>Seus demais lacaios ganham &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
-    <plPL>Twoi pozostali stronnicy otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
-    <koKR>나의 다른 하수인들이 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
-    <itIT>Gli altri tuoi servitori hanno &lt;b&gt;Carica&lt;/b&gt;.</itIT>
-    <esMX>Tus otros esbirros tienen &lt;b&gt;Carga&lt;/b&gt;.</esMX>
-    <esES>Tus demás esbirros tienen &lt;b&gt;Cargar&lt;/b&gt;.</esES>
-    <deDE>Eure anderen Diener haben &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
+    <enUS>Whenever you summon a minion with 3 or less Attack, give it &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Chaque fois que vous invoquez un serviteur avec 3 ATQ ou moins, lui confère &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>每當你召喚攻擊力在3點以下的手下，賦予該手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>每当你召唤一个攻击力小于或等于3的随从，使该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Каждый раз, когда вы призываете существо с атакой 3 или меньше, оно получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Toda vez que evocar um lacaio com 3 ou menos de Ataque, conceda &lt;b&gt;Investida&lt;/b&gt; a ele.</ptBR>
+    <plPL>Twoi stronnicy z atakiem 3 lub mniejszym otrzymują &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Quando evochi un servitore con Attacco pari a 3 o inferiore, gli fornisce &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+    <esMX>Cada vez que invocas a un esbirro con 3 de Ataque o menos, le otorga &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Cada vez que invocas a un esbirro con 3 p. de ataque o menos, este recibe &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Jedes Mal, wenn Ihr einen Diener mit max. 3 Angriff herbeiruft, erhält dieser &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
@@ -58,15 +58,14 @@
     <ptBR>O Clã Brado Guerreiro tem &lt;i&gt;tanto drama&lt;/i&gt; que nem vale a pena subir de patente.</ptBR>
     <plPL>Są dumni z nazwy swojego klanu - choć zdaniem elfów tą pieśnią jest „Nic się nie stało, orki, nic się nie stało...”</plPL>
     <koKR>그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?</koKR>
-    <itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un capitano Cantaguerra.</itIT>
+    <itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un Capitano Cantaguerra.</itIT>
     <frFR>Le clan Chanteguerre se la &lt;i&gt;joue&lt;/i&gt; trop. Ça ne vaut pas vraiment le coup de devenir officier.</frFR>
     <esMX>El clan Grito de guerra es &lt;i&gt;drama, drama, drama&lt;/i&gt;. La verdad, no vale la pena llegar a comandante.</esMX>
     <esES>El clan Grito de Guerra es muy estresante. Siempre están corriendo en busca de banderas.</esES>
     <deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
   </Tag>
-  <Tag name="GrantCharge" enumID="355" type="Bool" value="1" />
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
   <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="b241283b-6883-4897-b7a3-9a4a33b848f5" />
-  <Power definition="33a1e034-5156-4d78-9a4c-c61f9c70c8fe" />
+  <Power definition="8c9fbc93-a02a-4e43-9794-1cdd2c13e1f5" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

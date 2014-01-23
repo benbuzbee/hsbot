@@ -26,7 +26,7 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Divine Shield&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère &lt;b&gt;Bouclier divin&lt;/b&gt; à un serviteur.</frFR>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère &lt;b&gt;Bouclier divin&lt;/b&gt; à un serviteur allié.</frFR>
     <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下&lt;b&gt;聖盾術&lt;/b&gt;</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个其他友方随从获得&lt;b&gt;圣盾&lt;/b&gt;。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает способность &lt;b&gt;«Божественный щит»&lt;/b&gt;.</ruRU>
@@ -64,7 +64,7 @@
     <zhCN>”我没说你能够躲过火球。我是说有了这盾，你就不需要躲了。“</zhCN>
     <ruRU>«Я и не говорю, что ты можешь уклониться от огненного шара. Но с моим щитом тебе это не понадобится.»</ruRU>
     <ptBR>"Não estou dizendo que você pode desviar de bolas de fogo. Mas com este escudo, você não vai precisar."</ptBR>
-    <plPL>„Nie znaczy to, że możesz teraz uchylać się przed kulami ognia. Dzięki tej tarczy nie będziesz musiał."</plPL>
+    <plPL>„Nie znaczy to, że możesz teraz uchylać się przed kulami ognia. Dzięki tej tarczy nie będziesz musiał”.</plPL>
     <koKR>"화염구를 피할 수 있다고 말하는 게 아닙니다. 이 보호막이 있으면 피할 필요가 없다는 거지요."</koKR>
     <itIT>"Potrai anche schivare le palle di fuoco, ma con questo scudo non ne avrai bisogno."</itIT>
     <frFR>« Je ne dis pas que tu peux éviter les boules de feu. Non. ce que je veux dire, c’est qu’avec ce bouclier, tu ne les sentiras plus. »</frFR>

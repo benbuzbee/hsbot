@@ -30,7 +30,7 @@
     <ptBR>&lt;b&gt;Congele&lt;/b&gt; um personagem. Se ele já estiver &lt;b&gt;Congelado&lt;/b&gt;, cause $4 de dano.</ptBR>
     <plPL>&lt;b&gt;Zamroź&lt;/b&gt; postać. Jeśli była już &lt;b&gt;Zamrożona&lt;/b&gt;, zadaj zamiast tego $4 pkt. obrażeń.</plPL>
     <koKR>캐릭터 하나를 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다. 이미 &lt;b&gt;빙결&lt;/b&gt; 상태라면 피해를 $4 줍니다.</koKR>
-    <itIT>Causa &lt;b&gt;Congelamento&lt;/b&gt; a un personaggio. Se è già &lt;b&gt;Congelato&lt;/b&gt;, infligge $4 danni.</itIT>
+    <itIT>&lt;b&gt;Congela&lt;/b&gt; un personaggio. Se è già &lt;b&gt;Congelato&lt;/b&gt;, infligge $4 danni.</itIT>
     <esMX>&lt;b&gt;Congela&lt;/b&gt; a un personaje. Si ya estaba &lt;b&gt;Congelado&lt;/b&gt;, entonces le inflige $4 de daño.</esMX>
     <esES>&lt;b&gt;Congela&lt;/b&gt; a un personaje. Si ya estaba &lt;b&gt;congelado&lt;/b&gt;, en su lugar inflige $4 p. de daño.</esES>
     <deDE>&lt;b&gt;Friert&lt;/b&gt; einen Charakter ein. Wenn er bereits &lt;b&gt;eingefroren&lt;/b&gt; ist, werden ihm stattdessen $4 Schaden zugefügt.</deDE>

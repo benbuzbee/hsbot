@@ -17,20 +17,22 @@
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack.</enUS>
-    <frFR>+2 ATQ.</frFR>
-    <zhTW>+2攻擊力</zhTW>
-    <zhCN>+2攻击力。</zhCN>
-    <ruRU>+2 к атаке.</ruRU>
-    <ptBR>+2 de Ataque</ptBR>
-    <plPL>+2 do ataku.</plPL>
-    <koKR>공격력 +2</koKR>
-    <itIT>+2 Attacco.</itIT>
-    <esMX>+2 de Ataque.</esMX>
-    <esES>+2 p. de ataque.</esES>
-    <deDE>+2 Angriff.</deDE>
+    <enUS>+2 Attack this turn.</enUS>
+    <frFR>+2 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合+2攻擊力</zhTW>
+    <zhCN>本回合获得+2攻击力。</zhCN>
+    <ruRU>+2 к атаке до конца хода.</ruRU>
+    <ptBR>+2 de Ataque neste turno.</ptBR>
+    <plPL>+2 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 공격력 +2</koKR>
+    <itIT>+2 Attacco per questo turno.</itIT>
+    <esMX>+2 de Ataque en este turno.</esMX>
+    <esES>+2 p. de ataque este turno.</esES>
+    <deDE>+2 Angriff in diesem Zug.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
   <Power definition="95990bd4-b96e-4aa2-92c0-fb76c1300033" />
+  <Power definition="b4f1eb9f-09bb-45a3-bbe6-8dabad819307" />
 </Entity>

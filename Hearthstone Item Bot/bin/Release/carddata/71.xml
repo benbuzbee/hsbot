@@ -24,7 +24,7 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>Put a copy of a random card in your opponent's hand into your hand.</enUS>
-    <frFR>Place une copie d’une carte aléatoire de l’adversaire dans votre main.</frFR>
+    <frFR>Place une copie d’une carte aléatoire de la main de l’adversaire dans la vôtre.</frFR>
     <zhTW>從對手手上複製一張隨機卡片，並放到你的手牌裡</zhTW>
     <zhCN>随机复制你的对手手牌中的一张牌，将其置入你的手牌。</zhCN>
     <ruRU>Вы кладете в руку копию случайной карты из руки противника.</ruRU>

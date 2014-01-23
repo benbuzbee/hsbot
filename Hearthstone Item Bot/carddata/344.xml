@@ -24,17 +24,17 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Hero Power&lt;/b&gt;\n +1 Attack this turn.  +1 Armor.</enUS>
-    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt; \n+1 ATQ pendant ce tour. +1 Armure.</frFR>
-    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n本回合+1攻擊力。+1護甲值</zhTW>
-    <zhCN>英雄技能 \n获得1点护甲值，并在本回合中获得+1攻击力。</zhCN>
-    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\n +1 к атаке до конца хода. +1 к броне. </ruRU>
-    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\n +1 de Ataque neste turno. +1 de Armadura.</ptBR>
-    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n +1 do ataku w tej turze. +1 do pancerza.</plPL>
-    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\n 방어도 +1. 이번 턴에만 공격력 +1.</koKR>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\n+1 ATQ pendant ce tour.\n+1 Armure.</frFR>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n本回合+1攻擊力。\n+1護甲值</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n本回合+1攻击力。\n+1护甲值。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\n +1 к атаке до конца хода.\n+1 к броне. </ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\n+1 de Ataque neste turno.\n+1 de Armadura.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt; \n +1 do ataku w tej turze.\n +1 do pancerza.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\n 방어도 +1.\n이번 턴에만 공격력 +1.</koKR>
     <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\n+1 Attacco per questo turno e +1 Armatura.</itIT>
-    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\n +1 de Ataque en este turno. +1 de Armadura.</esMX>
-    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\n +1 p. de ataque este turno. +1 p. de armadura.</esES>
-    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt; \n +1 Angriff in diesem Zug. +1 Rüstung.</deDE>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\n+1 de Ataque en este turno.\n+1 de Armadura.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\n+1 p. de ataque este turno.\n+1 p. de armadura.</esES>
+    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\n+1 Angriff in diesem Zug.\n+1 Rüstung.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />

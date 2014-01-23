@@ -9,7 +9,7 @@
     <ptBR>Clériga do Sol Partido</ptBR>
     <plPL>Kapłanka Straceńczego Słońca</plPL>
     <koKR>무너진 태양 성직자</koKR>
-    <itIT>Chierica del Sole Infranto</itIT>
+    <itIT>Chierica Sole Infranto</itIT>
     <frFR>Clerc du Soleil brisé</frFR>
     <esMX>Clériga Sol devastado</esMX>
     <esES>Clériga Sol Devastado</esES>
@@ -25,13 +25,13 @@
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
     <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion +1/+1.</enUS>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;赋予一個友方手下+1/+1</zhTW>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予一個友方手下+1/+1</zhTW>
     <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得+1/+1。</zhCN>
     <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает +1/+1.</ruRU>
     <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +1/+1 a um lacaio aliado.</ptBR>
     <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi +1/+1.</plPL>
     <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인 하나에게 +1/+1을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce +1/+1 a un altro tuo servitore.</itIT>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +1/+1 a un altro tuo servitore.</itIT>
     <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +1/+1 à un serviteur allié.</frFR>
     <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +1/+1 a un esbirro aliado.</esMX>
     <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +1/+1 a un esbirro amistoso.</esES>
