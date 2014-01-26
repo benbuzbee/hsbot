@@ -17,7 +17,8 @@ namespace HSBot
 
         public static String IRCHost { get; private set; }
         public static int IRCPort { get; private set; }
-        public static String IRCChannel { get; private set; }
+        private static List<String> channels = new List<String>();
+        public static String[] IRCChannels { get { return channels.ToArray(); } }
         public static String IRCNick { get; private set; }
         public static String IRCName { get; private set; }
         public static String IRCUser { get; private set; }
@@ -37,7 +38,15 @@ namespace HSBot
             MaxCardNameLength = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardnamelength").InnerText);
 
             IRCHost = doc.DocumentElement.SelectSingleNode("/config/irc/host").InnerText;
-            IRCChannel = doc.DocumentElement.SelectSingleNode("/config/irc/channel").InnerText;
+
+            channels.Clear();
+            foreach (var channelNode in doc.DocumentElement.SelectNodes("/config/irc/channel"))
+            {
+                channels.Add(((XmlNode)channelNode).InnerText);
+            }
+            //IRCChannel = doc.DocumentElement.SelectSingleNode("/config/irc/channel").InnerText;
+
+
             IRCPort = int.Parse(doc.DocumentElement.SelectSingleNode("/config/irc/port").InnerText);
             IRCReconnectTime = int.Parse(doc.DocumentElement.SelectSingleNode("/config/irc/reconnecttime").InnerText);
 

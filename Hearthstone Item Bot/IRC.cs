@@ -62,8 +62,8 @@ namespace HSBot
         }
         private void OnConnect(IrcClient sender)
         {
-
-            sender.SendRawMessage("JOIN {0}",Config.IRCChannel).Wait();
+            foreach (String channel in Config.IRCChannels)
+                sender.SendRawMessage("JOIN {0}",channel).Wait();
  
         }
         Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
