@@ -11,6 +11,8 @@ namespace HSBot.Cards
     {
         public static void Extract(String fromFile, String toDirectory)
         {
+            if (!Directory.Exists(toDirectory))
+                Directory.CreateDirectory(toDirectory);
             if (!File.Exists(fromFile) || !Directory.Exists(toDirectory))
                 throw new IOException("Cannot read source file or target directory");
 

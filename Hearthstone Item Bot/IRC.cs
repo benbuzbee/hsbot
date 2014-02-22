@@ -66,7 +66,7 @@ namespace HSBot
                 sender.SendRawMessage("JOIN {0}",channel).Wait();
  
         }
-        Regex regex = new Regex(@"\[([^\d][^\]]+)\]");
+        Regex regex = new Regex(@"\[([^\d][^\]]+)\]([^a-zA-Z]|$)");
         private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
             // If its to me (the bot), then respond to source. Otherwise, respond to target (channel)
@@ -123,7 +123,7 @@ namespace HSBot
             if (c == null)
                 this.Message(source, "The card was not found.");
             else
-                Message(source, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", ""));
+                Message(source, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", "").Replace(" \\n","."));
         }
 
 

@@ -13,7 +13,10 @@ namespace HSBot
             
             
             
-            
+
+
+
+
             Config.Reload();
             
             Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone","InstallLocation",null);
@@ -37,6 +40,19 @@ namespace HSBot
                 Cards.FileExtractor.Extract(cardData,Config.DataDirectory);
 
             IRC irc = new IRC();
+            // Temp:
+            irc.Client.OnRfcPrivmsg += (sender, source, target, message) =>
+            {
+                if (message.StartsWith("@dumpusers "))
+                {
+                    benbuzbee.LRTIRC.Channel channel = sender.GetChannel(message.Split(' ')[1]);
+                    IEnumerable<benbuzbee.LRTIRC.ChannelUser> users = channel.Users.Values.OrderBy<benbuzbee.LRTIRC.ChannelUser, String>((usr) => usr.Prefixes + usr.Nick);
+                    foreach (var usr in users)
+                    {
+                        Console.WriteLine("{0}{1}", usr.Prefixes, usr.Nick);
+                    }
+                }
+            };
             irc.StartConnect();
             Console.CancelKeyPress += (s, e) => {
                 irc.Client.SendRawMessage("QUIT :Be right back!").Wait(5000);
