@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="TU4e_006">
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Metamorphosis</enUS>
+    <frFR>Métamorphe</frFR>
+    <zhTW>惡魔化身</zhTW>
+    <zhCN>恶魔变形</zhCN>
+    <ruRU>Метаморфоза</ruRU>
+    <ptBR>Metamorfose</ptBR>
+    <plPL>Metamorfoza</plPL>
+    <koKR>탈태</koKR>
+    <itIT>Mutazione</itIT>
+    <esMX>Metamorfosis</esMX>
+    <esES>Metamorfosis</esES>
+    <deDE>Metamorphose</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Do something crazy.</enUS>
+    <frFR>Fait un truc fou.</frFR>
+    <zhTW>做件瘋狂的事</zhTW>
+    <zhCN>疯狂至极。</zhCN>
+    <ruRU>Делает нечто безумное.</ruRU>
+    <ptBR>Faça uma loucura.</ptBR>
+    <plPL>Robisz coś szalonego.</plPL>
+    <koKR>정신 나간 짓을 해보십시오.</koKR>
+    <itIT>Combina qualcosa di folle.</itIT>
+    <esMX>Haz algo loco.</esMX>
+    <esES>Haz una locura.</esES>
+    <deDE>Macht etwas ganz Verrücktes.</deDE>
+  </Tag>
+</Entity>

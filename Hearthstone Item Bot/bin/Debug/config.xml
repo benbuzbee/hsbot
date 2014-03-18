@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<config>
+
+  <cards>
+    <datadir>carddata</datadir>
+    
+    <!-- The maximum length a single card can be, if it is higher the lookup will be ignored -->
+    <maxcardnamelength>30</maxcardnamelength>
+    <!-- The maximum cards the bot will message in one go, not recommended to put higher than 3. -->
+    <maxcardsperline>3</maxcardsperline>
+  
+  </cards>
+  
+  <irc>
+    <host>irc.quakenet.org</host>
+    <!-- Not used yet...-->
+    <port>6667</port>
+
+
+    <nick>HearthBot2</nick>
+    <name>Hearthstone IRC Bot</name>
+    <user>HearthBot</user>
+    <channel>#foobarsda</channel>
+    <!-- Time before timeout in miliseconds -->
+    <reconnecttime>300000</reconnecttime>
+  </irc>
+  
+</config>

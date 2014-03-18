@@ -44,7 +44,8 @@ namespace benbuzbee.LRTIRC
         #endregion Properties
 
         #region Private Members
-        private Object registrationLock = new Object();
+        private Object _registrationLock = new Object();
+        private System.Threading.SemaphoreSlim _streamSemaphore = new System.Threading.SemaphoreSlim(1, 1);
         /// <summary>
         /// These are channels which this user is in
         /// </summary>
@@ -52,6 +53,7 @@ namespace benbuzbee.LRTIRC
         private System.IO.StreamReader streamReader;
         private System.IO.StreamWriter streamWriter;
         private System.Timers.Timer timeoutTimer = new System.Timers.Timer();
+        private System.Timers.Timer pingTimer = new System.Timers.Timer();
         public class ServerInfoType
         {
             private String _PREFIX;
@@ -117,14 +119,15 @@ namespace benbuzbee.LRTIRC
             OnRawMessageReceived += PingHandler;
             OnRawMessageReceived += NumericHandler;
             OnRawMessageReceived += PrivmsgHandler;
-            OnRfcNumeric += (sender, source, numeric, target, other) => { if (numeric == 1 && OnConnect != null) OnConnect(this); };
+            OnRfcNumeric += (sender, source, numeric, target, other) => { if (numeric == 1 && OnConnect != null) foreach (var d in OnConnect.GetInvocationList()) Task.Run(() => d.DynamicInvoke(this)); };
             OnRfcNumeric += (sender, source, numeric, target, other) =>
             {
                 if (numeric == 353 && OnNamesReply != null)
                 {
                     String[] words = other.Split(' ');
                     String channel = words[1];
-                    OnNamesReply(this, channel, other.Substring(other.IndexOf(':') + 1));
+                    foreach (var d in OnNamesReply.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(this, channel, other.Substring(other.IndexOf(':') + 1)));
                 }
             };
 
@@ -141,7 +144,8 @@ namespace benbuzbee.LRTIRC
                         else
                             parameters[token] = "";
                     }
-                    OnISupport(this, parameters);
+                    foreach (var d in OnISupport.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(this, parameters));
                 }
             };
             OnConnect += (sender) => { lock (channels) { channels.Clear(); } };
@@ -160,11 +164,15 @@ namespace benbuzbee.LRTIRC
                 }
                 catch (KeyNotFoundException) { };
                 if (parameters.ContainsKey("UHNAMES"))
-                    SendRawMessage("PROTOCTL UHNAMES");
+                {
+                    var task = SendRawMessage("PROTOCTL UHNAMES");
+                }
 
 
                 if (parameters.ContainsKey("NAMESX"))
-                    SendRawMessage("PROTOCTL NAMESX");
+                {
+                    var task = SendRawMessage("PROTOCTL NAMESX");
+                }
 
             };
 
@@ -173,7 +181,8 @@ namespace benbuzbee.LRTIRC
                 String[] tokens = message.Split(' ');
                 if (OnRfcJoin != null && tokens.Length >= 3 && tokens[1].Equals("JOIN"))
                 {
-                    OnRfcJoin(this, tokens[0].Replace(":", ""), tokens[2].Replace(":", ""));
+                    foreach (var d in OnRfcJoin.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(this, tokens[0].Replace(":", ""), tokens[2].Replace(":", "")));
                 }
             };
 
@@ -217,7 +226,8 @@ namespace benbuzbee.LRTIRC
                     String source = tokens[0].Replace(":", ""), channel = tokens[2], target = tokens[3];
                     String reason = message.Substring(message.IndexOf(':', 1));
                     if (OnRfcKick != null)
-                        OnRfcKick(this, source, target, channel, reason);
+                        foreach (var d in OnRfcKick.GetInvocationList())
+                            Task.Run(() => d.DynamicInvoke(this, source, target, channel, reason));
                 }
             };
             // Catches a part
@@ -227,7 +237,8 @@ namespace benbuzbee.LRTIRC
                 if (OnRfcPart != null && tokens.Length >= 3 && tokens[1].Equals("PART"))
                 {
                     String reason = tokens.Length >= 4 ? message.Substring(message.IndexOf(':', 1)) : null;
-                    OnRfcPart(this, tokens[0].Replace(":", ""), tokens[2], reason);
+                    foreach (var d in OnRfcPart.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(this, tokens[0].Replace(":", ""), tokens[2], reason));
                 }
             };
             OnRawMessageReceived += (sender, message) =>
@@ -235,7 +246,8 @@ namespace benbuzbee.LRTIRC
                 String[] tokens = message.Split(' ');
                 if (tokens.Length >= 4 && tokens[1].Equals("MODE") && OnRfcMode != null)
                 {
-                    OnRfcMode(sender, tokens[0].Replace(":", ""), tokens[2], message.Substring(message.IndexOf(tokens[2]) + tokens[2].Length + 1));
+                    foreach (var d in OnRfcMode.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), tokens[2], message.Substring(message.IndexOf(tokens[2]) + tokens[2].Length + 1)));
                 }
 
             };
@@ -344,7 +356,8 @@ namespace benbuzbee.LRTIRC
             {
                 String[] tokens = message.Split(' ');
                 if (tokens.Length >= 3 && tokens[1].Equals("NICK") && OnRfcNick != null)
-                    OnRfcNick(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", ""));
+                    foreach (var d in OnRfcNick.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", "")));
 
             };
 
@@ -370,7 +383,8 @@ namespace benbuzbee.LRTIRC
                 String[] tokens = message.Split(' ');
                 if (tokens.Length >= 3 && OnRfcQuit != null && tokens[1].Equals("QUIT"))
                 {
-                    OnRfcQuit(sender, tokens[0].Replace(":", ""), message.Substring(message.IndexOf(":", 1)));
+                    foreach (var d in OnRfcQuit.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), message.Substring(message.IndexOf(":", 1))));
                 }
             };
             OnRfcQuit += (sender, source, message) =>
@@ -393,7 +407,7 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public void Disconnect()
         {
-            lock (registrationLock)
+            lock (_registrationLock)
             {
                 Connected = false;
                 Registered = false;
@@ -416,6 +430,13 @@ namespace benbuzbee.LRTIRC
                 timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
                 timeoutTimer.Start();
             }
+            lock (pingTimer)
+            {
+                pingTimer.Dispose();
+                pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
+                pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
+                pingTimer.Start();
+            }
         }
         /// <summary>
         /// Connects to the server with the provided details
@@ -430,7 +451,7 @@ namespace benbuzbee.LRTIRC
         public async Task Connect(String nick, String user, String realname, String host, int port = 6667, String password = null)
         {
 
-            lock (registrationLock)
+            lock (_registrationLock)
             {
                 Disconnect();
                 // Establish connection           
@@ -444,7 +465,10 @@ namespace benbuzbee.LRTIRC
             {
                 Exception = connectTask.Exception;
                 if (OnException != null)
-                    OnException(this, connectTask.Exception);
+                    foreach (var d in OnException.GetInvocationList())
+                    {
+                        var task = Task.Run(() => d.DynamicInvoke(this, connectTask.Exception));
+                    }
                 throw connectTask.Exception; // If connect failed
             }
 
@@ -457,39 +481,74 @@ namespace benbuzbee.LRTIRC
 
             // Register handler to on connect event
             OnRawMessageReceived += RegisterHandler;
-            var readTask = streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
-        }
 
+            await _streamSemaphore.WaitAsync();
+            try
+            {
+                var readLineTask = streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
+            }
+            catch (Exception e)
+            {
+                Exception = e;
+                if (OnException != null)
+                    foreach (var d in OnException.GetInvocationList())
+                    {
+                        var task = Task.Run(() => d.DynamicInvoke(this, e));
+                    }
+            }
+            finally
+            {
+                _streamSemaphore.Release();
+            }
+
+
+
+
+        }
+        public async Task<bool> SendRawMessage(String format, params String[] formatParameters)
+        {
+            return await SendRawMessage(String.Format(format, formatParameters));
+        }
         /// <summary>
         /// Sends an EOL-terminated message to the server (\n is appended by this method)
         /// </summary>
         /// <param name="format">Format of message to send</param>
         /// <param name="formatParameters">Format parameters</param>
         /// <returns></returns>
-        public async Task<bool> SendRawMessage(String format, params String[] formatParameters)
+        public async Task<bool> SendRawMessage(String message)
         {
 
-            String message = String.Format(format, formatParameters);
             try
             {
-                Task t = streamWriter.WriteLineAsync(message);
-                await t;
-                if (t.Exception != null) throw t.Exception;
-                t = streamWriter.FlushAsync();
-                await t;
-                if (t.Exception != null) throw t.Exception;
-                if (OnRawMessageSent != null)
-                    OnRawMessageSent(this, message);
-                return true;
+                await _streamSemaphore.WaitAsync();
+
+                await streamWriter.WriteLineAsync(message);
+
+                await streamWriter.FlushAsync();
+
+
+
+
             }
             catch (Exception e)
             {
                 Exception = e;
                 if (OnException != null)
-                    OnException(this, e);
+                    foreach (var d in OnException.GetInvocationList())
+                    {
+                        var task = Task.Run(() => d.DynamicInvoke(this, e));
+                    }
                 return false;
             }
+            finally { _streamSemaphore.Release(); }
 
+            if (OnRawMessageSent != null)
+                foreach (var d in OnRawMessageSent.GetInvocationList())
+                {
+                    var task = Task.Run(() => d.DynamicInvoke(this, message));
+                }
+
+            return true;
 
 
 
@@ -506,8 +565,10 @@ namespace benbuzbee.LRTIRC
 
                 if (task.Exception == null && task.Result != null)
                 {
-
-                    streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
+                    lock (streamReader.BaseStream)
+                    {
+                        streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
+                    }
                 }
                 else if (task.Result == null)
                     throw new System.IO.EndOfStreamException();
@@ -516,7 +577,9 @@ namespace benbuzbee.LRTIRC
 
                 if (OnRawMessageReceived != null)
                 {
-                    OnRawMessageReceived(this, task.Result);
+                    foreach (var d in OnRawMessageReceived.GetInvocationList())
+                        Task.Run(() => d.DynamicInvoke(this, task.Result));
+
                 }
 
             }
@@ -524,7 +587,10 @@ namespace benbuzbee.LRTIRC
             {
                 Exception = e;
                 if (OnException != null)
-                    OnException(this, e);
+                    foreach (var d in OnException.GetInvocationList())
+                    {
+                        var task2 = Task.Run(() => d.DynamicInvoke(this, e));
+                    }
 
             }
             finally
@@ -575,7 +641,7 @@ namespace benbuzbee.LRTIRC
         {
             if (!message.Contains("NOTICE AUTH"))
                 return;
-            lock (registrationLock)
+            lock (_registrationLock)
             {
                 if (Registered) return;
                 Registered = true;
@@ -609,6 +675,7 @@ namespace benbuzbee.LRTIRC
                 String[] namesArray = names.Split(' ');
                 foreach (String name in namesArray)
                 {
+                    if (String.IsNullOrEmpty(name)) continue;
                     int nameStart = 0;
                     for (nameStart = 0; sender.ServerInfo.PREFIX_symbols.Contains(name[nameStart]); ++nameStart) ;
 
@@ -651,7 +718,8 @@ namespace benbuzbee.LRTIRC
                 {
                     if (OnRfcNumeric != null)
                     {
-                        OnRfcNumeric(this, words[0], numeric, words[2], words.Length > 3 ? message.Substring(message.IndexOf(words[2]) + words[2].Length + 1) : null);
+                        foreach (var d in OnRfcNumeric.GetInvocationList())
+                            Task.Run(() => d.DynamicInvoke(this, words[0], numeric, words[2], words.Length > 3 ? message.Substring(message.IndexOf(words[2]) + words[2].Length + 1) : null));
                     }
                 }
             }
@@ -701,7 +769,9 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public event RfcPrivmsgHandler OnRfcPrivmsg;
 
-        public delegate void RfcNamesReplyHandler(IrcClient sender, String channel, String list);
+        public delegate void RfcNamesReplyHandler(IrcClient sender, String target, String list);
+
+
         /// <summary>
         /// Called when a NAMES reply (numeric 353) is received from the server
         /// </summary>
@@ -781,7 +851,12 @@ namespace benbuzbee.LRTIRC
 
         private IDictionary<String, ChannelUser> users = new ConcurrentDictionary<String, ChannelUser>();
 
-
+        public ChannelUser GetUser(string nameOrAddress)
+        {
+            ChannelUser result = null;
+            users.TryGetValue(ChannelUser.GetNickFromFullAddress(nameOrAddress).ToLower(), out result);
+            return result;
+        }
 
         public Channel(String name)
         {
@@ -810,6 +885,21 @@ namespace benbuzbee.LRTIRC
 
         public Channel Channel { get; private set; }
         public String FullAddress { get { return Nick == null || Username == null || Host == null ? null : String.Format("{0}!{1}@{2}", Nick, Username, Host); } }
+
+        /// <summary>
+        /// Checks to see if the user has at least the given prefix SYMBOL (true if his highest prefix is higher or equal to this prefix)
+        /// </summary>
+        /// <param name="svr"></param>
+        /// <param name="prefix"></param>
+        /// <returns></returns>
+        public bool AtLeast(IrcClient.ServerInfoType svr, char prefix)
+        {
+            int targetPosition = svr.PREFIX_symbols.IndexOf(prefix);
+            if (targetPosition <= 0 || Prefixes.Length == 0) return false;
+            int myPosition = svr.PREFIX_symbols.IndexOf(Prefixes[0]);
+            if (myPosition < 0) return false;
+            return myPosition <= targetPosition;
+        }
 
         public String Prefixes
         {
@@ -841,7 +931,7 @@ namespace benbuzbee.LRTIRC
         {
             if (!fulladdress.Contains('!'))
                 return fulladdress;
-            return fulladdress.Substring(0, fulladdress.IndexOf('!'));
+            return fulladdress.Substring(0, fulladdress.IndexOf('!')).Replace(":", "");
         }
         /// <summary>
         /// Gets the user portion of a fulladdress, such as nick!USER@host
@@ -934,6 +1024,26 @@ namespace benbuzbee.LRTIRC
 
             }
         }
-    }
 
+
+    }
+    public enum mIRCColor
+    {
+        WHITE = 0,
+        BLACK = 1,
+        DARK_BLUE = 2,
+        DARK_GREEN = 3,
+        RED = 4,
+        DARK_RED = 5,
+        DARK_PURPLE = 6,
+        ORANGE = 7,
+        GOLD = 8,
+        GREEN = 9,
+        CYAN = 10,
+        TEAL = 11,
+        BLUE = 12,
+        PINK = 13,
+        DARK_GRAY = 14,
+        GRAY = 15
+    }
 }

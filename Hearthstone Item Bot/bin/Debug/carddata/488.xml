@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="EX1_382e">
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Stand Down!</enUS>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Attack changed to 1.</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="1b01d285-c8be-4c45-9d67-e7a27c692ef4" />
+</Entity>

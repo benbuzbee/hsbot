@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="CS2_038e">
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Ancestral Spirit</enUS>
+    <frFR>Esprit ancestral</frFR>
+    <zhTW>先祖之魂</zhTW>
+    <zhCN>先祖之魂</zhCN>
+    <ruRU>Дух предков</ruRU>
+    <ptBR>Espírito Ancestral</ptBR>
+    <plPL>Duch przodków</plPL>
+    <koKR>고대의 영혼</koKR>
+    <itIT>Spirito Ancestrale</itIT>
+    <esMX>Espíritu ancestral</esMX>
+    <esES>Espíritu ancestral</esES>
+    <deDE>Geist der Ahnen</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Deathrattle: Return this minion to the battlefield.</enUS>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; renvoie ce serviteur sur le champ de bataille.</frFR>
+    <zhTW>死亡之聲:使這個手下返回戰場</zhTW>
+    <zhCN>亡语：将该随从移回战场。</zhCN>
+    <ruRU>Предсмертный хрип: после смерти это существо возродится.</ruRU>
+    <ptBR>Último Suspiro: retorne este lacaio para o campo de batalha.</ptBR>
+    <plPL>Agonia: Przywróć tego stronnika na pole bitwy.</plPL>
+    <koKR>죽음의 메아리: 죽으면 다시 전장으로 돌아옴</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; questo servitore ritorna sul campo di battaglia.</itIT>
+    <esMX>Estertor: devuelve a este esbirro al campo de batalla.</esMX>
+    <esES>Último aliento: Devuelve a este esbirro al campo de batalla.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Dieser Diener kehrt aufs Schlachtfeld zurück.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="5c894132-d9d5-4909-9257-8e124e44d160" />
+</Entity>

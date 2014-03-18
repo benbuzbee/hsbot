@@ -1,0 +1,9 @@
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe.config
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.pdb
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
+D:\Documents\Visual Studio 2012\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
