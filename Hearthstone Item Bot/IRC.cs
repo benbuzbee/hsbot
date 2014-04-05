@@ -66,7 +66,7 @@ namespace HSBot
                 sender.SendRawMessage("JOIN {0}",channel).Wait();
  
         }
-        Regex regex = new Regex(@"\[([^\d][^\]]+)\]([^a-zA-Z]|$)");
+        Regex regex = new Regex(@"\[([^\d][^\]]+)\]([^a-zA-Z]|$|s)");
         private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
             // If its to me (the bot), then respond to source. Otherwise, respond to target (channel)
