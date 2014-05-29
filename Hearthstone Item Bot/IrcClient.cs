@@ -479,9 +479,7 @@ namespace benbuzbee.LRTIRC
             streamReader = new System.IO.StreamReader(TCP.GetStream(), Encoding);
             streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
 
-            // Register handler to on connect event
-            OnRawMessageReceived += RegisterHandler;
-
+            RegisterWithServer();
             await _streamSemaphore.WaitAsync();
             try
             {
@@ -637,10 +635,9 @@ namespace benbuzbee.LRTIRC
 
         }
 
-        private void RegisterHandler(Object sender, String message)
+        private void RegisterWithServer()
         {
-            if (!message.Contains("NOTICE AUTH"))
-                return;
+
             lock (_registrationLock)
             {
                 if (Registered) return;
@@ -648,7 +645,6 @@ namespace benbuzbee.LRTIRC
 
             }
 
-            OnRawMessageReceived -= RegisterHandler;
             System.Threading.Thread.Sleep(1000);
             if (Password != null)
                 SendRawMessage("PASS {0}", Password).Wait();
