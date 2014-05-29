@@ -58,8 +58,10 @@ namespace HSBot
                 irc.Client.SendRawMessage("QUIT :Be right back!").Wait(5000);
             };
 
-
-            new System.Threading.EventWaitHandle(false, System.Threading.EventResetMode.ManualReset).WaitOne();
+            while (true)
+            {
+                new System.Threading.EventWaitHandle(false, System.Threading.EventResetMode.ManualReset).WaitOne();
+            }
     
         }
     }
