@@ -18,6 +18,7 @@ namespace HSBot
             Client = new IrcClient();
 
             Client.Encoding = new System.Text.UTF8Encoding(false);
+            Client.OutgoingPolicies = OutgoingMessagePolicy.NoDuplicates;
         }
         
         private DateTime startTime = DateTime.Now;

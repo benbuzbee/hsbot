@@ -38,14 +38,53 @@ namespace benbuzbee.LRTIRC
         /// Set to false before PASS/NICK/USER strings are sent, the set to TRUE (does not wait on confirmation from server)
         /// </summary>
         public Boolean Registered { private set; get; }
-
+        /// <summary>
+        /// Channels which this client is currently in
+        /// </summary>
         public IEnumerable<Channel> Channels { get { return channels.Values; } }
+        /// <summary>
+        /// Message policies (enum is Flags) enforced on outgoing messages
+        /// </summary>
+        public OutgoingMessagePolicy OutgoingPolicies { get; set; }
+
+        /// <summary>
+        /// A history of messages sent in chronological order.  Internally stored as a Stack.  Maximum size determiend by MaxHistoryStored property.
+        /// </summary>
+        public IEnumerable<String> OutgoingMessageHistory { 
+            get 
+            {
+                return _outgoingMessageHistory;
+            }
+        }
+
+        /// <summary>
+        /// The maximum number of outgoing messages stored in this client's history.
+        /// </summary>
+        public int MaxHistoryStored { 
+            get
+            {
+                return _maxOutgoingHistoryStored;
+            } 
+            set
+            {
+                lock (_outgoingMessageHistory)
+                {
+                    if (value < _outgoingMessageHistory.Count)
+                    {
+                        _outgoingMessageHistory.RemoveRange(value,_outgoingMessageHistory.Count - value);
+                    }  
+                    _maxOutgoingHistoryStored = value;
+                }
+            }
+        }
 
         #endregion Properties
 
         #region Private Members
         private Object _registrationLock = new Object();
         private System.Threading.SemaphoreSlim _streamSemaphore = new System.Threading.SemaphoreSlim(1, 1);
+        private int _maxOutgoingHistoryStored = 50;
+        private List<String> _outgoingMessageHistory = new List<String>();
         /// <summary>
         /// These are channels which this user is in
         /// </summary>
@@ -515,6 +554,16 @@ namespace benbuzbee.LRTIRC
         /// <returns></returns>
         public async Task<bool> SendRawMessage(String message)
         {
+            
+            if ((OutgoingPolicies & OutgoingMessagePolicy.NoDuplicates) == OutgoingMessagePolicy.NoDuplicates)
+            {
+                lock (_outgoingMessageHistory)
+                {
+                    if (_outgoingMessageHistory.Count > 0 && _outgoingMessageHistory.First((value) => !value.StartsWith("PONG")).Equals(message))
+                        return false;
+                }
+            }
+                
 
             try
             {
@@ -524,7 +573,11 @@ namespace benbuzbee.LRTIRC
 
                 await streamWriter.FlushAsync();
 
-
+                lock (_outgoingMessageHistory)
+                {
+                    
+                    _outgoingMessageHistory.Insert(0, message);
+                }
 
 
             }
@@ -836,9 +889,14 @@ namespace benbuzbee.LRTIRC
         }
 
     }
-
+    /// <summary>
+    /// Represents a Channel on the iRC server
+    /// </summary>
     public class Channel
     {
+        /// <summary>
+        /// The name of this channel
+        /// </summary>
         public String Name { get; private set; }
         /// <summary>
         /// A map of lower(nick) -> user, for every user in the channel
@@ -847,6 +905,11 @@ namespace benbuzbee.LRTIRC
 
         private IDictionary<String, ChannelUser> users = new ConcurrentDictionary<String, ChannelUser>();
 
+        /// <summary>
+        /// Gets a user by his name or address
+        /// </summary>
+        /// <param name="nameOrAddress"></param>
+        /// <returns></returns>
         public ChannelUser GetUser(string nameOrAddress)
         {
             ChannelUser result = null;
@@ -1023,6 +1086,9 @@ namespace benbuzbee.LRTIRC
 
 
     }
+    /// <summary>
+    /// The color as interpreted by mIRC when following ASCII character 0x03
+    /// </summary>
     public enum mIRCColor
     {
         WHITE = 0,
@@ -1042,4 +1108,17 @@ namespace benbuzbee.LRTIRC
         DARK_GRAY = 14,
         GRAY = 15
     }
+
+    /// <summary>
+    /// A policy governing an outgoing message.  This applies to any message (line of data) except PINGs.
+    /// </summary>
+    [Flags]
+    public enum OutgoingMessagePolicy
+    {
+        /// <summary>
+        /// When in effect, a message which is the same of the previously sent message will be dropped
+        /// </summary>
+        NoDuplicates = 0x01
+    }
+
 }

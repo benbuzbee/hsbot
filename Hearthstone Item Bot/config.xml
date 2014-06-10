@@ -17,10 +17,10 @@
     <port>6667</port>
 
 
-    <nick>HearthBot</nick>
+    <nick>HearthBot2</nick>
     <name>Hearthstone IRC Bot</name>
-    <user>HearthBot</user>
-    <channel>#Hearthstone</channel>
+    <user>HearthBot2</user>
+    <channel>#Hearthstone2</channel>
     <!-- Time before timeout in miliseconds -->
     <reconnecttime>160000</reconnecttime>
   </irc>
