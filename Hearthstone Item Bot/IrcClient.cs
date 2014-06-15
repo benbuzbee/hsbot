@@ -21,7 +21,7 @@ namespace benbuzbee.LRTIRC
         public String Host { private set; get; }
         public int Port { private set; get; }
         public String Password { private set; get; }
-        public DateTime LastMessage { private set; get; }
+        public DateTime LastMessageTime { private set; get; }
         /// <summary>
         /// Set to false until TcpClient connects. Does not necessarily mean we are registered. Set before OnConnect event.
         /// </summary>
@@ -41,7 +41,7 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// Channels which this client is currently in
         /// </summary>
-        public IEnumerable<Channel> Channels { get { return channels.Values; } }
+        public IEnumerable<Channel> Channels { get { return _channels.Values; } }
         /// <summary>
         /// Message policies (enum is Flags) enforced on outgoing messages
         /// </summary>
@@ -56,43 +56,71 @@ namespace benbuzbee.LRTIRC
                 return _outgoingMessageHistory;
             }
         }
+           /// <summary>
+        /// Message policies (enum is Flags) enforced on outgoing messages
+        /// </summary>
+        public OutgoingMessagePolicy IncomingPolicies { get; set; }
 
         /// <summary>
-        /// The maximum number of outgoing messages stored in this client's history.
+        /// A history of messages sent in chronological order.  Internally stored as a Stack.  Maximum size determiend by MaxHistoryStored property.
+        /// </summary>
+        public IEnumerable<String> IncomingMessageHistory
+        {
+            get
+            {
+                return _incomingMessageHistory;
+
+            }
+        }
+
+
+        /// <summary>
+        /// The maximum number of outgoing/incoming messages stored in this client's history.
         /// </summary>
         public int MaxHistoryStored { 
             get
             {
-                return _maxOutgoingHistoryStored;
+                return _maxHistoryStored;
             } 
             set
             {
                 lock (_outgoingMessageHistory)
                 {
-                    if (value < _outgoingMessageHistory.Count)
+                    lock (_incomingMessageHistory)
                     {
-                        _outgoingMessageHistory.RemoveRange(value,_outgoingMessageHistory.Count - value);
-                    }  
-                    _maxOutgoingHistoryStored = value;
+                        while (value < _outgoingMessageHistory.Count)
+                        {
+                            _outgoingMessageHistory.RemoveLast();
+                        }
+                        while (value < _incomingMessageHistory.Count)
+                        {
+                            _incomingMessageHistory.RemoveLast();
+                        }
+                        _maxHistoryStored = value;
+                    }
                 }
             }
         }
-
+        /// <summary>
+        /// Information about the server sent on connection
+        /// </summary>
+        public ServerInfoType ServerInfo { get; private set; }
         #endregion Properties
 
         #region Private Members
         private Object _registrationLock = new Object();
         private System.Threading.SemaphoreSlim _streamSemaphore = new System.Threading.SemaphoreSlim(1, 1);
-        private int _maxOutgoingHistoryStored = 50;
-        private List<String> _outgoingMessageHistory = new List<String>();
+        private int _maxHistoryStored = 50;
+        private LinkedList<String> _outgoingMessageHistory = new LinkedList<String>();
+        private LinkedList<String> _incomingMessageHistory = new LinkedList<String>();
         /// <summary>
         /// These are channels which this user is in
         /// </summary>
-        private IDictionary<String, Channel> channels = new ConcurrentDictionary<String, Channel>();
-        private System.IO.StreamReader streamReader;
-        private System.IO.StreamWriter streamWriter;
-        private System.Timers.Timer timeoutTimer = new System.Timers.Timer();
-        private System.Timers.Timer pingTimer = new System.Timers.Timer();
+        private IDictionary<String, Channel> _channels = new ConcurrentDictionary<String, Channel>();
+        private System.IO.StreamReader _streamReader;
+        private System.IO.StreamWriter _streamWriter;
+        private System.Timers.Timer _timeoutTimer = new System.Timers.Timer();
+        private System.Timers.Timer _pingTimer = new System.Timers.Timer();
         public class ServerInfoType
         {
             private String _PREFIX;
@@ -132,12 +160,10 @@ namespace benbuzbee.LRTIRC
             /// </summary>
             public String CHANMODES_parameterNever;
         };
-
-        public ServerInfoType ServerInfo { get; private set; }
         /// <summary>
         /// A map of: lower(Channel) -> (Nick -> Prefix List)
         /// </summary>
-        private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> channelStatusMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
+        private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> _channelStatusMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
         #endregion
 
 
@@ -148,7 +174,7 @@ namespace benbuzbee.LRTIRC
 
             Encoding = new System.Text.UTF8Encoding(false);
             Registered = false;
-            LastMessage = DateTime.Now;
+            LastMessageTime = DateTime.Now;
             Timeout = new TimeSpan(0, 5, 0);
             Connected = false;
 
@@ -187,7 +213,7 @@ namespace benbuzbee.LRTIRC
                         Task.Run(() => d.DynamicInvoke(this, parameters));
                 }
             };
-            OnConnect += (sender) => { lock (channels) { channels.Clear(); } };
+            OnConnect += (sender) => { lock (_channels) { _channels.Clear(); } };
             OnISupport += (sender, parameters) =>
             {
                 try
@@ -237,13 +263,13 @@ namespace benbuzbee.LRTIRC
 
 
                     Channel c = null;
-                    lock (channels)
+                    lock (_channels)
                     {
-                        channels.TryGetValue(channelName.ToLower(), out c);
+                        _channels.TryGetValue(channelName.ToLower(), out c);
                         if (c == null && ChannelUser.GetNickFromFullAddress(source).Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
                         {
                             c = new Channel(channelName);
-                            channels[channelName.ToLower()] = c;
+                            _channels[channelName.ToLower()] = c;
                         }
 
                         if (c != null)
@@ -295,13 +321,13 @@ namespace benbuzbee.LRTIRC
             OnRfcPart += (sender, source, channel, reason) =>
             {
                 Channel channelObject = null;
-                lock (channels)
+                lock (_channels)
                 {
-                    channels.TryGetValue(channel.ToLower(), out channelObject);
+                    _channels.TryGetValue(channel.ToLower(), out channelObject);
                     if (channelObject != null)
                     {
                         if (ChannelUser.GetNickFromFullAddress(source).Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
-                            channels.Remove(channel.ToLower());
+                            _channels.Remove(channel.ToLower());
                         else
                         {
                             try
@@ -317,12 +343,12 @@ namespace benbuzbee.LRTIRC
             OnRfcKick += (sender, source, target, channel, reason) =>
             {
                 Channel channelObject = null;
-                channels.TryGetValue(channel.ToLower(), out channelObject);
+                _channels.TryGetValue(channel.ToLower(), out channelObject);
                 if (channelObject != null)
                 {
 
                     if (Nick.Equals(target, StringComparison.CurrentCultureIgnoreCase)) // If it's us, remove the channel
-                        channels.Remove(channel.ToLower());
+                        _channels.Remove(channel.ToLower());
                     else // else remove the nick from the channel 
                     {
                         try
@@ -333,15 +359,15 @@ namespace benbuzbee.LRTIRC
                     }
                 }
             };
-            OnRawMessageReceived += (source, message) => { LastMessage = DateTime.Now; };
+            OnRawMessageReceived += (source, message) => { LastMessageTime = DateTime.Now; };
             OnNamesReply += NamesReplyHandler;
 
             // Updates prefix list for users of a channel when modes are changed
             OnRfcMode += (sender, source, target, modes) =>
             {
                 Channel channel = null;
-                channels.TryGetValue(target.ToLower(), out channel);
-                if (channels == null) return;
+                _channels.TryGetValue(target.ToLower(), out channel);
+                if (_channels == null) return;
 
 
                 String[] tokens = modes.Split(' ');
@@ -404,7 +430,7 @@ namespace benbuzbee.LRTIRC
             {
                 String oldnick = ChannelUser.GetNickFromFullAddress(source).ToLower();
                 ChannelUser user = null;
-                foreach (Channel c in channels.Values)
+                foreach (Channel c in _channels.Values)
                 {
                     c.Users.TryGetValue(oldnick, out user);
                     if (user != null)
@@ -429,7 +455,7 @@ namespace benbuzbee.LRTIRC
             OnRfcQuit += (sender, source, message) =>
             {
                 String nick = ChannelUser.GetNickFromFullAddress(source);
-                foreach (Channel c in channels.Values)
+                foreach (Channel c in _channels.Values)
                 {
                     try { c.Users.Remove(nick.ToLower()); }
                     catch (Exception) { }
@@ -455,26 +481,26 @@ namespace benbuzbee.LRTIRC
                     try
                     {
                         TCP.Close();
-                        streamReader.Dispose();
-                        streamWriter.Dispose();
+                        _streamReader.Dispose();
+                        _streamWriter.Dispose();
                     }
                     catch (Exception) { } // Eat exceptions since this is just an attempt to clean up
                 }
 
             }
-            lock (timeoutTimer)
+            lock (_timeoutTimer)
             {
-                timeoutTimer.Dispose();
-                timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
-                timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
-                timeoutTimer.Start();
+                _timeoutTimer.Dispose();
+                _timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
+                _timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
+                _timeoutTimer.Start();
             }
-            lock (pingTimer)
+            lock (_pingTimer)
             {
-                pingTimer.Dispose();
-                pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
-                pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
-                pingTimer.Start();
+                _pingTimer.Dispose();
+                _pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
+                _pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
+                _pingTimer.Start();
             }
         }
         /// <summary>
@@ -515,14 +541,14 @@ namespace benbuzbee.LRTIRC
 
             // If connect succeeded
 
-            streamReader = new System.IO.StreamReader(TCP.GetStream(), Encoding);
-            streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
+            _streamReader = new System.IO.StreamReader(TCP.GetStream(), Encoding);
+            _streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
 
             RegisterWithServer();
             await _streamSemaphore.WaitAsync();
             try
             {
-                var readLineTask = streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
+                var readLineTask = _streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
             }
             catch (Exception e)
             {
@@ -554,29 +580,36 @@ namespace benbuzbee.LRTIRC
         /// <returns></returns>
         public async Task<bool> SendRawMessage(String message)
         {
-            
-            if ((OutgoingPolicies & OutgoingMessagePolicy.NoDuplicates) == OutgoingMessagePolicy.NoDuplicates)
+            try
             {
-                lock (_outgoingMessageHistory)
+                if ((OutgoingPolicies & OutgoingMessagePolicy.NoDuplicates) == OutgoingMessagePolicy.NoDuplicates)
                 {
-                    if (_outgoingMessageHistory.Count > 0 && _outgoingMessageHistory.First((value) => !value.StartsWith("PONG")).Equals(message))
-                        return false;
+                    lock (_outgoingMessageHistory)
+                    {
+                        if (_outgoingMessageHistory.Count > 0 && _outgoingMessageHistory.First((value) => !value.StartsWith("PONG")).Equals(message))
+                            return false;
+                    }
                 }
+            } catch (InvalidOperationException)
+            {
+                // No message history matching this value exists. In this case, continue unimpeded
             }
-                
 
             try
             {
                 await _streamSemaphore.WaitAsync();
 
-                await streamWriter.WriteLineAsync(message);
+                await _streamWriter.WriteLineAsync(message);
 
-                await streamWriter.FlushAsync();
+                await _streamWriter.FlushAsync();
 
                 lock (_outgoingMessageHistory)
                 {
-                    
-                    _outgoingMessageHistory.Insert(0, message);
+                    _outgoingMessageHistory.AddFirst(message);
+                    while (_outgoingMessageHistory.Count > _maxHistoryStored)
+                    {
+                        _outgoingMessageHistory.RemoveLast();
+                    }
                 }
 
 
@@ -616,9 +649,9 @@ namespace benbuzbee.LRTIRC
 
                 if (task.Exception == null && task.Result != null)
                 {
-                    lock (streamReader.BaseStream)
+                    lock (_streamReader.BaseStream)
                     {
-                        streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
+                        _streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
                     }
                 }
                 else if (task.Result == null)
@@ -658,9 +691,9 @@ namespace benbuzbee.LRTIRC
         #region Internal Handlers
         private void TimeoutTimerElapsedHandler(Object sender, System.Timers.ElapsedEventArgs e)
         {
-            lock (timeoutTimer)
+            lock (_timeoutTimer)
             {
-                if ((e.SignalTime - LastMessage) > Timeout)
+                if ((e.SignalTime - LastMessageTime) > Timeout)
                 {
                     Disconnect();
                     if (OnTimeout != null)
@@ -715,9 +748,9 @@ namespace benbuzbee.LRTIRC
 
 
             Channel channelObject = null;
-            lock (channels)
+            lock (_channels)
             {
-                channels.TryGetValue(channel.ToLower(), out channelObject);
+                _channels.TryGetValue(channel.ToLower(), out channelObject);
                 if (channelObject == null)
                     channelObject = new Channel(channel);
 
@@ -739,7 +772,7 @@ namespace benbuzbee.LRTIRC
                         channelObject.Users[user.Nick.ToLower()] = user;
                         /// If we are in the list, we need to be smart enough to add the channel to our list if it isnt there
                         if (user.Nick.Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
-                            channels[channelObject.Name.ToLower()] = channelObject;
+                            _channels[channelObject.Name.ToLower()] = channelObject;
                     }
 
                     for (int i = 0; i < nameStart; ++i)
@@ -884,7 +917,7 @@ namespace benbuzbee.LRTIRC
         public Channel GetChannel(String name)
         {
             Channel c = null;
-            channels.TryGetValue(name.ToLower(), out c);
+            _channels.TryGetValue(name.ToLower(), out c);
             return c;
         }
 
