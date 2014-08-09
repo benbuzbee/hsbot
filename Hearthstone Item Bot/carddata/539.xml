@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_027">
+<Entity version="2" CardID="EX1_577">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Southsea Captain</enUS>
-    <zhTW>南海船長</zhTW>
-    <zhCN>南海船长</zhCN>
-    <ruRU>Капитан Южных морей</ruRU>
-    <ptBR>Capitão dos Mares do Sul</ptBR>
-    <plPL>Kapitan Południowych Mórz</plPL>
-    <koKR>남쪽바다 선장</koKR>
-    <itIT>Bucaniere Acquanera</itIT>
-    <frFR>Capitaine des mers du Sud</frFR>
-    <esMX>Capitán de los Mares del sur</esMX>
-    <esES>Capitán de Mares del Sur</esES>
-    <deDE>Südmeerkapitän</deDE>
+    <enUS>The Beast</enUS>
+    <frFR>La Bête</frFR>
+    <zhTW>比斯巨獸</zhTW>
+    <zhCN>比斯巨兽</zhCN>
+    <ruRU>Чудовище</ruRU>
+    <ptBR>A Fera</ptBR>
+    <plPL>Bestia</plPL>
+    <koKR>괴수</koKR>
+    <itIT>La Bestia</itIT>
+    <esMX>La Bestia</esMX>
+    <esES>La Bestia</esES>
+    <deDE>Die Bestie</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="23" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="9" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your other Pirates have +1/+1.</enUS>
-    <zhTW>你的其他海盜獲得+1/+1</zhTW>
-    <zhCN>你的其他海盗获得+1/+1。</zhCN>
-    <ruRU>Другие ваши пираты получают +1/+1.</ruRU>
-    <ptBR>Seus outros Piratas têm +1/+1.</ptBR>
-    <plPL>Twoi pozostali Piraci otrzymują +1/+1.</plPL>
-    <koKR>나의 다른 해적들이 +1/+1을 얻습니다.</koKR>
-    <itIT>Gli altri tuoi Pirati hanno +1/+1.</itIT>
-    <frFR>Vos autres pirates ont +1/+1.</frFR>
-    <esMX>Tus otros Piratas tienen +1/+1.</esMX>
-    <esES>Tus otros piratas tienen +1/+1.</esES>
-    <deDE>Eure anderen Piraten haben +1/+1.</deDE>
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a 3/3 Finkle Einhorn for your opponent.</enUS>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; invoque Finkle Einhorn 3/3 pour votre adversaire.</frFR>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;為你的對手召喚一個3/3芬克·恩霍爾</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;为你的对手召唤1个3/3的芬克·恩霍尔。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; призывает на сторону вашего противника Айса Вентурона 3/3.</ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Evoque um Jonas Tiragosto 3/3 para o seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przyzwij Finkosza Rogoźnika 3/3 swojemu przeciwnikowi.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 상대편에게 3/3 핑클 아인혼을 소환해 줍니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; evoca Finkle Cascorotto 3/3 sotto il controllo dell'avversario.</itIT>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; invoca un Finkle Einhorn 3/3 para tu adversario.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Invoca un Finkle Einhorn 3/3 para tu oponente.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft Finkle Einhorn (3/3) für Euren Gegner herbei.</deDE>
   </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ken Steacy</enUS>
+    <enUS>Glenn Rane</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>When he saves enough plunder, he's going to commission an enormous captain's hat.  He has hat envy.</enUS>
-    <zhTW>等他存夠錢，他會去訂做一頂超巨大的船長帽。他有很嚴重的帽子情結。</zhTW>
-    <zhCN>当他掠夺到足够的财宝之后，他一定要去订做一顶帅气的船长帽子。他是帽子控。</zhCN>
-    <ruRU>Когда-нибудь он награбит достаточно и закажет себе огромную капитанскую шляпу. Он к ним неравнодушен.</ruRU>
-    <ptBR>Quando ele já tiver pilhado o suficiente, ele vai mandar fazer um chapéu de capitão enorme. Rola uma certa invejinha de chapéus aí.</ptBR>
-    <plPL>Kiedy zbierze dość łupów, zamówi sobie olbrzymi kapitański kapelusz. Ma kompleks kapelusznika.</plPL>
-    <koKR>그의 꿈은 해적 왕... 아니 어마어마하게 큰 해적 모자를 사는 겁니다. 좀 모자에 많이 집착하는 친구거든요.</koKR>
-    <itIT>Quando avrà accumulato abbastanza bottino, ha intenzione di commissionare un enorme cappello da capitano. Ha la mania dei cappelli.</itIT>
-    <frFR>Il espère pouvoir amasser un butin suffisant pour monter une auberge avec toutes les recettes qu’il a « trouvées ». Pirate !</frFR>
-    <esMX>Cuando ahorre suficiente botín, encargará un sombrero de capitán gigante. Siente envidia por el sombrero.</esMX>
-    <esES>Cuando ahorre suficiente botín, tiene pensado comprarse un sombrero enorme. Le encantan los sombreros.</esES>
-    <deDE>Sobald er genug Beute gemacht hat, wird er sich einen gewaltigen Kapitänshut anfertigen lassen. Er leidet an Hutneid.</deDE>
+    <enUS>He lives in Blackrock Mountain.  He eats Gnomes.  That's pretty much it.</enUS>
+    <zhTW>他住在黑石山裡。他吃地精。關於他的介紹差不多就這樣。</zhTW>
+    <zhCN>他住在黑石山。他吃侏儒。基本上就是这样。</zhCN>
+    <ruRU>Живет в Черной горе. Ест гномов. Вот и все, что мы можем о нем сказать.</ruRU>
+    <ptBR>Ele vive na Montanha Rocha Negra. E come gnomos. É basicamente isso.</ptBR>
+    <plPL>Żyje w Górach Czarnoskałych. Je gnomy. To by było na tyle.</plPL>
+    <koKR>검은바위 산에 살고, 노움을 먹습니다. 더 할 말이 없네요.</koKR>
+    <itIT>Vive nel Massiccio Roccianera, mangia gli Gnomi... cos'altro?</itIT>
+    <frFR>Elle vit au mont Rochenoire. Elle mange les gnomes. Point barre.</frFR>
+    <esMX>Vive en la Montaña Roca Negra. Come gnomos. Y no mucho más...</esMX>
+    <esES>Vive en la Montaña Roca Negra, y disfruta devorando gnomos de un bocado.</esES>
+    <deDE>Hat Kürschner zum Fressen gern.</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="9d08f47b-bb86-4d84-9598-0ace84279ebb" />
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="5c62a384-d2d3-439f-9a77-6899adaf4626" />
+  <TriggeredPowerHistoryInfo effectIndex="-1" showInHistory="False" />
 </Entity>

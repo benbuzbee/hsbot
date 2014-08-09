@@ -1,69 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_084">
-  <MasterPower>a791d666-f98d-43c4-812a-5da475c31d01</MasterPower>
+<Entity version="2" CardID="NAX8_03">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hunter's Mark</enUS>
-    <frFR>Marque du chasseur</frFR>
-    <zhTW>獵人印記</zhTW>
-    <zhCN>猎人印记</zhCN>
-    <ruRU>Метка охотника</ruRU>
-    <ptBR>Marca do Caçador</ptBR>
-    <plPL>Znak łowcy</plPL>
-    <koKR>사냥꾼의 징표</koKR>
-    <itIT>Marchio del Cacciatore</itIT>
-    <esMX>Marca del cazador</esMX>
-    <esES>Marca del cazador</esES>
-    <deDE>Mal des Jägers</deDE>
+    <enUS>Unrelenting Trainee</enUS>
+    <zhTW>無情的受訓員</zhTW>
+    <zhCN>冷酷学徒</zhCN>
+    <ruRU>Безжалостный новобранец</ruRU>
+    <ptBR>Aprendiz Implacável</ptBR>
+    <plPL>Nieustępliwy giermek</plPL>
+    <koKR>무자비한 수련생</koKR>
+    <itIT>Allievo Inarrestabile</itIT>
+    <frFR>Jeune recrue tenace</frFR>
+    <esMX>Practicante inflexible</esMX>
+    <esES>Practicante inflexible</esES>
+    <deDE>Unerbittlicher Lehrling</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Change a minion's Health to 1.</enUS>
-    <frFR>Fait tomber les points de vie d’un serviteur à 1.</frFR>
-    <zhTW>將一個手下的生命值改為1點</zhTW>
-    <zhCN>使一个随从的生命值变为1。</zhCN>
-    <ruRU>Здоровье выбранного существа становится равно 1.</ruRU>
-    <ptBR>Muda a Vida de um lacaio para 1.</ptBR>
-    <plPL>Zmień zdrowie stronnika na 1.</plPL>
-    <koKR>하수인 하나의 생명력을 1로 바꿉니다.</koKR>
-    <itIT>La Salute di un servitore diventa pari a 1.</itIT>
-    <esMX>Cambia la Salud de un esbirro a 1.</esMX>
-    <esES>Cambia la salud de un esbirro a 1 p.</esES>
-    <deDE>Setzt das Leben eines Dieners auf 1.</deDE>
-  </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jimmy Lo</enUS>
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Summon a Spectral Trainee for your opponent.</enUS>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;為你的對手召喚一個鬼靈受訓員</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;为你的对手召唤一个鬼灵学徒。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; призывает на сторону вашего противника призрачного новобранца.</ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Evoque um Aprendiz Espectral para o seu oponente.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Przyzwij Widmowego giermka dla przeciwnika.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 상대편에게 유령 수련생 하나를 소환해 줍니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; evoca un Allievo Spettrale sotto il controllo dell'avversario.</itIT>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; invoque une jeune recrue spectrale pour votre adversaire.</frFR>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; invoca un Practicante espectral para tu adversario.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Invoca a un practicante espectral para tu oponente.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft einen Spektralen Lehrling für Euren Gegner herbei.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Never play 'Hide and Go Seek' with a  Hunter.</enUS>
-    <zhTW>別跟獵人玩躲貓貓。</zhTW>
-    <zhCN>千万不要和猎人玩捉迷藏的游戏。</zhCN>
-    <ruRU>Никогда не играй в прятки с охотником.</ruRU>
-    <ptBR>Nunca brinque de "esconde esconde" com um Caçador.</ptBR>
-    <plPL>Nigdy nie baw się w chowanego z łowcą.</plPL>
-    <koKR>절대 사냥꾼과 숨바꼭질하지 마십시오.</koKR>
-    <itIT>Mai giocare a nascondino con un Cacciatore.</itIT>
-    <frFR>Attention, chasse gardée !</frFR>
-    <esMX>Nunca juegues a las escondidas con un cazador.</esMX>
-    <esES>Nunca juegues al escondite con un cazador.</esES>
-    <deDE>Dieses Mal ist Euer letztes Mal.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 6.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 40.</enUS>
-  </Tag>
-  <Power definition="a791d666-f98d-43c4-812a-5da475c31d01">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="24c38182-102f-49f5-a893-57ca7f47c5b0" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

@@ -1,61 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_030">
+<Entity version="2" CardID="FP1_030">
+  <MasterPower>f33285db-71f9-4ef1-9b83-67ac9176ce6a</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Deathwing</enUS>
-    <frFR>Aile de mort</frFR>
-    <zhTW>死亡之翼</zhTW>
-    <zhCN>死亡之翼</zhCN>
-    <ruRU>Смертокрыл</ruRU>
-    <ptBR>Asa da Morte</ptBR>
-    <plPL>Śmiercioskrzydły</plPL>
-    <koKR>데스윙</koKR>
-    <itIT>Alamorte</itIT>
-    <esMX>Alamuerte</esMX>
-    <esES>Alamuerte</esES>
-    <deDE>Todesschwinge</deDE>
+    <enUS>Loatheb</enUS>
+    <zhTW>憎恨者</zhTW>
+    <zhCN>洛欧塞布</zhCN>
+    <ruRU>Лотхиб</ruRU>
+    <ptBR>Repugnaz</ptBR>
+    <plPL>Ohydziarz</plPL>
+    <koKR>로데브</koKR>
+    <itIT>Loatheb</itIT>
+    <frFR>Horreb</frFR>
+    <esMX>Loatheb</esMX>
+    <esES>Loatheb</esES>
+    <deDE>Loatheb</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="10" />
-  <Tag name="Atk" enumID="47" type="Number" value="12" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy all other minions and discard your hand.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit tous les autres serviteurs et vous défausse de votre main.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀全部其他手下並捨棄你的全部手牌</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭所有其他随从，并弃掉你的手牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает все прочие существа. Вы сбрасываете все карты из вашей руки.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua todos os outros lacaios e descarte a sua mão.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz wszystkich pozostałych stronników i odrzuć całą rękę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 전장의 다른 모든 하수인을 처치하고 내 손의 카드를 모두 버립니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge tutti gli altri servitori e scarta le carte che hai in mano.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye a todos los otros esbirros y descarta tu mano.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a todos los demás esbirros y descarta tu mano.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet alle anderen Diener und werft Eure Hand ab.</deDE>
-  </Tag>
-  <Tag name="Health" enumID="45" type="Number" value="12" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Bernie Kang</enUS>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Enemy spells cost (5) more next turn.</enUS>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;下回合敵方的法術額外消耗(5)點法力。</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;下个回合敌方法术的法力值消耗增加(5)点。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; в следующий ход противника его заклинания стоят на (5) маны больше.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Feitiços inimigos custam (5) a mais no próximo turno.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; W następnej turze zaklęcia przeciwnika kosztują (5) więcej.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다음 턴에 적이 쓰는 주문의 비용이 (5) 증가합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; nel turno successivo le Magie del nemico costano (5) Mana in più.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; les sorts adverses coûtent (5) cristaux de plus au prochain tour.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; los hechizos enemigos cuestan (5) más el próximo turno.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Los hechizos enemigos cuestan (5) cristales más el próximo turno.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Im nächsten Zug kosten Zauber für Euren Gegner (5) mehr.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Once a noble dragon known as Neltharion, Deathwing lost his mind and shattered Azeroth before finally being defeated.  Daddy issues?</enUS>
-    <zhTW>原名叫奈薩里奧的死亡之翼原本是一頭高貴的龍，直到他失去理性並撕裂艾澤拉斯，最後還被擊殺。難道是因為單親問題嗎?</zhTW>
-    <zhCN>死亡之翼原本是高贵的巨龙奈萨里奥，他发疯之后制造了艾泽拉斯的大灾变，但最终被击败。子不教，父之过？</zhCN>
-    <ruRU>Однажды дракон Смертокрыл (ранее известный как Нелтарион) сошел с ума и чуть не разрушил Азерот, но его остановили. Может, ему надо было чаще бывать на свежем воздухе?</ruRU>
-    <ptBR>Outrora um nobre dragão chamado Neltharion, Asa da Morte enlouqueceu e despedaçou Azeroth antes de ser derrotado. Problemas com o papai?</ptBR>
-    <plPL>Śmiercioskrzydły był niegdyś szlachetnym smokiem, znanym jako Neltarion. Oszalał jednak i zniszczył Azeroth, by w końcu zostać pokonanym. Czyżby kompleksy z dzieciństwa?</plPL>
-    <koKR>한때 고귀한 용족 넬타리온이었던 데스윙은 이성을 잃고 아제로스를 산산조각 냈습니다. 사춘기였나봐요.</koKR>
-    <itIT>Alamorte, in passato un nobile drago noto come Neltharion, impazzì scatenando il Cataclisma su Azeroth ma infine fu sconfitto. Che fosse stato maltrattato da piccolo?</itIT>
-    <frFR>Aile de mort, autrefois nommé Neltharion, était à l’époque un noble dragon mais il perdit la tête et ravagea Azeroth avant d’être vaincu. Un complexe d’Œdipe ?</frFR>
-    <esMX>Alamuerte, otrora un noble dragón conocido como Neltharion, perdió la cordura y destrozó Azeroth antes de que lo derrotaran definitivamente. ¿Problemitas con papá, quizá?</esMX>
-    <esES>Alamuerte ha venido a Hearthstone para desencadenar... EL CARTACLISMO.</esES>
-    <deDE>Einst war er ein edler Drache mit dem Namen Neltharion, doch Todesschwinge verlor seinen Verstand und zerschmetterte Azeroth, bevor er schlussendlich besiegt wurde. Vaterkomplexe?</deDE>
+    <enUS>Loatheb used to be a simple Bog Beast.  This is why we need stricter regulations on mining and agriculture.</enUS>
+    <zhTW>憎恨者原本只是一隻平凡的沼澤獸。為什麼我們需要更嚴格的礦業跟農業法案?牠就是活生生的例子。</zhTW>
+    <zhCN>洛欧塞布原本只是头普通的沼泽兽。从它身上的变化可见矿业和农业给自然带来了多大的破坏。</zhCN>
+    <ruRU>А ведь когда-то Лотхиб был обычным болотным чудищем. Вам не кажется, что давно пора задуматься об экологии Азерота?</ruRU>
+    <ptBR>Repugnaz era uma Fera do Brejo. É por isso que precisamos de leis mais restritas sobre mineração e agricultura.</ptBR>
+    <plPL>Ohydziarz był niegdyś zwykłym bagiennym stworem. Ale mu przeszło.</plPL>
+    <koKR>평범한 수렁 괴물 로데브, 몸에서 버섯 재배 수확 '충격'</koKR>
+    <itIT>Loatheb un tempo era una Bestia della Palude. È per questo che sono richieste regole più severe sull'estrazione e l'agricoltura.</itIT>
+    <frFR>Au départ, Horreb n’était qu’une simple créature des marais. C’est la raison pour laquelle il faut réglementer davantage l’utilisation des pesticides dans l’agriculture.</frFR>
+    <esMX>Loatheb era una simple bestia de la ciénaga. Necesitamos leyes de protección ambiental más estrictas.</esMX>
+    <esES>Antes Loatheb era una bestia del pantano como cualquier otra. Cuando decimos que hay que regular más la minería y la agricultura, no es broma.</esES>
+    <deDE>Früher war Loatheb nur eine Sumpfbestie. Heute ist diese Kreatur das Hauptargument für strengere Vorschriften in der Landwirtschaft.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Samwise Didier</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by completing the Plague Quarter.</enUS>
+    <zhTW>完成瘟疫區後解鎖。</zhTW>
+    <zhCN>在击败瘟疫区的所有首领后解锁。</zhCN>
+    <ruRU>Награда за победу над всеми боссами Чумного квартала.</ruRU>
+    <ptBR>Desbloqueado ao completar o Distrito da Peste.</ptBR>
+    <plPL>Aby odblokować, ukończ Rewir Zarazy.</plPL>
+    <koKR>역병 지구를 완료하여 잠금 해제</koKR>
+    <itIT>Sbloccata completando l'Ala della Pestilenza.</itIT>
+    <frFR>Obtenue en terminant le quartier de la Peste.</frFR>
+    <esMX>Desbloqueada por completar el Arrabal de la Peste.</esMX>
+    <esES>Se desbloquea al completar el Arrabal de la Peste.</esES>
+    <deDE>Wird durch das Abschließen des Seuchenviertels freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after completing the Plague Quarter.</enUS>
+    <zhTW>完成瘟疫區即可合成。</zhTW>
+    <zhCN>在击败瘟疫区的所有首领后能够制作。</zhCN>
+    <ruRU>Можно создать после убийства всех боссов Чумного квартала.</ruRU>
+    <ptBR>Pode ser criado após completar o Distrito da Peste.</ptBR>
+    <plPL>Można wykonać po ukończeniu Rewiru Zarazy.</plPL>
+    <koKR>역병 지구를 완료한 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver completato l'Ala della Pestilenza.</itIT>
+    <frFR>Peut être créée après avoir terminé le quartier de la Peste.</frFR>
+    <esMX>Se puede crear luego de completar el Arrabal de la Peste.</esMX>
+    <esES>Se puede crear tras completar el Arrabal de la Peste.</esES>
+    <deDE>Kann nach dem Abschluss des Seuchenviertels hergestellt werden.</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="b922c4cb-d3ff-47a9-80ae-1b4591a75779" />
+  <Power definition="f33285db-71f9-4ef1-9b83-67ac9176ce6a" />
 </Entity>

@@ -1,91 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_070">
-  <MasterPower>fa93d019-f433-479a-8eca-8960b8a558f1</MasterPower>
+<Entity version="2" CardID="EX1_610">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Houndmaster</enUS>
-    <frFR>Maître-chien</frFR>
-    <zhTW>馴犬者</zhTW>
-    <zhCN>驯兽师</zhCN>
-    <ruRU>Псарь</ruRU>
-    <ptBR>Mestre de Matilha</ptBR>
-    <plPL>Treser ogarów</plPL>
-    <koKR>사냥개조련사</koKR>
-    <itIT>Maestro dei Segugi</itIT>
-    <esMX>Maestro de canes</esMX>
-    <esES>Maestro de canes</esES>
-    <deDE>Hundemeister</deDE>
+    <enUS>Explosive Trap</enUS>
+    <frFR>Piège explosif</frFR>
+    <zhTW>爆炸陷阱</zhTW>
+    <zhCN>爆炸陷阱</zhCN>
+    <ruRU>Взрывная ловушка</ruRU>
+    <ptBR>Armadilha Explosiva</ptBR>
+    <plPL>Wybuchowa pułapka</plPL>
+    <koKR>폭발의 덫</koKR>
+    <itIT>Trappola Esplosiva</itIT>
+    <esMX>Trampa explosiva</esMX>
+    <esES>Trampa explosiva</esES>
+    <deDE>Sprengfalle</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Beastmaster</enUS>
-  </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly Beast +2/+2 and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère +2/+2 et &lt;b&gt;Provocation&lt;/b&gt; à une Bête alliée.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予友方野獸+2/+2及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方野兽获得+2/+2并获得&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваш выбранный зверь получает +2/+2 и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2/+2 e &lt;b&gt;Provocar&lt;/b&gt; a uma Fera aliada.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznej Bestii +2/+2 oraz &lt;b&gt;Prowokację&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 야수 1마리에게 +2/+2와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +2/+2 e &lt;b&gt;Provocazione&lt;/b&gt; a una tua Bestia.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2/+2 y &lt;b&gt;Provocación&lt;/b&gt; a una Bestia aliada.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2/+2 y &lt;b&gt;Provocar&lt;/b&gt; a una bestia amistosa.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Wildtier +2/+2 und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
-  </Tag>
   <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your hero is attacked, deal $2 damage to all enemies.</enUS>
+    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre héros est attaqué, inflige $2 |4(point,points) de dégâts à tous les adversaires.</frFR>
+    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的英雄被攻擊時，對全部敵人造成$2點傷害</zhTW>
+    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的英雄受到攻击，对所有敌人造成$2点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда вашего героя атакуют, наносит 2 ед. урона всем персонажам противника.</ruRU>
+    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu herói for atacado, cause $2 de dano a todos os inimigos.</ptBR>
+    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Gdy twój bohater zostanie zaatakowany, zadaj $2 pkt. obrażeń wszystkim wrogom.</plPL>
+    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅이 공격받으면 모든 적에게 피해를 2 줍니다.</koKR>
+    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando il tuo eroe viene attaccato, infligge $2 danni a tutti i nemici.</itIT>
+    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando atacan a tu héroe, inflige $2 de daño a todos los enemigos.</esMX>
+    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando vayan a atacar a tu héroe, inflige $2 p. de daño a todos los enemigos.</esES>
+    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Held angegriffen wird, erleiden alle Feinde $2 Schaden.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Brereton</enUS>
-  </Tag>
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Give a Beast +2/+2 and Taunt.</enUS>
-    <zhTW>賦予一隻野獸+2/+2及嘲諷。</zhTW>
-    <zhCN>使一只野兽获得+2/+2并具有嘲讽。</zhCN>
-    <ruRU>Добавить зверю +2/+2 и &lt;b&gt;«Провокацию»&lt;/b&gt;</ruRU>
-    <ptBR>Conceda +2/+2 e Provocar a uma Fera.</ptBR>
-    <plPL>Daj Bestii +2/+2 oraz Prowokację.</plPL>
-    <koKR>야수 1마리에게 +2/+2, 도발</koKR>
-    <itIT>Fornisce +2/+2 e Provocazione a una Bestia.</itIT>
-    <frFR>Confère +2/+2 et Provocation à une Bête.</frFR>
-    <esMX>Otorga +2/+2 y Provocación a una Bestia.</esMX>
-    <esES>Otorga +2/+2 y Provocar a una bestia.</esES>
-    <deDE>Verleiht einem Wildtier +2/+2 und Spott.</deDE>
+    <enUS>Brandon Kitkouski</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Who let the dogs out?" he asks.  It's rhetorical.</enUS>
-    <zhTW>「來人啊!關門!放狗!」</zhTW>
-    <zhCN>“是谁把狗放出来的？”他问。其实，这只是他的口头禅。</zhCN>
-    <ruRU>Кто спустил собак? В данном случае это риторический вопрос. </ruRU>
-    <ptBR>"Quem soltou os cachorros", pergunta ele. É pura retórica.</ptBR>
-    <plPL>„Kto spuścił psy?”, zapytał. To retoryczne pytanie.</plPL>
-    <koKR>"누가 개들을 풀었어?"라고 묻네요. 몰라서 물으십니까?</koKR>
-    <itIT>"Chi ha fatto uscire il cane?", chiede. Una domanda retorica.</itIT>
-    <frFR>Il manquerait plus qu’il morde !</frFR>
-    <esMX>"¿Quién dejó salir al perro?", se pregunta... retóricamente.</esMX>
-    <esES>No mentía al decir que llevaba una vida de perros.</esES>
-    <deDE>Wenn er fragt, wer die Hunde losgelassen hat, ist das bloß eine rhetorische Frage.</deDE>
+    <enUS>It traps your food AND cooks it for you!</enUS>
+    <zhTW>它會捕捉你的食物然後幫你煮好!</zhTW>
+    <zhCN>普通陷阱捉到的是猎物；爆炸陷阱捉到的是烤熟的食物！</zhCN>
+    <ruRU>Эта штука не только поймает ваш обед, но и зажарит его для вас!</ruRU>
+    <ptBR>Aprisiona sua comida e ainda cozinha pra você!</ptBR>
+    <plPL>Na szczęście nie jest to szklana pułapka.</plPL>
+    <koKR>먹잇감을 잡아둘 뿐만 아니라 맛있게 구워줍니다!</koKR>
+    <itIT>Intrappola il cibo e lo cucina per te!</itIT>
+    <frFR>Il piège votre prochain repas et en plus il le rôtit !</frFR>
+    <esMX>No solo atrapa tu comida... ¡TAMBIÉN te la cocina!</esMX>
+    <esES>¡Atrapa tu comida y la cocina! Si la compras ahora recibirás 2 calderos de regalo.</esES>
+    <deDE>Wird allen Jägern empfohlen, die nicht gerne kochen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 28.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="fa93d019-f433-479a-8eca-8960b8a558f1">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="2" param="" />
-    <PlayRequirement reqID="10" param="20" />
-  </Power>
+  <Tag name="Secret" enumID="219" type="Bool" value="1" />
+  <Power definition="5e094f7d-4df8-46aa-840f-b18df5bf4046" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

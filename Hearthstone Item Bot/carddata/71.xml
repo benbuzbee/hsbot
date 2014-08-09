@@ -1,67 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_003">
-  <MasterPower>f7e4f69e-1f6e-4387-9b55-b7fd51f76a5b</MasterPower>
+<Entity version="2" CardID="NEW1_038">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mind Vision</enUS>
-    <frFR>Vision télépathique</frFR>
-    <zhTW>心靈幻象</zhTW>
-    <zhCN>心灵视界</zhCN>
-    <ruRU>Внутреннее зрение</ruRU>
-    <ptBR>Visão da Mente</ptBR>
-    <plPL>Wizja umysłu</plPL>
-    <koKR>마음의 눈</koKR>
-    <itIT>Visione Mentale</itIT>
-    <esMX>Visión mental</esMX>
-    <esES>Visión mental</esES>
-    <deDE>Gedankensicht</deDE>
+    <enUS>Gruul</enUS>
+    <zhTW>戈魯爾</zhTW>
+    <zhCN>格鲁尔</zhCN>
+    <ruRU>Груул</ruRU>
+    <ptBR>Gruul</ptBR>
+    <plPL>Gruul</plPL>
+    <koKR>그룰</koKR>
+    <itIT>Gruul</itIT>
+    <frFR>Gruul</frFR>
+    <esMX>Gruul</esMX>
+    <esES>Gruul</esES>
+    <deDE>Gruul</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Put a copy of a random card in your opponent's hand into your hand.</enUS>
-    <frFR>Place une copie d’une carte aléatoire de la main de l’adversaire dans la vôtre.</frFR>
-    <zhTW>從對手手上複製一張隨機卡片，並放到你的手牌裡</zhTW>
-    <zhCN>随机复制你的对手手牌中的一张牌，将其置入你的手牌。</zhCN>
-    <ruRU>Вы кладете в руку копию случайной карты из руки противника.</ruRU>
-    <ptBR>Coloque uma cópia de um card aleatório da mão do seu oponente na sua mão.</ptBR>
-    <plPL>Umieść w swojej ręce kopię losowej karty z ręki przeciwnika.</plPL>
-    <koKR>상대편 손에 있는 카드 1장을 무작위로 복사하여 내 손으로 가져옵니다.</koKR>
-    <itIT>Metti nella tua mano una copia di una carta casuale dalla mano dell'avversario.</itIT>
-    <esMX>Pon una copia de una carta aleatoria de la mano de tu adversario en tu mano.</esMX>
-    <esES>Coloca una copia de una carta aleatoria de la mano de tu oponente en tu mano.</esES>
-    <deDE>Kopiert eine zufällige Karte aus der Hand Eures Gegners und fügt sie Eurer Hand hinzu.</deDE>
+    <enUS>At the end of each turn, gain +1/+1 .</enUS>
+    <zhTW>在每個回合結束時獲得+1/+1</zhTW>
+    <zhCN>在每个回合结束时，获得+1/+1。</zhCN>
+    <ruRU>В конце каждого хода получает +1/+1.</ruRU>
+    <ptBR>Ao fim de cada turno, receba +1/+1.</ptBR>
+    <plPL>Na koniec każdej tury otrzymuje +1/+1.</plPL>
+    <koKR>각 플레이어의 턴이 끝날 때마다 +1/+1을 얻습니다.</koKR>
+    <itIT>Ottiene +1/+1 alla fine di ogni turno.</itIT>
+    <frFR>À la fin de chaque tour, gagne +1/+1.</frFR>
+    <esMX>Al final de cada turno, obtiene +1/+1.</esMX>
+    <esES>Al final de cada turno, obtiene +1/+1.</esES>
+    <deDE>Erhält am Ende jedes Zuges +1/+1.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Growth</enUS>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Michael Komarck</enUS>
+    <enUS>Kev Walker</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>I see what you did there.</enUS>
-    <zhTW>我知道你幹過哪些好事。</zhTW>
-    <zhCN>你刚才做的事情我都看见了。</zhCN>
-    <ruRU>Я вижу тебя насквозь.</ruRU>
-    <ptBR>Eu vi o que você fez aí.</ptBR>
-    <plPL>Co ja pacze!</plPL>
-    <koKR>손이 눈보다 빠를 필요가 없습니다. 이 카드만 있으면요.</koKR>
-    <itIT>So cosa hai fatto.</itIT>
-    <frFR>Je vois des cartes qui sont... miennes !</frFR>
-    <esMX>A mí no me puedes ocultar nada.</esMX>
-    <esES>Te he visto.</esES>
-    <deDE>„Jemandem in die Karten sehen“ ist hier noch wortwörtlich zu verstehen.</deDE>
+    <enUS>He's Gruul "the Dragonkiller".  He just wanted to cuddle them… he never meant to… </enUS>
+    <zhTW>他是『弒龍者』戈魯爾。其實他只是想要抱抱那些龍，並沒有真的想...</zhTW>
+    <zhCN>人们叫他“屠龙者”格鲁尔。其实他只是想抱抱它们...他不是故意要...</zhCN>
+    <ruRU>Груул Драконобой просто хотел погладить дракончика... но не рассчитал силу.</ruRU>
+    <ptBR>Ele é Gruul, o Matador de Dragões. Ele só queria abraçá-los... nunca quis que... </ptBR>
+    <plPL>Gruul bardzo lubi smoki. Niestety, jego pełne serdeczności uściski zyskały mu przydomek „Smokobójca”. </plPL>
+    <koKR>그룰은 "용학살자"입니다만, 사실 용들을 꼭 안아주고 싶었을 뿐입니다.</koKR>
+    <itIT>È noto come Gruul "l'Ammazzadraghi". In realtà voleva solo coccolarli... è stato un terribile incidente... </itIT>
+    <frFR>Son nom est Gruul, « le tueur de dragons ». Il voulait juste les câliner... Il ne pensait pas que...</frFR>
+    <esMX>Él es Gruul, "el Asesino de Dragones". Él solo quería abrazarlos... nunca tuvo la intención de... </esMX>
+    <esES>Es Gruul, el Asesino de Dragones. Él solo quería acariciarlos... nunca tuvo intención de...</esES>
+    <deDE>Gruul der Drachentöter hat seinen Namen verdient, und das, obwohl er eigentlich nur kuscheln wollte.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 32.</enUS>
-  </Tag>
-  <Power definition="f7e4f69e-1f6e-4387-9b55-b7fd51f76a5b" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="361ee1fb-ee37-43c1-a4b6-bcf1a1247574" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

@@ -1,65 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_560">
+<Entity version="2" CardID="CS2_026">
+  <MasterPower>cb0b6a1a-8c22-4904-a480-39acafd24d3d</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Nozdormu</enUS>
-    <frFR>Nozdormu</frFR>
-    <zhTW>諾茲多姆</zhTW>
-    <zhCN>诺兹多姆</zhCN>
-    <ruRU>Ноздорму</ruRU>
-    <ptBR>Nozdormu</ptBR>
-    <plPL>Nozdormu</plPL>
-    <koKR>노즈도르무</koKR>
-    <itIT>Nozdormu</itIT>
-    <esMX>Nozdormu</esMX>
-    <esES>Nozdormu</esES>
-    <deDE>Nozdormu</deDE>
+    <enUS>Frost Nova</enUS>
+    <frFR>Nova de givre</frFR>
+    <zhTW>冰霜新星</zhTW>
+    <zhCN>冰霜新星</zhCN>
+    <ruRU>Кольцо льда</ruRU>
+    <ptBR>Nova Congelante</ptBR>
+    <plPL>Rozbłysk mrozu</plPL>
+    <koKR>얼음 회오리</koKR>
+    <itIT>Esplosione Gelida</itIT>
+    <esMX>Nova de escarcha</esMX>
+    <esES>Nova de Escarcha</esES>
+    <deDE>Frostnova</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Players only have 15 seconds to take their turns.</enUS>
-    <frFR>Les joueurs n’ont que 15 secondes pour jouer leur tour.</frFR>
-    <zhTW>雙方玩家每回合只剩15秒思考時間</zhTW>
-    <zhCN>所有玩家只有15秒的时间来进行他们的回合。</zhCN>
-    <ruRU>Длительность хода каждого игрока ограничена 15 секундами.</ruRU>
-    <ptBR>Os jogadores só tem 15 segundos para terminarem seus turnos.</ptBR>
-    <plPL>Gracze mają tylko 15 sekund na wykonanie swojej tury.</plPL>
-    <koKR>플레이어들의 턴 제한 시간이 15초로 감소합니다. </koKR>
-    <itIT>I giocatori hanno solo 15 secondi per completare il proprio turno.</itIT>
-    <esMX>Los jugadores solo tienen 15 segundos para tomar su turno.</esMX>
-    <esES>Los jugadores solo tienen 15 s para sus turnos.</esES>
-    <deDE>Spieler haben nur jeweils 15 Sekunden für ihren Zug.</deDE>
+    <enUS>&lt;b&gt;Freeze&lt;/b&gt; all enemy minions.</enUS>
+    <frFR>&lt;b&gt;Gèle&lt;/b&gt; tous les serviteurs adverses.</frFR>
+    <zhTW>&lt;b&gt;凍結&lt;/b&gt;全部敵方手下</zhTW>
+    <zhCN>&lt;b&gt;冻结&lt;/b&gt;所有敌方随从。</zhCN>
+    <ruRU>&lt;b&gt;Замораживает&lt;/b&gt; всех существ противника.</ruRU>
+    <ptBR>&lt;b&gt;Congele&lt;/b&gt; todos os lacaios inimigos.</ptBR>
+    <plPL>&lt;b&gt;Zamroź&lt;/b&gt; wszystkich wrogich stronników.</plPL>
+    <koKR>모든 적 하수인을 &lt;b&gt;빙결&lt;/b&gt; 상태로 만듭니다.</koKR>
+    <itIT>&lt;b&gt;Congela&lt;/b&gt; tutti i servitori nemici.</itIT>
+    <esMX>&lt;b&gt;Congela&lt;/b&gt; a todos los esbirros enemigos.</esMX>
+    <esES>&lt;b&gt;Congela&lt;/b&gt; a todos los esbirros enemigos.</esES>
+    <deDE>&lt;b&gt;Friert&lt;/b&gt; alle feindlichen Diener ein.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Aspect of Time</enUS>
-  </Tag>
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Time to write some flavor text.</enUS>
-    <zhTW>寫說明文字的時間到了。</zhTW>
-    <zhCN>没时间写什么背景描述了。</zhCN>
-    <ruRU>Эффективное средство против нерасторопных противников.</ruRU>
-    <ptBR>Hora de escrever uma descrição.</ptBR>
-    <plPL>15 sekund to za mało, żeby napisać coś zabawnego!</plPL>
-    <koKR>여기 뭔가 써야 하는데 시간이 모자라네요.</koKR>
-    <itIT>Il tempo vola.</itIT>
-    <frFR>Dépêchez-vous, son temps est précieux !</frFR>
-    <esMX>El tiempo justo para escribir un chiste.</esMX>
-    <esES>No le gusta perder el tiempo.</esES>
-    <deDE>Selbst 15 Sekunden kommen ihm wie eine Ewigkeit vor.</deDE>
+    <enUS>Hey man, that's cold.  Literally and metaphorically.</enUS>
+    <zhTW>這真的很冷。不管以字面或含意而言。</zhTW>
+    <zhCN>嘿，伙计，这会冻死你的。我是说真的。</zhCN>
+    <ruRU>Тепло ли тебе, девица? Тепло ли тебе, красная?</ruRU>
+    <ptBR>Isso é frio, hein? Literal e metaforicamente.</ptBR>
+    <plPL>Zimno wszędzie, mroźno wszędzie, co to będzie, co to będzie.</plPL>
+    <koKR>주의: 연속으로 쓰면 따귀를 맞을지도 모름</koKR>
+    <itIT>Accidenti che freddura. Letteralmente e metaforicamente.</itIT>
+    <frFR>Ça a jeté un froid. Métaphoriquement et littéralement.</frFR>
+    <esMX>Me dejas helado. Literal y metafóricamente hablando.</esMX>
+    <esES>Demuestras un comportamiento muy frío.</esES>
+    <deDE>Friert außerdem die Gesichtszüge des Gegners ein.</deDE>
   </Tag>
-  <Power definition="ffc1095f-67f1-404f-9889-1dc18f5e973c" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Josh Tallman</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+    <zhTW>於6級時解鎖。</zhTW>
+    <zhCN>达到6级后解锁。</zhCN>
+    <ruRU>Доступна с 6-го уровня.</ruRU>
+    <ptBR>Disponível no nível 6.</ptBR>
+    <plPL>Odblokowane na poziomie 6.</plPL>
+    <koKR>6 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 6.</itIT>
+    <frFR>Débloquée au niveau 6.</frFR>
+    <esMX>Se desbloquea en nivel 6.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 6.</esES>
+    <deDE>Wird auf Stufe 6 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 23.</enUS>
+    <zhTW>於23級時解鎖。</zhTW>
+    <zhCN>达到23级后解锁。</zhCN>
+    <ruRU>Доступна с 23-го уровня.</ruRU>
+    <ptBR>Disponível no nível 23.</ptBR>
+    <plPL>Odblokowane na poziomie 23.</plPL>
+    <koKR>23 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 23.</itIT>
+    <frFR>Débloquée au niveau 6.</frFR>
+    <esMX>Se desbloquea en nivel 23.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 23.</esES>
+    <deDE>Wird auf Stufe 23 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="cb0b6a1a-8c22-4904-a480-39acafd24d3d" />
 </Entity>

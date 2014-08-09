@@ -1,61 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_384">
-  <MasterPower>6b2a252b-6666-4520-a960-fbe88a54aafd</MasterPower>
+<Entity version="2" CardID="tt_004">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Avenging Wrath</enUS>
-    <frFR>Courroux vengeur</frFR>
-    <zhTW>復仇之怒</zhTW>
-    <zhCN>复仇之怒</zhCN>
-    <ruRU>Гнев карателя</ruRU>
-    <ptBR>Ira Vingativa</ptBR>
-    <plPL>Gniew zemsty</plPL>
-    <koKR>응징의 격노</koKR>
-    <itIT>Ira Vendicatrice</itIT>
-    <esMX>Cólera vengativa</esMX>
-    <esES>Cólera vengativa</esES>
-    <deDE>Zornige Vergeltung</deDE>
-  </Tag>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $8 damage randomly split among enemy characters.</enUS>
-    <frFR>Inflige $8 |4(point,points) de dégâts répartis de façon aléatoire entre les personnages adverses.</frFR>
-    <zhTW>造成$8點傷害，隨機分給敵方角色</zhTW>
-    <zhCN>造成$8点伤害，随机分配给敌方角色。</zhCN>
-    <ruRU>Наносит $8 ед. урона, случайно распределенного между персонажами противника.</ruRU>
-    <ptBR>Cause $8 de dano dividido aleatoriamente entre os personagens inimigos.</ptBR>
-    <plPL>Zadaj $8 pkt. obrażeń, losowo rozdzielone pomiędzy wrogimi postaciami.</plPL>
-    <koKR>적 캐릭터들에게 $8의 피해를 무작위로 나누어 입힙니다.</koKR>
-    <itIT>Infligge $8 danni suddivisi casualmente tra i personaggi nemici.</itIT>
-    <esMX>Inflige $8 de daño dividido aleatoriamente entre los personajes enemigos.</esMX>
-    <esES>Inflige $8 p. de daño, divididos aleatoriamente entre los personajes enemigos.</esES>
-    <deDE>Verursacht $8 Schaden, der zufällig auf feindliche Charaktere verteilt wird.</deDE>
+    <enUS>Flesheating Ghoul</enUS>
+    <zhTW>食肉食屍鬼</zhTW>
+    <zhCN>腐肉食尸鬼</zhCN>
+    <ruRU>Плотоядный вурдалак</ruRU>
+    <ptBR>Carniçal Devora-carne</ptBR>
+    <plPL>Szpikożerny ghul</plPL>
+    <koKR>굶주린 식인 구울</koKR>
+    <itIT>Ghoul Mangiacarne</itIT>
+    <frFR>Goule mangeuse de chair</frFR>
+    <esMX>Necrófago carnívoro</esMX>
+    <esES>Necrófago carnívoro</esES>
+    <deDE>Fleischfressender Ghul</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever a minion dies, gain +1 Attack.</enUS>
+    <zhTW>每當一個手下死亡，獲得+1攻擊力</zhTW>
+    <zhCN>每当一个随从死亡时，获得+1攻击力。</zhCN>
+    <ruRU>Каждый раз, когда умирает существо, плотоядный вурдалак получает +1 к атаке.</ruRU>
+    <ptBR>Sempre que um lacaio morrer, receba +1 de Ataque.</ptBR>
+    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy zginie dowolny stronnik.</plPL>
+    <koKR>하수인이 죽을 때마다 공격력을 +1 얻습니다.</koKR>
+    <itIT>Ottiene +1 Attacco quando un servitore muore.</itIT>
+    <frFR>Chaque fois qu’un serviteur meurt, gagne +1 ATQ.</frFR>
+    <esMX>Cada vez que un esbirro muere, obtiene +1 de Ataque.</esMX>
+    <esES>Cada vez que un esbirro muere, obtiene +1 de ataque.</esES>
+    <deDE>Erhält jedes Mal +1 Angriff, wenn ein Diener stirbt.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Cannibalism</enUS>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Garner</enUS>
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Wham! Wham! Wham! Wham! Wham! Wham! Wham! Wham!</enUS>
-    <zhTW>轟!轟!轟!轟!轟!轟!轟!轟!</zhTW>
-    <zhCN>打！打！打！打！打！打！打！打！</zhCN>
-    <ruRU>Бам! Бам! Бам! Бам! Бам! Бам! Бам! Бам!</ruRU>
-    <ptBR>Bam! Bam! Bam! Bam! Bam! Bam! Bam! Bam! Bam!</ptBR>
-    <plPL>Zemsta, zemsta, zemsta na wroga! Aż z bólu będzie krzyczeć „Olaboga”!</plPL>
-    <koKR>쿠쾅쾅쾅쾅쾅쾅쾅!</koKR>
-    <itIT>Bam! Bam! Bam! Bam! Bam! Bam! Bam! Bam!</itIT>
-    <frFR>Bam ! Bam ! Bam ! Bam ! Bam ! Bam ! Bam ! Bam !</frFR>
-    <esMX>¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum! ¡Pum!</esMX>
-    <esES>A la Luz rogando, y con el mazo dando.</esES>
-    <deDE>Bämm! Bämm! Bämm! Bämm! Bämm! Bämm! Bämm! Bämm!</deDE>
+    <enUS>'Flesheating' is an unfair name.  It's just that there's not really much else for him to eat.</enUS>
+    <zhTW>說他食肉其實很不公平。其實他只是沒有其他東西可以吃了。</zhTW>
+    <zhCN>诟病食尸鬼吃“腐肉”其实对它们并不公平，它们只是没有别的可吃了而已。</zhCN>
+    <ruRU>Да, он ест трупы. Но как будто у него есть выбор.</ruRU>
+    <ptBR>Devora-carne é um nome injusto. Na verdade não tem muito mais coisas para ele comer.</ptBR>
+    <plPL>„Szpikożerny” to niesprawiedliwe imię. Pewnie chciałby zjeść coś innego, ale nic mu nie zostawili.</plPL>
+    <koKR>먹을 게 없어서 시체를 먹습니다.</koKR>
+    <itIT>Mangiacarne è un nomignolo ingiusto. Non è colpa sua se non c'era molto altro che potesse mangiare.</itIT>
+    <frFR>Pas très sympa de l’appeler « mangeuse de chair ». Ce n’est pas de sa faute s’il n’y a que ça à manger.</frFR>
+    <esMX>"Carnívoro" es un nombre injusto. No es su culpa, es que en verdad no hay muchas otras cosas que pueda comer.</esMX>
+    <esES>Algo tendrá que comer.</esES>
+    <deDE>Oder habt Ihr schon einmal von einem pflanzenfressenden Ghul gehört?</deDE>
   </Tag>
-  <Tag name="ImmuneToSpellpower" enumID="349" type="Bool" value="1" />
-  <Power definition="6b2a252b-6666-4520-a960-fbe88a54aafd" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="60a316fe-913a-4934-bce4-5268da7d5ea4" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

@@ -1,62 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_304">
-  <MasterPower>5c1e2577-5995-40a0-9b89-533372e84877</MasterPower>
+<Entity version="2" CardID="CS2_008">
+  <MasterPower>f8b493c3-9a36-4f05-9c01-36e3859b4252</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Void Terror</enUS>
-    <frFR>Terreur du Vide</frFR>
-    <zhTW>虛無恐獸</zhTW>
-    <zhCN>虚空恐魔</zhCN>
-    <ruRU>Ужасень Бездны</ruRU>
-    <ptBR>Terror do Caos</ptBR>
-    <plPL>Postrach Pustki</plPL>
-    <koKR>공허의 괴물</koKR>
-    <itIT>Terrore del Vuoto</itIT>
-    <esMX>Terror del vacío</esMX>
-    <esES>Terror del vacío</esES>
-    <deDE>Schrecken der Leere</deDE>
+    <enUS>Moonfire</enUS>
+    <frFR>Éclat lunaire</frFR>
+    <zhTW>月火術</zhTW>
+    <zhCN>月火术</zhCN>
+    <ruRU>Лунный огонь</ruRU>
+    <ptBR>Fogo Lunar</ptBR>
+    <plPL>Księżycowy ogień</plPL>
+    <koKR>달빛 섬광</koKR>
+    <itIT>Fuoco Lunare</itIT>
+    <esMX>Fuego lunar</esMX>
+    <esES>Fuego lunar</esES>
+    <deDE>Mondfeuer</deDE>
+  </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Deal $1 damage.</enUS>
+    <frFR>Inflige $1 |4(point,points) de dégâts.</frFR>
+    <zhTW>造成$1點傷害</zhTW>
+    <zhCN>造成$1点伤害。</zhCN>
+    <ruRU>Наносит $1 ед. урона.</ruRU>
+    <ptBR>Cause $1 de dano.</ptBR>
+    <plPL>Zadaj $1 pkt. obrażeń.</plPL>
+    <koKR>피해를 $1 줍니다.</koKR>
+    <itIT>Infligge $1 |4(danno,danni).</itIT>
+    <esMX>Inflige $1 de daño.</esMX>
+    <esES>Inflige $1 p. de daño.</esES>
+    <deDE>Verursacht $1 Schaden.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy the minions on either side of this minion and gain their Attack and Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit les serviteurs adjacents et gagne leurs points d’Attaque et de Vie.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀其兩側的手下，獲得其攻擊力及生命值</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭该随从两侧的随从，并获得他们的攻击力和生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает существа по обе стороны от себя и получает их атаку и здоровье.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua os lacaios dos dois lados deste e receba o Ataque e a Vida deles.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz sąsiadujących z nim stronników, a zyska ich atak oraz zdrowie.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이 하수인 양옆에 있는 하수인들을 처치하고 그들의 공격력과 생명력을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge i servitori adiacenti e ne ottiene l'Attacco e la Salute.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye los esbirros que están a ambos lados de este esbirro y obtiene el Ataque y la Salud de los esbirros destruidos.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye a los esbirros adyacentes y obtiene su ataque y salud.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet die benachbarten Diener und verleiht ihm deren Angriff und Leben.</deDE>
-  </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Race" enumID="200" type="Race" value="15" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Horley Orlandelli</enUS>
+    <enUS>Richard Wright</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you put this into your deck, you WILL lose the trust of your other minions.</enUS>
-    <zhTW>如果你把這張放進套牌裡，你絕對會失去其他手下的信任。</zhTW>
-    <zhCN>如果你把这张牌放到你的套牌中，你就会失去其他随从对你的信任。</zhCN>
-    <ruRU>Если вы положите эту карту в колоду, ваши существа перестанут вам доверять.</ruRU>
-    <ptBR>Se você colocar isso no seu deck, você VAI perder a confiança dos seus outros lacaios.</ptBR>
-    <plPL>Jeśli włożysz tę kartę do talii, STRACISZ zaufanie wszystkich swoich stronników.</plPL>
-    <koKR>이 카드를 덱에 넣으면 다른 하수인들의 신뢰를 잃습니다.</koKR>
-    <itIT>Se lo aggiungerai al tuo mazzo, aspettati di perdere la fiducia degli altri tuoi servitori.</itIT>
-    <frFR>Si vous l’ajoutez à votre deck, vous perdrez la confiance de vos autres serviteurs.</frFR>
-    <esMX>Si pones esta carta en tu mazo, sin dudas PERDERÁS la confianza del resto de tus esbirros.</esMX>
-    <esES>Si añades esto a tu mazo, perderás la confianza de tus otros esbirros.</esES>
-    <deDE>Wenn er auftaucht, herrscht um ihn herum gähnende Leere.</deDE>
+    <enUS>"Cast Moonfire, and never stop." - How to Be a Druid, Chapter 5, Section 3</enUS>
+    <zhTW>「施放月火術，一直放不停。」-如何成為德魯伊，第5章第3節</zhTW>
+    <zhCN>“把月火术拖到每一个技能栏位上。”——《如何成为一名德鲁伊》，第五章，第三节</zhCN>
+    <ruRU> Жечь, жечь и еще раз жечь «Лунным огнем». – Путь друида, глава 5.</ruRU>
+    <ptBR>"Comece a lançar Fogo Lunar e não pare nunca." — Como ser um Druida, Capítulo 5, Seção 3</ptBR>
+    <plPL>„Co ja mam, co ja mam - księżycowy ogień”. - Piosenki małego druida, księga V</plPL>
+    <koKR>"달빛 섬광을 쓰세요. 계속 쓰세요." - 조화 드루이드가 되는 법, 제 5장, 3절</koKR>
+    <itIT>"Lancia Fuoco Lunare e non fermarti mai." - Manuale del giovane Druido, capitolo 5, paragrafo 3</itIT>
+    <frFR>« Lancez Éclat lunaire sans discontinuer. » - Comment devenir druide, chapitre 5, paragraphe 3</frFR>
+    <esMX>"Lanza fuego lunar, y nunca te detengas". Cómo convertirse en Druida, capítulo 5, sección 3</esMX>
+    <esES>"Lanza Fuego lunar, y no pares". - Cómo ser un druida, capítulo 5, sección 3</esES>
+    <deDE>„Wirkt Mondfeuer – immer und immer wieder.“ – Leitfaden für Druiden, Kapitel 5, Abschnitt 3</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="5c1e2577-5995-40a0-9b89-533372e84877" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 6.</enUS>
+    <zhTW>於6級時解鎖。</zhTW>
+    <zhCN>达到6级后解锁。</zhCN>
+    <ruRU>Доступна с 6-го уровня.</ruRU>
+    <ptBR>Disponível no nível 6.</ptBR>
+    <plPL>Odblokowane na poziomie 6.</plPL>
+    <koKR>6 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 6.</itIT>
+    <frFR>Débloquée au niveau 6.</frFR>
+    <esMX>Se desbloquea en nivel 6.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 6.</esES>
+    <deDE>Wird auf Stufe 6 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 40.</enUS>
+    <zhTW>於40級時解鎖。</zhTW>
+    <zhCN>达到40级后解锁。</zhCN>
+    <ruRU>Доступна с 40-го уровня.</ruRU>
+    <ptBR>Disponível no nível 40.</ptBR>
+    <plPL>Odblokowane na poziomie 40.</plPL>
+    <koKR>40 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 40.</itIT>
+    <frFR>Débloquée au niveau 40.</frFR>
+    <esMX>Se desbloquea en nivel 40.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 40.</esES>
+    <deDE>Wird auf Stufe 40 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="f8b493c3-9a36-4f05-9c01-36e3859b4252">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

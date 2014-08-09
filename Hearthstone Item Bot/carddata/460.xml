@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_621">
-  <MasterPower>b77d03ca-1c61-4e5d-b30c-fa46f6457ff7</MasterPower>
+<Entity version="2" CardID="Mekka4">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Circle of Healing</enUS>
-    <frFR>Cercle de soins</frFR>
-    <zhTW>治療之環</zhTW>
-    <zhCN>治疗之环</zhCN>
-    <ruRU>Круг исцеления</ruRU>
-    <ptBR>Círculo de Cura</ptBR>
-    <plPL>Krąg uzdrawiania</plPL>
-    <koKR>치유의 마법진</koKR>
-    <itIT>Circolo di Guarigione</itIT>
-    <esMX>Círculo de sanación</esMX>
-    <esES>Círculo de sanación</esES>
-    <deDE>Kreis der Heilung</deDE>
+    <enUS>Poultryizer</enUS>
+    <zhTW>變形器</zhTW>
+    <zhCN>变鸡器</zhCN>
+    <ruRU>Птицефикатор</ruRU>
+    <ptBR>Galinhaitor</ptBR>
+    <plPL>Drobiozator</plPL>
+    <koKR>꼬꼬댁 변신장치</koKR>
+    <itIT>Pollizzatore</itIT>
+    <frFR>Pouletisateur</frFR>
+    <esMX>Pollotizador</esMX>
+    <esES>Pollificador</esES>
+    <deDE>Geflügelisierer</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Poultryizing</enUS>
+  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Restore #4 Health to ALL minions.</enUS>
-    <frFR>Rend #4 |4(point,points) de vie à TOUS les serviteurs.</frFR>
-    <zhTW>全部手下恢復#4點生命值</zhTW>
-    <zhCN>为所有随从恢复#4点生命值。</zhCN>
-    <ruRU>Восстанавливает #4 ед. здоровья ВСЕМ существам.</ruRU>
-    <ptBR>Restaure #4 de Vida de TODOS os lacaios.</ptBR>
-    <plPL>Przywracasz #4 zdrowia WSZYSTKIM stronnikom.</plPL>
-    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인의 생명력을 #4 회복시킵니다.</koKR>
-    <itIT>Rigenera #4 Salute a TUTTI i servitori.</itIT>
-    <esMX>Restaura #4 de Salud a TODOS los esbirros.</esMX>
-    <esES>Restaura #4 p. de salud a todos los esbirros.</esES>
-    <deDE>Stellt bei ALLEN Dienern #4 Leben wieder her.</deDE>
+    <enUS>At the start of your turn, transform a random minion into a 1/1 Chicken.</enUS>
+    <zhTW>在你的回合開始時，將隨機一個手下變形為一隻1/1的雞</zhTW>
+    <zhCN>在你的回合开始时，随机将另一个随从变为1/1的小鸡。</zhCN>
+    <ruRU>В начале вашего хода случайное существо превращается в курицу 1/1.</ruRU>
+    <ptBR>No início do seu turno, transforme um lacaio aleatório em uma Galinha 1/1.</ptBR>
+    <plPL>Na początku swojej tury przemień losowego stronnika w kurczaka 1/1.</plPL>
+    <koKR>내 턴이 시작될 때, 무작위 하수인 하나를 1/1 닭으로 변신시킵니다.</koKR>
+    <itIT>All'inizio del tuo turno, trasforma un servitore casuale in una Gallina 1/1.</itIT>
+    <frFR>Au début de votre tour, transforme un serviteur aléatoire en poulet 1/1.</frFR>
+    <esMX>Al comienzo de tu turno, transforma a un esbirro aleatorio en un Pollo 1/1.</esMX>
+    <esES>Al comienzo de tu turno, transforma a un esbirro aleatorio en un pollo 1/1.</esES>
+    <deDE>Verwandelt zu Beginn Eures Zuges einen zufälligen Diener in ein Huhn (1/1).</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Mike 'Daarken' Lim</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It isn't really a circle.</enUS>
-    <zhTW>其實它並不真的是個環。</zhTW>
-    <zhCN>神圣的象征。</zhCN>
-    <ruRU>На самом деле, это не круг.</ruRU>
-    <ptBR>Não é um círculo, na verdade.</ptBR>
-    <plPL>Po Katakliźmie to zaklęcie trafiło na listę uzdrowień nierefundowanych.</plPL>
-    <koKR>마법진이라고 해서 땅에 뭘 그리거나 하는 건 아닙니다.</koKR>
-    <itIT>Non è esattamente un circolo.</itIT>
-    <frFR>Ce n’est pas vraiment un cercle.</frFR>
-    <esMX>No es un círculo en realidad.</esMX>
-    <esES>En realidad no es un círculo.</esES>
-    <deDE>Es ist nicht wirklich ein Kreis.</deDE>
-  </Tag>
-  <Power definition="b77d03ca-1c61-4e5d-b30c-fa46f6457ff7" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="391ed733-5e17-4c84-bd7a-00f4f5293de5" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

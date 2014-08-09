@@ -1,81 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_057">
-  <MasterPower>fbab1bcd-468a-4ae4-9340-487a0b93fe49</MasterPower>
+<Entity version="2" CardID="EX1_128">
+  <MasterPower>b5a3da15-a174-4572-8f8e-d17a871066d9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ancient Brewmaster</enUS>
-    <frFR>Ancien maître brasseur</frFR>
-    <zhTW>老邁的釀酒大師</zhTW>
-    <zhCN>年迈的酒仙</zhCN>
-    <ruRU>Старый хмелевар</ruRU>
-    <ptBR>Mestre Cervejeiro Ancião</ptBR>
-    <plPL>Prastary gorzelnik</plPL>
-    <koKR>고대의 양조사</koKR>
-    <itIT>Mastro Birraio</itIT>
-    <esMX>Maestro cervecero anciano</esMX>
-    <esES>Maestro cervecero anciano</esES>
-    <deDE>Uralter Braumeister</deDE>
+    <enUS>Conceal</enUS>
+    <frFR>Dissimuler</frFR>
+    <zhTW>隱蔽</zhTW>
+    <zhCN>隐藏</zhCN>
+    <ruRU>Замаскировать</ruRU>
+    <ptBR>Ocultar</ptBR>
+    <plPL>Ukrycie</plPL>
+    <koKR>은폐</koKR>
+    <itIT>Copertura</itIT>
+    <esMX>Encubrir</esMX>
+    <esES>Embozo</esES>
+    <deDE>Verhüllen</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Return a friendly minion from the battlefield to your hand.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; renvoie un serviteur allié du champ de bataille et le place dans votre main.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;把一個友方手下從戰場返回你的手上</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从从战场上移回你的手牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; возвращает ваше существо с поля боя в вашу руку.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Devolva um lacaio aliado do campo de batalha à sua mão.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Cofnij przyjaznego stronnika z pola bitwy na rękę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 전장의 아군 하수인 하나를 내 손으로 다시 가져옵니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fa tornare un altro tuo servitore dal campo di battaglia alla tua mano.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; devuelve un esbirro aliado del campo de batalla a tu mano.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Devuelve a tu mano a un esbirro amistoso del campo de batalla.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Lasst einen befreundeten Diener vom Schlachtfeld auf Eure Hand zurückkehren.</deDE>
+    <enUS>Give your minions &lt;b&gt;Stealth&lt;/b&gt; until your next turn.</enUS>
+    <frFR>Confère &lt;b&gt;Camouflage&lt;/b&gt; à vos serviteurs jusqu’à votre prochain tour.</frFR>
+    <zhTW>賦予全部友方手下&lt;b&gt;潛行&lt;/b&gt;直到你的下一個回合</zhTW>
+    <zhCN>直到你的下个回合，使所有友方随从获得&lt;b&gt;潜行&lt;/b&gt;。</zhCN>
+    <ruRU>Ваши существа получают способность &lt;b&gt;«Маскировка»&lt;/b&gt; до вашего следующего хода.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Furtividade&lt;/b&gt; aos seus lacaios até o próximo turno.</ptBR>
+    <plPL>Daj swoim stronnikom &lt;b&gt;Ukrycie&lt;/b&gt; do twojej następnej tury.</plPL>
+    <koKR>나의 다음 턴까지 아군 하수인들에게 &lt;b&gt;은신&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Furtività&lt;/b&gt; ai tuoi servitori fino al tuo turno successivo.</itIT>
+    <esMX>Otorga &lt;b&gt;Sigilo&lt;/b&gt; a tus esbirros hasta tu próximo turno.</esMX>
+    <esES>Otorga &lt;b&gt;Sigilo&lt;/b&gt; a tus esbirros hasta tu siguiente turno.</esES>
+    <deDE>Verleiht Euren Dienern bis zu Eurem nächsten Zug &lt;b&gt;Verstohlenheit&lt;/b&gt;.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Return a minion to your hand.</enUS>
-    <frFR>Renvoie un serviteur dans votre main.</frFR>
-    <zhTW>使一個手下返回你的手上。</zhTW>
-    <zhCN>将一个随从移回你的手牌。</zhCN>
-    <ruRU>Вернуть существо в вашу руку</ruRU>
-    <ptBR>Devolva um lacaio à sua mão.</ptBR>
-    <plPL>Cofnij stronnika na rękę.</plPL>
-    <koKR>내 손으로 하수인 하나 가져오기</koKR>
-    <itIT>Fa tornare un servitore nella tua mano.</itIT>
-    <esMX>Devuelve un esbirro a tu mano.</esMX>
-    <esES>Devuelve a un esbirro a tu mano.</esES>
-    <deDE>Lasst einen Diener auf Eure Hand zurückkehren.</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Bernie Kang</enUS>
+    <enUS>Steve Hui</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Most pandaren say his brew tastes like yak.  But apparently that's a compliment.</enUS>
-    <zhTW>大部分的熊貓人會說他釀的酒嘗起來像犛牛。不過這顯然是種讚美。</zhTW>
-    <zhCN>大部分熊猫人都喜欢去他的酒坊喝酒，然后在好几天以后才能记起回家的路。</zhCN>
-    <ruRU>Большинство пандаренов говорит, что их хмель пахнет, как як. Но это, очевидно, комплимент.</ruRU>
-    <ptBR>Muitos pandarens dizem que esta bebida tem gosto de iaque. Mas, aparentemente, isso é um elogio.</ptBR>
-    <plPL>Większość pandarenów twierdzi, że jego gorzałka smakuje jak gnu. Ale najwyraźniej jest to komplement.</plPL>
-    <koKR>대부분의 판다렌은 그의 맥주에서 야크 맛이 난다고 평합니다... 네, 칭찬입니다.</koKR>
-    <itIT>La maggior parte dei Pandaren ti dirà che la sua birra sa di Yak. Ma da come lo dicono sembrerebbe quasi un complimento.</itIT>
-    <frFR>La plupart des pandarens disent que sa bière a goût de yack. Mais apparemment, c’est un compliment.</frFR>
-    <esMX>La mayoría de los pandaren dice que su cerveza sabe a yak. Aparentemente, eso es un halago.</esMX>
-    <esES>La pregunta adecuada no es "¿Por qué bebemos?", sino "¿Por qué merece la pena beber?".</esES>
-    <deDE>Viele Pandaren sagen, dass sein Gebräu nach Yak schmeckt. Anscheinend ist das aber als Kompliment gemeint.</deDE>
+    <enUS>Rogues conceal everything but their emotions.  You can't get 'em to shut up about feelings.</enUS>
+    <zhTW>盜賊除了情緒之外，其他的東西都藏得很好。你沒辦法讓盜賊閉嘴不談他們內心的感受。</zhTW>
+    <zhCN>潜行者们能够隐藏除了他们表情之外的一切东西。你不能阻止他们表达执行暗杀后的兴奋感觉。</zhCN>
+    <ruRU>Разбойники все время носят маски, но они не в силах замаскировать собственные чувства. Как начнут жаловаться за жизнь – так ничем их не остановишь!</ruRU>
+    <ptBR>Os Ladinos escondem tudo menos suas emoções. Eles não sabem calar a boca quando começam a falar dos sentimentos.</ptBR>
+    <plPL>Łotrzy ukrywają wszystko, za wyjątkiem emocji. Są po prostu bardzo wylewni.</plPL>
+    <koKR>도적은 모든 것을 은폐시킬 수 있습니다. 근데 이건 어디서 나는 냄새죠?</koKR>
+    <itIT>I Ladri nascondono tutto tranne le loro emozioni. Non puoi farli smettere di parlare delle loro sensazioni.</itIT>
+    <frFR>Il n’y a que leurs émotions que les voleurs ne parviennent pas à dissimuler. Impossible de les empêcher de raconter tous leurs malheurs !</frFR>
+    <esMX>Los pícaros son grandes encubridores, pero cuando se trata de sus sentimientos no hay quién los haga callar. Se empeñan en develar hasta el último detalle.</esMX>
+    <esES>¡Todo su gozo en un embozo!</esES>
+    <deDE>Schurken verhüllen praktisch alles – aber wenn es um ihre Gefühle geht, hüllen sie sich nicht gerade in Schweigen.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="fbab1bcd-468a-4ae4-9340-487a0b93fe49">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
-    <PlayRequirement reqID="9" param="" />
-  </Power>
+  <ReferencedTag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="b5a3da15-a174-4572-8f8e-d17a871066d9" />
 </Entity>

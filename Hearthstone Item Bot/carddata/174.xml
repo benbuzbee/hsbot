@@ -1,64 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_076">
+<Entity version="2" CardID="CS2_080">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Pint-Sized Summoner</enUS>
-    <frFR>Minuscule invocatrice</frFR>
-    <zhTW>迷你召喚師</zhTW>
-    <zhCN>小个子召唤师</zhCN>
-    <ruRU>Гном-призыватель</ruRU>
-    <ptBR>Evocadora Diminuta</ptBR>
-    <plPL>Tycia przywoływaczka</plPL>
-    <koKR>자그마한 소환사</koKR>
-    <itIT>Evocatrice Minuta</itIT>
-    <esMX>Invocadora tamaño pinta</esMX>
-    <esES>Invocadora tamaño bolsillo</esES>
-    <deDE>Winzige Beschwörerin</deDE>
+    <enUS>Assassin's Blade</enUS>
+    <frFR>Lame d’assassin</frFR>
+    <zhTW>刺客之刃</zhTW>
+    <zhCN>刺客之刃</zhCN>
+    <ruRU>Клинок убийцы</ruRU>
+    <ptBR>Lâmina do Assassino</ptBR>
+    <plPL>Ostrze skrytobójcy</plPL>
+    <koKR>암살자의 검</koKR>
+    <itIT>Lama dell'Assassino</itIT>
+    <esMX>Hoja de asesino</esMX>
+    <esES>Hoja de asesino</esES>
+    <deDE>Klinge des Assassinen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="7" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Durability" enumID="187" type="Number" value="4" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Ritual</enUS>
-  </Tag>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>The first minion you play each turn costs (1) less.</enUS>
-    <frFR>Le premier serviteur que vous jouez à chaque tour coûte (1) cristal de moins.</frFR>
-    <zhTW>你每回合召喚的第一個手下消耗減少(1)點</zhTW>
-    <zhCN>你每个回合使用的第一张随从牌的法力值消耗减少（1）点。</zhCN>
-    <ruRU>Первое существо, которое вы разыгрываете на каждом ходу, стоит на (1) ману меньше.</ruRU>
-    <ptBR>O primeiro lacaio que você joga a cada turno custa (1) a menos.</ptBR>
-    <plPL>Pierwszy stronnik zagrany w każdej turze kosztuje (1) mniej.</plPL>
-    <koKR>내 턴마다 처음 내는 하수인은 비용이 (1) 감소합니다.</koKR>
-    <itIT>Il primo servitore che giochi ogni turno costa (1) Mana in meno.</itIT>
-    <esMX>El primer esbirro que juegas en cada turno cuesta (1) menos.</esMX>
-    <esES>El primer esbirro que juegues cada turno cuesta (1) cristal menos.</esES>
-    <deDE>Der erste Diener, den Ihr in einem Zug ausspielt, kostet (1) weniger.</deDE>
-  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ron Spears</enUS>
+    <enUS>Brian Huang</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>She's quite jealous of the Gallon-Sized Summoner.</enUS>
-    <zhTW>她一直想要擺脫「迷你」這個字眼。</zhTW>
-    <zhCN>大个子召唤师就是由她召唤出来的。</zhCN>
-    <ruRU>Размер не имеет значения!</ruRU>
-    <ptBR>Ela sente muita inveja do Evocador Descomunal.</ptBR>
-    <plPL>Najbardziej w świecie boi się swojego nemezis: Przytycia.</plPL>
-    <koKR>다 작은 건 아니라네요. 그럼 어디가 큰 걸까요? 음... 머리?</koKR>
-    <itIT>È abbastanza gelosa dell'Evocatrice Mastodontica.</itIT>
-    <frFR>Elle est super jalouse de la grande invocatrice.</frFR>
-    <esMX>A la hora del amor, su peor competencia es la Invocadora tamaño galón.</esMX>
-    <esES>Fácil de transportar.</esES>
-    <deDE>Selbst die Kleine Beschwörerin sieht neben ihr noch riesig aus.</deDE>
+    <enUS>Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.</enUS>
+    <zhTW>保證曾由真正刺客所擁有。內附有雷射標籤的證書。</zhTW>
+    <zhCN>只有真正的刺客才配拥有。如假包换。</zhCN>
+    <ruRU>Гарантированно принадлежал настоящему убийце. Сертификат подлинности прилагается.</ruRU>
+    <ptBR>Garantia de propriedade de um assassino real. Inclui certificado de autenticidade.</ptBR>
+    <plPL>Gwarantujemy, że poprzednio należało do prawdziwego skrytobójcy. Załączamy certyfikat autentyczności.</plPL>
+    <koKR>진짜 암살자가 품질을 보증하는 제품입니다. 자세히 보면 날에 장미 문양이 새겨져 있다고 합니다.</koKR>
+    <itIT>Posseduta realmente da un vero assassino. Certificato di assassinio incluso.</itIT>
+    <frFR>A réellement appartenu à un assassin. Certificat d’authenticité fourni.</frFR>
+    <esMX>Su anterior dueño fue un asesino real. ¡Garantizado! Incluye certificado de autenticidad.</esMX>
+    <esES>Anteriormente propiedad de un asesino de verdad. Incluye certificado de autenticidad.</esES>
+    <deDE>Gehörte garantiert einem echten Assassinen. Zertifikat liegt bei.</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="6c2898ab-5311-4725-b667-e8a752342493" />
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 2.</enUS>
+    <zhTW>於2級時解鎖。</zhTW>
+    <zhCN>达到2级后解锁。</zhCN>
+    <ruRU>Доступна со 2-го уровня.</ruRU>
+    <ptBR>Disponível no nível 2.</ptBR>
+    <plPL>Odblokowane na poziomie 2.</plPL>
+    <koKR>2 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 2.</itIT>
+    <frFR>Débloquée au niveau 2.</frFR>
+    <esMX>Se desbloquea en nivel 2.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 2.</esES>
+    <deDE>Wird auf Stufe 2 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 32.</enUS>
+    <zhTW>於32級時解鎖。</zhTW>
+    <zhCN>达到32级后解锁。</zhCN>
+    <ruRU>Доступна с 32-го уровня.</ruRU>
+    <ptBR>Disponível no nível 32.</ptBR>
+    <plPL>Odblokowane na poziomie 32.</plPL>
+    <koKR>32 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 32.</itIT>
+    <frFR>Débloquée au niveau 32.</frFR>
+    <esMX>Se desbloquea en nivel 32.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 32.</esES>
+    <deDE>Wird auf Stufe 32 freigeschaltet.</deDE>
+  </Tag>
 </Entity>

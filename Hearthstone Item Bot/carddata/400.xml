@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_145">
-  <MasterPower>0cc6ff8b-fd76-4877-8348-578aef4059a9</MasterPower>
+<Entity version="2" CardID="EX1_616">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Preparation</enUS>
-    <frFR>Préparation</frFR>
-    <zhTW>準備</zhTW>
-    <zhCN>伺机待发</zhCN>
-    <ruRU>Подготовка</ruRU>
-    <ptBR>Preparação</ptBR>
-    <plPL>Przygotowanie</plPL>
-    <koKR>마음가짐</koKR>
-    <itIT>Preparazione</itIT>
-    <esMX>Preparación</esMX>
-    <esES>Preparación</esES>
-    <deDE>Vorbereitung</deDE>
+    <enUS>Mana Wraith</enUS>
+    <frFR>Âme en peine de mana</frFR>
+    <zhTW>法力怨靈</zhTW>
+    <zhCN>法力怨魂</zhCN>
+    <ruRU>Магический призрак</ruRU>
+    <ptBR>Aparição de Mana</ptBR>
+    <plPL>Upiór many</plPL>
+    <koKR>마나 망령</koKR>
+    <itIT>Presenza di Mana</itIT>
+    <esMX>Ánima de maná</esMX>
+    <esES>Ánima de maná</esES>
+    <deDE>Managespenst</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="7" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>The next spell you cast this turn costs (3) less.</enUS>
-    <frFR>Le prochain sort que vous lancez coûte (3) cristaux de moins.</frFR>
-    <zhTW>你在本回合內施放的下一個法術消耗減少(3)點</zhTW>
-    <zhCN>在本回合中，你所施放的下一个法术的法力值消耗减少（3）点。</zhCN>
-    <ruRU>Следующее заклинание, которое вы разыграете в этот ход, стоит на (3) маны меньше.</ruRU>
-    <ptBR>O próximo feitiço que você lançar custará (3) a menos.</ptBR>
-    <plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (3) mniej.</plPL>
-    <koKR>이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.</koKR>
-    <itIT>La prossima Magia che lanci in questo turno costa (3) Mana in meno.</itIT>
-    <esMX>El próximo hechizo que juegues en este turno cuesta (3) menos.</esMX>
-    <esES>El siguiente hechizo que lances este turno costará (3) cristales menos.</esES>
-    <deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (3) weniger.</deDE>
+    <enUS>ALL minions cost (1) more.</enUS>
+    <frFR>TOUS les serviteurs coûtent (1) cristal de plus.</frFR>
+    <zhTW>全部手下的消耗增加(1)點</zhTW>
+    <zhCN>召唤所有随从的法力值消耗增加（1）点。</zhCN>
+    <ruRU>Все существа стоят на (1) ману больше.</ruRU>
+    <ptBR>TODOS os lacaios custam (1) a mais.</ptBR>
+    <plPL>WSZYSCY stronnicy kosztują (1) więcej.</plPL>
+    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인의 비용이 (1) 증가합니다.</koKR>
+    <itIT>TUTTI i servitori costano (1) Mana in più.</itIT>
+    <esMX>TODOS los esbirros cuestan (1) más.</esMX>
+    <esES>Todos los esbirros cuestan (1) cristal más.</esES>
+    <deDE>ALLE Diener kosten (1) mehr.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Clint Langley</enUS>
+    <enUS>Luca Zontini</enUS>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Be Prepared" - Rogue Motto</enUS>
-    <zhTW>「準備妥當」-盜賊的信條</zhTW>
-    <zhCN>“随时准备伺机待发。”——潜行者座右铭</zhCN>
-    <ruRU>«Главное – хорошая подготовка.» Девиз разбойников.</ruRU>
-    <ptBR>"Esteja preparado." — Lema Ladino</ptBR>
-    <plPL>Trucizna? Jest. Kamuflaż? Jest. Zaostrzona broń? Jest. Przeciwnik? Jeszcze jest.</plPL>
-    <koKR>"항상 대비하라." - 도적 격언</koKR>
-    <itIT>"Siate pronti." - Un motto dei Ladri</itIT>
-    <frFR>« Toujours prêt » - Devise des voleurs</frFR>
-    <esMX>"Estén preparados" —Lema de Pícaros.</esMX>
-    <esES>"¡Siempre preparados!" - Lema de los pícaros</esES>
-    <deDE>Manchmal ist Vorbereitung das halbe Leben ... im wahrsten Sinne des Wortes.</deDE>
+    <enUS>They come out at night to eat leftover mana crystals. "Mmmmmm," they say.</enUS>
+    <zhTW>他們會在晚上出現，偷吃剩下的法力水晶。嗯...好吃!</zhTW>
+    <zhCN>它们在晚上出没，吸食残余的法力水晶。“嗯...”它们发出这样的声音。</zhCN>
+    <ruRU>По ночам они выходят питаться неиспользованными кристаллами маны.</ruRU>
+    <ptBR>Elas chegam de noite para comer os restos de cristais de mana. Elas dizem "nomnomnomnom".</ptBR>
+    <plPL>Wypełzają w nocy, żeby zeżreć resztki kryształów many ze stołu.</plPL>
+    <koKR>이들은 밤에 나타나 남은 마나 수정을 먹습니다. "으으으음..." 소리를 내곤 하지요.</koKR>
+    <itIT>Escono di notte per mangiare i Cristalli di Mana avanzati... "Mmmmmm!".</itIT>
+    <frFR>Elles sortent de nuit pour manger les restes des cristaux de mana en poussant des « mmmmm » de contentement.</frFR>
+    <esMX>Salen por la noche para comer sobras de cristales de maná. "Mmm, ñami", dicen.</esMX>
+    <esES>Se manifiestan por las noches para devorar los cristales de maná que sobran de las partidas.</esES>
+    <deDE>Des Nachts spuken sie herum und verspeisen übrig gebliebene Manakristalle.</deDE>
   </Tag>
-  <Power definition="0cc6ff8b-fd76-4877-8348-578aef4059a9" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="f10bd736-54f1-405b-8fd7-bbffc0465403" />
 </Entity>

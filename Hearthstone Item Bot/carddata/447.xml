@@ -1,65 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1_042">
+<Entity version="2" CardID="EX1_596">
+  <MasterPower>1da2233d-656d-4fb4-b78b-3b1c8d538eaa</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Goldshire Footman</enUS>
-    <zhTW>閃金鎮步卒</zhTW>
-    <zhCN>闪金镇步兵</zhCN>
-    <ruRU>Солдат Златоземья</ruRU>
-    <ptBR>Soldado de Vila d'Ouro</ptBR>
-    <plPL>Piechur ze Złotych Włości</plPL>
-    <koKR>황금골 보병</koKR>
-    <itIT>Fante di Borgodoro</itIT>
-    <frFR>Soldat de Comté-de-l’Or</frFR>
-    <esMX>Lacayo de Villadorada</esMX>
-    <esES>Lacayo de Villadorada</esES>
-    <deDE>Fußsoldat von Goldhain</deDE>
+    <enUS>Demonfire</enUS>
+    <frFR>Feu démoniaque</frFR>
+    <zhTW>惡魔火焰</zhTW>
+    <zhCN>恶魔之火</zhCN>
+    <ruRU>Демонический огонь</ruRU>
+    <ptBR>Fogo Demoníaco</ptBR>
+    <plPL>Demoniczny ogień</plPL>
+    <koKR>악마의 불꽃</koKR>
+    <itIT>Fuoco Demoniaco</itIT>
+    <esMX>Fuego demoníaco</esMX>
+    <esES>Fuego demoníaco</esES>
+    <deDE>Dämonenfeuer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
+    <enUS>Deal $2 damage to a minion.   If it’s a friendly Demon, give it +2/+2 instead.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts à un serviteur. Si la cible est un de vos démons, lui donne +2/+2 à la place.</frFR>
+    <zhTW>對一個手下造成$2點傷害。若目標是友方惡魔，賦予它+2/+2</zhTW>
+    <zhCN>对一个随从造成$2点伤害，如果该随从是友方恶魔，则改为使其获得+2/+2。</zhCN>
+    <ruRU>Наносит $2 ед. урона выбранному существу. Если выбран ваш демон, вместо этого он получает +2/+2.</ruRU>
+    <ptBR>Cause $2 de dano a um lacaio. Se for um Demônio aliado, em vez disso, conceda-lhe +2/+2.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń stronnikowi. Jeśli jest przyjaznym Demonem, daj mu zamiast tego +2/+2.</plPL>
+    <koKR>하수인 하나에게 피해를 $2 줍니다. 대상이 아군 악마면 +2/+2를 부여합니다.</koKR>
+    <itIT>Infligge $2 danni a un servitore. Se il bersaglio è un tuo Demone, gli fornisce +2/+2.</itIT>
+    <esMX>Inflige $2 de daño a un esbirro. Si es un Demonio aliado, entonces le otorga +2/+2.</esMX>
+    <esES>Inflige $2 p. de daño a un esbirro. Si el objetivo es un demonio amistoso, en lugar de dañarlo le otorga +2/+2.</esES>
+    <deDE>Fügt einem Diener $2 Schaden zu. Wenn das Ziel ein verbündeter Dämon ist, erhält er stattdessen +2/+2.</deDE>
   </Tag>
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ben Wootten</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Donato Giancola</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Paladin Level 57.</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If 1/2 minions are all that is defending Goldshire, you would think it would have been overrun years ago.</enUS>
-    <zhTW>如果防禦閃金鎮的全是1/2的手下，那個地方應該早就被敵人碾過去了才對。</zhTW>
-    <zhCN>如果闪金镇都是由1/2的步兵把守的话，那它早在多年以前就被毁了。</zhCN>
-    <ruRU>Если Златоземье защищают только эти существа 1/2, странно, что его еще не захватили.</ruRU>
-    <ptBR>Se lacaios 1/2 fossem todas as defesas da Vila d'Ouro, ela teria sido dominada há muito tempo.</ptBR>
-    <plPL>Jeśli na straży Złotych Włości stoją takie zuchy, to i tak cud, że nie zostały jeszcze spalone.</plPL>
-    <koKR>만약 황금골을 수비하는 모든 하수인이 1/2이었다면, 이미 몇 년 전에 초토화됐을 겁니다.</koKR>
-    <itIT>Se dei servitori 1/2 sono tutto ciò che difende Borgodoro, verrebbe da domandarsi perché non sia stata distrutta anni fa.</itIT>
-    <frFR>Si Comté-de-l’Or n’est protégée que par des serviteurs 1/2, elle aurait dû être envahie il y a des années.</frFR>
-    <esMX>Si por toda defensa Villadorada tiene esbirros 1/2, uno creería que la tendrían que haber arrasado hace muchos años.</esMX>
-    <esES>Si estos esbirros 1/2 son los únicos guardias de Villadorada, no es de extrañar que allí se libren tantos duelos impunemente.</esES>
-    <deDE>Man könnte annehmen, dass Goldhain schon längst überrannt sein sollte, wenn es lediglich durch Diener mit 1/2 verteidigt wird.</deDE>
+    <enUS>Demonfire is like regular fire except for IT NEVER STOPS BURNING HELLLPPP</enUS>
+    <zhTW>惡魔火焰跟一般的火一樣，除了它根本拍不熄救命啊啊啊啊!!!</zhTW>
+    <zhCN>恶魔之火和普通火焰没什么区别，除了它从来不会熄灭...救命！</zhCN>
+    <ruRU>Демонический огонь – это тот же огонь, только ОН НИКОГДА НЕ ГАСНЕТ. А-А, ГОРЮ-Ю!</ruRU>
+    <ptBR>Fogo Demoníaco é como fogo comum, só que NUNCA PARA DE QUEIMAR, SOCORROOOO!!!</ptBR>
+    <plPL>Demoniczny ogień przypomina zwykły, z tym, że NIE MOŻNA GO UGASIĆ! POMOOOOOCYYYYY!</plPL>
+    <koKR>악마의 불꽃은 절대 꺼지지 않는다는 점만 빼면 일반 불꽃과 똑같습니다. 그러니까 이 불 좀 꺼주세요!!!!!!!</koKR>
+    <itIT>Il Fuoco Demoniaco è come quello normale, tranne che NON SMETTE PIÙ DI BRUCIAREEEEEE!</itIT>
+    <frFR>Le feu démoniaque est comme un feu normal sauf qu’IL NE S’ARRÊTE JAMAIS DE BRÛLER AU SECOURS !</frFR>
+    <esMX>El fuego demoníaco no es muy diferente del fuego normal, con la excepción de que NUNCA DEJA DE QUEMAR. ¡SOCORROOO!</esMX>
+    <esES>El Fuego demoníaco es como cualquier otro fuego, ¡salvo que NUNCA DEJA DE ARDER! ¡AYUDA!</esES>
+    <deDE>Dämonenfeuer ist eigentlich ganz normales Feuer, aber ES HÖRT NICHT AUF ZU BRENNEN! HILFEEEEEE!!!</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Power definition="54e57583-ce5c-46e3-899a-39bd2181468d" />
+  <Power definition="1da2233d-656d-4fb4-b78b-3b1c8d538eaa">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

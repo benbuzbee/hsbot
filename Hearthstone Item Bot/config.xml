@@ -23,6 +23,8 @@
     
     <!-- Time to wait between reconnect attempts -->
     <reconnecttime>300000</reconnecttime>
+
+    <onconnect>PRIVMSG Q :auth user pass?</onconnect>
   </irc>
 
 </config>

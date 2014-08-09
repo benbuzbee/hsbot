@@ -1,75 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_019">
+<Entity version="2" CardID="FP1_008">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Knife Juggler</enUS>
-    <frFR>Jongleur de couteaux</frFR>
-    <zhTW>飛刀手</zhTW>
-    <zhCN>飞刀杂耍者</zhCN>
-    <ruRU>Жонглер кинжалами</ruRU>
-    <ptBR>Malabarista de Facas</ptBR>
-    <plPL>Nożownik</plPL>
-    <koKR>단검 곡예사</koKR>
-    <itIT>Lanciatore di Coltelli</itIT>
-    <esMX>Malabarista de cuchillos</esMX>
-    <esES>Malabarista de cuchillos</esES>
-    <deDE>Messerjongleur</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>After you summon a minion, deal 1 damage to a random enemy.</enUS>
-    <frFR>Inflige 1 point de dégâts à un adversaire aléatoire après que vous avez invoqué un serviteur.</frFR>
-    <zhTW>在你召喚手下之後，對一個隨機敵人造成1點傷害</zhTW>
-    <zhCN>每当你召唤一个随从时，对一个随机敌方角色造成1点伤害。</zhCN>
-    <ruRU>Каждый раз, когда вы призываете существо, наносит 1 ед. урона случайному персонажу противника.</ruRU>
-    <ptBR>Depois de evocar um lacaio, cause 1 de dano a um inimigo aleatório.</ptBR>
-    <plPL>Zadaje 1 pkt. obrażeń losowemu wrogowi za każdym razem, gdy przyzywasz stronnika.</plPL>
-    <koKR>내 하수인이 소환될 때마다 무작위 적 하나에게 피해를 1 줍니다.</koKR>
-    <itIT>Ogni volta che evochi un servitore, il Lanciatore di Coltelli infligge 1 danno a un nemico casuale.</itIT>
-    <esMX>Después de invocar un esbirro, inflige 1 de daño a un enemigo aleatorio.</esMX>
-    <esES>Cuando invocas a un esbirro, inflige 1 p. de daño a un enemigo aleatorio.</esES>
-    <deDE>Fügt einem zufälligen Feind 1 Schaden zu, nachdem Ihr einen Diener herbeigerufen habt.</deDE>
+    <enUS>Spectral Knight</enUS>
+    <zhTW>鬼靈騎士</zhTW>
+    <zhCN>鬼灵骑士</zhCN>
+    <ruRU>Призрачный рыцарь</ruRU>
+    <ptBR>Cavaleiro Espectral</ptBR>
+    <plPL>Widmowy rycerz</plPL>
+    <koKR>유령 기사</koKR>
+    <itIT>Comandante Spettrale</itIT>
+    <frFR>Chevalier de la mort spectral</frFR>
+    <esMX>Caballero espectral</esMX>
+    <esES>Caballero espectral</esES>
+    <deDE>Spektraler Ritter</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Can't be targeted by spells or Hero Powers.</enUS>
+    <zhTW>無法被法術或英雄能力指定</zhTW>
+    <zhCN>无法成为法术或英雄技能的目标。</zhCN>
+    <ruRU>Не может быть целью заклинаний и силы героя.</ruRU>
+    <ptBR>Não pode ser alvo de feitiços nem de Poderes Heroicos.</ptBR>
+    <plPL>Nie może zostać wybrany jako cel zaklęć lub mocy specjalnych.</plPL>
+    <koKR>이 하수인은 주문이나 영웅 능력의 대상으로 지정되지 않습니다.</koKR>
+    <itIT>Non può essere il bersaglio di Magie o Poteri Eroe.</itIT>
+    <frFR>Ne peut pas être la cible de sorts ou de pouvoirs héroïques.</frFR>
+    <esMX>No puede ser objetivo de Hechizos o Poderes de héroe.</esMX>
+    <esES>No puede ser objetivo de hechizos ni de poderes de héroe.</esES>
+    <deDE>Kann nicht als Ziel von Zaubern oder Heldenfähigkeiten gewählt werden.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Juggler</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>What do Faerie Dragons and Spectral Knights have in common?  They both love pasta!</enUS>
+    <zhTW>精靈龍跟鬼靈騎士有什麼共通點?他們都愛吃麵!</zhTW>
+    <zhCN>精灵龙和鬼灵骑士有什么共同之处？它们的名字里都有“灵”字！</zhCN>
+    <ruRU>Что общего у чудесных дракончиков и призрачных рыцарей? Они оба любят покушать!</ruRU>
+    <ptBR>O que as Dragoletas e os Calaveiros Espectrais têm em comum? Os dois gostam de macarrão!</ptBR>
+    <plPL>Co wspólnego mają baśniowe smoki i widmowi rycerze? Trudno w nich wycelować!</plPL>
+    <koKR>요정용과 유령 기사의 공통점이 뭐냐고요? 음... 둘 다 파스타를 좋아한다는 거?</koKR>
+    <itIT>Che cos'hanno in comune i Draghi Fatati e i Comandanti Spettrali? Entrambi adorano il sushi!</itIT>
+    <frFR>Qu’ont en commun les dragons féeriques et les chevaliers de la mort spectraux ? Ils adorent les pâtes !</frFR>
+    <esMX>¿Qué tienen en común los Dragones feéricos y los Caballeros espectrales? ¡Que los dos adoran los tallarines!</esMX>
+    <esES>¿Qué tienen en común los dragones feéricos y los caballeros espectrales?... ¡Que les encanta merendar!</esES>
+    <deDE>Wie ein echter Ritter, nur durchsichtig.</deDE>
   </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Cavotta</enUS>
+    <enUS>Chris Rahn</enUS>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Ambitious Knife Jugglers sometimes graduate to Bomb Jugglers.    They never last long enough to make it onto a card though.</enUS>
-    <zhTW>有野心的飛刀手有時候會轉行玩炸彈。但是我們完全找不到轉行後還能活著讓我們做成卡片的飛刀手。</zhTW>
-    <zhCN>更具野心的飞刀杂耍者会晋升为“炸弹杂耍者”。只是现在还没有谁能够坚持到被做成卡牌。</zhCN>
-    <ruRU>Некоторые отчаянные жонглеры кинжалами меняют профессию и начинают жонглировать бомбами, но еще ни одному не удалось продержаться так долго, чтобы стать одной из карт.</ruRU>
-    <ptBR>Malabaristas de Facas ambiciosos às vezes são promovidos a Malabaristas de Bombas. Mas eles nunca sobrevivem o suficiente para colocar isso num cartão de visitas.</ptBR>
-    <plPL>Wołają na niego „Ed Nożoręki”.</plPL>
-    <koKR>야심찬 단검 곡예사가 자라면 폭탄 곡예사가 되기도 합니다. 하지만 카드로 만들어질 만큼 오래 살아남는 경우는 없습니다.</koKR>
-    <itIT>I Lanciatori di Coltelli ambiziosi a volte vengono promossi a Lanciatori di Bombe. Purtroppo non sopravvivono mai abbastanza a lungo da dedicargli una carta.</itIT>
-    <frFR>Les jongleurs de couteaux doués sont parfois promus jongleurs de bombes. Mais ils ne survivent jamais assez longtemps pour devenir une carte.</frFR>
-    <esMX>A menudo, los malabaristas de cuchillos ascienden a malabaristas de bombas. Lamentablemente, duran tan poco que nunca llegan a convertirse en cartas.</esMX>
-    <esES>¿Dónde si no íbamos a ponernos la manzana?</esES>
-    <deDE>Die ambitionierteren Jongleure wechseln oft von Messern zu Bomben. Leider halten sie nie lang genug durch, um es auf eine Karte zu schaffen.</deDE>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by defeating Gothik the Harvester in the Military Quarter.</enUS>
+    <zhTW>在軍事區擊敗『收割者』高希後解鎖。</zhTW>
+    <zhCN>在击败军事区的收割者戈提克后解锁。</zhCN>
+    <ruRU>Награда за победу над Готиком Жнецом в Военном квартале.</ruRU>
+    <ptBR>Desbloqueado ao derrotar Gothik, o Ceifador, no Distrito Militar.</ptBR>
+    <plPL>Aby odblokować, pokonaj Gotyka Żniwiarza w Rewirze Zbrojnych.</plPL>
+    <koKR>군사 지구의 영혼 착취자 고딕을 쓰러뜨려 잠금 해제</koKR>
+    <itIT>Sbloccata sconfiggendo Gothik il Falciatore nell'Ala dei Combattenti.</itIT>
+    <frFR>Obtenue en gagnant contre Gothik le Moissonneur dans le quartier Militaire.</frFR>
+    <esMX>Desbloqueada por derrotar a Gothik el Cosechador en el Arrabal Militar.</esMX>
+    <esES>Se desbloquea al derrotar a Gothik el Cosechador en el Arrabal Militar.</esES>
+    <deDE>Wird durch den Sieg über Gothik den Ernter im Militärviertel freigeschaltet.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="efbe4fc8-2e30-4ebb-a902-f31152276933" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True">
-    <zhTW>飛刀手對一個隨機敵人造成了1點傷害。</zhTW>
-    <zhCN>飞刀杂耍者随机对一个敌人造成1点伤害。</zhCN>
-    <ruRU>Жонглер кинжалами нанес 1 ед. урона случайному персонажу противника.</ruRU>
-    <ptBR>Malabarista de Facas causou 1 de dano a um inimigo aleatório</ptBR>
-    <plPL>Nożownik zadał 1 pkt. obrażeń losowemu wrogowi.</plPL>
-    <koKR>단검 곡예사가 무작위 적 하나에게 피해 1 줌</koKR>
-    <itIT>Il Lanciatore di Coltelli ha inflitto 1 danno a un nemico casuale</itIT>
-    <frFR>Le jongleur de couteaux a infligé 1 point de dégâts à un adversaire aléatoire.</frFR>
-    <esMX>El malabarista de cuchillos infligió 1 de daño a un enemigo aleatorio</esMX>
-    <esES>El malabarista de cuchillos ha infligido 1 p. de daño a un enemigo aleatorio.</esES>
-    <deDE>Der Messerjongleur hat einem zufälligen Feind 1 Schaden zugefügt.</deDE>
-  </TriggeredPowerHistoryInfo>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after defeating Gothik the Harvester in the Military Quarter.</enUS>
+    <zhTW>在軍事區中擊敗『收割者』高希即可合成。</zhTW>
+    <zhCN>在军事区击败收割者戈提克后能够制作。</zhCN>
+    <ruRU>Можно создать после победы над Готиком Жнецом в Военном квартале.</ruRU>
+    <ptBR>Pode ser criado após derrotar Gothik, o Ceifador, no Distrito Militar.</ptBR>
+    <plPL>Można wykonać po pokonaniu Gotyka Żniwiarza w Rewirze Zbrojnych.</plPL>
+    <koKR>군사 지구의 영혼 수확자 고딕을 쓰러뜨린 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver sconfitto Gothik il Falciatore nell'Ala dei Combattenti.</itIT>
+    <frFR>Peut être créée après avoir battu Gothik le Moissonneur dans le quartier Militaire.</frFR>
+    <esMX>Se puede crear luego de derrotar a Gothik el Cosechador en el Arrabal Militar.</esMX>
+    <esES>Se puede crear tras derrotar a Gothik el Cosechador en el Arrabal Militar.</esES>
+    <deDE>Kann nach dem Sieg über Gothik den Ernter im Militärviertel hergestellt werden.</deDE>
+  </Tag>
+  <Power definition="043a0ebc-4626-43cc-a2ad-49a2953af429" />
 </Entity>

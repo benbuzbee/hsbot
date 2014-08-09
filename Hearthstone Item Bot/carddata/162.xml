@@ -1,61 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_363">
-  <MasterPower>463a57fd-c5cf-4676-8bac-b19f94d7f68f</MasterPower>
+<Entity version="2" CardID="FP1_014">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Blessing of Wisdom</enUS>
-    <frFR>Bénédiction de sagesse</frFR>
-    <zhTW>智慧祝福</zhTW>
-    <zhCN>智慧祝福</zhCN>
-    <ruRU>Печать мудрости</ruRU>
-    <ptBR>Bênção de Sabedoria</ptBR>
-    <plPL>Dar mądrości</plPL>
-    <koKR>지혜의 축복</koKR>
-    <itIT>Benedizione: Saggezza</itIT>
-    <esMX>Bendición de sabiduría</esMX>
-    <esES>Bendición de sabiduría</esES>
-    <deDE>Segen der Weisheit</deDE>
+    <enUS>Stalagg</enUS>
+    <zhTW>斯塔拉格</zhTW>
+    <zhCN>斯塔拉格</zhCN>
+    <ruRU>Сталагг</ruRU>
+    <ptBR>Stalagg</ptBR>
+    <plPL>Stalag</plPL>
+    <koKR>스탈라그</koKR>
+    <itIT>Stalagg</itIT>
+    <frFR>Stalagg</frFR>
+    <esMX>Stalagg</esMX>
+    <esES>Stalagg</esES>
+    <deDE>Stalagg</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Choose a minion.  Whenever it attacks, draw a card.</enUS>
-    <frFR>Choisissez un serviteur. Chaque fois qu’il attaque, vous piochez une carte.</frFR>
-    <zhTW>選擇一個手下。每當它進行攻擊，抽一張牌</zhTW>
-    <zhCN>选择一个随从，每当它进行攻击时，抽一张牌。</zhCN>
-    <ruRU>Выберите существо. Когда оно атакует, вы берете карту.</ruRU>
-    <ptBR>Escolha um lacaio. Sempre que ele atacar, compre um card.</ptBR>
-    <plPL>Wybierz stronnika. Dobierz kartę za każdym razem, gdy zaatakuje.</plPL>
-    <koKR>하수인 하나를 선택합니다. 그 하수인이 공격할 때마다 카드를 1장 뽑습니다.</koKR>
-    <itIT>Seleziona un servitore. Quando attacca, pesca una carta.</itIT>
-    <esMX>Elige un esbirro. Cada vez que ese esbirro ataque, roba una carta.</esMX>
-    <esES>Elige a un esbirro. Cada vez que ataca, roba una carta.</esES>
-    <deDE>Wählt einen Diener aus. Zieht jedes Mal eine Karte, wenn er angreift.</deDE>
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; If Feugen also died this game, summon Thaddius.</enUS>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;如果伏晨在這場賽局中也已經死亡，召喚泰迪斯</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;如果费尔根也在本局对战中死亡，召唤塔迪乌斯。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; если во время этого матча умер Фойген, призывает на поле боя Таддиуса.  </ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Se Feugen também morreu nesta partida, evoque Thaddius.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Jeśli podczas tej partii zginął także Feugen, przyzwij Thadiusa.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 만약 퓨진이 죽은 상태라면 타디우스를 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; se anche Feugen è morto in questa partita, evoca Thaddius.</itIT>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; si Feugen est aussi mort pendant cette partie, invoque Thaddius.</frFR>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; si Feugen también murió en esta partida, invoca a Thaddius.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Si Feugen también ha muerto durante esta partida, invoca a Thaddius.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft Thaddius herbei, wenn Feugen in diesem Duell bereits gestorben ist.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brian 'Chippy' Dugan</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Apparently with wisdom comes the knowledge that you should probably be attacking every turn.</enUS>
-    <zhTW>顯然有了智慧，就會帶來「你大概應該每回合都進行攻擊」這樣的常識。</zhTW>
-    <zhCN>显然是智慧让他认清了这样一条真理：作为一个随从，每回合都要攻击才能体现其价值。</zhCN>
-    <ruRU>Очевидно, с мудростью приходит понимание, что атаковать надо каждый ход.</ruRU>
-    <ptBR>Aparentemente, com sabedoria vem o conhecimento de que você provavelmente deveria atacar em todos os turnos.</ptBR>
-    <plPL>Nabyta wiedza podpowiada ci, że wypadałoby atakować co turę.</plPL>
-    <koKR>이게 어떤 지혜인지는 모르겠지만, 일단 매 턴마다 한 번씩 공격해야 할 것 같군요.</koKR>
-    <itIT>Insieme alla saggezza, fornisce anche la consapevolezza che è meglio attaccare a ogni turno.</itIT>
-    <frFR>On dit que de la sagesse découle le savoir. Et vous savez qu’il faut attaquer à chaque tour.</frFR>
-    <esMX>Aparentemente, con la sabiduría llega la conciencia de que te conviene atacar en todos los turnos.</esMX>
-    <esES>Al parecer, la sabiduría aporta el conocimiento de que seguramente deberías atacar cada turno.</esES>
-    <deDE>Anscheinend kommt mit der Weisheit auch das Wissen, dass man wohl in jedem Zug angreifen sollte.</deDE>
+    <enUS>Stalagg want to write own flavor text.  "STALAGG AWESOME!"</enUS>
+    <zhTW>斯塔拉格想要自己寫這一段。「斯塔拉格最厲害!」</zhTW>
+    <zhCN>斯塔拉格想要亲自填写自己的背景故事。“斯塔拉格棒极了！”</zhCN>
+    <ruRU>Сталагг сам придумал себе художественный текст:  "Сталагг хороший!"</ruRU>
+    <ptBR>Stalagg quer escrever próprio texto. "STALAGG CABULOSO!"</ptBR>
+    <plPL>„Feugen - brzyyydal!” - Stalag</plPL>
+    <koKR>"스탈라그 잘생겼다!" (스탈라그가 쓴 거 아님)</koKR>
+    <itIT>Stalagg ha voluto scrivere la sua descrizione: "STALAGG FORTISSIMO!"</itIT>
+    <frFR>Stalagg voulait écrire sur sa carte : « STALAGG MEILLEUR ! »</frFR>
+    <esMX>Stalagg escribe su propia frase sin ayuda. "¡STALAGG GENIO!".</esMX>
+    <esES>Stalagg querer escribir texto de carta. "STALAGG MOLA".</esES>
+    <deDE>Stalagg selber Beschreibung schreiben. „STALAGG SPITZE!“</deDE>
   </Tag>
-  <Power definition="463a57fd-c5cf-4676-8bac-b19f94d7f68f">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dany Orizio</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by completing the Construct Quarter.</enUS>
+    <zhTW>完成傀儡區後解鎖。</zhTW>
+    <zhCN>在击败构造区的所有首领后解锁。</zhCN>
+    <ruRU>Награда за победу над всеми боссами Квартала Мерзости.</ruRU>
+    <ptBR>Desbloqueado ao completar o Distrito dos Constructos.</ptBR>
+    <plPL>Aby odblokować, ukończ Rewir Konstruktów.</plPL>
+    <koKR>피조물 지구를 완료하여 잠금 해제</koKR>
+    <itIT>Sbloccata completando l'Ala dei Costrutti.</itIT>
+    <frFR>Obtenue en terminant le quartier des Assemblages.</frFR>
+    <esMX>Desbloqueada por completar el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se desbloquea al completar el Arrabal de los Ensamblajes.</esES>
+    <deDE>Wird durch das Abschließen des Konstruktviertels freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after completing the Construct Quarter.</enUS>
+    <zhTW>完成傀儡區即可合成。</zhTW>
+    <zhCN>在构造区击败所有首领后能够制作。</zhCN>
+    <ruRU>Можно создать после убийства всех боссов Квартала Мерзости.</ruRU>
+    <ptBR>Pode ser criado após completar o Distrito dos Constructos.</ptBR>
+    <plPL>Można wykonać po przejściu Rewiru Konstruktów.</plPL>
+    <koKR>피조물 지구를 완료한 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver completato l'Ala dei Costrutti.</itIT>
+    <frFR>Peut être créée après avoir terminé le quartier des Assemblages.</frFR>
+    <esMX>Se puede crear luego de completar el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se puede crear tras completar el Arrabal de los Ensamblajes.</esES>
+    <deDE>Kann nach dem Abschluss des Konstruktviertels hergestellt werden.</deDE>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="ab64a660-6145-4b43-9551-9258322337be" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

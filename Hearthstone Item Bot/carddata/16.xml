@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_045e">
+<Entity version="2" CardID="EX1_178a">
+  <MasterPower>ec4a6946-90a6-49c2-bb87-b9130226d2cd</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Rockbiter Weapon</enUS>
-    <frFR>Arme croque-roc</frFR>
-    <zhTW>石化武器</zhTW>
-    <zhCN>石化武器</zhCN>
-    <ruRU>Камнедробитель</ruRU>
-    <ptBR>Arma Trinca-pedra</ptBR>
-    <plPL>Kruszyskalny oręż</plPL>
-    <koKR>대지의 무기</koKR>
-    <itIT>Arma Roccia Dura</itIT>
-    <esMX>Arma muerdepiedras</esMX>
-    <esES>Arma Muerdepiedras</esES>
-    <deDE>Waffe des Felsbeißers</deDE>
+    <enUS>Rooted</enUS>
+    <frFR>Enraciner</frFR>
+    <zhTW>植根</zhTW>
+    <zhCN>扎根</zhCN>
+    <ruRU>Пустить корни</ruRU>
+    <ptBR>Enraizado</ptBR>
+    <plPL>Zakorzenienie</plPL>
+    <koKR>뿌리 박기</koKR>
+    <itIT>Immobilizzato</itIT>
+    <esMX>Enraizado</esMX>
+    <esES>Enraizado</esES>
+    <deDE>Festgewurzelt</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>This character has +3 Attack this turn.</enUS>
-    <frFR>Ce personnage a +3 ATQ pendant ce tour.</frFR>
-    <zhTW>這個角色本回合+3攻擊力</zhTW>
-    <zhCN>在本回合中，该角色获得+3攻击力。</zhCN>
-    <ruRU>Этот персонаж получил +3 к атаке до конца хода.</ruRU>
-    <ptBR>Este personagem tem +3 de Ataque neste turno.</ptBR>
-    <plPL>Ta postać ma +3 do ataku podczas tej tury.</plPL>
-    <koKR>이번 턴에 공격력 +3</koKR>
-    <itIT>+3 Attacco per questo turno.</itIT>
-    <esMX>Este personaje tiene +3 de Ataque en este turno.</esMX>
-    <esES>Este personaje tiene +3 p. de ataque este turno.</esES>
-    <deDE>Dieser Charakter hat +3 Angriff in diesem Zug.</deDE>
+    <enUS>+5 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
+    <frFR>+5 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
+    <zhTW>+5生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>+5生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
+    <ruRU>+5 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
+    <ptBR>+5 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
+    <plPL>+5 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
+    <koKR>생명력 +5와 &lt;b&gt;도발&lt;/b&gt; 능력을 얻습니다.</koKR>
+    <itIT>+5 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
+    <esMX>+5 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
+    <esES>+5 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
+    <deDE>+5 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="ae3cf5ae-93c2-4cf2-b077-88f8232ce97c" />
-  <Power definition="a325ebd9-2fcc-4fb0-88d8-41232941566b" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="ec4a6946-90a6-49c2-bb87-b9130226d2cd" />
 </Entity>

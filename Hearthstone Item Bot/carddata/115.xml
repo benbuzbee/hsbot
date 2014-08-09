@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka3e">
+<Entity version="2" CardID="NEW1_032">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Emboldened!</enUS>
-    <zhTW>勇氣大增!</zhTW>
-    <zhCN>壮胆！</zhCN>
-    <ruRU>Воодушевление!</ruRU>
-    <ptBR>Encorajado!</ptBR>
-    <plPL>Doping!</plPL>
-    <koKR>강화됨!</koKR>
-    <itIT>Ingrossato!</itIT>
-    <frFR>Encouragé !</frFR>
-    <esMX>¡Fortalecido!</esMX>
-    <esES>¡Corajizado!</esES>
-    <deDE>Verstärkt!</deDE>
+    <enUS>Misha</enUS>
+    <frFR>Misha</frFR>
+    <zhTW>米莎</zhTW>
+    <zhCN>米莎</zhCN>
+    <ruRU>Миша</ruRU>
+    <ptBR>Misha</ptBR>
+    <plPL>Misza</plPL>
+    <koKR>미샤</koKR>
+    <itIT>Misha</itIT>
+    <esMX>Misha</esMX>
+    <esES>Misha</esES>
+    <deDE>Misha</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+1/+1.</enUS>
-    <zhTW>+1/+1</zhTW>
-    <zhCN>+1/+1。</zhCN>
-    <ruRU>+1/+1.</ruRU>
-    <ptBR>+1/+1.</ptBR>
-    <plPL>+1/+1</plPL>
-    <koKR>+1/+1</koKR>
-    <itIT>+1/+1.</itIT>
-    <frFR>+1/+1.</frFR>
-    <esMX>+1/+1.</esMX>
-    <esES>+1/+1.</esES>
-    <deDE>+1/+1.</deDE>
+    <enUS>&lt;b&gt;Taunt&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Provocation&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;도발&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Provocación&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Provocar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Spott&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="12254813-6b49-4367-9f54-9860c33912b3" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Power definition="0fc584f4-98fe-456f-99d1-cb088410c3fd" />
 </Entity>

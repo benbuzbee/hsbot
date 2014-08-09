@@ -1,60 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_045">
+<Entity version="2" CardID="DS1_233">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ancient Watcher</enUS>
-    <zhTW>遠古看守者</zhTW>
-    <zhCN>上古看守者</zhCN>
-    <ruRU>Древний дозорный</ruRU>
-    <ptBR>Vigia Anciente</ptBR>
-    <plPL>Prastary obserwator</plPL>
-    <koKR>고대의 감시자</koKR>
-    <itIT>Guardiano Antico</itIT>
-    <frFR>Guetteur ancien</frFR>
-    <esMX>Vigía anciano</esMX>
-    <esES>Vigía ancestral</esES>
-    <deDE>Uralter Wächter</deDE>
+    <enUS>Mind Blast</enUS>
+    <frFR>Attaque mentale</frFR>
+    <zhTW>心靈震爆</zhTW>
+    <zhCN>心灵震爆</zhCN>
+    <ruRU>Взрыв разума</ruRU>
+    <ptBR>Impacto Mental</ptBR>
+    <plPL>Uderzenie umysłu</plPL>
+    <koKR>정신 분열</koKR>
+    <itIT>Detonazione Mentale</itIT>
+    <esMX>Explosión mental</esMX>
+    <esES>Explosión mental</esES>
+    <deDE>Gedankenschlag</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Can't Attack.</enUS>
-    <zhTW>無法攻擊</zhTW>
-    <zhCN>无法攻击。</zhCN>
-    <ruRU>Не может атаковать.</ruRU>
-    <ptBR>Não pode atacar.</ptBR>
-    <plPL>Nie może atakować.</plPL>
-    <koKR>이 하수인은 적을 공격할 수 없습니다.</koKR>
-    <itIT>Non può attaccare.</itIT>
-    <frFR>Ne peut pas attaquer.</frFR>
-    <esMX>No puede atacar.</esMX>
-    <esES>No puede atacar.</esES>
-    <deDE>Kann nicht angreifen.</deDE>
+    <enUS>Deal $5 damage to the enemy hero.</enUS>
+    <frFR>Inflige $5 |4(point,points) de dégâts au héros adverse.</frFR>
+    <zhTW>對敵方英雄造成$5點傷害</zhTW>
+    <zhCN>对敌方英雄造成$5点伤害。</zhCN>
+    <ruRU>Наносит $5 ед. урона герою противника.</ruRU>
+    <ptBR>Cause $5 de dano ao herói inimigo.</ptBR>
+    <plPL>Zadaj $5 pkt. obrażeń wrogiemu bohaterowi.</plPL>
+    <koKR>적 영웅에게 피해를 $5 줍니다.</koKR>
+    <itIT>Infligge $5 danni all'eroe nemico.</itIT>
+    <esMX>Inflige $5 de daño al héroe enemigo.</esMX>
+    <esES>Inflige $5 p. de daño al héroe enemigo.</esES>
+    <deDE>Fügt dem feindlichen Helden $5 Schaden zu.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Richard Wright</enUS>
+    <enUS>Dave Allsop</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Why do its eyes seem to follow you as you walk by?</enUS>
-    <zhTW>為什麼在你經過的時候，它的視線好像在跟著你?</zhTW>
-    <zhCN>为什么在你走动的时候，会感觉它的眼珠也在跟着你动？</zhCN>
-    <ruRU>Почему у вас такое ощущение, что его глаза следят за вами, когда вы проходите мимо?</ruRU>
-    <ptBR>Por que parece que os olhos dele te seguem quando você passa?</ptBR>
-    <plPL>Masz dziwne wrażenie, że jego oczy cały czas za tobą podążają.</plPL>
-    <koKR>왜 지날 때마다 눈이 날 따라 움직이는 것 같을까요?</koKR>
-    <itIT>Perché sembra sempre che i suoi occhi ti seguano quando gli cammini vicino?</itIT>
-    <frFR>Vous avez l’impression que son regard vous suit quand vous passez à côté.</frFR>
-    <esMX>¿Por qué parece que sus ojos te siguen mientras caminas?</esMX>
-    <esES>¿No tienes la sensación de que te sigue con la mirada?</esES>
-    <deDE>Warum scheint es so, als würden seine Augen Euch folgen, wenn Ihr vorbeigeht?</deDE>
+    <enUS>This spell blasts you directly in the MIND.</enUS>
+    <zhTW>這個法術會對你的&lt;b&gt;心靈&lt;/b&gt;造成很大的震盪。</zhTW>
+    <zhCN>这个法术直接震爆你的心灵。</zhCN>
+    <ruRU>Это заклинание бьет прямо по РАЗУМУ.</ruRU>
+    <ptBR>Este feitiço causa um impacto direto na sua MENTE.</ptBR>
+    <plPL>To zaklęcie wali mocno po głowie.</plPL>
+    <koKR>멘붕이 아닙니다. 정붕입니다.</koKR>
+    <itIT>Questo incantesimo esplode direttamente nella mente.</itIT>
+    <frFR>Ce sort vous explose littéralement DANS la tête.</frFR>
+    <esMX>Este hechizo te volará la mente.</esMX>
+    <esES>Este hechizo te explota en la mente.</esES>
+    <deDE>Dieser Zauber schlägt sich förmlich in den Gedanken nieder.</deDE>
   </Tag>
-  <Power definition="38eceaa5-6392-49a7-92ff-1f6a1c0a2a61" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 15.</enUS>
+    <zhTW>於15級時解鎖。</zhTW>
+    <zhCN>达到15级后解锁。</zhCN>
+    <ruRU>Доступна с 15-го уровня.</ruRU>
+    <ptBR>Disponível no nível 15.</ptBR>
+    <plPL>Odblokowane na poziomie 15.</plPL>
+    <koKR>15 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 15.</itIT>
+    <frFR>Débloquée au niveau 15.</frFR>
+    <esMX>Se desbloquea en nivel 15.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 15.</esES>
+    <deDE>Wird auf Stufe 15 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+    <zhTW>於1級時解鎖。</zhTW>
+    <zhCN>达到1级后解锁。</zhCN>
+    <ruRU>Доступна с 1-го уровня.</ruRU>
+    <ptBR>Disponível no nível 1.</ptBR>
+    <plPL>Odblokowane na poziomie 1.</plPL>
+    <koKR>1 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 1.</itIT>
+    <frFR>Débloquée au niveau 1.</frFR>
+    <esMX>Se desbloquea en nivel 1.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 1.</esES>
+    <deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="a088d9e1-f570-4b4b-a3ce-4ce09b7b233d" />
 </Entity>

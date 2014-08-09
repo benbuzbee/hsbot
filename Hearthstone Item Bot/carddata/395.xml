@@ -1,71 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_237">
+<Entity version="2" CardID="EX1_608">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Starving Buzzard</enUS>
-    <zhTW>飢餓的禿鷲</zhTW>
-    <zhCN>饥饿的秃鹫</zhCN>
-    <ruRU>Голодный канюк</ruRU>
-    <ptBR>Urubu Faminto</ptBR>
-    <plPL>Wygłodniały sęp</plPL>
-    <koKR>굶주린 대머리수리</koKR>
-    <itIT>Condor Affamato</itIT>
-    <frFR>Busard affamé</frFR>
-    <esMX>Águila ratonera famélica</esMX>
-    <esES>Águila ratonera famélica</esES>
-    <deDE>Verhungernder Bussard</deDE>
+    <enUS>Sorcerer's Apprentice</enUS>
+    <frFR>Apprentie du sorcier</frFR>
+    <zhTW>巫士的學徒</zhTW>
+    <zhCN>巫师学徒</zhCN>
+    <ruRU>Ученица чародея</ruRU>
+    <ptBR>Aprendiz de Feiticeiro</ptBR>
+    <plPL>Uczennica czarownika</plPL>
+    <koKR>마술사의 수습생</koKR>
+    <itIT>Novizia Occultista</itIT>
+    <esMX>Aprendiz de hechicero</esMX>
+    <esES>Aprendiza de hechicera</esES>
+    <deDE>Zauberlehrling</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you summon a Beast, draw a card.</enUS>
-    <zhTW>每當你召喚野獸，抽一張牌</zhTW>
-    <zhCN>每当你召唤一个野兽，抽一张牌。</zhCN>
-    <ruRU>Каждый раз, когда вы призываете зверя на поле боя, вы берете карту.</ruRU>
-    <ptBR>Sempre que você evocar uma Fera, compre um card.</ptBR>
-    <plPL>Dobierz kartę za każdym razem, gdy przyzywasz Bestię.</plPL>
-    <koKR>내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다.</koKR>
-    <itIT>Quando evochi una Bestia, pesca una carta.</itIT>
-    <frFR>Vous piochez une carte chaque fois que vous invoquez une bête.</frFR>
-    <esMX>Cada vez que invocas a una Bestia, roba una carta.</esMX>
-    <esES>Cada vez que invocas una bestia, roba una carta.</esES>
-    <deDE>Zieht jedes Mal eine Karte, wenn Ihr ein Wildtier herbeiruft.</deDE>
+    <enUS>Your spells cost (1) less.</enUS>
+    <frFR>Vos sorts coûtent (1) cristal de moins.</frFR>
+    <zhTW>你的法術消耗減少(1)點</zhTW>
+    <zhCN>你的法术的法力值消耗减少（1）点。</zhCN>
+    <ruRU>Ваши заклинания стоят на (1) ману меньше.</ruRU>
+    <ptBR>Seus feitiços custam (1) a menos.</ptBR>
+    <plPL>Twoje zaklęcia kosztują (1) mniej.</plPL>
+    <koKR>내가 쓰는 주문의 비용이 (1) 감소합니다.</koKR>
+    <itIT>Le tue Magie costano (1) Mana in meno.</itIT>
+    <esMX>Tus hechizos cuestan (1) menos.</esMX>
+    <esES>Tus hechizos cuestan (1) cristal menos.</esES>
+    <deDE>Eure Zauber kosten (1) weniger.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Soaring</enUS>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Apprentices are great for bossing around.  "Conjure me some mana buns! And a coffee!  Make that a mana coffee!"</enUS>
+    <zhTW>學徒非常好使喚。「幫我做些法力麵包!和一杯咖啡!不然乾脆做杯法力咖啡好了!」</zhTW>
+    <zhCN>学徒们就是用来到处使唤的。“给我做点魔法面包，再来杯咖啡！我要魔法咖啡！”</zhCN>
+    <ruRU>Маги обожают командовать своими учениками. «Сотвори-ка мне булочки из маны! И кофе! С маной!»</ruRU>
+    <ptBR>Aprendizes servem para obedecer. "Conjure uns pãezinhos de mana para mim! E um café! Ou melhor, um café de mana!"</ptBR>
+    <plPL>Uczniowie świetnie się nadają do wykorzystywania. „Hej, przyzwij mi trochę tych bułeczek z maną! I kawy! A właściwie to kawy z maną!”</plPL>
+    <koKR>수습생들은 이래라 저래라 시키기 좋습니다. "마나 찐빵 만들어 와! 커피도! 마나는 두 스푼만!"</koKR>
+    <itIT>È divertente dare ordini ai novizi: "Evocami una Ciambella di Mana! E un caffè! Anzi, voglio un Caffè al Mana!"</itIT>
+    <frFR>Les apprentis, c’est utile pour les basses besognes. « Invoque-moi des pains de manne ! Et un café ! Non, plutôt un café de manne ! »</frFR>
+    <esMX>No hay nada como mandonear aprendices. "¡Que aparezcan unas tostadas de maná! ¡Y un café! ¡Que sea un café de maná!".</esMX>
+    <esES>Tiene prohibido encantar escobas.</esES>
+    <deDE>Lehrlinge eignen sich prima zum Herumkommandieren. „Zauber mir ein paar Manabrötchen herbei! Und einen Kaffee! Ach was, mach' einen Manakaffee draus!“</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Alex Horley Orlandelli</enUS>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Bernie Kang</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you feed him, he loses his whole &lt;i&gt;identity&lt;/i&gt;.</enUS>
-    <zhTW>如果你餵牠，牠就會完全渾然忘我。</zhTW>
-    <zhCN>如果你喂饱了它，它就名不副实了。</zhCN>
-    <ruRU>Если вы покормите его, он убежит с карты.</ruRU>
-    <ptBR>Se você alimentá-lo, ele perde toda a sua &lt;i&gt;identidade&lt;/i&gt;.</ptBR>
-    <plPL>Jeśli go nakarmisz, straci rację bytu.</plPL>
-    <koKR>먹을 걸 주면 &lt;i&gt;정체성&lt;/i&gt;에 혼란을 겪습니다.</koKR>
-    <itIT>Se gli dai da mangiare, perde la sua &lt;i&gt;identità&lt;/i&gt;.</itIT>
-    <frFR>Si vous le nourrissez, il perdra toute son &lt;i&gt;identité&lt;/i&gt;.</frFR>
-    <esMX>Si la alimentas, pierde por completo su &lt;i&gt;identidad&lt;/i&gt;.</esMX>
-    <esES>Si la alimentas, habrá que cambiarle el &lt;i&gt;nombre&lt;/i&gt;.</esES>
-    <deDE>Wenn Ihr ihn füttert, verliert er seine &lt;i&gt;Identität&lt;/i&gt;.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 47.</enUS>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="26c0eeea-d6a3-4d0d-8b22-4b898de19685" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="05da507e-472c-489d-9c9d-2bbd7608846d" />
 </Entity>

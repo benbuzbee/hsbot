@@ -1,64 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_012">
+<Entity version="2" CardID="EX1_129">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mana Wyrm</enUS>
-    <frFR>Wyrm de mana</frFR>
-    <zhTW>法力龍鰻</zhTW>
-    <zhCN>法力浮龙</zhCN>
-    <ruRU>Маназмей</ruRU>
-    <ptBR>Moreia de Mana</ptBR>
-    <plPL>Żmij many</plPL>
-    <koKR>마나 지룡</koKR>
-    <itIT>Dragone di Mana</itIT>
-    <esMX>Vermis de maná</esMX>
-    <esES>Vermis de maná</esES>
-    <deDE>Manawyrm</deDE>
+    <enUS>Fan of Knives</enUS>
+    <frFR>Éventail de couteaux</frFR>
+    <zhTW>飛舞刀刃</zhTW>
+    <zhCN>刀扇</zhCN>
+    <ruRU>Веер клинков</ruRU>
+    <ptBR>Leque de Facas</ptBR>
+    <plPL>Wachlarz ostrzy</plPL>
+    <koKR>칼날 부채</koKR>
+    <itIT>Ventaglio di Lame</itIT>
+    <esMX>Abanico de cuchillos</esMX>
+    <esES>Abanico de cuchillos</esES>
+    <deDE>Dolchfächer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever you cast a spell, gain +1 Attack.</enUS>
-    <frFR>Chaque fois que vous lancez un sort, gagne +1 ATQ.</frFR>
-    <zhTW>每當你施放法術，獲得+1攻擊力</zhTW>
-    <zhCN>每当你施放一个法术时，便获得+1攻击力。</zhCN>
-    <ruRU>Каждый раз, когда вы разыгрываете карту заклинания, это существо получает +1 к атаке.</ruRU>
-    <ptBR>Sempre que você lançar um feitiço, receba +1 de Ataque.</ptBR>
-    <plPL>Otrzymuje +1 do ataku za każdym razem, gdy rzucisz zaklęcie.</plPL>
-    <koKR>내가 주문을 시전할 때마다 공격력을 +1 얻습니다.</koKR>
-    <itIT>Ottiene +1 Attacco quando lanci una Magia.</itIT>
-    <esMX>Cada vez que lanzas un hechizo, obtiene +1 de Ataque.</esMX>
-    <esES>Obtiene +1 p. de ataque cada vez que lanzas un hechizo.</esES>
-    <deDE>Erhält jedes Mal +1 Angriff, wenn Ihr einen Zauber wirkt.</deDE>
+    <enUS>Deal $1 damage to all enemy minions. Draw a card.</enUS>
+    <frFR>Inflige $1 |4(point,points) de dégâts à tous les serviteurs adverses. Vous piochez une carte.</frFR>
+    <zhTW>對全部敵方手下造成$1點傷害。抽一張牌</zhTW>
+    <zhCN>对所有敌方随从造成$1点伤害，抽一张牌。</zhCN>
+    <ruRU>Наносит $1 ед. урона всем существам противника. Вы берете карту.</ruRU>
+    <ptBR>Cause $1 de dano a todos os lacaios inimigos. Compre um card.</ptBR>
+    <plPL>Zadaj $1 pkt. obrażeń wszystkim wrogim stronnikom. Dobierz kartę.</plPL>
+    <koKR>모든 적 하수인에게 피해를 $1 줍니다. 카드를 1장 뽑습니다.</koKR>
+    <itIT>Infligge $1 |4(danno,danni) a tutti i servitori nemici. Pesca una carta.</itIT>
+    <esMX>Inflige $1 de daño a todos los esbirros enemigos. Roba una carta.</esMX>
+    <esES>Inflige $1 p. de daño a todos los esbirros enemigos. Roba una carta.</esES>
+    <deDE>Fügt allen feindlichen Dienern $1 Schaden zu. Zieht eine Karte.</deDE>
   </Tag>
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Gorging</enUS>
-  </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Andrew Robinson</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>I wouldn't say I LOVE knives, but I'm definitely a fan.</enUS>
+    <zhTW>我不愛弄槍、只愛舞刀。</zhTW>
+    <zhCN>转瞬即逝的寒光闪过，漫天飞舞的血花绽放。</zhCN>
+    <ruRU>Из инструкции к вееру клинков: обмахивать только неприятелей!</ruRU>
+    <ptBR>Eu não diria que ADORO facas. Mas sou fã com certeza.</ptBR>
+    <plPL>Nie powiem, że kocham noże, ale czasem lubię sobie nimi powachlować.</plPL>
+    <koKR>시전할 때 생기는 바람이 시원해서 지어진 이름이란 소문이 있습니다.</koKR>
+    <itIT>Non è consigliabile usarlo per rinfrescarsi nelle giornate più afose.</itIT>
+    <frFR>Je ne dirais pas que j’ai des tonnes de couteaux, mais plutôt un éventail bien fourni.</frFR>
+    <esMX>No hay mejor manera de matar el calor.</esMX>
+    <esES>Todo pícaro que se precie posee un amplio abanico de cuchillos.</esES>
+    <deDE>Macht nicht einfachen, nicht zweifachen, sondern gleich dolchfachen Schaden!</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>These wyrms feed on arcane energies, and while they are generally considered a nuisance rather than a real threat, you really shouldn't leave them alone with a bucket of mana.</enUS>
-    <zhTW>這些龍鰻會吸食秘法能量，雖然通常被認為是小麻煩而不是威脅，不過還是真心建議你不要把他們放在法力藥劑的附近。</zhTW>
-    <zhCN>这些法力浮龙以奥术能量为食。所以尽管这些捣蛋鬼不会成为真正的威胁，你也不应该让它们接近任何法术力源。</zhCN>
-    <ruRU>Эти змеи питаются чародейской энергией. Хотя они не представляют большой угрозы, лучше не оставляйте их наедине с ведром маны.</ruRU>
-    <ptBR>Essas moreias se alimentam de energias arcanas. Apesar de serem geralmente consideradas antes um incômodo que uma ameaça real, é melhor não deixá-las sozinhas perto de um balde de mana.</ptBR>
-    <plPL>Te żmije karmią się tajemnymi energiami i choć z reguły nie stanowią większego zagrożenia, nie powinno się ich zostawiać w wiadrze pełnym many.</plPL>
-    <koKR>이 지룡들은 비전 에너지를 먹고 삽니다. 이들은 큰 위협이라기보단 좀 귀찮은 존재일 뿐이지만, 절대 마나 곁에 혼자 두진 마십시오.</koKR>
-    <itIT>Questi draghi si cibano di energie arcane e, benché spesso vengano considerati una scocciatura più che un vero pericolo, non dovresti lasciarli soli con del Mana.</itIT>
-    <frFR>Ces wyrms se nourrissent d’énergie arcanique et bien qu’ils soient considérés comme une nuisance plutôt qu’une vraie menace, vous ne devriez vraiment pas les laisser seuls avec un seau de mana.</frFR>
-    <esMX>Estos vermis se alimentan de energías arcanas. Si bien generalmente son más una molestia que una amenaza, no es recomendable dejarlos solos con un cubo de maná.</esMX>
-    <esES>"Atención: No darle maná pasada la medianoche".\n—kemaru</esES>
-    <deDE>Diese Wyrms ernähren sich von arkanen Energien. Sie werden zwar eher als lästig angesehen denn als wirkliche Bedrohung, aber Ihr solltet sie wirklich nicht mit einem Eimer Mana allein lassen.</deDE>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 4.</enUS>
+    <zhTW>於4級時解鎖。</zhTW>
+    <zhCN>达到4级后解锁。</zhCN>
+    <ruRU>Доступна с 4-го уровня.</ruRU>
+    <ptBR>Disponível no nível 4.</ptBR>
+    <plPL>Odblokowane na poziomie 4.</plPL>
+    <koKR>4 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 4.</itIT>
+    <frFR>Débloquée au niveau 4.</frFR>
+    <esMX>Se desbloquea en nivel 4.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 4.</esES>
+    <deDE>Wird auf Stufe 4 freigeschaltet.</deDE>
   </Tag>
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Blizzard Cinematics</enUS>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 29.</enUS>
+    <zhTW>於29級時解鎖。</zhTW>
+    <zhCN>达到29级后解锁。</zhCN>
+    <ruRU>Доступна с 29-го уровня.</ruRU>
+    <ptBR>Disponível no nível 29.</ptBR>
+    <plPL>Odblokowane na poziomie 29.</plPL>
+    <koKR>29 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 29.</itIT>
+    <frFR>Débloquée au niveau 29.</frFR>
+    <esMX>Se desbloquea en nivel 29.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 29.</esES>
+    <deDE>Wird auf Stufe 29 freigeschaltet.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="b9e14346-9022-4450-9d3c-fd316c342eee" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="2e8eabed-03ab-42b4-a2a2-b520297d0a2b" />
 </Entity>

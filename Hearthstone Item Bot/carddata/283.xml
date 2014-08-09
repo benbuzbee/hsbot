@@ -1,87 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_587">
-  <MasterPower>915080c5-726d-4231-9772-a60367576d80</MasterPower>
+<Entity version="2" CardID="EX1_084">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Windspeaker</enUS>
-    <frFR>Parlevent</frFR>
-    <zhTW>語風者</zhTW>
-    <zhCN>风语者</zhCN>
-    <ruRU>Говорящий с ветром</ruRU>
-    <ptBR>Voz dos Ventos</ptBR>
-    <plPL>Mówca wiatru</plPL>
-    <koKR>바람예언자</koKR>
-    <itIT>Oratore del Vento</itIT>
-    <esMX>Hablavientos</esMX>
-    <esES>Hablavientos</esES>
-    <deDE>Windsprecher</deDE>
+    <enUS>Warsong Commander</enUS>
+    <frFR>Officier chanteguerre</frFR>
+    <zhTW>戰歌指揮官</zhTW>
+    <zhCN>战歌指挥官</zhCN>
+    <ruRU>Командир Песни Войны</ruRU>
+    <ptBR>Capitã do Brado Guerreiro</ptBR>
+    <plPL>Dowódca Wojennej Pieśni</plPL>
+    <koKR>전쟁노래 사령관</koKR>
+    <itIT>Capitano Cantaguerra</itIT>
+    <esMX>Comandante Grito de guerra</esMX>
+    <esES>Comandante Grito de Guerra</esES>
+    <deDE>Kriegshymnenanführerin</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give a friendly minion &lt;b&gt;Windfury&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; confère &lt;b&gt;Furie des vents&lt;/b&gt; à un serviteur allié.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;使一個友方手下獲得&lt;b&gt;風怒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个友方随从获得&lt;b&gt;风怒&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; ваше выбранное существо получает способность &lt;b&gt;«Неистовство ветра»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda &lt;b&gt;Fúria dos Ventos&lt;/b&gt; a um lacaio aliado.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj przyjaznemu stronnikowi &lt;b&gt;Furię wichru&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 아군 하수인 하나에게 &lt;b&gt;질풍&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; fornisce &lt;b&gt;Furia del Vento&lt;/b&gt; a un altro tuo servitore.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga &lt;b&gt;Viento furioso&lt;/b&gt; a un esbirro aliado.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga &lt;b&gt;Viento Furioso&lt;/b&gt; a un esbirro amistoso.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht einem befreundeten Diener &lt;b&gt;Windzorn&lt;/b&gt;.</deDE>
+    <enUS>Whenever you summon a minion with 3 or less Attack, give it &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Chaque fois que vous invoquez un serviteur avec 3 ATQ ou moins, lui confère &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>每當你召喚攻擊力在3點以下的手下，賦予該手下&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>每当你召唤一个攻击力小于或等于3的随从，使该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Каждый раз, когда вы призываете существо с атакой 3 или меньше, оно получает способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Toda vez que evocar um lacaio com 3 ou menos de Ataque, conceda &lt;b&gt;Investida&lt;/b&gt; a ele.</ptBR>
+    <plPL>Za każdym razem gdy przyzywasz stronnika z atakiem 3 lub mniejszym, otrzymuje on &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>공격력이 3 이하인 하수인을 소환할 때마다 그 하수인에게 &lt;b&gt;돌진&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Quando evochi un servitore con Attacco pari a 3 o inferiore, gli fornisce &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+    <esMX>Cada vez que invocas a un esbirro con 3 de Ataque o menos, le otorga &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Cada vez que invocas a un esbirro con 3 p. de ataque o menos, este recibe &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Jedes Mal, wenn Ihr einen Diener mit max. 3 Angriff herbeiruft, erhält dieser &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Give &lt;b&gt;Windfury&lt;/b&gt;.</enUS>
-    <frFR>Confère &lt;b&gt;Furie des vents&lt;/b&gt;.</frFR>
-    <zhTW>賦予&lt;b&gt;風怒&lt;/b&gt;。</zhTW>
-    <zhCN>使一个随从获得&lt;b&gt;风怒&lt;/b&gt;。</zhCN>
-    <ruRU>Получит &lt;b&gt;«Неистовство ветра»&lt;/b&gt;</ruRU>
-    <ptBR>Conceda &lt;b&gt;Fúria dos Ventos&lt;/b&gt;.</ptBR>
-    <plPL>Daj &lt;b&gt;Furię wichru&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
-    <itIT>Fornisce &lt;b&gt;Furia del Vento&lt;/b&gt;.</itIT>
-    <esMX>Otorga &lt;b&gt;Viento furioso&lt;/b&gt;.</esMX>
-    <esES>Otorga &lt;b&gt;Viento Furioso&lt;/b&gt;.</esES>
-    <deDE>Verleiht &lt;b&gt;Windzorn&lt;/b&gt;.</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Vance Kovacs</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Is there anything worse than a Windspeaker with halitosis?</enUS>
-    <zhTW>還有什麼比有口臭的語風者更糟糕的東西嗎?</zhTW>
-    <zhCN>患有口臭的风语者...还有什么比这更糟糕的吗？</zhCN>
-    <ruRU>Нет ничего хуже Говорящего с ветром, который забыл почистить зубы.</ruRU>
-    <ptBR>Tem coisa pior que uma Voz dos Ventos com mau hálito?</ptBR>
-    <plPL>Czy jest coś gorszego niż mówca puszczający wiatry?</plPL>
-    <koKR>입 냄새 심한 바람예언자보다 끔찍한 게 있을까요?</koKR>
-    <itIT>C'è qualcosa di peggio di un Oratore del Vento con l'alitosi?</itIT>
-    <frFR>Quand il lâche un vent, mieux vaut ne pas se trouver derrière lui...</frFR>
-    <esMX>¿Habrá algo peor que un Hablavientos con halitosis?</esMX>
-    <esES>No se le puede contar un secreto: lo grita a los cuatro vientos.</esES>
-    <deDE>Man kann nur hoffen, dass er keinen Mundgeruch hat.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 8.</enUS>
+    <enUS>Wei Wang</enUS>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 45.</enUS>
+    <enUS>Unlocked at Level 36.</enUS>
+    <zhTW>於36級時解鎖。</zhTW>
+    <zhCN>达到36级后解锁。</zhCN>
+    <ruRU>Доступна с 36-го уровня.</ruRU>
+    <ptBR>Disponível no nível 36.</ptBR>
+    <plPL>Odblokowane na poziomie 36.</plPL>
+    <koKR>36 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 36.</itIT>
+    <frFR>Débloquée au niveau 36.</frFR>
+    <esMX>Se desbloquea en nivel 36.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 36.</esES>
+    <deDE>Wird auf Stufe 36 freigeschaltet.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Windfury" enumID="189" type="Bool" value="1" />
-  <Power definition="915080c5-726d-4231-9772-a60367576d80">
-    <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="2" param="" />
-  </Power>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+    <zhTW>於1級時解鎖。</zhTW>
+    <zhCN>达到1级后解锁。</zhCN>
+    <ruRU>Доступна с 1-го уровня.</ruRU>
+    <ptBR>Disponível no nível 1.</ptBR>
+    <plPL>Odblokowane na poziomie 1.</plPL>
+    <koKR>1 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 1.</itIT>
+    <frFR>Débloquée au niveau 1.</frFR>
+    <esMX>Se desbloquea en nivel 1.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 1.</esES>
+    <deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>The Warsong clan is &lt;i&gt;such drama&lt;/i&gt;. It's really not worth it to become a commander.</enUS>
+    <zhTW>戰歌這個部族非常&lt;b&gt;戲劇化&lt;/b&gt;。當上他們的指揮官未必是一件好事。</zhTW>
+    <zhCN>战歌氏族中闹剧不断，什么三教九流的人都能当上他们的指挥官。</zhCN>
+    <ruRU>В клане Песни Войны очень любят устраивать драмы. И пост командира себя не окупает...</ruRU>
+    <ptBR>O Clã Brado Guerreiro tem &lt;i&gt;tanto drama&lt;/i&gt; que nem vale a pena subir de patente.</ptBR>
+    <plPL>Są dumni z nazwy swojego klanu - choć zdaniem elfów tą pieśnią jest „Nic się nie stało, orki, nic się nie stało...”</plPL>
+    <koKR>그롬 헬스크림이 족장이었던 부족의 사령관입니다. 말이 더 필요한가요?</koKR>
+    <itIT>Grommash, Garrosh... con comandanti così, non sarei tanto felice di diventare un Capitano Cantaguerra.</itIT>
+    <frFR>Le clan Chanteguerre se la &lt;i&gt;joue&lt;/i&gt; trop. Ça ne vaut pas vraiment le coup de devenir officier.</frFR>
+    <esMX>El clan Grito de guerra es &lt;i&gt;drama, drama, drama&lt;/i&gt;. La verdad, no vale la pena llegar a comandante.</esMX>
+    <esES>El clan Grito de Guerra es muy estresante. Siempre están corriendo en busca de banderas.</esES>
+    <deDE>Im Kriegshymnenklan geht es oft hoch her. Man sollte es sich gut überlegen, dort Anführer zu werden.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="8c9fbc93-a02a-4e43-9794-1cdd2c13e1f5" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

@@ -1,63 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_213">
+<Entity version="2" CardID="FP1_019">
+  <MasterPower>e4c1281b-f417-4755-8cdc-43667314b6cb</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Reckless Rocketeer</enUS>
-    <frFR>Missilière téméraire</frFR>
-    <zhTW>魯莽的火箭手</zhTW>
-    <zhCN>鲁莽火箭兵</zhCN>
-    <ruRU>Шальная ракетчица</ruRU>
-    <ptBR>Fogueteira Descuidada</ptBR>
-    <plPL>Ryzykancka rakieterka</plPL>
-    <koKR>못 말리는 로켓병</koKR>
-    <itIT>Cavalcarazzi Folle</itIT>
-    <esMX>Artificera temeraria</esMX>
-    <esES>Artificiera temeraria</esES>
-    <deDE>Irre Raketenschützin</deDE>
+    <enUS>Poison Seeds</enUS>
+    <zhTW>劇毒種子</zhTW>
+    <zhCN>剧毒之种</zhCN>
+    <ruRU>Ядовитые семена</ruRU>
+    <ptBR>Sementes de Veneno</ptBR>
+    <plPL>Zatrute nasiona</plPL>
+    <koKR>독성 씨앗</koKR>
+    <itIT>Semi Venefici</itIT>
+    <frFR>Graines de poison</frFR>
+    <esMX>Semillas venenosas</esMX>
+    <esES>Semillas venenosas</esES>
+    <deDE>Giftsamen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="5" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Destroy all minions and summon 2/2 Treants to replace them.</enUS>
+    <zhTW>摧毀全部手下並召喚2/2的樹人來取代它們</zhTW>
+    <zhCN>消灭所有随从，并召唤等量的2/2树人代替他们。</zhCN>
+    <ruRU>Уничтожает всех существ и призывает вместо них древней 2/2.</ruRU>
+    <ptBR>Destrua todos os lacaios e evoque Arvorosos 2/2 para substituí-los.</ptBR>
+    <plPL>Zniszcz wszystkich stronników i przyzwij na ich miejsce Drzewce 2/2.</plPL>
+    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인을 처치하고 2/2 나무정령으로 교체합니다.</koKR>
+    <itIT>Distrugge tutti i servitori ed evoca al loro posto dei Treant 2/2.</itIT>
+    <frFR>Détruit tous les serviteurs et les remplace par des tréants 2/2.</frFR>
+    <esMX>Destruye a todos los esbirros e invoca Antárboles 2/2 para reemplazarlos.</esMX>
+    <esES>Destruye a todos los esbirros y los sustituye con antárboles 2/2.</esES>
+    <deDE>Vernichtet alle Diener und ruft für jeden einen Treant (2/2) als Ersatz herbei.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"Poisonseed Bagel" is the least popular bagel at McTiggin's Druidic Bagel Emporium.</enUS>
+    <zhTW>劇毒種子風味的麵包通常乏人問津。</zhTW>
+    <zhCN>把植物种在地上是保护环境，种在敌人身体里就是另外一回事情了。</zhCN>
+    <ruRU>Мы бы вам не советовали покупать булочки, посыпанные этими семенами.</ruRU>
+    <ptBR>"Bolinhos de sementes de veneno" são os bolinhos menos populares no Empório de Bolinhos Druídicos do McTiggin.</ptBR>
+    <plPL>Druidzkie bułeczki z nasionami sprzedawały się świetnie, nawet gdy w pobliżu sklepików zaczęły powstawać tartaki goblińskiej spółki Gitgeszeft.</plPL>
+    <koKR>우리 아제로스 푸르게 푸르게</koKR>
+    <itIT>Incredibile a dirsi, ma i panini ai Semi Venefici vanno a ruba a Naxxramas.</itIT>
+    <frFR>La baguette tradition aux graines de poison est le produit le moins demandé de la boulangerie druidique de McTiggin.</frFR>
+    <esMX>El "Vensemillado" es el plato menos pedido en el Emporio del guiso druida.</esMX>
+    <esES>El pan de semillas venenosas es el producto menos vendido de la Panadería Druídica de Zen'Kiki.</esES>
+    <deDE>Der Druide McTiggin kann einfach nicht verstehen, warum sich sein neues Giftsamenbrötchen so schlecht verkauft.</deDE>
+  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>John "JP" Polidora</enUS>
+    <enUS>Brian Despain</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by completing the Druid Class Challenge in Naxxramas.</enUS>
+    <zhTW>在納克薩瑪斯中完成德魯伊職業挑戰後解鎖。</zhTW>
+    <zhCN>在完成纳克萨玛斯的德鲁伊职业挑战后解锁。</zhCN>
+    <ruRU>Награда за прохождение испытания друида в Наксрамасе.</ruRU>
+    <ptBR>Desbloqueado ao completar o Desafio de Druida em Naxxramas.</ptBR>
+    <plPL>Aby odblokować, ukończ wyzwanie klasowe dla druida w Naxxramas.</plPL>
+    <koKR>낙스라마스의 드루이드 직업 도전 과제를 완료하여 잠금 해제</koKR>
+    <itIT>Sbloccata completando la Sfida di Classe del Druido a Naxxramas.</itIT>
+    <frFR>Obtenue en terminant le défi de la classe druide de Naxxramas.</frFR>
+    <esMX>Desbloqueada por completar el desafío clase Druida en Naxxramas.</esMX>
+    <esES>Se desbloquea al completar el desafío de clase del druida en Naxxramas.</esES>
+    <deDE>Wird durch das Abschließen der Klassenherausforderung des Druiden in Naxxramas freigeschaltet.</deDE>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Shaman Level 59.</enUS>
+    <enUS>Can be crafted after completing the Druid Class Challenge in Naxxramas.</enUS>
+    <zhTW>在納克薩瑪斯中完成德魯伊職業挑戰即可合成。</zhTW>
+    <zhCN>在纳克萨玛斯完成德鲁伊职业挑战后能够制作。</zhCN>
+    <ruRU>Можно создать после завершения испытания друида в Наксрамасе.</ruRU>
+    <ptBR>Pode ser criado após completar o Desafio de Druida em Naxxramas.</ptBR>
+    <plPL>Można wykonać po ukończeniu wyzwania klasowego dla druida w Naxxramas.</plPL>
+    <koKR>낙스라마스 드루이드 직업 도전 과제를 완료한 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver completato la Sfida di Classe del Druido a Naxxramas.</itIT>
+    <frFR>Peut être créée après avoir terminé le défi de la classe druide de Naxxramas.</frFR>
+    <esMX>Se puede crear luego de completar el desafío clase Druida en Naxxramas.</esMX>
+    <esES>Se puede crear tras completar el desafío de clase del druida en Naxxramas.</esES>
+    <deDE>Kann nach dem Abschluss der Klassenherausforderung des Druiden in Naxxramas hergestellt werden.</deDE>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>One Insane Rocketeer.   One Rocket full of Explosives.   Infinite Fun.</enUS>
-    <zhTW>瘋狂的火箭手。裝滿爆裂物的火箭。這兩樣東西加起來就是無窮的樂趣。</zhTW>
-    <zhCN>一个疯狂的火箭兵加上一个装满炸药的火箭。完美的组合。</zhCN>
-    <ruRU>Одна шальная ракетчица + одна ракета со взрывчаткой = бесконечный источник веселья.</ruRU>
-    <ptBR>Um Fogueteiro Maluco. Um Foguete cheio de Explosivos. Loucas confusões.</ptBR>
-    <plPL>Jedna szalona rakieterka plus jedna wybuchowa rakieta równa się masa zabawy. </plPL>
-    <koKR>폭발물로 가득한 로켓으로 무장한 미치광이 로켓병이라니! 와! 신난다!</koKR>
-    <itIT>Una Cavalcarazzi Folle. Un razzo carico di esplosivo. Divertimento garantito!</itIT>
-    <frFR>La missilière téméraire, c’est de la dynamite !</frFR>
-    <esMX>Una artificera demente + un misil lleno de explosivos = diversión sin fin.</esMX>
-    <esES>Una artificiera temeraria + un cohete lleno hasta arriba de explosivos = diversión infinita.</esES>
-    <deDE>Rakete: 300 Gold. Feuerzeug: 25 Gold. Mangelnder Selbsterhaltungstrieb: Unbezahlbar.</deDE>
-  </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="684231a0-251c-42be-952e-9a8a2773188b" />
+  <Power definition="e4c1281b-f417-4755-8cdc-43667314b6cb" />
 </Entity>

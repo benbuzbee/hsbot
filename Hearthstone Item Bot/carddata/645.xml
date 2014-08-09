@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_622">
-  <MasterPower>af8152e7-6136-43c5-bf1d-7fdeb5e92066</MasterPower>
+<Entity version="2" CardID="EX1_617">
+  <MasterPower>09a28389-535a-4368-9cdb-6a62e2604fbe</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Shadow Word: Death</enUS>
-    <zhTW>暗言術:死</zhTW>
-    <zhCN>暗言术：灭</zhCN>
-    <ruRU>Слово Тьмы: Смерть</ruRU>
-    <ptBR>Palavra Sombria: Morte</ptBR>
-    <plPL>Słowo cienia: Śmierć</plPL>
-    <koKR>어둠의 권능: 죽음</koKR>
-    <itIT>Parola d'Ombra: Morte</itIT>
-    <frFR>Mot de l’ombre : Mort</frFR>
-    <esMX>Palabra de las sombras: Muerte</esMX>
-    <esES>Palabra de Sombras: muerte</esES>
-    <deDE>Schattenwort: Tod</deDE>
+    <enUS>Deadly Shot</enUS>
+    <zhTW>致命射擊</zhTW>
+    <zhCN>致命射击</zhCN>
+    <ruRU>Смертельный выстрел</ruRU>
+    <ptBR>Disparo Mortal</ptBR>
+    <plPL>Zabójczy strzał</plPL>
+    <koKR>치명적인 사격</koKR>
+    <itIT>Tiro Mortale</itIT>
+    <frFR>Tir meurtrier</frFR>
+    <esMX>Disparo mortal</esMX>
+    <esES>Disparo mortal</esES>
+    <deDE>Tödlicher Schuss</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="8" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy a minion with an Attack of 5 or more.</enUS>
-    <zhTW>摧毀一個攻擊力在5點以上的手下</zhTW>
-    <zhCN>消灭一个攻击力大于或等于5的随从。</zhCN>
-    <ruRU>Уничтожает существо с атакой 5 или больше.</ruRU>
-    <ptBR>Destrua um lacaio com 5 ou mais de Ataque.</ptBR>
-    <plPL>Zniszcz stronnika z atakiem 5 lub większym.</plPL>
-    <koKR>공격력 5 이상인 하수인을 하나 처치합니다.</koKR>
-    <itIT>Distrugge un servitore con Attacco pari a 5 o superiore.</itIT>
-    <frFR>Détruit un serviteur avec 5 ou plus à l’Attaque.</frFR>
-    <esMX>Destruye a un esbirro con 5 de Ataque o más.</esMX>
-    <esES>Destruye a un esbirro con 5 p. de ataque o más.</esES>
-    <deDE>Vernichtet einen Diener mit mind. 5 Angriff.</deDE>
+    <enUS>Destroy a random enemy minion.</enUS>
+    <zhTW>摧毀一個隨機敵方手下</zhTW>
+    <zhCN>随机消灭一个敌方随从。</zhCN>
+    <ruRU>Уничтожает случайное существо противника.</ruRU>
+    <ptBR>Destrua um lacaio inimigo aleatório.</ptBR>
+    <plPL>Zniszcz losowego stronnika przeciwnika.</plPL>
+    <koKR>무작위 적 하수인을 하나 처치합니다.</koKR>
+    <itIT>Distrugge un servitore nemico casuale.</itIT>
+    <frFR>Détruit un serviteur adverse aléatoire.</frFR>
+    <esMX>Destruye un esbirro enemigo aleatorio.</esMX>
+    <esES>Destruye un esbirro enemigo aleatorio.</esES>
+    <deDE>Vernichtet einen zufälligen feindlichen Diener.</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 8.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 43.</enUS>
+    <enUS>Steve Prescott</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>If you miss, it leaves a lightning-bolt-shaped scar on your target.</enUS>
-    <zhTW>如果你施放失敗，只會在目標身上留下一個閃電形狀的疤痕。</zhTW>
-    <zhCN>如果你的法术没有命中，那么你的目标身上会留下一道闪电箭形状的伤疤。</zhCN>
-    <ruRU>Если вы промахнетесь, оно оставит на лбу вашей цели шрам в виде молнии.</ruRU>
-    <ptBR>"Aonde ele foi?" "Deixa ele pra lá! Me ajuda com esse murloc!"</ptBR>
-    <plPL>Jeśli spudłujesz, na celu zostanie blizna w kształcie błyskawicy.</plPL>
-    <koKR>빗맞히면 대상의 이마에 번개 모양의 흉터를 남깁니다.</koKR>
-    <itIT>Se manca il bersaglio, lascia una cicatrice a forma di saetta sulla sua fronte.</itIT>
-    <frFR>Si ce sort rate, il laisse une marque en forme d’éclair sur le front de votre cible.</frFR>
-    <esMX>"¡Ey! ¿A dónde fue?" "¡Qué importa! Ayúdame con este múrloc".</esMX>
-    <esES>Un buen sacerdote sabe cuándo retirarse: en cuanto un enemigo se fija en él.</esES>
-    <deDE>Wenn dieser Zauber danebengeht, hinterlässt er lediglich eine blitzförmige Narbe auf Eurem Ziel.</deDE>
+    <enUS>Accuracy is not a highly valued trait among the mok'nathal.  Deadliness is near the top, though.</enUS>
+    <zhTW>精準度在摩克納薩爾族當中並非受到極大青睞的優點。不過致命度還排在挺前面的。</zhTW>
+    <zhCN>在莫克纳萨村，瞄得准并不是什么值得称道的本事。最重要的是，能不能给猎物致命的一击。</zhCN>
+    <ruRU>Точность не очень ценится среди мок'натальских охотников, в отличие от смертоносности.</ruRU>
+    <ptBR>Precisão não é uma característica muito valorizada entre os mok'nathal. Letalidade, no entanto, está perto do topo.</ptBR>
+    <plPL>Pół-ogry mok’nathal nie słyną z precyzji. Ale nie stosują półśrodków, gdy trzeba coś zabić.</plPL>
+    <koKR>모크나탈에게 정확성은 별로 중요한 덕목이 아닙니다. 다만, 살상력은 꽤 중요하다고 할 수 있죠.</koKR>
+    <itIT>L'accuratezza non è un valore importante per i Mok'Nathal, ma lo è la letalità.</itIT>
+    <frFR>Les Mok’Nathal manquent cruellement de subtilité. Mais ils débordent de cruauté.</frFR>
+    <esMX>La precisión no es una cualidad muy valorada entre los mok'nathal. Pero la mortalidad es una característica casi sagrada.</esMX>
+    <esES>La precisión no es una cualidad muy valorada entre los Mok'nathal, pero la letalidad es indispensable.</esES>
+    <deDE>Zielgenauigkeit wird von den Mok'nathal nicht sehr hoch geschätzt. Tödlichkeit hingegen steht ganz oben auf der Liste.</deDE>
   </Tag>
-  <Power definition="af8152e7-6136-43c5-bf1d-7fdeb5e92066">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-    <PlayRequirement reqID="41" param="5" />
+  <Power definition="09a28389-535a-4368-9cdb-6a62e2604fbe">
+    <PlayRequirement reqID="23" param="1" />
   </Power>
 </Entity>

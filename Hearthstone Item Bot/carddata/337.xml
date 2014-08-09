@@ -1,62 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_590">
-  <MasterPower>b83882c2-46ab-4376-b5f1-b9118273d371</MasterPower>
+<Entity version="2" CardID="EX1_160">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Blood Knight</enUS>
-    <frFR>Chevalier de sang</frFR>
-    <zhTW>血騎士</zhTW>
-    <zhCN>血骑士</zhCN>
-    <ruRU>Рыцарь крови</ruRU>
-    <ptBR>Cavaleiro Sangrento</ptBR>
-    <plPL>Krwawy rycerz</plPL>
-    <koKR>혈기사</koKR>
-    <itIT>Cavaliere del Sangue</itIT>
-    <esMX>Caballero de sangre</esMX>
-    <esES>Caballero de sangre</esES>
-    <deDE>Blutritter</deDE>
+    <enUS>Power of the Wild</enUS>
+    <frFR>Puissance du fauve</frFR>
+    <zhTW>野性之力</zhTW>
+    <zhCN>野性之力</zhCN>
+    <ruRU>Сила дикой природы</ruRU>
+    <ptBR>Poder da Selva</ptBR>
+    <plPL>Moc dziczy</plPL>
+    <koKR>야생의 힘</koKR>
+    <itIT>Potere della Natura</itIT>
+    <esMX>Poder de lo salvaje</esMX>
+    <esES>Poder de lo Salvaje</esES>
+    <deDE>Macht der Wildnis</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; All minions lose &lt;b&gt;Divine Shield&lt;/b&gt;. Gain +3/+3 for each Shield lost.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; tous les serviteurs perdent &lt;b&gt;Bouclier divin&lt;/b&gt;. Gagne +3/+3 pour chaque bouclier perdu.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;全部手下失去&lt;b&gt;聖盾術&lt;/b&gt;。每個聖盾術將使其獲得+3/+3</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;所有随从失去&lt;b&gt;圣盾&lt;/b&gt;。每有一个随从失去圣盾，便获得+3/+3。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все существа теряют &lt;b&gt;«Божественный щит»&lt;/b&gt;. Рыцарь получает +3/+3 за каждый поглощенный щит.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Todos os lacaios perdem &lt;b&gt;Escudo Divino&lt;/b&gt;. Receba +3/+3 para cada Escudo perdido.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Wszyscy stronnicy tracą &lt;b&gt;Boską tarczę&lt;/b&gt;. Otrzymuje +3/+3 za każdą straconą tarczę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; &lt;b&gt;모든&lt;/b&gt; 하수인의 &lt;b&gt;천상의 보호막&lt;/b&gt;을 흡수하여, 보호막 1개당 +3/+3을 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; tutti i servitori perdono &lt;b&gt;Scudo Divino&lt;/b&gt;. Ottiene +3/+3 per ogni Scudo Divino dissolto.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; remueve &lt;b&gt;Escudo divino&lt;/b&gt; de los esbirros. Obtiene +3/+3 por cada Escudo perdido. </esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Todos los esbirros pierden &lt;b&gt;Escudo divino&lt;/b&gt;. Obtiene +3/+3 por cada escudo perdido.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Alle Diener verlieren &lt;b&gt;Gottesschild&lt;/b&gt;. Erhält +3/+3 für jeden verlorenen Schild.</deDE>
+    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Give your minions +1/+1; or Summon a 3/2 Panther.</enUS>
+    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt;\ndonne à vos serviteurs +1/+1 ou invoque une panthère 3/2.</frFR>
+    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;使你的全部手下+1/+1，或召喚一隻3/2獵豹</zhTW>
+    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：使你的随从获得+1/+1；或者召唤一个3/2的猎豹。</zhCN>
+    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; ваши существа получают +1/+1; или призовите на поле боя пантеру 3/2.</ruRU>
+    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +1/+1 aos seus lacaios ou evoque uma Pantera 3/2.</ptBR>
+    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj swoim stronnikom +1/+1; lub przyzwij Panterę 3/2.</plPL>
+    <koKR>&lt;b&gt;선택&lt;/b&gt; - 내 하수인들에게 +1/+1을 부여합니다. 또는 3/2 표범을 1마리 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; +1/+1 ai tuoi servitori &lt;b&gt;o&lt;/b&gt; evoca una Pantera 3/2.</itIT>
+    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +1/+1 a tus esbirros o invoca una Pantera 3/2.</esMX>
+    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Otorga +1/+1 a tus esbirros, o bien invoca una pantera 3/2.</esES>
+    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Verleiht Euren Dienern +1/+1; oder ruft einen Panther (3/2) herbei.</deDE>
   </Tag>
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trent Kaniuga</enUS>
+    <enUS>Steve Tappin</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Blood Knights get their holy powers from the Sunwell, which you should NOT bathe in.</enUS>
-    <zhTW>血騎士從太陽之井獲得他們的神聖力量。話說，你最好別想去那裡泡溫泉。</zhTW>
-    <zhCN>血骑士从太阳井中获得他们的神圣能量，所以你别把那里当成是洗太阳浴的地方。</zhCN>
-    <ruRU>Рыцари крови черпают божественные силы из Солнечного Колодца. Ведрами.</ruRU>
-    <ptBR>Os Cavaleiros Sangrentos recebem seus poderes sagrados da Nascente do Sol, que NÃO é um lugar para tomar banho.</ptBR>
-    <plPL>Krwawi rycerze otrzymują swoje święte moce ze Słonecznej Studni. Kąpiel w niej jest surowo wzbroniona!</plPL>
-    <koKR>혈기사는 신성한 힘의 원천으로 태양샘을 사용합니다. 태양샘에서 물놀이를 할 생각은 꿈도 꾸지 마세요.</koKR>
-    <itIT>I Cavalieri del Sangue traggono il loro potere sacro dal Pozzo Solare, nel quale NON dovresti mai fare il bagno.</itIT>
-    <frFR>Le chevalier de sang obtient ses pouvoirs du Puits de soleil. Mais ce n’est pas le meilleur endroit pour faire bronzette.</frFR>
-    <esMX>Los Caballeros de sangre obtienen su poder sagrado de la Fuente del Sol. Te recomendamos que NO la uses para bañarte.</esMX>
-    <esES>Los caballeros de sangre obtenían sus poderes sagrados de la Fuente del Sol, hasta que la Plaga cerró el grifo.</esES>
-    <deDE>Die Blutritter ziehen ihre Kraft aus den heiligen Energien des Sonnenbrunnens, in dem Baden STRENG VERBOTEN ist.</deDE>
+    <enUS>Never look a panther in the eye.  Or is it 'Always look a panther in the eye'?  Well, it's one of those.</enUS>
+    <zhTW>永遠別跟獵豹對視。還是「要與獵豹正面對視」?反正是這兩種的其中一種就對了。</zhTW>
+    <zhCN>在灰谷的树林中，猎豹的毛皮漆黑油亮，数量众多。那为什么这地方要叫灰谷，而不是黑谷呢？</zhCN>
+    <ruRU>Если вы встретили пантеру, не смотрите ей в глаза, если хотите выжить. Или наоборот, надо смотреть ей в глаза? В общем, что-то из этого должно сработать...</ruRU>
+    <ptBR>Nunca olhe uma pantera nos olhos. Ou é "Sempre olhe uma pantera nos olhos"? Bom, é um desses dois.</ptBR>
+    <plPL>„A tera zje cię pantera!”</plPL>
+    <koKR>표범을 만났을 땐 표범과 눈을 마주치지 마십시오. 아니, '계속 표범의 눈을 보십시오'였던가? 뭐 둘 중 하나였던 것 같습니다.</koKR>
+    <itIT>Non guardare mai una pantera negli occhi. O era "Guarda sempre una pantera negli occhi"? Be', una delle due!</itIT>
+    <frFR>Ne jamais regarder une panthère dans les yeux. Ou toujours la regarder dans les yeux ? C’est soit l’un, soit l’autre.</frFR>
+    <esMX>Nunca mires a una pantera a los ojos. Un momento... ¿era "Siempre mira a una pantera a los ojos"? Bueno, es una de las dos.</esMX>
+    <esES>Nunca mires a una pantera a los ojos. ¿O era "Mira siempre a una pantera a los ojos"? Bueno, es una de las dos.</esES>
+    <deDE>Macht der Wildnis Beine oder verleiht Euren Dienern Flügel.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <ReferencedTag name="Divine Shield" enumID="194" type="Bool" value="1" />
-  <Power definition="b83882c2-46ab-4376-b5f1-b9118273d371" />
 </Entity>

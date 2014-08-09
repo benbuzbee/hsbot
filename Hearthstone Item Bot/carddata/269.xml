@@ -1,64 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_062">
+<Entity version="2" CardID="EX1_407">
+  <MasterPower>bc2cdc82-6232-41c0-bf67-e3e3fc3db11e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hellfire</enUS>
-    <frFR>Flammes infernales</frFR>
-    <zhTW>地獄烈焰</zhTW>
-    <zhCN>地狱烈焰</zhCN>
-    <ruRU>Адское пламя</ruRU>
-    <ptBR>Fogo do Inferno</ptBR>
-    <plPL>Piekielny ogień</plPL>
-    <koKR>지옥의 불길</koKR>
-    <itIT>Fuoco Infernale</itIT>
-    <esMX>Llamas infernales</esMX>
-    <esES>Llamas infernales</esES>
-    <deDE>Höllenfeuer</deDE>
+    <enUS>Brawl</enUS>
+    <frFR>Baston</frFR>
+    <zhTW>鬥毆</zhTW>
+    <zhCN>绝命乱斗</zhCN>
+    <ruRU>Потасовка</ruRU>
+    <ptBR>Briga</ptBR>
+    <plPL>Bójka</plPL>
+    <koKR>난투</koKR>
+    <itIT>Rissa</itIT>
+    <esMX>Pelea</esMX>
+    <esES>Camorra</esES>
+    <deDE>Scharmützel</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $3 damage to ALL characters.</enUS>
-    <frFR>Inflige $3 |4(point,points) de dégâts à TOUS les personnages.</frFR>
-    <zhTW>對&lt;b&gt;全部&lt;/b&gt;角色造成$3點傷害</zhTW>
-    <zhCN>对所有角色造成$3点伤害。</zhCN>
-    <ruRU>Наносит $3 ед. урона ВСЕМ персонажам.</ruRU>
-    <ptBR>Cause $3 de dano a TODOS os personagens.</ptBR>
-    <plPL>Zadaj $3 pkt. obrażeń WSZYSTKIM postaciom.</plPL>
-    <koKR>&lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 $3 줍니다.</koKR>
-    <itIT>Infligge $3 danni a TUTTI i personaggi.</itIT>
-    <esMX>Inflige $3 de daño a TODOS los personajes.</esMX>
-    <esES>Inflige $3 p. de daño a todos los personajes.</esES>
-    <deDE>Fügt ALLEN Charakteren $3 Schaden zu.</deDE>
+    <enUS>Destroy all minions except one.  (chosen randomly)</enUS>
+    <frFR>Détruit tous les serviteurs sauf un (choisi au hasard).</frFR>
+    <zhTW>摧毀全部手下，只留下一個。(隨機選擇)</zhTW>
+    <zhCN>随机选择一个随从，消灭除了该随从外的所有其他随从。</zhCN>
+    <ruRU>Уничтожает все существа, кроме одного, выбранного в случайном порядке.</ruRU>
+    <ptBR>Destrua todos os lacaios, menos um (escolhido aleatoriamente).</ptBR>
+    <plPL>Zniszcz wszystkich stronników oprócz jednego (wybranego losowo).</plPL>
+    <koKR>무작위로 선정된 하수인 하나를 제외한 모든 하수인을 처치합니다.</koKR>
+    <itIT>Distrugge tutti i servitori tranne uno scelto casualmente.</itIT>
+    <esMX>Destruye a todos los esbirros excepto uno. (Elegido aleatoriamente)</esMX>
+    <esES>Destruye a todos los esbirros menos a uno (elegido al azar).</esES>
+    <deDE>Vernichtet alle Diener bis auf einen. (Zufällige Auswahl)</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Brian 'Chippy' Dugan</enUS>
+    <enUS>Wayne Reynolds</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It's spells like these that make it hard for Warlocks to get decent help.</enUS>
-    <zhTW>像這種無差別攻擊的法術就是術士很難找到夥伴的原因。</zhTW>
-    <zhCN>鸟尽弓藏，兔死狗烹，术士才不需要什么忠心耿耿的随从。</zhCN>
-    <ruRU>Из-за подобных заклинаний у чернокнижников плохая репутация.</ruRU>
-    <ptBR>É por causa de feitiços como este que os bruxos não conseguem muita ajuda.</ptBR>
-    <plPL>To przez takie zaklęcia czarnoksiężnicy mają problemy ze znalezieniem pomocników.</plPL>
-    <koKR>흑마법사를 신뢰할 수 없는 대표적인 이유로 이 주문을 꼽을 수 있습니다.</koKR>
-    <itIT>È proprio a causa di questo genere di incantesimi che gli Stregoni hanno pochi amici.</itIT>
-    <frFR>C’est à cause de ce genre de sorts que les démonistes ont du mal à lier des relations durables.</frFR>
-    <esMX>Hechizos como este hacen que nadie quiera ayudar a los Brujos.</esMX>
-    <esES>Es por hechizos como estos por lo que los brujos no tienen amigos.</esES>
-    <deDE>Zauber wie dieser machen es anderen schwer, gute Beziehungen zu Hexenmeistern zu pflegen.</deDE>
+    <enUS>Do you know the first rule of Brawl Club?</enUS>
+    <zhTW>你知道鬥陣俱樂部的第一守則是什麼嗎?</zhTW>
+    <zhCN>你知道搏击俱乐部的第一守则吗？</zhCN>
+    <ruRU>Знаете первое правило Бойцовского клуба?</ruRU>
+    <ptBR>Você sabe a primeira regra do Clube da Briga?</ptBR>
+    <plPL>Wiesz jaka jest pierwsza zasada klubu bójek?</plPL>
+    <koKR>싸움꾼 조합의 첫 번째 규칙이 뭐죠?</koKR>
+    <itIT>Conosci la prima regola del Circolo dei Combattenti?</itIT>
+    <frFR>Vous connaissez la première règle des bastonneurs ?</frFR>
+    <esMX>¿Sabes cuál es la primera regla del Club de la Pelea?</esMX>
+    <esES>¿Conoces la primera regla de la Hermandad de camorristas?</esES>
+    <deDE>Wie nennt man eine nicht besonders große Kopfbedeckung aus negativen Emotionen? ... Ein Sha-Mützel. Ha.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 49.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="f9aa8f68-1fdb-44b4-b100-cc018a4272f9" />
+  <Power definition="bc2cdc82-6232-41c0-bf67-e3e3fc3db11e">
+    <PlayRequirement reqID="45" param="2" />
+  </Power>
 </Entity>

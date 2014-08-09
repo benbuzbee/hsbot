@@ -1,62 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_507">
+<Entity version="2" CardID="FP1_016">
+  <MasterPower>a6b8a176-55ea-4332-aa09-e9ac154187a9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Murloc Warleader</enUS>
-    <frFR>Chef de guerre murloc</frFR>
-    <zhTW>魚人隊長</zhTW>
-    <zhCN>鱼人领军</zhCN>
-    <ruRU>Мурлок-полководец</ruRU>
-    <ptBR>Líder Guerreiro Murloc</ptBR>
-    <plPL>Nadmurlok</plPL>
-    <koKR>멀록 전투대장</koKR>
-    <itIT>Condottiero Murloc</itIT>
-    <esMX>Líder de guerra múrloc</esMX>
-    <esES>Líder de guerra múrloc</esES>
-    <deDE>Murlocanführer</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>ALL other Murlocs have +2/+1.</enUS>
-    <frFR>TOUS les autres murlocs ont +2/+1.</frFR>
-    <zhTW>全部其他魚人獲得+2/+1</zhTW>
-    <zhCN>所有其他鱼人获得+2/+1。</zhCN>
-    <ruRU>ВСЕ прочие мурлоки получают +2/+1.</ruRU>
-    <ptBR>TODOS os outros Murlocs têm +2/+1.</ptBR>
-    <plPL>Wszystkie pozostałe murloki otrzymują +2/+1.</plPL>
-    <koKR>다른 &lt;b&gt;모든&lt;/b&gt; 멀록이 +2/+1을 얻습니다.</koKR>
-    <itIT>TUTTI gli altri Murloc hanno +2/+1.</itIT>
-    <esMX>TODOS los otros múrlocs tienen +2/+1.</esMX>
-    <esES>Todos los demás múrlocs tienen +2/+1.</esES>
-    <deDE>ALLE anderen Murlocs haben +2/+1.</deDE>
+    <enUS>Wailing Soul</enUS>
+    <zhTW>哀嚎的靈魂</zhTW>
+    <zhCN>哀嚎的灵魂</zhCN>
+    <ruRU>Стенающая душа</ruRU>
+    <ptBR>Alma Ululante</ptBR>
+    <plPL>Zawodząca dusza</plPL>
+    <koKR>울부짖는 영혼</koKR>
+    <itIT>Anima Lamentosa</itIT>
+    <frFR>Âme gémissante</frFR>
+    <esMX>Alma gemebunda</esMX>
+    <esES>Alma gemebunda</esES>
+    <deDE>Klagende Seele</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry: Silence&lt;/b&gt; your other minions.</enUS>
+    <zhTW>&lt;b&gt;戰吼:沉默&lt;/b&gt;你的其他手下</zhTW>
+    <zhCN>&lt;b&gt;战吼：沉默&lt;/b&gt;你的其他随从。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; накладывает эффект &lt;b&gt;немоты&lt;/b&gt; на прочих ваших существ.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra: Silencie&lt;/b&gt; seus outros lacaios.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy: Wycisz&lt;/b&gt; swoich pozostałych stronników.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 다른 하수인들을 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia: Silenzia&lt;/b&gt; tutti gli altri tuoi servitori.</itIT>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; réduit au &lt;b&gt;Silence&lt;/b&gt; vos autres serviteurs.</frFR>
+    <esMX>&lt;b&gt;Grito de batalla: Silencia&lt;/b&gt; a tus otros esbirros.</esMX>
+    <esES>&lt;b&gt;Grito de batalla: Silencia&lt;/b&gt; a tus demás esbirros.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Bringt Eure anderen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Tim McBurnie</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Do Murlocs ever get tired of making the same old sound?  Nope!  Mrglglrglglglglglglgl!</enUS>
-    <zhTW>魚人一直叫同樣的聲音不累嗎?並不會!姆拉嘎啦啦嘎嘎!!</zhTW>
-    <zhCN>鱼人们老是发出一样的声音，难道不觉得厌烦吗？不！姆格拉咕嗯噜咕噜咕噜咕噜咕噜！</zhCN>
-    <ruRU>Как вы думаете, мурлоки когда-нибудь устают издавать один и тот же звук? Ничего подобного! Мрглглглглглглг!</ruRU>
-    <ptBR>Os murlocs não enjoam de ficar fazendo sempre o mesmo som? Não! Mrglglrglglglglglglgl!</ptBR>
-    <plPL>Mrglglrglglglglglglgl - jak cudownie to brzmi!</plPL>
-    <koKR>멀록들은 매일 똑같은 소리만 내는 게 지겹지 않을까요? 아니요! 므라아옳옳옳옳옳옳!</koKR>
-    <itIT>Ma i Murloc non si stancano mai di ripetere sempre lo stesso verso? NO. Mrglglrglglglglglglgl!</itIT>
-    <frFR>Est-ce que les murlocs se lassent de pousser toujours le même cri ? Bien sûr que non ! Mrglglrglglglglglglgl !</frFR>
-    <esMX>¿Los múrlocs nunca se cansan de hacer el mismo ruidito? ¡No! Mrglglrglglglglglglgl</esMX>
-    <esES>¿Alguna vez nos cansaremos de imitar el sonido de los múrlocs? ¡No! ¡Mrglglrglglglglglglgl!</esES>
-    <deDE>Wird es Murlocs jemals zu blöd, immer wieder denselben alten Laut von sich zu geben? Neeee! Mrglglrglglglglglglgl!</deDE>
+    <enUS>This soul just &lt;i&gt;wails&lt;/i&gt; on you. Dang, soul, let up already.</enUS>
+    <zhTW>這個靈魂超喜歡哀哀叫的。連朋友都希望能讓他閉嘴。</zhTW>
+    <zhCN>只要他拿起麦克风，别人的声音都听不见了。</zhCN>
+    <ruRU>Эта душа так громко стенает, что иногда хочется, чтобы она умела накладывать немоту сама на себя.</ruRU>
+    <ptBR>Esta alma fica &lt;i&gt;se lamentando&lt;/i&gt; com você. Sai, alma, me deixa!</ptBR>
+    <plPL>Ta dusza poczuła tak wielki zawód, że jej zawodem stało się zawodzenie.</plPL>
+    <koKR>정말 쉬지도 않고 계속 울부짖네요. 영혼아. 밥은 먹고 다니니?</koKR>
+    <itIT>Una delle tante anime che popolano i forum su Internet.</itIT>
+    <frFR>Cette âme n’arrête pas de se plaindre en &lt;i&gt;gémissant&lt;/i&gt; auprès de sa hiérarchie, c’est-à-dire vous !</frFR>
+    <esMX>Esta alma no deja de lamentarse por las noches. ¡Ya, déjanos dormir por favor!</esMX>
+    <esES>Esta alma no levanta cabeza.</esES>
+    <deDE>Diese Seele macht den lieben langen Tag nichts anderes als klagen. Irgendwann reicht's auch mal.</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="58695e7b-cec4-4333-9dc5-26bebcef653f" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Glenn Rane</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by defeating Thaddius in the Construct Quarter.</enUS>
+    <zhTW>在傀儡區擊敗泰迪斯後解鎖。</zhTW>
+    <zhCN>在击败构造区的塔迪乌斯后解锁。</zhCN>
+    <ruRU>Награда за победу над Таддиусом в Квартале Мерзости.</ruRU>
+    <ptBR>Desbloqueado ao derrotar Thaddius no Distrito dos Constructos.</ptBR>
+    <plPL>Aby odblokować, pokonaj Thadiusa w Rewirze Konstruktów.</plPL>
+    <koKR>피조물 지구의 타디우스를 쓰러뜨려 잠금 해제</koKR>
+    <itIT>Sbloccata sconfiggendo Thaddius nell'Ala dei Costrutti.</itIT>
+    <frFR>Obtenue en gagnant contre Thaddius dans le quartier des Assemblages.</frFR>
+    <esMX>Desbloqueada por derrotar a Thaddius en el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se desbloquea al derrotar a Thaddius en el Arrabal de los Ensamblajes.</esES>
+    <deDE>Wird durch den Sieg über Thaddius im Konstruktviertel freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after defeating Thaddius in the Construct Quarter.</enUS>
+    <zhTW>在傀儡區中擊敗泰迪斯即可合成。</zhTW>
+    <zhCN>在构造区击败塔迪乌斯后能够制作。</zhCN>
+    <ruRU>Можно создать после победы над Таддиусом в Квартале Мерзости.</ruRU>
+    <ptBR>Pode ser criado após derrotar Thaddius no Distrito dos Constructos.</ptBR>
+    <plPL>Można wykonać po pokonaniu Thadiusa w Rewirze Konstruktów.</plPL>
+    <koKR>피조물 지구의 타디우스를 쓰러뜨린 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver sconfitto Thaddius nell'Ala dei Costrutti.</itIT>
+    <frFR>Peut être créée après avoir battu Thaddius dans le quartier des Assemblages.</frFR>
+    <esMX>Se puede crear luego de derrotar a Thaddius en el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se puede crear tras derrotar a Thaddius en el Arrabal de los Ensamblajes.</esES>
+    <deDE>Kann nach dem Sieg über Thaddius im Konstruktviertel hergestellt werden.</deDE>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <ReferencedTag name="Silence" enumID="339" type="Bool" value="1" />
+  <Power definition="a6b8a176-55ea-4332-aa09-e9ac154187a9" />
 </Entity>

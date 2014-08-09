@@ -1,69 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_074">
-  <MasterPower>f51fe4b0-1f7b-45dc-834e-3b4beeaf3109</MasterPower>
+<Entity version="2" CardID="EX1_005">
+  <MasterPower>41e81c66-edf9-4f0f-b7ba-9dad6a522133</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Deadly Poison</enUS>
-    <frFR>Poison mortel</frFR>
-    <zhTW>致命毒藥</zhTW>
-    <zhCN>致命药膏</zhCN>
-    <ruRU>Смертоносный яд</ruRU>
-    <ptBR>Veneno Mortal</ptBR>
-    <plPL>Zabójcza trucizna</plPL>
-    <koKR>맹독</koKR>
-    <itIT>Veleno Mortale</itIT>
-    <esMX>Veneno mortal</esMX>
-    <esES>Veneno mortal</esES>
-    <deDE>Tödliches Gift</deDE>
+    <enUS>Big Game Hunter</enUS>
+    <frFR>Chasseur de gros gibier</frFR>
+    <zhTW>王牌獵人</zhTW>
+    <zhCN>王牌猎人</zhCN>
+    <ruRU>Опытный охотник</ruRU>
+    <ptBR>Caçador Profissional</ptBR>
+    <plPL>Łowca grubego zwierza</plPL>
+    <koKR>나 이런 사냥꾼이야</koKR>
+    <itIT>Esperto di Caccia</itIT>
+    <esMX>Cazador mayor</esMX>
+    <esES>Cazador de fieras</esES>
+    <deDE>Großwildjäger</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="7" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Give your weapon +2 Attack.</enUS>
-    <frFR>Confère +2 ATQ à votre arme.</frFR>
-    <zhTW>賦予你的武器+2攻擊力</zhTW>
-    <zhCN>使你的武器获得+2攻击力。</zhCN>
-    <ruRU>Ваше оружие получает +2 к атаке.</ruRU>
-    <ptBR>Conceda +2 de Ataque à sua arma.</ptBR>
-    <plPL>Daj swojej broni +2 do ataku.</plPL>
-    <koKR>내 무기에 공격력을 +2 부여합니다.</koKR>
-    <itIT>+2 Attacco alla tua arma.</itIT>
-    <esMX>Le otorga a tu arma +2 de Ataque.</esMX>
-    <esES>Otorga +2 p. de ataque a tu arma equipada.</esES>
-    <deDE>Eure Waffe erhält +2 Angriff.</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Trevor Jacobs</enUS>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy a minion with an Attack of 7 or more.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit un serviteur avec 7 Attaque ou plus.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀一個攻擊力在7點以上的手下</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;消灭一个攻击力大于或等于7的随从。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает существо с атакой 7 или больше.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua um lacaio com 7 ou mais de Ataque.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz stronnika z atakiem 7 lub większym.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 공격력 7 이상인 하수인을 하나 처치합니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge un servitore con Attacco pari a 7 o superiore.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye un esbirro con 7 o más de Ataque.</esMX>
+    <esES>&lt;b&gt;Grito de batalla&lt;/b&gt;: Destruye a un esbirro con 7 p. de ataque o más.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Vernichtet einen Diener mit mind. 7 Angriff.</deDE>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.</enUS>
-    <zhTW>盜賊非常小心地保護著製作毒藥的秘密，否則若法師開始把毒藥弄進法術就麻煩了。毒箭術?毒雨術?毒元素?沒有人想要看到那種東西。</zhTW>
-    <zhCN>潜行者们都小心翼翼地保守着制毒的秘密，唯恐法师们把毒药用在他们的法术之中。毒性箭？剧毒之雨？毒元素？听上去就很可怕。</zhCN>
-    <ruRU>Разбойники тщательно охраняют секреты изготовления ядов, особенно от магов. Кому нужны заклинания типа «Ядовитый ливень» или «Отравляющий элементаль»? Правильно, никому.</ruRU>
-    <ptBR>Ladinos guardam suas receitas de veneno muito bem. Imagina se os magos começam a incorporar os venenos nos feitiços? Seta Venenosa? Chuva de Veneno? Elemental de Veneno? Ninguém quer isso.</ptBR>
-    <plPL>Sekrety wyrobu trucizn są zazdrośnie strzeżone przez łotrów, aby magowie nie tworzyli zatrutych zaklęć. Zatruty pocisk? Deszcz trucizny? Żywiołak trucizn? Nikt tego nie chce.</plPL>
-    <koKR>도적들의 독 제조술은 극비 사항입니다. 마법사들이 주문에 사용 못 하게 하기 위해서죠. 맹독 화살? 맹독의 비? 맹독 정령? 생각만 해도 끔찍하군요.</koKR>
-    <itIT>I Ladri custodiscono gelosamente i segreti della creazione di veleni, temendo che i Maghi possano utilizzarli nelle loro magie. Dardi Avvelenati? Pioggia di Veleno? Meglio evitare.</itIT>
-    <frFR>Les voleurs gardent jalousement les secrets de la fabrication des poisons, de crainte que les magi n’en intègrent dans leurs sorts. Éclair de poison ? Pluie de poison ? Élémentaire de poison ? Personne n’a envie de voir ça !</frFR>
-    <esMX>Los pícaros guardan celosamente los secretos de la elaboración de veneno por temor a que los magos lo incorporen en sus hechizos. ¿Descarga de veneno? ¿Lluvia de veneno? ¿Elemental de veneno? No, gracias, mejor evitarlo.</esMX>
-    <esES>Los pícaros guardan celosamente los secretos de la elaboración de venenos, para que los magos no empiecen a incorporarlos a sus hechizos. ¿Descarga de veneno? ¿Lluvia de veneno? ¿Elemental de veneno? Nadie quiere que eso llegue a pasar.</esES>
-    <deDE>Schurken hüten das Geheimnis der Giftmischerei wie ihren Augapfel, aus Furcht davor, dass Magier es für ihre Zauber verwenden könnten. Giftblitz? Giftregen? Giftelementar? Das will doch niemand.</deDE>
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Destroy a minion with an Attack of 7 or more.</enUS>
+    <frFR>Détruit un serviteur avec 7 Attaque ou plus.</frFR>
+    <zhTW>摧毀一個攻擊力在7點以上的手下。</zhTW>
+    <zhCN>消灭一个攻击力大于或等于7的随从。</zhCN>
+    <ruRU>Уничтожить существо с атакой 7 или больше</ruRU>
+    <ptBR>Destrua um lacaio com 7 ou mais de Ataque.</ptBR>
+    <plPL>Zniszcz stronnika z atakiem 7 lub większym.</plPL>
+    <koKR>공격력 7 이상의 하수인 하나 처치</koKR>
+    <itIT>Distrugge un servitore con Attacco pari a 7 o superiore.</itIT>
+    <esMX>Destruye a un esbirro con 7 de Ataque o más.</esMX>
+    <esES>Destruye a un esbirro con 7 p. de ataque o más.</esES>
+    <deDE>Vernichtet einen Diener mit mind. 7 Angriff.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 43.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Chris Seaman</enUS>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Krol Blade.</enUS>
+    <zhTW>魔暴龍已經引不起他的興趣了。再沒多久，他就會開始嘗試用鈍掉的克羅之刃抓捕奧妮克希亞。</zhTW>
+    <zhCN>魔暴龙之类的猎物已经让他提不起兴趣了。很快，他就会提着一把生锈的“科罗尔之刃”去猎杀奥妮克希亚了。</zhCN>
+    <ruRU>Обычные дьявозавры больше его не вдохновляют. Скоро он будет пытаться поймать Ониксию, вооружившись лишь тупым клинком Крола.</ruRU>
+    <ptBR>Meros demossauros não o apetecem mais. Logo ele vai tentar capturar Onyxia apenas com uma Lâmina Krol cega.</ptBR>
+    <plPL>Zwykłe diabłozaury przestały mu wystarczać. Wkrótce zapoluje na Onyksję korzystając jedynie ze snopowiązałki.</plPL>
+    <koKR>그에게 데빌사우루스 따윈 코웃음만 나옵니다. 조만간 크롤 칼 하나 들고 오닉시아를 잡으러 간다더군요.</koKR>
+    <itIT>Semplici gigantosauri non sono più stimolanti. Prova a cacciare Onyxia armato solo di un coltellino senza filo.</itIT>
+    <frFR>Les simples diablosaures ne l’excitent même plus. Bientôt, il voudra attraper Onyxia avec une lame de Krol émoussée.</frFR>
+    <esMX>Los simples demosaurios ya no lo apasionan. Pronto tratará de cazar a Onyxia con la sola ayuda de una hoja krol desafilada.</esMX>
+    <esES>Los meros demosaurios ya no le interesan. Pronto intentará cazar a Onyxia sin más arma que una hoja Krol roma.</esES>
+    <deDE>Das Jagen ordinärer Teufelssaurier reizt ihn nicht mehr so wie früher. Nicht mehr lange und er wird versuchen, Onyxia mit einer einfachen Krolklinge zur Strecke zu bringen.</deDE>
   </Tag>
-  <Power definition="f51fe4b0-1f7b-45dc-834e-3b4beeaf3109">
-    <PlayRequirement reqID="13" param="" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="41e81c66-edf9-4f0f-b7ba-9dad6a522133">
+    <PlayRequirement reqID="22" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="41" param="7" />
   </Power>
 </Entity>

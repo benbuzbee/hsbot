@@ -1,60 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_554">
+<Entity version="2" CardID="CS2_142">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Snake Trap</enUS>
-    <frFR>Piège à serpents</frFR>
-    <zhTW>毒蛇陷阱</zhTW>
-    <zhCN>毒蛇陷阱</zhCN>
-    <ruRU>Змеиная ловушка</ruRU>
-    <ptBR>Armadilha de Cobra</ptBR>
-    <plPL>Wężowa pułapka</plPL>
-    <koKR>뱀 덫</koKR>
-    <itIT>Trappola di Serpi</itIT>
-    <esMX>Trampa con culebras</esMX>
-    <esES>Trampa con culebras</esES>
-    <deDE>Schlangenfalle</deDE>
+    <enUS>Kobold Geomancer</enUS>
+    <frFR>Géomancien kobold</frFR>
+    <zhTW>狗頭人地卜師</zhTW>
+    <zhCN>狗头人地卜师</zhCN>
+    <ruRU>Кобольд-геомант</ruRU>
+    <ptBR>Geomante Kobold</ptBR>
+    <plPL>Kobold geomanta</plPL>
+    <koKR>코볼트 흙점쟁이</koKR>
+    <itIT>Coboldo Geomante</itIT>
+    <esMX>Geomántico kóbold</esMX>
+    <esES>Geomántico kóbold</esES>
+    <deDE>Koboldgeomant</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When one of your minions is attacked, summon three 1/1 Snakes.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand un de vos serviteurs est attaqué, invoque trois serpents 1/1.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的一個手下受到攻擊時，召喚三條1/1的蛇</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的随从受到攻击时，召唤3条1/1的蛇。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда одно из ваших существ будет атаковано, вы призываете на поле боя трех змей 1/1.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando um de seus lacaios for atacado, evoque três Cobras 1/1.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy jeden z twoich stronników zostanie zaatakowany, przyzwij trzy węże 1/1.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 하수인이 공격받으면 1/1 뱀을 셋 소환합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando uno dei tuoi servitori viene attaccato, evoca tre Serpi 1/1.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando ataquen a uno de tus esbirros, invoca tres Culebras 1/1.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando atacan a uno de tus esbirros, invoca tres culebras 1/1.</esES>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn einer Eurer Diener angegriffen wird, ruft Ihr drei Schlangen (1/1) herbei.</deDE>
+    <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Obrażenia zaklęć +1&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;+1 Danni Magici&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Zauberschaden +1&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Bernie Kang</enUS>
+    <enUS>Gabor Szikszai</enUS>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Warlock Level 59.</enUS>
+    <zhTW>於術士59級時解鎖。</zhTW>
+    <zhCN>术士达到59级后解锁。</zhCN>
+    <ruRU>Доступна по достижении 59-го уровня чернокнижником.</ruRU>
+    <ptBR>Disponível para Bruxo no nível 59.</ptBR>
+    <plPL>Odblokowane na 59 poziomie czarnoksiężnika.</plPL>
+    <koKR>흑마법사 59 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 59 dello Stregone.</itIT>
+    <frFR>Débloquée au niveau 59 du démoniste.</frFR>
+    <esMX>Se desbloquea en nivel 59 de Brujo.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 59 con el brujo.</esES>
+    <deDE>Wird freigeschaltet, wenn Ihr als Hexenmeister Stufe 59 erreicht.</deDE>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Why did it have to be snakes?</enUS>
-    <zhTW>為什麼一定得是蛇?</zhTW>
-    <zhCN>蛇。为什么是蛇？</zhCN>
-    <ruRU>Змеи! Ну почему именно змеи...</ruRU>
-    <ptBR>Por que tinha que ser cobras?</ptBR>
-    <plPL>Czemu to musiały być węże?</plPL>
-    <koKR>왜 하필 뱀이야?</koKR>
-    <itIT>Serpenti. Proprio i serpenti dovevo trovarci.</itIT>
-    <frFR>Des serpents, fallait que ce soit des serpents !</frFR>
-    <esMX>Culebras... ¿por qué tenían que ser culebras?</esMX>
-    <esES>¿Por qué tenían que ser culebras?</esES>
-    <deDE>Warum müssen es ausgerechnet Schlangen sein?</deDE>
+    <enUS>In the old days, Kobolds were the finest candle merchants in the land. Then they got pushed too far...</enUS>
+    <zhTW>在古早的時候，狗頭人曾是最好的蠟燭商人。後來被逼得太兇，結果就...</zhTW>
+    <zhCN>在过去，狗头人是这片土地上最好的蜡烛交易商，直到它们被逼太甚...</zhCN>
+    <ruRU>Когда-то давно кобольды были лучшими продавцами свечей во всем Азероте. Но жадность их сгубила...</ruRU>
+    <ptBR>Antigamente, os Kobolds eram os melhores comerciantes de vela da região. Até que começaram a abusar da paciência deles.</ptBR>
+    <plPL>Dawno, dawno temu koboldy były najlepszymi wytwórcami świec na świecie. A później im odbiło...</plPL>
+    <koKR>오래 전, 코볼트는 누가 뭐래도 가장 질 좋은 초를 판매하는 상인들이었습니다만, 지금은...</koKR>
+    <itIT>Toglietegli tutto, ma non la sua candela.\n- Fabrizio D.R.</itIT>
+    <frFR>Autrefois, les kobolds étaient des marchands qui vendaient les meilleures bougies au monde. Mais ça, c’était avant...</frFR>
+    <esMX>Hace mucho tiempo, los kóbolds eran los mercaderes de velas más grandiosos del continente. Una verdadera ironía.</esMX>
+    <esES>Antiguamente, los kóbolds eran los mercaderes de velas más prestigiosos del continente. Lo que hace el estrés...</esES>
+    <deDE>Früher waren die Kobolde noch die besten Kerzenhändler im ganzen Land. Aber irgendwann reichte es ihnen ...</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="763705b8-74f0-4310-9bce-116fee4f6dbe" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
+  <Power definition="fae6d4e1-a5d3-49d4-9a7f-43ec4bbed5b4" />
 </Entity>

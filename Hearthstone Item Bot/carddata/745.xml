@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity version="2" CardID="FP1_025">
+  <MasterPower>bde87a59-e21f-4a9e-8f8d-3ad357ebfc1b</MasterPower>
+  <Tag name="CardName" enumID="185" type="String">
+    <enUS>Reincarnate</enUS>
+    <zhTW>重生</zhTW>
+    <zhCN>转生</zhCN>
+    <ruRU>Возрождение</ruRU>
+    <ptBR>Reencarnar</ptBR>
+    <plPL>Reinkarnacja</plPL>
+    <koKR>윤회</koKR>
+    <itIT>Reincarnazione</itIT>
+    <frFR>Réincarnation</frFR>
+    <esMX>Reencarnación</esMX>
+    <esES>Reencarnar</esES>
+    <deDE>Reinkarnation</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Destroy a minion, then return it to life with full Health.</enUS>
+    <zhTW>摧毀一個手下，然後將它復活並使其生命值恢復到全滿</zhTW>
+    <zhCN>消灭一个随从，然后将其复活，并恢复所有生命值。</zhCN>
+    <ruRU>Уничтожает существо, а затем возвращает его на поле боя с полным здоровьем.</ruRU>
+    <ptBR>Destrua um lacaio, depois ressuscite-o com a Vida completa.</ptBR>
+    <plPL>Zniszcz stronnika, a następnie przywróć go do życia z pełnym zdrowiem.</plPL>
+    <koKR>하수인을 하나 처치하고, 그 하수인을 최대 생명력으로 부활시킵니다.</koKR>
+    <itIT>Distrugge un servitore e lo riporta in vita con la Salute al massimo.</itIT>
+    <frFR>Détruit un serviteur, puis le ramène à la vie avec tous ses PV.</frFR>
+    <esMX>Destruye un esbirro y luego devuélvelo a la vida con toda la Salud.</esMX>
+    <esES>Destruye a un esbirro y lo devuelve a la vida con toda su salud.</esES>
+    <deDE>Vernichtet einen Diener und bringt ihn dann mit vollem Leben wieder auf das Schlachtfeld zurück.</deDE>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>It's like birth, except you're an adult and you were just dead a second ago.</enUS>
+    <zhTW>這就像出生一樣，只不過一出生就是成年，而且原本不久前才剛剛死掉。</zhTW>
+    <zhCN>这和出生时没什么两样，除了你生下来就是个成年人，除了你一秒钟之前还是个死人。</zhCN>
+    <ruRU>Это как рождение, только во взрослом возрасте и сразу после смерти.</ruRU>
+    <ptBR>É como nascer, mas você é um adulto e estava morto há um segundinho apenas.</ptBR>
+    <plPL>Wstajesz z grobu jak nowonarodzony... i nawet nie musisz czekać trzech dni!</plPL>
+    <koKR>아 놀라워라 그댈 향한 내 마음</koKR>
+    <itIT>Spera solo di non reincarnarti in uno scarafaggio.</itIT>
+    <frFR>Pan, t’es même pas mort !</frFR>
+    <esMX>Es como nacer, salvo que eres adulto y hasta hace un segundo estabas muerto.</esMX>
+    <esES>Es como nacer, solo que siendo adulto y tras haber muerto hace un rato.</esES>
+    <deDE>Wie geboren werden, nur ist man dabei schon erwachsen und war gerade eben noch mausetot.</deDE>
+  </Tag>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dan Scott</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by completing the Shaman Class Challenge in Naxxramas.</enUS>
+    <zhTW>在納克薩瑪斯中完成薩滿職業挑戰後解鎖。</zhTW>
+    <zhCN>在完成纳克萨玛斯的萨满祭司职业挑战后解锁。</zhCN>
+    <ruRU>Награда за прохождение испытания шамана в Наксрамасе.</ruRU>
+    <ptBR>Desbloqueado ao completar o Desafio de Xamã em Naxxramas.</ptBR>
+    <plPL>Aby odblokować, ukończ wyzwanie klasowe dla szamana w Naxxramas.</plPL>
+    <koKR>낙스라마스의 주술사 직업 도전 과제를 완료하여 잠금 해제</koKR>
+    <itIT>Sbloccata completando la Sfida di Classe dello Sciamano a Naxxramas.</itIT>
+    <frFR>Obtenue en terminant le défi de la classe chaman de Naxxramas.</frFR>
+    <esMX>Desbloqueada por completar el desafío clase Chamán en Naxxramas.</esMX>
+    <esES>Se desbloquea al completar el desafío de clase del chamán en Naxxramas.</esES>
+    <deDE>Wird durch das Abschließen der Klassenherausforderung des Schamanen in Naxxramas freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after completing the Shaman Class Challenge in Naxxramas.</enUS>
+    <zhTW>在納克薩瑪斯中完成薩滿職業挑戰即可合成。</zhTW>
+    <zhCN>在纳克萨玛斯完成萨满祭司职业挑战后能够制作。</zhCN>
+    <ruRU>Можно создать после завершения испытания шамана в Наксрамасе.</ruRU>
+    <ptBR>Pode ser criado após completar o Desafio de Xamã em Naxxramas.</ptBR>
+    <plPL>Można wykonać po ukończeniu wyzwania klasowego dla szamana w Naxxramas.</plPL>
+    <koKR>낙스라마스의 주술사 직업 도전 과제를 완료한 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver completato la Sfida di Classe dello Sciamano a Naxxramas.</itIT>
+    <frFR>Peut être créée après avoir terminé le défi de la classe chaman de Naxxramas.</frFR>
+    <esMX>Se puede crear luego de completar el desafío clase Chamán en Naxxramas.</esMX>
+    <esES>Se puede crear tras completar el desafío de clase del chamán en Naxxramas.</esES>
+    <deDE>Kann nach dem Abschluss der Klassenherausforderung des Schamanen in Naxxramas hergestellt werden.</deDE>
+  </Tag>
+  <Power definition="bde87a59-e21f-4a9e-8f8d-3ad357ebfc1b">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
+</Entity>

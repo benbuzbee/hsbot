@@ -1,63 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_124">
+<Entity version="2" CardID="CS2_063">
+  <MasterPower>36100a42-5d00-4066-b6b0-9b896a01e824</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Wolfrider</enUS>
-    <frFR>Chevaucheur de loup</frFR>
-    <zhTW>狼騎兵</zhTW>
-    <zhCN>狼骑兵</zhCN>
-    <ruRU>Всадник на волке </ruRU>
-    <ptBR>Cavalga-lobo</ptBR>
-    <plPL>Wilczy jeździec</plPL>
-    <koKR>늑대기수</koKR>
-    <itIT>Cavalcalupi</itIT>
-    <esMX>Jinete de lobos</esMX>
-    <esES>Jinete de lobos</esES>
-    <deDE>Wolfsreiter</deDE>
+    <enUS>Corruption</enUS>
+    <frFR>Corruption</frFR>
+    <zhTW>腐蝕術</zhTW>
+    <zhCN>腐蚀术</zhCN>
+    <ruRU>Порча</ruRU>
+    <ptBR>Corrupção</ptBR>
+    <plPL>Splugawienie</plPL>
+    <koKR>부패</koKR>
+    <itIT>Corruzione</itIT>
+    <esMX>Corrupción</esMX>
+    <esES>Corrupción</esES>
+    <deDE>Verderbnis</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="1" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
+    <enUS>Choose an enemy minion.   At the start of your turn, destroy it.</enUS>
+    <frFR>Choisissez un serviteur adverse. Au début de votre tour, il est détruit.</frFR>
+    <zhTW>選擇一個敵方手下。在你的回合開始時，摧毀它</zhTW>
+    <zhCN>选择一个敌方随从，在你的回合开始时，消灭该随从。</zhCN>
+    <ruRU>Выберите существо противника. В начале вашего хода оно будет уничтожено.</ruRU>
+    <ptBR>Escolha um lacaio inimigo. No início do seu turno, destrua-o.</ptBR>
+    <plPL>Wybierz wrogiego stronnika i zniszcz go na początku swojej tury.</plPL>
+    <koKR>적 하수인을 하나 선택합니다. 내 턴이 시작될 때, 그 하수인을 처치합니다.</koKR>
+    <itIT>Seleziona un servitore nemico: all'inizio del tuo turno, viene distrutto.</itIT>
+    <esMX>Elige un esbirro enemigo. Al comienzo de tu turno, destrúyelo.</esMX>
+    <esES>Elige a un esbirro enemigo. Al comienzo de tu turno, lo destruyes.</esES>
+    <deDE>Wählt einen feindlichen Diener aus. Vernichtet ihn zu Beginn Eures Zuges.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dany Orizio</enUS>
+    <enUS>Wayne Reynolds</enUS>
+  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>It starts with stealing a pen from work, and before you know it, BOOM!  Corrupted!</enUS>
+    <zhTW>一開始只是從辦公室偷支筆。然後，不知不覺，哇!良心就這麼腐蝕了。</zhTW>
+    <zhCN>心灵的腐蚀来自于最初的一些小偷小摸，而在你意识到它之前...嘭！一切化为乌有！</zhCN>
+    <ruRU>Все начинается с мелочей: допустим, прихватишь ненароком ручку с работы. А потом ВДРУГ раз... и уже безвозвратно испорчен!</ruRU>
+    <ptBR>Tudo começa com aquela caneta que você roubou do trabalho. E antes que você se dê conta, BUM! Corrompido!</ptBR>
+    <plPL>Zwykle zaczyna się niewinnie, a zanim się zorientujesz, wszystko wokół splugawione!</plPL>
+    <koKR>이 주문이 무서운 진짜 이유는 냄새 때문이라는 말이 있습니다.</koKR>
+    <itIT>Si comincia rubando una penna al lavoro, e in men che non si dica... BOOM! Sei corrotto!</itIT>
+    <frFR>On commence par voler un stylo au travail, et avant même de le savoir, BOUM ! On est corrompu !</frFR>
+    <esMX>Empieza robando una lapicera del trabajo, y antes de que te des cuenta, ¡pum! Ya está corrompido.</esMX>
+    <esES>Se empieza robando jarras en la posada y, antes de que te des cuenta... ¡BAM! ¡Corrompido!</esES>
+    <deDE>Es beginnt damit, dass man auf der Arbeit einen Stift mitgehen lässt, und bevor man sichs versieht, BÄM! Verderbt!</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 2.</enUS>
+    <zhTW>於2級時解鎖。</zhTW>
+    <zhCN>达到2级后解锁。</zhCN>
+    <ruRU>Доступна со 2-го уровня.</ruRU>
+    <ptBR>Disponível no nível 2.</ptBR>
+    <plPL>Odblokowane na poziomie 2.</plPL>
+    <koKR>2 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 2.</itIT>
+    <frFR>Débloquée au niveau 2.</frFR>
+    <esMX>Se desbloquea en nivel 2.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 2.</esES>
+    <deDE>Wird auf Stufe 2 freigeschaltet.</deDE>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warrior Level 59.</enUS>
+    <enUS>Unlocked at Level 32.</enUS>
+    <zhTW>於32級時解鎖。</zhTW>
+    <zhCN>达到32级后解锁。</zhCN>
+    <ruRU>Доступна с 32-го уровня.</ruRU>
+    <ptBR>Disponível no nível 32.</ptBR>
+    <plPL>Odblokowane na poziomie 32.</plPL>
+    <koKR>32 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 32.</itIT>
+    <frFR>Débloquée au niveau 32.</frFR>
+    <esMX>Se desbloquea en nivel 32.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 32.</esES>
+    <deDE>Wird auf Stufe 32 freigeschaltet.</deDE>
   </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Orcish raiders ride wolves because they are well adapted to harsh environments, and because they are soft and cuddly.</enUS>
-    <zhTW>獸人騎狼是因為狼能夠適應惡劣的環境，而且毛茸茸又愛撒嬌。</zhTW>
-    <zhCN>兽人劫掠者们以狼作为坐骑是因为它们能够适应艰苦的环境，而且它们特别温顺，很会讨兽人喜欢。</zhCN>
-    <ruRU>Орки ездят на волках потому, что эти животные лучше всего приспосабливаются к суровой окружающей среде, а также потому, что они милые и пушистые.</ruRU>
-    <ptBR>Saqueadores órquicos cavalgam lobos porque eles são mais adaptados a ambientes inóspitos e porque eles são macios e fofinhos.</ptBR>
-    <plPL>Orkowie jeżdżą na wilkach, ponieważ są dobrze przystosowane do trudnego środowiska. No i mają mięciutkie futerko.</plPL>
-    <koKR>늑대는 정말 최고의 탈것입니다. 척박한 환경에도 적응하고, 승차감도 좋고, 무엇보다 복실복실하고 귀여우니까요.</koKR>
-    <itIT>Gli Orchi cavalcano i lupi perché si adattano meglio negli ambienti ostili... e perché sono soffici e coccolosi.</itIT>
-    <frFR>Les chevaucheurs préfèrent monter des loups parce qu’ils sont extrêmement bien adaptés aux environnements rigoureux, mais aussi parce qu’ils ont le poil doux et brillant.</frFR>
-    <esMX>Los jinetes orcos montan en lobos porque se adaptan bien a los ambientes duros... y porque son suaves y peluditos.</esMX>
-    <esES>Cabalgando con lobos.</esES>
-    <deDE>Orcs reiten auf Wölfen, weil diese allerlei Arten von widrigen Witterungen widerstehen können ... und weil sie so weich und kuschlig sind.</deDE>
-  </Tag>
-  <Tag name="Charge" enumID="197" type="Bool" value="1" />
-  <Power definition="a9c551bf-2302-4da8-9c6d-393c82df745e" />
+  <Power definition="36100a42-5d00-4066-b6b0-9b896a01e824">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+    <PlayRequirement reqID="3" param="" />
+  </Power>
 </Entity>

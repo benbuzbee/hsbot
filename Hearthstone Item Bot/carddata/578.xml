@@ -1,71 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_059">
+<Entity version="2" CardID="CS2_039">
+  <MasterPower>a65b410d-4f85-4661-b3e2-cdc9d5acaeea</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Blood Imp</enUS>
-    <frFR>Diablotin de sang</frFR>
-    <zhTW>血之小鬼</zhTW>
-    <zhCN>鲜血小鬼</zhCN>
-    <ruRU>Кровавый бес</ruRU>
-    <ptBR>Diabrete de Sangue</ptBR>
-    <plPL>Chochlik krwi</plPL>
-    <koKR>피의 임프</koKR>
-    <itIT>Imp del Sangue</itIT>
-    <esMX>Diablillo de sangre</esMX>
-    <esES>Diablillo sangriento</esES>
-    <deDE>Blutwichtel</deDE>
+    <enUS>Windfury</enUS>
+    <frFR>Furie des vents</frFR>
+    <zhTW>風怒</zhTW>
+    <zhCN>风怒</zhCN>
+    <ruRU>Неистовство ветра</ruRU>
+    <ptBR>Fúria dos Ventos</ptBR>
+    <plPL>Furia wichru</plPL>
+    <koKR>질풍</koKR>
+    <itIT>Furia del Vento</itIT>
+    <esMX>Viento furioso</esMX>
+    <esES>Viento Furioso</esES>
+    <deDE>Windzorn</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Stealth&lt;/b&gt;. At the end of your turn, give another random friendly minion +1 Health.</enUS>
-    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;. À la fin de votre tour, donne +1 PV à un autre serviteur allié aléatoire.</frFR>
-    <zhTW>&lt;b&gt;潛行&lt;/b&gt;。你的回合結束時，賦予另一個隨機友方手下+1生命值</zhTW>
-    <zhCN>&lt;b&gt;潜行&lt;/b&gt;，在你的回合结束时，随机使一个其他友方随从获得+1生命值。</zhCN>
-    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;. В конце вашего хода другое ваше случайное существо получает +1 к здоровью.</ruRU>
-    <ptBR>&lt;b&gt;Furtivo&lt;/b&gt;. No fim do seu turno, conceda +1 de Vida a outro lacaio aliado aleatório.</ptBR>
-    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;. Na koniec swojej tury daj innemu, losowemu przyjaznemu stronnikowi +1 do zdrowia.</plPL>
-    <koKR>&lt;b&gt;은신&lt;/b&gt;. 내 턴이 끝날 때, 다른 무작위 아군 하수인에게 생명력을 +1 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Furtività&lt;/b&gt;. Alla fine del tuo turno, +1 Salute a un altro tuo servitore casuale.</itIT>
-    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;. Al final de tu turno, otorga +1 de Salud a otro esbirro aliado aleatorio.</esMX>
-    <esES>&lt;b&gt;Sigilo&lt;/b&gt;. Al final de tu turno, otorga +1 p. de salud a otro esbirro amistoso aleatorio.</esES>
-    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;. Verleiht am Ende Eures Zuges einem anderen zufälligen befreundeten Diener +1 Leben.</deDE>
+    <enUS>Give a minion &lt;b&gt;Windfury&lt;/b&gt;.</enUS>
+    <frFR>Confère &lt;b&gt;Furie des vents&lt;/b&gt; à un serviteur.</frFR>
+    <zhTW>賦予一個手下&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>使一个随从获得&lt;b&gt;风怒&lt;/b&gt;。</zhCN>
+    <ruRU>Выбранное существо получает способность &lt;b&gt;«Неистовство ветра»&lt;/b&gt;.</ruRU>
+    <ptBR>Conceda &lt;b&gt;Fúria dos Ventos&lt;/b&gt; a um lacaio.</ptBR>
+    <plPL>Daj stronnikowi &lt;b&gt;Furię wichru&lt;/b&gt;.</plPL>
+    <koKR>하수인 하나에게 &lt;b&gt;질풍&lt;/b&gt;을 부여합니다.</koKR>
+    <itIT>Fornisce &lt;b&gt;Furia del Vento&lt;/b&gt; a un servitore.</itIT>
+    <esMX>Otorga &lt;b&gt;Viento furioso&lt;/b&gt; a un esbirro.</esMX>
+    <esES>Otorga &lt;b&gt;Viento Furioso&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Verleiht einem Diener &lt;b&gt;Windzorn&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="15" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Blood Pact</enUS>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Bernie Kang</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Imps are content to hide and viciously taunt everyone nearby.</enUS>
-    <zhTW>小鬼對於能躲起來並滿懷惡意地嘲諷附近的所有人感到很滿意。</zhTW>
-    <zhCN>小鬼喜欢躲在暗处嘲讽附近的所有人，并且对此乐此不疲。</zhCN>
-    <ruRU>Почему у кровавых бесов глаза желтые? Чтобы лучше прятаться в бананах! Что, вы никогда не видели беса в бананах? Хорошо прячется!</ruRU>
-    <ptBR>Os diabretes se contentam em se esconder e provocar todo mundo feito um grude.</ptBR>
-    <plPL>Chochliki uwielbiają chować się w cieniu i złośliwie działać wszystkim na nerwy.</plPL>
-    <koKR>임프들은 숨어서 주위의 모두를 격하게 도발하는 행위를 즐깁니다. 그냥 즐깁니다.</koKR>
-    <itIT>Può sembrare strano, ma gli piace la carne ben cotta.</itIT>
-    <frFR>Ces petits diablotins adorent se cacher et jouer de mauvais tours à tous ceux qui passent à leur portée.</frFR>
-    <esMX>Los diablillos se conforman con ocultarse y provocar a todos los paseantes.</esMX>
-    <esES>¡Esto no estaba en su contrato!</esES>
-    <deDE>Wichtel geben sich damit zufrieden, sich zu verstecken und dann wahllos Leute zu beleidigen.</deDE>
-  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="87bd7870-bbcc-4953-875e-b7c76cdbc397" />
-  <Power definition="9fdc365e-edd4-4d6d-842e-315e5c632b1b" />
-  <Power definition="8fb4fc8f-256f-4224-926e-645f1610e345" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Justin Sweet</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Windfury is like Earthfury and Firefury, but more light and airy.</enUS>
+    <zhTW>風怒跟地怒或火怒差不多，只是更輕盈一點。</zhTW>
+    <zhCN>比起“地怒”或是“火怒”，萨满们更喜欢使用“风怒”，因为它更轻巧，更飘逸。</zhCN>
+    <ruRU>Неистовство ветра — это как неистовство земли, только более легкое и воздушное.</ruRU>
+    <ptBR>Fúria dos Ventos é como Fúria da Terra e Fúria do Fogo, só que mais leve e aerada.</ptBR>
+    <plPL>Furia wichru świetnie nadaje się także do zamiatania ulic.</plPL>
+    <koKR>질풍노도의 시기가 옵니다. 두 번 옵니다.</koKR>
+    <itIT>Furia del Vento è come Furia della Terra e Furia del Fuoco, solo un po' più fresca e leggera.</itIT>
+    <frFR>Attaaaaaque, furie des vents de l’enfer !</frFR>
+    <esMX>¿Furioso? ¿Furioso con quién?</esMX>
+    <esES>Viento Furioso es como Tierra Furiosa y Fuego Furioso... solo que más ligero y etéreo.</esES>
+    <deDE>Windzorn ist in etwa das Gleiche wie Erdzorn und Feuerzorn, nur irgendwie erfrischender.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 23.</enUS>
+    <zhTW>於23級時解鎖。</zhTW>
+    <zhCN>达到23级后解锁。</zhCN>
+    <ruRU>Доступна с 23-го уровня.</ruRU>
+    <ptBR>Disponível no nível 23.</ptBR>
+    <plPL>Odblokowane na poziomie 23.</plPL>
+    <koKR>23 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 23.</itIT>
+    <frFR>Débloquée au niveau 23.</frFR>
+    <esMX>Se desbloquea en nivel 23.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 23.</esES>
+    <deDE>Wird auf Stufe 23 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+    <zhTW>於1級時解鎖。</zhTW>
+    <zhCN>达到1级后解锁。</zhCN>
+    <ruRU>Доступна с 1-го уровня.</ruRU>
+    <ptBR>Disponível no nível 1.</ptBR>
+    <plPL>Odblokowane na poziomie 1.</plPL>
+    <koKR>1 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 1.</itIT>
+    <frFR>Débloquée au niveau 1.</frFR>
+    <esMX>Se desbloquea en nivel 1.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 1.</esES>
+    <deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
+  </Tag>
+  <ReferencedTag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="a65b410d-4f85-4661-b3e2-cdc9d5acaeea">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>
