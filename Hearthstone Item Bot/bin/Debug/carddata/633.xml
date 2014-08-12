@@ -1,59 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_289">
+<Entity version="2" CardID="DS1_184">
+  <MasterPower>7d56ad57-6aea-484b-ae4c-899658cb3125</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ice Barrier</enUS>
-    <frFR>Barrière de glace</frFR>
-    <zhTW>寒冰護體</zhTW>
-    <zhCN>寒冰护体</zhCN>
-    <ruRU>Ледяная преграда</ruRU>
-    <ptBR>Barreira de Gelo</ptBR>
-    <plPL>Lodowa bariera</plPL>
-    <koKR>얼음 보호막</koKR>
-    <itIT>Barriera di Ghiaccio</itIT>
-    <esMX>Barrera de hielo</esMX>
-    <esES>Barrera de hielo</esES>
-    <deDE>Eisbarriere</deDE>
+    <enUS>Tracking</enUS>
+    <frFR>Pistage</frFR>
+    <zhTW>追蹤</zhTW>
+    <zhCN>追踪术</zhCN>
+    <ruRU>Выслеживание</ruRU>
+    <ptBR>Rastreamento</ptBR>
+    <plPL>Tropienie</plPL>
+    <koKR>추적</koKR>
+    <itIT>Tracciamento</itIT>
+    <esMX>Rastreo</esMX>
+    <esES>Rastrear</esES>
+    <deDE>Fährtenlesen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; As soon as your hero is attacked, gain 8 Armor.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; dès que votre héros est attaqué, il gagne 8 points d’armure.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的英雄受到攻擊時，立即獲得8點護甲值</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的英雄受到攻击时，获得8点护甲值。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда ваш герой будет атакован, он получит +8 к броне.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Assim que o seu herói for atacado, receba 8 de Armadura.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy tylko twój bohater zostanie zaatakowany, otrzymujesz 8 pkt. pancerza.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 영웅이 공격받으면 방어도를 +8 얻습니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando il tuo eroe viene attaccato, ottiene 8 Armatura.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando atacan a tu héroe, obtiene 8 de Armadura.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Tu héroe obtiene 8 p. de armadura cuando vaya a recibir un ataque.</esES>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Euer Held erhält 8 Rüstung, wenn er angegriffen wird.</deDE>
+    <enUS>Look at the top three cards of your deck. Draw one and discard the others.</enUS>
+    <frFR>Affiche les trois cartes du dessus du deck. Vous en piochez une et vous vous défaussez des autres.</frFR>
+    <zhTW>瀏覽你牌堆中最上面三張牌。選一張後捨棄其他兩張</zhTW>
+    <zhCN>检视你的牌库顶的三张牌，将其中一张置入手牌，弃掉其余牌。</zhCN>
+    <ruRU>Посмотрите три верхние карты вашей колоды. Возьмите одну карту и сбросьте остальные.</ruRU>
+    <ptBR>Olhe os três cards do topo do seu deck. Compre um e descarte os outros.</ptBR>
+    <plPL>Spójrz na trzy górne karty ze swojej talii. Jedną dobierz na rękę, a dwie pozostałe odrzuć.</plPL>
+    <koKR>내가 다음에 뽑을 카드 3장을 미리 봅니다. 1장을 선택해 갖고, 나머지는 버립니다.</koKR>
+    <itIT>Guarda le prime tre carte del tuo mazzo. Pescane una e scarta le altre.</itIT>
+    <esMX>Mira las tres primeras cartas de tu mazo. Roba una y descarta las otras.</esMX>
+    <esES>Mira las tres cartas superiores de tu mazo. Roba una y descarta las demás.</esES>
+    <deDE>Schaut Euch die drei obersten Karten Eures Decks an. Zieht eine davon und werft die anderen beiden ab.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This is Rank 1.  Rank 2 is Chocolate Milk Barrier.</enUS>
-    <zhTW>這是第1級。第2級是巧克力牛奶護體。</zhTW>
-    <zhCN>这只是这个技能的第一级，第二级会是...巧克力牛奶护体。</zhCN>
-    <ruRU>Это заклинание первого ранга. Заклинание второго ранга – «Преграда из шоколадного молока».</ruRU>
-    <ptBR>Este é o Grau 1. O Grau 2 é Barreira de Achocolatado.</ptBR>
-    <plPL>To zaklęcie poziomu 1. Na poziomie 2 jest „Ściana z batonu”.</plPL>
-    <koKR>공격대 뛰다 보면 그런 사람 꼭 있죠. 맞을 거 다 맞고 생존기 켜는 사람.</koKR>
-    <itIT>Questo è il Grado 1. Il Grado 2 è una barriera di cioccolato al latte.</itIT>
-    <frFR>D’accord, vous êtes bien protégé... mais vous êtes gelé. Et impossible de faire un feu en plein combat !</frFR>
-    <esMX>Esto es rango 1. Rango 2 es una Barrera de leche chocolatada.</esMX>
-    <esES>Con el rango 1 te dan el hielo y con el 2 los refrescos.</esES>
-    <deDE>Wenn Ihr Eurem Gegner mal so richtig die kalte Schulter zeigen wollt.</deDE>
-  </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Alex Garner</enUS>
+    <enUS>Mauro Cascioli</enUS>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="647f2ee8-eeb9-450f-b36d-f4602933c46a" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>For the person who just cannot decide what card to put into a deck!</enUS>
+    <zhTW>這張是給無法決定要放哪張卡進套牌的人用的!</zhTW>
+    <zhCN>为了那些不知道该把什么牌放入套牌的人准备的！</zhCN>
+    <ruRU>Отличное заклинание для тех, кто никак не может решить, какую карту положить в колоду!</ruRU>
+    <ptBR>Para a pessoa que não consegue decidir que card botar em um deck!</ptBR>
+    <plPL>W sam raz dla osoby, która nie może zdecydować się, jakie karty wsadzić do talii!</plPL>
+    <koKR>어떤 카드를 덱에 넣어야 할지 결정 못 하는 소심한 분들을 위해!</koKR>
+    <itIT>Per il giocatore che non sa quale carta inserire nel proprio mazzo.</itIT>
+    <frFR>Idéal pour ceux qui n’arrivent pas à décider quelles cartes mettre dans leur deck !</frFR>
+    <esMX>Para los que sufren de indecisión crónica.</esMX>
+    <esES>"Espera, aquí hay huellas". - Vladimir Barbafuego "Sí, pero, ¿de verdad quieres averiguar de qué son?" - Baxter Rompeyunques</esES>
+    <deDE>Ideal für diejenigen, die sich nicht entscheiden können, was sie ihrem Deck hinzufügen sollen. Denn so wissen sie auch nicht, was sie ihrer Hand hinzufügen sollen.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 15.</enUS>
+    <zhTW>於15級時解鎖。</zhTW>
+    <zhCN>达到15级后解锁。</zhCN>
+    <ruRU>Доступна с 15-го уровня.</ruRU>
+    <ptBR>Disponível no nível 15.</ptBR>
+    <plPL>Odblokowane na poziomie 15.</plPL>
+    <koKR>15 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 15.</itIT>
+    <frFR>Débloquée au niveau 15.</frFR>
+    <esMX>Se desbloquea en nivel 15.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 15.</esES>
+    <deDE>Wird auf Stufe 15 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+    <zhTW>於1級時解鎖。</zhTW>
+    <zhCN>达到1级后解锁。</zhCN>
+    <ruRU>Доступна с 1-го уровня.</ruRU>
+    <ptBR>Disponível no nível 1.</ptBR>
+    <plPL>Odblokowane na poziomie 1.</plPL>
+    <koKR>1 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 1.</itIT>
+    <frFR>Débloquée au niveau 1.</frFR>
+    <esMX>Se desbloquea en nivel 1.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 1.</esES>
+    <deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="7d56ad57-6aea-484b-ae4c-899658cb3125" />
 </Entity>

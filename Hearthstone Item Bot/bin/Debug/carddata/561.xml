@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="HERO_09">
-  <MasterPower>7e3d6eaa-4d6e-4b5a-8c60-b69c801d8faf</MasterPower>
+<Entity version="2" CardID="NAX7_01">
+  <MasterPower>b0acb534-ba78-4ccc-8d28-38916af20417</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Anduin Wrynn</enUS>
-    <zhTW>安杜因·烏瑞恩</zhTW>
-    <zhCN>安度因·乌瑞恩</zhCN>
-    <ruRU>Андуин Ринн</ruRU>
-    <ptBR>Anduin Wrynn</ptBR>
-    <plPL>Anduin Wrynn</plPL>
-    <koKR>안두인 린</koKR>
-    <itIT>Anduin Wrynn</itIT>
-    <frFR>Anduin Wrynn</frFR>
-    <esMX>Anduin Wrynn</esMX>
-    <esES>Anduin Wrynn</esES>
-    <deDE>Anduin Wrynn</deDE>
+    <enUS>Instructor Razuvious</enUS>
+    <zhTW>講師拉祖維斯</zhTW>
+    <zhCN>教官拉苏维奥斯</zhCN>
+    <ruRU>Инструктор Разувий</ruRU>
+    <ptBR>Instrutor Razúvio</ptBR>
+    <plPL>Instruktor Razuwiusz</plPL>
+    <koKR>훈련교관 라주비어스</koKR>
+    <itIT>Istruttore Razuvious</itIT>
+    <frFR>Instructeur Razuvious</frFR>
+    <esMX>Instructor Razuvious</esMX>
+    <esES>Instructor Razuvious</esES>
+    <deDE>Instrukteur Razuvious</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
   <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="30" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Power definition="7e3d6eaa-4d6e-4b5a-8c60-b69c801d8faf" />
+  <Tag name="Health" enumID="45" type="Number" value="40" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="b0acb534-ba78-4ccc-8d28-38916af20417" />
+  <Power definition="98a3fe1b-b52a-45e3-8376-1e24f6407a23" />
+  <Power definition="34e63d56-c25a-4d16-9244-84c9a4782ef6" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <TriggeredPowerHistoryInfo effectIndex="1" showInHistory="False" />
 </Entity>

@@ -1,37 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="tt_004o">
-  <MasterPower>d67eeb4e-6b91-4063-a8a4-6210c90ad445</MasterPower>
+<Entity version="2" CardID="EX1_621">
+  <MasterPower>b77d03ca-1c61-4e5d-b30c-fa46f6457ff7</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Cannibalize</enUS>
-    <zhTW>食屍</zhTW>
-    <zhCN>野蛮残食</zhCN>
-    <ruRU>Каннибализм</ruRU>
-    <ptBR>Canibalizar</ptBR>
-    <plPL>Kanibalizm</plPL>
-    <koKR>시체먹기</koKR>
-    <itIT>Cannibalismo</itIT>
-    <frFR>Cannibalisme</frFR>
-    <esMX>Canibalismo</esMX>
-    <esES>Canibalismo</esES>
-    <deDE>Kannibalismus</deDE>
+    <enUS>Circle of Healing</enUS>
+    <frFR>Cercle de soins</frFR>
+    <zhTW>治療之環</zhTW>
+    <zhCN>治疗之环</zhCN>
+    <ruRU>Круг исцеления</ruRU>
+    <ptBR>Círculo de Cura</ptBR>
+    <plPL>Krąg uzdrawiania</plPL>
+    <koKR>치유의 마법진</koKR>
+    <itIT>Circolo di Guarigione</itIT>
+    <esMX>Círculo de sanación</esMX>
+    <esES>Círculo de sanación</esES>
+    <deDE>Kreis der Heilung</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Increased Attack.</enUS>
-    <zhTW>攻擊力提高</zhTW>
-    <zhCN>攻击力增加。</zhCN>
-    <ruRU>Атака увеличена.</ruRU>
-    <ptBR>Ataque aumentado.</ptBR>
-    <plPL>Zwiększony atak.</plPL>
-    <koKR>공격력 증가</koKR>
-    <itIT>Attacco aumentato.</itIT>
-    <frFR>Attaque augmentée.</frFR>
-    <esMX>Ataque aumentado.</esMX>
-    <esES>Ataque aumentado.</esES>
-    <deDE>Erhöhter Angriff.</deDE>
+    <enUS>Restore #4 Health to ALL minions.</enUS>
+    <frFR>Rend #4 |4(point,points) de vie à TOUS les serviteurs.</frFR>
+    <zhTW>全部手下恢復#4點生命值</zhTW>
+    <zhCN>为所有随从恢复#4点生命值。</zhCN>
+    <ruRU>Восстанавливает #4 ед. здоровья ВСЕМ существам.</ruRU>
+    <ptBR>Restaure #4 de Vida de TODOS os lacaios.</ptBR>
+    <plPL>Przywróć #4 pkt. zdrowia WSZYSTKIM stronnikom.</plPL>
+    <koKR>&lt;b&gt;모든&lt;/b&gt; 하수인의 생명력을 #4 회복시킵니다.</koKR>
+    <itIT>Rigenera #4 Salute a TUTTI i servitori.</itIT>
+    <esMX>Restaura #4 de Salud a TODOS los esbirros.</esMX>
+    <esES>Restaura #4 p. de salud a todos los esbirros.</esES>
+    <deDE>Stellt bei ALLEN Dienern #4 Leben wieder her.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="af2dd10b-2578-4955-914e-2753b4648fa3" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Mike 'Daarken' Lim</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>It isn't really a circle.</enUS>
+    <zhTW>其實它並不真的是個環。</zhTW>
+    <zhCN>神圣的象征。</zhCN>
+    <ruRU>На самом деле, это не круг.</ruRU>
+    <ptBR>Não é um círculo, na verdade.</ptBR>
+    <plPL>Po Katakliźmie to zaklęcie trafiło na listę uzdrowień nierefundowanych.</plPL>
+    <koKR>마법진이라고 해서 땅에 뭘 그리거나 하는 건 아닙니다.</koKR>
+    <itIT>Non è esattamente un circolo.</itIT>
+    <frFR>Ce n’est pas vraiment un cercle.</frFR>
+    <esMX>No es un círculo en realidad.</esMX>
+    <esES>En realidad no es un círculo.</esES>
+    <deDE>Es ist nicht wirklich ein Kreis.</deDE>
+  </Tag>
+  <Power definition="b77d03ca-1c61-4e5d-b30c-fa46f6457ff7" />
 </Entity>

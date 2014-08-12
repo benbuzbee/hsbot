@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_105e">
+<Entity version="2" CardID="CS2_063e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Heroic Strike</enUS>
-    <frFR>Frappe héroïque</frFR>
-    <zhTW>英勇打擊</zhTW>
-    <zhCN>英勇打击</zhCN>
-    <ruRU>Удар героя</ruRU>
-    <ptBR>Golpe Heroico</ptBR>
-    <plPL>Heroiczny cios</plPL>
-    <koKR>영웅의 일격</koKR>
-    <itIT>Assalto Eroico</itIT>
-    <esMX>Golpe heroico</esMX>
-    <esES>Golpe heroico</esES>
-    <deDE>Heldenhafter Stoß</deDE>
+    <enUS>Corruption</enUS>
+    <frFR>Corruption</frFR>
+    <zhTW>腐蝕術</zhTW>
+    <zhCN>腐蚀术</zhCN>
+    <ruRU>Порча</ruRU>
+    <ptBR>Corrupção</ptBR>
+    <plPL>Splugawienie</plPL>
+    <koKR>부패</koKR>
+    <itIT>Corruzione</itIT>
+    <esMX>Corrupción</esMX>
+    <esES>Corrupción</esES>
+    <deDE>Verderbnis</deDE>
   </Tag>
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="9" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+4 Attack this turn.</enUS>
-    <frFR>+4 ATQ pendant ce tour.</frFR>
-    <zhTW>本回合+4攻擊力</zhTW>
-    <zhCN>在本回合中，+4攻击力。</zhCN>
-    <ruRU>+4 к атаке до конца хода.</ruRU>
-    <ptBR>+4 de Ataque neste turno.</ptBR>
-    <plPL>+4 do ataku w tej turze.</plPL>
-    <koKR>이번 턴에 공격력 +4</koKR>
-    <itIT>+4 Attacco per questo turno.</itIT>
-    <esMX>+4 de Ataque en este turno.</esMX>
-    <esES>+4 p. de ataque este turno.</esES>
-    <deDE>+4 Angriff in diesem Zug.</deDE>
+    <enUS>At the start of the corrupting player's turn, destroy this minion.</enUS>
+    <frFR>Au début du tour du joueur utilisant Corruption, détruit ce serviteur.</frFR>
+    <zhTW>在施放腐蝕術的玩家回合開始時，摧毀這個手下</zhTW>
+    <zhCN>在施放腐蚀术的玩家的回合开始时，消灭该随从。</zhCN>
+    <ruRU>Умрет в начале хода игрока, применившего &lt;i&gt;Порчу&lt;/i&gt;.</ruRU>
+    <ptBR>No início do turno do corruptor, destrua este lacaio.</ptBR>
+    <plPL>Ten stronnik zostanie zniszczony na początku tury plugawiącego gracza.</plPL>
+    <koKR>타락시킨 플레이어의 턴이 시작될 때 죽음</koKR>
+    <itIT>Distrutto all'inizio del turno del giocatore che ha lanciato la maledizione.</itIT>
+    <esMX>Al comienzo del turno del jugador corruptor, destruye este esbirro.</esMX>
+    <esES>Al comienzo del turno del jugador que usó Corrupción, destruye a este esbirro.</esES>
+    <deDE>Wird zu Beginn des Zuges des verderbenden Spielers vernichtet.</deDE>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="ebd0e2db-9128-486b-b6a2-fa62a229e20b" />
-  <Power definition="832f5deb-00f4-4e10-9a87-298402bb79f3" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="2" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="2" />
+  <Power definition="a1a9699e-771e-47b0-a3dc-924ce59583cf" />
+  <Power definition="596281c4-a47f-4c90-824b-5843658726f4" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

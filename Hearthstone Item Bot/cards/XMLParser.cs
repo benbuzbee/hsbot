@@ -210,11 +210,10 @@ namespace HSBot.Cards
             }
             Card hearthbot = new Card("CUSTOM_HEARTHBOT");
             hearthbot.SetName("enUS", "HearthBot");
-            hearthbot.Cost = 10000;
-            hearthbot.Health = hearthbot.Attack = 10000;
-            hearthbot.Cost = 10000;
+            hearthbot.Cost = 1;
+            hearthbot.Health = hearthbot.Attack = 50;
             hearthbot.Class = Card.ClassValues.ALL;
-            hearthbot.SetDescription("enUS",@"<b>Charge.</b> Ignores all taunts. Attacks an infinite number of times. To get it, go here: https://github.com/aca20031/hsbot/");
+            hearthbot.SetDescription("enUS",@"<b>Battlecry:</b> Destroy all secrets and deal 100 damage to the enemy hero. To get it, go here: https://github.com/aca20031/hsbot/");
             cards.Add(hearthbot);
             return cards;
         }

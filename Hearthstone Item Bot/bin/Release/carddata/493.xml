@@ -1,62 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_294">
+<Entity version="2" CardID="CS2_237">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mirror Entity</enUS>
-    <frFR>Entité miroir</frFR>
-    <zhTW>鏡像體</zhTW>
-    <zhCN>镜像实体</zhCN>
-    <ruRU>Отраженная сущность</ruRU>
-    <ptBR>Entidade do Espelho</ptBR>
-    <plPL>Lustrzany byt</plPL>
-    <koKR>거울상</koKR>
-    <itIT>Entità Speculare</itIT>
-    <esMX>Entidad espejada</esMX>
-    <esES>Reflejo viviente</esES>
-    <deDE>Spiegelgestalt</deDE>
+    <enUS>Starving Buzzard</enUS>
+    <zhTW>飢餓的禿鷲</zhTW>
+    <zhCN>饥饿的秃鹫</zhCN>
+    <ruRU>Голодный канюк</ruRU>
+    <ptBR>Urubu Faminto</ptBR>
+    <plPL>Wygłodniały sęp</plPL>
+    <koKR>굶주린 대머리수리</koKR>
+    <itIT>Condor Affamato</itIT>
+    <frFR>Busard affamé</frFR>
+    <esMX>Águila ratonera famélica</esMX>
+    <esES>Águila ratonera famélica</esES>
+    <deDE>Verhungernder Bussard</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, summon a copy of it.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre adversaire joue un serviteur, en invoque une copie.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的對手召喚手下時，召喚一個它的複製品</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的对手打出一张随从牌时，召唤一个该随从的复制。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда противник разыгрывает карту существа, вы призываете на свою сторону его копию.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu oponente jogar um lacaio, evoque uma cópia dele.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy twój przeciwnik zagra stronnika, przyzwij jego kopię.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 상대편이 하수인을 내면, 그 하수인을 복사합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando l'avversario gioca un servitore, ne evoca una copia sotto il tuo controllo.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu adversario juegue un esbirro, invoca una copia.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu oponente juega un esbirro, invocas una copia de ese esbirro.</esES>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Gegner einen Diener ausspielt, beschwört Ihr eine Kopie desselben herbei.</deDE>
-  </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Whenever you summon a Beast, draw a card.</enUS>
+    <zhTW>每當你召喚野獸，抽一張牌</zhTW>
+    <zhCN>每当你召唤一个野兽，抽一张牌。</zhCN>
+    <ruRU>Каждый раз, когда вы призываете зверя на поле боя, вы берете карту.</ruRU>
+    <ptBR>Sempre que você evocar uma Fera, compre um card.</ptBR>
+    <plPL>Dobierz kartę za każdym razem, gdy przyzywasz Bestię.</plPL>
+    <koKR>내가 야수 1마리를 소환할 때마다 카드를 1장 뽑습니다.</koKR>
+    <itIT>Quando evochi una Bestia, pesca una carta.</itIT>
+    <frFR>Vous piochez une carte chaque fois que vous invoquez une bête.</frFR>
+    <esMX>Cada vez que invocas a una Bestia, roba una carta.</esMX>
+    <esES>Cada vez que invocas una bestia, roba una carta.</esES>
+    <deDE>Zieht jedes Mal eine Karte, wenn Ihr ein Wildtier herbeiruft.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Soaring</enUS>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"You go first." - Krush'gor the Behemoth, to his pet boar.</enUS>
-    <zhTW>「你先上。」-『巨獸』庫洛許戈爾對寵物野豬如此說。</zhTW>
-    <zhCN>“你先上。”——“巨兽”克鲁什格尔对他的宠物野猪说道。</zhCN>
-    <ruRU>«Ты пойдешь первым», – сказал Краш'гор по прозвищу Чудовище своему ручному кабану.</ruRU>
-    <ptBR>"Você primeiro." — Krush'gor, o Beemote, para o javali de estimação.</ptBR>
-    <plPL>Byt albo nie byt? Oto jest pytanie!</plPL>
-    <koKR>"네가 앞장서라." - 거수 크루쉬고르가 그의 애완동물 멧돼지에게 명령하며.</koKR>
-    <itIT>"Vai avanti tu." - Krush'gor il Possente al suo famiglio cinghiale</itIT>
-    <frFR>« Vas-y d’abord. » - Krush’gor, le Béhémoth, à son sanglier. </frFR>
-    <esMX>"Tú primero". —Krush'gor el Behemoth a su jabalí.</esMX>
-    <esES>"Tú primero". - Krush'gor, el Gigante, a su mascota jabalí.</esES>
-    <deDE>„Du zuerst.“ – Krush'gor das Ungeheuer, zu seinem gezähmten Eber</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raven Mimura</enUS>
+    <enUS>Bernie Kang</enUS>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="5ac9b8b1-549f-45e1-8b76-46b9db44666b" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>If you feed him, he loses his whole &lt;i&gt;identity&lt;/i&gt;.</enUS>
+    <zhTW>如果你餵牠，牠就會完全渾然忘我。</zhTW>
+    <zhCN>如果你喂饱了它，它就名不副实了。</zhCN>
+    <ruRU>Если вы покормите его, он убежит с карты.</ruRU>
+    <ptBR>Se você alimentá-lo, ele perde toda a sua &lt;i&gt;identidade&lt;/i&gt;.</ptBR>
+    <plPL>Jeśli go nakarmisz, straci rację bytu.</plPL>
+    <koKR>먹을 걸 주면 &lt;i&gt;정체성&lt;/i&gt;에 혼란을 겪습니다.</koKR>
+    <itIT>Se gli dai da mangiare, perde la sua &lt;i&gt;identità&lt;/i&gt;.</itIT>
+    <frFR>Si vous le nourrissez, il perdra toute son &lt;i&gt;identité&lt;/i&gt;.</frFR>
+    <esMX>Si la alimentas, pierde por completo su &lt;i&gt;identidad&lt;/i&gt;.</esMX>
+    <esES>Si la alimentas, habrá que cambiarle el &lt;i&gt;nombre&lt;/i&gt;.</esES>
+    <deDE>Wenn Ihr ihn füttert, verliert er seine &lt;i&gt;Identität&lt;/i&gt;.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 4.</enUS>
+    <zhTW>於4級時解鎖。</zhTW>
+    <zhCN>达到4级后解锁。</zhCN>
+    <ruRU>Доступна с 4-го уровня.</ruRU>
+    <ptBR>Disponível no nível 4.</ptBR>
+    <plPL>Odblokowane na poziomie 4.</plPL>
+    <koKR>4 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 4.</itIT>
+    <frFR>Débloquée au niveau 4.</frFR>
+    <esMX>Se desbloquea en nivel 4.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 4.</esES>
+    <deDE>Wird auf Stufe 4 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 47.</enUS>
+    <zhTW>於47級時解鎖。</zhTW>
+    <zhCN>达到47级后解锁。</zhCN>
+    <ruRU>Доступна с 47-го уровня.</ruRU>
+    <ptBR>Disponível no nível 47.</ptBR>
+    <plPL>Odblokowane na poziomie 47.</plPL>
+    <koKR>47 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 47.</itIT>
+    <frFR>Débloquée au niveau 47.</frFR>
+    <esMX>Se desbloquea en nivel 47.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 47.</esES>
+    <deDE>Wird auf Stufe 47 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="26c0eeea-d6a3-4d0d-8b22-4b898de19685" />
   <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

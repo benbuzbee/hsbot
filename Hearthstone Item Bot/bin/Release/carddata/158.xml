@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_507e">
+<Entity version="2" CardID="CS2_017o">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mrgglaargl!</enUS>
-    <frFR>Mrgglaargl !</frFR>
-    <zhTW>姆嘎啦葛歐!</zhTW>
-    <zhCN>姆若咯啦啊咯啦！</zhCN>
-    <ruRU>Мргглаарг!</ruRU>
-    <ptBR>Mrgglaargl!</ptBR>
-    <plPL>Mrgglaargl!</plPL>
-    <koKR>므라아옳옳옳!</koKR>
-    <itIT>Mrgglaargl!</itIT>
-    <esMX>¡Mrgglaargl!</esMX>
-    <esES>¡Mrgglaargl!</esES>
-    <deDE>Mrgglaargl!</deDE>
+    <enUS>Claws</enUS>
+    <frFR>Griffes</frFR>
+    <zhTW>利爪</zhTW>
+    <zhCN>利爪</zhCN>
+    <ruRU>Когти</ruRU>
+    <ptBR>Garras</ptBR>
+    <plPL>Pazury</plPL>
+    <koKR>발톱</koKR>
+    <itIT>Artigli</itIT>
+    <esMX>Garras</esMX>
+    <esES>Garras</esES>
+    <deDE>Klauen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Murloc Warleader is granting +2/+1.</enUS>
-    <frFR>Le chef de guerre murloc confère +2/+1.</frFR>
-    <zhTW>魚人隊長賦予了+2/+1</zhTW>
-    <zhCN>鱼人领军使其他鱼人获得+2/+1。</zhCN>
-    <ruRU>+2/+1 от &lt;i&gt;Мурлока-полководца&lt;/i&gt;.</ruRU>
-    <ptBR>Líder Guerreiro Murloc está concedendo +2/+1.</ptBR>
-    <plPL>Nadmurlok daje +2/+1.</plPL>
-    <koKR>멀록 전투대장이 +2/+1 부여</koKR>
-    <itIT>+2/+1 dal Condottiero Murloc.</itIT>
-    <esMX>El Líder de guerra múrloc otorga +2/+1.</esMX>
-    <esES>El líder de guerra múrloc otorga +2/+1.</esES>
-    <deDE>Der Murlocanführer verleiht +2/+1.</deDE>
+    <enUS>Your hero has +1 Attack this turn.</enUS>
+    <frFR>Votre héros a +1 ATQ pendant ce tour.</frFR>
+    <zhTW>本回合賦予你的英雄+1攻擊力</zhTW>
+    <zhCN>在本回合中，你的英雄获得+1攻击力。</zhCN>
+    <ruRU>Ваш герой получил +1 к атаке до конца хода.</ruRU>
+    <ptBR>Seu herói tem +1 de Ataque neste turno.</ptBR>
+    <plPL>W tej turze twój bohater ma +1 do ataku.</plPL>
+    <koKR>이번 턴에 공격력 +1</koKR>
+    <itIT>+1 Attacco al tuo eroe per questo turno.</itIT>
+    <esMX>Tu héroe tiene +1 de Ataque en este turno.</esMX>
+    <esES>Tu héroe tiene +1 p. de ataque este turno.</esES>
+    <deDE>Euer Held hat +1 Angriff in diesem Zug.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="4b71cbd3-a512-4803-b65d-537a3f6f277b" />
+  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
+  <Power definition="a178d5ce-317a-4c5b-aaf6-9cd6aa0deefc" />
+  <Power definition="c3f4f06c-42a8-4828-8897-a16b01a8a1f6" />
 </Entity>

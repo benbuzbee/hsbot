@@ -1,39 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_549o">
+<Entity version="2" CardID="CS2_119">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Bestial Wrath</enUS>
-    <frFR>Courroux bestial</frFR>
-    <zhTW>狂野怒火</zhTW>
-    <zhCN>狂野怒火</zhCN>
-    <ruRU>Звериный гнев</ruRU>
-    <ptBR>Ira Bestial</ptBR>
-    <plPL>Bestialski gniew</plPL>
-    <koKR>야수의 격노</koKR>
-    <itIT>Ira Bestiale</itIT>
-    <esMX>Cólera de las bestias</esMX>
-    <esES>Cólera de las bestias</esES>
-    <deDE>Zorn des Wildtiers</deDE>
+    <enUS>Oasis Snapjaw</enUS>
+    <frFR>Gueule d’acier des oasis</frFR>
+    <zhTW>綠洲鉗嘴龜</zhTW>
+    <zhCN>绿洲钳嘴龟</zhCN>
+    <ruRU>Оазисный хрустогрыз</ruRU>
+    <ptBR>Mordelisca do Oásis</ptBR>
+    <plPL>Żółwior szczękogryz</plPL>
+    <koKR>오아시스 무쇠턱거북</koKR>
+    <itIT>Tartarabbia dell'Oasi</itIT>
+    <esMX>Quijaforte de oasis</esMX>
+    <esES>Quijaforte de oasis</esES>
+    <deDE>Oasenschnappkiefer</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>+2 Attack and &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
-    <frFR>+2 ATQ et &lt;b&gt;Insensible&lt;/b&gt; pendant ce tour.</frFR>
-    <zhTW>+2攻擊力及本回合&lt;b&gt;免疫&lt;/b&gt;</zhTW>
-    <zhCN>在本回合中，+2攻击力并具有&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>+2 к атаке и &lt;b&gt;неуязвимость&lt;/b&gt; до конца хода.</ruRU>
-    <ptBR>+2 de Ataque e &lt;b&gt;Imunidade&lt;/b&gt; neste turno.</ptBR>
-    <plPL>+2 do ataku oraz &lt;b&gt;Niewrażliwość&lt;/b&gt; w tej turze.</plPL>
-    <koKR>이번 턴에 공격력 +2, &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
-    <itIT>+2 Attacco e &lt;b&gt;Immune&lt;/b&gt; per questo turno.</itIT>
-    <esMX>+2 de Ataque e &lt;b&gt;Inmunidad&lt;/b&gt; en este turno.</esMX>
-    <esES>+2 p. de ataque e &lt;b&gt;Inmune&lt;/b&gt; este turno.</esES>
-    <deDE>+2 Angriff und &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Ittoku Seta</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="a2f2b681-972d-4d7d-8504-f1aa88cf266b" />
-  <Power definition="42c58fd4-9ee3-4df1-a39c-069ddd478179" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Druid Level 51.</enUS>
+    <zhTW>於德魯伊51級時解鎖。</zhTW>
+    <zhCN>德鲁伊达到51级后解锁。</zhCN>
+    <ruRU>Доступна по достижении 51-го уровня друидом.</ruRU>
+    <ptBR>Disponível para Druida no nível 51.</ptBR>
+    <plPL>Odblokowane na 51 poziomie druida.</plPL>
+    <koKR>드루이드 51 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 51 del Druido.</itIT>
+    <frFR>Débloquée au niveau 51 du druide.</frFR>
+    <esMX>Se desbloquea en nivel 51 de Druida.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 51 con el druida.</esES>
+    <deDE>Wird freigeschaltet, wenn Ihr als Druide Stufe 51 erreicht.</deDE>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>His dreams of flying and breathing fire like his idol will never be realized.</enUS>
+    <zhTW>想要跟他的偶像一樣飛行和噴火的夢想是永遠不可能實現的。</zhTW>
+    <zhCN>它的梦想是能够像它的偶像那样飞行和吐息火焰，但这样的梦想永远无法实现。</zhCN>
+    <ruRU>Он мечтает подражать своему кумиру: летать и дышать огнем. Но эти мечты никогда не осуществятся...</ruRU>
+    <ptBR>Seus sonhos de voar e cuspir fogo como seu ídolo nunca se realizarão.</ptBR>
+    <plPL>Jego sny o lataniu i zianiu ogniem nigdy się nie spełnią.</plPL>
+    <koKR>장래희망이 오아시스 용거북이라네요. 그런다고 날아다니거나 불을 뿜지도 못할텐데 말이죠.</koKR>
+    <itIT>Ha un sogno: volare e sputare fuoco come il suo idolo. Non si realizzerà mai.</itIT>
+    <frFR>On ne peut pas tous porter le monde sur notre carapace !</frFR>
+    <esMX>El pobre soñaba con volar y lanzar llamas por la boca como su ídolo... Otro sueño frustrado.</esMX>
+    <esES>"Y esto, niños, es lo que pasa cuando tiráis a vuestras mascotas por la letrina".\n—Zixut</esES>
+    <deDE>Lasst Euch bloß nicht von ihm in seiner Oase schnappen.</deDE>
+  </Tag>
 </Entity>

@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_164a">
-  <MasterPower>b7d09f14-695d-499e-819e-24c3d330e1db</MasterPower>
+<Entity version="2" CardID="EX1_084e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Nourish</enUS>
-    <frFR>Nourrir</frFR>
-    <zhTW>滋補術</zhTW>
-    <zhCN>滋养</zhCN>
-    <ruRU>Дар природы</ruRU>
-    <ptBR>Nutrir</ptBR>
-    <plPL>Nasycenie</plPL>
-    <koKR>육성</koKR>
-    <itIT>Nutrizione</itIT>
-    <esMX>Nutrir</esMX>
-    <esES>Nutrir</esES>
-    <deDE>Pflege</deDE>
+    <enUS>Charge</enUS>
+    <frFR>Charge</frFR>
+    <zhTW>衝鋒</zhTW>
+    <zhCN>冲锋</zhCN>
+    <ruRU>Рывок</ruRU>
+    <ptBR>Investida</ptBR>
+    <plPL>Szarża</plPL>
+    <koKR>돌진</koKR>
+    <itIT>Carica</itIT>
+    <esMX>Carga</esMX>
+    <esES>Cargar</esES>
+    <deDE>Sturmangriff</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Gain 2 Mana Crystals.</enUS>
-    <frFR>Vous gagnez 2 cristaux de mana.</frFR>
-    <zhTW>獲得2顆法力水晶</zhTW>
-    <zhCN>获得两个法力水晶。</zhCN>
-    <ruRU>Вы получаете 2 кристалла маны.</ruRU>
-    <ptBR>Receba 2 Cristais de Mana.</ptBR>
-    <plPL>Otrzymujesz 2 kryształy many.</plPL>
-    <koKR>마나 수정을 2개 획득합니다.</koKR>
-    <itIT>Ottieni 2 Cristalli di Mana.</itIT>
-    <esMX>Obtienes 2 Cristales de maná.</esMX>
-    <esES>Obtén 2 cristales de maná.</esES>
-    <deDE>Erhaltet 2 Manakristalle.</deDE>
+    <enUS>This minion has &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <frFR>Ce serviteur a &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <zhTW>這個手下擁有&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>该随从获得&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Это существо имеет способность «Рывок».</ruRU>
+    <ptBR>Este lacaio ganha &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>Ten stronnik otrzymuje &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt; dal Capitano Cantaguerra.</itIT>
+    <esMX>Este esbirro tiene &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Este esbirro tiene &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Dieser Diener hat &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
-  <Power definition="b7d09f14-695d-499e-819e-24c3d330e1db" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="a3a776ef-4cd5-41d2-89f7-06c159151961" />
 </Entity>

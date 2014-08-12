@@ -1,60 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_096">
+<Entity version="2" CardID="CS1_130">
+  <MasterPower>e62d02c5-d4df-47f0-a3e3-5a569f6026f8</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Loot Hoarder</enUS>
-    <frFR>Amasseur de butin</frFR>
-    <zhTW>掠寶囤積者</zhTW>
-    <zhCN>战利品贮藏者</zhCN>
-    <ruRU>Собиратель сокровищ</ruRU>
-    <ptBR>Acumulador de Tesouros</ptBR>
-    <plPL>Zbieracz łupów</plPL>
-    <koKR>전리품 수집가</koKR>
-    <itIT>Razziatore di Bottini</itIT>
-    <esMX>Acaparador de botín</esMX>
-    <esES>Acaparador de botín</esES>
-    <deDE>Beutehamsterer</deDE>
+    <enUS>Holy Smite</enUS>
+    <frFR>Châtiment sacré</frFR>
+    <zhTW>聖光懲擊</zhTW>
+    <zhCN>神圣惩击</zhCN>
+    <ruRU>Божественная кара</ruRU>
+    <ptBR>Punição Sagrada</ptBR>
+    <plPL>Święty cios</plPL>
+    <koKR>성스러운 일격</koKR>
+    <itIT>Punizione Sacra</itIT>
+    <esMX>Punición sagrada</esMX>
+    <esES>Punición Sagrada</esES>
+    <deDE>Heilige Pein</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Draw a card.</enUS>
-    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;抽一張牌</zhTW>
-    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;抽一张牌。</zhCN>
-    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы берете карту.</ruRU>
-    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Compre um card.</ptBR>
-    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Dobierz kartę.</plPL>
-    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; pesca una carta.</itIT>
-    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; roba una carta.</esMX>
-    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Roba una carta.</esES>
-    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Zieht eine Karte.</deDE>
+    <enUS>Deal $2 damage.</enUS>
+    <frFR>Inflige $2 |4(point,points) de dégâts.</frFR>
+    <zhTW>造成$2點傷害</zhTW>
+    <zhCN>造成$2点伤害。</zhCN>
+    <ruRU>Наносит $2 ед. урона.</ruRU>
+    <ptBR>Cause $2 de dano.</ptBR>
+    <plPL>Zadaj $2 pkt. obrażeń.</plPL>
+    <koKR>피해를 $2 줍니다.</koKR>
+    <itIT>Infligge $2 danni.</itIT>
+    <esMX>Inflige $2 de daño.</esMX>
+    <esES>Inflige $2 p. de daño.</esES>
+    <deDE>Verursacht $2 Schaden.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jim Nelson</enUS>
+    <enUS>Steve Ellis</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Always roll need.</enUS>
-    <zhTW>不管怎樣，都一定要骰需求。</zhTW>
-    <zhCN>全都点需求。</zhCN>
-    <ruRU>Всегда выбирайте «Мне это нужно».</ruRU>
-    <ptBR>Sempre jogue necessidade.</ptBR>
-    <plPL>Lubi sobie coś przyjumać.</plPL>
-    <koKR>뭐든 다 입찰하더군요. 얼마나 얄미운지.</koKR>
-    <itIT>Sceglie sempre "necessità".</itIT>
-    <frFR>« Je peux ? C’est pour ma troisième spé ! » - Anachroniste</frFR>
-    <esMX>Siempre elige la necesidad.</esMX>
-    <esES>Le dará a necesidad, digas lo que digas.</esES>
-    <deDE>Würfelt immer auf Bedarf.</deDE>
+    <enUS>It doesn't matter how pious you are.  Everyone needs a good smiting now and again.</enUS>
+    <zhTW>不管有多虔誠，每個人偶爾還是需要被揍幾下。</zhTW>
+    <zhCN>这和多么虔诚没有关系，每个人都需要时不时有人鞭策一下。</zhCN>
+    <ruRU>Неважно, насколько ты религиозен. Каждый время от времени заслуживает кары.</ruRU>
+    <ptBR>Não importa se você é devoto ou não. Todos precisam de uma boa punição de vez em quando.</ptBR>
+    <plPL>Nie ma znaczenia, czy jesteś pobożny. Każdy od czasu do czasu musi sobie coś walnąć!</plPL>
+    <koKR>생각은 성스럽게, 주먹은 상스럽게.</koKR>
+    <itIT>Non importa quanto tu sia pio. Tutti hanno bisogno ogni tanto di una punizione.</itIT>
+    <frFR>Peu importe votre dévotion. Recevoir un châtiment de temps à autre ne peut pas faire de mal...</frFR>
+    <esMX>No importa si eres muy devoto; todos necesitamos una buena paliza de vez en cuando.</esMX>
+    <esES>Un sacerdote que empujó a un paladín del zepelín de Cima del Trueno inventó un deporte nuevo: el palacaidismo.</esES>
+    <deDE>Es macht keinen Unterschied, wie gläubig man ist. Ab und zu kann jeder mal etwas Pein vertragen.</deDE>
   </Tag>
-  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
-  <Power definition="13036f05-7149-47ec-a65e-f81175560bb5" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 23.</enUS>
+    <zhTW>於23級時解鎖。</zhTW>
+    <zhCN>达到23级后解锁。</zhCN>
+    <ruRU>Доступна с 23-го уровня.</ruRU>
+    <ptBR>Disponível no nível 23.</ptBR>
+    <plPL>Odblokowane na poziomie 23.</plPL>
+    <koKR>23 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 23.</itIT>
+    <frFR>Débloquée au niveau 23.</frFR>
+    <esMX>Se desbloquea en nivel 23.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 23.</esES>
+    <deDE>Wird auf Stufe 23 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+    <zhTW>於1級時解鎖。</zhTW>
+    <zhCN>达到1级后解锁。</zhCN>
+    <ruRU>Доступна с 1-го уровня.</ruRU>
+    <ptBR>Disponível no nível 1.</ptBR>
+    <plPL>Odblokowane na poziomie 1.</plPL>
+    <koKR>1 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 1.</itIT>
+    <frFR>Débloquée au niveau 1.</frFR>
+    <esMX>Se desbloquea en nivel 1.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 1.</esES>
+    <deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="e62d02c5-d4df-47f0-a3e3-5a569f6026f8">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

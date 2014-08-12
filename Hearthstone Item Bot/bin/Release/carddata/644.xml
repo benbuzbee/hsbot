@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_155">
+<Entity version="2" CardID="EX1_170">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mark of Nature</enUS>
-    <frFR>Marque de la nature</frFR>
-    <zhTW>自然印記</zhTW>
-    <zhCN>自然印记</zhCN>
-    <ruRU>Знак Природы</ruRU>
-    <ptBR>Marca da Natureza</ptBR>
-    <plPL>Znak natury</plPL>
-    <koKR>자연의 징표</koKR>
-    <itIT>Marchio della Natura</itIT>
-    <esMX>Marca de la naturaleza</esMX>
-    <esES>Marca de la Naturaleza</esES>
-    <deDE>Mal der Natur</deDE>
+    <enUS>Emperor Cobra</enUS>
+    <frFR>Cobra empereur</frFR>
+    <zhTW>帝王眼鏡蛇</zhTW>
+    <zhCN>帝王眼镜蛇</zhCN>
+    <ruRU>Императорская кобра</ruRU>
+    <ptBR>Naja Imperatriz</ptBR>
+    <plPL>Cesarska kobra</plPL>
+    <koKR>황제 코브라</koKR>
+    <itIT>Cobra Imperatore</itIT>
+    <esMX>Cobra emperador</esMX>
+    <esES>Cobra emperador</esES>
+    <deDE>Kaiserkobra</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Give a minion +4 Attack; or +4 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; donne +4 ATQ à un serviteur ou +4 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;給一個手下+4攻擊力，或+4生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：使一个随从获得+4攻击力；或者+4生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; существо получает +4 к атаке; или +4 к здоровью и &lt;b&gt;«Провокацию»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Conceda +4 de Ataque a um lacaio; ou +4 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
-    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Daj stronnikowi +4 do ataku; lub daj +4 do zdrowia oraz &lt;b&gt;Prowokację&lt;/b&gt;.  </plPL>
-    <koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인 하나에게 공격력을 +4 부여합니다. 또는 생명력 +4와 &lt;b&gt;도발&lt;/b&gt;을 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; +4 Attacco a un servitore o +4 Salute e &lt;b&gt;Provocazione&lt;/b&gt; a un servitore.</itIT>
-    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; otorga +4 de Ataque o +4 de Salud y &lt;b&gt;Provocación&lt;/b&gt; a un esbirro.</esMX>
-    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Otorga +4 p. de ataque a un esbirro, o bien +4 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Verleiht einem Diener +4 Angriff; oder +4 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+    <enUS>Destroy any minion damaged by this minion.</enUS>
+    <frFR>Détruit tout serviteur blessé par ce serviteur.</frFR>
+    <zhTW>摧毀被帝王眼鏡蛇傷害到的任何手下</zhTW>
+    <zhCN>消灭任何受到该随从伤害的随从。</zhCN>
+    <ruRU>Уничтожает любое существо, которому нанесла урон.</ruRU>
+    <ptBR>Destrua qualquer lacaio atingido por este lacaio.</ptBR>
+    <plPL>Zniszcz każdego stronnika zranionego przez tego stronnika.</plPL>
+    <koKR>이 하수인에게 피해를 입은 하수인은 무조건 죽습니다.</koKR>
+    <itIT>Distrugge qualsiasi servitore danneggiato da questo servitore.</itIT>
+    <esMX>Destruye cualquier esbirro dañado por este esbirro.</esMX>
+    <esES>Destruye a cualquier esbirro dañado por este esbirro.</esES>
+    <deDE>Vernichtet jeden Diener, der von diesem Diener verletzt wurde.</deDE>
+  </Tag>
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Fanged</enUS>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Lars Grant-West</enUS>
+  </Tag>
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Clint Langley</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Druids call it the "Mark of Nature."  Everyone else calls it "needing a bath."</enUS>
-    <zhTW>德魯伊們說這叫「自然印記」。其他人則說他們「該洗澡了」。</zhTW>
-    <zhCN>只有德鲁伊们称之为“自然印记”。其他人都喜欢说“加个状态”。</zhCN>
-    <ruRU>Друиды называют это заклинание «Знак природы». Все остальные называют его «пора принять ванну».</ruRU>
-    <ptBR>Os druidas chamam de "Marca da Natureza". Todos os outros chamam de "precisa de um banho".</ptBR>
-    <plPL>Druidzi nazywają to zaklęcie „znakiem natury”. Inni preferują nazwę „kąpiel potrzebna od zaraz”.</plPL>
-    <koKR>드루이드들은 "자연의 징표"라고 합니다. 다른 사람들은 좀 씻고 다니라고 합니다.</koKR>
-    <itIT>I Druidi lo chiamano "Marchio della Natura". Tutti gli altri invece "Bisogno di farsi una doccia".</itIT>
-    <frFR>Les druides appellent ça la « Marque de la nature ». Les autres considèrent qu’ils ont juste besoin d’un bon bain...</frFR>
-    <esMX>Los druidas lo llaman "Marca de la naturaleza". Todos los demás lo conocen como "Te hace falta un baño".</esMX>
-    <esES>¿Qué es una gallina en la cuerda floja? Un druida Equilibrio.</esES>
-    <deDE>Druiden nennen es „Mal der Natur“. Andere nennen es „ein Bad benötigen“.</deDE>
+    <enUS>The Sholazar Basin is home to a lot of really horrible things. If you're going to visit, wear bug spray.  And plate armor.</enUS>
+    <zhTW>休拉薩盆地有許多可怕的生物。如果你要去度假，記得帶殺蟲劑。最好再穿上鎧甲。</zhTW>
+    <zhCN>索拉查盆地栖息着很多非常恐怖的生物。如果你一定要去那里，带上杀虫剂，还要穿上板甲。</zhCN>
+    <ruRU>В Низине Шолазар водятся ужасные твари. Если вы собираетесь посетить это место, не забудьте репеллент и латные доспехи.</ruRU>
+    <ptBR>A Bacia Sholazar é o lar de várias coisas terríveis. Se você pretende fazer uma visita, não esqueça o repelente. E a armadura de placas.</ptBR>
+    <plPL>Był plan, żeby zrzucić kilka tych gadów z maszyny latającej na Śmiercioskrzydłego i zakończyć Kataklizm. Niestety kobry pogryzły wszystkich pasażerów. Powstała o tym opowieść pod tytułem „Kobry w żyrokopterze”.</plPL>
+    <koKR>숄라자르 분지는 정말 위험한 곳입니다. 그래도 갈 생각이 있다면 제충제를 꼭 바르세요. 아, 판금 갑옷도 준비하시고요.</koKR>
+    <itIT>Il Bacino di Sholazar ospita alcune delle creature più letali. Se hai intenzione di visitarlo, usa un insetticida... e un'armatura a piastre.</itIT>
+    <frFR>Le bassin de Sholazar est l’habitat naturel d’un tas de bêtes pas très sympa. N’oubliez pas votre vaporisateur anti-insectes, si vous vous rendez sur place. Ni votre armure.</frFR>
+    <esMX>En la Cuenca de Sholazar hay muchas cosas horrendas. Si vas a visitarla, usa repelente. Y armadura.</esMX>
+    <esES>En la Cuenca de Sholazar viven todo tipo de criaturas horribles. Si tienes pensado viajar allí, ponte repelente. Y armadura de placas.</esES>
+    <deDE>Das Sholazarbecken ist Heimat vieler wirklich fürchterlicher Dinge. Falls Ihr dort Urlaub machen wollt, dann bringt Insektenspray mit. Und eine Plattenrüstung.</deDE>
   </Tag>
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
+  <Tag name="Poisonous" enumID="363" type="Bool" value="1" />
+  <Power definition="b0d3211b-9f61-4c75-88d8-8a267917639a" />
 </Entity>

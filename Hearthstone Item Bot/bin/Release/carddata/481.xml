@@ -1,66 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_539">
-  <MasterPower>44c376c8-bf0a-4c0b-afec-666d95f7059f</MasterPower>
+<Entity version="2" CardID="CS2_013">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Kill Command</enUS>
-    <frFR>Ordre de tuer</frFR>
-    <zhTW>擊殺命令</zhTW>
-    <zhCN>杀戮命令</zhCN>
-    <ruRU>Команда «Взять!»</ruRU>
-    <ptBR>Comando para Matar</ptBR>
-    <plPL>Rozkaz zabicia</plPL>
-    <koKR>살상 명령</koKR>
-    <itIT>Ordine di Morte</itIT>
-    <esMX>Matar</esMX>
-    <esES>Matar</esES>
-    <deDE>Fass!</deDE>
+    <enUS>Wild Growth</enUS>
+    <frFR>Croissance sauvage</frFR>
+    <zhTW>野性成長</zhTW>
+    <zhCN>野性成长</zhCN>
+    <ruRU>Буйный рост</ruRU>
+    <ptBR>Crescimento Silvestre</ptBR>
+    <plPL>Gwałtowny wzrost</plPL>
+    <koKR>급속 성장</koKR>
+    <itIT>Crescita Rigogliosa</itIT>
+    <esMX>Crecimiento salvaje</esMX>
+    <esES>Crecimiento salvaje</esES>
+    <deDE>Wildwuchs</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $3 damage.  If you have a Beast, deal $5 damage instead.</enUS>
-    <frFR>Inflige $3 |4(point,points) de dégâts. Si vous avez une bête, inflige $5 |4(point,points) de dégâts à la place.</frFR>
-    <zhTW>造成$3點傷害。若你有野獸，則造成$5點傷害</zhTW>
-    <zhCN>造成$3点伤害，如果你有任何野兽在场上，则改为造成$5点伤害。</zhCN>
-    <ruRU>Наносит $3 ед. урона. Если у вас есть зверь на поле боя, вместо этого наносит $5 ед. урона.</ruRU>
-    <ptBR>Cause $3 de dano. Se você tiver uma Fera, cause $5 de dano em vez de $3.</ptBR>
-    <plPL>Zadaj $3 pkt. obrażeń. Jeśli masz Bestię, zamiast tego zadaj $5 pkt. obrażeń.</plPL>
-    <koKR>피해를 $3 줍니다. 전장에 내 야수가 있다면 피해를 $5 줍니다.</koKR>
-    <itIT>Infligge $3 danni. Se possiedi una Bestia, infligge $5 danni.</itIT>
-    <esMX>Inflige $3 de daño. Si tienes una Bestia, en cambio, inflige $5 de daño.</esMX>
-    <esES>Inflige $3 p. de daño. Si tienes una bestia en juego, inflige $5 p. de daño.</esES>
-    <deDE>Verursacht $3 Schaden. Verursacht stattdessen $5 Schaden, wenn Ihr ein Wildtier besitzt.</deDE>
+    <enUS>Gain an empty Mana Crystal.</enUS>
+    <frFR>Confère un cristal de mana vide.</frFR>
+    <zhTW>獲得一顆空的法力水晶</zhTW>
+    <zhCN>获得一个空的法力水晶。</zhCN>
+    <ruRU>Вы получаете пустой кристалл маны.</ruRU>
+    <ptBR>Receba um Cristal de Mana vazio.</ptBR>
+    <plPL>Otrzymujesz pusty kryształ many.</plPL>
+    <koKR>빈 마나 수정을 1개 획득합니다.</koKR>
+    <itIT>Fornisce 1 Cristallo di Mana vuoto.</itIT>
+    <esMX>Obtienes un Cristal de maná vacío.</esMX>
+    <esES>Obtienes un cristal de maná vacío.</esES>
+    <deDE>Erhaltet einen leeren Manakristall.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gabe from Penny Arcade</enUS>
+    <enUS>James Ryman</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>"Kill!", he commanded.</enUS>
-    <zhTW>「殺!」他命令道。</zhTW>
-    <zhCN>“咬死他！”，他下达了命令。</zhCN>
-    <ruRU>«Взять!» – скомандовал он.</ruRU>
-    <ptBR>"Mate", comandou ele.</ptBR>
-    <plPL>„Zabij!”, rozkazał.</plPL>
-    <koKR>야수 없이 명령만으로도 피해를 줄 수 있다니!</koKR>
-    <itIT>"Muori!", ordinò.</itIT>
-    <frFR>Vous avez le permis de tuer.</frFR>
-    <esMX>"¡A matar!" —ordenó.</esMX>
-    <esES>Se ha escrito un crimen.</esES>
-    <deDE>Meist der letzte Ausruf, den das Opfer in seinem Leben hören wird, außer seinem eigenen Geschrei natürlich.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 10.</enUS>
+    <enUS>Grow your own mana crystals with this Mana Crystal Growth Kit, only 39.99!</enUS>
+    <zhTW>用這個法力水晶成長包，種出屬於你自己的法力水晶，只賣99元!</zhTW>
+    <zhCN>使用法力水晶增长装置增加你的法力值，只要399！</zhCN>
+    <ruRU>С помощью этого набора вы сможете выращивать собственные кристаллы маны! Всего за 99 рублей 99 копеек!</ruRU>
+    <ptBR>Crie seus próprios cristais de mana com esse Kit de Criação de Cristais de Mana, só 39,99!</ptBR>
+    <plPL>Wyhoduj własne kryształy many za pomocą naszego zestawu! Tylko 10 sztuk złota plus podatek od many!</plPL>
+    <koKR>마나 수정 재배기로 자신만의 마나 수정을 키우세요! 믿을 수 없는 가격! 39,900 골드!</koKR>
+    <itIT>Produci in casa i tuoi Cristalli di Mana con questo stupendo kit pronto all'uso, a soli 39,99!</itIT>
+    <frFR>Faites pousser vos propres cristaux de mana avec ce set de croissance au prix défiant toute concurrence de 39,99 pièces d’or !</frFR>
+    <esMX>Cultiva tus propios cristales de maná con este revolucionario equipo de crecimiento, por solo 39 dólares.</esMX>
+    <esES>Cultiva tus propios cristales de maná con este kit de cultivo de cristales de maná, ¡por solo 39,99!</esES>
+    <deDE>Züchtet Euren eigenen Manakristall mit diesem Manakristallzuchtset – nur 39,99!</deDE>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 49.</enUS>
+    <enUS>Unlocked at Level 23.</enUS>
+    <zhTW>於23級時解鎖。</zhTW>
+    <zhCN>达到23级后解锁。</zhCN>
+    <ruRU>Доступна с 23-го уровня.</ruRU>
+    <ptBR>Disponível no nível 23.</ptBR>
+    <plPL>Odblokowane na poziomie 23.</plPL>
+    <koKR>23 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 23.</itIT>
+    <frFR>Débloquée au niveau 23.</frFR>
+    <esMX>Se desbloquea en nivel 23.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 23.</esES>
+    <deDE>Wird auf Stufe 23 freigeschaltet.</deDE>
   </Tag>
-  <Power definition="44c376c8-bf0a-4c0b-afec-666d95f7059f">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 1.</enUS>
+    <zhTW>於1級時解鎖。</zhTW>
+    <zhCN>达到1级后解锁。</zhCN>
+    <ruRU>Доступна с 1-го уровня.</ruRU>
+    <ptBR>Disponível no nível 1.</ptBR>
+    <plPL>Odblokowane na poziomie 1.</plPL>
+    <koKR>1 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 1.</itIT>
+    <frFR>Débloquée au niveau 1.</frFR>
+    <esMX>Se desbloquea en nivel 1.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 1.</esES>
+    <deDE>Wird auf Stufe 1 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="8b5c8d41-e080-44c4-9858-c23777be8b4c" />
 </Entity>

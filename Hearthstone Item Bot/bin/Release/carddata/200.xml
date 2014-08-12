@@ -1,60 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_312">
+<Entity version="2" CardID="EX1_162">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Twisting Nether</enUS>
-    <frFR>Néant distordu</frFR>
-    <zhTW>扭曲虛空</zhTW>
-    <zhCN>扭曲虚空</zhCN>
-    <ruRU>Круговерть Пустоты</ruRU>
-    <ptBR>Espiral Etérea</ptBR>
-    <plPL>Wypaczona Otchłań</plPL>
-    <koKR>뒤틀린 황천</koKR>
-    <itIT>Distorsione Fatua</itIT>
-    <esMX>Vacío abisal</esMX>
-    <esES>Vacío Abisal</esES>
-    <deDE>Wirbelnder Nether</deDE>
+    <enUS>Dire Wolf Alpha</enUS>
+    <zhTW>原生恐狼</zhTW>
+    <zhCN>恐狼前锋</zhCN>
+    <ruRU>Вожак лютых волков</ruRU>
+    <ptBR>Lobo Hediondo Alfa</ptBR>
+    <plPL>Wilkor alfa</plPL>
+    <koKR>광포한 늑대 우두머리</koKR>
+    <itIT>Metalupo Alfa</itIT>
+    <frFR>Loup alpha redoutable</frFR>
+    <esMX>Lobo alfa temible</esMX>
+    <esES>Lobo temible alfa</esES>
+    <deDE>Terrorwolfalpha</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Destroy all minions.</enUS>
-    <frFR>Détruit tous les serviteurs.</frFR>
-    <zhTW>摧毀全部手下</zhTW>
-    <zhCN>消灭所有随从。</zhCN>
-    <ruRU>Уничтожает всех существ.</ruRU>
-    <ptBR>Destrua todos os lacaios.</ptBR>
-    <plPL>Zniszcz wszystkich stronników.</plPL>
-    <koKR>모든 하수인을 처치합니다.</koKR>
-    <itIT>Distrugge tutti i servitori.</itIT>
-    <esMX>Destruye a todos los esbirros.</esMX>
-    <esES>Destruye a todos los esbirros.</esES>
-    <deDE>Vernichtet alle Diener.</deDE>
+    <enUS>Adjacent minions have +1 Attack.</enUS>
+    <zhTW>兩側的手下+1攻擊力</zhTW>
+    <zhCN>相邻的随从获得+1攻击力。</zhCN>
+    <ruRU>Находящиеся по обе стороны существа получают +1 к атаке.</ruRU>
+    <ptBR>Lacaios adjacentes têm +1 de Ataque.</ptBR>
+    <plPL>Sąsiedni stronnicy otrzymują +1 do ataku.</plPL>
+    <koKR>양옆의 하수인들이 공격력을 +1 얻습니다.</koKR>
+    <itIT>I servitori adiacenti hanno +1 Attacco.</itIT>
+    <frFR>Les serviteurs adjacents ont +1 ATQ.</frFR>
+    <esMX>Los esbirros adyacentes tienen +1 de Ataque.</esMX>
+    <esES>Los esbirros adyacentes tienen +1 p. de ataque.</esES>
+    <deDE>Benachbarte Diener haben +1 Angriff.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Alpha Dog</enUS>
+  </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dave Allsop</enUS>
+    <enUS>John Dickenson</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Twisting Nether is a formless place of magic and illusion and destroyed minions.</enUS>
-    <zhTW>扭曲虛空是個沒有形體的地方，有著魔法、幻影及被摧毀的手下。</zhTW>
-    <zhCN>扭曲虚空浩渺无际，充满着魔法、幻象和被放逐的生命体。</zhCN>
-    <ruRU>Круговерть Пустоты – это то самое место, куда отправляются с поля боя уничтоженные существа.</ruRU>
-    <ptBR>A Espiral Etérea é um lugar sem forma de magia e ilusão e lacaios destruídos.</ptBR>
-    <plPL>Wypaczona Otchłań to bezkształtne miejsce pełne magii, iluzji i zniszczonych stronników.</plPL>
-    <koKR>뒤틀린 황천은 마법과 환상, 죽은 하수인들로 가득한 형태 없는 공간입니다.</koKR>
-    <itIT>La Distorsione Fatua è un luogo senza forma pervaso da magia, illusioni e servitori annientati.</itIT>
-    <frFR>Le Néant distordu est un endroit sans forme, rempli de magie, d’illusions... et de serviteurs sauvagement sacrifiés.</frFR>
-    <esMX>El Vacío abisal es un lugar amorfo lleno de magia, ilusión y esbirros despedazados.</esMX>
-    <esES>Todos los esbirros van al... ¿Vacío Abisal?</esES>
-    <deDE>Der Wirbelnde Nether ist ein formloser Ort der Magie, der Illusion ... und der vernichteten Diener.</deDE>
+    <enUS>We are pretty excited about the upcoming release of Dire Wolf Beta, just repost this sign for a chance at a key.</enUS>
+    <zhTW>他們說原生的恐狼比較大隻。我想，他們咬人應該也會比較痛。要不然你去讓牠咬咬看?</zhTW>
+    <zhCN>这支球队没有后卫。</zhCN>
+    <ruRU>Если по обе стороны находятся одинаковые существа, вожак лютых волков загадывает желание.</ruRU>
+    <ptBR>Estamos bem animados com o lançamento do Lobo Hediondo Beta. É só compartilhar esta mensagem para concorrer a uma chave.</ptBR>
+    <plPL>Nie możemy się doczekać wydania Bety Wilkora. Przekażcie dalej ten wpis, aby wziąć udział w losowaniu kluczy!</plPL>
+    <koKR>정작 광포해지는 건 양옆이지만, 어쨌든 먼저 처치해야 할 것 같습니다.</koKR>
+    <itIT>Siamo entusiasti di annunciare l'arrivo del Metalupo Beta. Copia e incolla questo testo per avere l'occasione di vincere una chiave d'accesso!</itIT>
+    <frFR>Je suis l’alpha et l’oméga, bébé !</frFR>
+    <esMX>Estamos muy contentos de anunciar el lanzamiento de Lobo beta temible. Compartan este mensaje y tendrán la posibilidad de ganarse una clave.</esMX>
+    <esES>Pensamos en añadir un lobo temible beta, pero la gente se quejaría de no tener claves.</esES>
+    <deDE>Wir freuen uns schon auf die bevorstehende Terrorwolfbeta. Teilt diese Nachricht mit Euren Freunden und gewinnt mit etwas Glück einen Beta-Key!</deDE>
   </Tag>
-  <Power definition="0dcb5c19-b908-4dcc-ad25-c2c643bd4a91" />
+  <Tag name="AdjacentBuff" enumID="350" type="Bool" value="1" />
+  <Tag name="Aura" enumID="362" type="Bool" value="1" />
+  <Power definition="42e56f47-08b9-439f-a1d9-7b96f4cacf1c" />
+  <Power definition="6ad4a15c-045d-4e3c-9dd7-648939d717d1" />
 </Entity>

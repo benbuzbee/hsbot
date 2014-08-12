@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="skele11">
+<Entity version="2" CardID="TU4d_002">
+  <MasterPower>95225d89-31ae-4d65-ba9f-1001d247c1ab</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Skeleton</enUS>
-    <frFR>Squelette</frFR>
-    <zhTW>骷髏</zhTW>
-    <zhCN>骷髅</zhCN>
-    <ruRU>Скелет</ruRU>
-    <ptBR>Esqueleto</ptBR>
-    <plPL>Szkielet</plPL>
-    <koKR>해골</koKR>
-    <itIT>Scheletro</itIT>
-    <esMX>Esqueleto</esMX>
-    <esES>Esqueleto</esES>
-    <deDE>Skelett</deDE>
+    <enUS>Crazed Hunter</enUS>
+    <frFR>Chasseur fou</frFR>
+    <zhTW>狂獵人</zhTW>
+    <zhCN>疯狂的猎人</zhCN>
+    <ruRU>Безумный охотник</ruRU>
+    <ptBR>Caçador Enlouquecido</ptBR>
+    <plPL>Szalony łowca</plPL>
+    <koKR>광기의 사냥꾼</koKR>
+    <itIT>Cacciatore Folle</itIT>
+    <esMX>Cazador enloquecido</esMX>
+    <esES>Cazador demenciado</esES>
+    <deDE>Wahnsinniger Jäger</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;&lt;/b&gt; </enUS>
-    <frFR>&lt;b&gt;&lt;/b&gt; </frFR>
-    <zhTW>&lt;b&gt;&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;&lt;/b&gt; </zhCN>
-    <ruRU>&lt;b&gt;&lt;/b&gt; </ruRU>
-    <ptBR>&lt;b&gt;&lt;/b&gt; </ptBR>
-    <plPL>&lt;b&gt;&lt;/b&gt; </plPL>
-    <koKR>&lt;b&gt;&lt;/b&gt; </koKR>
-    <itIT>&lt;b&gt;&lt;/b&gt; </itIT>
-    <esMX>&lt;b&gt;&lt;/b&gt; </esMX>
-    <esES>&lt;b&gt;&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;&lt;/b&gt;</deDE>
-  </Tag>
   <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="95225d89-31ae-4d65-ba9f-1001d247c1ab" />
 </Entity>

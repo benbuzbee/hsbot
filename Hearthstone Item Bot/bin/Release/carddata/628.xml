@@ -1,64 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_093">
-  <MasterPower>3c4d4f5f-4038-4afd-b3d4-028dfeb4dbbd</MasterPower>
+<Entity version="2" CardID="CRED_14">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Consecration</enUS>
-    <frFR>Consécration</frFR>
-    <zhTW>奉獻</zhTW>
-    <zhCN>奉献</zhCN>
-    <ruRU>Освящение</ruRU>
-    <ptBR>Consagração</ptBR>
-    <plPL>Konsekracja</plPL>
-    <koKR>신성화</koKR>
-    <itIT>Consacrazione</itIT>
-    <esMX>Consagración</esMX>
-    <esES>Consagración</esES>
-    <deDE>Weihe</deDE>
+    <enUS>Yong Woo</enUS>
+    <zhTW>Yong Woo</zhTW>
+    <zhCN>Yong Woo</zhCN>
+    <ruRU>Yong Woo</ruRU>
+    <ptBR>Yong Woo</ptBR>
+    <plPL>Yong Woo</plPL>
+    <koKR>용 우</koKR>
+    <itIT>Yong Woo</itIT>
+    <frFR>Yong Woo</frFR>
+    <esMX>Yong Woo</esMX>
+    <esES>Yong Woo</esES>
+    <deDE>Yong Woo</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="16" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage to all enemies.</enUS>
-    <frFR>Inflige $2 |4(point,points) de dégâts à tous les adversaires.</frFR>
-    <zhTW>對全部敵人造成$2點傷害</zhTW>
-    <zhCN>对所有敌人造成$2点伤害。</zhCN>
-    <ruRU>Наносит $2 ед. урона всем персонажам противника. </ruRU>
-    <ptBR>Cause $2 de dano a todos os inimigos.</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń wszystkim wrogom.</plPL>
-    <koKR>모든 적에게 피해를 $2 줍니다.</koKR>
-    <itIT>Infligge $2 danni a tutti i nemici.</itIT>
-    <esMX>Inflige $2 de daño a todos los enemigos.</esMX>
-    <esES>Inflige $2 p. de daño a todos los enemigos.</esES>
-    <deDE>Fügt allen Feinden $2 Schaden zu.</deDE>
+    <enUS>Your other minions have +3 Attack and &lt;b&gt;Charge&lt;/b&gt;.</enUS>
+    <zhTW>你的其他手下擁有+3攻擊力及&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>你的其他随从获得+3攻击力并具有&lt;b&gt;冲锋&lt;/b&gt;。</zhCN>
+    <ruRU>Другие ваши существа получают +3 к атаке и способность &lt;b&gt;«Рывок»&lt;/b&gt;.</ruRU>
+    <ptBR>Seus outros lacaios têm +3 de Ataque e &lt;b&gt;Investida&lt;/b&gt;.</ptBR>
+    <plPL>Twoi pozostali stronnicy otrzymują +3 do ataku oraz &lt;b&gt;Szarżę&lt;/b&gt;.</plPL>
+    <koKR>내 다른 하수인들이 공격력 +3과 &lt;b&gt;돌진&lt;/b&gt;을 얻습니다.</koKR>
+    <itIT>Gli altri tuoi servitori hanno +3 Attacco e &lt;b&gt;Carica&lt;/b&gt;.</itIT>
+    <frFR>Vos autres serviteurs ont +3 Attaque et &lt;b&gt;Charge&lt;/b&gt;.</frFR>
+    <esMX>Tus otros esbirros tienen +3 de Ataque y &lt;b&gt;Carga&lt;/b&gt;.</esMX>
+    <esES>Tus demás esbirros tienen +3 p. de ataque y &lt;b&gt;Cargar&lt;/b&gt;.</esES>
+    <deDE>Eure anderen Diener haben +3 Angriff und &lt;b&gt;Ansturm&lt;/b&gt;.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Vance Kovacs</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Consecrated ground glows with Holy energy.  But it smells a little, too.</enUS>
-    <zhTW>受到奉獻的土地在神聖能量下散發著光輝。但也有點臭臭的。</zhTW>
-    <zhCN>神圣的能量从圣洁的大地涌出。但是，味道也有点熏人。</zhCN>
-    <ruRU>Освященная земля источает благословенный свет и пахнет ладаном.</ruRU>
-    <ptBR>O solo consagrado brilha com energia Sagrada.</ptBR>
-    <plPL>Konsekrowana ziemia jaśnieje świętą energią. Podczas rytuału nie wdychaj za dużo kadzidła.</plPL>
-    <koKR>신성화된 땅은 신성한 에너지의 빛을 뿜습니다. 하지만 냄새도 좀 풍깁니다.</koKR>
-    <itIT>Il terreno consacrato brilla di energia sacra. Però puzza anche un po'.</itIT>
-    <frFR>La politique de la terre brûlée, ça sent un peu le cramé.</frFR>
-    <esMX>El suelo consagrado resplandece de energía sagrada. Pero también huele un poquito feo.</esMX>
-    <esES>¡El suelo es lava!</esES>
-    <deDE>Ob Ihr wirklich richtig steht, seht Ihr, wenn das Licht angeht.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 4.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 43.</enUS>
-  </Tag>
-  <Power definition="3c4d4f5f-4038-4afd-b3d4-028dfeb4dbbd" />
 </Entity>

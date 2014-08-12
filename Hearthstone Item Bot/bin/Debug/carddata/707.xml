@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_160t">
+<Entity version="2" CardID="tt_004o">
+  <MasterPower>d67eeb4e-6b91-4063-a8a4-6210c90ad445</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Panther</enUS>
-    <frFR>Panthère</frFR>
-    <zhTW>獵豹</zhTW>
-    <zhCN>猎豹</zhCN>
-    <ruRU>Пантера</ruRU>
-    <ptBR>Pantera</ptBR>
-    <plPL>Pantera</plPL>
-    <koKR>표범</koKR>
-    <itIT>Pantera</itIT>
-    <esMX>Pantera</esMX>
-    <esES>Pantera</esES>
-    <deDE>Panther</deDE>
+    <enUS>Cannibalize</enUS>
+    <zhTW>食屍</zhTW>
+    <zhCN>野蛮残食</zhCN>
+    <ruRU>Каннибализм</ruRU>
+    <ptBR>Canibalizar</ptBR>
+    <plPL>Kanibalizm</plPL>
+    <koKR>시체먹기</koKR>
+    <itIT>Cannibalismo</itIT>
+    <frFR>Cannibalisme</frFR>
+    <esMX>Canibalismo</esMX>
+    <esES>Canibalismo</esES>
+    <deDE>Kannibalismus</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Increased Attack.</enUS>
+    <zhTW>攻擊力提高</zhTW>
+    <zhCN>攻击力增加。</zhCN>
+    <ruRU>Атака увеличена.</ruRU>
+    <ptBR>Ataque aumentado.</ptBR>
+    <plPL>Zwiększony atak.</plPL>
+    <koKR>공격력 증가</koKR>
+    <itIT>Attacco aumentato.</itIT>
+    <frFR>Attaque augmentée.</frFR>
+    <esMX>Ataque aumentado.</esMX>
+    <esES>Ataque aumentado.</esES>
+    <deDE>Erhöhter Angriff.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="2" />
-  <Tag name="Race" enumID="200" type="Race" value="20" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Power definition="8bea2771-b810-42a4-9a4d-34cb0633eb6a" />
+  <Power definition="af2dd10b-2578-4955-914e-2753b4648fa3" />
 </Entity>

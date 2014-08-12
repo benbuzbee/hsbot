@@ -1,66 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS1_130">
-  <MasterPower>e62d02c5-d4df-47f0-a3e3-5a569f6026f8</MasterPower>
+<Entity version="2" CardID="EX1_165t1">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Holy Smite</enUS>
-    <frFR>Châtiment sacré</frFR>
-    <zhTW>聖光懲擊</zhTW>
-    <zhCN>神圣惩击</zhCN>
-    <ruRU>Божественная кара</ruRU>
-    <ptBR>Punição Sagrada</ptBR>
-    <plPL>Święty cios</plPL>
-    <koKR>성스러운 일격</koKR>
-    <itIT>Punizione Sacra</itIT>
-    <esMX>Punición sagrada</esMX>
-    <esES>Punición Sagrada</esES>
-    <deDE>Heilige Pein</deDE>
+    <enUS>Druid of the Claw</enUS>
+    <frFR>Druide de la Griffe</frFR>
+    <zhTW>利爪德魯伊</zhTW>
+    <zhCN>利爪德鲁伊</zhCN>
+    <ruRU>Друид когтя</ruRU>
+    <ptBR>Druida da Garra</ptBR>
+    <plPL>Druid Szponów</plPL>
+    <koKR>발톱의 드루이드</koKR>
+    <itIT>Druido dell'Unghia</itIT>
+    <esMX>Druida de la Zarpa</esMX>
+    <esES>Druida de la Zarpa</esES>
+    <deDE>Druide der Klaue</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $2 damage.</enUS>
-    <frFR>Inflige $2 |4(point,points) de dégâts.</frFR>
-    <zhTW>造成$2點傷害</zhTW>
-    <zhCN>造成$2点伤害。</zhCN>
-    <ruRU>Наносит $2 ед. урона.</ruRU>
-    <ptBR>Cause $2 de dano.</ptBR>
-    <plPL>Zadaj $2 pkt. obrażeń.</plPL>
-    <koKR>피해를 $2 줍니다.</koKR>
-    <itIT>Infligge $2 danni.</itIT>
-    <esMX>Inflige $2 de daño.</esMX>
-    <esES>Inflige $2 p. de daño.</esES>
-    <deDE>Verursacht $2 Schaden.</deDE>
+    <enUS>&lt;b&gt;Charge&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Charge&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;衝鋒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;冲锋&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Рывок&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Investida&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Szarża&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;돌진&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Carica&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Carga&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Cargar&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Ansturm&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Steve Ellis</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It doesn't matter how pious you are.  Everyone needs a good smiting now and again.</enUS>
-    <zhTW>不管有多虔誠，每個人偶爾還是需要被揍幾下。</zhTW>
-    <zhCN>这和多么虔诚没有关系，每个人都需要时不时有人鞭策一下。</zhCN>
-    <ruRU>Неважно, насколько ты религиозен. Каждый время от времени заслуживает кары.</ruRU>
-    <ptBR>Não importa se você é devoto ou não. Todos precisam de uma boa punição de vez em quando.</ptBR>
-    <plPL>Nie ma znaczenia, czy jesteś pobożny. Każdy od czasu do czasu musi sobie coś walnąć!</plPL>
-    <koKR>생각은 성스럽게, 주먹은 상스럽게.</koKR>
-    <itIT>Non importa quanto tu sia pio. Tutti hanno bisogno ogni tanto di una punizione.</itIT>
-    <frFR>Peu importe votre dévotion. Recevoir un châtiment de temps à autre ne peut pas faire de mal...</frFR>
-    <esMX>No importa si eres muy devoto; todos necesitamos una buena paliza de vez en cuando.</esMX>
-    <esES>Un sacerdote que empujó a un paladín del zepelín de Cima del Trueno inventó un deporte nuevo: el palacaidismo.</esES>
-    <deDE>Es macht keinen Unterschied, wie gläubig man ist. Ab und zu kann jeder mal etwas Pein vertragen.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 23.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="e62d02c5-d4df-47f0-a3e3-5a569f6026f8">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Charge" enumID="197" type="Bool" value="1" />
+  <Power definition="390d7191-e47a-4e87-a4f1-b621da9a6051" />
 </Entity>

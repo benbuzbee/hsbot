@@ -1,60 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_409">
-  <MasterPower>7d8746db-98bb-499c-be00-f37be77cd424</MasterPower>
+<Entity version="2" CardID="NAX5_02H">
+  <MasterPower>f9c943b9-a007-45bc-ab80-5a2d933b8fe4</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Upgrade!</enUS>
-    <frFR>Amélioration !</frFR>
-    <zhTW>升級!</zhTW>
-    <zhCN>升级！</zhCN>
-    <ruRU>Улучшение</ruRU>
-    <ptBR>Aprimoramento!</ptBR>
-    <plPL>Ulepszenie!</plPL>
-    <koKR>강화!</koKR>
-    <itIT>Potenziamento</itIT>
-    <esMX>¡Mejora!</esMX>
-    <esES>¡Mejora!</esES>
-    <deDE>Aufwertung</deDE>
+    <enUS>Eruption</enUS>
+    <zhTW>爆發</zhTW>
+    <zhCN>爆发</zhCN>
+    <ruRU>Извержение</ruRU>
+    <ptBR>Erupção</ptBR>
+    <plPL>Erupcja</plPL>
+    <koKR>분출</koKR>
+    <itIT>Eruzione</itIT>
+    <frFR>Éruption</frFR>
+    <esMX>Erupción</esMX>
+    <esES>Erupción</esES>
+    <deDE>Eruption</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>If you have a weapon, give it +1/+1.  Otherwise equip a 1/3 weapon.</enUS>
-    <frFR>Si vous avez une arme, lui donne +1/+1. Sinon, vous équipe d’une arme 1/3.</frFR>
-    <zhTW>如果你有武器，賦予它+1/+1。若無，則裝備一把1/3的武器</zhTW>
-    <zhCN>如果你有一把武器，使它获得+1/+1。否则，装备一把1/3的武器。</zhCN>
-    <ruRU>Если у вас есть оружие, оно получает +1/+1. В ином случае вы экипируетесь оружием 1/3.</ruRU>
-    <ptBR>Se você tiver uma arma, conceda-lhe +1/+1. Se não tiver, equipe uma arma 1/3.</ptBR>
-    <plPL>Jeśli masz broń, daj jej +1/+1. W innym przypadku otrzymujesz broń 1/3.</plPL>
-    <koKR>내가 무기를 장착하고 있으면 +1/+1을 부여합니다. 무기가 없다면 1/3 무기를 장착합니다.</koKR>
-    <itIT>Se possiedi un'arma, gli fornisce +1/+1. Altrimenti, equipaggia un'arma 1/3.</itIT>
-    <esMX>Si tienes un arma, le otorga +1/+1. Si no, equipa un arma 1/3.</esMX>
-    <esES>Si tienes un arma, le otorga +1/+1. Si no, equipa un arma 1/3.</esES>
-    <deDE>Wenn Ihr eine Waffe habt, erhält sie +1/+1. Legt anderenfalls eine Waffe (1/3) an.</deDE>
+    <enUS>&lt;b&gt;Hero Power&lt;/b&gt;\nDeal 3 damage to the left-most enemy minion.</enUS>
+    <zhTW>&lt;b&gt;英雄能力&lt;/b&gt;\n對敵方最左邊的手下造成3點傷害</zhTW>
+    <zhCN>&lt;b&gt;英雄技能&lt;/b&gt;\n对位于最左边的敌方随从造成3点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\nНаносит 3 ед. урона крайнему левому существу противника.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico&lt;/b&gt;\nCause 3 de dano ao lacaio inimigo que estiver mais à esquerda.</ptBR>
+    <plPL>&lt;b&gt;Moc specjalna&lt;/b&gt;\nZadaj 3 pkt. obrażeń wrogiemu stronnikowi z lewego skraju planszy.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\n가장 왼쪽에 있는 적 하수인에게 피해를 3 줍니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe&lt;/b&gt;\nInfligge 3 danni al servitore nemico più a sinistra.</itIT>
+    <frFR>&lt;b&gt;Pouvoir héroïque&lt;/b&gt;\nInflige 3 points de dégâts au serviteur adverse tout à gauche.</frFR>
+    <esMX>&lt;b&gt;Poder de héroe&lt;/b&gt;\nInflige 3 de daño al último esbirro enemigo a la izquierda.</esMX>
+    <esES>&lt;b&gt;Poder de héroe&lt;/b&gt;\nInflige 3 p. de daño al primer esbirro enemigo por la izquierda.</esES>
+    <deDE>&lt;b&gt;Heldenfähigkeit&lt;/b&gt;\nFügt dem feindlichen Diener, der sich ganz links befindet, 3 Schaden zu.</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Matt Cavotta</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Easily worth 50 DKP.</enUS>
-    <zhTW>這至少值50點的DKP。</zhTW>
-    <zhCN>50点DKP玩一下，值！</zhCN>
-    <ruRU>Потянет на 50 ДКП.</ruRU>
-    <ptBR>Vale 50 PCM fácil.</ptBR>
-    <plPL>Z taką bronią nie ma żartów!</plPL>
-    <koKR>상대편의 스트레스 지수도 높아집니다.</koKR>
-    <itIT>Vale di certo almeno 50 DKP.</itIT>
-    <frFR>Elle vaut facilement 50 DKP !</frFR>
-    <esMX>Como mínimo, se merece una recompensa de 50 DKP.</esMX>
-    <esES>Eso valdrá unos 50 DKP.</esES>
-    <deDE>Mindestens 50 DKP wert.</deDE>
-  </Tag>
-  <Power definition="7d8746db-98bb-499c-be00-f37be77cd424" />
+  <Tag name="AIMustPlay" enumID="367" type="Bool" value="1" />
+  <Power definition="f9c943b9-a007-45bc-ab80-5a2d933b8fe4">
+    <PlayRequirement reqID="23" param="0" />
+  </Power>
 </Entity>

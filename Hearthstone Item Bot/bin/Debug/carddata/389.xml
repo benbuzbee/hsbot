@@ -1,62 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_165">
+<Entity version="2" CardID="EX1_612">
+  <MasterPower>87fac18f-63f8-4d0f-b005-adf249191811</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Druid of the Claw</enUS>
-    <frFR>Druide de la Griffe</frFR>
-    <zhTW>利爪德魯伊</zhTW>
-    <zhCN>利爪德鲁伊</zhCN>
-    <ruRU>Друид когтя</ruRU>
-    <ptBR>Druida da Garra</ptBR>
-    <plPL>Druid Szponów</plPL>
-    <koKR>발톱의 드루이드</koKR>
-    <itIT>Druido dell'Unghia</itIT>
-    <esMX>Druida de la Zarpa</esMX>
-    <esES>Druida de la Zarpa</esES>
-    <deDE>Druide der Klaue</deDE>
+    <enUS>Kirin Tor Mage</enUS>
+    <frFR>Mage du Kirin Tor</frFR>
+    <zhTW>祈倫托法師</zhTW>
+    <zhCN>肯瑞托法师</zhCN>
+    <ruRU>Маг Кирин-Тора</ruRU>
+    <ptBR>Maga do Kirin Tor</ptBR>
+    <plPL>Magini Kirin Toru</plPL>
+    <koKR>키린 토 마법사</koKR>
+    <itIT>Maga del Kirin Tor</itIT>
+    <esMX>Maga del Kirin Tor</esMX>
+    <esES>Maga del Kirin Tor</esES>
+    <deDE>Magierin der Kirin Tor</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="3" />
   <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="2" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Choose One -&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt;; or +2 Health and &lt;b&gt;Taunt&lt;/b&gt;.</enUS>
-    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; &lt;b&gt;Charge&lt;/b&gt; ou confère +2 PV et &lt;b&gt;Provocation&lt;/b&gt;.</frFR>
-    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;&lt;b&gt;衝鋒&lt;/b&gt;，或+2生命值及&lt;b&gt;嘲諷&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：&lt;b&gt;冲锋&lt;/b&gt;；或者+2生命值并具有&lt;b&gt;嘲讽&lt;/b&gt;。</zhCN>
-    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; &lt;b&gt;Рывок&lt;/b&gt;; или +2 к здоровью и способность &lt;b&gt;«Провокация»&lt;/b&gt;.</ruRU>
-    <ptBR>&lt;b&gt;Escolha Um -&lt;/b&gt; &lt;b&gt;Investida&lt;/b&gt;; ou +2 de Vida e &lt;b&gt;Provocar&lt;/b&gt;.</ptBR>
-    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; &lt;b&gt;Szarża&lt;/b&gt;; lub +2 do zdrowia oraz &lt;b&gt;Prowokacja&lt;/b&gt;.</plPL>
-    <koKR>&lt;b&gt;선택 - &lt;/b&gt;\n&lt;b&gt;돌진&lt;/b&gt; 또는 생명력 +2와 &lt;b&gt;도발&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; il Druido dell'Unghia ottiene &lt;b&gt;Carica&lt;/b&gt; o +2 Salute e &lt;b&gt;Provocazione&lt;/b&gt;.</itIT>
-    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; &lt;b&gt;Carga&lt;/b&gt; o +2 de Salud y &lt;b&gt;Provocación&lt;/b&gt;.</esMX>
-    <esES>&lt;b&gt;Elige una:&lt;/b&gt; &lt;b&gt;Cargar&lt;/b&gt;, o bien + 2 p. de salud y &lt;b&gt;Provocar&lt;/b&gt;.</esES>
-    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; &lt;b&gt;Ansturm&lt;/b&gt;; oder +2 Leben und &lt;b&gt;Spott&lt;/b&gt;.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; The next &lt;b&gt;Secret&lt;/b&gt; you play this turn costs (0).</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; le prochain &lt;b&gt;Secret&lt;/b&gt; que vous jouez ce tour-ci coûte (0).</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你本回合內使用的下一個&lt;b&gt;秘密&lt;/b&gt;消耗為(0)點</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;在本回合中，你使用的下一个&lt;b&gt;奥秘&lt;/b&gt;的法力值消耗为（0）点。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; следующий &lt;b&gt;Секрет&lt;/b&gt;, который вы разыграете на этом ходу, будет стоить (0) маны.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; O próximo &lt;b&gt;Segredo&lt;/b&gt; que você lançar neste turno custará (0).</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Następny &lt;b&gt;Sekret&lt;/b&gt;, który zagrasz w tej turze, kosztuje (0).</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 이번 턴에 내는 나의 다음 &lt;b&gt;비밀&lt;/b&gt; 비용이 (0)이 됩니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; il prossimo &lt;b&gt;Segreto&lt;/b&gt; che giochi in questo turno costa (0) Mana.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; el próximo &lt;b&gt;Secreto&lt;/b&gt; que juegues en este turno cuesta (0).</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; El siguiente &lt;b&gt;Secreto&lt;/b&gt; que juegues este turno costará (0) cristales.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Das nächste &lt;b&gt;Geheimnis&lt;/b&gt;, das Ihr in diesem Zug ausspielt, kostet (0).</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Brady</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Cat or Bear?  Cat or Bear?!  I just cannot CHOOSE!</enUS>
-    <zhTW>獵豹還是熊?獵豹還是熊?我沒辦法決定啦!</zhTW>
-    <zhCN>是猎豹还是熊？！是猎豹还是熊？！真是艰难的抉择！</zhCN>
-    <ruRU>Кошка или медведь? Медведь или кошка? Очень сложный выбор!</ruRU>
-    <ptBR>Felino ou Urso? Felino ou Urso?! Eu não consigo ESCOLHER!</ptBR>
-    <plPL>„Wcześniej nazywaliśmy się Druidami Pazura, ale wciąż pytano nas o pokrewieństwo z jakimś Czarkiem”. - Starszy Druid Szponów</plPL>
-    <koKR>표범이냐, 곰이냐, 그것이 문제로다.</koKR>
-    <itIT>Forma Felina o Forma d'Orso? Difficile scegliere!</itIT>
-    <frFR>Félin ou ours ? Ours ou félin ?! Je n’arrive PAS à décider !</frFR>
-    <esMX>¿Oso o felino? ¿Oso o felino? ¡No puedo DECIDIRME!</esMX>
-    <esES>¿Gato u oso? ¡¿Gato u oso?! ¡Decisiones! ¡Decisiones!</esES>
-    <deDE>Katze? Bär? Katze? Bär? Katze? Bär? Oh Mann, ich kann mich einfach nicht entscheiden!</deDE>
+    <enUS>The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.</enUS>
+    <zhTW>祈倫托住在飄浮的城市達拉然裡。如何調製飄浮達拉然?兩球冰淇淋，一球達拉然。</zhTW>
+    <zhCN>肯瑞托的法师们居住在飘浮之城达拉然。怎样让达拉然飘起来？只要用魔法把氢气球变成透明的就行了。</zhCN>
+    <ruRU>Кирин-Тор заседает в парящем городе Даларане. Хотите рецепт парящего Даларана? Два шарика мороженого, один шарик Даларана.</ruRU>
+    <ptBR>A sede do Kirin Tor fica na cidade flutuante de Dalaran. Como é que ela flutua? Será que usam balões? Balões nunca são uma boa ideia.</ptBR>
+    <plPL>Kirin Tor ma siedzibę w latającym mieście Dalaran. Jak Dalaran utrzymuje się w powietrzu? Dwie gałki lodów, a na to jedna gałka Dalaranu.</plPL>
+    <koKR>누구에게도 말할 수 없는 비밀이 있다면 키린 토 마법사를 찾아가세요. 공짜로 들어준답니다. 단, 선착순 1명만이랍니다.</koKR>
+    <itIT>Il Kirin Tor ha sede nella città sospesa di Dalaran. Come si fa a sospendere Dalaran? Con una bella nota sul registro! </itIT>
+    <frFR>Les mages du Kirin Tor résident dans la cité flottante de Dalaran. Une ville qui flotte ? Et pourquoi pas des chevaux ailés !!!</frFR>
+    <esMX>Los Kirin Tor viven en la ciudad flotante de Dalaran. ¿Cómo logran que flote? Baten siete claras a punto nieve y agregan una pizca de Dalaran.</esMX>
+    <esES>El Kirin Tor se encuentra en la ciudad flotante de Dalaran. ¿Cómo flota Dalaran? Apunta al suelo y falla.</esES>
+    <deDE>Die Kirin Tor sind die mächtigsten Magier von ganz Azeroth und leben in der schwebenden Stadt Dalaran. Sie mögen Tore und Torten.</deDE>
   </Tag>
-  <ReferencedTag name="Taunt" enumID="190" type="Bool" value="1" />
-  <ReferencedTag name="Charge" enumID="197" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Popo Wei</enUS>
+  </Tag>
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
+  <Power definition="87fac18f-63f8-4d0f-b005-adf249191811" />
 </Entity>

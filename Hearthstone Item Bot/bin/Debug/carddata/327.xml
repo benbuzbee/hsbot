@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_612o">
+<Entity version="2" CardID="EX1_586">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Power of the Kirin Tor</enUS>
-    <frFR>Puissance du Kirin Tor</frFR>
-    <zhTW>祈倫托之力</zhTW>
-    <zhCN>肯瑞托之力</zhCN>
-    <ruRU>Сила Кирин-Тора</ruRU>
-    <ptBR>Poder do Kirin Tor</ptBR>
-    <plPL>Moc Kirin Toru</plPL>
-    <koKR>키린 토의 힘</koKR>
-    <itIT>Potere del Kirin Tor</itIT>
-    <esMX>Poder del Kirin Tor</esMX>
-    <esES>Poder del Kirin Tor</esES>
-    <deDE>Macht der Kirin Tor</deDE>
+    <enUS>Sea Giant</enUS>
+    <frFR>Géant des mers</frFR>
+    <zhTW>海巨人</zhTW>
+    <zhCN>海巨人</zhCN>
+    <ruRU>Морской великан</ruRU>
+    <ptBR>Gigante do Mar</ptBR>
+    <plPL>Morski olbrzym</plPL>
+    <koKR>바다거인</koKR>
+    <itIT>Gigante di Mare</itIT>
+    <esMX>Gigante de mar</esMX>
+    <esES>Gigante de mar</esES>
+    <deDE>Meeresriese</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="10" />
+  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="Atk" enumID="47" type="Number" value="8" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your next Secret costs (0).</enUS>
-    <frFR>Votre prochain Secret coûte (0).</frFR>
-    <zhTW>你的下一個秘密消耗(0)點</zhTW>
-    <zhCN>你的下一个奥秘的法力值消耗为（0）点。</zhCN>
-    <ruRU>Ваш следующий секрет стоит (0) маны.</ruRU>
-    <ptBR>Seu próximo Segredo custará (0).</ptBR>
-    <plPL>Twój następny Sekret kosztuje (0).</plPL>
-    <koKR>다음 비밀 비용 (0)</koKR>
-    <itIT>Il tuo prossimo Segreto costa (0) Mana.</itIT>
-    <esMX>Tu próximo Secreto cuesta (0).</esMX>
-    <esES>Tu siguiente secreto cuesta (0) cristales.</esES>
-    <deDE>Euer nächstes Geheimnis kostet (0).</deDE>
+    <enUS>Costs (1) less for each other minion on the battlefield.</enUS>
+    <frFR>Coûte (1) cristal de moins pour chaque autre serviteur sur le champ de bataille.</frFR>
+    <zhTW>戰場上其他的每一個手下使消耗減少(1)點</zhTW>
+    <zhCN>战场上每有一个其他随从，该牌的法力值消耗便减少（1）点。</zhCN>
+    <ruRU>Стоит на (1) ману меньше за каждое другое существо на поле боя.</ruRU>
+    <ptBR>Custa (1) a menos para cada um dos outros lacaios no campo de batalha.</ptBR>
+    <plPL>Kosztuje (1) mniej za każdego innego stronnika na polu bitwy.</plPL>
+    <koKR>전장의 하수인 하나당 비용이 (1)씩 감소합니다.</koKR>
+    <itIT>Costa (1) Mana in meno per ogni servitore sul campo di battaglia.</itIT>
+    <esMX>Cuesta (1) menos por cada uno de los otros esbirros que haya en el campo de batalla.</esMX>
+    <esES>Cuesta (1) cristal menos por cada esbirro adicional en el campo de batalla.</esES>
+    <deDE>Kostet (1) weniger für jeden anderen Diener auf dem Schlachtfeld.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="c0c6814c-1a9e-46fa-b65b-43c0392b1f57" />
-  <Power definition="f1dbf231-9e02-48aa-bb50-bc1274430477" />
-  <Power definition="839c446f-e882-4ddb-b398-52bf54d1a841" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Svetlin Velinov</enUS>
+  </Tag>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>See?  Giant.</enUS>
+    <zhTW>嗨!巨人!</zhTW>
+    <zhCN>嗨，巨人！</zhCN>
+    <ruRU>Ночевала тучка золотая на груди морского великана...</ruRU>
+    <ptBR>Viu? Gigante.</ptBR>
+    <plPL>A może ten olbrzym od morza woli góry?</plPL>
+    <koKR>거인과 바다</koKR>
+    <itIT>Verrà combattuto da robot giganti.</itIT>
+    <frFR>Ho ho ho, géant des mers !</frFR>
+    <esMX>La mar de gigante.</esMX>
+    <esES>Es la mar de salado.</esES>
+    <deDE>Ein Meeresriese genießt gern mal eine kühle Meeresbrise.</deDE>
+  </Tag>
+  <Power definition="c6550b1a-7a9d-48d9-b77e-22c380f0fc37" />
 </Entity>

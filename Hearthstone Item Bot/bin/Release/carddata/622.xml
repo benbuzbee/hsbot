@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_226e">
+<Entity version="2" CardID="EX1_103e">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Frostwolf Banner</enUS>
-    <zhTW>霜狼旌旗</zhTW>
-    <zhCN>霜狼军旗</zhCN>
-    <ruRU>Знамя Северного Волка</ruRU>
-    <ptBR>Estandarte dos Lobo do Gelo</ptBR>
-    <plPL>Sztandar Mroźnych Wilków</plPL>
-    <koKR>서리늑대 깃발</koKR>
-    <itIT>Stendardo dei Lupi Bianchi</itIT>
-    <frFR>Bannière loup-de-givre</frFR>
-    <esMX>Estandarte Lobo Gélido</esMX>
-    <esES>Estandarte Lobo Gélido</esES>
-    <deDE>Banner der Frostwölfe</deDE>
+    <enUS>Mrghlglhal</enUS>
+    <frFR>Mrghlglhal</frFR>
+    <zhTW>姆嘎哈歐</zhTW>
+    <zhCN>鱼人怒吼</zhCN>
+    <ruRU>Мрглаарг!</ruRU>
+    <ptBR>Mrghlglhal</ptBR>
+    <plPL>Mrghlglhal</plPL>
+    <koKR>아옳옳옳</koKR>
+    <itIT>Mrghlglhal</itIT>
+    <esMX>Mrghlglhal</esMX>
+    <esES>Mrghlglhal</esES>
+    <deDE>Mrghlglhal</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Increased stats.</enUS>
-    <zhTW>屬性提高</zhTW>
-    <zhCN>属性值提高。</zhCN>
-    <ruRU>Характеристики увеличены.</ruRU>
-    <ptBR>Atributos aumentados.</ptBR>
-    <plPL>Zwiększone statystyki.</plPL>
-    <koKR>능력치 상승</koKR>
-    <itIT>Statistiche aumentate.</itIT>
-    <frFR>Caractéristiques augmentées.</frFR>
-    <esMX>Estadísticas aumentadas.</esMX>
-    <esES>Estadísticas aumentadas.</esES>
-    <deDE>Erhöhte Werte.</deDE>
+    <enUS>+2 Health.</enUS>
+    <frFR>+2 PV.</frFR>
+    <zhTW>+2生命值</zhTW>
+    <zhCN>+2生命值。</zhCN>
+    <ruRU>+2 к здоровью.</ruRU>
+    <ptBR>+2 de Vida.</ptBR>
+    <plPL>+2 do zdrowia.</plPL>
+    <koKR>생명력 +2</koKR>
+    <itIT>+2 Salute.</itIT>
+    <esMX>+2 de Salud.</esMX>
+    <esES>+2 p. de salud.</esES>
+    <deDE>+2 Leben.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
-  <Power definition="4f170e6a-b1c5-40a4-a079-7bbf5a5e2408" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Power definition="643c6ff9-8cb2-4e43-a420-bc2298b2d217" />
 </Entity>

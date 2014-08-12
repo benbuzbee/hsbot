@@ -1,67 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_236">
-  <MasterPower>80eea4e6-5792-4f2a-9dff-6bf8cb17804f</MasterPower>
+<Entity version="2" CardID="NAX14_04">
+  <MasterPower>6d7596dd-25a2-498a-ac59-62833418653d</MasterPower>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Divine Spirit</enUS>
-    <frFR>Esprit divin</frFR>
-    <zhTW>神聖精神</zhTW>
-    <zhCN>神圣之灵</zhCN>
-    <ruRU>Божественный дух</ruRU>
-    <ptBR>Espírito Divino</ptBR>
-    <plPL>Boski duch</plPL>
-    <koKR>천상의 정신</koKR>
-    <itIT>Spirito Divino</itIT>
-    <esMX>Espíritu divino</esMX>
-    <esES>Espíritu divino</esES>
-    <deDE>Göttlicher Wille</deDE>
+    <enUS>Pure Cold</enUS>
+    <zhTW>極寒</zhTW>
+    <zhCN>极寒之击</zhCN>
+    <ruRU>Чистый холод</ruRU>
+    <ptBR>Frio Puro</ptBR>
+    <plPL>Przejmujące zimno</plPL>
+    <koKR>순수한 추위</koKR>
+    <itIT>Gelo Puro</itIT>
+    <frFR>Froid absolu</frFR>
+    <esMX>Frío crudo</esMX>
+    <esES>Frío puro</esES>
+    <deDE>Pure Kälte</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="6" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Double a minion's Health.</enUS>
-    <frFR>Double les points de vie d’un serviteur.</frFR>
-    <zhTW>使一個手下的生命值加倍</zhTW>
-    <zhCN>使一个随从的生命值翻倍。</zhCN>
-    <ruRU>Удваивает здоровье выбранного существа.</ruRU>
-    <ptBR>Dobre a Vida de um lacaio.</ptBR>
-    <plPL>Podwajasz zdrowie stronnika.</plPL>
-    <koKR>하수인 하나의 생명력을 2배 증가시킵니다.</koKR>
-    <itIT>Raddoppia la Salute di un servitore.</itIT>
-    <esMX>Duplica la Salud de un esbirro.</esMX>
-    <esES>Duplica la salud de un esbirro.</esES>
-    <deDE>Verdoppelt das Leben eines Dieners.</deDE>
+    <enUS>Deal $8 damage to the enemy hero, and &lt;b&gt;Freeze&lt;/b&gt; it.</enUS>
+    <zhTW>對敵方英雄造成$8點傷害並使其&lt;b&gt;凍結&lt;/b&gt;</zhTW>
+    <zhCN>对敌方英雄造成$8点伤害，并使其&lt;b&gt;冻结&lt;/b&gt;。</zhCN>
+    <ruRU>Наносит $8 ед. урона герою противника и &lt;b&gt;замораживает&lt;/b&gt; его.</ruRU>
+    <ptBR>Cause $8 de dano ao herói inimigo e &lt;b&gt;Congele&lt;/b&gt;-o.</ptBR>
+    <plPL>Zadaj $8 pkt. obrażeń wrogiemu bohaterowi i go &lt;b&gt;Zamroź&lt;/b&gt;.</plPL>
+    <koKR>적 영웅에게 피해를 $8 주고 &lt;b&gt;빙결&lt;/b&gt;시킵니다.</koKR>
+    <itIT>Infligge $8 danni all'eroe nemico e lo &lt;b&gt;Congela&lt;/b&gt;.</itIT>
+    <frFR>Inflige $8 |4(point,points) de dégâts au héros adverse, et le &lt;b&gt;gèle&lt;/b&gt;.</frFR>
+    <esMX>Inflige $8 de daño al héroe enemigo y lo &lt;b&gt;Congela&lt;/b&gt;.</esMX>
+    <esES>Inflige $8 p. de daño al héroe enemigo y lo &lt;b&gt;congela&lt;/b&gt;.</esES>
+    <deDE>Fügt dem feindlichen Helden $8 Schaden zu und &lt;b&gt;friert&lt;/b&gt; ihn ein.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Jim Pavelec</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Double the trouble. Double the fun!</enUS>
-    <zhTW>麻煩加倍，樂趣也加倍!</zhTW>
-    <zhCN>加倍的付出会得到加倍的收获！</zhCN>
-    <ruRU>Вдвое больше веселья, вдвое больше головной боли!</ruRU>
-    <ptBR>Dobro de confusão. Dobro de diversão!</ptBR>
-    <plPL>Takiego potrojenia jak to podwojenie nie ma ani jednego.</plPL>
-    <koKR>골칫거리 2배, 재미도 2배!</koKR>
-    <itIT>Doppia sfida, doppio divertimento!</itIT>
-    <frFR>Règle deux : la double dose !</frFR>
-    <esMX>El doble de problemas. ¡El doble de diversión!</esMX>
-    <esES>El doble de salud, ¡el doble de diversión!</esES>
-    <deDE>Der Beweis für das Sprichwort: Doppelt hält besser!</deDE>
-  </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 2.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 28.</enUS>
-  </Tag>
-  <Power definition="80eea4e6-5792-4f2a-9dff-6bf8cb17804f">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="1" param="" />
-  </Power>
+  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
+  <Power definition="6d7596dd-25a2-498a-ac59-62833418653d" />
 </Entity>

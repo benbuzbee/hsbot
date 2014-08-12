@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4e_001">
+<Entity version="2" CardID="EX1_166b">
+  <MasterPower>963b5b27-818e-4915-815d-c7fc3a1c330e</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Illidan Stormrage</enUS>
-    <frFR>Illidan Hurlorage</frFR>
-    <zhTW>伊利丹·怒風</zhTW>
-    <zhCN>伊利丹·怒风</zhCN>
-    <ruRU>Иллидан Ярость Бури</ruRU>
-    <ptBR>Illidan Tempesfúria</ptBR>
-    <plPL>Illidan Burzogniewny</plPL>
-    <koKR>일리단 스톰레이지</koKR>
-    <itIT>Illidan Grantempesta</itIT>
-    <esMX>Illidan Tempestira</esMX>
-    <esES>Illidan Tempestira</esES>
-    <deDE>Illidan Sturmgrimm</deDE>
+    <enUS>Dispel</enUS>
+    <frFR>Dissipation</frFR>
+    <zhTW>驅散</zhTW>
+    <zhCN>禁魔</zhCN>
+    <ruRU>Рассеивание</ruRU>
+    <ptBR>Dissipar</ptBR>
+    <plPL>Rozproszenie</plPL>
+    <koKR>무효화</koKR>
+    <itIT>Dissoluzione</itIT>
+    <esMX>Disipar</esMX>
+    <esES>Disipar</esES>
+    <deDE>Bannen</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="CardType" enumID="202" type="CardType" value="3" />
-  <Tag name="Health" enumID="45" type="Number" value="30" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Silence&lt;/b&gt; a minion.</enUS>
+    <frFR>Réduit au &lt;b&gt;Silence&lt;/b&gt; un serviteur.</frFR>
+    <zhTW>&lt;b&gt;沉默&lt;/b&gt;一個手下</zhTW>
+    <zhCN>&lt;b&gt;沉默&lt;/b&gt;一个随从。</zhCN>
+    <ruRU>Накладывает на существо эффект &lt;b&gt;немоты&lt;/b&gt;.</ruRU>
+    <ptBR>&lt;b&gt;Silencie&lt;/b&gt; um lacaio.</ptBR>
+    <plPL>&lt;b&gt;Wycisz&lt;/b&gt; stronnika.</plPL>
+    <koKR>하수인 하나를 &lt;b&gt;침묵&lt;/b&gt;시킵니다.</koKR>
+    <itIT>&lt;b&gt;Silenzia&lt;/b&gt; un servitore.</itIT>
+    <esMX>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esMX>
+    <esES>&lt;b&gt;Silencia&lt;/b&gt; a un esbirro.</esES>
+    <deDE>Bringt einen Diener zum &lt;b&gt;Schweigen&lt;/b&gt;.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="867aafb7-a471-4fb8-909a-02e2a8f8bb2b" />
-  <Power definition="c538aa7e-c281-4526-9557-d7c28f671258" />
-  <Power definition="9a4aa88e-d14f-4c80-bd51-5a139f1d64b4" />
-  <Power definition="9d2c394a-87a9-4dc5-8893-f7d92c9eae5a" />
-  <Power definition="48f46f94-6113-43ac-866a-fb43f2cc4814" />
-  <Power definition="3ff9f237-d993-422c-af30-911f5cabc322" />
-  <Power definition="b59b5e0d-9062-447a-b643-f99b3de1f039" />
-  <Power definition="a7ef0239-6ba3-4b8d-a61e-1e8f965e15f5" />
-  <Power definition="f1ba3e5b-5dee-4095-ae05-f88ac523880e" />
-  <Power definition="0042b5e5-a890-4158-8f4a-8863cc7a83b4" />
+  <Tag name="Silence" enumID="339" type="Bool" value="1" />
+  <Power definition="963b5b27-818e-4915-815d-c7fc3a1c330e">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

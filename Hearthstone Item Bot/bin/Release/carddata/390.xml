@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_013t">
-  <MasterPower>afbc46d9-471b-4963-944a-fddb08f7df86</MasterPower>
+<Entity version="2" CardID="NAX8_05t">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Excess Mana</enUS>
-    <zhTW>法力溢出</zhTW>
-    <zhCN>法力过剩</zhCN>
-    <ruRU>Избыток маны</ruRU>
-    <ptBR>Excesso de Mana</ptBR>
-    <plPL>Nadmiar many</plPL>
-    <koKR>넘치는 마나</koKR>
-    <itIT>Eccesso di Mana</itIT>
-    <frFR>Excès de mana</frFR>
-    <esMX>Exceso de maná</esMX>
-    <esES>Maná sobrante</esES>
-    <deDE>Überschüssiges Mana</deDE>
+    <enUS>Spectral Rider</enUS>
+    <zhTW>鬼靈騎兵</zhTW>
+    <zhCN>鬼灵骑兵</zhCN>
+    <ruRU>Призрачный всадник</ruRU>
+    <ptBR>Cavalgante Espectral</ptBR>
+    <plPL>Widmowy jeździec</plPL>
+    <koKR>유령 기병</koKR>
+    <itIT>Cavaliere Spettrale</itIT>
+    <frFR>Cavalier spectral</frFR>
+    <esMX>Jinete espectral</esMX>
+    <esES>Jinete espectral</esES>
+    <deDE>Spektraler Reiter</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Draw a card. &lt;i&gt;(You can only have 10 Mana in your tray.)&lt;/i&gt;</enUS>
-    <zhTW>抽一張牌。&lt;i&gt;(你最多只能擁有10顆法力水晶)&lt;/i&gt;</zhTW>
-    <zhCN>抽一张牌。&lt;i&gt;（你最多可以拥有10个法力水晶。）&lt;/i&gt;</zhCN>
-    <ruRU>Вы берете карту. &lt;i&gt;(У вас должно быть 10 кристаллов маны.)&lt;/i&gt;</ruRU>
-    <ptBR>Compre um card. &lt;i&gt;(Você só pode ter 10 de Mana na sua mesa.)&lt;/i&gt;</ptBR>
-    <plPL>Dobierz kartę (możesz mieć maksymalnie 10 many w zasobniku).</plPL>
-    <koKR>카드를 1장 뽑습니다. &lt;i&gt;(마나 수정은 10개까지만 보유 가능)&lt;/i&gt;</koKR>
-    <itIT>Pesca una carta &lt;i&gt;(puoi avere al massimo 10 Cristalli di Mana)&lt;/i&gt;.</itIT>
-    <frFR>Vous piochez une carte. &lt;i&gt;(Vous ne pouvez avoir que 10 cristaux de mana en réserve.)&lt;/i&gt;</frFR>
-    <esMX>Roba una carta. &lt;i&gt;(Solo puedes tener 10 de maná en tu bandeja)&lt;/i&gt;.</esMX>
-    <esES>Roba una carta. &lt;i&gt;(Solo puedes tener 10 cristales de maná.)&lt;/i&gt;</esES>
-    <deDE>Zieht eine Karte. &lt;i&gt;(Ihr könnt nur 10 Mana in Eurer Leiste haben.)&lt;/i&gt;</deDE>
+    <enUS>At the start of your turn, deal 1 damage to your hero.</enUS>
+    <zhTW>在你的回合開始時，對你的英雄造成1點傷害</zhTW>
+    <zhCN>在你的回合开始时，对你的英雄造成1点伤害。</zhCN>
+    <ruRU>В начале вашего хода наносит 1 ед. урона вашему герою.</ruRU>
+    <ptBR>No início do seu turno, cause 1 de dano ao seu herói.</ptBR>
+    <plPL>Na początku twojej tury zadaje 1 pkt. obrażeń twojemu bohaterowi.</plPL>
+    <koKR>내 턴이 시작될 때, 내 영웅에게 피해를 1 줍니다.</koKR>
+    <itIT>All'inizio del tuo turno, infligge 1 danno al tuo eroe.</itIT>
+    <frFR>Au début de votre tour, inflige 1 point de dégâts à votre héros.</frFR>
+    <esMX>Al comienzo de tu turno, inflige 1 de daño a tu héroe.</esMX>
+    <esES>Al comienzo de tu turno, inflige 1 p. de daño a tu héroe.</esES>
+    <deDE>Fügt Eurem Helden zu Beginn Eures Zuges 1 Schaden zu.</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="afbc46d9-471b-4963-944a-fddb08f7df86" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="aa6ea2d1-9140-40f2-b8a7-53cd31efec88" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

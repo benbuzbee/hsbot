@@ -1,38 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="PRO_001a">
-  <MasterPower>129391e2-531b-495b-a5ff-8dc0d7747e01</MasterPower>
+<Entity version="2" CardID="EX1_258">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>I Am Murloc</enUS>
-    <zhTW>我是魚人</zhTW>
-    <zhCN>我是鱼人</zhCN>
-    <ruRU>«I Am Murloc»</ruRU>
-    <ptBR>Eu Sou Murloc</ptBR>
-    <plPL>Jestem murlokiem</plPL>
-    <koKR>나는야 멀록</koKR>
-    <itIT>I Am Murloc</itIT>
-    <frFR>Je suis murloc</frFR>
-    <esMX>I Am Murloc</esMX>
-    <esES>I Am Murloc</esES>
-    <deDE>„I Am Murloc“</deDE>
+    <enUS>Unbound Elemental</enUS>
+    <frFR>Élémentaire délié</frFR>
+    <zhTW>無縛的元素</zhTW>
+    <zhCN>无羁元素</zhCN>
+    <ruRU>Вольный элементаль</ruRU>
+    <ptBR>Elemental Desvinculado</ptBR>
+    <plPL>Wyzwolony żywiołak</plPL>
+    <koKR>속박 풀린 정령</koKR>
+    <itIT>Elementale Indomito</itIT>
+    <esMX>Elemental desatado</esMX>
+    <esES>Elemental desatado</esES>
+    <deDE>Entfesselter Elementar</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Summon three, four, or five 1/1 Murlocs.</enUS>
-    <zhTW>召喚三至五隻1/1魚人</zhTW>
-    <zhCN>召唤三只、四只或者五只1/1的鱼人。</zhCN>
-    <ruRU>Призывает на поле боя три, четыре или пять мурлоков 1/1.</ruRU>
-    <ptBR>Evoca três, quatro ou cinco Murlocs 1/1.</ptBR>
-    <plPL>Przyzwij trzy, cztery albo pięć murloków 1/1.</plPL>
-    <koKR>3마리, 4마리, 또는 5마리 1/1 멀록을 소환합니다.</koKR>
-    <itIT>Evoca tre, quattro o cinque Murloc 1/1.</itIT>
-    <frFR>Invoque trois, quatre ou cinq murlocs 1/1.</frFR>
-    <esMX>Invoca tres, cuatro o cinco múrlocs 1/1.</esMX>
-    <esES>Invoca tres, cuatro o cinco múrlocs 1/1.</esES>
-    <deDE>Beschwört drei, vier oder fünf Murlocs (1/1).</deDE>
+    <enUS>Whenever you play a card with &lt;b&gt;Overload&lt;/b&gt;, gain +1/+1.</enUS>
+    <frFR>Chaque fois que vous jouez une carte avec &lt;b&gt;Surcharge&lt;/b&gt;, gagne +1/+1.</frFR>
+    <zhTW>每當你打出有&lt;b&gt;超載&lt;/b&gt;的牌，便獲得+1/+1</zhTW>
+    <zhCN>每当你使用一张具有&lt;b&gt;过载&lt;/b&gt;的牌，便获得+1/+1。</zhCN>
+    <ruRU>Когда вы разыгрываете карту с &lt;b&gt;Перегрузкой&lt;/b&gt;, это существо получает +1/+1. </ruRU>
+    <ptBR>Sempre que você jogar um card com &lt;b&gt;Sobrecarga&lt;/b&gt;, receba +1/+1.</ptBR>
+    <plPL>Otrzymuje +1/+1 za każdym razem, gdy zagrasz kartę z &lt;b&gt;Przeciążeniem&lt;/b&gt;.</plPL>
+    <koKR>내가 &lt;b&gt;과부하&lt;/b&gt; 카드를 1장 낼 때마다 +1/+1을 얻습니다.</koKR>
+    <itIT>Ottiene +1/+1 quando giochi una carta con &lt;b&gt;Sovraccarico&lt;/b&gt;.</itIT>
+    <esMX>Cada vez que juegas una carta con &lt;b&gt;Sobrecarga&lt;/b&gt;, obtiene +1/+1.</esMX>
+    <esES>Cuando juegas una carta con &lt;b&gt;Sobrecarga&lt;/b&gt;, obtiene +1/+1.</esES>
+    <deDE>Erhält jedes Mal +1/+1, wenn Ihr eine Karte mit &lt;b&gt;Überladung&lt;/b&gt; ausspielt.</deDE>
   </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="129391e2-531b-495b-a5ff-8dc0d7747e01" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Matt Gaser</enUS>
+  </Tag>
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>Unlike bound elementals, Unbound ones really enjoy a night on the town.</enUS>
+    <zhTW>不像受到束縛的元素，無縛的元素可以在晚上到鎮上逛街。</zhTW>
+    <zhCN>无拘无束的它喜欢在灯红酒绿的城里度过每个夜晚。</zhCN>
+    <ruRU>В отличие от &lt;i&gt;безвольных&lt;/i&gt; элементалей, эти умеют добиваться своего.</ruRU>
+    <ptBR>Diferente dos elementais vinculados, os Desvinculados sempre aproveitam uma noitada na cidade.</ptBR>
+    <plPL>Zbiera datki na „Ruch Wyzwolenia Żywiołaków”.</plPL>
+    <koKR>구속된 정령과 달리, 속박 풀린 정령은 뜨거운 밤을 즐길 줄 압니다.</koKR>
+    <itIT>Diversamente da quelli vincolati, gli Elementali Indomiti non si fanno mettere in castigo da nessuno.</itIT>
+    <frFR>Moi je dirais plutôt qu’il se délite !</frFR>
+    <esMX>A diferencia de los elementales esclavos, a los desatados les encanta salir a pasear por la ciudad.</esMX>
+    <esES>A los elementales desatados les va la marcha.</esES>
+    <deDE>Anders als gefesselte Elementare gehen ungefesselte Elementare auch öfter mal aus.</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <ReferencedTag name="Recall" enumID="215" type="Number" value="1" />
+  <Power definition="e134bcf9-5480-432e-a702-47b3e3e3ef6f" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

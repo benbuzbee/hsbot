@@ -1,63 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_147">
+<Entity version="2" CardID="CS2_046">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Gnomish Inventor</enUS>
-    <frFR>Inventeur gnome</frFR>
-    <zhTW>地精發明家</zhTW>
-    <zhCN>侏儒发明家</zhCN>
-    <ruRU>Гном-изобретатель</ruRU>
-    <ptBR>Inventora Gnômica</ptBR>
-    <plPL>Gnomka wynalazca</plPL>
-    <koKR>노움 발명가</koKR>
-    <itIT>Gnoma Inventrice</itIT>
-    <esMX>Inventora gnómica</esMX>
-    <esES>Inventora gnoma</esES>
-    <deDE>Gnomische Erfinderin</deDE>
+    <enUS>Bloodlust</enUS>
+    <frFR>Furie sanguinaire</frFR>
+    <zhTW>嗜血術</zhTW>
+    <zhCN>嗜血</zhCN>
+    <ruRU>Жажда крови</ruRU>
+    <ptBR>Sede de Sangue</ptBR>
+    <plPL>Żądza krwi</plPL>
+    <koKR>피의 욕망</koKR>
+    <itIT>Brama di Sangue</itIT>
+    <esMX>Ansia de sangre</esMX>
+    <esES>Ansia de sangre</esES>
+    <deDE>Kampfrausch</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Draw a card.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;抽一張牌</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;抽一张牌。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; вы берете карту.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Compre um card.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Dobierz kartę.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 카드를 1장 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; pesca una carta.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; roba una carta.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Roba una carta.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zieht eine Karte.</deDE>
-  </Tag>
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>Give your minions +3 Attack this turn.</enUS>
+    <frFR>Confère +3 ATQ à vos serviteurs pendant ce tour.</frFR>
+    <zhTW>本回合賦予你的全部手下+3攻擊力</zhTW>
+    <zhCN>在本回合中，使你的随从获得+3攻击力。</zhCN>
+    <ruRU>Ваши существа получают +3 к атаке до конца хода.</ruRU>
+    <ptBR>Conceda +3 de Ataque aos seus lacaios neste turno.</ptBR>
+    <plPL>Daj swoim stronnikom +3 do ataku w tej turze.</plPL>
+    <koKR>이번 턴에 내 하수인들에게 공격력을 +3 부여합니다.</koKR>
+    <itIT>+3 Attacco ai tuoi servitori per questo turno.</itIT>
+    <esMX>Otorga +3 de Ataque a tus esbirros en este turno.</esMX>
+    <esES>Otorga a tus esbirros +3 p. de ataque este turno.</esES>
+    <deDE>Verleiht Euren Dienern +3 Angriff in diesem Zug.</deDE>
+  </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Court Jones</enUS>
+    <enUS>Luca Zontini</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>She's never quite sure what she's making, she just knows it's AWESOME!</enUS>
-    <zhTW>她不太清楚她在製造什麼，她只知道做出來的東西一定棒透了!</zhTW>
-    <zhCN>她从来不知道她想发明的是什么，她只知道要发明很棒的东西！</zhCN>
-    <ruRU>Она никогда не знает, что изобретет в следующий раз, но уверена, что это будет нечто потрясающее!</ruRU>
-    <ptBR>Ela nunca tem certeza do que está fazendo, mas sabe que é DEMAIS!</ptBR>
-    <plPL>Nigdy nie jest pewna, co właściwie wymyśla. Ale wie jedno - będzie ODJAZDOWE!</plPL>
-    <koKR>사실 본인도 뭘 만들고 있는지 잘 모릅니다. 그게 끝내주는 물건이라는 점만 빼고요.</koKR>
-    <itIT>Prima inventa, poi decide a cosa servirà l'invenzione.</itIT>
-    <frFR>Quelles que soient ses inventions, elles sont toujours GÉNIALES !</frFR>
-    <esMX>Nunca sabe bien qué está construyendo, lo único que sabe es que será ¡FABULOSO!</esMX>
-    <esES>No sabe lo que está inventando, ¡pero está segura de que será genial!</esES>
-    <deDE>Wenn sie etwas bastelt, weiß sie nie, was am Ende dabei herauskommt.</deDE>
+    <enUS>blaarghghLLGHRHARAAHAHHH!!</enUS>
+    <zhTW>呃嗚喔哇啊啊啊啊啊!</zhTW>
+    <zhCN>呜啊哇哇哇哇哇！</zhCN>
+    <ruRU>Блааааааарглрораогаглоаааа!</ruRU>
+    <ptBR>blaarghghLLGHRHARAAHAHHH!!</ptBR>
+    <plPL>blaarghghLLGHRHARAAHAHHH!!</plPL>
+    <koKR>우워오우아오어오우오우아우어오얽!</koKR>
+    <itIT>BlaarghghLLGHRHARAAHAHHH!!</itIT>
+    <frFR>BlaarghghLLGHRHARAAHAHHH !!!</frFR>
+    <esMX>¡blaarghghLLGHRHARAAHAHHH!</esMX>
+    <esES>¡¡BlaarghghLLGHRHARAAHAHHH!!</esES>
+    <deDE>blaarghghLLGHRHARAAHAHHH!!</deDE>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 2.</enUS>
+    <zhTW>於2級時解鎖。</zhTW>
+    <zhCN>达到2级后解锁。</zhCN>
+    <ruRU>Доступна со 2-го уровня.</ruRU>
+    <ptBR>Disponível no nível 2.</ptBR>
+    <plPL>Odblokowane na poziomie 2.</plPL>
+    <koKR>2 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 2.</itIT>
+    <frFR>Débloquée au niveau 2.</frFR>
+    <esMX>Se desbloquea en nivel 2.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 2.</esES>
+    <deDE>Wird auf Stufe 2 freigeschaltet.</deDE>
   </Tag>
   <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Priest Level 57.</enUS>
+    <enUS>Unlocked at Level 40.</enUS>
+    <zhTW>於40級時解鎖。</zhTW>
+    <zhCN>达到40级后解锁。</zhCN>
+    <ruRU>Доступна с 40-го уровня.</ruRU>
+    <ptBR>Disponível no nível 40.</ptBR>
+    <plPL>Odblokowane na poziomie 40.</plPL>
+    <koKR>40 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 40.</itIT>
+    <frFR>Débloquée au niveau 40.</frFR>
+    <esMX>Se desbloquea en nivel 40.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 40.</esES>
+    <deDE>Wird auf Stufe 40 freigeschaltet.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="13c353eb-f689-41f5-a5b5-daed2388805c" />
+  <Power definition="f14b222a-94a7-4690-8a63-2d93b0050007" />
 </Entity>

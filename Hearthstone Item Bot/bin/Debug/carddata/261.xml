@@ -1,41 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_103e">
+<Entity version="2" CardID="HERO_03">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Charge</enUS>
-    <frFR>Charge</frFR>
-    <zhTW>Charge</zhTW>
-    <zhCN>Charge</zhCN>
-    <ruRU>Charge</ruRU>
-    <ptBR>Charge</ptBR>
-    <plPL>Charge</plPL>
-    <koKR>Charge</koKR>
-    <itIT>Charge</itIT>
-    <esMX>Charge</esMX>
-    <esES>Charge</esES>
-    <deDE>Charge</deDE>
+    <enUS>Valeera Sanguinar</enUS>
+    <zhTW>瓦麗拉·桑古納爾</zhTW>
+    <zhCN>瓦莉拉·萨古纳尔</zhCN>
+    <ruRU>Валира Сангвинар</ruRU>
+    <ptBR>Valira Sanguinar</ptBR>
+    <plPL>Valeera Sangwinar</plPL>
+    <koKR>발리라 생귀나르</koKR>
+    <itIT>Valeera Sanguinar</itIT>
+    <frFR>Valeera Sanguinar</frFR>
+    <esMX>Valeera Sanguinar</esMX>
+    <esES>Valeera Sanguinar</esES>
+    <deDE>Valeera Sanguinar</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</enUS>
-    <frFR>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</frFR>
-    <zhTW>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</zhTW>
-    <zhCN>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</zhCN>
-    <ruRU>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</ruRU>
-    <ptBR>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</ptBR>
-    <plPL>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</plPL>
-    <koKR>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</koKR>
-    <itIT>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</itIT>
-    <esMX>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</esMX>
-    <esES>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</esES>
-    <deDE>Minions have &lt;b&gt;Charge&lt;/b&gt; this turn.</deDE>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Tag name="GrantCharge" enumID="355" type="Bool" value="1" />
-  <Power definition="94c3ac64-5c36-4b06-98ce-a13236fdd049" />
-  <Power definition="70fd9a6e-d8c6-4781-971a-38e72f632c90" />
-  <Power definition="7306bd8e-10d2-45a6-8070-aab9ef7e1c99" />
+  <Tag name="CardType" enumID="202" type="CardType" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="30" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Power definition="fa70116c-dccd-4283-8f09-dfda53854b79" />
 </Entity>

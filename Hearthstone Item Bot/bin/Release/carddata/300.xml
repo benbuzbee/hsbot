@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_197">
+<Entity version="2" CardID="EX1_249">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ogre Magi</enUS>
-    <frFR>Ogre-magi</frFR>
-    <zhTW>巨魔法師</zhTW>
-    <zhCN>食人魔法师</zhCN>
-    <ruRU>Огр-маг</ruRU>
-    <ptBR>Ogro Mago</ptBR>
-    <plPL>Ogrzy mag</plPL>
-    <koKR>오우거 마법사</koKR>
-    <itIT>Magus Ogre</itIT>
-    <esMX>Magi ogro</esMX>
-    <esES>Mago ogro</esES>
-    <deDE>Ogermagier</deDE>
+    <enUS>Baron Geddon</enUS>
+    <frFR>Baron Geddon</frFR>
+    <zhTW>迦頓男爵</zhTW>
+    <zhCN>迦顿男爵</zhCN>
+    <ruRU>Барон Геддон</ruRU>
+    <ptBR>Barão Geddon</ptBR>
+    <plPL>Baron Geddon</plPL>
+    <koKR>남작 게돈</koKR>
+    <itIT>Barone Geddon</itIT>
+    <esMX>Barón Geddon</esMX>
+    <esES>Barón Geddon</esES>
+    <deDE>Baron Geddon</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="Atk" enumID="47" type="Number" value="4" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Spell Damage +1&lt;/b&gt;</enUS>
-    <frFR>&lt;b&gt;Dégâts des sorts : +1&lt;/b&gt;</frFR>
-    <zhTW>&lt;b&gt;法術傷害+1&lt;/b&gt;</zhTW>
-    <zhCN>&lt;b&gt;法术伤害+1&lt;/b&gt;</zhCN>
-    <ruRU>&lt;b&gt;Урон от заклинаний +1&lt;/b&gt;</ruRU>
-    <ptBR>&lt;b&gt;+1 de Dano Mágico&lt;/b&gt;</ptBR>
-    <plPL>&lt;b&gt;Obrażenia zaklęć +1&lt;/b&gt;</plPL>
-    <koKR>&lt;b&gt;주문 공격력 +1&lt;/b&gt;</koKR>
-    <itIT>&lt;b&gt;+1 Danni Magici&lt;/b&gt;</itIT>
-    <esMX>&lt;b&gt;Daño de hechizo +1&lt;/b&gt;</esMX>
-    <esES>&lt;b&gt;+1 p. de daño con hechizos&lt;/b&gt;</esES>
-    <deDE>&lt;b&gt;Zauberschaden +1&lt;/b&gt;</deDE>
+    <enUS>At the end of your turn, deal 2 damage to ALL other characters.</enUS>
+    <frFR>À la fin de votre tour, inflige 2 points de dégâts à TOUS les autres personnages.</frFR>
+    <zhTW>在你的回合結束時，對全部其他角色造成2點傷害</zhTW>
+    <zhCN>在你的回合结束时，对所有其他角色造成2点伤害。</zhCN>
+    <ruRU>В конце вашего хода наносит 2 ед. урона ВСЕМ остальным персонажам.</ruRU>
+    <ptBR>No final do seu turno, cause 2 de dano a TODOS os outros personagens.</ptBR>
+    <plPL>Na koniec swojej tury zadaj 2 pkt. obrażeń WSZYSTKIM innym postaciom.</plPL>
+    <koKR>내 턴이 끝날 때, 다른 &lt;b&gt;모든&lt;/b&gt; 캐릭터에게 피해를 2 줍니다.</koKR>
+    <itIT>Alla fine del tuo turno, infligge 2 danni a TUTTI gli altri personaggi.</itIT>
+    <esMX>Al final de tu turno, inflige 2 de daño a TODOS los otros personajes.</esMX>
+    <esES>Al final de tu turno, inflige 2 p. de daño a todos los demás personajes.</esES>
+    <deDE>Fügt am Ende Eures Zuges ALLEN anderen Charakteren 2 Schaden zu.</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>James Ryman</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warlock Level 55.</enUS>
+    <enUS>Ian Ameling</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Training Ogres in the art of spellcasting is a questionable decision.</enUS>
-    <zhTW>當初到底是誰提議要訓練巨魔去學魔法的...</zhTW>
-    <zhCN>教授食人魔如何施法是个值得商榷的决定。</zhCN>
-    <ruRU>И зачем только огров начали обучать волшебству?</ruRU>
-    <ptBR>Treinar ogros na arte de lançar feitiços é uma decisão condenável.</ptBR>
-    <plPL>Nauczanie ogrów magii to dość kontrowersyjny pomysł.</plPL>
-    <koKR>오우거에게 마법을 가르치다니, 차라리 드워프에게 금주를 권하겠어요! 어우, 끔찍해라.</koKR>
-    <itIT>Insegnare agli Ogre la nobile arte della magia è una decisione molto discutibile...</itIT>
-    <frFR>Apprendre aux ogres à lancer des sorts est une décision des plus douteuses.</frFR>
-    <esMX>Iniciar a un ogro en las artes mágicas no es una decisión demasiado sabia.</esMX>
-    <esES>¿A quién se le ocurre enseñar magia a los ogros?</esES>
-    <deDE>Es war eine äußerst fragwürdige Entscheidung, Ogern das Zaubern beizubringen.</deDE>
+    <enUS>Baron Geddon was Ragnaros's foremost lieutenant, until he got FIRED.</enUS>
+    <zhTW>迦頓男爵曾是拉格納羅斯手下的首席軍官，直到他惹火了救火的人。</zhTW>
+    <zhCN>迦顿男爵曾经是拉格纳罗斯的首席副官，因为他实在太“火”了。</zhCN>
+    <ruRU>В детстве его дразнили «Геддон-армагеддон». Он вырос и пошел работать на Рагнароса.</ruRU>
+    <ptBR>O Barão Geddon era o primeiro tenente de Ragnaros, até que ele ficou QUEIMADO com o chefe.</ptBR>
+    <plPL>Baron Geddon był pierwszym przybocznym Ragnarosa, ale stosunki między nimi się ZAOGNIŁY.</plPL>
+    <koKR>한때 라그나로스의 충직한 부관이었지만, 지금은 실직자입니다.</koKR>
+    <itIT>Il Barone Geddon era il primo luogotenente di Ragnaros, finché un giorno non l'ha svegliato TROPPO PRESTO.</itIT>
+    <frFR>Le baron Geddon était le premier lieutenant de Ragnaros, mais il s’enflammait trop vite, et il a été viré.</frFR>
+    <esMX>Y después se pregunta por qué nadie lo quiere...</esMX>
+    <esES>El barón Geddon era el teniente de Ragnaros, pero el puesto le daba ardores.</esES>
+    <deDE>Baron Geddon war Ragnaros' oberster Leutnant, bevor er GEFEUERT wurde.</deDE>
   </Tag>
-  <Tag name="Spellpower" enumID="192" type="Bool" value="1" />
-  <Power definition="5d486b7b-1622-4ab7-adec-7919eaa1c563" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="a63ac6ab-34d7-458f-9dcc-04af6b2bcf4f" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

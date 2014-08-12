@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="XXX_008">
-  <MasterPower>4ea2e34f-de89-480c-b9d9-78f0dd6bb8c5</MasterPower>
+<Entity version="2" CardID="DREAM_03">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Freeze</enUS>
+    <enUS>Emerald Drake</enUS>
+    <frFR>Drake émeraude</frFR>
+    <zhTW>翡翠龍</zhTW>
+    <zhCN>翡翠幼龙</zhCN>
+    <ruRU>Изумрудный дракон</ruRU>
+    <ptBR>Draco Esmeralda</ptBR>
+    <plPL>Szmaragdowy smokowiec</plPL>
+    <koKR>에메랄드 비룡</koKR>
+    <itIT>Draco di Smeraldo</itIT>
+    <esMX>Draco esmeralda</esMX>
+    <esES>Draco esmeralda</esES>
+    <deDE>Smaragddrache</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Freeze&lt;/b&gt; a character.</enUS>
-  </Tag>
-  <Tag name="Freeze" enumID="208" type="Bool" value="1" />
-  <Power definition="4ea2e34f-de89-480c-b9d9-78f0dd6bb8c5">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="7" />
+  <Tag name="Health" enumID="45" type="Number" value="6" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Class" enumID="199" type="Class" value="11" />
+  <Tag name="Race" enumID="200" type="Race" value="24" />
 </Entity>

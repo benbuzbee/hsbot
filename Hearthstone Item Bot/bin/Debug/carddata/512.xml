@@ -1,69 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="CS2_029">
-  <MasterPower>436aaafa-1a04-4392-9ba5-cea496ddd86d</MasterPower>
+<Entity version="2" CardID="CS2_169">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Fireball</enUS>
-    <frFR>Boule de feu</frFR>
-    <zhTW>火球術</zhTW>
-    <zhCN>火球术</zhCN>
-    <ruRU>Огненный шар</ruRU>
-    <ptBR>Bola de Fogo</ptBR>
-    <plPL>Kula ognia</plPL>
-    <koKR>화염구</koKR>
-    <itIT>Palla di Fuoco</itIT>
-    <esMX>Bola de fuego</esMX>
-    <esES>Bola de Fuego</esES>
-    <deDE>Feuerball</deDE>
+    <enUS>Young Dragonhawk</enUS>
+    <frFR>Jeune faucon-dragon</frFR>
+    <zhTW>小龍鷹</zhTW>
+    <zhCN>幼龙鹰</zhCN>
+    <ruRU>Молодой дракондор</ruRU>
+    <ptBR>Falcodrago Jovem</ptBR>
+    <plPL>Smoczy jastrząb</plPL>
+    <koKR>어린 용매</koKR>
+    <itIT>Dragofalco Giovane</itIT>
+    <esMX>Dracohalcón joven</esMX>
+    <esES>Dracohalcón joven</esES>
+    <deDE>Junger Drachenfalke</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="4" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $6 damage.</enUS>
-    <frFR>Inflige $6 |4(point,points) de dégâts.</frFR>
-    <zhTW>造成$6點傷害</zhTW>
-    <zhCN>造成$6点伤害。</zhCN>
-    <ruRU>Наносит $6 ед. урона.</ruRU>
-    <ptBR>Cause $6 de dano.</ptBR>
-    <plPL>Zadaj $6 pkt. obrażeń.</plPL>
-    <koKR>피해를 $6 줍니다.</koKR>
-    <itIT>Infligge $6 danni.</itIT>
-    <esMX>Inflige $6 de daño.</esMX>
-    <esES>Inflige $6 p. de daño.</esES>
-    <deDE>Verursacht $6 Schaden.</deDE>
+    <enUS>&lt;b&gt;Windfury&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Furie des vents&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;風怒&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;风怒&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Неистовство ветра&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Fúria dos Ventos&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Furia wichru&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;질풍&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furia del Vento&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Viento furioso&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Viento Furioso&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Windzorn&lt;/b&gt;</deDE>
   </Tag>
-  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>This spell is useful for burning things.  If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.</enUS>
-    <zhTW>這個法術用來燒東西很有用。如果你在找可以烘東西的法術，或者用來稍微取暖，你就找錯地方了。</zhTW>
-    <zhCN>这个法术会让东西烧起来。如果你是在寻找能把东西烤熟，或者只是加热的法术，你就找错对象了。</zhCN>
-    <ruRU>Этим заклинанием можно сжечь что угодно. Или кого угодно. Если вам надо приготовить жаркое или просто согреться, вы ошиблись адресом.</ruRU>
-    <ptBR>Este feitiço é útil para queimar coisas. Se você está procurando meios de fazer torrada ou só quer se aquecer um pouquinho, está no lugar errado.</ptBR>
-    <plPL>Na widok takiej kuli większość ludzi też się kuli. Ze strachu.</plPL>
-    <koKR>이 주문은 뭐든 불태울 때 좋습니다. 혹시 뭔가 살짝 굽거나 따뜻하게 만드는 주문을 찾으셨다면 죄송합니다.</koKR>
-    <itIT>Questo incantesimo è perfetto per bruciare le cose. Se cerchi una magia per abbrustolire o semplicemente scaldare, sei nel posto sbagliato.</itIT>
-    <frFR>Ce sort est utile pour faire brûler des choses. Si vous cherchez un sort pour griller ou juste réchauffer, vous n’êtes pas au bon endroit.</frFR>
-    <esMX>Este hechizo sirve para quemar cosas. Si necesitas algún hechizo para tostar o para calentar un poco, te recomendamos que busques en otro lado.</esMX>
-    <esES>Este hechizo viene bien para quemar cosas. Si solo te interesan hechizos que tuestan o recalientan cosas, te has equivocado de carta.</esES>
-    <deDE>Dieser Zauber ist nützlich, um Dinge zu verbrennen. Wenn Ihr nach Zaubern sucht, die Dinge rösten oder sie einfach nur aufwärmen, seid Ihr an der falschen Adresse.</deDE>
-  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Ralph Horsley</enUS>
+    <enUS>Greg Hildebrandt</enUS>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 44.</enUS>
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>They were the inspiration for the championship Taurenball team: The Dragonhawks.</enUS>
+    <zhTW>冠軍牛頭球隊「龍鷹隊」就是以牠們做為吉祥物的。</zhTW>
+    <zhCN>无论是战士还是诗人，都能从美丽的龙鹰身上获取战斗或是写作的灵感。</zhCN>
+    <ruRU>В их честь таурены назвали свою лучшую команду по тауренболу «Дракондоры».</ruRU>
+    <ptBR>Eles foram a inspiração para o time campeão de Taurenbol: Os Falcodracos.</ptBR>
+    <plPL>Próba nazwania ich „smostrząbami” nie spotkała się z akceptacją.</plPL>
+    <koKR>벌처럼 날아 나비처럼 쏩니다.</koKR>
+    <itIT>Non è drago, non è falco... sa soltanto quello che non è!</itIT>
+    <frFR>L’équipe championne de tournoi de balle au tauren s’en est inspirée pour choisir leur nom : les faucons-dragons.</frFR>
+    <esMX>¿Es un pájaro? ¿Es un avión? ¡No! ¡Es un dracohalcón!</esMX>
+    <esES>Dan nombre a los Dracohalcones, los deportistas de élite de Cima del Trueno.</esES>
+    <deDE>So zäh und stark wie ein Falke und so leicht und agil wie ein Drache ...</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
-  </Tag>
-  <Power definition="436aaafa-1a04-4392-9ba5-cea496ddd86d">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Windfury" enumID="189" type="Bool" value="1" />
+  <Power definition="3d475a80-25de-4b52-8c22-baecfa5bff4f" />
 </Entity>

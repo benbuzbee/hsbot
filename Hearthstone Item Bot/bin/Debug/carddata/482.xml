@@ -1,64 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_575">
+<Entity version="2" CardID="CS2_077">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Mana Tide Totem</enUS>
-    <zhTW>法力之潮圖騰</zhTW>
-    <zhCN>法力之潮图腾</zhCN>
-    <ruRU>Тотем прилива маны</ruRU>
-    <ptBR>Totem de Vagalhão de Mana</ptBR>
-    <plPL>Totem przypływu many</plPL>
-    <koKR>마나 해일 토템</koKR>
-    <itIT>Totem del Mana</itIT>
-    <frFR>Totem de vague de mana</frFR>
-    <esMX>Tótem Marea de maná</esMX>
-    <esES>Tótem Marea de maná</esES>
-    <deDE>Manafluttotem</deDE>
+    <enUS>Sprint</enUS>
+    <frFR>Sprint</frFR>
+    <zhTW>疾跑</zhTW>
+    <zhCN>疾跑</zhCN>
+    <ruRU>Спринт</ruRU>
+    <ptBR>Disparada</ptBR>
+    <plPL>Sprint</plPL>
+    <koKR>전력 질주</koKR>
+    <itIT>Scatto</itIT>
+    <esMX>Sprint</esMX>
+    <esES>Sprint</esES>
+    <deDE>Sprinten</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="7" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, draw a card.</enUS>
-    <zhTW>在你的回合結束時，抽一張牌</zhTW>
-    <zhCN>在你的回合结束时，抽一张牌。</zhCN>
-    <ruRU>В конце вашего хода вы берете карту.</ruRU>
-    <ptBR>No final do seu turno, compre um card.</ptBR>
-    <plPL>Na koniec swojej tury dobierz kartę.</plPL>
-    <koKR>내 턴이 끝날 때, 카드를 1장 뽑습니다.</koKR>
-    <itIT>Alla fine del tuo turno, pesca una carta.</itIT>
-    <frFR>Vous piochez une carte à la fin de votre tour.</frFR>
-    <esMX>Al final de tu turno, roba una carta.</esMX>
-    <esES>Al final de tu turno, roba una carta.</esES>
-    <deDE>Zieht am Ende Eures Zuges eine Karte.</deDE>
+    <enUS>Draw 4 cards.</enUS>
+    <frFR>Vous piochez 4 cartes.</frFR>
+    <zhTW>抽4張牌</zhTW>
+    <zhCN>抽四张牌。</zhCN>
+    <ruRU>Вы берете 4 карты.</ruRU>
+    <ptBR>Compre 4 cards.</ptBR>
+    <plPL>Dobierz 4 karty.</plPL>
+    <koKR>카드를 4장 뽑습니다.</koKR>
+    <itIT>Pesca 4 carte.</itIT>
+    <esMX>Roba 4 cartas.</esMX>
+    <esES>Roba 4 cartas.</esES>
+    <deDE>Zieht 4 Karten.</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="21" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Scott Altmann</enUS>
+    <enUS>James Zhang</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 10.</enUS>
+    <zhTW>於10級時解鎖。</zhTW>
+    <zhCN>达到10级后解锁。</zhCN>
+    <ruRU>Доступна с 10-го уровня.</ruRU>
+    <ptBR>Disponível no nível 10.</ptBR>
+    <plPL>Odblokowane na poziomie 10.</plPL>
+    <koKR>10 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 10.</itIT>
+    <frFR>Débloquée au niveau 10.</frFR>
+    <esMX>Se desbloquea en nivel 10.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 10.</esES>
+    <deDE>Wird auf Stufe 10 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 49.</enUS>
+    <zhTW>於49級時解鎖。</zhTW>
+    <zhCN>达到49级后解锁。</zhCN>
+    <ruRU>Доступна с 49-го уровня.</ruRU>
+    <ptBR>Disponível no nível 49.</ptBR>
+    <plPL>Odblokowane na poziomie 49.</plPL>
+    <koKR>49 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 49.</itIT>
+    <frFR>Débloquée au niveau 49.</frFR>
+    <esMX>Se desbloquea en nivel 49.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 49.</esES>
+    <deDE>Wird auf Stufe 49 freigeschaltet.</deDE>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>It is said that some shaman can say "Floatin' totem" 10 times, fast.</enUS>
-    <zhTW>據說有些薩滿可以連續10次快速念完「漂浮圖騰」。</zhTW>
-    <zhCN>据说，有些萨满能够以很快的速度连着说十遍“疼痛的图腾”。</zhCN>
-    <ruRU>Говорят, некоторые шаманы используют название этой карты как скороговорку.</ruRU>
-    <ptBR>Dizem que alguns xamãs conseguem dizer "Totem Flutuante" dez vezes bem rápido.</ptBR>
-    <plPL>Podobno niektórzy szamani potrafią 10 razy szybko powtórzyć „Tam mam ten totem”.</plPL>
-    <koKR>주술사들의 여름철 필수품입니다.</koKR>
-    <itIT>Scommettiamo che non sopravvivrà più di 1 turno?</itIT>
-    <frFR>Il paraît que certains chamans arrivent à dire « Trois petits totems sur un trottoir étroit » plus de 10 fois de suite sans se tromper !</frFR>
-    <esMX>Se dice que hay un chamán que puede decir "Tótem flotante" 10 veces seguidas sin que se le lengüe la traba.</esMX>
-    <esES>Se rumorea que los chamanes más ilustres son capaces de decir "Tres tristes tótems" diez veces seguidas sin que se les trabe la lengua.</esES>
-    <deDE>Für die Extraportion Karten.</deDE>
+    <enUS>Rogues are not good joggers.</enUS>
+    <zhTW>盜賊不擅長慢跑。</zhTW>
+    <zhCN>潜行者们通常都不擅长慢跑。</zhCN>
+    <ruRU>Разбойники не очень любят затяжные марафоны.</ruRU>
+    <ptBR>Ladinos não sabem correr muito bem.</ptBR>
+    <plPL>Łotrzy nie są dobrymi długodystansowcami.</plPL>
+    <koKR>카드가 모자라면 몸이 고생이군요.</koKR>
+    <itIT>"Sono sprecato per la corsa campestre! Noi Ladri siamo scattisti nati! Micidiali sulle brevi distanze!" - un Nano Ladro</itIT>
+    <frFR>Les voleurs ne sont pas de bons coureurs.</frFR>
+    <esMX>No le pidas a un pícaro que vaya al trote.</esMX>
+    <esES>Es un detalle que no te las roben a ti.</esES>
+    <deDE>Schurken sind keine Ausdauersportler.</deDE>
   </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="e8d5a339-f032-48d6-9897-c6ea03b28b93" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Power definition="34aaeb77-af17-4f26-b325-540123cbb04a" />
 </Entity>

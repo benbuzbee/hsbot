@@ -1,56 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_154">
+<Entity version="2" CardID="EX1_539">
+  <MasterPower>44c376c8-bf0a-4c0b-afec-666d95f7059f</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Wrath</enUS>
-    <frFR>Colère</frFR>
-    <zhTW>憤怒</zhTW>
-    <zhCN>愤怒</zhCN>
-    <ruRU>Гнев</ruRU>
-    <ptBR>Ira</ptBR>
-    <plPL>Gniew</plPL>
-    <koKR>천벌</koKR>
-    <itIT>Ira Silvana</itIT>
-    <esMX>Cólera</esMX>
-    <esES>Cólera</esES>
-    <deDE>Zorn</deDE>
+    <enUS>Kill Command</enUS>
+    <frFR>Ordre de tuer</frFR>
+    <zhTW>擊殺命令</zhTW>
+    <zhCN>杀戮命令</zhCN>
+    <ruRU>Команда «Взять!»</ruRU>
+    <ptBR>Comando para Matar</ptBR>
+    <plPL>Rozkaz zabicia</plPL>
+    <koKR>살상 명령</koKR>
+    <itIT>Ordine di Morte</itIT>
+    <esMX>Matar</esMX>
+    <esES>Matar</esES>
+    <deDE>Fass!</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="2" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Choose One&lt;/b&gt; - Deal $3 damage to a minion; or $1 damage and draw a card.</enUS>
-    <frFR>&lt;b&gt;Choix des armes :&lt;/b&gt; inflige $3 |4(point, points) de dégâts à un serviteur ; ou inflige $1 |4(point,points) de dégâts à un serviteur et vous piochez une carte.</frFR>
-    <zhTW>&lt;b&gt;二選一:&lt;/b&gt;對一個手下造成$3點傷害，或造成$1點傷害並抽一張牌</zhTW>
-    <zhCN>&lt;b&gt;抉择&lt;/b&gt;：对一个随从造成$3点伤害；或者造成$1点伤害并抽一张牌。</zhCN>
-    <ruRU>&lt;b&gt;Выберите эффект:&lt;/b&gt; наносит существу $3 ед. урона; или наносит $1 ед. урона существу и вы берете карту.</ruRU>
-    <ptBR>&lt;b&gt;Escolha Um&lt;/b&gt; - Cause $3 de dano a um lacaio; ou cause $1 de dano e compre um card.</ptBR>
-    <plPL>&lt;b&gt;Wybierz jedno:&lt;/b&gt; Zadaj $3 pkt. obrażeń stronnikowi; lub zadaj $1 pkt. obrażeń stronnikowi i dobierz kartę.</plPL>
-    <koKR>&lt;b&gt;선택&lt;/b&gt; - 하수인 하나에게 피해를 $3 줍니다. 또는 피해를 $1 주고 카드를 1장 뽑습니다.</koKR>
-    <itIT>&lt;b&gt;Scegli:&lt;/b&gt; infligge $3 danni a un servitore o infligge $1 danno e pesca una carta.</itIT>
-    <esMX>&lt;b&gt;Elige una opción:&lt;/b&gt; inflige $3 de daño a un esbirro o inflige $1 de daño y roba una carta.</esMX>
-    <esES>&lt;b&gt;Elige una:&lt;/b&gt; Inflige $3 p. de daño a un esbirro, o bien inflige $1 p. de daño y roba una carta.</esES>
-    <deDE>&lt;b&gt;Wählt aus:&lt;/b&gt; Fügt einem Diener $3 Schaden zu; oder fügt einem Diener $1 Schaden zu und zieht eine Karte.</deDE>
+    <enUS>Deal $3 damage.  If you have a Beast, deal $5 damage instead.</enUS>
+    <frFR>Inflige $3 |4(point,points) de dégâts. Si vous avez une bête, inflige $5 |4(point,points) de dégâts à la place.</frFR>
+    <zhTW>造成$3點傷害。若你有野獸，則造成$5點傷害</zhTW>
+    <zhCN>造成$3点伤害，如果你有任何野兽在场上，则改为造成$5点伤害。</zhCN>
+    <ruRU>Наносит $3 ед. урона. Если у вас есть зверь на поле боя, вместо этого наносит $5 ед. урона.</ruRU>
+    <ptBR>Cause $3 de dano. Se você tiver uma Fera, cause $5 de dano em vez de $3.</ptBR>
+    <plPL>Zadaj $3 pkt. obrażeń. Jeśli kontrolujesz Bestię, zamiast tego zadaj $5 pkt. obrażeń.</plPL>
+    <koKR>피해를 $3 줍니다. 전장에 내 야수가 있다면 피해를 $5 줍니다.</koKR>
+    <itIT>Infligge $3 danni. Se controlli una Bestia, infligge $5 danni.</itIT>
+    <esMX>Inflige $3 de daño. Si tienes una Bestia, en cambio, inflige $5 de daño.</esMX>
+    <esES>Inflige $3 p. de daño. Si tienes una bestia en juego, inflige $5 p. de daño.</esES>
+    <deDE>Verursacht $3 Schaden. Verursacht stattdessen $5 Schaden, wenn Ihr ein Wildtier besitzt.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Gabe from Penny Arcade</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The talk around the Ratchet Inn is that this card is too good and should be a Legendary.</enUS>
-    <zhTW>棘齒城旅店裡的人都公認這張牌太強了，應該要是傳說級才對。</zhTW>
-    <zhCN>棘齿城酒馆里的人们纷纷表示，这张牌太强了，应该是传说级别的。</zhCN>
-    <ruRU>В кабестанской таверне уверены, что этой карте самое место среди легендарных.</ruRU>
-    <ptBR>O boato na Estalagem da Vila Catraca é de que esse card é bom demais e deveria ser lendário.</ptBR>
-    <plPL>Panuje ogólna opinia, że ta karta jest za mocna i powinna być legendarna.</plPL>
-    <koKR>톱니항 여관에서 들리는 말에 의하면 이 카드가 너무 좋고, 전설급이 아닌 게 이상하다는군요.</koKR>
-    <itIT>Nella taverna di Porto Paranco si mormora che questa carta sia così buona che dovrebbe essere leggendaria.</itIT>
-    <frFR>Les habitués de l’auberge de Gadgetzan trouvent que cette carte devrait être légendaire parce qu’elle est vraiment trop géniale.</frFR>
-    <esMX>En la Posada de Trinquete se comenta que esta carta es demasiado buena y debería ser Legendaria.</esMX>
-    <esES>¿Qué hace un pollo de 200 kg en un árbol? Lanzar Cólera.</esES>
-    <deDE>Wenn man den Stammtischgesprächen im Gasthaus von Ratschet Glauben schenken darf, dann ist diese Karte viel zu gut und sollte legendär sein.</deDE>
+    <enUS>"Kill!", he commanded.</enUS>
+    <zhTW>「殺!」他命令道。</zhTW>
+    <zhCN>“咬死他！”，他下达了命令。</zhCN>
+    <ruRU>«Взять!» – скомандовал он.</ruRU>
+    <ptBR>"Mate", comandou ele.</ptBR>
+    <plPL>„Zabij!”, rozkazał.</plPL>
+    <koKR>야수 없이 명령만으로도 피해를 줄 수 있다니!</koKR>
+    <itIT>"Muori!", ordinò.</itIT>
+    <frFR>Vous avez le permis de tuer.</frFR>
+    <esMX>"¡A matar!" —ordenó.</esMX>
+    <esES>Se ha escrito un crimen.</esES>
+    <deDE>Meist der letzte Ausruf, den das Opfer in seinem Leben hören wird, außer seinem eigenen Geschrei natürlich.</deDE>
   </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 10.</enUS>
+    <zhTW>於10級時解鎖。</zhTW>
+    <zhCN>达到10级后解锁。</zhCN>
+    <ruRU>Доступна с 10-го уровня.</ruRU>
+    <ptBR>Disponível no nível 10.</ptBR>
+    <plPL>Odblokowane na poziomie 10.</plPL>
+    <koKR>10 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 10.</itIT>
+    <frFR>Débloquée au niveau 10.</frFR>
+    <esMX>Se desbloquea en nivel 10.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 10.</esES>
+    <deDE>Wird auf Stufe 10 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 49.</enUS>
+    <zhTW>於49級時解鎖。</zhTW>
+    <zhCN>达到49级后解锁。</zhCN>
+    <ruRU>Доступна с 49-го уровня.</ruRU>
+    <ptBR>Disponível no nível 49.</ptBR>
+    <plPL>Odblokowane na poziomie 49.</plPL>
+    <koKR>49 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 49.</itIT>
+    <frFR>Débloquée au niveau 49.</frFR>
+    <esMX>Se desbloquea en nivel 49.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 49.</esES>
+    <deDE>Wird auf Stufe 49 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="44c376c8-bf0a-4c0b-afec-666d95f7059f">
+    <PlayRequirement reqID="11" param="" />
+  </Power>
 </Entity>

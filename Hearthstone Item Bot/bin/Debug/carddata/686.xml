@@ -1,62 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_250">
+<Entity version="2" CardID="EX1_043">
+  <MasterPower>80b6975f-1f7c-42de-ac99-e06a273f4399</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Earth Elemental</enUS>
-    <frFR>Élémentaire de terre</frFR>
-    <zhTW>土元素</zhTW>
-    <zhCN>土元素</zhCN>
-    <ruRU>Элементаль земли</ruRU>
-    <ptBR>Elemental da Terra</ptBR>
-    <plPL>Żywiołak ziemi</plPL>
-    <koKR>대지의 정령</koKR>
-    <itIT>Elementale della Terra</itIT>
-    <esMX>Elemental de tierra</esMX>
-    <esES>Elemental de tierra</esES>
-    <deDE>Erdelementar</deDE>
+    <enUS>Twilight Drake</enUS>
+    <frFR>Drake du Crépuscule</frFR>
+    <zhTW>暮光飛龍</zhTW>
+    <zhCN>暮光幼龙</zhCN>
+    <ruRU>Сумеречный дракон</ruRU>
+    <ptBR>Draco do Crepúsculo</ptBR>
+    <plPL>Smokowiec zmierzchu</plPL>
+    <koKR>황혼의 비룡</koKR>
+    <itIT>Draco del Crepuscolo</itIT>
+    <esMX>Draco crepuscular</esMX>
+    <esES>Draco Crepuscular</esES>
+    <deDE>Zwielichtdrache</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="8" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="5" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="Atk" enumID="47" type="Number" value="7" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Cost" enumID="48" type="Number" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Taunt&lt;/b&gt;. &lt;b&gt;Overload:&lt;/b&gt; (3)</enUS>
-    <frFR>&lt;b&gt;Provocation&lt;/b&gt;. &lt;b&gt;Surcharge :&lt;/b&gt; (3)</frFR>
-    <zhTW>&lt;b&gt;嘲諷&lt;/b&gt;。&lt;b&gt;超載:&lt;/b&gt;(3)</zhTW>
-    <zhCN>&lt;b&gt;嘲讽&lt;/b&gt;，&lt;b&gt;过载：&lt;/b&gt;（3）</zhCN>
-    <ruRU>&lt;b&gt;Провокация&lt;/b&gt;. &lt;b&gt;Перегрузка:&lt;/b&gt; (3)</ruRU>
-    <ptBR>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Sobrecarga:&lt;/b&gt; (3)</ptBR>
-    <plPL>&lt;b&gt;Prowokacja&lt;/b&gt;. &lt;b&gt;Przeciążenie:&lt;/b&gt; (3)</plPL>
-    <koKR>&lt;b&gt;도발&lt;/b&gt;. &lt;b&gt;과부하:&lt;/b&gt; (3)</koKR>
-    <itIT>&lt;b&gt;Provocazione&lt;/b&gt;. &lt;b&gt;Sovraccarico:&lt;/b&gt; (3) Cristalli di Mana.</itIT>
-    <esMX>&lt;b&gt;Provocación&lt;/b&gt;. &lt;b&gt;Sobrecarga:&lt;/b&gt; (3)</esMX>
-    <esES>&lt;b&gt;Provocar&lt;/b&gt;. &lt;b&gt;Sobrecarga:&lt;/b&gt; (3)</esES>
-    <deDE>&lt;b&gt;Spott&lt;/b&gt;, &lt;b&gt;Überladung:&lt;/b&gt; (3)</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Gain +1 Health for each card in your hand.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; gagne +1 PV pour chaque carte dans votre main.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;你的每一張手牌會使其獲得+1生命值</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;你每有一张手牌，便获得+1生命值。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; это существо получает +1 к здоровью за каждую карту в вашей руке.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Receba +1 de Vida para cada card na sua mão.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Otrzymuje +1 do zdrowia za każdą kartę w ręce.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 내 손에 있는 카드 1장당 생명력을 +1 얻습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; ottiene +1 Salute per ogni carta che hai in mano.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; obtiene +1 de Salud por cada carta de tu mano.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Obtiene +1 p. de salud por cada carta que tengas en tu mano.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Erhält +1 Leben für jede Karte auf Eurer Hand.</deDE>
   </Tag>
+  <Tag name="Race" enumID="200" type="Race" value="24" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Dan Scott</enUS>
+    <enUS>Jaemin Kim</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Nothing beats rock.</enUS>
-    <zhTW>剪刀跟布都不該贏石頭。</zhTW>
-    <zhCN>硬如磐石，坚不可破。</zhCN>
-    <ruRU>Против камня нет приема.</ruRU>
-    <ptBR>Nada vence pedra.</ptBR>
-    <plPL>Daj kamienia!</plPL>
-    <koKR>한 대 치는 순간, 계란이 되는 겁니다.</koKR>
-    <itIT>Nulla batte il sasso.</itIT>
-    <frFR>Dur comme la pierre.</frFR>
-    <esMX>La buena piedra... ¡Nada le gana!</esMX>
-    <esES>La roca es más fuerte que la espada... ¿o eso era la pluma?</esES>
-    <deDE>Marmor, Stein und Eisen bricht ... nicht!</deDE>
+    <enUS>Twilight drakes feed on Mystical Energy.  And Tacos.</enUS>
+    <zhTW>暮光飛龍是靠秘法能量為食。還有玉米餅。</zhTW>
+    <zhCN>暮光幼龙以神秘能量为食，还吃玉米卷。</zhCN>
+    <ruRU>Сумеречные драконы питаются духовной энергией и бутербродами с колбасой.</ruRU>
+    <ptBR>Dracos do Crepúsculo se alimentam de Energia Mística. E pizza.</ptBR>
+    <plPL>Smokowce zmierzchu żywią się mistyczną energią. I paluszkami.</plPL>
+    <koKR>황혼의 비룡은 신비한 에너지를 먹고 삽니다. 가끔 타코도 먹지만요.</koKR>
+    <itIT>I Drachi del Crepuscolo si nutrono di energia mistica... e mozzarella.</itIT>
+    <frFR>Les drakes du Crépuscule se nourrissent d’énergie mystique. Et de crêpes au suc’.</frFR>
+    <esMX>Los Draco crepusculares se alimentan de energía mística... y de tacos.</esMX>
+    <esES>Los dracos Crepusculares se alimentan de energía mística. Y de gnomos.</esES>
+    <deDE>Zwielichtdrachen ernähren sich von mystischer Energie. Und von Dönern.</deDE>
   </Tag>
-  <Tag name="Taunt" enumID="190" type="Bool" value="1" />
-  <Tag name="Recall" enumID="215" type="Number" value="1" />
-  <Power definition="2a9cfd4d-9b6d-4903-88f9-34862a6bc1ca" />
-  <Power definition="139458b1-1fd0-4123-99fb-50db656123a5" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="80b6975f-1f7c-42de-ac99-e06a273f4399" />
 </Entity>

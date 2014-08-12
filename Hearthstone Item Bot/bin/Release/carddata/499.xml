@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="Mekka3">
+<Entity version="2" CardID="EX1_145">
+  <MasterPower>0cc6ff8b-fd76-4877-8348-578aef4059a9</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Emboldener 3000</enUS>
-    <zhTW>勇氣給予者3000</zhTW>
-    <zhCN>壮胆机器人3000型</zhCN>
-    <ruRU>Воодушевитель 3000</ruRU>
-    <ptBR>Encorajador 3000</ptBR>
-    <plPL>Dopingator 3000</plPL>
-    <koKR>강화 구슬 3000</koKR>
-    <itIT>Ingrossatore 3000</itIT>
-    <frFR>Encourageur 3000</frFR>
-    <esMX>Fortalecedor 3000</esMX>
-    <esES>Corajizador 3000</esES>
-    <deDE>Kraftverstärker 3000</deDE>
+    <enUS>Preparation</enUS>
+    <frFR>Préparation</frFR>
+    <zhTW>準備</zhTW>
+    <zhCN>伺机待发</zhCN>
+    <ruRU>Подготовка</ruRU>
+    <ptBR>Preparação</ptBR>
+    <plPL>Przygotowanie</plPL>
+    <koKR>마음가짐</koKR>
+    <itIT>Preparazione</itIT>
+    <esMX>Preparación</esMX>
+    <esES>Preparación</esES>
+    <deDE>Vorbereitung</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="11" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="7" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>At the end of your turn, give a random minion +1/+1.</enUS>
-    <zhTW>在你的回合結束時，賦予一個隨機手下+1/+1</zhTW>
-    <zhCN>在你的回合结束时，使一个随机随从获得+1/+1。</zhCN>
-    <ruRU>В конце вашего хода случайное существо получает +1/+1.</ruRU>
-    <ptBR>No final do seu turno, conceda +1/+1 a um lacaio aleatório.</ptBR>
-    <plPL>Na koniec swojej tury daj losowemu stronnikowi +1/+1.</plPL>
-    <koKR>내 턴이 끝날 때, 무작위 하수인 하나에게 +1/+1을 부여합니다.</koKR>
-    <itIT>Alla fine del tuo turno, +1/+1 a un servitore casuale.</itIT>
-    <frFR>À la fin de votre tour, confère +1/+1 à un serviteur aléatoire.</frFR>
-    <esMX>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esMX>
-    <esES>Al final de tu turno, otorga +1/+1 a un esbirro aleatorio.</esES>
-    <deDE>Verleiht am Ende Eures Zuges einem zufälligen Diener +1/+1.</deDE>
+    <enUS>The next spell you cast this turn costs (3) less.</enUS>
+    <frFR>Le prochain sort que vous lancez pendant ce tour coûte (3) cristaux de moins.</frFR>
+    <zhTW>你在本回合內施放的下一個法術消耗減少(3)點</zhTW>
+    <zhCN>在本回合中，你所施放的下一个法术的法力值消耗减少（3）点。</zhCN>
+    <ruRU>Следующее заклинание, которое вы разыграете в этот ход, стоит на (3) маны меньше.</ruRU>
+    <ptBR>O próximo feitiço que você lançar custará (3) a menos.</ptBR>
+    <plPL>Następne zaklęcie, jakie rzucisz w tej turze, kosztuje (3) mniej.</plPL>
+    <koKR>이번 턴에 내가 시전하는 다음 주문의 비용이 (3) 감소합니다.</koKR>
+    <itIT>La prossima Magia che lanci in questo turno costa (3) Mana in meno.</itIT>
+    <esMX>El próximo hechizo que juegues en este turno cuesta (3) menos.</esMX>
+    <esES>El siguiente hechizo que lances este turno costará (3) cristales menos.</esES>
+    <deDE>Der nächste Zauber, den Ihr in diesem Zug wirkt, kostet (3) weniger.</deDE>
   </Tag>
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="0" />
-  <Tag name="Health" enumID="45" type="Number" value="4" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Emboldening</enUS>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Clint Langley</enUS>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <Power definition="87895dbc-a492-4910-b2ee-950caa9b5d4a" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>"Be Prepared" - Rogue Motto</enUS>
+    <zhTW>「準備妥當」-盜賊的信條</zhTW>
+    <zhCN>“随时准备伺机待发。”——潜行者座右铭</zhCN>
+    <ruRU>«Главное – хорошая подготовка.» Девиз разбойников.</ruRU>
+    <ptBR>"Esteja preparado." — Lema Ladino</ptBR>
+    <plPL>Trucizna? Jest. Kamuflaż? Jest. Zaostrzona broń? Jest. Przeciwnik? Jeszcze jest.</plPL>
+    <koKR>"항상 대비하라." - 도적 격언</koKR>
+    <itIT>"Siate pronti." - Un motto dei Ladri</itIT>
+    <frFR>« Toujours prêt » - Devise des voleurs</frFR>
+    <esMX>"Estén preparados" —Lema de Pícaros.</esMX>
+    <esES>"¡Siempre preparados!" - Lema de los pícaros</esES>
+    <deDE>Manchmal ist Vorbereitung das halbe Leben ... im wahrsten Sinne des Wortes.</deDE>
+  </Tag>
+  <Power definition="0cc6ff8b-fd76-4877-8348-578aef4059a9" />
 </Entity>

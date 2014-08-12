@@ -1,81 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_561">
-  <MasterPower>b44631dc-eec1-434a-a172-04bce74970c7</MasterPower>
+<Entity version="2" CardID="CS2_042">
+  <MasterPower>d6fa0669-c4bc-4a71-843a-94355e129c93</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Alexstrasza</enUS>
-    <frFR>Alexstrasza</frFR>
-    <zhTW>雅立史卓莎</zhTW>
-    <zhCN>阿莱克丝塔萨</zhCN>
-    <ruRU>Алекстраза</ruRU>
-    <ptBR>Alexstrasza</ptBR>
-    <plPL>Alexstraza</plPL>
-    <koKR>알렉스트라자</koKR>
-    <itIT>Alexstrasza</itIT>
-    <esMX>Alexstrasza</esMX>
-    <esES>Alexstrasza</esES>
-    <deDE>Alexstrasza</deDE>
+    <enUS>Fire Elemental</enUS>
+    <frFR>Élémentaire de feu</frFR>
+    <zhTW>火元素</zhTW>
+    <zhCN>火元素</zhCN>
+    <ruRU>Элементаль огня</ruRU>
+    <ptBR>Elemental do Fogo</ptBR>
+    <plPL>Żywiołak ognia</plPL>
+    <koKR>불의 정령</koKR>
+    <itIT>Elementale del Fuoco</itIT>
+    <esMX>Elemental de fuego</esMX>
+    <esES>Elemental de fuego</esES>
+    <deDE>Feuerelementar</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="9" />
-  <Tag name="Atk" enumID="47" type="Number" value="8" />
-  <Tag name="Health" enumID="45" type="Number" value="8" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="Class" enumID="199" type="Class" value="8" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="6" />
+  <Tag name="Atk" enumID="47" type="Number" value="6" />
+  <Tag name="Health" enumID="45" type="Number" value="5" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="3" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Set a hero's remaining Health to 15.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; fixe les points de vie restants d’un héros à 15.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;把一個英雄剩餘的生命值設為15點</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使一个英雄的剩余生命值成为15。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; текущее здоровье выбранного героя становится равно 15.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Defina a vida remanescente do herói para 15.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Ustaw pozostałe zdrowie bohatera na 15.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 선택한 영웅의 남은 생명력을 15로 만듭니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; la Salute restante di un eroe diventa pari a 15.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; establece la Salud restante de un héroe en 15.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Fija la salud restante de un héroe en 15 p.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Setzt das verbleibende Leben eines Helden auf 15.</deDE>
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Deal 3 damage.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; inflige 3 points de dégâts.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;造成3點傷害</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;造成3点伤害。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; наносит 3 ед. урона.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Cause 3 de dano.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zadaj 3 pkt. obrażeń.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 피해를 3 줍니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; infligge 3 danni.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; inflige 3 de daño.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Inflige 3 p. de daño.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verursacht 3 Schaden.</deDE>
   </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="24" />
-  <Tag name="Elite" enumID="114" type="Bool" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
+  <Tag name="TargetingArrowText" enumID="325" type="String">
+    <enUS>Deal 3 damage.</enUS>
+    <frFR>Inflige 3 points de dégâts.</frFR>
+    <zhTW>造成3點傷害。</zhTW>
+    <zhCN>造成3点伤害。</zhCN>
+    <ruRU>Нанести 3 ед. урона</ruRU>
+    <ptBR>Cause 3 de dano.</ptBR>
+    <plPL>Zadaj 3 pkt. obrażeń.</plPL>
+    <koKR>피해 3</koKR>
+    <itIT>Infligge 3 danni.</itIT>
+    <esMX>Inflige 3 de daño.</esMX>
+    <esES>Inflige 3 p. de daño.</esES>
+    <deDE>Verursacht 3 Schaden.</deDE>
+  </Tag>
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Ralph Horsley</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Alexstrasza the Life-Binder brings life and hope to everyone.  Except Deathwing.  And Malygos.  And Nekros.</enUS>
-    <zhTW>『生命守縛者』雅立史卓莎替所有人帶來生命與希望。除了死亡之翼。還有瑪里苟斯。還有耐克魯斯。</zhTW>
-    <zhCN>生命的缚誓者阿莱克丝塔萨给所有人带来生命和希望。除了死亡之翼。除了玛里苟斯。除了耐克鲁斯。</zhCN>
-    <ruRU>Алекстраза, Хранительница Жизни несет свет и надежду каждому. Кроме Смертокрыла. И Малигоса. И еще Некроса.</ruRU>
-    <ptBR>Alexstrasza, a Mãe da Vida traz vida e esperança a todos. Menos para o Asa da Morte. E Malygos. E Nekros.</ptBR>
-    <plPL>Alexstraza daje każdemu życie, nadzieję i natchnienie.  Za wyjątkiem Śmiercioskrzydłego. I Malygosa. No i Nekrosa.</plPL>
-    <koKR>생명의 어머니 알렉스트라자는 모두에게 삶과 희망을 줍니다. 데스윙만 빼고요. 아, 말리고스, 네크로스도 빼고요. </koKR>
-    <itIT>Alexstrasza porta vita e speranza a tutti. Tranne che ad Alamorte. E a Malygos. E a Nekros.</itIT>
-    <frFR>Alexstrasza la Lieuse-de-vie apporte vie et espoir à tout le monde. Sauf à Aile de mort. Et Malygos. Et Nekros.</frFR>
-    <esMX>Alexstrasza, la Protectora, les otorga vida y esperanza a todos. Menos a Alamuerte. Y a Malygos. Y a Nekros.</esMX>
-    <esES>Alexstrasza la Protectora trae vida y esperanza para todo el mundo. Menos para Alamuerte. Y Malygos. Y Nekros.</esES>
-    <deDE>Alexstrasza die Lebensbinderin bringt Leben und Hoffnung zu jedem. Außer zu Todesschwinge. Oder Malygos. Oder Nekros.</deDE>
+    <enUS>He can never take a bath. Ewww.</enUS>
+    <zhTW>這傢伙永遠不能洗澡。噁...</zhTW>
+    <zhCN>他从来不洗澡。嗯...</zhCN>
+    <ruRU>Вот уж кому никогда не пригодится абонемент в бассейн.</ruRU>
+    <ptBR>Ele não pode tomar banho nunca. Eca.</ptBR>
+    <plPL>Unika kąpieli bardziej niż ognia.</plPL>
+    <koKR>영영 못 씻는 정령입니다. 으, 더러워라...</koKR>
+    <itIT>Non si è mai fatto una doccia. Bleah!</itIT>
+    <frFR>Nettoyage à sec conseillé !</frFR>
+    <esMX>El pobre nunca usa la ducha de su casa.</esMX>
+    <esES>Está que arde.</esES>
+    <deDE>Leider ist sein Handschlag kaum von einem Feuerschlag zu unterscheiden.</deDE>
   </Tag>
-  <Tag name="TargetingArrowText" enumID="325" type="String">
-    <enUS>Set Health to 15.</enUS>
-    <zhTW>將生命值設為15點。</zhTW>
-    <zhCN>使生命值成为15点。</zhCN>
-    <ruRU>Текущее здоровье этого героя будет равно 15</ruRU>
-    <ptBR>Defina a Vida para 15.</ptBR>
-    <plPL>Ustaw zdrowie na 15.</plPL>
-    <koKR>생명력 15로 만들기</koKR>
-    <itIT>Salute pari a 15.</itIT>
-    <frFR>Fixe les PV à 15.</frFR>
-    <esMX>Establece la Salud en 15.</esMX>
-    <esES>Establece la salud en 15 p.</esES>
-    <deDE>Setzt das Leben auf 15.</deDE>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked at Level 10.</enUS>
+    <zhTW>於10級時解鎖。</zhTW>
+    <zhCN>达到10级后解锁。</zhCN>
+    <ruRU>Доступна с 10-го уровня.</ruRU>
+    <ptBR>Disponível no nível 10.</ptBR>
+    <plPL>Odblokowane na poziomie 10.</plPL>
+    <koKR>10 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 10.</itIT>
+    <frFR>Débloquée au niveau 10.</frFR>
+    <esMX>Se desbloquea en nivel 10.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 10.</esES>
+    <deDE>Wird auf Stufe 10 freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 49.</enUS>
+    <zhTW>於49級時解鎖。</zhTW>
+    <zhCN>达到49级后解锁。</zhCN>
+    <ruRU>Доступна с 49-го уровня.</ruRU>
+    <ptBR>Disponível no nível 49.</ptBR>
+    <plPL>Odblokowane na poziomie 49.</plPL>
+    <koKR>49 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 49.</itIT>
+    <frFR>Débloquée au niveau 49.</frFR>
+    <esMX>Se desbloquea en nivel 49.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 49.</esES>
+    <deDE>Wird auf Stufe 49 freigeschaltet.</deDE>
   </Tag>
   <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="b44631dc-eec1-434a-a172-04bce74970c7">
+  <Power definition="d6fa0669-c4bc-4a71-843a-94355e129c93">
     <PlayRequirement reqID="22" param="" />
-    <PlayRequirement reqID="17" param="" />
   </Power>
 </Entity>

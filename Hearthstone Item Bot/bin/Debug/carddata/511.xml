@@ -1,66 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="DS1_184">
-  <MasterPower>7d56ad57-6aea-484b-ae4c-899658cb3125</MasterPower>
+<Entity version="2" CardID="FP1_020">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Tracking</enUS>
-    <frFR>Pistage</frFR>
-    <zhTW>追蹤</zhTW>
-    <zhCN>追踪术</zhCN>
-    <ruRU>Выслеживание</ruRU>
-    <ptBR>Rastreamento</ptBR>
-    <plPL>Tropienie</plPL>
-    <koKR>추적</koKR>
-    <itIT>Tracciamento</itIT>
-    <esMX>Rastreo</esMX>
-    <esES>Rastrear</esES>
-    <deDE>Fährtenlesen</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Look at the top three cards of your deck. Draw one and discard the others.</enUS>
-    <frFR>Affiche les trois cartes du dessus du deck. Vous en piochez une et vous vous défaussez des autres.</frFR>
-    <zhTW>瀏覽你牌堆中最上面三張牌。選一張後捨棄其他兩張</zhTW>
-    <zhCN>检视你的牌库顶的三张牌，将其中一张置入手牌，弃掉其余牌。</zhCN>
-    <ruRU>Посмотрите три верхние карты вашей колоды. Возьмите одну карту и сбросьте остальные.</ruRU>
-    <ptBR>Olhe os três cards do topo do seu deck. Compre um e descarte os outros.</ptBR>
-    <plPL>Spójrz na trzy górne karty ze swojej talii. Jedną dobierz na rękę, a dwie pozostałe odrzuć.</plPL>
-    <koKR>내가 다음에 뽑을 카드 3장을 미리 봅니다. 1장을 선택해 갖고, 나머지는 버립니다.</koKR>
-    <itIT>Guarda le prime tre carte del tuo mazzo. Pescane una e scarta le altre.</itIT>
-    <esMX>Mira las tres primeras cartas de tu mazo. Roba una y descarta las otras.</esMX>
-    <esES>Mira las tres cartas superiores de tu mazo. Roba una y descarta las demás.</esES>
-    <deDE>Schaut Euch die drei obersten Karten Eures Decks an. Zieht eine davon und werft die anderen beiden ab.</deDE>
+    <enUS>Avenge</enUS>
+    <zhTW>報復</zhTW>
+    <zhCN>复仇</zhCN>
+    <ruRU>Отмщение</ruRU>
+    <ptBR>Vingar</ptBR>
+    <plPL>Pomsta</plPL>
+    <koKR>앙갚음</koKR>
+    <itIT>Ritorsione</itIT>
+    <frFR>Venger</frFR>
+    <esMX>Vengar</esMX>
+    <esES>Vengar</esES>
+    <deDE>Rächer</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="5" />
+  <Tag name="Cost" enumID="48" type="Number" value="1" />
+  <Tag name="Class" enumID="199" type="Class" value="5" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When one of your minions dies, give a random friendly minion +3/+2.</enUS>
+    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的其中一個手下死亡時，賦予一個隨機的友方手下+3/+2</zhTW>
+    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的随从死亡时，使一个随机友方随从获得+3/+2。</zhCN>
+    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда одно из ваших существ умирает, случайное ваше существо получает +3/+2.</ruRU>
+    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando um de seus lacaios morrer, conceda +3/+2 a um lacaio aliado aleatório.</ptBR>
+    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Gdy jeden z twoich stronników zginie, daj losowemu przyjaznemu stronnikowi +3/+2.</plPL>
+    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 내 하수인 중 하나가 죽으면, 무작위 아군 하수인 하나에게 +3/+2를 부여합니다.</koKR>
+    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando un tuo servitore muore, fornisce +3/+2 a un altro tuo servitore casuale.</itIT>
+    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand l’un de vos serviteurs meurt, donne +3/+2 à un serviteur allié aléatoire.</frFR>
+    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando uno de tus esbirros muere, otorga +3/+2 a un esbirro aliado aleatorio.</esMX>
+    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando uno de tus esbirros muere, otorga +3/+2 a un esbirro amistoso aleatorio.</esES>
+    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn einer Eurer Diener stirbt, erhält ein zufälliger befreundeter Diener +3/+2.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Mauro Cascioli</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>For the person who just cannot decide what card to put in their deck!</enUS>
-    <zhTW>這張是給無法決定要放哪張卡進套牌的人用的!</zhTW>
-    <zhCN>为了那些不知道该把什么牌放入套牌的人准备的！</zhCN>
-    <ruRU>Отличное заклинание для тех, кто никак не может решить, какую карту положить в колоду!</ruRU>
-    <ptBR>Para a pessoa que não consegue decidir que card botar no deck!</ptBR>
-    <plPL>W sam raz dla osoby, która nie może zdecydować się, jakie karty wsadzić do talii!</plPL>
-    <koKR>어떤 카드를 덱에 넣어야 할지 결정 못 하는 소심한 분들을 위해!</koKR>
-    <itIT>Per il giocatore che non sa quale carta inserire nel proprio mazzo.</itIT>
-    <frFR>Idéal pour ceux qui n’arrivent pas à décider quelles cartes mettre dans leur deck !</frFR>
-    <esMX>Para los que sufren de indecisión crónica.</esMX>
-    <esES>"Espera, aquí hay huellas". - Vladimir Barbafuego "Sí, pero, ¿de verdad quieres averiguar de qué son?" - Baxter Rompeyunques</esES>
-    <deDE>Ideal für diejenigen, die sich nicht entscheiden können, was sie ihrem Deck hinzufügen sollen. Denn so wissen sie auch nicht, was sie ihrer Hand hinzufügen sollen.</deDE>
+    <enUS>Several paladins have joined together to deliver justice under the name "Justice Force".  Their lawyer talked them out of calling themselves the Justice League.</enUS>
+    <zhTW>有一群聖騎士組成了一團「正義之師」。他們的律師說服了他們不要取「正義聯盟」這個名稱。</zhTW>
+    <zhCN>有几个身怀绝技的圣骑士想要组成一个团体来声张正义，并自称“复仇者联盟”。不久，他们受到了某家电影公司的起诉。</zhCN>
+    <ruRU>Однажды несколько паладинов решили создать комитет по справедливому воздаянию. Они хотели назвать свою организацию «Лига справедливости», но юристы их отговорили.</ruRU>
+    <ptBR>Vários paladinos se reuniram para fazer justiça usando o nome "Força da Justiça". Os advogados os convenceram a não usar o nome "Liga da Justiça".</ptBR>
+    <plPL>Kilku paladynów zebrało się razem, by założyć organizację „Prawość i Sprawiedliwość”, ale zmienili zdanie pod wpływem nacisków politycznych.</plPL>
+    <koKR>어쩐지 성기사의 하수인들은 서로 더 친한 것 같더니만...</koKR>
+    <itIT>La vendetta è un piatto che va servito... subito!</itIT>
+    <frFR>Un jour, plusieurs paladins se sont ligués pour rendre la justice. Au moment de choisir un nom, leur avocat les a convaincus de se faire appeler la Digue des justiciers. On n’est jamais trop prudent.</frFR>
+    <esMX>Varios paladines se han unido con el nombre "Fuerza de la Justicia". El abogado los convenció de que "Liga de la Justicia" no era la mejor opción.</esMX>
+    <esES>Varios paladines se han agrupado para desfacer entuertos bajo el nombre de "la Fuerza de la Justicia". Sus abogados les desaconsejaron formar una liga.</esES>
+    <deDE>Einige Paladine haben sich zum „Hammer der Gerechten“ zusammengeschlossen und sorgen jetzt gemeinsam für Gerechtigkeit. Ihre Anwälte konnten sie mit Müh und Not davon abbringen, sich die „Liga der Gerechten“ zu nennen.</deDE>
   </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 15.</enUS>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Zoltan &amp; Gabor</enUS>
   </Tag>
   <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+    <enUS>Unlocked by completing the Paladin Class Challenge in Naxxramas.</enUS>
+    <zhTW>在納克薩瑪斯中完成聖騎士職業挑戰後解鎖。</zhTW>
+    <zhCN>在完成纳克萨玛斯的圣骑士职业挑战后解锁。</zhCN>
+    <ruRU>Награда за прохождение испытания паладина в Наксрамасе.</ruRU>
+    <ptBR>Desbloqueado ao completar o Desafio de Paladino em Naxxramas.</ptBR>
+    <plPL>Aby odblokować, ukończ wyzwanie klasowe dla paladyna w Naxxramas.</plPL>
+    <koKR>낙스라마스의 성기사 직업 도전 과제를 완료하여 잠금 해제</koKR>
+    <itIT>Sbloccata completando la Sfida di Classe del Paladino a Naxxramas.</itIT>
+    <frFR>Obtenue en terminant le défi de la classe paladin de Naxxramas.</frFR>
+    <esMX>Desbloqueada por completar el desafío clase Paladín en Naxxramas.</esMX>
+    <esES>Se desbloquea al completar el desafío de clase del paladín en Naxxramas.</esES>
+    <deDE>Wird durch das Abschließen der Klassenherausforderung des Paladins in Naxxramas freigeschaltet.</deDE>
   </Tag>
-  <Power definition="7d56ad57-6aea-484b-ae4c-899658cb3125" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after completing the Paladin Class Challenge in Naxxramas.</enUS>
+    <zhTW>在納克薩瑪斯中完成聖騎士職業挑戰即可合成。</zhTW>
+    <zhCN>在纳克萨玛斯完成圣骑士职业挑战后能够制作。</zhCN>
+    <ruRU>Можно создать после завершения испытания паладина в Наксрамасе.</ruRU>
+    <ptBR>Pode ser criado após completar o Desafio de Paladino em Naxxramas.</ptBR>
+    <plPL>Można wykonać po ukończeniu wyzwania klasowego dla paladyna w Naxxramas.</plPL>
+    <koKR>낙스라마스의 성기사 직업 도전 과제를 완료한 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver completato la Sfida di Classe del Paladino a Naxxramas.</itIT>
+    <frFR>Peut être créée après avoir terminé le défi de la classe paladin de Naxxramas.</frFR>
+    <esMX>Se puede crear luego de completar el desafío clase Paladín en Naxxramas.</esMX>
+    <esES>Se puede crear tras completar el desafío de clase del paladín en Naxxramas.</esES>
+    <deDE>Kann nach dem Abschluss der Klassenherausforderung des Paladins in Naxxramas hergestellt werden.</deDE>
+  </Tag>
+  <Tag name="Secret" enumID="219" type="Bool" value="1" />
+  <Power definition="2b93219d-894f-40ff-9bd6-c874cf692bc4" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

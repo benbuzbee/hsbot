@@ -1,64 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_169">
-  <MasterPower>11d8014d-0b27-4d8f-be4f-edfc7040367b</MasterPower>
+<Entity version="2" CardID="CS2_084">
+  <MasterPower>a791d666-f98d-43c4-812a-5da475c31d01</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Innervate</enUS>
-    <frFR>Innervation</frFR>
-    <zhTW>啟動</zhTW>
-    <zhCN>激活</zhCN>
-    <ruRU>Озарение</ruRU>
-    <ptBR>Avivar</ptBR>
-    <plPL>Orzeźwienie</plPL>
-    <koKR>정신 자극</koKR>
-    <itIT>Innervazione</itIT>
-    <esMX>Estimular</esMX>
-    <esES>Estimular</esES>
-    <deDE>Anregen</deDE>
+    <enUS>Hunter's Mark</enUS>
+    <frFR>Marque du chasseur</frFR>
+    <zhTW>獵人印記</zhTW>
+    <zhCN>猎人印记</zhCN>
+    <ruRU>Метка охотника</ruRU>
+    <ptBR>Marca do Caçador</ptBR>
+    <plPL>Znak łowcy</plPL>
+    <koKR>사냥꾼의 징표</koKR>
+    <itIT>Marchio del Cacciatore</itIT>
+    <esMX>Marca del cazador</esMX>
+    <esES>Marca del cazador</esES>
+    <deDE>Mal des Jägers</deDE>
   </Tag>
   <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
   <Tag name="CardType" enumID="202" type="CardType" value="5" />
   <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="2" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="2" />
+  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Gain 2 Mana Crystals this turn only.</enUS>
-    <frFR>Vous gagnez 2 cristaux de mana pour ce tour uniquement.</frFR>
-    <zhTW>獲得2顆法力水晶，只在本回合中有效</zhTW>
-    <zhCN>仅在本回合中，获得两个法力水晶。</zhCN>
-    <ruRU>Вы получаете 2 дополнительных кристалла маны до конца хода.</ruRU>
-    <ptBR>Receba 2 Cristais de Mana somente neste turno.</ptBR>
-    <plPL>Otrzymujesz 2 kryształy many w tej turze.</plPL>
-    <koKR>이번 턴에만 마나 수정을 2개 획득합니다.</koKR>
-    <itIT>Ottieni 2 Cristalli di Mana solo per questo turno.</itIT>
-    <esMX>Obtienes 2 Cristales de maná solo por este turno.</esMX>
-    <esES>Obtén 2 cristales de maná, solo este turno.</esES>
-    <deDE>Erhaltet 2 Manakristalle nur für diesen Zug.</deDE>
+    <enUS>Change a minion's Health to 1.</enUS>
+    <frFR>Fait tomber les points de vie d’un serviteur à 1.</frFR>
+    <zhTW>將一個手下的生命值改為1點</zhTW>
+    <zhCN>使一个随从的生命值变为1。</zhCN>
+    <ruRU>Здоровье выбранного существа становится равно 1.</ruRU>
+    <ptBR>Muda a Vida de um lacaio para 1.</ptBR>
+    <plPL>Zmień zdrowie stronnika na 1.</plPL>
+    <koKR>하수인 하나의 생명력을 1로 바꿉니다.</koKR>
+    <itIT>La Salute di un servitore diventa pari a 1.</itIT>
+    <esMX>Cambia la Salud de un esbirro a 1.</esMX>
+    <esES>Cambia la salud de un esbirro a 1 p.</esES>
+    <deDE>Setzt das Leben eines Dieners auf 1.</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Doug Alexander</enUS>
+    <enUS>Jimmy Lo</enUS>
   </Tag>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Some druids still have flashbacks from strangers yelling "Innervate me!!" at them.</enUS>
-    <zhTW>有些德魯伊腦中還有著陌生人對他們大喊「給我啟動!」的陰影。</zhTW>
-    <zhCN>有些德鲁伊做梦时都回响着陌生人的喊叫声：“给我个激活！”</zhCN>
-    <ruRU>Некоторые друиды до сих пор просыпаются в холодном поту, вспоминая о том времени, когда все кто ни попадя кричали им: «Дру, иннер!»</ruRU>
-    <ptBR>Alguns druidas ainda têm flashbacks de estranhos gritando "Usa Avivar!"</ptBR>
-    <plPL>Niektórzy druidzi wciąż pamiętają nieznajomych, którzy krzyczeli „Orzeźwij mnie!”</plPL>
-    <koKR>드루이드라면 누구나 한 번쯤 "자극 주세요!!" 소리를 들어보셨을 겁니다.</koKR>
-    <itIT>Alcuni Druidi hanno ancora gli incubi di gente sconosciuta che grida loro "Innervami!".</itIT>
-    <frFR>Certains druides font encore des cauchemars à propos d’inconnus leur criant « Innervation ».</frFR>
-    <esMX>Algunos druidas aún tienen recuerdos de extraños gritándoles "¡Estimúlame, estimúlame!".</esMX>
-    <esES>Algunos druidas todavía se acuerdan de cuando completos desconocidos les gritaban "¡Lánzame Estimular!".</esES>
-    <deDE>Einige Druiden haben noch immer Alpträume von Fremden, die ihnen „Gib mir Anregen!!!“ zurufen.</deDE>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 36.</enUS>
+    <enUS>Never play 'Hide and Go Seek' with a Hunter.</enUS>
+    <zhTW>別跟獵人玩躲貓貓。</zhTW>
+    <zhCN>千万不要和猎人玩捉迷藏的游戏。</zhCN>
+    <ruRU>Никогда не играй в прятки с охотником.</ruRU>
+    <ptBR>Nunca brinque de "esconde-esconde" com um Caçador.</ptBR>
+    <plPL>Nigdy nie baw się w chowanego z łowcą.</plPL>
+    <koKR>절대 사냥꾼과 숨바꼭질하지 마십시오.</koKR>
+    <itIT>Mai giocare a nascondino con un Cacciatore.</itIT>
+    <frFR>Attention, chasse gardée !</frFR>
+    <esMX>Nunca juegues a las escondidas con un cazador.</esMX>
+    <esES>Nunca juegues al escondite con un cazador.</esES>
+    <deDE>Dieses Mal ist Euer letztes Mal.</deDE>
   </Tag>
   <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 1.</enUS>
+    <enUS>Unlocked at Level 6.</enUS>
+    <zhTW>於6級時解鎖。</zhTW>
+    <zhCN>达到6级后解锁。</zhCN>
+    <ruRU>Доступна с 6-го уровня.</ruRU>
+    <ptBR>Disponível no nível 6.</ptBR>
+    <plPL>Odblokowane na poziomie 6.</plPL>
+    <koKR>6 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 6.</itIT>
+    <frFR>Débloquée au niveau 6.</frFR>
+    <esMX>Se desbloquea en nivel 6.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 6.</esES>
+    <deDE>Wird auf Stufe 6 freigeschaltet.</deDE>
   </Tag>
-  <Power definition="11d8014d-0b27-4d8f-be4f-edfc7040367b" />
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Unlocked at Level 40.</enUS>
+    <zhTW>於40級時解鎖。</zhTW>
+    <zhCN>达到40级后解锁。</zhCN>
+    <ruRU>Доступна с 40-го уровня.</ruRU>
+    <ptBR>Disponível no nível 40.</ptBR>
+    <plPL>Odblokowane na poziomie 40.</plPL>
+    <koKR>40 레벨에 잠금 해제</koKR>
+    <itIT>Sbloccata al livello 40.</itIT>
+    <frFR>Débloquée au niveau 40.</frFR>
+    <esMX>Se desbloquea en nivel 40.</esMX>
+    <esES>Se desbloquea al alcanzar el nivel 40.</esES>
+    <deDE>Wird auf Stufe 40 freigeschaltet.</deDE>
+  </Tag>
+  <Power definition="a791d666-f98d-43c4-812a-5da475c31d01">
+    <PlayRequirement reqID="11" param="" />
+    <PlayRequirement reqID="1" param="" />
+  </Power>
 </Entity>

@@ -1,67 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_308">
-  <MasterPower>59ec1a94-36e2-45e2-a7d6-4958f435ac69</MasterPower>
+<Entity version="2" CardID="EX1_017">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Soulfire</enUS>
-    <frFR>Feu de l’âme</frFR>
-    <zhTW>靈魂之火</zhTW>
-    <zhCN>灵魂之火</zhCN>
-    <ruRU>Ожог души</ruRU>
-    <ptBR>Fogo d'Alma</ptBR>
-    <plPL>Ogień duszy</plPL>
-    <koKR>영혼의 불꽃</koKR>
-    <itIT>Fuoco dell'Anima</itIT>
-    <esMX>Fuego de alma</esMX>
-    <esES>Fuego de alma</esES>
-    <deDE>Seelenfeuer</deDE>
+    <enUS>Jungle Panther</enUS>
+    <zhTW>叢林豹</zhTW>
+    <zhCN>丛林猎豹</zhCN>
+    <ruRU>Тропическая пантера</ruRU>
+    <ptBR>Pantera da Selva</ptBR>
+    <plPL>Przyczajona pantera</plPL>
+    <koKR>밀림 표범</koKR>
+    <itIT>Pantera della Giungla</itIT>
+    <frFR>Panthère de la jungle</frFR>
+    <esMX>Pantera de la selva</esMX>
+    <esES>Pantera de la selva</esES>
+    <deDE>Dschungelpanther</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Class" enumID="199" type="Class" value="9" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="1" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="Cost" enumID="48" type="Number" value="0" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal $4 damage. Discard a random card.</enUS>
-    <frFR>Inflige $4 |4(point,points) de dégâts. Vous défausse d’une carte aléatoire.</frFR>
-    <zhTW>造成$4點傷害。隨機捨棄一張牌</zhTW>
-    <zhCN>造成$4点伤害，随机弃一张牌。</zhCN>
-    <ruRU>Наносит $4 ед. урона. Вы сбрасываете случайную карту.</ruRU>
-    <ptBR>Cause $4 de dano. Descarte um card aleatório.</ptBR>
-    <plPL>Zadaj $4 pkt. obrażeń. Odrzuć losową kartę.</plPL>
-    <koKR>피해를 $4 줍니다. 무작위로 카드를 1장 버립니다.</koKR>
-    <itIT>Infligge $4 danni. Scarta una carta casuale.</itIT>
-    <esMX>Inflige $4 de daño. Descarta una carta aleatoria.</esMX>
-    <esES>Inflige $4 p. de daño. Descarta una carta aleatoria.</esES>
-    <deDE>Verursacht $4 Schaden. Werft eine zufällige Karte ab.</deDE>
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
   </Tag>
   <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Raymond Swanland</enUS>
+    <enUS>Jaemin Kim</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.</enUS>
-    <zhTW>你正在點燃靈魂嗎?還是用你&lt;b&gt;自己的&lt;/b&gt;靈魂燃燒別人?這看起來有很重要的分別。</zhTW>
-    <zhCN>是把别人的灵魂点燃？还是用自己的灵魂把别人点燃？这似乎是有很大区别的。</zhCN>
-    <ruRU>Вы поджигаете душу или сжигаете кого-то своей душой? Это существенное различие.</ruRU>
-    <ptBR>Você tá queimando a alma de alguém? Ou queimando alguém com a sua PRÓPRIA alma? É importante distinguir.</ptBR>
-    <plPL>Chodzi o ogień z duszy. Nie z dyszy. To jednak spora różnica.</plPL>
-    <koKR>상대의 영혼에 불을 지르는 걸까요? 아니면 자신의 영혼으로 상대에게 불을 지르는 걸까요? 비슷해 보이지만 정말 중요한 차이입니다.</koKR>
-    <itIT>Illumini un'anima che va a fuoco, o dai fuoco a qualcuno con la TUA anima? Sembra una precisazione piuttosto importante da fare.</itIT>
-    <frFR>Est-ce que vous mettez le feu à une âme ? Ou bien vous brûlez quelqu’un avec votre âme ? Il y a une différence !</frFR>
-    <esMX>¿Estás prendiéndole fuego a un alma? ¿O estás quemando a alguien con TU alma? Hay una diferencia importante.</esMX>
-    <esES>Los brujos tienen el fuego en el cuerpo. Y en el alma.</esES>
-    <deDE>Setzt Ihr eine Seele in Brand? Oder verbrennt Ihr jemanden mit Eurer EIGENEN Seele? Der Unterschied scheint nicht unwesentlich zu sein.</deDE>
+    <enUS>Stranglethorn is a beautiful place to visit, but you wouldn't want to live there.</enUS>
+    <zhTW>荊棘谷是個觀光的好去處，但你不會想要住在那裡。</zhTW>
+    <zhCN>荆棘谷是一个很适合观光的地方，但你绝对不会想住在那儿。</zhCN>
+    <ruRU>«Чего уставился? Гладь!»\n\nКирилл Г. «Rel»</ruRU>
+    <ptBR>A Selva do Espinhaço é um lugar lindo para se visitar, mas você não gostaria de morar lá.</ptBR>
+    <plPL>Weszła kiedyś w spółkę z ukrytym smokiem.</plPL>
+    <koKR>가시덤불 골짜기는 아름답습니다. 등 뒤에 항상 누군가 있다는 걸 빼면요.</koKR>
+    <itIT>Rovotorto è un posto bellissimo da visitare, ma viverci è tutta un'altra cosa.</itIT>
+    <frFR>Strangleronce est un endroit magnifique où partir en vacances, mais vous ne voudriez pas y vivre.</frFR>
+    <esMX>Tuercespina es un hermoso lugar para visitar, pero no creo que te guste mucho vivir ahí.</esMX>
+    <esES>Tuercespina es un lugar precioso, pero la esperanza de vida es alarmante.</esES>
+    <deDE>Das Schlingendorntal ist der sprichwörtliche Dschungel. Überleben ist Glückssache.</deDE>
   </Tag>
-  <Tag name="HowToGetThisCard" enumID="364" type="String">
-    <enUS>Unlocked at Level 6.</enUS>
-  </Tag>
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Level 28.</enUS>
-  </Tag>
-  <Power definition="59ec1a94-36e2-45e2-a7d6-4958f435ac69">
-    <PlayRequirement reqID="11" param="" />
-  </Power>
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="6be4628e-c598-4cd9-970d-44cb7b052a1a" />
 </Entity>

@@ -1,60 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_009">
+<Entity version="2" CardID="EX1_558">
+  <MasterPower>5d39914d-7f77-4fef-8c69-fa08db5ab6ae</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Angry Chicken</enUS>
-    <frFR>Poulet furieux</frFR>
-    <zhTW>憤怒雞</zhTW>
-    <zhCN>愤怒的小鸡</zhCN>
-    <ruRU>Злая курица</ruRU>
-    <ptBR>Frango Nervoso</ptBR>
-    <plPL>Wściekły kurczak</plPL>
-    <koKR>화난 닭</koKR>
-    <itIT>Gallina Arrabbiata</itIT>
-    <esMX>Pollo enfadado</esMX>
-    <esES>Pollo furioso</esES>
-    <deDE>Wütendes Huhn</deDE>
+    <enUS>Harrison Jones</enUS>
+    <frFR>Harrison Jones</frFR>
+    <zhTW>哈里遜·瓊斯</zhTW>
+    <zhCN>哈里森·琼斯</zhCN>
+    <ruRU>Харрисон Джонс</ruRU>
+    <ptBR>Harrison Jones</ptBR>
+    <plPL>Harrison Jones</plPL>
+    <koKR>해리슨 존스</koKR>
+    <itIT>Harrison Jones</itIT>
+    <esMX>Harrison Jones</esMX>
+    <esES>Harrison Jones</esES>
+    <deDE>Harrison Jones</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
-  <Tag name="Health" enumID="45" type="Number" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="5" />
+  <Tag name="Health" enumID="45" type="Number" value="4" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Destroy your opponent's weapon and draw cards equal to its Durability.</enUS>
+    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; détruit l’arme de votre adversaire. Vous piochez le nombre de cartes équivalent à sa durabilité.</frFR>
+    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;摧毀對手的武器並抽相當於其耐久度的牌</zhTW>
+    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;摧毁对手的武器，并抽数量等同于其耐久度的牌。</zhCN>
+    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; уничтожает оружие противника. Вы берете карты в количестве, равном его прочности.</ruRU>
+    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Destrua a arma de seu oponente e compre o mesmo número de cards que a durabilidade da arma.</ptBR>
+    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Zniszcz broń przeciwnika i dobierz tyle kart, ile wynosiła jej wytrzymałość.</plPL>
+    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 상대편의 무기를 파괴하고 그 무기의 내구도만큼 카드를 뽑습니다.</koKR>
+    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; distrugge l'arma dell'avversario e pesca un numero di carte pari alla sua Integrità.</itIT>
+    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; destruye el arma de tu adversario y roba cartas equivalentes a su Durabilidad.</esMX>
+    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Destruye el arma de tu oponente y roba una cantidad de cartas equivalente a su durabilidad.</esES>
+    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Zerstört die Waffe Eures Gegners. Zieht ihrer Haltbarkeit entsprechend Karten.</deDE>
+  </Tag>
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Enrage:&lt;/b&gt; +5 Attack.</enUS>
-    <frFR>&lt;b&gt;Accès de rage :&lt;/b&gt; +5 ATQ.</frFR>
-    <zhTW>&lt;b&gt;狂怒:&lt;/b&gt;+5攻擊力</zhTW>
-    <zhCN>&lt;b&gt;激怒：&lt;/b&gt;+5攻击力。</zhCN>
-    <ruRU>&lt;b&gt;Исступление:&lt;/b&gt; +5 к атаке.</ruRU>
-    <ptBR>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 de Ataque.</ptBR>
-    <plPL>&lt;b&gt;Szał:&lt;/b&gt; +5 do ataku.</plPL>
-    <koKR>&lt;b&gt;격노:&lt;/b&gt; 공격력 +5</koKR>
-    <itIT>&lt;b&gt;Rabbia:&lt;/b&gt; +5 Attacco.</itIT>
-    <esMX>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 de Ataque.</esMX>
-    <esES>&lt;b&gt;Enfurecer:&lt;/b&gt; +5 p. de ataque.</esES>
-    <deDE>&lt;b&gt;Wutanfall:&lt;/b&gt; +5 Angriff.</deDE>
-  </Tag>
-  <Tag name="Race" enumID="200" type="Race" value="20" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Mike Sass</enUS>
+    <enUS>Matt Dixon</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>There is no beast more frightening (or ridiculous) than a fully enraged chicken.</enUS>
-    <zhTW>憤怒到極點的禽類是最可怕&lt;b&gt;(或最可笑)&lt;/b&gt;的生物。</zhTW>
-    <zhCN>没有什么野兽比一只彻底发疯的小鸡更加吓人（或者更加可笑）的了。</zhCN>
-    <ruRU>Нет зверя страшнее (или смешнее?), чем разъяренная курица.</ruRU>
-    <ptBR>Não existe criatura mais assustadora (ou ridícula) que uma galinha totalmente enfurecida.</ptBR>
-    <plPL>"Lusia wściekła się, gdy odwołano obchody Święta Kreta" - Pan Józek, znany hodowca kurczaków.</plPL>
-    <koKR>완전히 격노한 닭보다 무시무시한(또는 황당한) 야수는 없습니다.</koKR>
-    <itIT>Non c'è bestia più spaventosa (o ridicola) di una gallina sull'orlo di una crisi di nervi.</itIT>
-    <frFR>Tais-toi, tais-toi, tais-toi, la patte de poulet furieux satan hérétique !!!</frFR>
-    <esMX>No hay bestia más aterradora (o ridícula) que una gallina completamente fuera de sus casillas.</esMX>
-    <esES>¡Es el pollo diablo!</esES>
-    <deDE>Kein Wesen ist furchteinflößender (oder lächerlicher) als ein echt wütendes Huhn.</deDE>
+    <enUS>“That belongs in the Hall of Explorers!”</enUS>
+    <zhTW>「那件文物應該被放到探險者大廳!」</zhTW>
+    <zhCN>“这东西应该陈列在探险者大厅里！”</zhCN>
+    <ruRU>«Этому место в Зале Исследователей!»</ruRU>
+    <ptBR>"Isso pertence ao Salão dos Exploradores!"</ptBR>
+    <plPL>„Jestem poszukiwaczem zaginionej parki!”</plPL>
+    <koKR>"저건 탐험가의 전당에 있어야만 해!"</koKR>
+    <itIT>“Deve stare in un museo!”</itIT>
+    <frFR>« Sa place est dans le hall des Explorateurs ! »</frFR>
+    <esMX>“Debería estar en la Sala de los Expedicionarios”.</esMX>
+    <esES>"¡Debería estar en la Sala de los Expedicionarios!".</esES>
+    <deDE>„Das gehört in die Halle der Forscher!“</deDE>
   </Tag>
-  <Tag name="Enrage" enumID="212" type="Bool" value="1" />
-  <Power definition="9c93272d-f906-465d-8b05-f4316f07ba9d" />
+  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
+  <Power definition="5d39914d-7f77-4fef-8c69-fa08db5ab6ae" />
 </Entity>

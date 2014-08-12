@@ -1,40 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_036e2">
+<Entity version="2" CardID="NEW1_020">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Commanding Shout</enUS>
-    <frFR>Cri de commandement</frFR>
-    <zhTW>命令之吼</zhTW>
-    <zhCN>命令怒吼</zhCN>
-    <ruRU>Командирский крик</ruRU>
-    <ptBR>Brado de Comando</ptBR>
-    <plPL>Rozkazujący okrzyk</plPL>
-    <koKR>지휘의 외침</koKR>
-    <itIT>Urlo di Comando</itIT>
-    <esMX>Grito de orden</esMX>
-    <esES>Grito de orden</esES>
-    <deDE>Befehlsruf</deDE>
+    <enUS>Wild Pyromancer</enUS>
+    <frFR>Pyromancien sauvage</frFR>
+    <zhTW>狂野火占師</zhTW>
+    <zhCN>狂野炎术师</zhCN>
+    <ruRU>Яростный пиромант</ruRU>
+    <ptBR>Piromante Selvagem</ptBR>
+    <plPL>Dziki piromanta</plPL>
+    <koKR>광기의 화염술사</koKR>
+    <itIT>Piromante Selvaggio</itIT>
+    <esMX>Piromántico salvaje</esMX>
+    <esES>Piromántico salvaje</esES>
+    <deDE>Wilder Pyromant</deDE>
   </Tag>
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="Atk" enumID="47" type="Number" value="3" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>After you cast a spell, deal 1 damage to ALL minions.</enUS>
+    <frFR>Après que vous avez lancé un sort, inflige 1 point de dégâts à TOUS les serviteurs.</frFR>
+    <zhTW>在你施放法術之後，對全部手下造成1點傷害</zhTW>
+    <zhCN>每当你施放一个法术时，对所有随从造成1点伤害。</zhCN>
+    <ruRU>После того, как вы разыграли карту заклинания, наносит 1 ед. урона ВСЕМ существам.</ruRU>
+    <ptBR>Depois de lançar um feitiço, cause 1 de dano a TODOS os lacaios.</ptBR>
+    <plPL>Gdy rzucisz zaklęcie, zadaj 1 pkt. obrażeń WSZYSTKIM stronnikom.</plPL>
+    <koKR>내 주문이 시전된 후에, &lt;b&gt;모든&lt;/b&gt; 하수인에게 피해를 1 줍니다.</koKR>
+    <itIT>Dopo che hai lanciato una Magia, infligge 1 danno a TUTTI i servitori.</itIT>
+    <esMX>Después de lanzar un hechizo, inflige 1 de daño a TODOS los esbirros.</esMX>
+    <esES>Después de que lances un hechizo, inflige 1 p. de daño a todos los esbirros.</esES>
+    <deDE>Fügt ALLEN Dienern 1 Schaden zu, nachdem Ihr einen Zauber gewirkt habt.</deDE>
+  </Tag>
+  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your minions can't be reduced below 1 Health this turn.</enUS>
-    <frFR>Les points de vie de vos serviteurs ne peuvent pas passer en dessous de 1 ce tour-ci.</frFR>
-    <zhTW>你的手下們在本回合內生命值不會低於1點</zhTW>
-    <zhCN>在本回合中，你的随从的生命值无法被降到1点以下。</zhCN>
-    <ruRU>Здоровье ваших существ не может быть уменьшено ниже 1 ед. до конца хода.</ruRU>
-    <ptBR>A Vida de seus lacaios não pode ser reduzida a menos de 1 neste turno.</ptBR>
-    <plPL>W tej turze twoi stronnicy nie mogą zejść poniżej 1 pkt. zdrowia.</plPL>
-    <koKR>이번 턴에는 내 하수인들의 생명력이 1 미만으로 내려가지 않습니다.</koKR>
-    <itIT>Per questo turno, i tuoi servitori non possono essere portati al di sotto di 1 Salute.</itIT>
-    <esMX>La Salud de tus esbirros no puede reducirse a menos de 1 en este turno.</esMX>
-    <esES>La salud de tus esbirros no puede bajar de 1 p. este turno.</esES>
-    <deDE>Das Leben Eurer Diener kann in diesem Zug nicht unter 1 fallen.</deDE>
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Alex Horley Orlandelli</enUS>
   </Tag>
-  <Tag name="Class" enumID="199" type="Class" value="10" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="b420abe4-00ad-40c7-91ad-4a00f8dd91df" />
-  <Power definition="ff62df1d-a870-4772-add2-088eb2aefe7d" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="FlavorText" enumID="351" type="String">
+    <enUS>BOOM BABY BOOM!  BAD IS GOOD!  DOWN WITH GOVERNMENT!</enUS>
+    <zhTW>燒啊燒，燒光光!大家一起燒!</zhTW>
+    <zhCN>爆炸吧，宝贝儿！炸得越烂越好！让那些统治者去死吧！</zhCN>
+    <ruRU>Жги-гуляй! В небе ясном танцует огонь!</ruRU>
+    <ptBR>BUM! HAHAHA, BUUUUM!!! MAU É BOM!!! ANARQUIAAAAA!</ptBR>
+    <plPL>Po godzinach dorabia jako strażak.</plPL>
+    <koKR>한여름엔 왕따, 한겨울엔 인기 폭발인 친구입니다.</koKR>
+    <itIT>FUOCO E FIAMME! FUOCO E FIAMME! FUOCO E FIAMME!</itIT>
+    <frFR>BOUM, LE MONDE ENTIER FAIT BOUM, TOUT L’UNIVERS FAIT BOUM, PARC’QUE MON CŒUR FAIT BOUM BOUM.</frFR>
+    <esMX>¡BUM, BUM! ¡PON A GOZAR TU CUERPO CON EL BUM!</esMX>
+    <esES>¡A este no lo invites a tu casa!</esES>
+    <deDE>FEUER FREI!</deDE>
+  </Tag>
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="9aa2e6a5-eadf-4215-84b2-a8da1a75f6db" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>

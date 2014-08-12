@@ -1,68 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_508">
+<Entity version="2" CardID="EX1_010">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Grimscale Oracle</enUS>
-    <frFR>Oracle sinistrécaille</frFR>
-    <zhTW>厲鱗神諭者</zhTW>
-    <zhCN>暗鳞先知</zhCN>
-    <ruRU>Оракул Темной Чешуи</ruRU>
-    <ptBR>Oráculo Escamatroz</ptBR>
-    <plPL>Wyrocznia Burych Łusek</plPL>
-    <koKR>성난비늘 수련사</koKR>
-    <itIT>Oracolo Scagliasalda</itIT>
-    <esMX>Oráculo malaescama</esMX>
-    <esES>Oráculo Malaescama</esES>
-    <deDE>Grimmschuppenorakel</deDE>
+    <enUS>Worgen Infiltrator</enUS>
+    <frFR>Infiltrateur worgen</frFR>
+    <zhTW>狼人滲透者</zhTW>
+    <zhCN>狼人渗透者</zhCN>
+    <ruRU>Ворген-разведчик</ruRU>
+    <ptBR>Infiltrador Worgen</ptBR>
+    <plPL>Worgen dywersant</plPL>
+    <koKR>늑대인간 침투요원</koKR>
+    <itIT>Infiltrato Worgen</itIT>
+    <esMX>Infiltrado huargen</esMX>
+    <esES>Infiltrado huargen</esES>
+    <deDE>Worgenspitzel</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="2" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
   <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
+  <Tag name="Faction" enumID="201" type="Faction" value="2" />
   <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
   <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Atk" enumID="47" type="Number" value="1" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
   <Tag name="Health" enumID="45" type="Number" value="1" />
-  <Tag name="CardTextInPlay" enumID="252" type="String">
-    <enUS>Argalagblbl</enUS>
-  </Tag>
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>ALL other Murlocs have +1 Attack.</enUS>
-    <frFR>TOUS les autres murlocs ont +1 ATQ.</frFR>
-    <zhTW>全部其他魚人獲得+1攻擊力</zhTW>
-    <zhCN>所有其他鱼人获得+1攻击力。</zhCN>
-    <ruRU>ВСЕ прочие мурлоки получают +1 к атаке.</ruRU>
-    <ptBR>TODOS os outros Murlocs têm +1 de Ataque.</ptBR>
-    <plPL>Wszystkie pozostałe murloki otrzymują +1 do ataku.</plPL>
-    <koKR>다른 &lt;b&gt;모든&lt;/b&gt; 멀록이 공격력을 +1 얻습니다.</koKR>
-    <itIT>TUTTI gli altri Murloc hanno +1 Attacco.</itIT>
-    <esMX>TODOS los otros múrlocs tienen +1 de Ataque.</esMX>
-    <esES>Todos los demás múrlocs tienen +1 p. de ataque.</esES>
-    <deDE>ALLE anderen Murlocs haben +1 Angriff.</deDE>
+    <enUS>&lt;b&gt;Stealth&lt;/b&gt;</enUS>
+    <frFR>&lt;b&gt;Camouflage&lt;/b&gt;</frFR>
+    <zhTW>&lt;b&gt;潛行&lt;/b&gt;</zhTW>
+    <zhCN>&lt;b&gt;潜行&lt;/b&gt;</zhCN>
+    <ruRU>&lt;b&gt;Маскировка&lt;/b&gt;</ruRU>
+    <ptBR>&lt;b&gt;Furtividade&lt;/b&gt;</ptBR>
+    <plPL>&lt;b&gt;Ukrycie&lt;/b&gt;</plPL>
+    <koKR>&lt;b&gt;은신&lt;/b&gt;</koKR>
+    <itIT>&lt;b&gt;Furtività&lt;/b&gt;</itIT>
+    <esMX>&lt;b&gt;Sigilo&lt;/b&gt;</esMX>
+    <esES>&lt;b&gt;Sigilo&lt;/b&gt;</esES>
+    <deDE>&lt;b&gt;Verstohlenheit&lt;/b&gt;</deDE>
   </Tag>
+  <Tag name="DevState" enumID="268" type="DevState" value="2" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Phil Saunders</enUS>
-  </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
-    <enUS>Unlocked at Warlock Level 53.</enUS>
+    <enUS>Raymond Swanland</enUS>
   </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>These are the brainy murlocs.  It turns out that doesn’t mean much.</enUS>
-    <zhTW>神諭者算是比較聰明的魚人。但其實，差別好像也不大。</zhTW>
-    <zhCN>这些算是有头脑的鱼人。但仍然有些名不副实。</zhCN>
-    <ruRU>Иногда среди мурлоков попадаются очень умные. Но кого это волнует?</ruRU>
-    <ptBR>Esses são murlocs espertos. Mas parece que isso não quer dizer muita coisa.</ptBR>
-    <plPL>To te cwańsze murloki. Co wcale wiele nie znaczy.</plPL>
-    <koKR>아주 똑똑한 멀록입니다. 그래도 다른 멀록들과 크게 다르지는 않습니다.</koKR>
-    <itIT>Questi sono i Murloc intelligenti. Non che cambi molto da quelli normali...</itIT>
-    <frFR>Ce sont les plus intelligents de tous les murlocs. Mais ça ne veut pas dire grand-chose...</frFR>
-    <esMX>Estos son los múrlocs más inteligentes. Bueno, en este caso "inteligentes" es una forma de decir.</esMX>
-    <esES>Estos son los múrlocs más listos. Aunque eso no es decir mucho.</esES>
-    <deDE>Sie sind die Genies unter den Murlocs. Aber auch das will nicht viel heißen.</deDE>
+    <enUS>If you want to stop a worgen from infiltrating, just yell, "No! Bad boy!"</enUS>
+    <zhTW>你不想被狼人滲透的話，只要大喊「不可以!壞壞!」就好。</zhTW>
+    <zhCN>他们原本都是人类，他们更知道怎样悄无声息地进入某些人类的居所中。</zhCN>
+    <ruRU>Если вы хотите прогнать воргена, который лезет к вам в дом на разведку, просто крикните ему: «Фу! Плохой песик!»</ruRU>
+    <ptBR>Se quiser impedir um worgen de se infiltrar, é só gritar: "Não! Cachorro feio!"</ptBR>
+    <plPL>Jeśli chcesz powstrzymać dywersję worgenów, wystarczy krzyknąć „Do budy!”</plPL>
+    <koKR>늑대인간이 침투하지 못하게 만드는 방법은 간단합니다. 함정 위에 개껌을 던져두세요.</koKR>
+    <itIT>Se vuoi fermare un Worgen dall'infiltrarsi basta urlare: "No! Cane cattivo!"</itIT>
+    <frFR>Si vous ne voulez pas que des worgens vous infiltrent, vous n’avez qu’à crier : « Non ! Méchant loup ! »</frFR>
+    <esMX>Si quieres evitar que un huargen se infiltre, grítale: "¡No! ¡Perro malo!".</esMX>
+    <esES>Para detener a los infiltrados huargen hay que gritar "¡No! ¡Chico malo!".</esES>
+    <deDE>Wenn Ihr einen Worgen daran hindern wollt, Euch zu bespitzeln, ruft einfach laut: „Aus! Pfui!“</deDE>
   </Tag>
-  <Tag name="Aura" enumID="362" type="Bool" value="1" />
-  <Power definition="21969ec7-342e-480e-9cfe-6ba9afc9a2e5" />
+  <Tag name="Stealth" enumID="191" type="Bool" value="1" />
+  <Power definition="324edfa7-0e28-4254-aa78-163883caf0a9" />
 </Entity>

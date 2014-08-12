@@ -1,63 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_103">
-  <MasterPower>ed1b6657-9a0f-4737-ad76-4cd4e95835fe</MasterPower>
+<Entity version="2" CardID="FP1_004">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Coldlight Seer</enUS>
-    <frFR>Voyant froide-lumière</frFR>
-    <zhTW>冷光先知</zhTW>
-    <zhCN>寒光先知</zhCN>
-    <ruRU>Вайш'ирский провидец</ruRU>
-    <ptBR>Vidente da Luz Fria</ptBR>
-    <plPL>Prorok Światłociemnych</plPL>
-    <koKR>시린빛 예언자</koKR>
-    <itIT>Veggente Lucefredda</itIT>
-    <esMX>Vidente Luz fría</esMX>
-    <esES>Vidente Luz Fría</esES>
-    <deDE>Tiefenlichtseher</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="4" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="Race" enumID="200" type="Race" value="14" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="2" />
-  <Tag name="Health" enumID="45" type="Number" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="6" />
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Battlecry:&lt;/b&gt; Give ALL other Murlocs +2 Health.</enUS>
-    <frFR>&lt;b&gt;Cri de guerre :&lt;/b&gt; donne +2 PV à TOUS les autres murlocs.</frFR>
-    <zhTW>&lt;b&gt;戰吼:&lt;/b&gt;賦予全部其他魚人+2生命值</zhTW>
-    <zhCN>&lt;b&gt;战吼：&lt;/b&gt;使所有其他鱼人获得+2生命值。</zhCN>
-    <ruRU>&lt;b&gt;Боевой клич:&lt;/b&gt; все прочие мурлоки получают +2 к здоровью.</ruRU>
-    <ptBR>&lt;b&gt;Grito de Guerra:&lt;/b&gt; Conceda +2 de Vida a TODOS os outros Murlocs.</ptBR>
-    <plPL>&lt;b&gt;Okrzyk bojowy:&lt;/b&gt; Daj wszystkim pozostałym murlokom +2 do zdrowia.</plPL>
-    <koKR>&lt;b&gt;전투의 함성:&lt;/b&gt; 다른 &lt;b&gt;모든&lt;/b&gt; 멀록에게 생명력을 +2 부여합니다.</koKR>
-    <itIT>&lt;b&gt;Grido di Battaglia:&lt;/b&gt; +2 Salute a TUTTI gli altri Murloc.</itIT>
-    <esMX>&lt;b&gt;Grito de batalla:&lt;/b&gt; otorga +2 de Salud a TODOS los otros múrlocs.</esMX>
-    <esES>&lt;b&gt;Grito de batalla:&lt;/b&gt; Otorga +2 p. de salud a todos los demás múrlocs.</esES>
-    <deDE>&lt;b&gt;Kampfschrei:&lt;/b&gt; Verleiht ALLEN anderen Murlocs +2 Leben.</deDE>
+    <enUS>Mad Scientist</enUS>
+    <zhTW>瘋狂科學家</zhTW>
+    <zhCN>疯狂的科学家</zhCN>
+    <ruRU>Безумный ученый</ruRU>
+    <ptBR>Cientista Louco</ptBR>
+    <plPL>Szalony naukowiec</plPL>
+    <koKR>미치광이 과학자</koKR>
+    <itIT>Scienziato Pazzo</itIT>
+    <frFR>Savant fou</frFR>
+    <esMX>Científico loco</esMX>
+    <esES>Científico loco</esES>
+    <deDE>Irrer Wissenschaftler</deDE>
   </Tag>
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="Cost" enumID="48" type="Number" value="2" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Atk" enumID="47" type="Number" value="2" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; Put a &lt;b&gt;Secret&lt;/b&gt; from your deck into the battlefield.</enUS>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;從你的牌堆取出一張&lt;b&gt;秘密&lt;/b&gt;並放到戰場</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;将一个&lt;b&gt;奥秘&lt;/b&gt;从你的牌库中置入战场。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; вы кладете на поле боя &lt;b&gt;секрет&lt;/b&gt; из вашей колоды.</ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Coloque um &lt;b&gt;Segredo&lt;/b&gt; do seu deck no campo de batalha.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Umieść losowy &lt;b&gt;Sekret&lt;/b&gt; ze swojej talii na polu bitwy.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 덱에 있는 &lt;b&gt;비밀&lt;/b&gt; 카드 1장을 사용합니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; mette in gioco un &lt;b&gt;Segreto&lt;/b&gt; dal tuo mazzo.</itIT>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; place un &lt;b&gt;Secret&lt;/b&gt; de votre deck sur le champ de bataille.</frFR>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; pon un &lt;b&gt;Secreto&lt;/b&gt; de tu mazo en el campo de batalla.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Coloca un &lt;b&gt;secreto&lt;/b&gt; de tu mazo en el campo de batalla.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Legt ein &lt;b&gt;Geheimnis&lt;/b&gt; aus Eurem Deck auf das Schlachtfeld.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Arthur Gimaldinov</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>The Coldlight murlocs reside in the darkest pits of the Abyssal Depths.  So no, there's no getting away from murlocs.</enUS>
-    <zhTW>要逃離魚人沒那麼簡單，連地獄深淵都有冷光魚人住在那裡。</zhTW>
-    <zhCN>寒光鱼人终年居住于无底海源最黑暗的洞穴之中。所以，是的，你到哪儿都别想摆脱鱼人。</zhCN>
-    <ruRU>Вайш'ирские мурлоки обитают в самых глубоких расщелинах Бездонных глубин. Это доказывает, что от мурлоков нигде нельзя спрятаться.</ruRU>
-    <ptBR>Os murlocs da Luz Fria residem nos abismos mais escuros das Profundezas Abissais. Então não. Não há mesmo como escapar dos murlocs.</ptBR>
-    <plPL>Choć mieszka w głębinach, nie powala głębią intelektu.</plPL>
-    <koKR>시린빛 멀록들은 심연의 나락 가장 깊은 곳에 삽니다. 즉, 이들을 봤다는 것은 도망칠 곳도 없다는 뜻이죠.</koKR>
-    <itIT>I Murloc Lucefredda risiedono nelle più buie gallerie delle Profondità Abissali. Quindi no, non c'è modo di nascondersi dai Murloc.</itIT>
-    <frFR>Les murlocs froide-lumière vivent dans les fosses les plus sombres des profondeurs Abyssales. Donc oui, il y en a vraiment partout !</frFR>
-    <esMX>Los múrloc Luz fría viven en las fosas más oscuras de las Profundidades Abisales. Grábate la idea: no se puede escapar de los múrlocs.</esMX>
-    <esES>Los múrlocs Luz Fría viven en las simas más oscuras de las Profundidades Abisales. Sí, hay múrlocs en todas partes.</esES>
-    <deDE>Die Tiefenlichtmurlocs leben selbst in den dunkelsten Löchern der Abyssischen Tiefen. Es gibt also wirklich keinen Ort, an dem man vor Murlocs sicher ist.</deDE>
+    <enUS>His mother wanted him to be a mage or a warlock, but noooooooo, he had to go and be a scientist like his father.</enUS>
+    <zhTW>他的母親希望他能成為法師或術士，但他偏偏要像他父親一樣成為科學家。</zhTW>
+    <zhCN>他的妈妈希望他成为一名法师或是一名术士，但是他没有。他必须踏上属于自己的道路，成为一个和他父亲一样的科学家。</zhCN>
+    <ruRU>Мама хотела, чтобы он стал магом или чернокнижником, как все нормальные люди. И зачем только он пошел в науку?</ruRU>
+    <ptBR>A mãe dele queria que ele fosse um mago ou bruxo, mas nãaaaaaaaaao, ele tinha que ser cientista como o pai.</ptBR>
+    <plPL>Zawsze chciał zostać magiem, ale poszedł na studia, po których dostał kiepsko płatną pracę przy szlamie.</plPL>
+    <koKR>어머니는 마법사나 흑마법사가 되길 바랐지만, 그는 결국 아버지의 뒤를 이어 과학자가 되었답니다.</koKR>
+    <itIT>Sua madre voleva che diventasse un Mago o uno Stregone, ma no... è voluto diventare uno scienziato come suo padre.</itIT>
+    <frFR>Sa môman voulait qu’il devienne mage ou démoniste, mais non, il a fallu qu’il soit savant fou comme son papa.</frFR>
+    <esMX>Su madre quería que fuera mago o brujo. Pero... noooooooo... el tipo tenía que seguir los pasos de su padre y hacerse científico.</esMX>
+    <esES>Su madre quería que fuese mago, o brujo, pero noooo, tenía que hacerse científico, como su padre.</esES>
+    <deDE>Seine Mutter wollte, dass er Magier oder Hexenmeister wird, aber neeein, er musste ja Wissenschaftler werden, genau wie sein Vater.</deDE>
   </Tag>
-  <Tag name="Battlecry" enumID="218" type="Bool" value="1" />
-  <Power definition="ed1b6657-9a0f-4737-ad76-4cd4e95835fe" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>James Ryman</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by defeating Grobbulus in the Construct Quarter.</enUS>
+    <zhTW>在傀儡區擊敗葛羅巴斯後解鎖。</zhTW>
+    <zhCN>在击败构造区的格罗布鲁斯后解锁。</zhCN>
+    <ruRU>Награда за победу над Гроббулусом в Квартале Мерзости.</ruRU>
+    <ptBR>Desbloqueado ao derrotar Grobbulus no Distrito dos Constructos.</ptBR>
+    <plPL>Aby odblokować, pokonaj Grobulusa w Rewirze Konstruktów.</plPL>
+    <koKR>피조물 지구의 그라불루스를 쓰러뜨려 잠금 해제</koKR>
+    <itIT>Sbloccata sconfiggendo Grobbulus nell'Ala dei Costrutti.</itIT>
+    <frFR>Obtenue en gagnant contre Grobbulus dans le quartier des Assemblages.</frFR>
+    <esMX>Desbloqueada por derrotar a Grobbulus en el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se desbloquea al derrotar a Grobbulus en el Arrabal de los Ensamblajes.</esES>
+    <deDE>Wird durch den Sieg über Grobbulus im Konstruktviertel freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after defeating Grobbulus in the Construct Quarter.</enUS>
+    <zhTW>在傀儡區中擊敗葛羅巴斯即可合成。</zhTW>
+    <zhCN>在构造区击败格罗布鲁斯后能够制作。</zhCN>
+    <ruRU>Можно создать после победы над Гроббулусом в Квартале Мерзости.</ruRU>
+    <ptBR>Pode ser criado após derrotar Grobbulus no Distrito dos Constructos.</ptBR>
+    <plPL>Można wykonać po pokonaniu Grobulusa w Rewirze Konstruktów.</plPL>
+    <koKR>피조물 지구의 그라불루스를 쓰러뜨린 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver sconfitto Grobbulus nell'Ala dei Costrutti.</itIT>
+    <frFR>Peut être créée après avoir battu Grobbulus dans le quartier des Assemblages.</frFR>
+    <esMX>Se puede crear luego de derrotar a Grobbulus en el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se puede crear tras derrotar a Grobbulus en el Arrabal de los Ensamblajes.</esES>
+    <deDE>Kann nach dem Sieg über Grobbulus im Konstruktviertel hergestellt werden.</deDE>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="4477c163-64c1-4cef-baea-923f8914bb2e" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

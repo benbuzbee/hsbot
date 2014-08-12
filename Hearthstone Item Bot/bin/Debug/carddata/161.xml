@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="TU4a_004">
-  <MasterPower>c5effb2f-1741-43e9-94e0-d04ad1cb979b</MasterPower>
+<Entity version="2" CardID="EX1_604o">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Hogger SMASH!</enUS>
-    <frFR>Lardeur TOUT CASSER !</frFR>
-    <zhTW>霍格打打!</zhTW>
-    <zhCN>霍格很厉害！</zhCN>
-    <ruRU>Удар Дробителя!</ruRU>
-    <ptBR>Hogger ESMAGA!</ptBR>
-    <plPL>Wyżer MIAŻDŻYĆ!</plPL>
-    <koKR>들창코 강타!</koKR>
-    <itIT>Boccalarga SPACCA!</itIT>
-    <esMX>¡Hogger APLASTA!</esMX>
-    <esES>¡Hogger MACHACA!</esES>
-    <deDE>Hogger ZERQUETSCHT!</deDE>
+    <enUS>Berserk</enUS>
+    <frFR>Berserk</frFR>
+    <zhTW>狂暴</zhTW>
+    <zhCN>狂暴</zhCN>
+    <ruRU>Берсерк</ruRU>
+    <ptBR>Berserk</ptBR>
+    <plPL>Wściekłość</plPL>
+    <koKR>광폭화</koKR>
+    <itIT>Berserk</itIT>
+    <esMX>Rabioso</esMX>
+    <esES>Rabia</esES>
+    <deDE>Rasend</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
+  <Tag name="Class" enumID="199" type="Class" value="10" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Deal 4 damage.</enUS>
-    <frFR>Inflige 4 points de dégâts.</frFR>
-    <zhTW>造成4點傷害</zhTW>
-    <zhCN>造成4点伤害。</zhCN>
-    <ruRU>Наносит 4 ед. урона.</ruRU>
-    <ptBR>Cause 4 de dano.</ptBR>
-    <plPL>Zadaj 4 pkt. obrażeń.</plPL>
-    <koKR>피해를 4 줍니다.</koKR>
-    <itIT>Infligge 4 danni.</itIT>
-    <esMX>Inflige 4 de daño.</esMX>
-    <esES>Inflige 4 p. de daño.</esES>
-    <deDE>Verursacht 4 Schaden.</deDE>
+    <enUS>Increased Attack.</enUS>
+    <frFR>Attaque augmentée.</frFR>
+    <zhTW>攻擊力提高</zhTW>
+    <zhCN>攻击力增加。</zhCN>
+    <ruRU>Атака увеличена.</ruRU>
+    <ptBR>Ataque aumentado.</ptBR>
+    <plPL>Zwiększony atak.</plPL>
+    <koKR>공격력 증가</koKR>
+    <itIT>Attacco aumentato.</itIT>
+    <esMX>Ataque aumentado.</esMX>
+    <esES>Ataque aumentado.</esES>
+    <deDE>Erhöhter Angriff.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Power definition="c5effb2f-1741-43e9-94e0-d04ad1cb979b">
-    <PlayRequirement reqID="11" param="" />
-    <PlayRequirement reqID="17" param="" />
-    <PlayRequirement reqID="3" param="" />
-  </Power>
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="11178260-9a33-4dd7-a96d-e0c101cab844" />
 </Entity>

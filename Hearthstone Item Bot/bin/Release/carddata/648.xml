@@ -1,63 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_379">
+<Entity version="2" CardID="FP1_015">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Repentance</enUS>
-    <frFR>Repentir</frFR>
-    <zhTW>懺悔</zhTW>
-    <zhCN>忏悔</zhCN>
-    <ruRU>Покаяние</ruRU>
-    <ptBR>Contrição</ptBR>
-    <plPL>Skrucha</plPL>
-    <koKR>참회</koKR>
-    <itIT>Penitenza</itIT>
-    <esMX>Arrepentimiento</esMX>
-    <esES>Arrepentimiento</esES>
-    <deDE>Buße</deDE>
+    <enUS>Feugen</enUS>
+    <zhTW>伏晨</zhTW>
+    <zhCN>费尔根</zhCN>
+    <ruRU>Фойген</ruRU>
+    <ptBR>Feugen</ptBR>
+    <plPL>Feugen</plPL>
+    <koKR>퓨진</koKR>
+    <itIT>Feugen</itIT>
+    <frFR>Feugen</frFR>
+    <esMX>Feugen</esMX>
+    <esES>Feugen</esES>
+    <deDE>Feugen</deDE>
   </Tag>
-  <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>&lt;b&gt;Secret:&lt;/b&gt; When your opponent plays a minion, reduce its Health to 1.</enUS>
-    <frFR>&lt;b&gt;Secret :&lt;/b&gt; quand votre adversaire joue un serviteur, ses points de vie sont réduits à 1.</frFR>
-    <zhTW>&lt;b&gt;秘密:&lt;/b&gt;當你的對手召喚手下時，將其生命值降為1點</zhTW>
-    <zhCN>&lt;b&gt;奥秘：&lt;/b&gt;当你的对手召唤一个随从，使该随从的生命值降为1。</zhCN>
-    <ruRU>&lt;b&gt;Секрет:&lt;/b&gt; когда противник разыгрывает карту существа, здоровье этого существа становится равно 1.</ruRU>
-    <ptBR>&lt;b&gt;Segredo:&lt;/b&gt; Quando seu oponente jogar um lacaio, reduza a Vida dele para 1.</ptBR>
-    <plPL>&lt;b&gt;Sekret:&lt;/b&gt; Kiedy twój przeciwnik zagra stronnika, zmniejsz jego zdrowie do 1.</plPL>
-    <koKR>&lt;b&gt;비밀:&lt;/b&gt; 상대편이 하수인을 내면, 그 하수인의 생명력이 1로 감소합니다.</koKR>
-    <itIT>&lt;b&gt;Segreto:&lt;/b&gt; quando l'avversario gioca un servitore, riduce la sua Salute a 1.</itIT>
-    <esMX>&lt;b&gt;Secreto:&lt;/b&gt; cuando tu adversario juegue un esbirro, reduce su Salud a 1.</esMX>
-    <esES>&lt;b&gt;Secreto:&lt;/b&gt; Cuando tu oponente juega un esbirro, reduce su salud a 1 p.</esES>
-    <deDE>&lt;b&gt;Geheimnis:&lt;/b&gt; Wenn Euer Gegner einen Diener ausspielt, wird dessen Leben auf 1 verringert.</deDE>
-  </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
-  <Tag name="CardType" enumID="202" type="CardType" value="5" />
-  <Tag name="Cost" enumID="48" type="Number" value="1" />
-  <Tag name="Class" enumID="199" type="Class" value="5" />
-  <Tag name="Faction" enumID="201" type="Faction" value="3" />
-  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="Collectible" enumID="321" type="Bool" value="1" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="5" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="5" />
+  <Tag name="Atk" enumID="47" type="Number" value="4" />
+  <Tag name="Health" enumID="45" type="Number" value="7" />
+  <Tag name="Elite" enumID="114" type="Bool" value="1" />
+  <Tag name="CardTextInHand" enumID="184" type="String">
+    <enUS>&lt;b&gt;Deathrattle:&lt;/b&gt; If Stalagg also died this game, summon Thaddius.</enUS>
+    <zhTW>&lt;b&gt;死亡之聲:&lt;/b&gt;如果斯塔拉格在這場賽局中也已經死亡，召喚泰迪斯</zhTW>
+    <zhCN>&lt;b&gt;亡语：&lt;/b&gt;如果斯塔拉格也在本局对战中死亡，召唤塔迪乌斯。</zhCN>
+    <ruRU>&lt;b&gt;Предсмертный хрип:&lt;/b&gt; если во время этого матча умер Сталагг, призывает на поле боя Таддиуса.  </ruRU>
+    <ptBR>&lt;b&gt;Último Suspiro:&lt;/b&gt; Se Stalagg também morreu nesta partida, evoque Thaddius.</ptBR>
+    <plPL>&lt;b&gt;Agonia:&lt;/b&gt; Jeśli podczas tej partii zginął także Stalag, przyzwij Thadiusa.</plPL>
+    <koKR>&lt;b&gt;죽음의 메아리:&lt;/b&gt; 만약 스탈라그가 죽은 상태라면 타디우스를 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Rantolo di Morte:&lt;/b&gt; se anche Stalagg è morto in questa partita, evoca Thaddius.</itIT>
+    <frFR>&lt;b&gt;Râle d’agonie :&lt;/b&gt; si Stalagg est aussi mort pendant cette partie, invoque Thaddius.</frFR>
+    <esMX>&lt;b&gt;Estertor:&lt;/b&gt; si Stalagg también murió en esta partida, invoca a Thaddius.</esMX>
+    <esES>&lt;b&gt;Último aliento:&lt;/b&gt; Si Stalagg también ha muerto durante esta partida, invoca a Thaddius.</esES>
+    <deDE>&lt;b&gt;Todesröcheln:&lt;/b&gt; Ruft Thaddius herbei, wenn Stalagg in diesem Duell bereits gestorben ist.</deDE>
+  </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Gonzalo Ordonez</enUS>
-  </Tag>
   <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>Repentance often comes in the moment before obliteration. Curious.</enUS>
-    <zhTW>人們通常在生命結束的前一刻才會懺悔。真有意思。</zhTW>
-    <zhCN>忏悔总会在湮灭前一刻到来。多么奥妙。</zhCN>
-    <ruRU>Любопытно, но покаяние зачастую приходит за секунду до гибели. </ruRU>
-    <ptBR>O arrependimento frequentemente antecede a aniquilação. Curioso.</ptBR>
-    <plPL>Paladyni znani są ze skromności i okazywania skruchy, ale tylko tuż przed klęską.</plPL>
-    <koKR>누구든 죄는 짓는 법이니까요.</koKR>
-    <itIT>La penitenza spesso è più pesante della morte. Curioso.</itIT>
-    <frFR>Les gens se repentent souvent au moment de disparaître. Comme c’est curieux.</frFR>
-    <esMX>El arrepentimiento siempre aparece justo antes de la aniquilación. Muy oportuno.</esMX>
-    <esES>El arrepentimiento suele ser lo que precede a la aniquilación. Un dato curioso.</esES>
-    <deDE>Ironischerweise kommt die Buße oft vor der Vernichtung.</deDE>
+    <enUS>Feugen is sad because everyone likes Stalagg better.</enUS>
+    <zhTW>伏晨心情一直不太好，因為大家都比較喜歡斯塔拉格。</zhTW>
+    <zhCN>费尔根很悲伤，因为所有人都喜欢斯塔拉格。</zhCN>
+    <ruRU>Фойген такой грустный, потому что Сталагга любят больше.</ruRU>
+    <ptBR>Feugen está triste porque todo mundo gosta mais do Stalagg.</ptBR>
+    <plPL>„Stalag - brzyyydal!” - Feugen</plPL>
+    <koKR>퓨진은 슬픕니다. 스탈라그가 잘생겨서요.</koKR>
+    <itIT>Feugen è triste perché tutti preferiscono Stalagg.</itIT>
+    <frFR>Feugen est tristounet parce que tout le monde préfère Stalagg.</frFR>
+    <esMX>Feugen está muy triste porque todos quieren más a Stalagg.</esMX>
+    <esES>Feugen está deprimido porque todo el mundo prefiere a Stalagg.</esES>
+    <deDE>Feugen traurig. Alle Stalagg lieber mögen.</deDE>
   </Tag>
-  <Tag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="cce7670c-3470-46a4-b56a-9f7c1e61f204" />
-  <Power definition="863ac1d9-0deb-46c8-b6bb-82ced27b7bf9" />
+  <Tag name="ArtistName" enumID="342" type="String">
+    <enUS>Dany Orizio</enUS>
+  </Tag>
+  <Tag name="HowToGetThisCard" enumID="364" type="String">
+    <enUS>Unlocked by completing the Construct Quarter.</enUS>
+    <zhTW>完成傀儡區後解鎖。</zhTW>
+    <zhCN>在击败构造区的所有首领后解锁。</zhCN>
+    <ruRU>Награда за победу над всеми боссами Квартала Мерзости.</ruRU>
+    <ptBR>Desbloqueado ao completar o Distrito dos Constructos.</ptBR>
+    <plPL>Aby odblokować, ukończ Rewir Konstruktów.</plPL>
+    <koKR>피조물 지구를 완료하여 잠금 해제</koKR>
+    <itIT>Sbloccata completando l'Ala dei Costrutti.</itIT>
+    <frFR>Obtenue en terminant le quartier des Assemblages.</frFR>
+    <esMX>Desbloqueada por completar el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se desbloquea al completar el Arrabal de los Ensamblajes.</esES>
+    <deDE>Wird durch das Abschließen des Konstruktviertels freigeschaltet.</deDE>
+  </Tag>
+  <Tag name="HowToGetThisGoldCard" enumID="365" type="String">
+    <enUS>Can be crafted after completing the Construct Quarter.</enUS>
+    <zhTW>完成傀儡區即可合成。</zhTW>
+    <zhCN>在构造区击败所有首领后能够制作。</zhCN>
+    <ruRU>Можно создать после убийства всех боссов Квартала Мерзости.</ruRU>
+    <ptBR>Pode ser criado após completar o Distrito dos Constructos.</ptBR>
+    <plPL>Można wykonać po przejściu Rewiru Konstruktów.</plPL>
+    <koKR>피조물 지구를 완료한 후 제작 가능</koKR>
+    <itIT>Può essere creata dopo aver completato l'Ala dei Costrutti.</itIT>
+    <frFR>Peut être créée après avoir terminé le quartier des Assemblages.</frFR>
+    <esMX>Se puede crear luego de completar el Arrabal de los Ensamblajes.</esMX>
+    <esES>Se puede crear tras completar el Arrabal de los Ensamblajes.</esES>
+    <deDE>Kann nach dem Abschluss des Konstruktviertels hergestellt werden.</deDE>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="52a6167d-45e6-47a1-9037-821ce193c1b1" />
   <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
-  <TriggeredPowerHistoryInfo effectIndex="1" showInHistory="False" />
 </Entity>

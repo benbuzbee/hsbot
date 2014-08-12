@@ -1,62 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_536">
+<Entity version="2" CardID="CS2_181e">
+  <MasterPower>f8057e52-a62b-45ff-bd2f-090a29465369</MasterPower>
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Eaglehorn Bow</enUS>
-    <zhTW>鷹角弓</zhTW>
-    <zhCN>鹰角弓</zhCN>
-    <ruRU>Лук Орлиного рога</ruRU>
-    <ptBR>Arco Hastáguia</ptBR>
-    <plPL>Orli Róg</plPL>
-    <koKR>독수리뿔 장궁</koKR>
-    <itIT>Arco del Falco</itIT>
-    <frFR>Arc cornedaigle</frFR>
-    <esMX>Arco de cuerno de águila</esMX>
-    <esES>Arco de cuerno de águila</esES>
-    <deDE>Adlerhornbogen</deDE>
+    <enUS>Full Strength</enUS>
+    <frFR>En pleine forme</frFR>
+    <zhTW>力量充沛</zhTW>
+    <zhCN>鼎盛之力</zhCN>
+    <ruRU>В полную силу</ruRU>
+    <ptBR>Força Total</ptBR>
+    <plPL>Pełna siła</plPL>
+    <koKR>전력 공격</koKR>
+    <itIT>Forza Massima</itIT>
+    <esMX>Fuerza completa</esMX>
+    <esES>Fuerza completa</esES>
+    <deDE>Volle Kraft</deDE>
   </Tag>
-  <Tag name="Collectible" enumID="321" type="Bool" value="1" />
   <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="Rarity" enumID="203" type="Rarity" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="7" />
-  <Tag name="Cost" enumID="48" type="Number" value="3" />
-  <Tag name="Atk" enumID="47" type="Number" value="3" />
-  <Tag name="Durability" enumID="187" type="Number" value="2" />
-  <Tag name="Class" enumID="199" type="Class" value="3" />
+  <Tag name="CardType" enumID="202" type="CardType" value="6" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Whenever a &lt;b&gt;Secret&lt;/b&gt; is revealed, gain +1 Durability.</enUS>
-    <zhTW>每當&lt;b&gt;秘密&lt;/b&gt;揭露，獲得+1耐久度</zhTW>
-    <zhCN>每当有一张&lt;b&gt;奥秘&lt;/b&gt;牌被揭示时，便获得+1耐久度。</zhCN>
-    <ruRU>Каждый раз, когда открывается &lt;b&gt;Секрет&lt;/b&gt;, это оружие получает +1 к прочности.</ruRU>
-    <ptBR>Sempre que um &lt;b&gt;Segredo&lt;/b&gt; for revelado, receba +1 de Durabilidade.</ptBR>
-    <plPL>Za każdym razem, gdy ujawniony zostaje &lt;b&gt;Sekret&lt;/b&gt;, zyskuje 1 pkt. wytrzymałości.</plPL>
-    <koKR>&lt;b&gt;비밀&lt;/b&gt;이 밝혀질 때마다 내구도를 +1 얻습니다.</koKR>
-    <itIT>Ottiene +1 Integrità quando viene rivelato un &lt;b&gt;Segreto&lt;/b&gt;.</itIT>
-    <frFR>Chaque fois qu’un &lt;b&gt;Secret&lt;/b&gt; est révélé, gagne +1 Durabilité.</frFR>
-    <esMX>Cada vez que se revela un &lt;b&gt;Secreto&lt;/b&gt;, obtiene +1 de Durabilidad.</esMX>
-    <esES>Obtiene +1 p. de durabilidad cada vez que se revela un &lt;b&gt;secreto&lt;/b&gt;.</esES>
-    <deDE>Erhält jedes Mal +1 Haltbarkeit, wenn ein &lt;b&gt;Geheimnis&lt;/b&gt; aufgedeckt wird.</deDE>
+    <enUS>This minion has +2 Attack.</enUS>
+    <frFR>Ce serviteur a +2 ATQ.</frFR>
+    <zhTW>這個手下擁有+2攻擊力</zhTW>
+    <zhCN>该随从获得+2攻击力。</zhCN>
+    <ruRU>Это существо получило +2 к атаке.</ruRU>
+    <ptBR>Este lacaio tem +2 de Ataque.</ptBR>
+    <plPL>Ten stronnik ma +2 do ataku.</plPL>
+    <koKR>공격력 +2</koKR>
+    <itIT>+2 Attacco.</itIT>
+    <esMX>Este esbirro tiene +2 de Ataque.</esMX>
+    <esES>Este esbirro tiene +2 p. de ataque.</esES>
+    <deDE>Dieser Diener hat +2 Angriff.</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="ArtistName" enumID="342" type="String">
-    <enUS>Cyril Van Der Haegen</enUS>
-  </Tag>
-  <Tag name="FlavorText" enumID="351" type="String">
-    <enUS>First Lesson: Put the pointy end in the other guy.</enUS>
-    <zhTW>第一課:把尖銳的那一端指向另外一個人。</zhTW>
-    <zhCN>第一课：把尖的那头对准别人。</zhCN>
-    <ruRU>Урок первый: острый конец должен указывать на противника.</ruRU>
-    <ptBR>Primeira lição: o lado pontudo vai no outro cara.</ptBR>
-    <plPL>Pierwsza lekcja: Ostrym końcem w stronę przeciwnika.</plPL>
-    <koKR>깡통들을 위한 장궁 제1장: 화살촉은 내가 아닌 상대방을 향하라</koKR>
-    <itIT>Prima lezione: la parte appuntita dev'essere indirizzata verso l'avversario.</itIT>
-    <frFR>Leçon n°1 : toujours le pointer vers l’adversaire !</frFR>
-    <esMX>Primera lección: la parte puntiaguda va en el adversario.</esMX>
-    <esES>Primera lección: las flechas se clavan en los malos.</esES>
-    <deDE>Erste Lektion: Das Spitze muss ins Lebendige.</deDE>
-  </Tag>
-  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
-  <ReferencedTag name="Secret" enumID="219" type="Bool" value="1" />
-  <Power definition="c2837368-05ea-48d2-be0c-6af00c84911d" />
-  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
+  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="1" />
+  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="1" />
+  <Power definition="86972691-f1a1-4b34-8686-18a340360f26" />
 </Entity>

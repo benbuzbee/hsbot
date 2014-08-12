@@ -1,41 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="EX1_295o">
+<Entity version="2" CardID="TU4c_003">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Ice Block</enUS>
-    <frFR>Bloc de glace</frFR>
-    <zhTW>寒冰屏障</zhTW>
-    <zhCN>寒冰屏障</zhCN>
-    <ruRU>Ледяная глыба</ruRU>
-    <ptBR>Bloco de Gelo</ptBR>
-    <plPL>Lodowy blok</plPL>
-    <koKR>얼음 방패</koKR>
-    <itIT>Blocco di Ghiaccio</itIT>
-    <esMX>Bloque de hielo</esMX>
-    <esES>Bloque de hielo</esES>
-    <deDE>Eisblock</deDE>
+    <enUS>Barrel</enUS>
+    <frFR>Tonneau</frFR>
+    <zhTW>桶子</zhTW>
+    <zhCN>木桶</zhCN>
+    <ruRU>Бочка</ruRU>
+    <ptBR>Barril</ptBR>
+    <plPL>Beczka</plPL>
+    <koKR>통</koKR>
+    <itIT>Barile</itIT>
+    <esMX>Barril</esMX>
+    <esES>Barril</esES>
+    <deDE>Fass</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="4" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="5" />
+  <Tag name="Rarity" enumID="203" type="Rarity" value="1" />
+  <Tag name="CardType" enumID="202" type="CardType" value="4" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
+  <Tag name="Health" enumID="45" type="Number" value="2" />
+  <Tag name="Faction" enumID="201" type="Faction" value="3" />
+  <Tag name="AttackVisualType" enumID="251" type="AttackVisualType" value="1" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Your hero is &lt;b&gt;Immune&lt;/b&gt; this turn.</enUS>
-    <frFR>Votre héros est &lt;b&gt;Insensible&lt;/b&gt; pour ce tour.</frFR>
-    <zhTW>你的英雄在本回合內&lt;b&gt;免疫&lt;/b&gt;</zhTW>
-    <zhCN>在本回合中，你的英雄获得&lt;b&gt;免疫&lt;/b&gt;。</zhCN>
-    <ruRU>Ваш герой &lt;b&gt;неуязвим&lt;/b&gt; до конца хода.</ruRU>
-    <ptBR>Seu herói fica &lt;b&gt;Imune&lt;/b&gt; até o final do turno.</ptBR>
-    <plPL>Twój bohater ma w tej turze &lt;b&gt;Niewrażliwość&lt;/b&gt;.</plPL>
-    <koKR>이번 턴에 &lt;b&gt;피해 면역&lt;/b&gt;</koKR>
-    <itIT>Il tuo eroe è &lt;b&gt;Immune&lt;/b&gt; per questo turno.</itIT>
-    <esMX>Tu héroe es &lt;b&gt;Inmune&lt;/b&gt; en este turno.</esMX>
-    <esES>Tu héroe es &lt;b&gt;inmune&lt;/b&gt; este turno.</esES>
-    <deDE>Euer Held ist &lt;b&gt;immun&lt;/b&gt; in diesem Zug.</deDE>
+    <enUS>Is something in this barrel?</enUS>
+    <frFR>Il y a quelque chose dans ce tonneau ?</frFR>
+    <zhTW>這個桶子裡面有東西嗎?</zhTW>
+    <zhCN>这木桶里有什么东西？</zhCN>
+    <ruRU>В этой бочке что-то есть!</ruRU>
+    <ptBR>Tem alguma coisa no barril?</ptBR>
+    <plPL>Czy w tej beczce coś jest?</plPL>
+    <koKR>통에 뭔가 있나요?</koKR>
+    <itIT>C'è qualcosa in questo barile?</itIT>
+    <esMX>¿Hay algo en este barril?</esMX>
+    <esES>¿Hay algo dentro de este barril?</esES>
+    <deDE>Was ist in dem Fass?</deDE>
   </Tag>
-  <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
-  <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="fd459f8c-fbe3-4061-a822-6b4ba39fe3a8" />
-  <Power definition="aa276b35-83b1-4158-8288-57b75c6744a2" />
-  <Power definition="986b46c5-8189-447b-aac3-9158925b9c04" />
+  <Tag name="CardTextInPlay" enumID="252" type="String">
+    <enUS>Breakable</enUS>
+  </Tag>
+  <Tag name="Deathrattle" enumID="217" type="Bool" value="1" />
+  <Power definition="a21e94bd-295f-47a0-a704-148140055af6" />
   <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="False" />
 </Entity>

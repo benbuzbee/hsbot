@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Entity version="2" CardID="NEW1_036e">
+<Entity version="2" CardID="NAX4_04">
   <Tag name="CardName" enumID="185" type="String">
-    <enUS>Commanding Shout</enUS>
-    <frFR>Cri de commandement</frFR>
-    <zhTW>命令之吼</zhTW>
-    <zhCN>命令怒吼</zhCN>
-    <ruRU>Командирский крик</ruRU>
-    <ptBR>Brado de Comando</ptBR>
-    <plPL>Rozkazujący okrzyk</plPL>
-    <koKR>지휘의 외침</koKR>
-    <itIT>Urlo di Comando</itIT>
-    <esMX>Grito de orden</esMX>
-    <esES>Grito de orden</esES>
-    <deDE>Befehlsruf</deDE>
+    <enUS>Raise Dead</enUS>
+    <zhTW>死者復生</zhTW>
+    <zhCN>亡者复生</zhCN>
+    <ruRU>Воскрешение мертвых</ruRU>
+    <ptBR>Reviver Morto</ptBR>
+    <plPL>Ożywienie zmarłych</plPL>
+    <koKR>시체 되살리기</koKR>
+    <itIT>Rianima Cadavere</itIT>
+    <frFR>Réanimation morbide</frFR>
+    <esMX>Levantamuertos</esMX>
+    <esES>Levantar muerto</esES>
+    <deDE>Tote erwecken</deDE>
   </Tag>
-  <Tag name="CardSet" enumID="183" type="CardSet" value="3" />
-  <Tag name="CardType" enumID="202" type="CardType" value="6" />
-  <Tag name="Class" enumID="199" type="Class" value="10" />
+  <Tag name="CardSet" enumID="183" type="CardSet" value="12" />
+  <Tag name="CardType" enumID="202" type="CardType" value="10" />
+  <Tag name="Cost" enumID="48" type="Number" value="0" />
   <Tag name="CardTextInHand" enumID="184" type="String">
-    <enUS>Can't be reduced below 1 Health this turn.</enUS>
-    <frFR>Ne peut pas avoir moins de 1 PV pendant ce tour.</frFR>
-    <zhTW>本回合內生命值不會低於1點</zhTW>
-    <zhCN>在本回合中，生命值无法被降到1点以下。</zhCN>
-    <ruRU>Здоровье не может быть меньше 1 до конца хода.</ruRU>
-    <ptBR>Não podem ser reduzidos a menos de 1 de Vida neste turno.</ptBR>
-    <plPL>W tej turze nie może zejść poniżej 1 pkt. zdrowia.</plPL>
-    <koKR>이번 턴에는 생명력이 1 미만으로 내려가지 않음</koKR>
-    <itIT>Non può essere portato al di sotto di 1 Salute.</itIT>
-    <esMX>La Salud no puede reducirse a menos de 1 en este turno.</esMX>
-    <esES>La salud no puede bajar de 1 p. este turno.</esES>
-    <deDE>Kann in diesem Zug nicht unter 1 Leben fallen.</deDE>
+    <enUS>&lt;b&gt;Passive Hero Power&lt;/b&gt;\nWhenever an enemy dies, raise a 1/1 Skeleton.</enUS>
+    <zhTW>&lt;b&gt;被動英雄能力&lt;/b&gt;\n每當有敵人死亡，召喚一個1/1骷髏</zhTW>
+    <zhCN>&lt;b&gt;被动英雄技能&lt;/b&gt;\n每当一个敌人死亡，召唤一个1/1的骷髅。</zhCN>
+    <ruRU>&lt;b&gt;Сила героя&lt;/b&gt;\nОживляет павших существ противника в виде скелетов 1/1.</ruRU>
+    <ptBR>&lt;b&gt;Poder Heroico Passivo&lt;/b&gt;\nToda vez que um inimigo morrer, levante um Esqueleto 1/1.</ptBR>
+    <plPL>&lt;b&gt;Pasywna moc specjalna&lt;/b&gt;\nZa każdym razem gdy zginie wrogi stronnik, przyzwij Szkielet 1/1.</plPL>
+    <koKR>&lt;b&gt;영웅 능력&lt;/b&gt;\n적이 죽을 때마다 1/1 해골을 하나 소환합니다.</koKR>
+    <itIT>&lt;b&gt;Potere Eroe Passivo&lt;/b&gt;\nQuando un servitore nemico muore, evoca uno Scheletro 1/1.</itIT>
+    <frFR>&lt;b&gt;Pouvoir héroïque passif&lt;/b&gt;\nChaque fois qu’un ennemi meurt, un squelette 1/1 se lève.</frFR>
+    <esMX>&lt;b&gt;Poder de héroe pasivo&lt;/b&gt;\nCuando un enemigo muere, invoca un esqueleto 1/1.</esMX>
+    <esES>&lt;b&gt;Poder de héroe pasivo&lt;/b&gt;\nCada vez que un enemigo muere, invoca un esqueleto 1/1.</esES>
+    <deDE>&lt;b&gt;Passive Heldenfähigkeit&lt;/b&gt;\nErweckt jedes Mal, wenn ein Feind stirbt, ein Skelett (1/1).</deDE>
   </Tag>
   <Tag name="EnchantmentBirthVisual" enumID="330" type="EnchantmentVisualType" value="0" />
   <Tag name="EnchantmentIdleVisual" enumID="331" type="EnchantmentVisualType" value="0" />
-  <Tag name="OneTurnEffect" enumID="338" type="Bool" value="1" />
-  <Power definition="5e5624ca-dd90-4ebb-b303-79f58abdb5ac" />
-  <Power definition="d2ac4fd6-9a8b-4476-9131-921ec0adb2af" />
+  <Tag name="TriggerVisual" enumID="32" type="Bool" value="1" />
+  <Power definition="78f5fe6f-4014-4501-aed7-31bf25de4271" />
+  <TriggeredPowerHistoryInfo effectIndex="0" showInHistory="True" />
 </Entity>
