@@ -62,6 +62,11 @@ namespace HSBot.Cards
                         Console.WriteLine("Skipping special card type: {0}", file);
                         continue;
                     }
+                    else if (char.IsLetter(entityCardID.Value[entityCardID.Value.Length - 1]))
+                    {
+                        Console.WriteLine("Skipping sub-card: {0}", file);
+                        continue;
+                    }
                     //   <Tag name="CardName" enumID="185" type="String">
 
 

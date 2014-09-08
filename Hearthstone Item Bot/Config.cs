@@ -24,6 +24,7 @@ namespace HSBot
         public static String IRCUser { get; private set; }
         public static int IRCReconnectTime { get; private set; }
         public static String OnConnectAction { get; private set; }
+        public static int AutoTriggerMatchRequirement { get; private set; }
 
         public static void Reload()
         {
@@ -60,6 +61,8 @@ namespace HSBot
             {
                 OnConnectAction = onConnect.InnerText;
             }
+
+            AutoTriggerMatchRequirement = int.Parse(doc.DocumentElement.SelectSingleNode("/config/autotrigger/matchrequirement").InnerText);
 
         }
     }

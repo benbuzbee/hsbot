@@ -10,8 +10,8 @@ namespace HSBot
     {
         static void Main(string[] args)
         {
-            
-            
+
+            Console.Title = "HearthBot";
             
 
 

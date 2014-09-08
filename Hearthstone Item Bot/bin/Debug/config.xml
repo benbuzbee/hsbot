@@ -10,6 +10,12 @@
 
   </cards>
 
+  <autotrigger>
+    <!-- Set to 0 to disable triggering without [ ] -->
+    <matchrequirement>75</matchrequirement>
+    
+  </autotrigger>
+  
   <irc>
     <host>83.140.172.210</host>
     <!-- Not used yet...-->

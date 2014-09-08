@@ -421,8 +421,12 @@ namespace benbuzbee.LRTIRC
             {
                 String[] tokens = message.Split(' ');
                 if (tokens.Length >= 3 && tokens[1].Equals("NICK") && OnRfcNick != null)
+                {
                     foreach (var d in OnRfcNick.GetInvocationList())
+                    {
                         Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", "")));
+                    }
+                }
 
             };
 
@@ -440,6 +444,11 @@ namespace benbuzbee.LRTIRC
                         c.Users[newnick] = user;
                     }
 
+                }
+
+                if (ChannelUser.GetNickFromFullAddress(source) == this.Nick)
+                {
+                    this.Nick = newnick;
                 }
             };
 
@@ -515,7 +524,7 @@ namespace benbuzbee.LRTIRC
         /// <returns></returns>
         public async Task Connect(String nick, String user, String realname, String host, int port = 6667, String password = null)
         {
-
+            
             lock (_registrationLock)
             {
                 Disconnect();
