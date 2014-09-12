@@ -40,10 +40,15 @@ namespace HSBot.Cards
                 input.Seek(start, SeekOrigin.Begin);
                 byte[] data = new byte[end - start];
                 input.Read(data, 0, (int)(end - start));
-
-                FileStream output = File.Create(Path.Combine(toDirectory, String.Format("{0}.xml",count)));
-                output.Write(data, 0, data.Length);
-                output.Close();
+                try
+                {
+                    FileStream output = File.Create(Path.Combine(toDirectory, String.Format("{0}.xml", count)));
+                    output.Write(data, 0, data.Length);
+                    output.Close();
+                } catch (IOException e)
+                {
+                    Console.WriteLine("Exception writing card file: "+e);
+                }
                 Console.WriteLine("Created {0}", Path.Combine(toDirectory, String.Format("{0}.xml", count)));
             }
             Console.WriteLine("Done extracting cards.");

@@ -23,9 +23,10 @@ namespace HSBot
         }
         
         private DateTime startTime = DateTime.Now;
-        /**
-         * Starts a thread that tries to keep the bot connected
-         * */
+
+        /// <summary>
+        /// Connects the bot and registers events
+        /// </summary>
         public void StartConnect()
         {
 
@@ -47,6 +48,7 @@ namespace HSBot
                 }
             };
             Client.OnTimeout += connectAction;
+            Client.OnDisconnect += connectAction;
 
             connectAction(Client);
 

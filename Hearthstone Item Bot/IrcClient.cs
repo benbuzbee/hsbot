@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
-
+using System.Diagnostics;
+using System.Threading;
 using System.Net.Sockets;
+using System.IO;
 
 namespace benbuzbee.LRTIRC
 {
@@ -108,8 +110,18 @@ namespace benbuzbee.LRTIRC
         #endregion Properties
 
         #region Private Members
-        private Object _registrationLock = new Object();
-        private System.Threading.SemaphoreSlim _streamSemaphore = new System.Threading.SemaphoreSlim(1, 1);
+        /// <summary>
+        /// Lock when registering the client with the server so nothing interferes
+        /// </summary>
+        private Object _mutexRegistration = new Object();
+        /// <summary>
+        /// Used when connecting so there are not concurrent attempts.
+        /// </summary>
+        private SemaphoreSlim _connectingSemaphore = new SemaphoreSlim(1, 1);
+        /// <summary>
+        /// Used when writing so there are not concurrent attempts
+        /// </summary>
+        private SemaphoreSlim _writingSemaphore = new SemaphoreSlim(1, 1);
         private int _maxHistoryStored = 50;
         private LinkedList<String> _outgoingMessageHistory = new LinkedList<String>();
         private LinkedList<String> _incomingMessageHistory = new LinkedList<String>();
@@ -117,8 +129,7 @@ namespace benbuzbee.LRTIRC
         /// These are channels which this user is in
         /// </summary>
         private IDictionary<String, Channel> _channels = new ConcurrentDictionary<String, Channel>();
-        private System.IO.StreamReader _streamReader;
-        private System.IO.StreamWriter _streamWriter;
+        private StreamWriter _streamWriter;
         private System.Timers.Timer _timeoutTimer = new System.Timers.Timer();
         private System.Timers.Timer _pingTimer = new System.Timers.Timer();
         public class ServerInfoType
@@ -164,6 +175,8 @@ namespace benbuzbee.LRTIRC
         /// A map of: lower(Channel) -> (Nick -> Prefix List)
         /// </summary>
         private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> _channelStatusMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
+
+        private IRCEventThread _thread;
         #endregion
 
 
@@ -177,6 +190,47 @@ namespace benbuzbee.LRTIRC
             LastMessageTime = DateTime.Now;
             Timeout = new TimeSpan(0, 5, 0);
             Connected = false;
+
+            _thread = new IRCEventThread(this);
+
+            _thread.OnRawMessageReceived += (sender, msg) =>
+            {
+
+                if (OnRawMessageReceived != null)
+                {
+                    foreach (var d in OnRawMessageReceived.GetInvocationList())
+                    {
+                        Task.Run(() => d.DynamicInvoke(this, msg));
+                    }
+
+                }
+
+            };
+
+
+            _thread.OnException += (sender, e) =>
+            {
+
+                if (OnException != null)
+                {
+                    foreach (var d in OnException.GetInvocationList())
+                    {
+                        Task.Run(() => d.DynamicInvoke(this, e));
+                    }
+
+                }
+
+                // Call on disconnect when there's an exception in the reading thread
+                if (OnDisconnect != null)
+                {
+                    foreach (var d in OnDisconnect.GetInvocationList())
+                    {
+                        Task.Run(() => d.DynamicInvoke(this));
+                    }
+
+                }
+
+            };
 
             #region Register Delegates
 
@@ -479,37 +533,50 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// Disconnects client and disposes of streams. Also stops timeout-check timer.
         /// </summary>
-        public void Disconnect()
+        /// <param name="hasSemaphore">True if we have the connectingSemaphore before entering</param>
+        public void Disconnect(bool hasSemaphore = false)
         {
-            lock (_registrationLock)
+            //TODO: Why do we need to re-create the timeout timers again?
+            try
             {
-                Connected = false;
-                Registered = false;
-                if (TCP != null && TCP.Connected)
-                {
-                    try
-                    {
-                        TCP.Close();
-                        _streamReader.Dispose();
-                        _streamWriter.Dispose();
-                    }
-                    catch (Exception) { } // Eat exceptions since this is just an attempt to clean up
-                }
+                if (!hasSemaphore)
+                    _connectingSemaphore.Wait();
 
-            }
-            lock (_timeoutTimer)
+                lock (_mutexRegistration)
+                {
+                    lock (_timeoutTimer)
+                    {
+                        _timeoutTimer.Dispose();
+                        _timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
+                        _timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
+                        _timeoutTimer.Start();
+                    }
+                    lock (_pingTimer)
+                    {
+                        _pingTimer.Dispose();
+                        _pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
+                        _pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
+                        _pingTimer.Start();
+                    }
+
+                    Connected = false;
+                    Registered = false;
+                    if (TCP != null && TCP.Connected)
+                    {
+                        try
+                        {
+                            TCP.Close();
+                            _streamWriter.Dispose();
+                        }
+                        catch (Exception) { } // Eat exceptions since this is just an attempt to clean up
+                    }
+
+                }
+            } 
+            finally
             {
-                _timeoutTimer.Dispose();
-                _timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
-                _timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
-                _timeoutTimer.Start();
-            }
-            lock (_pingTimer)
-            {
-                _pingTimer.Dispose();
-                _pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
-                _pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
-                _pingTimer.Start();
+                if (!hasSemaphore)
+                    _connectingSemaphore.Release();
             }
         }
         /// <summary>
@@ -524,56 +591,55 @@ namespace benbuzbee.LRTIRC
         /// <returns></returns>
         public async Task Connect(String nick, String user, String realname, String host, int port = 6667, String password = null)
         {
-            
-            lock (_registrationLock)
+            await _connectingSemaphore.WaitAsync();
+            // Dispose of existing connection
+            lock (_mutexRegistration)
             {
-                Disconnect();
-                // Establish connection           
+                Disconnect(true);
                 Nick = nick; Username = user; RealName = realname; Host = host; Port = port; Password = password;
                 TCP = new TcpClient();
             }
-            Task connectTask = TCP.ConnectAsync(host, port);
-            await connectTask;
+           
 
-            if (connectTask.Exception != null)
-            {
-                Exception = connectTask.Exception;
-                if (OnException != null)
-                    foreach (var d in OnException.GetInvocationList())
-                    {
-                        var task = Task.Run(() => d.DynamicInvoke(this, connectTask.Exception));
-                    }
-                throw connectTask.Exception; // If connect failed
-            }
-
-            Connected = true;
-
-            // If connect succeeded
-
-            _streamReader = new System.IO.StreamReader(TCP.GetStream(), Encoding);
-            _streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
-
-            RegisterWithServer();
-            await _streamSemaphore.WaitAsync();
             try
             {
-                var readLineTask = _streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
-            }
-            catch (Exception e)
-            {
-                Exception = e;
-                if (OnException != null)
-                    foreach (var d in OnException.GetInvocationList())
-                    {
-                        var task = Task.Run(() => d.DynamicInvoke(this, e));
-                    }
+                
+                Task connectTask = TCP.ConnectAsync(host, port);
+                await connectTask;
+
+                if (connectTask.Exception != null)
+                {
+                    Exception = connectTask.Exception;
+                    if (OnException != null)
+                        foreach (var d in OnException.GetInvocationList())
+                        {
+                            var task = Task.Run(() => d.DynamicInvoke(this, connectTask.Exception));
+                        }
+                    throw connectTask.Exception; // If connect failed
+                }
+
+                Connected = true;
+
+                // If connect succeeded
+                await _writingSemaphore.WaitAsync();
+                try
+                {
+                    _streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
+                }
+                finally
+                {
+                    _writingSemaphore.Release();
+                }
+                _thread.Signal();
+
+                RegisterWithServer();
+
+
             }
             finally
             {
-                _streamSemaphore.Release();
+                _connectingSemaphore.Release();
             }
-
-
 
 
         }
@@ -606,7 +672,7 @@ namespace benbuzbee.LRTIRC
 
             try
             {
-                await _streamSemaphore.WaitAsync();
+                await _writingSemaphore.WaitAsync();
 
                 await _streamWriter.WriteLineAsync(message);
 
@@ -633,7 +699,10 @@ namespace benbuzbee.LRTIRC
                     }
                 return false;
             }
-            finally { _streamSemaphore.Release(); }
+            finally 
+            { 
+                _writingSemaphore.Release(); 
+            }
 
             if (OnRawMessageSent != null)
                 foreach (var d in OnRawMessageSent.GetInvocationList())
@@ -642,54 +711,6 @@ namespace benbuzbee.LRTIRC
                 }
 
             return true;
-
-
-
-        }
-        /// <summary>
-        /// Callback used by StreamReader when a read finishes
-        /// </summary>
-        /// <param name="task"></param>
-        private void OnAsyncRead(Task<String> task)
-        {
-
-            try
-            {
-
-                if (task.Exception == null && task.Result != null)
-                {
-                    lock (_streamReader.BaseStream)
-                    {
-                        _streamReader.ReadLineAsync().ContinueWith(OnAsyncRead);
-                    }
-                }
-                else if (task.Result == null)
-                    throw new System.IO.EndOfStreamException();
-                else
-                    throw task.Exception;
-
-                if (OnRawMessageReceived != null)
-                {
-                    foreach (var d in OnRawMessageReceived.GetInvocationList())
-                        Task.Run(() => d.DynamicInvoke(this, task.Result));
-
-                }
-
-            }
-            catch (Exception e)
-            {
-                Exception = e;
-                if (OnException != null)
-                    foreach (var d in OnException.GetInvocationList())
-                    {
-                        var task2 = Task.Run(() => d.DynamicInvoke(this, e));
-                    }
-
-            }
-            finally
-            {
-
-            }
 
 
 
@@ -730,26 +751,25 @@ namespace benbuzbee.LRTIRC
 
         }
 
+        /// <summary>
+        /// Registers with the server (sends PASS, NICK, USER)
+        /// </summary>
         private void RegisterWithServer()
         {
-
-            lock (_registrationLock)
+            lock (_mutexRegistration)
             {
                 if (Registered) return;
-                Registered = true;
-
             }
-
             System.Threading.Thread.Sleep(1000);
             if (Password != null)
                 SendRawMessage("PASS {0}", Password).Wait();
             SendRawMessage("NICK {0}", Nick).Wait();
             SendRawMessage("USER {0} 0 * :{1}", Username, RealName).Wait();
 
-
-
-
-
+            lock (_mutexRegistration)
+            {
+                Registered = true;
+            }
         }
 
         private void NamesReplyHandler(IrcClient sender, String channel, String names)
@@ -853,6 +873,11 @@ namespace benbuzbee.LRTIRC
         /// It is STRONGLY recommended you add a delay to any processing here, especially for channel joining (so we have time to get other numerics)
         /// </summary>
         public event Action<IrcClient> OnConnect;
+
+        /// <summary>
+        /// Called when the socket cannot be read from, indicating a disconnect
+        /// </summary>
+        public event Action<IrcClient> OnDisconnect;
 
         public delegate void RfcPrivmsgHandler(IrcClient sender, String source, String target, String message);
         /// <summary>
@@ -1163,4 +1188,97 @@ namespace benbuzbee.LRTIRC
         NoDuplicates = 0x01
     }
 
+    /// <summary>
+    /// Manages the IRC thread which deals directly with the input stream
+    /// </summary>
+    class IRCEventThread
+    {
+        public IrcClient Client { get; private set; }
+        private SemaphoreSlim _semaphore = new SemaphoreSlim(0, 1);
+
+        /// <summary>
+        /// Creates a new IRCEventThread.  Only makes sense to do this once for each IRC instance
+        /// </summary>
+        /// <param name="client"></param>
+        public IRCEventThread(IrcClient client)
+        {
+            Debug.Assert(client != null);
+            Client = client;
+            new Thread(ThreadStart).Start();
+        }
+
+        /// <summary>
+        /// When a message is received on the client's socket
+        /// </summary>
+        public event Action<IRCEventThread, String> OnRawMessageReceived;
+        /// <summary>
+        /// When an exception occurs trying to read from the client's socket
+        /// </summary>
+        public event Action<IRCEventThread, Exception> OnException;
+
+
+        /// <summary>
+        /// Thread body
+        /// </summary>
+        void ThreadStart()
+        {
+            while (true)
+            {
+                _semaphore.Wait();
+
+                if (Client == null || Client.TCP == null)
+                {
+                    continue;
+                }
+
+                using (StreamReader reader = new StreamReader(Client.TCP.GetStream()))
+                {
+                    try
+                    {
+                        while (Client.TCP.Connected)
+                        {
+                            String line = reader.ReadLine();
+                            if (line != null && OnRawMessageReceived != null)
+                            {
+                                foreach (var d in OnRawMessageReceived.GetInvocationList())
+                                    Task.Run(() => d.DynamicInvoke(this, line));
+                            }
+                            else if (line == null)
+                            {
+                                throw new EndOfStreamException();
+                            }
+                        }
+                    }
+                    catch (Exception e)
+                    {
+
+                        if (OnException != null)
+                        {
+                            foreach (var d in OnException.GetInvocationList())
+                            {
+                                var task2 = Task.Run(() => d.DynamicInvoke(this, e));
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        /// <summary>
+        /// Signals the thread to wake up and start checking for message on the associated Client's socket
+        /// </summary>
+        /// <returns>True if thread woke up, false if thread was not asleep</returns>
+        public bool Signal()
+        {
+            try
+            {
+                _semaphore.Release();
+                return true;
+            } catch (SemaphoreFullException)
+            {
+
+            }
+            return false;
+        }
+    }
 }
