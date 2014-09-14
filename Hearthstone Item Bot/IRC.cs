@@ -39,16 +39,33 @@ namespace HSBot
             Client.Timeout = new TimeSpan(0,0,0,0,Config.IRCReconnectTime);
             Action<IrcClient> connectAction = (sender) =>
             {
-                try
+                while (true)
                 {
-                    sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
-                } catch (Exception e)
-                {
-                    Console.WriteLine("Exception while connecting: {0}", e);
+                    try
+                    {
+                        sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
+                        Console.WriteLine("Connection established");
+                        break;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Exception while connecting. Trying again in 30 seconds...");
+                        System.Threading.Thread.Sleep(30000);
+                    }
                 }
             };
-            Client.OnTimeout += connectAction;
-            Client.OnDisconnect += connectAction;
+            Client.OnTimeout += (c) =>
+            {
+                Console.WriteLine("Reconnecting in 30 seconds...");
+                System.Threading.Thread.Sleep(30000);
+                connectAction(c);
+            };
+            Client.OnDisconnect += (c) =>
+                {
+                    Console.WriteLine("Reconnecting in 30 seconds...");
+                    System.Threading.Thread.Sleep(30000);
+                    connectAction(c);
+                };
 
             connectAction(Client);
 
