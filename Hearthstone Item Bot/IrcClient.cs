@@ -211,6 +211,10 @@ namespace benbuzbee.LRTIRC
             _thread.OnException += (sender, e) =>
             {
 
+                // Call to clean up resources and set flags
+                Disconnect();
+
+
                 if (OnException != null)
                 {
                     foreach (var d in OnException.GetInvocationList())

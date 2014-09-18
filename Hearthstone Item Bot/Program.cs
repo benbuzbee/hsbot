@@ -14,7 +14,7 @@ namespace HSBot
             Console.Title = "HearthBot";
             
 
-
+            
 
 
             Config.Reload();

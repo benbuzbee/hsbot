@@ -36,33 +36,42 @@ namespace HSBot
             Client.OnRawMessageSent += OnRawMessageSent;
             Client.OnRfcPrivmsg += OnPrivmsg;
 
+
             Client.Timeout = new TimeSpan(0,0,0,0,Config.IRCReconnectTime);
+
+            Object mutexConnect = new Object();
+
             Action<IrcClient> connectAction = (sender) =>
             {
-                while (true)
+                lock (mutexConnect)
                 {
-                    try
+                    if (sender.Connected) return;
+                    while (true)
                     {
-                        sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
-                        Console.WriteLine("Connection established");
-                        break;
-                    }
-                    catch (Exception)
-                    {
-                        Console.WriteLine("Exception while connecting. Trying again in 30 seconds...");
-                        System.Threading.Thread.Sleep(30000);
+                        try
+                        {
+                            Console.WriteLine("Trying to connect to IRC...");
+                            sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
+                            Console.WriteLine("Connection established");
+                            break;
+                        }
+                        catch (Exception)
+                        {
+                            Console.WriteLine("Exception while connecting. Trying again in 30 seconds (check your network connection)");
+                            System.Threading.Thread.Sleep(30000);
+                        }
                     }
                 }
             };
             Client.OnTimeout += (c) =>
             {
-                Console.WriteLine("Reconnecting in 30 seconds...");
+                Console.WriteLine("Server timed out, reconnecting in 30 seconds...");
                 System.Threading.Thread.Sleep(30000);
                 connectAction(c);
             };
             Client.OnDisconnect += (c) =>
                 {
-                    Console.WriteLine("Reconnecting in 30 seconds...");
+                    Console.WriteLine("Disconnected from server, reconnecting in 30 seconds...");
                     System.Threading.Thread.Sleep(30000);
                     connectAction(c);
                 };
