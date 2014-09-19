@@ -15,13 +15,37 @@ namespace benbuzbee.LRTIRC
     {
 
         #region Properties
+        /// <summary>
+        /// Gets the last exception thrown
+        /// </summary>
         public Exception Exception { private set; get; }
+        /// <summary>
+        /// Gets the underlying TcpClient.  You usually don't want to mess with this.
+        /// </summary>
         public TcpClient TCP { private set; get; }
+        /// <summary>
+        /// Gets the nickname used the last time Connect was called
+        /// </summary>
         public String Nick { private set; get; }
+        /// <summary>
+        /// Gets the username used the last time Connect was called
+        /// </summary>
         public String Username { private set; get; }
+        /// <summary>
+        /// Gets the real name used the last time Connect was called
+        /// </summary>
         public String RealName { private set; get; }
+        /// <summary>
+        /// Gets the host used the last time Connect was called
+        /// </summary>
         public String Host { private set; get; }
+        /// <summary>
+        /// Gets the port used the last time Connect was called
+        /// </summary>
         public int Port { private set; get; }
+        /// <summary>
+        /// Gets the password used the last time Connect was called
+        /// </summary>
         public String Password { private set; get; }
         public DateTime LastMessageTime { private set; get; }
         /// <summary>
@@ -29,7 +53,7 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public bool Connected { private set; get; }
         /// <summary>
-        /// How long without a message before we time out. Will take affect next connect
+        /// Gets or sets how long without a message before OnTimeout is raised.  Changes will only take affect on the connect proceeding the change.
         /// </summary>
         public TimeSpan Timeout { set; get; }
         /// <summary>
@@ -74,7 +98,6 @@ namespace benbuzbee.LRTIRC
 
             }
         }
-
 
         /// <summary>
         /// The maximum number of outgoing/incoming messages stored in this client's history.
@@ -180,7 +203,9 @@ namespace benbuzbee.LRTIRC
         #endregion
 
 
-
+        /// <summary>
+        /// Represents one connection to one IRC server
+        /// </summary>
         public IrcClient()
         {
             ServerInfo = new ServerInfoType();
@@ -188,7 +213,7 @@ namespace benbuzbee.LRTIRC
             Encoding = new System.Text.UTF8Encoding(false);
             Registered = false;
             LastMessageTime = DateTime.Now;
-            Timeout = new TimeSpan(0, 5, 0);
+            Timeout = new TimeSpan(0, 2, 0);
             Connected = false;
 
             _thread = new IRCEventThread(this);
@@ -256,6 +281,7 @@ namespace benbuzbee.LRTIRC
 
             OnRfcNumeric += (sender, source, numeric, target, other) =>
             {
+                // Parses numeric 5 (List of things the server supports) and calls event with the parsed list
                 if (numeric == 5 && OnISupport != null)
                 {
                     Dictionary<String, String> parameters = new Dictionary<string, string>();
@@ -271,7 +297,9 @@ namespace benbuzbee.LRTIRC
                         Task.Run(() => d.DynamicInvoke(this, parameters));
                 }
             };
+
             OnConnect += (sender) => { lock (_channels) { _channels.Clear(); } };
+
             OnISupport += (sender, parameters) =>
             {
                 try
@@ -553,14 +581,12 @@ namespace benbuzbee.LRTIRC
                         _timeoutTimer.Dispose();
                         _timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
                         _timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
-                        _timeoutTimer.Start();
                     }
                     lock (_pingTimer)
                     {
                         _pingTimer.Dispose();
                         _pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
                         _pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
-                        _pingTimer.Start();
                     }
 
                     Connected = false;
@@ -625,6 +651,8 @@ namespace benbuzbee.LRTIRC
                 Connected = true;
 
                 // If connect succeeded
+
+                // Setup reader and writer
                 await _writingSemaphore.WaitAsync();
                 try
                 {
@@ -638,6 +666,8 @@ namespace benbuzbee.LRTIRC
 
                 RegisterWithServer();
 
+                _timeoutTimer.Start();
+                _pingTimer.Start();
 
             }
             finally

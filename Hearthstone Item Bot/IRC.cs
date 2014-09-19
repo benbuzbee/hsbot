@@ -20,6 +20,7 @@ namespace HSBot
 
             Client.Encoding = new System.Text.UTF8Encoding(false);
             Client.OutgoingPolicies = OutgoingMessagePolicy.NoDuplicates;
+            Client.Timeout = TimeSpan.FromSeconds(30);
         }
         
         private DateTime startTime = DateTime.Now;
