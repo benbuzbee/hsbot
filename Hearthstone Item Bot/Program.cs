@@ -27,19 +27,32 @@ namespace HSBot
             {
                 cardData = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
             }
+
             if (cardData == null || !System.IO.File.Exists(cardData))
             {
-                Console.WriteLine("Hearthstone installation not found. Enter the path to cardxml0.unity3d or enter nothing to continue without extracting new card data.");
+                Console.WriteLine("Hearthstone installation not found. Enter the path to cardxml0.unity3d or enter to use the same directory as HSBot.exe");
                 String input = Console.ReadLine();
                 if (!String.IsNullOrEmpty(input) && System.IO.File.Exists(input))
                     cardData = input;
                 else
-                    cardData = null;
+                    cardData = "cardxml0.unity3d";
             }
-            if (cardData != null && System.IO.File.Exists(cardData))
-                Cards.FileExtractor.Extract(cardData,Config.DataDirectory);
+            if (cardData == null || !System.IO.File.Exists(cardData))
+            {
+                Console.WriteLine("Card data file not found: {0}", cardData);
+            }
+            else
+            {
+                Console.WriteLine("I will read card data from {0}", cardData);
+                try
+                {
+                    System.IO.File.Copy(cardData, "cardxml0.unity3d");
+                }
+                catch (Exception) { }
+                
+            }
 
-            IRC irc = new IRC();
+            IRC irc = new IRC(cardData);
             // Temp:
             irc.Client.OnRfcPrivmsg += (sender, source, target, message) =>
             {

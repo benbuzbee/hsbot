@@ -12,9 +12,10 @@ namespace HSBot
     class IRC
     {
         public IrcClient Client { get; private set; }
-        public IRC()
+        private String _cardDataFile;
+        public IRC(String cardDataFile)
         {
-            
+            _cardDataFile = cardDataFile;
             RefreshList();
             Client = new IrcClient();
 
@@ -125,9 +126,7 @@ namespace HSBot
                 foreach (Card c in cs)
                 {
 
-                    Console.WriteLine("Source: {0}", c.XmlSource);
                     Console.WriteLine(c.XmlData);
-                   // Message(e.Targets[0].Name, "See terminal for debug data.");
 
 
                     String pasteUrl = await DebugPaster.PasteCard(c);
@@ -389,8 +388,8 @@ namespace HSBot
         /// </summary>
         private void RefreshList()
         {
-            var parser = new Cards.XMLParser(Config.DataDirectory);
-            List<Card> list = parser.GetCards();
+
+            List<Card> list = CardParser.GetCards(CardParser.Extract(_cardDataFile));
             lock (_cards)
             {
                 _cards.Clear();

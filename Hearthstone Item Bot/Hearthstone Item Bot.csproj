@@ -46,8 +46,7 @@
     <Compile Include="Cards\Card.cs" />
     <Compile Include="Cards\CardSet.cs" />
     <Compile Include="Cards\DebugPaster.cs" />
-    <Compile Include="Cards\FileExtractor.cs" />
-    <Compile Include="Cards\XMLParser.cs" />
+    <Compile Include="Cards\CardParser.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="IRC.cs" />
     <Compile Include="IrcClient.cs" />
@@ -78,7 +77,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(ProjectDir)carddata" carddata /S /Y /I</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

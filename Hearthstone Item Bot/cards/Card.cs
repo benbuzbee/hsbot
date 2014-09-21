@@ -57,7 +57,6 @@ namespace HSBot.Cards
 
         public String XmlData { get; set; }
 
-        public String XmlSource { get; set; }
 
         public Card(String entityCardID) { ID = entityCardID; }
 

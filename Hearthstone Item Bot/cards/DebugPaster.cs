@@ -19,7 +19,7 @@ namespace HSBot.Cards
             content.Add(new System.Net.Http.StringContent(API_KEY), "api_dev_key");
             content.Add(new System.Net.Http.StringContent("paste"), "api_option");
             content.Add(new System.Net.Http.StringContent(String.Format("Debug data for {0}", c.Name)), "api_paste_name");
-            content.Add(new System.Net.Http.StringContent(String.Format("Source: {0}\n\n{1}", c.XmlSource, c.XmlData)), "api_paste_code");
+            content.Add(new System.Net.Http.StringContent(String.Format("{0}", c.XmlData)), "api_paste_code");
             
             
             var response = await httpclient.PostAsync("http://pastebin.com/api/api_post.php", content);
