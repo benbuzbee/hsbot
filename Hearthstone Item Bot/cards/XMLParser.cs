@@ -47,6 +47,7 @@ namespace HSBot.Cards
                     }
 
                     XmlAttribute entityCardID = entity.Attributes["CardID"];
+                    /*
                     if (entityCardID == null)
                     {
                         Console.Error.WriteLine("Card had no CardID: {0}", file);
@@ -67,6 +68,7 @@ namespace HSBot.Cards
                         Console.WriteLine("Skipping sub-card: {0}", file);
                         continue;
                     }
+                     * */
                     //   <Tag name="CardName" enumID="185" type="String">
 
 
@@ -197,6 +199,16 @@ namespace HSBot.Cards
                             continue;
                     }
 
+                    XmlNode flavorText = document.DocumentElement.SelectSingleNode("//Tag[@name=\"FlavorText\"]");
+                    if (flavorText != null)
+                    {
+
+                        foreach (XmlNode aFlavorText in flavorText.ChildNodes)
+                        {
+                            card.SetFlavorText(aFlavorText.Name, aFlavorText.InnerText);
+                        }
+                        
+                    }
 
                     cards.Add(card);
 

@@ -12,7 +12,7 @@
 
   <autotrigger>
     <!-- Set to 0 to disable triggering without [ ] -->
-    <matchrequirement>75</matchrequirement>
+    <matchrequirement>0</matchrequirement>
     
   </autotrigger>
   
@@ -27,7 +27,7 @@
     <user>HearthBot2</user>
     <channel>#hearthstone2</channel>
     
-    <!-- Time to wait between reconnect attempts (miliseconds) -->
+    <!-- Time to wait between reconnect attempts (miliseconds) (currently not used) -->
     <reconnecttime>300000</reconnecttime>
 
     <onconnect>PRIVMSG Q :auth user pass?</onconnect>

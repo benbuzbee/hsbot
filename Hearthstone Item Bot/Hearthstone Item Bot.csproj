@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cards\Card.cs" />
+    <Compile Include="Cards\CardSet.cs" />
     <Compile Include="Cards\DebugPaster.cs" />
     <Compile Include="Cards\FileExtractor.cs" />
     <Compile Include="Cards\XMLParser.cs" />

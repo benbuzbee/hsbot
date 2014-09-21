@@ -12,7 +12,7 @@
 
   <autotrigger>
     <!-- Set to 0 to disable triggering without [ ] -->
-    <matchrequirement>75</matchrequirement>
+    <matchrequirement>0</matchrequirement>
     
   </autotrigger>
   

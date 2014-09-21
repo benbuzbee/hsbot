@@ -7,7 +7,10 @@ using System.Text.RegularExpressions;
 
 namespace HSBot.Cards
 {
-    class Card
+    /// <summary>
+    /// Represents a HearthStone card
+    /// </summary>
+    public class Card
     {
 
         public enum RarityValues { UNKNOWN, COMMON, FREE, RARE, EPIC, LEGENDARY };
@@ -16,10 +19,11 @@ namespace HSBot.Cards
 
         private Dictionary<String, String> localizedNames = new Dictionary<String, String>();
         private Dictionary<String, String> localizedDescriptions = new Dictionary<String, String>();
+        private Dictionary<String, String> localizedFlavorText = new Dictionary<String, String>();
 
-        /**
-         * The name of this card, for enUS
-         * */
+        /// <summary>
+        /// The en-US localized name for a card
+        /// </summary>
         public String Name
         {
             get
@@ -28,6 +32,9 @@ namespace HSBot.Cards
             }
         }
 
+        /// <summary>
+        /// The en-US TextInHand for a card
+        /// </summary>
         public String Description
         {
             get
@@ -56,11 +63,22 @@ namespace HSBot.Cards
 
         public int Type { get; set; }
 
+        public String FlavorText { 
+            get {
+                return GetFlavorText();
+            }
+        }
+
         public void SetName(String localization, String name)
         {
             localizedNames.Add(localization, name);
         }
 
+        /// <summary>
+        /// Gets the name of a card for the specified localization string
+        /// </summary>
+        /// <param name="localization"></param>
+        /// <returns></returns>
         public String GetName(String localization = "enUS")
         {
             String name = null;
@@ -70,10 +88,26 @@ namespace HSBot.Cards
                 return null;
         }
 
+        /// <summary>
+        /// Sets the text in hand for a card and given localization string
+        /// </summary>
+        /// <param name="localization"></param>
+        /// <param name="Description"></param>
         public void SetDescription(String localization, String Description)
         {
             localizedDescriptions.Add(localization, Description);
         }
+
+        /// <summary>
+        /// Sets the flavor text for a card and given localization string
+        /// </summary>
+        /// <param name="localization"></param>
+        /// <param name="Description"></param>
+        public void SetFlavorText(String localization, String Description)
+        {
+            localizedFlavorText.Add(localization, Description);
+        }
+
 
         /**
          * Returns the description for the given localization, null if there is not one for this localization, or an empty string if there is no description for any localization
@@ -98,8 +132,26 @@ namespace HSBot.Cards
                 return null;
         }
 
+        public String GetFlavorText(String localization = "enUS")
+        {
+            // Some cards have no description
+            if (localizedFlavorText.Values.Count == 0)
+            {
+                return "";
+            }
 
-        private String GetColor()
+            String flavor = null;
+            if (localizedFlavorText.TryGetValue(localization, out flavor))
+            {
+                flavor = modifyableNumber.Replace(flavor, "*${value}*");
+                return flavor;
+            }
+            else
+                return null;
+        }
+
+
+        private String GetmIRCColor()
         {
             switch (Rarity)
             {
@@ -122,7 +174,7 @@ namespace HSBot.Cards
         {
             StringBuilder sb = new StringBuilder(2048);
 
-            sb.AppendFormat("[{0}{1}]: ", GetColor(), Name);
+            sb.AppendFormat("[{0}{1}]: ", GetmIRCColor(), HTML2mIRC(Name));
             if (Attack != 0 || Health != 0)
                 sb.AppendFormat("{0}/{1}: ", Attack, Health);
             sb.AppendFormat("Cost: {0} ", Cost);
@@ -130,34 +182,34 @@ namespace HSBot.Cards
             switch (Class)
             {
                 case ClassValues.ALL:
-                    sb.Append("- Usable by all classes ");
+                    sb.Append("- All classes ");
                     break;
                 case ClassValues.MAGE:
-                    sb.Append("- Mages only ");
+                    sb.Append("- Mages ");
                     break;
                 case ClassValues.ROGUE:
-                    sb.Append("- Rogues only ");
+                    sb.Append("- Rogues ");
                     break;
                 case ClassValues.DRUID:
-                    sb.Append("- Druids only ");
+                    sb.Append("- Druids ");
                     break;
                 case ClassValues.HUNTER:
-                    sb.Append("- Hunters only ");
+                    sb.Append("- Hunters ");
                     break;
                 case ClassValues.PALADIN:
-                    sb.Append("- Paladins only ");
+                    sb.Append("- Paladins ");
                     break;
                 case ClassValues.WARLOCK:
-                    sb.Append("- Warlocks only ");
+                    sb.Append("- Warlocks ");
                     break;
                 case ClassValues.WARRIOR:
-                    sb.Append("- Warriors only ");
+                    sb.Append("- Warriors ");
                     break;
                 case ClassValues.PRIEST:
-                    sb.Append("- Priests only ");
+                    sb.Append("- Priests ");
                     break;
                 case ClassValues.SHAMAN:
-                    sb.Append("- Shamans only ");
+                    sb.Append("- Shamans ");
                     break;
             }
 
@@ -165,11 +217,25 @@ namespace HSBot.Cards
 
             if (!String.IsNullOrEmpty(Description))
             {
-                sb.AppendFormat("- {0} ", Description);
+                sb.AppendFormat("- {0} ", HTML2mIRC(Description));
                 
             }
 
+            if (!String.IsNullOrEmpty(FlavorText))
+            {
+                sb.AppendFormat("- \"{0}\"", HTML2mIRC(FlavorText));
+            }
+
             return sb.ToString();
+        }
+        /// <summary>
+        /// Replaces HTML elements with mIRC equivilients
+        /// </summary>
+        /// <param name="s">String with HTML elements</param>
+        /// <returns>String with mappable HTML elements replaced with mIRC control codes</returns>
+        private String HTML2mIRC(String s)
+        {
+            return s.Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", "").Replace("\\n", ". ");
         }
     }
 }

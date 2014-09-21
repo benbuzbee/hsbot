@@ -104,7 +104,7 @@ namespace HSBot
             }
  
         }
-        Regex regex = new Regex(@"\[([^\d\]]+)\](?=[^a-zA-Z]|$|s)");
+        Regex regex = new Regex(@"\[([^\]+\]]+)\](?=[^a-zA-Z]|$|s)");
         private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
             // If its to me (the bot), then respond to source. Otherwise, respond to target (channel)
@@ -116,25 +116,31 @@ namespace HSBot
 
             if (lowerMessage.StartsWith("!debug ") && message.Length > "!debug ".Length)
             {
+                
                 double m;
-                Card c = LookupCard(lowerMessage.Substring("!debug ".Length).ToLower(), out m);
+                CardSet cs = LookupCardSet(lowerMessage.Substring("!debug ".Length).ToLower(), out m);
 
-                if (c == null) { Message(responseTarget, "Card not found."); return; }
+                if (cs == null) { Message(responseTarget, "Card not found."); return; }
 
-                Console.WriteLine("Source: {0}", c.XmlSource);
-                Console.WriteLine(c.XmlData);
-               // Message(e.Targets[0].Name, "See terminal for debug data.");
+                foreach (Card c in cs)
+                {
+
+                    Console.WriteLine("Source: {0}", c.XmlSource);
+                    Console.WriteLine(c.XmlData);
+                   // Message(e.Targets[0].Name, "See terminal for debug data.");
 
 
-                String pasteUrl = await DebugPaster.PasteCard(c);
+                    String pasteUrl = await DebugPaster.PasteCard(c);
 
 
 
-                if (pasteUrl == null)
-                    Message(target, "Paste failed.");
-                else
-                    Message(target, "Debug data posted: {0}", pasteUrl);
+                    if (pasteUrl == null)
+                        Message(target, "Paste failed.");
+                    else
+                        Message(target, "Debug data posted: {0}", pasteUrl);
+                }
                 return;
+                 
             }
 
             else if (lowerMessage.StartsWith("!card ") && message.Length > "!card ".Length && message.Length <= (Config.MaxCardNameLength + "!card ".Length))
@@ -163,13 +169,13 @@ namespace HSBot
             if (atThreshold > 0)
             {
                 string[] lowerWords = lowerMessage.Split(' ');
-                Dictionary<Card, double> matches = new Dictionary<Card, double>();
+                Dictionary<CardSet, double> matches = new Dictionary<CardSet, double>();
                 for (int i = 0; i < lowerWords.Length; ++i)
                 {
 
                     double matchPct;
                     StringBuilder runningString = new StringBuilder(lowerWords[i]);
-                    LookupCard(runningString.ToString(), out matchPct, 0.0 /* boost */);
+                    LookupCardSet(runningString.ToString(), out matchPct, 0.0 /* boost */);
 
                     int backward = i - 1, forward = i + 1;
                     while (true)
@@ -179,7 +185,7 @@ namespace HSBot
                         if (backward >= 0)
                         {
                             
-                            LookupCard(lowerWords[backward] + " " + runningString.ToString(), out matchPct2, 0.0 /* boost */);
+                            LookupCardSet(lowerWords[backward] + " " + runningString.ToString(), out matchPct2, 0.0 /* boost */);
                             if (matchPct2 > matchPct)
                             {
                                 matchPct = matchPct2;
@@ -191,7 +197,7 @@ namespace HSBot
                         if (forward < lowerWords.Length)
                         {
 
-                            LookupCard(runningString.ToString() + " " + lowerWords[forward], out matchPct2, 0.0);
+                            LookupCardSet(runningString.ToString() + " " + lowerWords[forward], out matchPct2, 0.0);
 
                             if (matchPct2 > matchPct)
                             {
@@ -215,7 +221,7 @@ namespace HSBot
                     {
                         try
                         {
-                            matches.Add(LookupCard(runningString.ToString(), out matchPct, 0.0), matchPct);
+                            matches.Add(LookupCardSet(runningString.ToString(), out matchPct, 0.0), matchPct);
                         }
                         catch (ArgumentException)
                         {
@@ -224,12 +230,12 @@ namespace HSBot
                     }
                     
                 }
-                matches.OrderByDescending<KeyValuePair<Card, double>, double>((kvp) => kvp.Value);
+                matches.OrderByDescending<KeyValuePair<CardSet, double>, double>((kvp) => kvp.Value);
                 for (int i = 0; i < Config.MaxCardsPerLine && matches.Count > 0; ++i)
                 {
-                    KeyValuePair<Card, double> max = matches.First();
+                    var max = matches.First();
                     matches.Remove(max.Key);
-                    LookupCardNameFor(responseTarget, max.Key.Name);
+                    LookupCardNameFor(responseTarget, max.Key[0].Name);
                 }
 
             }
@@ -241,12 +247,43 @@ namespace HSBot
         /// <param name="cardname"></param>
         private void LookupCardNameFor(String source, String cardname)
         {
+            System.Diagnostics.Debug.Assert(source != null);
+            System.Diagnostics.Debug.Assert(cardname != null);
+
+            cardname = cardname.Trim();
+
+            // Check to see if an index was given
+            int index = 0;
+            if (cardname.Length > 0)
+            {
+                char lastChar = cardname[cardname.Length - 1];
+                if (char.IsDigit(lastChar))
+                {
+                    index = lastChar - '0';
+                    cardname = cardname.Substring(0, cardname.Length - 1).Trim();
+                }
+
+            }
+
+
             double m;
-            Card c = LookupCard(cardname, out m, 0.5);
-            if (c == null || m < .5)
+            CardSet cs = LookupCardSet(cardname, out m, 0.5);
+            if (cs == null || m < .5)
                 this.Message(source, "The card was not found.");
             else
-                Message(source, c.GetFullText().Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", "").Replace("\\n",". "));
+            {
+                if (index < 1 || index > cs.Count)
+                    index = 1;
+                Card c = cs[index - 1];
+                
+                String message = c.GetFullText();
+
+                if (cs.Count > 1)
+                {
+                    message = message.Trim() + String.Format(" ({0} of {1} in the set)", index, cs.Count);
+                }
+                Message(source, message.ToString());
+            }
         }
 
 
@@ -258,37 +295,42 @@ namespace HSBot
         }
 
         /// <summary>
-        /// Finds a card by its name. Employs LevenshteinDistance to find the highest match per word length, adding 50% for substrings
+        /// Finds a card set by its name. Employs LevenshteinDistance to find the highest match per word length, adding 50% for substrings
         /// </summary>
         /// <param name="cardname"></param>
         /// <returns></returns>
-        private Card LookupCard(String cardname, out double matchPct, double boostSubstring = 0.0)
+        private CardSet LookupCardSet(String cardname, out double matchPct, double boostSubstring = 0.0)
         {
             // look for exact match
-            Card match;
-            if (cards.TryGetValue(cardname.ToLower(), out match))
+            CardSet match;
+            lock (_cards)
             {
-                matchPct = 100;
-                return match;
+                if (_cards.TryGetValue(cardname.ToLower(), out match))
+                {
+                    matchPct = 100;
+                    return match;
+                }
             }
             
             // Otherwise search using contains
-            Card closestMatch = null;
+            CardSet closestMatch = null;
             double closestPercentMatch = 0;
-            foreach (Card c in cards.Values)
+            lock (_cards)
             {
-                
-                double percentMatch = 1 - (LevenshteinDistance(cardname.ToLower(), c.Name.ToLower()) / (double)c.Name.Length);
-                if (c.Name.ToLower().Contains(cardname.ToLower())) percentMatch += boostSubstring; // Abuse system a bit by boosting match rate if its a substring
-                if (percentMatch > closestPercentMatch)
+                foreach (var kvp in _cards.AsEnumerable())
                 {
-                    closestPercentMatch = percentMatch;
-                    closestMatch = c;
+                    
+                    double percentMatch = 1 - (LevenshteinDistance(cardname.ToLower(), kvp.Key.ToLower()) / (double)kvp.Key.Length);
+                    if (kvp.Key.ToLower().Contains(cardname.ToLower())) percentMatch += boostSubstring; // Abuse system a bit by boosting match rate if its a substring
+                    if (percentMatch > closestPercentMatch)
+                    {
+                        closestPercentMatch = percentMatch;
+                        closestMatch = kvp.Value;
+                    }
                 }
+                matchPct = closestPercentMatch;
+                return closestMatch;
             }
-            matchPct = closestPercentMatch;
-            return closestMatch;
-
         }
 
         /// <summary>
@@ -341,7 +383,7 @@ namespace HSBot
             // Step 7
             return d[n, m];
         }
-        private System.Collections.Generic.Dictionary<String, Card> cards = new System.Collections.Generic.Dictionary<String, Card>();
+        private System.Collections.Generic.Dictionary<String, CardSet> _cards = new System.Collections.Generic.Dictionary<String, CardSet>();
         /// <summary>
         /// Refreshes the cache of cards from the carddata directory
         /// </summary>
@@ -349,19 +391,30 @@ namespace HSBot
         {
             var parser = new Cards.XMLParser(Config.DataDirectory);
             List<Card> list = parser.GetCards();
-            cards.Clear();
-            foreach (Card c in list)
+            lock (_cards)
             {
-                try
+                _cards.Clear();
+                foreach (Card c in list)
                 {
-                    cards.Add(c.Name.ToLower(), c);
-                }
-                catch (ArgumentException)
-                {
-                    Console.Error.WriteLine("Multiple cards have the name \"{0}\".", c.Name);
+                    try
+                    {
+                        CardSet set;
+                        if (!_cards.TryGetValue(c.Name.ToLower(), out set))
+                        {
+                            set = new CardSet();
+                        }
+                        int insertPosition = 0;
+                        if (char.IsLetter(c.ID[c.ID.Length - 1]))
+                            insertPosition = -1;
+                        set.Insert(c, insertPosition);
+                        _cards[c.Name.ToLower()] = set;
+                    }
+                    catch (ArgumentException)
+                    {
+                        Console.Error.WriteLine("Multiple cards have the name \"{0}\".", c.Name);
+                    }
                 }
             }
         }
-
     }
 }
