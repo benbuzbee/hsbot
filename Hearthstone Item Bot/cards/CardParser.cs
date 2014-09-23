@@ -11,37 +11,58 @@ namespace HSBot.Cards
     static class CardParser
     {
         /// <summary>
-        /// Reads file with card data XML entrities and returns each unique document
+        /// Reads file with card data XML entries 
         /// </summary>
-        /// <param name="fromFile"></param>
-        /// <returns></returns>
-        public static XmlDocument[] Extract(String fromFile)
+        /// <param name="fromFile">card data xml file</param>
+        /// <returns>A map of loc string -> XmlDocument - the XmlDocument represents a CardDefs element whose children, Entity, represents a card.</returns>
+        public static Dictionary<String, XmlDocument> Extract(String fromFile)
         {
-            List<XmlDocument> _docs = new List<XmlDocument>();
+            Dictionary<String, XmlDocument> docs = new Dictionary<String, XmlDocument>();
 
 
             Console.WriteLine("Extracting card data...");
 
-            Queue<long> xmlOffsets = new Queue<long>();
+            // Queue of loc string -> position pair
+            // position pair represents the start and end of the <CardDefs> entity
+            Queue<KeyValuePair<String, KeyValuePair<long, long>>> xmlOffsets = new Queue<KeyValuePair<String, KeyValuePair<long, long>>>();
+
+            // This pass through the file locates the CardPairs positions for every loc
             using (FileStream input = File.OpenRead(fromFile))
             { 
                 while (input.Position < input.Length)
                 {
-   
-                    input.SeekForAscii("<?xml");
-                    xmlOffsets.Enqueue(input.Position - "<?xml".Length);
-                    input.SeekForAscii("\0");
-                    xmlOffsets.Enqueue(input.Position - 1);
+                    // Find loc string
+                    input.SeekForAscii("\0\0\0\0\x04\0\0\0");
+                    // Read loc string
+                    byte[] locBuf = new byte[4];
+                    input.Read(locBuf, 0, locBuf.Length);
+                    String loc = Encoding.ASCII.GetString(locBuf, 0, locBuf.Length);
+
+                    // Seek past 4 unknown bytes to start of <CardDefs>
+                    input.Seek(4, SeekOrigin.Current);
+                    long start = input.Position;
+                    
+                    // Find end
+                    input.SeekForAscii("</CardDefs>");
+                    long end = input.Position;
+
+                    var positionPair = new KeyValuePair<long, long>(start, end);
+                    xmlOffsets.Enqueue(new KeyValuePair<String, KeyValuePair<long, long>>(loc, positionPair));
 
                 }
                 input.Close();
             }
+
+            int count = 0;
+            // This pass through the file reads the CardDefs entity as an XmlDoc
             using (FileStream input = File.OpenRead(fromFile))
             {
-                for (int count = 0; xmlOffsets.Count > 0; ++count)
+                for (count = 0; xmlOffsets.Count > 0; ++count)
                 {
-                    long start = xmlOffsets.Dequeue();
-                    long end = xmlOffsets.Dequeue();
+                    var pairpair = xmlOffsets.Dequeue();
+                    String loc = pairpair.Key;
+                    long start = pairpair.Value.Key;
+                    long end = pairpair.Value.Value;
                     input.Seek(start, SeekOrigin.Begin);
                     byte[] data = new byte[end - start];
                     input.Read(data, 0, (int)(end - start));
@@ -49,50 +70,67 @@ namespace HSBot.Cards
                     XmlDocument document = new XmlDocument();
                     try
                     {
-                        document.LoadXml(Encoding.UTF8.GetString(data));
-                        _docs.Add(document);
+                        String sXml = Encoding.UTF8.GetString(data);
+                        document.LoadXml(sXml);
+                        docs.Add(loc, document);
                     }
-                    catch (Exception)
+                    catch (Exception e)
                     {
                         Console.WriteLine("Exception parsing an XML document");
                     }
                 }
+
+                input.Close();
             }
 
-            Console.WriteLine("Done extracting cards.");
-            return _docs.ToArray();
+            Console.WriteLine("Done extracting cards for {0} localizations.", count);
+            return docs;
         }
 
+        /// <summary>
+        /// Seeks the stream for this ascii set. Kind of.  In reality it will not respect repeats correctly because if it determines
+        /// that a byte does not match what it should, it will not reset its running match count if it matches the previous bytes
+        /// yada yada yada lets just say it works for my purposes in this bot but I would not expect it to work for yours!
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <param name="text"></param>
         public static void SeekForAscii(this Stream stream, String text)
         {
             
             int textPtr = 0;
+            byte[] bytes = Encoding.ASCII.GetBytes(text);
             int b;
             while (true)
             {
                 b = stream.ReadByte();
                 if (b < 0) break;
-                if (b == text[textPtr])
+                if (b == bytes[textPtr])
                 {
                     ++textPtr;
-                    if (textPtr == text.Length)
+                    if (textPtr == bytes.Length)
                         return;
                 }
                 else
-                    textPtr = 0;
+                {
+                    // If we don't match this one, but we do match the previous one, don't reset the pointer.  
+                    if (textPtr > 0 && b == bytes[textPtr - 1])
+                        continue;
+                    else
+                        textPtr = 0;
+                }
 
             }
         }
 
-        public static List<Card> GetCards(XmlDocument[] xmlDocs)
+        public static List<Card> GetCards(XmlDocument doc)
         {
             List<Card> cards = new List<Card>();
-            foreach (XmlDocument document in xmlDocs)
+            var entityNodes = doc.SelectNodes("//Entity");
+            foreach (XmlNode entity in entityNodes)
             {
                 try
                 {
-                    //<Entity version="2" CardID="XXX_039">
-                    XmlNode entity = document.DocumentElement.SelectSingleNode("//Entity");
+                    
 
                     if (entity == null)
                     {
@@ -127,9 +165,9 @@ namespace HSBot.Cards
 
 
                     // Gets localized names
-                    XmlNode cardName = document.DocumentElement.SelectSingleNode("//Tag[@name=\"CardName\"]");
+                    XmlNode cardName = entity.SelectSingleNode("Tag[@name=\"CardName\"]");
 
-                    if (cardName == null)
+                    if (cardName == null || cardName.InnerText == null)
                     {
                         Console.Error.WriteLine("Card had no CardName tag");
                         continue;
@@ -137,44 +175,38 @@ namespace HSBot.Cards
 
 
                     Card card = new Card(entityCardID.Value);
-                    card.XmlData = document.ToString();
+                    card.XmlData = entity.ToString();
 
-                    foreach (XmlNode aName in cardName.ChildNodes)
-                    {
-                        card.SetName(aName.Name, aName.InnerText);
-                    }
+                    card.Name = cardName.InnerText;
 
 
-                    XmlNode cardDescription = document.DocumentElement.SelectSingleNode("//Tag[@name=\"CardTextInHand\"]");
+                    XmlNode cardDescription = entity.SelectSingleNode("Tag[@name=\"CardTextInHand\"]");
 
                     if (cardDescription != null)
                     {
-                        foreach (XmlNode aDescription in cardDescription.ChildNodes)
-                        {
-                            card.SetDescription(aDescription.Name, aDescription.InnerText);
-                        }
+                        card.Description = cardDescription.InnerText;
                     }
 
 
 
 
-                    XmlNode attack = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Atk\"]");
+                    XmlNode attack = entity.SelectSingleNode("Tag[@name=\"Atk\"]");
                     if (attack != null)
                         card.Attack = int.Parse(attack.Attributes["value"].Value);
 
-                    XmlNode health = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Health\"]");
+                    XmlNode health = entity.SelectSingleNode("Tag[@name=\"Health\"]");
                     if (health != null)
                         card.Health = int.Parse(health.Attributes["value"].Value);
 
-                    XmlNode cost = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Cost\"]");
+                    XmlNode cost = entity.SelectSingleNode("Tag[@name=\"Cost\"]");
                     if (cost != null)
                         card.Cost = int.Parse(cost.Attributes["value"].Value);
 
-                    XmlNode durability = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Durability\"]");
+                    XmlNode durability = entity.SelectSingleNode("Tag[@name=\"Durability\"]");
                     if (durability != null)
                         card.Health = int.Parse(durability.Attributes["value"].Value);
 
-                    XmlNode classID = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Class\"]");
+                    XmlNode classID = entity.SelectSingleNode("Tag[@name=\"Class\"]");
                     if (classID != null)
                     {
                         switch (int.Parse(classID.Attributes["value"].Value))
@@ -215,7 +247,7 @@ namespace HSBot.Cards
                     else
                         card.Class = Card.ClassValues.ALL;
 
-                    XmlNode rarity = document.DocumentElement.SelectSingleNode("//Tag[@name=\"Rarity\"]");
+                    XmlNode rarity = entity.SelectSingleNode("Tag[@name=\"Rarity\"]");
                     if (rarity != null)
                     {
                         int value = int.Parse(rarity.Attributes["value"].Value);
@@ -245,7 +277,7 @@ namespace HSBot.Cards
                         card.Rarity = Card.RarityValues.UNKNOWN;
 
 
-                    XmlNode type = document.DocumentElement.SelectSingleNode("//Tag[@name=\"CardType\"]");
+                    XmlNode type = entity.SelectSingleNode("Tag[@name=\"CardType\"]");
                     if (type != null)
                     {
                         card.Type = int.Parse(type.Attributes["value"].Value);
@@ -253,14 +285,11 @@ namespace HSBot.Cards
                             continue;
                     }
 
-                    XmlNode flavorText = document.DocumentElement.SelectSingleNode("//Tag[@name=\"FlavorText\"]");
+                    XmlNode flavorText = entity.SelectSingleNode("Tag[@name=\"FlavorText\"]");
                     if (flavorText != null)
                     {
-
-                        foreach (XmlNode aFlavorText in flavorText.ChildNodes)
-                        {
-                            card.SetFlavorText(aFlavorText.Name, aFlavorText.InnerText);
-                        }
+                        card.FlavorText = flavorText.InnerText;
+                        
 
                     }
 
@@ -280,11 +309,11 @@ namespace HSBot.Cards
 
             }
             Card hearthbot = new Card("CUSTOM_HEARTHBOT");
-            hearthbot.SetName("enUS", "HearthBot");
+            hearthbot.Name = "HearthBot";
             hearthbot.Cost = 1;
             hearthbot.Health = hearthbot.Attack = 50;
             hearthbot.Class = Card.ClassValues.ALL;
-            hearthbot.SetDescription("enUS", @"<b>Battlecry:</b> Destroy all secrets and deal 100 damage to the enemy hero. To get it, go here: https://github.com/aca20031/hsbot/");
+            hearthbot.Description = @"<b>Battlecry:</b> Destroy all secrets and deal 100 damage to the enemy hero. To get it, go here: https://github.com/aca20031/hsbot/";
             cards.Add(hearthbot);
             return cards;
         }

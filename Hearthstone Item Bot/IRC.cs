@@ -268,7 +268,7 @@ namespace HSBot
             double m;
             CardSet cs = LookupCardSet(cardname, out m, 0.5);
             if (cs == null || m < .5)
-                this.Message(source, "The card was not found.");
+                  this.Message(source, "The card was not found.");
             else
             {
                 if (index < 1 || index > cs.Count)
@@ -389,7 +389,7 @@ namespace HSBot
         private void RefreshList()
         {
 
-            List<Card> list = CardParser.GetCards(CardParser.Extract(_cardDataFile));
+            List<Card> list = CardParser.GetCards(CardParser.Extract(_cardDataFile)["enUS"]);
             lock (_cards)
             {
                 _cards.Clear();

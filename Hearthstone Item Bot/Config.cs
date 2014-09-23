@@ -9,9 +9,10 @@ namespace HSBot
 {
     static class Config
     {
+        /// <summary>
+        /// The XmlDocument for the config
+        /// </summary>
         public static XmlDocument Document { get; private set; }
-
-        public static String DataDirectory { get; private set; }
         public static int MaxCardsPerLine { get; private set; }
         public static int MaxCardNameLength { get; private set; }
 
@@ -33,8 +34,6 @@ namespace HSBot
             Document = doc;
             
             // Parses known important options
-
-            DataDirectory = doc.DocumentElement.SelectSingleNode("/config/cards/datadir").InnerText;
 
             MaxCardsPerLine = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardsperline").InnerText);
             MaxCardNameLength = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardnamelength").InnerText);

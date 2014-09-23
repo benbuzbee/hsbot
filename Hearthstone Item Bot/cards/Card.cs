@@ -17,30 +17,28 @@ namespace HSBot.Cards
         public enum ClassValues { ALL, DRUID = 2, HUNTER = 3, MAGE = 4, PALADIN = 5, PRIEST = 6, ROGUE = 7, SHAMAN = 8, WARLOCK = 9, WARRIOR = 10 };
         public enum CardType { WEAPON = 7, HERO = 3, CREATURE = 4, EFFECT = 6 /* Cabal Control */ };
 
-        private Dictionary<String, String> localizedNames = new Dictionary<String, String>();
-        private Dictionary<String, String> localizedDescriptions = new Dictionary<String, String>();
-        private Dictionary<String, String> localizedFlavorText = new Dictionary<String, String>();
-
         /// <summary>
-        /// The en-US localized name for a card
+        /// The name for a card
         /// </summary>
         public String Name
         {
-            get
-            {
-                return GetName();
-            }
+            get;
+            set;
         }
 
         /// <summary>
-        /// The en-US TextInHand for a card
+        /// The text in hand description of a card
         /// </summary>
         public String Description
         {
-            get
-            {
-                return GetDescription();
-            }
+            get;
+            set;
+        }
+
+        public String FlavorText
+        {
+            get;
+            set;
         }
 
         public String ID
@@ -62,94 +60,15 @@ namespace HSBot.Cards
 
         public int Type { get; set; }
 
-        public String FlavorText { 
-            get {
-                return GetFlavorText();
-            }
-        }
 
-        public void SetName(String localization, String name)
-        {
-            localizedNames.Add(localization, name);
-        }
-
-        /// <summary>
-        /// Gets the name of a card for the specified localization string
-        /// </summary>
-        /// <param name="localization"></param>
-        /// <returns></returns>
-        public String GetName(String localization = "enUS")
-        {
-            String name = null;
-            if (localizedNames.TryGetValue(localization, out name))
-                return name;
-            else
-                return null;
-        }
-
-        /// <summary>
-        /// Sets the text in hand for a card and given localization string
-        /// </summary>
-        /// <param name="localization"></param>
-        /// <param name="Description"></param>
-        public void SetDescription(String localization, String Description)
-        {
-            localizedDescriptions.Add(localization, Description);
-        }
-
-        /// <summary>
-        /// Sets the flavor text for a card and given localization string
-        /// </summary>
-        /// <param name="localization"></param>
-        /// <param name="Description"></param>
-        public void SetFlavorText(String localization, String Description)
-        {
-            localizedFlavorText.Add(localization, Description);
-        }
 
 
         /**
          * Returns the description for the given localization, null if there is not one for this localization, or an empty string if there is no description for any localization
          * */
 
-        private Regex modifyableNumber = new Regex(@"\$(?<value>\d+)");
-        public String GetDescription(String localization = "enUS")
-        {
-            // Some cards have no description
-            if (localizedDescriptions.Values.Count == 0)
-            {
-                return "";
-            }
-
-            String desc = null;
-            if (localizedDescriptions.TryGetValue(localization, out desc))
-            {
-                desc = modifyableNumber.Replace(desc, "*${value}*");
-                return desc;
-            }
-            else
-                return null;
-        }
-
-        public String GetFlavorText(String localization = "enUS")
-        {
-            // Some cards have no description
-            if (localizedFlavorText.Values.Count == 0)
-            {
-                return "";
-            }
-
-            String flavor = null;
-            if (localizedFlavorText.TryGetValue(localization, out flavor))
-            {
-                flavor = modifyableNumber.Replace(flavor, "*${value}*");
-                return flavor;
-            }
-            else
-                return null;
-        }
-
-
+        private static Regex modifyableNumber = new Regex(@"\$(?<value>\d+)");
+       
         private String GetmIRCColor()
         {
             switch (Rarity)
