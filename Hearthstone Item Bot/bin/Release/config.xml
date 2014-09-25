@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <config>
 
+  
+  <!-- Settings about how the bot connects to IRC.  Since this is an IRC bot you should probably fill this part out-->
+  <irc>
+    <!-- The IRC host, or server name. e.g. irc.twitch.tv -->
+    <host>83.140.172.210</host>
+    <!-- It's port. If you don't know it, it's probably 6667 -->
+    <port>6667</port>
+    <!-- The channel you want the bot to join.  This is required. -->
+    <channel>#hearthstone2</channel>
+    
+    
+    
+    <!-- The nickname yuou want the bot to use-->
+    <nick>HearthBot2</nick>
+    <!-- The real name the bot should have.  This is optional -->
+    <name>Hearthstone IRC Bot</name>
+    <!-- The username you want the bot to have.  This is optional, and not the same as nickname -->
+    <user>HearthBot</user>
+    <!-- If the IRC server has a password.  Use the format below for twitch. -->
+    <pass>oauth:sometoken</pass>
+
+    <!-- Any raw IRC commands you wish to send on connect.  In the below example, we send a message to Q that says "auth user pass?" -->
+    <onconnect>PRIVMSG Q :auth user pass?</onconnect>
+
+    <!-- Time to wait between reconnect attempts (miliseconds).  This number over 2 is the ping frequency.  This is optional -->
+    <reconnecttime>300000</reconnecttime>
+
+    
+  </irc>
+
+  
+  <!-- Some settings about how cards should be displayed.  This is optional. -->
   <cards>
     <!-- The maximum length a single card can be, if it is higher the lookup will be ignored -->
     <maxcardnamelength>30</maxcardnamelength>
@@ -9,28 +41,12 @@
 
   </cards>
 
+  <!-- I wouldn't even bother turning this on... -->
   <autotrigger>
     <!-- Set to 0 to disable triggering without [ ] -->
     <matchrequirement>0</matchrequirement>
-    
-  </autotrigger>
-  
-  <irc>
-    <host>83.140.172.210</host>
-    <port>6667</port>
-    <nick>HearthBot2</nick>
-    <name>Hearthstone IRC Bot</name>
-    <user>HearthBot2</user>
-    <channel>#hearthstone2</channel>
-    
-    <!-- If the IRC server has a password.  Use the format below for twitch. -->
-    <pass>oauth:sometoken</pass>
-    
-    <!-- Time to wait between reconnect attempts (miliseconds) (currently not used) -->
-    <reconnecttime>300000</reconnecttime>
 
-    <!-- Any raw IRC commands you wish to send on connect.  In the below example, we send a message to Q that says "auth user pass?" -->
-    <onconnect>PRIVMSG Q :auth user pass?</onconnect>
-  </irc>
+  </autotrigger>
+
 
 </config>
