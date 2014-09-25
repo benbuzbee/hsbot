@@ -23,6 +23,7 @@ namespace HSBot
         public static String IRCNick { get; private set; }
         public static String IRCName { get; private set; }
         public static String IRCUser { get; private set; }
+        public static String IRCPass { get; private set; }
         public static int IRCReconnectTime { get; private set; }
         public static String OnConnectAction { get; private set; }
         public static int AutoTriggerMatchRequirement { get; private set; }
@@ -54,6 +55,7 @@ namespace HSBot
             IRCNick = doc.DocumentElement.SelectSingleNode("/config/irc/nick").InnerText;
             IRCUser = doc.DocumentElement.SelectSingleNode("/config/irc/user").InnerText;
             IRCName = doc.DocumentElement.SelectSingleNode("/config/irc/name").InnerText;
+            IRCPass = doc.DocumentElement.SelectSingleNode("/config/irc/pass").InnerText;
 
             var onConnect = doc.DocumentElement.SelectSingleNode("/config/irc/onconnect");
             if (onConnect != null)

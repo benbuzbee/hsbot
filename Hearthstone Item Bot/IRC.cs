@@ -53,7 +53,7 @@ namespace HSBot
                         try
                         {
                             Console.WriteLine("Trying to connect to IRC...");
-                            sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort).Wait();
+                            sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort, Config.IRCPass).Wait();
                             Console.WriteLine("Connection established");
                             break;
                         }
@@ -268,13 +268,15 @@ namespace HSBot
             double m;
             CardSet cs = LookupCardSet(cardname, out m, 0.5);
             if (cs == null || m < .5)
-                  this.Message(source, "The card was not found.");
+            {
+                this.Message(source, "The card was not found.");
+            }
             else
             {
                 if (index < 1 || index > cs.Count)
                     index = 1;
                 Card c = cs[index - 1];
-                
+
                 String message = c.GetFullText();
 
                 if (cs.Count > 1)

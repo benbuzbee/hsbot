@@ -23,6 +23,9 @@
     <user>HearthBot2</user>
     <channel>#hearthstone2</channel>
     
+    <!-- If the IRC server has a password.  Use the format below for twitch. -->
+    <pass>oauth:sometoken</pass>
+    
     <!-- Time to wait between reconnect attempts (miliseconds) (currently not used) -->
     <reconnecttime>300000</reconnecttime>
 
