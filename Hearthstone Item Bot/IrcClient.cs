@@ -240,7 +240,7 @@ namespace benbuzbee.LRTIRC
 
             // Takes action if the message is a JOIN
             
-            if (OnRfcJoin != null && tokens.Length >= 3 && tokens[1].Equals("JOIN"))
+            if (tokens.Length >= 3 && tokens[1].Equals("JOIN"))
             {
                 ieOnJoin(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", ""));
                 
@@ -314,7 +314,7 @@ namespace benbuzbee.LRTIRC
 
                 if (parameters.TryGetValue("CHANMODES", out value))
                 {
-                    sender.ServerInfo.CHANMODES_list = value;
+                    sender.ServerInfo.CHANMODES = value;
                 }
 
                 // If the server supports user-host names, request it

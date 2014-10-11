@@ -74,7 +74,7 @@ namespace HSBot.Cards
                         document.LoadXml(sXml);
                         docs.Add(loc, document);
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         Console.WriteLine("Exception parsing an XML document");
                     }
