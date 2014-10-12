@@ -5,11 +5,11 @@
   <!-- Settings about how the bot connects to IRC.  Since this is an IRC bot you should probably fill this part out-->
   <irc>
     <!-- The IRC host, or server name. e.g. irc.twitch.tv -->
-    <host>83.140.172.210</host>
+    <host>irc.cncfps.com</host>
     <!-- It's port. If you don't know it, it's probably 6667 -->
     <port>6667</port>
     <!-- The channel you want the bot to join.  This is required. -->
-    <channel>#hearthstone2</channel>
+    <channel>#cncfps-renx1</channel>
     
     
     
