@@ -11,7 +11,7 @@ namespace HSBot
         static void Main(string[] args)
         {
 
-            Console.Title = "HearthBot";
+            Console.Title = "HearthBot - Started " + DateTime.Now;
             
 
             

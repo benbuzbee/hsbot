@@ -85,12 +85,12 @@ namespace HSBot
         private void OnRawMessageReceived(IrcClient sender, String message)
         {
          
-            Console.WriteLine("{0} <-- {1}",DateTime.Now - startTime, message);
+            Console.WriteLine("{0} <-- {1}",DateTime.Now, message);
         }
         private void OnRawMessageSent(IrcClient sender, String message)
         {
 
-            Console.WriteLine("{0} --> {1}", DateTime.Now - startTime, message);
+            Console.WriteLine("{0} --> {1}", DateTime.Now, message);
         }
         private void OnConnect(IrcClient sender)
         {
