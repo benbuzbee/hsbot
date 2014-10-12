@@ -9,7 +9,7 @@
     <!-- It's port. If you don't know it, it's probably 6667 -->
     <port>6667</port>
     <!-- The channel you want the bot to join.  This is required. -->
-    <channel>#hearthstone2</channel>
+    <channel>#hearthstone</channel>
     
     
     

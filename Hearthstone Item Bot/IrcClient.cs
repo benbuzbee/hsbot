@@ -136,6 +136,12 @@ namespace benbuzbee.LRTIRC
         /// Information about the server sent on connection
         /// </summary>
         public ServerInfoType ServerInfo { get; private set; }
+
+        /// <summary>
+        /// By default, events are raised on a background thread as a Task which means order is not guaranteed.
+        /// Set this to true to force events to be raised directly on the Irc Reader thread
+        /// </summary>
+        public bool SingleThreadedEvents { get; set; }
         #endregion Properties
 
         #region Private Members
@@ -213,7 +219,7 @@ namespace benbuzbee.LRTIRC
         private IrcReader _thread;
         #endregion
 
-        // This region contains event handlers for events.  The last step of which is usually to signal all external event handlers dynamically through the Task system
+        // This region contains event handlers for events.  The last step of which is usually to signal all external event handlers
         #region Internal Events
         /// <summary>
         /// The main event.  Most IRC events originate here - it is called when any newline delimited string is received from the server
@@ -239,24 +245,254 @@ namespace benbuzbee.LRTIRC
             PrivmsgHandler(sender, message);
 
             // Takes action if the message is a JOIN
-            
             if (tokens.Length >= 3 && tokens[1].Equals("JOIN"))
             {
-                ieOnJoin(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", ""));
-                
+                ieOnJoin(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", ""));   
             }
 
+            // Takes action if the message is a QUIT
+            if (tokens.Length >= 3 && tokens[1].Equals("QUIT"))
+            {
+                ieOnQuit(sender, tokens[0].Replace(":", ""), message.Substring(message.IndexOf(":", 1)));
+            }
 
+            // Takes action if the message is a MODE
+            if (tokens.Length >= 4 && tokens[1].Equals("MODE"))
+            {
+                ieOnMode(sender,
+                         tokens[0].Replace(":", ""), 
+                         tokens[2], 
+                         message.Substring(message.IndexOf(tokens[2]) + tokens[2].Length + 1));
+            }
+
+            // Takes action if the message is a PART
+            if (tokens.Length >= 3 && tokens[1].Equals("PART"))
+            {
+                String reason = tokens.Length >= 4 ? message.Substring(message.IndexOf(':', 1)) : null;
+                ieOnPart(this, tokens[0].Replace(":", ""), tokens[2], reason);
+               
+            }
+
+            // Takes action if the message is a KICK
+            if (tokens.Length >= 5 && tokens[1].Equals("KICK"))
+            {
+                String source = tokens[0].Replace(":", ""), channel = tokens[2], target = tokens[3];
+                String reason = message.Substring(message.IndexOf(':', 1));
+                ieOnKick(this, source, target, channel, reason);
+            }
+
+            // Takes action if the message is a NICK
+            if (tokens.Length >= 3 && tokens[1].Equals("NICK"))
+            {
+                ieOnNick(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", ""));
+            }
 
             // Signal external event handlers for raw messages
-            // Keeps this at the end of the file so that the more specific event, as well as internal events, are all handled first
-            if (OnRawMessageReceived != null)
+            // Keeps this at the end of the method so that the more specific event, as well as internal events, are all handled first
+            RaiseEvent(OnRawMessageReceived, sender, message);
+           
+        }
+
+        /// <summary>
+        /// Internal event signaled when a client changes his nickname
+        /// </summary>
+        /// <param name="sender">The IrcClient which received this event</param>
+        /// <param name="source">The client changing his nick</param>
+        /// <param name="newNick">The new nick for the client</param>
+        private void ieOnNick(IrcClient sender, String source, String newNick)
+        {
+
+
+            //Update ChannelUsers in all my chanels
+            String oldnick = ChannelUser.GetNickFromFullAddress(source);
+            ChannelUser user = null;
+
+            // When we change our nickname
+            if (ChannelUser.GetNickFromFullAddress(source) == this.Nick)
             {
-                foreach (var d in OnRawMessageReceived.GetInvocationList())
+                this.Nick = newNick;
+            }
+            else 
+            {
+                lock (_channels)
                 {
-                    Task.Run(() => d.DynamicInvoke(sender, message));
+                    foreach (Channel c in _channels.Values)
+                    {
+                        c.Users.TryGetValue(oldnick.ToLower(), out user);
+                        Debug.Assert(user != null, "User changed his nick that wasn't in our list. Nick: ", oldnick);
+
+                        user.Nick = newNick;
+                        c.Users.Remove(oldnick.ToLower());
+                        c.Users[newNick.ToLower()] = user;
+
+                    }
                 }
             }
+
+            RaiseEvent(OnRfcNick, sender, source, newNick);
+
+        }
+
+        /// <summary>
+        /// Internal event signaled when a client is kicked from a channel.  The last thing it does is raise external event handlers
+        /// </summary>
+        /// <param name="sender">The IrcClient that received this message</param>
+        /// <param name="source">The source of the event (probably a channel op)</param>
+        /// <param name="target">The client being kicked</param>
+        /// <param name="channel">The channel from which the client is being kicked</param>
+        /// <param name="reason">The message given during the kick</param>
+        private void ieOnKick(IrcClient sender, String source, String target, String channel, String reason)
+        {
+            Channel channelObject = null;
+            lock (_channels)
+            {
+                _channels.TryGetValue(channel.ToLower(), out channelObject);
+                Debug.Assert(channelObject != null, "Any channel on which we receive a KICK should be in our channel list", "Channel: {0}", channel);
+
+                if (Nick.Equals(target, StringComparison.CurrentCultureIgnoreCase)) // If it's us, remove the channel entirely
+                {    
+                    _channels.Remove(channel.ToLower());   
+                }
+                else // else remove the nick from the channel 
+                {
+                    try
+                    {
+                        channelObject.Users.Remove(target.ToLower());
+                    }
+                    catch (Exception) { Debug.Assert(false, "Unknown user kicked. User: {0}", target); } // If the user isn't there...good! But why?
+                }
+            }
+
+            RaiseEvent(OnRfcKick, this, source, target, channel, reason);
+            
+        }
+        /// <summary>
+        /// Internal event called when a client parts a channel
+        /// </summary>
+        /// <param name="sender">The IrcClient which received this event</param>
+        /// <param name="source">The client parting</param>
+        /// <param name="target">The channel being parted</param>
+        /// <param name="message">Optional message for parting</param>
+        private void ieOnPart(IrcClient sender, String source, String target, String message)
+        {
+
+            // Remove user from nicklist
+            lock (_channels)
+            {
+                Channel channelObject = null;
+
+                if (_channels.TryGetValue(target.ToLower(), out channelObject))
+                {
+                    if (ChannelUser.GetNickFromFullAddress(source).Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        _channels.Remove(target.ToLower());
+                    }
+                    else
+                    {
+                        String nick = ChannelUser.GetNickFromFullAddress(source);
+                        try
+                        {
+                            channelObject.Users.Remove(nick.ToLower());
+                        }
+                        catch (Exception) { Debug.Assert(false, "User parted who wasn't in our list. Nick: {0}", nick); }
+                    }
+                }
+            }
+
+            RaiseEvent(OnRfcPart, sender, source, target, message);
+
+        }
+
+        /// <summary>
+        /// Internal event called when a mode changes.  The last function of this method is to call external handlers
+        /// </summary>
+        /// <param name="sender">The IrcClient which received this event as a message</param>
+        /// <param name="source">The client or server who initiated the mode change</param>
+        /// <param name="target">The client/server/channel which is having its mode changed</param>
+        /// <param name="modes">String of mode changes</param>
+        private void ieOnMode(IrcClient sender, String source, String target, String modes)
+        {
+            Channel channel = null;
+            String[] tokens = modes.Split(' ');
+
+            lock (_channels)
+            {
+                if (_channels.TryGetValue(target.ToLower(), out channel))
+                {
+                    // This loop walks through the mode list and keeps track for each one 1.) The mode, 2.) If it is set 3.) If it has a parameter and 4.) The index of the parameter
+                    // It's purpose is to update the ChannelUser for any user that have their modes affected
+                    bool isSet = false;
+                    for (int modeIndex = 0, parameterIndex = 1; modeIndex < tokens[0].Length; ++modeIndex)
+                    {
+                        char mode = tokens[0][modeIndex];
+                        if (mode == '+') isSet = true;
+                        else if (mode == '-') isSet = false;
+                        else if (ServerInfo.CHANMODES_parameterNever.Contains(mode)) continue; // There are no parameters assocaited with this mode, so it can't change a user's prefix
+                        else if (ServerInfo.CHANMODES_paramaterToSet.Contains(mode))
+                        {
+                            if (!isSet) continue; // This mode only has a parameter when being set, so it does not have a parameter in the list if it is not being set
+                            else ++parameterIndex; // This mode consumes one of the parameters
+                        }
+                        else  // These mdoes always associate with a parameter
+                        {
+
+                            try
+                            {
+                                // If it's a user access mode
+                                if (ServerInfo.PREFIX_modes.Contains(mode))
+                                {
+                                    ChannelUser user = null;
+                                    channel.Users.TryGetValue(tokens[parameterIndex].ToLower(), out user);
+
+                                    Debug.Assert(user != null, "Mode set on user who was not in our list. Nick: {0}", tokens[parameterIndex].ToLower());
+
+                                    char prefix = ServerInfo.PREFIX_symbols[ServerInfo.PREFIX_modes.IndexOf(mode)];
+                                    if (isSet)
+                                    {
+                                        user.InsertPrefix(ServerInfo, prefix);
+                                    }
+                                    else
+                                    {
+                                        user.DeletePrefix(prefix);
+                                    }
+                                }
+                            }
+                            finally
+                            {
+                                // These modes always have parameters so we need to always increase the index at the end
+                                ++parameterIndex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            RaiseEvent(OnRfcMode, sender, source, target, modes);
+            
+        }
+
+        /// <summary>
+        /// Internal event called when a user on a common channel quits from the server
+        /// </summary>
+        /// <param name="sender">The IrcClient which received this event</param>
+        /// <param name="source">The client which sent it (the one who quit)</param>
+        /// <param name="message">The message given for quitting</param>
+        private void ieOnQuit(IrcClient sender, String source, String message)
+        {
+            //Remove this nick from all channels we are in
+            String nick = ChannelUser.GetNickFromFullAddress(source);
+            lock (_channels)
+            {
+                foreach (Channel c in _channels.Values)
+                {
+                    try { c.Users.Remove(nick.ToLower()); }
+                    catch (Exception) { Debug.Assert(false, "User quit but he was not in our channel list. Nick: {0}", nick); }
+
+                }
+            }
+
+            RaiseEvent(OnRfcQuit, sender, source, message);
+            
         }
 
         /// <summary>
@@ -276,13 +512,7 @@ namespace benbuzbee.LRTIRC
                 {
                     _channels.Clear(); 
                 }
-                if (OnConnect != null)
-                {
-                    foreach (var d in OnConnect.GetInvocationList())
-                    {
-                        Task.Run(() => d.DynamicInvoke(this));
-                    }
-                }
+                RaiseEvent(OnConnect, sender);
             }
 
             // Parses numeric 5 (List of things the server supports) and calls event with the parsed list
@@ -331,13 +561,7 @@ namespace benbuzbee.LRTIRC
 
                 
                 // Signal external events for isupport
-                if (OnISupport != null)
-                {
-                    foreach (var d in OnISupport.GetInvocationList())
-                    {
-                        Task.Run(() => d.DynamicInvoke(this, parameters));
-                    }
-                }
+                RaiseEvent(OnISupport, this, parameters);
             }
      
             else if (numeric == 353)
@@ -348,18 +572,10 @@ namespace benbuzbee.LRTIRC
                 ieOnNames(sender, channel, names);
                 
             }
-            
 
-        
-            
+            RaiseEvent(OnRfcNumeric, sender, source, numeric, target, other);
 
-
-            // Signal external event handlers
-            if (OnRfcNumeric != null)
-            {
-                foreach (var d in OnRfcNumeric.GetInvocationList())
-                    Task.Run(() => d.DynamicInvoke(sender, source, numeric, target, other));
-            }
+         
         }
 
         /// <summary>
@@ -409,14 +625,7 @@ namespace benbuzbee.LRTIRC
                 }
             }
 
-            // Signal external events
-            if (OnNamesReply != null)
-            {
-                foreach (var d in OnNamesReply.GetInvocationList())
-                {
-                    Task.Run(() => d.DynamicInvoke(this, channel, names));
-                }
-            }
+            RaiseEvent(OnNamesReply, sender, channel, names);
         }
 
         /// <summary>
@@ -443,20 +652,13 @@ namespace benbuzbee.LRTIRC
                     }
                     
                     ChannelUser u = new ChannelUser(source, c);
-                    Debug.Assert(!c.Users.ContainsKey(u.Nick.ToLower()), "Received a JOIN for a user that was already in the ChannelUser list", "User: {0}", u);
+                    Debug.Assert(!c.Users.ContainsKey(u.Nick.ToLower()), "Received a JOIN for a user that was already in the ChannelUser list", "User: {0}", u.Nick);
                     c.Users[u.Nick.ToLower()] = u;
                     
                 }
             }
-            // Signal external events
 
-            if (OnRfcJoin != null)
-            {
-                foreach (var d in OnRfcJoin.GetInvocationList())
-                {
-                    Task.Run(() => d.DynamicInvoke(sender, source, channellist));
-                }
-            }
+            RaiseEvent(OnRfcJoin, sender, source, channellist);
  
         }
         #endregion
@@ -473,6 +675,7 @@ namespace benbuzbee.LRTIRC
             LastMessageTime = DateTime.Now;
             Timeout = new TimeSpan(0, 2, 0);
             Connected = false;
+            SingleThreadedEvents = false;
 
             _thread = new IrcReader(this);
 
@@ -491,238 +694,12 @@ namespace benbuzbee.LRTIRC
                 // Call to clean up resources and set flags
                 Disconnect();
 
-                if (OnException != null)
-                {
-                    foreach (var d in OnException.GetInvocationList())
-                    {
-                        Task.Run(() => d.DynamicInvoke(this, e));
-                    }
+                RaiseEvent(OnException, this, e);
 
-                }
-
-                // Call on disconnect when there's an exception in the reading thread
-                if (OnDisconnect != null)
-                {
-                    foreach (var d in OnDisconnect.GetInvocationList())
-                    {
-                        Task.Run(() => d.DynamicInvoke(this));
-                    }
-
-                }
+                RaiseEvent(OnDisconnect, this);
 
             };
 
-            #region Register Delegates
-
-
-
-            OnRawMessageReceived += (sender, message) =>
-            {
-                String[] tokens = message.Split(' ');
-                if (tokens.Length >= 5 && tokens[1].Equals("KICK"))
-                {
-                    String source = tokens[0].Replace(":", ""), channel = tokens[2], target = tokens[3];
-                    String reason = message.Substring(message.IndexOf(':', 1));
-                    if (OnRfcKick != null)
-                        foreach (var d in OnRfcKick.GetInvocationList())
-                            Task.Run(() => d.DynamicInvoke(this, source, target, channel, reason));
-                }
-            };
-            // Catches a part
-            OnRawMessageReceived += (sender, message) =>
-            {
-                String[] tokens = message.Split(' ');
-                if (OnRfcPart != null && tokens.Length >= 3 && tokens[1].Equals("PART"))
-                {
-                    String reason = tokens.Length >= 4 ? message.Substring(message.IndexOf(':', 1)) : null;
-                    foreach (var d in OnRfcPart.GetInvocationList())
-                        Task.Run(() => d.DynamicInvoke(this, tokens[0].Replace(":", ""), tokens[2], reason));
-                }
-            };
-            OnRawMessageReceived += (sender, message) =>
-            {
-                String[] tokens = message.Split(' ');
-                if (tokens.Length >= 4 && tokens[1].Equals("MODE") && OnRfcMode != null)
-                {
-                    foreach (var d in OnRfcMode.GetInvocationList())
-                        Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), tokens[2], message.Substring(message.IndexOf(tokens[2]) + tokens[2].Length + 1)));
-                }
-
-            };
-
-            // On part, we should remove the nick from the channel. If it's US parting, we should remove the channel from channels
-            OnRfcPart += (sender, source, channel, reason) =>
-            {
-                Channel channelObject = null;
-                lock (_channels)
-                {
-                    _channels.TryGetValue(channel.ToLower(), out channelObject);
-                    if (channelObject != null)
-                    {
-                        if (ChannelUser.GetNickFromFullAddress(source).Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
-                            _channels.Remove(channel.ToLower());
-                        else
-                        {
-                            try
-                            {
-                                channelObject.Users.Remove(ChannelUser.GetNickFromFullAddress(source));
-                            }
-                            catch (Exception) { }
-                        }
-                    }
-                }
-            };
-
-            OnRfcKick += (sender, source, target, channel, reason) =>
-            {
-                Channel channelObject = null;
-                lock (_channels)
-                {
-                    _channels.TryGetValue(channel.ToLower(), out channelObject);
-                }
-                Debug.Assert(channelObject != null, "Any channel on which we receive a KICK should be in our channel list", "Channel: {0}", channel);
-                
-                if (Nick.Equals(target, StringComparison.CurrentCultureIgnoreCase)) // If it's us, remove the channel entirely
-                {
-                    lock (_channels)
-                    {
-                        _channels.Remove(channel.ToLower());
-                    }
-                }
-                else // else remove the nick from the channel 
-                {
-                    try
-                    {
-                        channelObject.Users.Remove(target.ToLower());
-                    }
-                    catch (Exception) { } // If the user isn't there...good!
-                }
-                
-            };
-
-            // Updates prefix list for users of a channel when modes are changed
-            OnRfcMode += (sender, source, target, modes) =>
-            {
-                Channel channel = null;
-                lock (_channels)
-                {
-                    _channels.TryGetValue(target.ToLower(), out channel);
-                }
-                if (channel == null) return;
-
-
-                String[] tokens = modes.Split(' ');
-
-                // This loop walks through the mode list and keeps track for each one 1.) The mode, 2.) If it is set 3.) If it has a parameter and 4.) The index of the parameter
-                // It's purpose is to update the ChannelUser for any user that have their modes affected
-                bool isSet = false;
-                for (int modeIndex = 0, parameterIndex = 1; modeIndex < tokens[0].Length; ++modeIndex)
-                {
-                    char mode = tokens[0][modeIndex];
-                    if (mode == '+') isSet = true;
-                    else if (mode == '-') isSet = false;
-                    else if (ServerInfo.CHANMODES_parameterNever.Contains(mode)) continue; // There are no parameters assocaited with this mode, so it can't change a user's prefix
-                    else if (ServerInfo.CHANMODES_paramaterToSet.Contains(mode))
-                    {
-                        if (!isSet) continue; // This mode only has a parameter when being set, so it does not have a parameter in the list if it is not being set
-                        else ++parameterIndex; // This mode consumes one of the parameters
-                    }
-                    else  // These mdoes always associate with a parameter
-                    {
-
-                        try
-                        {
-                            // If it's a user access mode
-                            if (ServerInfo.PREFIX_modes.Contains(mode))
-                            {
-                                ChannelUser user = null;
-                                channel.Users.TryGetValue(tokens[parameterIndex].ToLower(), out user);
-                                if (user != null)
-                                {
-                                    char prefix = ServerInfo.PREFIX_symbols[ServerInfo.PREFIX_modes.IndexOf(mode)];
-                                    if (isSet)
-                                        user.InsertPrefix(ServerInfo, prefix);
-                                    else
-                                        user.DeletePrefix(prefix);
-                                }
-                            }
-
-                        }
-                        finally
-                        {
-                            // These modes always have parameters so we need to always increase the index at the end
-                            ++parameterIndex;
-                        }
-                    }
-
-                }
-
-            };
-
-            OnRawMessageReceived += (sender, message) =>
-            {
-                String[] tokens = message.Split(' ');
-                if (tokens.Length >= 3 && tokens[1].Equals("NICK") && OnRfcNick != null)
-                {
-                    foreach (var d in OnRfcNick.GetInvocationList())
-                    {
-                        Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), tokens[2].Replace(":", "")));
-                    }
-                }
-
-            };
-
-            OnRfcNick += (sender, source, newnick) =>
-            {
-                //Update ChannelUsers in all my chanels
-                String oldnick = ChannelUser.GetNickFromFullAddress(source).ToLower();
-                ChannelUser user = null;
-                lock (_channels)
-                {
-                    foreach (Channel c in _channels.Values)
-                    {
-                        c.Users.TryGetValue(oldnick, out user);
-                        if (user != null)
-                        {
-                            user.Nick = newnick;
-                            c.Users.Remove(oldnick);
-                            c.Users[newnick] = user;
-                        }
-
-                    }
-                }
-
-                if (ChannelUser.GetNickFromFullAddress(source) == this.Nick)
-                {
-                    this.Nick = newnick;
-                }
-            };
-
-            OnRawMessageReceived += (sender, message) =>
-            {
-                String[] tokens = message.Split(' ');
-                if (tokens.Length >= 3 && OnRfcQuit != null && tokens[1].Equals("QUIT"))
-                {
-                    foreach (var d in OnRfcQuit.GetInvocationList())
-                        Task.Run(() => d.DynamicInvoke(sender, tokens[0].Replace(":", ""), message.Substring(message.IndexOf(":", 1))));
-                }
-            };
-            OnRfcQuit += (sender, source, message) =>
-            {
-                //Remove this nick from all channels we are in
-                String nick = ChannelUser.GetNickFromFullAddress(source);
-                lock (_channels)
-                {
-                    foreach (Channel c in _channels.Values)
-                    {
-                        try { c.Users.Remove(nick.ToLower()); }
-                        catch (Exception) { }
-
-                    }
-                }
-
-            };
-            #endregion Register Delegates
         }
 
 
@@ -815,11 +792,7 @@ namespace benbuzbee.LRTIRC
                 if (connectTask.Exception != null)
                 {
                     Exception = connectTask.Exception;
-                    if (OnException != null)
-                        foreach (var d in OnException.GetInvocationList())
-                        {
-                            var task = Task.Run(() => d.DynamicInvoke(this, connectTask.Exception));
-                        }
+                    RaiseEvent(OnException, this, connectTask.Exception);
                     throw connectTask.Exception; // If connect failed
                 }
 
@@ -901,11 +874,7 @@ namespace benbuzbee.LRTIRC
             catch (Exception e)
             {
                 Exception = e;
-                if (OnException != null)
-                    foreach (var d in OnException.GetInvocationList())
-                    {
-                        var task = Task.Run(() => d.DynamicInvoke(this, e));
-                    }
+                RaiseEvent(OnException, this, e);
                 return false;
             }
             finally 
@@ -913,11 +882,7 @@ namespace benbuzbee.LRTIRC
                 _writingSemaphore.Release(); 
             }
 
-            if (OnRawMessageSent != null)
-                foreach (var d in OnRawMessageSent.GetInvocationList())
-                {
-                    var task = Task.Run(() => d.DynamicInvoke(this, message));
-                }
+            RaiseEvent(OnRawMessageSent, this, message);
 
             return true;
 
@@ -935,8 +900,7 @@ namespace benbuzbee.LRTIRC
                 if ((e.SignalTime - LastMessageTime) > Timeout)
                 {
                     Disconnect();
-                    if (OnTimeout != null)
-                        OnTimeout(this);
+                    RaiseEvent(OnTimeout, this);
                 }
             }
         }
@@ -945,7 +909,8 @@ namespace benbuzbee.LRTIRC
             String[] words = message.Split(' ');
             if (words.Length >= 4 && OnRfcPrivmsg != null && words[1].Equals("PRIVMSG", StringComparison.CurrentCultureIgnoreCase))
             {
-                OnRfcPrivmsg(this, words[0], words[2], message.Substring(message.IndexOf(":", 1) + 1));
+                RaiseEvent(OnRfcPrivmsg, this, words[0], words[2], message.Substring(message.IndexOf(":", 1) + 1));
+                
             }
         }
         /// <summary>
@@ -956,7 +921,10 @@ namespace benbuzbee.LRTIRC
         private void ErrorHandler(Object sender, String message)
         {
             if (OnRfcError != null && message.StartsWith("ERROR"))
-                OnRfcError(this, message.Substring(message.IndexOf(":") + 1));
+            {
+                RaiseEvent(OnRfcError, this, message.Substring(message.IndexOf(":") + 1));
+                
+            }
 
         }
 
@@ -971,7 +939,9 @@ namespace benbuzbee.LRTIRC
             }
             System.Threading.Thread.Sleep(1000);
             if (Password != null)
+            {
                 SendRawMessage("PASS {0}", Password).Wait();
+            }
             SendRawMessage("NICK {0}", Nick).Wait();
             SendRawMessage("USER {0} 0 * :{1}", Username, RealName).Wait();
 
@@ -1006,8 +976,38 @@ namespace benbuzbee.LRTIRC
         }
         #endregion Internal Handlers
 
+        /// <summary>
+        /// Raises events with the specified threadding model (see the SingleThreadedEvents property)
+        /// Exceptions are eaten
+        /// </summary>
+        /// <param name="del">The delegate to invoke</param>
+        /// <param name="parameters">Parameters for the object</param>
+        private void RaiseEvent(Delegate del, params object[] parameters)
+        {
+           
+            if (del == null)
+            {
+                return;
+            }
+            if (SingleThreadedEvents)
+            {
+                try
+                {
+                    del.DynamicInvoke(parameters);
+                }
+                catch (Exception) { }
+            }
+            else
+            {
+                foreach (var d2 in del.GetInvocationList())
+                {
+                    Task.Run(() => { d2.DynamicInvoke(parameters); });
+                }
+            }
+        }
 
         #region Events and Delegates
+
         public delegate void IrcExceptionHandler(IrcClient sender, Exception exception);
         /// <summary>
         /// Called when an exception is called by an IRC method, such as failure to connect.
@@ -1432,8 +1432,18 @@ namespace benbuzbee.LRTIRC
                             String line = reader.ReadLine();
                             if (line != null && OnRawMessageReceived != null)
                             {
-                                foreach (var d in OnRawMessageReceived.GetInvocationList())
-                                    Task.Run(() => d.DynamicInvoke(this, line));
+                                try
+                                {
+                                    OnRawMessageReceived(this, line);
+                                } catch (Exception e)
+                                {
+                                    // For exceptions by event handlers, don't exit the loop but raise an exception
+                                    // If exception event handlers raise another exception...that's their own problem.
+                                    if (OnException != null)
+                                    {
+                                        OnException(this, e);
+                                    }
+                                }
                             }
                             else if (line == null)
                             {
@@ -1446,10 +1456,7 @@ namespace benbuzbee.LRTIRC
 
                         if (OnException != null)
                         {
-                            foreach (var d in OnException.GetInvocationList())
-                            {
-                                var task2 = Task.Run(() => d.DynamicInvoke(this, e));
-                            }
+                            OnException(this, e);
                         }
                     }
                 }
