@@ -160,6 +160,7 @@ namespace benbuzbee.LRTIRC
         private int _maxHistoryStored = 50;
         private LinkedList<String> _outgoingMessageHistory = new LinkedList<String>();
         private LinkedList<String> _incomingMessageHistory = new LinkedList<String>();
+
         /// <summary>
         /// These are channels which this user is in.  It is a map of channel name -> Channel Object for easy lookup
         /// </summary>
@@ -228,9 +229,8 @@ namespace benbuzbee.LRTIRC
         /// <param name="message"></param>
         private void ieOnMessageReceived(IrcClient sender, String message)
         {
-            LastMessageTime = DateTime.Now;
             String[] tokens = message.Split(' ');
-
+            LastMessageTime = DateTime.Now;
 
             // Scans message for errors and raises error events if it finds one
             ErrorHandler(sender, message);
@@ -302,8 +302,7 @@ namespace benbuzbee.LRTIRC
         private void ieOnNick(IrcClient sender, String source, String newNick)
         {
 
-
-            //Update ChannelUsers in all my chanels
+            // Update ChannelUsers in all my chanels
             String oldnick = ChannelUser.GetNickFromFullAddress(source);
             ChannelUser user = null;
 
@@ -312,22 +311,21 @@ namespace benbuzbee.LRTIRC
             {
                 this.Nick = newNick;
             }
-            else 
+ 
+            lock (_channels)
             {
-                lock (_channels)
+                foreach (Channel c in _channels.Values)
                 {
-                    foreach (Channel c in _channels.Values)
-                    {
-                        c.Users.TryGetValue(oldnick.ToLower(), out user);
-                        Debug.Assert(user != null, "User changed his nick that wasn't in our list. Nick: ", oldnick);
+                    c.Users.TryGetValue(oldnick.ToLower(), out user);
+                    Debug.Assert(user != null, "User changed his nick that wasn't in our list. Nick: ", oldnick);
 
-                        user.Nick = newNick;
-                        c.Users.Remove(oldnick.ToLower());
-                        c.Users[newNick.ToLower()] = user;
+                    user.Nick = newNick;
+                    c.Users.Remove(oldnick.ToLower());
+                    c.Users[newNick.ToLower()] = user;
 
-                    }
                 }
             }
+            
 
             RaiseEvent(OnRfcNick, sender, source, newNick);
 
@@ -359,7 +357,10 @@ namespace benbuzbee.LRTIRC
                     {
                         channelObject.Users.Remove(target.ToLower());
                     }
-                    catch (Exception) { Debug.Assert(false, "Unknown user kicked. User: {0}", target); } // If the user isn't there...good! But why?
+                    catch (Exception)
+                    {
+                        Debug.Assert(false, "Unknown user kicked. User: {0}", target); // If the user isn't there...good! But why?
+                    } 
                 }
             }
 
@@ -394,7 +395,10 @@ namespace benbuzbee.LRTIRC
                         {
                             channelObject.Users.Remove(nick.ToLower());
                         }
-                        catch (Exception) { Debug.Assert(false, "User parted who wasn't in our list. Nick: {0}", nick); }
+                        catch (Exception) 
+                        {
+                            Debug.Assert(false, "User parted who wasn't in our list. Nick: {0}", nick); 
+                        }
                     }
                 }
             }
@@ -425,13 +429,28 @@ namespace benbuzbee.LRTIRC
                     for (int modeIndex = 0, parameterIndex = 1; modeIndex < tokens[0].Length; ++modeIndex)
                     {
                         char mode = tokens[0][modeIndex];
-                        if (mode == '+') isSet = true;
-                        else if (mode == '-') isSet = false;
-                        else if (ServerInfo.CHANMODES_parameterNever.Contains(mode)) continue; // There are no parameters assocaited with this mode, so it can't change a user's prefix
+                        if (mode == '+')
+                        {
+                            isSet = true;
+                        }
+                        else if (mode == '-')
+                        {
+                            isSet = false;
+                        }
+                        else if (ServerInfo.CHANMODES_parameterNever.Contains(mode))
+                        {
+                            continue; // There are no parameters assocaited with this mode, so it can't change a user's prefix
+                        }
                         else if (ServerInfo.CHANMODES_paramaterToSet.Contains(mode))
                         {
-                            if (!isSet) continue; // This mode only has a parameter when being set, so it does not have a parameter in the list if it is not being set
-                            else ++parameterIndex; // This mode consumes one of the parameters
+                            if (!isSet)
+                            {
+                                continue; // This mode only has a parameter when being set, so it does not have a parameter in the list if it is not being set
+                            }
+                            else
+                            {
+                                ++parameterIndex; // This mode consumes one of the parameters
+                            }
                         }
                         else  // These mdoes always associate with a parameter
                         {
@@ -569,12 +588,10 @@ namespace benbuzbee.LRTIRC
                 String[] words = other.Split(' ');
                 String channel = words[1];
                 String names = other.Substring(other.IndexOf(':') + 1).Trim();
-                ieOnNames(sender, channel, names);
-                
+                ieOnNames(sender, channel, names);   
             }
 
             RaiseEvent(OnRfcNumeric, sender, source, numeric, target, other);
-
          
         }
 
@@ -615,7 +632,9 @@ namespace benbuzbee.LRTIRC
 
                     // Insert each prefix in the names reply (for NAMESX) into the ChannelUser (InsertPrefix ignores duplicates)
                     for (int i = 0; i < nameStart; ++i)
+                    {
                         user.InsertPrefix(sender.ServerInfo, name[i]);
+                    }
 
                     /// If we are in the NAMES reply for a channel, that means we are in that channel and should make sure it is in our list
                     if (user.Nick.Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
@@ -909,7 +928,11 @@ namespace benbuzbee.LRTIRC
             String[] words = message.Split(' ');
             if (words.Length >= 4 && OnRfcPrivmsg != null && words[1].Equals("PRIVMSG", StringComparison.CurrentCultureIgnoreCase))
             {
-                RaiseEvent(OnRfcPrivmsg, this, words[0], words[2], message.Substring(message.IndexOf(":", 1) + 1));
+                String source = words[0];
+                String target = words[2];
+                String text = message.Substring(message.IndexOf(":", 1) + 1);
+                UpdateFullAddress(target, source);
+                RaiseEvent(OnRfcPrivmsg, this, source, target, text);
                 
             }
         }
@@ -995,7 +1018,10 @@ namespace benbuzbee.LRTIRC
                 {
                     del.DynamicInvoke(parameters);
                 }
-                catch (Exception) { }
+                catch (Exception) 
+                {
+                    // Nothing
+                }
             }
             else
             {
@@ -1121,10 +1147,45 @@ namespace benbuzbee.LRTIRC
             Channel c = null;
             lock (_channels)
             {
-                _channels.TryGetValue(name.ToLower(), out c);
+                if (!_channels.TryGetValue(name.ToLower(), out c))
+                {
+                    return null;
+                }
             }
             return c;
         }
+
+        /// <summary>
+        /// Parses fulladdress and updates the members of ChannelUser with the data
+        /// </summary>
+        /// <param name="channel">Channel this user is on</param>
+        /// <param name="fulladdress">Full address</param>
+        private void UpdateFullAddress(String channel, String fulladdress)
+        {
+            String nick = ChannelUser.GetNickFromFullAddress(fulladdress);
+            String user = ChannelUser.GetUserFromFullAddress(fulladdress);
+            String host = ChannelUser.GetHostFromFullAddress(fulladdress);
+
+            if (nick != null && user != null && host != null)
+            {
+                lock (_channels)
+                {
+                    Channel c = GetChannel(channel);
+                    // C could be null if our caller didn't check to see if it were really a channel
+                    if (c != null)
+                    {
+                        ChannelUser cu = c.GetUser(nick.ToLower());
+                        // CU could be null as server's can set modes, and such
+                        if (cu != null)
+                        {
+                            cu.Username = user;
+                            cu.Host = host;
+                        }
+                    }
+                }
+            }
+        }
+
 
     }
     /// <summary>
@@ -1153,7 +1214,10 @@ namespace benbuzbee.LRTIRC
             ChannelUser result = null;
             lock (_users)
             {
-                _users.TryGetValue(ChannelUser.GetNickFromFullAddress(nameOrFullAddress).ToLower(), out result);
+                if (!_users.TryGetValue(ChannelUser.GetNickFromFullAddress(nameOrFullAddress).ToLower(), out result))
+                {
+                    return null;
+                }
             }
             return result;
         }
@@ -1200,10 +1264,6 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public String Host { get; set; }
         /// <summary>
-        /// The channel this user is in
-        /// </summary>
-        public Channel Channel { get; private set; }
-        /// <summary>
         /// The address of the user in format Nick!Username@Host
         /// </summary>
         public String FullAddress { get { return Nick == null || Username == null || Host == null ? null : String.Format("{0}!{1}@{2}", Nick, Username, Host); } }
@@ -1211,8 +1271,8 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// Checks to see if the user has at least the given prefix SYMBOL (true if his highest prefix is higher or equal to this prefix)
         /// </summary>
-        /// <param name="svr"></param>
-        /// <param name="prefix"></param>
+        /// <param name="svr">Server info from the IRC Client containing prefix information</param>
+        /// <param name="prefix">Prefix to compare against</param>
         /// <returns></returns>
         public bool AtLeast(IrcClient.ServerInfoType svr, char prefix)
         {
@@ -1260,7 +1320,9 @@ namespace benbuzbee.LRTIRC
         public static String GetNickFromFullAddress(String fulladdress)
         {
             if (!fulladdress.Contains('!'))
+            {
                 return fulladdress;
+            }
             return fulladdress.Substring(0, fulladdress.IndexOf('!')).Replace(":", "");
         }
         /// <summary>
@@ -1271,7 +1333,9 @@ namespace benbuzbee.LRTIRC
         public static String GetUserFromFullAddress(String fulladdress)
         {
             if (!fulladdress.Contains('!') || !fulladdress.Contains('@') || fulladdress.IndexOf('@') < fulladdress.IndexOf('!'))
+            {
                 return null;
+            }
 
             int start = fulladdress.IndexOf('!') + 1;
             return fulladdress.Substring(start, fulladdress.IndexOf('@') - start);
@@ -1284,8 +1348,10 @@ namespace benbuzbee.LRTIRC
         /// <returns>The host portion of the full address, or null</returns>
         public static String GetHostFromFullAddress(String fulladdress)
         {
-            if (!fulladdress.Contains('@') || fulladdress.IndexOf('@') == fulladdress.Length)
+            if (!fulladdress.Contains('@') || fulladdress.IndexOf('@') == fulladdress.Length-1)
+            {
                 return null;
+            }
             return fulladdress.Substring(fulladdress.IndexOf('@') + 1);
         }
 
@@ -1301,9 +1367,13 @@ namespace benbuzbee.LRTIRC
             lock (_prefixes)
             {
                 if (_prefixes.ToString().Contains(prefix))
+                {
                     return;
+                }
                 else if (_prefixes.Length == 0)
+                {
                     _prefixes.Append(prefix);
+                }
                 else
                 {
                     /// Find the first prefix in the current list (newList) whose value is less than this new prefix, and insert at that position
@@ -1335,7 +1405,7 @@ namespace benbuzbee.LRTIRC
             lock (_prefixes)
             {
                 int prefixPosition = _prefixes.ToString().IndexOf(prefix);
-                if (prefixPosition > 0)
+                if (prefixPosition >= 0)
                 {
                     _prefixes.Remove(prefixPosition, 1);
                 }
