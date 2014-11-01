@@ -73,8 +73,8 @@ namespace HSBot
             };
             Client.OnDisconnect += (c) =>
                 {
-                    Console.WriteLine("Disconnected from server, reconnecting in 30 seconds...");
-                    System.Threading.Thread.Sleep(30000);
+                    Console.WriteLine("Disconnected from server, reconnecting in 60 seconds...");
+                    System.Threading.Thread.Sleep(60000);
                     connectAction(c);
                 };
 

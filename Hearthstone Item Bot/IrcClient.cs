@@ -16,8 +16,7 @@ namespace benbuzbee.LRTIRC
     /// </summary>
     public class IrcClient
     {
-
-        #region Properties
+        #region Public Properties
         /// <summary>
         /// Gets the last exception thrown
         /// </summary>
@@ -78,7 +77,6 @@ namespace benbuzbee.LRTIRC
         /// Message policies (enum is Flags) enforced on outgoing messages
         /// </summary>
         public OutgoingMessagePolicy OutgoingPolicies { get; set; }
-
         /// <summary>
         /// A history of messages sent in chronological order.  Internally stored as a Stack.  Maximum size determiend by MaxHistoryStored property.
         /// </summary>
@@ -136,13 +134,12 @@ namespace benbuzbee.LRTIRC
         /// Information about the server sent on connection
         /// </summary>
         public ServerInfoType ServerInfo { get; private set; }
-
         /// <summary>
         /// By default, events are raised on a background thread as a Task which means order is not guaranteed.
         /// Set this to true to force events to be raised directly on the Irc Reader thread
         /// </summary>
         public bool SingleThreadedEvents { get; set; }
-        #endregion Properties
+        #endregion Public Properties
 
         #region Private Members
         /// <summary>
@@ -157,8 +154,17 @@ namespace benbuzbee.LRTIRC
         /// Used when writing so there are not concurrent attempts
         /// </summary>
         private SemaphoreSlim _writingSemaphore = new SemaphoreSlim(1, 1);
+        /// <summary>
+        /// How many messages we store in our history
+        /// </summary>
         private int _maxHistoryStored = 50;
+        /// <summary>
+        /// Messages we've sent, up to _maxHistoryStored
+        /// </summary>
         private LinkedList<String> _outgoingMessageHistory = new LinkedList<String>();
+        /// <summary>
+        /// Messages we've received, up to _maxHistoryStored
+        /// </summary>
         private LinkedList<String> _incomingMessageHistory = new LinkedList<String>();
 
         /// <summary>
@@ -169,10 +175,20 @@ namespace benbuzbee.LRTIRC
         private StreamWriter _streamWriter;
         private System.Timers.Timer _timeoutTimer = new System.Timers.Timer();
         private System.Timers.Timer _pingTimer = new System.Timers.Timer();
+        /// <summary>
+        /// A map of: lower(Channel) -> (Nick -> Prefix List)
+        /// </summary>
+        private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> _channelStatusMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
+        /// <summary>
+        /// Thread that reads the socket's input stream. Initialized in the constructor and woken up on connect
+        /// </summary>
+        private IrcReader _thread;
+        #endregion Private Members
+
 
         /// <summary>
-        /// Structure containing general information about the server - only that which is needed by the IrcClient for further action/
-        /// For specific info, you should capture it yourself from the appropriate vent
+        /// Structure containing general information about the server - only that which is needed by the IrcClient for further action.
+        /// For specific info, you should capture it yourself from the appropriate event
         /// </summary>
         public class ServerInfoType
         {
@@ -211,14 +227,7 @@ namespace benbuzbee.LRTIRC
             /// The fourth group in CHANMOEDS. These are modes that never have a parameter.
             /// </summary>
             public String CHANMODES_parameterNever;
-        };
-        /// <summary>
-        /// A map of: lower(Channel) -> (Nick -> Prefix List)
-        /// </summary>
-        private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> _channelStatusMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
-
-        private IrcReader _thread;
-        #endregion
+        }
 
         // This region contains event handlers for events.  The last step of which is usually to signal all external event handlers
         #region Internal Events
@@ -961,7 +970,7 @@ namespace benbuzbee.LRTIRC
                 if (Registered) return;
             }
             System.Threading.Thread.Sleep(1000);
-            if (Password != null)
+            if (!String.IsNullOrEmpty(Password))
             {
                 SendRawMessage("PASS {0}", Password).Wait();
             }
@@ -1412,8 +1421,6 @@ namespace benbuzbee.LRTIRC
 
             }
         }
-
-
     }
     /// <summary>
     /// The integer interpreted by mIRC as a color when following ASCII character 0x03
@@ -1447,7 +1454,7 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// When in effect, a message which is the same of the previously sent message will be dropped
         /// </summary>
-        NoDuplicates = 0x01
+        NoDuplicates = 0x00000001
     }
 
     /// <summary>
@@ -1455,6 +1462,9 @@ namespace benbuzbee.LRTIRC
     /// </summary>
     class IrcReader
     {
+        /// <summary>
+        /// The IrcClient whose socket is being read
+        /// </summary>
         public IrcClient Client { get; private set; }
         private SemaphoreSlim _semaphore = new SemaphoreSlim(0, 1);
 
@@ -1490,6 +1500,7 @@ namespace benbuzbee.LRTIRC
 
                 if (Client == null || Client.TCP == null)
                 {
+                    // Nope, try again.
                     continue;
                 }
 
@@ -1517,13 +1528,13 @@ namespace benbuzbee.LRTIRC
                             }
                             else if (line == null)
                             {
+                                // Catch this outside the reader loop but inside the thread loop
                                 throw new EndOfStreamException();
                             }
                         }
                     }
                     catch (Exception e)
                     {
-
                         if (OnException != null)
                         {
                             OnException(this, e);
@@ -1547,7 +1558,6 @@ namespace benbuzbee.LRTIRC
             {
                 return false;
             }
-            
         }
     }
 }
