@@ -135,7 +135,8 @@ namespace HSBot.Cards
 
             if (!String.IsNullOrEmpty(Description))
             {
-                sb.AppendFormat("- {0} ", HTML2mIRC(Description));
+                String strNewDescrition = ReplaceDollarWithStar(Description);
+                sb.AppendFormat("- {0} ", HTML2mIRC(strNewDescrition));
                 
             }
 
@@ -146,6 +147,53 @@ namespace HSBot.Cards
 
             return sb.ToString();
         }
+        /// <summary>
+        /// Replaces $number with *number* for all occurences in a string. Does not modify the original
+        /// </summary>
+        /// <param name="original"></param>
+        /// <returns></returns>
+        private String ReplaceDollarWithStar(String original)
+        {
+            // Most descriptions don't have a dollar sign. Don't waste time.
+            if (!original.Contains("$"))
+            {
+                return original;
+            }
+
+            // Create a SB to store results. Same as the original with room for 1 more *. If more are needed (rare case) it will be resized.
+            StringBuilder sb = new StringBuilder(original.Length + 1);
+
+            // Position in original string relative to what we have copied to the string builder.
+            int iPosition;
+            // Position of dollar sign
+            int iDollar;
+
+            // Loop all dollar signs. Copy everything before the dollar over, then *number*.
+            for (iPosition = 0; (iDollar = original.IndexOf('$', iPosition)) >= 0; /* no-op */)
+            {
+                // Append everything from we haven't already appended up to this dollar sign
+                sb.Append(original.Substring(iPosition, iDollar - iPosition));
+
+                sb.Append('*');
+                iPosition = iDollar + 1; // Skip the $
+                // Move through the number
+                while (iPosition < original.Length && char.IsDigit(original[iPosition]))
+                {
+                    sb.Append(original[iPosition]);
+                    ++iPosition;
+                }
+
+                // Add a star after the number
+                sb.Append('*');
+            }
+            
+            // Append anything remaining in the original string to the builder
+            if (iPosition < original.Length)
+                sb.Append(original.Substring(iPosition));
+
+            return sb.ToString();
+        }
+
         /// <summary>
         /// Replaces HTML elements with mIRC equivilients
         /// </summary>

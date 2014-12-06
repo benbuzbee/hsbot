@@ -10,11 +10,24 @@ namespace HSBot.Cards
 {
     static class CardParser
     {
+        public enum CardTag
+        {
+            HEALTH = 45,
+            ATTACK = 47,
+            COST = 48,
+            DESCRIPTION = 184,
+            NAME = 185,
+            DURABILITY = 187,
+            CLASS_ID = 199,
+            RARITY = 203,
+            FLAVOR_TEXT = 351
+            
+        }
         /// <summary>
         /// Reads file with card data XML entries 
         /// </summary>
         /// <param name="fromFile">card data xml file</param>
-        /// <returns>A map of loc string -> XmlDocument - the XmlDocument represents a CardDefs element whose children, Entity, represents a card.</returns>
+        /// <returns>A map of loc string -> XmlDocument - the XmlDocument represents a CardDefs element whose children, Entity, represents a card.  Call GetCards to parse those.</returns>
         public static Dictionary<String, XmlDocument> Extract(String fromFile)
         {
             Dictionary<String, XmlDocument> docs = new Dictionary<String, XmlDocument>();
@@ -121,7 +134,34 @@ namespace HSBot.Cards
 
             }
         }
+        private static String GetTagValue(XmlNode nodeEntity, CardTag tagId)
+        {
+            XmlNode nodeTag = nodeEntity.SelectSingleNode("Tag[@enumID=\""+(int)tagId+"\"]");
+            if (nodeTag == null)
+                return null;
+            var attribute = nodeTag.Attributes["value"];
+            return attribute != null ? attribute.Value : null;
+        }
+        private static bool TryGetTagIntValue(XmlNode entity, CardTag tagId, out int id)
+        {
+            String strValue = GetTagValue(entity, tagId);
 
+            if (strValue == null)
+            {
+                id = 0;
+                return false;
+            }
+            return int.TryParse(strValue, out id);
+
+        }
+        private static String GetTagInnerText(XmlNode nodeEntity, CardTag targId)
+        {
+            XmlNode nodeTag = nodeEntity.SelectSingleNode("Tag[@enumID=\"" + (int)targId + "\"]");
+            if (nodeTag == null)
+                return null;
+            return nodeTag.InnerText;
+        }
+        // Parses Entity tags from the XmlDoc
         public static List<Card> GetCards(XmlDocument doc)
         {
             List<Card> cards = new List<Card>();
@@ -130,86 +170,55 @@ namespace HSBot.Cards
             {
                 try
                 {
-                    
+                    XmlAttribute entityCardID = entity.Attributes["CardID"];
 
-                    if (entity == null)
+                    if (entityCardID == null)
                     {
                         Console.Error.WriteLine("Card had no CardID");
                         continue;
                     }
 
-                    XmlAttribute entityCardID = entity.Attributes["CardID"];
-                    /*
-                    if (entityCardID == null)
+                    String cardName = GetTagInnerText(entity, CardTag.NAME);
+                    if (cardName == null)
                     {
-                        Console.Error.WriteLine("Card had no CardID: {0}", file);
+                        Console.Error.WriteLine("Card had no card name tag");
                         continue;
                     }
-                    else if (entityCardID.Value.EndsWith("e"))
-                    {
-                        Console.WriteLine("Skipping effect card: {0}", file);
-                        continue;
-                    }
-                    else if (entityCardID.Value.StartsWith("XXX_"))
-                    {
-                        Console.WriteLine("Skipping special card type: {0}", file);
-                        continue;
-                    }
-                    else if (char.IsLetter(entityCardID.Value[entityCardID.Value.Length - 1]))
-                    {
-                        Console.WriteLine("Skipping sub-card: {0}", file);
-                        continue;
-                    }
-                     * */
-                    //   <Tag name="CardName" enumID="185" type="String">
-
-
-                    // Gets localized names
-                    XmlNode cardName = entity.SelectSingleNode("Tag[@name=\"CardName\"]");
-
-                    if (cardName == null || cardName.InnerText == null)
-                    {
-                        Console.Error.WriteLine("Card had no CardName tag");
-                        continue;
-                    }
-
 
                     Card card = new Card(entityCardID.Value);
                     card.XmlData = entity.ToString();
 
-                    card.Name = cardName.InnerText;
+                    card.Name = cardName;
 
+                    card.Description = GetTagInnerText(entity, CardTag.DESCRIPTION);
 
-                    XmlNode cardDescription = entity.SelectSingleNode("Tag[@name=\"CardTextInHand\"]");
+                    int iValue;
 
-                    if (cardDescription != null)
+                    if (TryGetTagIntValue(entity, CardTag.ATTACK, out iValue))
                     {
-                        card.Description = cardDescription.InnerText;
+                        card.Attack = iValue;
                     }
 
-
-
-
-                    XmlNode attack = entity.SelectSingleNode("Tag[@name=\"Atk\"]");
-                    if (attack != null)
-                        card.Attack = int.Parse(attack.Attributes["value"].Value);
-
-                    XmlNode health = entity.SelectSingleNode("Tag[@name=\"Health\"]");
-                    if (health != null)
-                        card.Health = int.Parse(health.Attributes["value"].Value);
-
-                    XmlNode cost = entity.SelectSingleNode("Tag[@name=\"Cost\"]");
-                    if (cost != null)
-                        card.Cost = int.Parse(cost.Attributes["value"].Value);
-
-                    XmlNode durability = entity.SelectSingleNode("Tag[@name=\"Durability\"]");
-                    if (durability != null)
-                        card.Health = int.Parse(durability.Attributes["value"].Value);
-
-                    XmlNode classID = entity.SelectSingleNode("Tag[@name=\"Class\"]");
-                    if (classID != null)
+                    if (TryGetTagIntValue(entity, CardTag.HEALTH, out iValue))
                     {
-                        switch (int.Parse(classID.Attributes["value"].Value))
+                        card.Health = iValue;
+                    }
+
+                    if (TryGetTagIntValue(entity, CardTag.COST, out iValue))
+                    {
+                        card.Cost = iValue;
+                    }
+
+                    int iDurability;
+                    if (TryGetTagIntValue(entity, CardTag.DURABILITY, out iDurability))
+                    {
+                        card.Health = iDurability;
+                    }
+
+                    int iClassId;
+                    if (TryGetTagIntValue(entity, CardTag.CLASS_ID, out iClassId))
+                    {
+                        switch (iClassId)
                         {
                             case (int)Card.ClassValues.MAGE:
                                 card.Class = Card.ClassValues.MAGE;
@@ -240,18 +249,19 @@ namespace HSBot.Cards
                                 break;
                             default:
                                 card.Class = Card.ClassValues.ALL;
-                                Console.Error.WriteLine("Unknown class: {0} Class {1}", card.Name, int.Parse(classID.Attributes["value"].Value));
+                                Console.Error.WriteLine("Unknown class: {0} Class {1}", card.Name, iClassId);
                                 break;
                         }
                     }
                     else
                         card.Class = Card.ClassValues.ALL;
 
-                    XmlNode rarity = entity.SelectSingleNode("Tag[@name=\"Rarity\"]");
-                    if (rarity != null)
+                    string rarity = GetTagValue(entity, CardTag.RARITY);
+                    int iRarity;
+
+                    if (TryGetTagIntValue(entity, CardTag.RARITY, out iRarity))
                     {
-                        int value = int.Parse(rarity.Attributes["value"].Value);
-                        switch (value)
+                        switch (iRarity)
                         {
                             case 1:
                                 card.Rarity = Card.RarityValues.COMMON;
@@ -276,7 +286,7 @@ namespace HSBot.Cards
                     else
                         card.Rarity = Card.RarityValues.UNKNOWN;
 
-
+                    /*
                     XmlNode type = entity.SelectSingleNode("Tag[@name=\"CardType\"]");
                     if (type != null)
                     {
@@ -284,21 +294,11 @@ namespace HSBot.Cards
                         if (card.Type == (int)Card.CardType.HERO || card.Type == (int)Card.CardType.EFFECT) // Heros? 3 included the Hero "Hogger" 0/10 -- 4 may be creatures -- 7 may be weapons (warrior)
                             continue;
                     }
+                    */
 
-                    XmlNode flavorText = entity.SelectSingleNode("Tag[@name=\"FlavorText\"]");
-                    if (flavorText != null)
-                    {
-                        card.FlavorText = flavorText.InnerText;
-                        
-
-                    }
-
+                    card.FlavorText = GetTagInnerText(entity, CardTag.FLAVOR_TEXT);
+                    
                     cards.Add(card);
-
-
-
-
-
                 }
                 catch (XmlException exception)
                 {
