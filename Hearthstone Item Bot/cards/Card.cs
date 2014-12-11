@@ -135,7 +135,7 @@ namespace HSBot.Cards
 
             if (!String.IsNullOrEmpty(Description))
             {
-                String strNewDescrition = ReplaceDollarWithStar(Description);
+                String strNewDescrition = ReplaceDollarWithStar(Description.Replace('\n', ' '));
                 sb.AppendFormat("- {0} ", HTML2mIRC(strNewDescrition));
                 
             }

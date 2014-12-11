@@ -405,7 +405,9 @@ namespace HSBot
                             set = new CardSet();
                         }
                         int insertPosition = 0;
-                        if (char.IsLetter(c.ID[c.ID.Length - 1]))
+                        // These cards have a letter at the end and are a subpower so should go last
+                        // Or if they do not have text in hand they should go last
+                        if (char.IsLetter(c.ID[c.ID.Length - 1]) || c.Description == null)
                             insertPosition = -1;
                         set.Insert(c, insertPosition);
                         _cards[c.Name.ToLower()] = set;
