@@ -320,13 +320,18 @@ namespace benbuzbee.LRTIRC
             {
                 this.Nick = newNick;
             }
- 
+            bool fFoundUser = false;
             lock (_channels)
             {
                 foreach (Channel c in _channels.Values)
                 {
-                    c.Users.TryGetValue(oldnick.ToLower(), out user);
-                    Debug.Assert(user != null, "User changed his nick that wasn't in our list. Nick: ", oldnick);
+                    if (!c.Users.TryGetValue(oldnick.ToLower(), out user))
+                    {
+                        // If user is not in this channel, check next channel
+                        continue;
+                    }
+
+                    fFoundUser = true;
 
                     user.Nick = newNick;
                     c.Users.Remove(oldnick.ToLower());
@@ -334,8 +339,8 @@ namespace benbuzbee.LRTIRC
 
                 }
             }
-            
 
+            Debug.Assert(fFoundUser, "A user changed his nickname but doesn't appear to be in our nick list. Nick change: {0} -> {1}", oldnick, newNick);
             RaiseEvent(OnRfcNick, sender, source, newNick);
 
         }
