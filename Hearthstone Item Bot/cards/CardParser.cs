@@ -19,6 +19,7 @@ namespace HSBot.Cards
             NAME = 185,
             DURABILITY = 187,
             CLASS_ID = 199,
+            FAMILY = 200,
             RARITY = 203,
             FLAVOR_TEXT = 351
             
@@ -285,6 +286,42 @@ namespace HSBot.Cards
                     }
                     else
                         card.Rarity = Card.RarityValues.UNKNOWN;
+
+                    int iFamily;
+                    if (TryGetTagIntValue(entity, CardTag.FAMILY, out iFamily))
+                    {
+                        switch (iFamily)
+                        {
+                            case (int)Card.CardFamily.MURLOC:
+                                card.Family = Card.CardFamily.MURLOC;
+                                break;
+                            case (int)Card.CardFamily.BEAST:
+                                card.Family = Card.CardFamily.BEAST;
+                                break;
+                            case (int)Card.CardFamily.DEMON:
+                                card.Family = Card.CardFamily.DEMON;
+                                break;
+                            case (int)Card.CardFamily.MECH:
+                                card.Family = Card.CardFamily.MECH;
+                                break;
+                            case (int)Card.CardFamily.TOTEM:
+                                card.Family = Card.CardFamily.TOTEM;
+                                break;
+                            case (int)Card.CardFamily.PIRATE:
+                                card.Family = Card.CardFamily.PIRATE;
+                                break;
+                            case (int)Card.CardFamily.DRAGON:
+                                card.Family = Card.CardFamily.DRAGON;
+                                break;
+                            default:
+                                System.Diagnostics.Debug.Assert(false, "Unknown card family :" + iFamily);
+                                Console.Error.WriteLine("Unknown card family {0}", iFamily);
+                                card.Family = Card.CardFamily.UNKNOWN;
+                                break;
+                        }
+                    }
+                    else
+                        card.Family = Card.CardFamily.UNKNOWN;
 
                     /*
                     XmlNode type = entity.SelectSingleNode("Tag[@name=\"CardType\"]");

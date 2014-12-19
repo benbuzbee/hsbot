@@ -16,6 +16,7 @@ namespace HSBot.Cards
         public enum RarityValues { UNKNOWN, COMMON, FREE, RARE, EPIC, LEGENDARY };
         public enum ClassValues { ALL, DRUID = 2, HUNTER = 3, MAGE = 4, PALADIN = 5, PRIEST = 6, ROGUE = 7, SHAMAN = 8, WARLOCK = 9, WARRIOR = 10 };
         public enum CardType { WEAPON = 7, HERO = 3, CREATURE = 4, EFFECT = 6 /* Cabal Control */ };
+        public enum CardFamily { MURLOC = 14, DEMON = 15, MECH = 17, BEAST = 20, TOTEM = 21, PIRATE = 23, DRAGON = 24, UNKNOWN = 0xFF }
 
         /// <summary>
         /// The name for a card
@@ -52,11 +53,12 @@ namespace HSBot.Cards
         public int Cost { get; set; }
         public ClassValues Class { get; set; }
         public RarityValues Rarity { get; set; }
+        public CardFamily Family { get; set; }
 
         public String XmlData { get; set; }
 
 
-        public Card(String entityCardID) { ID = entityCardID; }
+        public Card(String entityCardID) { ID = entityCardID; Family = CardFamily.UNKNOWN;  }
 
         public int Type { get; set; }
 
@@ -138,6 +140,51 @@ namespace HSBot.Cards
             }
 
             if (Type == (int)CardType.WEAPON) { sb.Append("- Weapon "); }
+
+            if (Family != CardFamily.UNKNOWN)
+            {
+                String strFamily = null;
+                switch (Family)
+                {
+                    case CardFamily.BEAST:
+                        strFamily = "Beast";
+                        break;
+                    case CardFamily.MECH:
+                        strFamily = "Mech";
+                        break;
+                    case CardFamily.DEMON:
+                        strFamily = "Demon";
+                        break;
+                    case CardFamily.DRAGON:
+                        strFamily = "Dragon";
+                        break;
+                    case CardFamily.MURLOC:
+                        strFamily = "Murloc";
+                        break;
+                    case CardFamily.PIRATE:
+                        strFamily = "Pirate";
+                        break;
+                    case CardFamily.TOTEM:
+                        strFamily = "Totem";
+                        break;
+                    default:
+                        System.Diagnostics.Debug.Assert(false, "Unknown family");
+                        break;
+                }
+                if (strFamily != null)
+                {
+                    if (fControlCodes)
+                    {
+                        sb.AppendFormat("- {0} ", strFamily);
+                    }
+                    else
+                    {
+                        sb.Append("- ");
+                        sb.Append(strFamily);
+                        sb.Append(" ");
+                    }
+                }
+            }
 
             if (!String.IsNullOrEmpty(Description))
             {
