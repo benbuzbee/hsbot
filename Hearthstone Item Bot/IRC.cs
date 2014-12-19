@@ -277,7 +277,7 @@ namespace HSBot
                     index = 1;
                 Card c = cs[index - 1];
 
-                String message = c.GetFullText();
+                String message = c.GetFullText(Config.ControlCodes);
 
                 if (cs.Count > 1)
                 {

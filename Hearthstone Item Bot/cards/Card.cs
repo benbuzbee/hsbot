@@ -88,11 +88,17 @@ namespace HSBot.Cards
             }
         }
 
-        public String GetFullText()
+        public String GetFullText(bool fControlCodes = true)
         {
             StringBuilder sb = new StringBuilder(2048);
-
-            sb.AppendFormat("[{0}{1}]: ", GetmIRCColor(), HTML2mIRC(Name));
+            if (fControlCodes)
+            {
+                sb.AppendFormat("[{0}{1}]: ", GetmIRCColor(), HTML2mIRC(Name));
+            }
+            else
+            {
+                sb.AppendFormat("[{0}]: ", NoHTML(Name));
+            }
             if (Attack != 0 || Health != 0)
                 sb.AppendFormat("{0}/{1}: ", Attack, Health);
             sb.AppendFormat("Cost: {0} ", Cost);
@@ -135,14 +141,14 @@ namespace HSBot.Cards
 
             if (!String.IsNullOrEmpty(Description))
             {
-                String strNewDescrition = ReplaceDollarWithStar(Description.Replace('\n', ' '));
-                sb.AppendFormat("- {0} ", HTML2mIRC(strNewDescrition));
+                String strNewDescription = ReplaceDollarWithStar(Description.Replace('\n', ' '));
+                sb.AppendFormat("- {0} ", fControlCodes ? HTML2mIRC(strNewDescription) : NoHTML(strNewDescription));
                 
             }
 
             if (!String.IsNullOrEmpty(FlavorText))
             {
-                sb.AppendFormat("- \"{0}\"", HTML2mIRC(FlavorText));
+                sb.AppendFormat("- \"{0}\"",  fControlCodes ? HTML2mIRC(FlavorText) : NoHTML(FlavorText));
             }
 
             return sb.ToString();
@@ -202,6 +208,15 @@ namespace HSBot.Cards
         private String HTML2mIRC(String s)
         {
             return s.Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", "").Replace("\\n", ". ");
+        }
+        /// <summary>
+        /// Removes common HTML elements
+        /// </summary>
+        /// <param name="s">String with HTML elements</param>
+        /// <returns>String with common HTML elements removed or replaced</returns>
+        private String NoHTML(String s)
+        {
+            return s.Replace("<b>", "").Replace("</b>", "").Replace("<i>", "").Replace("</i>", "").Replace("\\n", ". ");
         }
     }
 }

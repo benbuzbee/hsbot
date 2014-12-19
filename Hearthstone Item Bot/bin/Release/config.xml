@@ -10,26 +10,29 @@
     <port>6667</port>
     <!-- The channel you want the bot to join.  This is required. -->
     <channel>#hearthstone</channel>
-    <channel>#hearthstone.fi</channel>
     
     
     
     <!-- The nickname yuou want the bot to use-->
-    <nick>HearthBot-dbg</nick>
+    <nick>HearthBot</nick>
     <!-- The real name the bot should have.  This is optional -->
     <name>Hearthstone IRC Bot</name>
     <!-- The username you want the bot to have.  This is optional, and not the same as nickname -->
-    <user>HearthBot-dbg</user>
+    <user>HearthBot</user>
     <!-- If the IRC server has a password.  Use the format below for twitch. -->
     <pass>oauth:sometoken</pass>
 
     <!-- Any raw IRC commands you wish to send on connect.  In the below example, we send a message to Q that says "auth user pass?" -->
+    <!-- On twitch you may want to send USERCOLOR -->
     <onconnect>PRIVMSG Q :auth user pass?</onconnect>
 
     <!-- Time to wait between reconnect attempts (miliseconds).  This number over 2 is the ping frequency.  This is optional -->
     <reconnecttime>300000</reconnecttime>
 
-    
+    <!-- Disabled control codes on twitch (where they are not parsed) or channels with anti-control code modes are set -->
+    <!--<nocontrolcodes /> -->
+
+
   </irc>
 
   

@@ -437,6 +437,16 @@ namespace benbuzbee.LRTIRC
             {
                 if (_channels.TryGetValue(target.ToLower(), out channel))
                 {
+                    // Set up some default values
+                    if (ServerInfo.CHANMODES == null)
+                    {
+                        ServerInfo.CHANMODES = "b,k,l,imnpstr";
+                    }
+                    if (ServerInfo.PREFIX == null)
+                    {
+                        ServerInfo.PREFIX = "(ohv)@%";
+                    }
+
                     // This loop walks through the mode list and keeps track for each one 1.) The mode, 2.) If it is set 3.) If it has a parameter and 4.) The index of the parameter
                     // It's purpose is to update the ChannelUser for any user that have their modes affected
                     bool isSet = false;
@@ -466,7 +476,7 @@ namespace benbuzbee.LRTIRC
                                 ++parameterIndex; // This mode consumes one of the parameters
                             }
                         }
-                        else  // These mdoes always associate with a parameter
+                        else  // These modes always associate with a parameter
                         {
 
                             try
@@ -475,11 +485,21 @@ namespace benbuzbee.LRTIRC
                                 if (ServerInfo.PREFIX_modes.Contains(mode))
                                 {
                                     ChannelUser user = null;
-                                    channel.Users.TryGetValue(tokens[parameterIndex].ToLower(), out user);
+                                    String nick = tokens[parameterIndex];
+                                    channel.Users.TryGetValue(nick.ToLower(), out user);
 
-                                    Debug.Assert(user != null, "Mode set on user who was not in our list. Nick: {0}", tokens[parameterIndex].ToLower());
+                                    // Debug.Assert(user != null, "Mode set on user who was not in our list.", tokens[parameterIndex].ToLower());
 
-                                    char prefix = ServerInfo.PREFIX_symbols[ServerInfo.PREFIX_modes.IndexOf(mode)];
+                                    if (user == null)
+                                    {
+                                        // This can happen if users are hidden or servers get a little loose with the rules, so let's pretend like he's in there.
+                                        user = new ChannelUser(nick, channel);
+                                        channel.Users.Add(nick.ToLower(), user);
+                                    }
+
+                                    int modeIndexIntoPrefixList = ServerInfo.PREFIX_modes.IndexOf(mode);
+                                    Debug.Assert(modeIndexIntoPrefixList >= 0, "Mode set on user that was not in PREFIX list. This could be because we fell back to a default list.");
+                                    char prefix = ServerInfo.PREFIX_symbols[modeIndexIntoPrefixList];
                                     if (isSet)
                                     {
                                         user.InsertPrefix(ServerInfo, prefix);
@@ -633,7 +653,7 @@ namespace benbuzbee.LRTIRC
                     
                     // if there are symbols (because NAMESX was supported) find the start of the name, otherwise its position 0
                     int nameStart = 0;
-                    for (nameStart = 0; sender.ServerInfo.PREFIX_symbols.Contains(name[nameStart]); ++nameStart) ;
+                    for (nameStart = 0; sender.ServerInfo.PREFIX_symbols != null && sender.ServerInfo.PREFIX_symbols.Contains(name[nameStart]); ++nameStart) ;
                     String justName = name.Substring(nameStart);
 
                     // Create a ChannelUser for this user if it does not exist in the channel, or get it if it does

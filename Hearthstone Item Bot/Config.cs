@@ -27,6 +27,7 @@ namespace HSBot
         public static int IRCReconnectTime { get; private set; }
         public static String OnConnectAction { get; private set; }
         public static int AutoTriggerMatchRequirement { get; private set; }
+        public static bool ControlCodes { get; private set; }
 
         public static void Reload()
         {
@@ -62,6 +63,8 @@ namespace HSBot
             {
                 OnConnectAction = onConnect.InnerText;
             }
+
+            ControlCodes = doc.DocumentElement.SelectSingleNode("/config/irc/nocontrolcodes") == null ? true : false;
 
             AutoTriggerMatchRequirement = int.Parse(doc.DocumentElement.SelectSingleNode("/config/autotrigger/matchrequirement").InnerText);
 
