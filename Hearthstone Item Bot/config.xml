@@ -14,7 +14,7 @@
     
     
     <!-- The nickname yuou want the bot to use-->
-    <nick>HearthBot</nick>
+    <nick>HearthBot-dbg</nick>
     <!-- The real name the bot should have.  This is optional -->
     <name>Hearthstone IRC Bot</name>
     <!-- The username you want the bot to have.  This is optional, and not the same as nickname -->
@@ -52,5 +52,20 @@
 
   </autotrigger>
 
+  <language>
+    <!--<default>esES</default>-->
+    <default>enUS</default>
+    <!--<default>deDE</default>-->
+    <!--<default>esMX</default>-->
+    <!--<default>koKR</default>-->
+    <!--<default>ptPT</default>-->
+    <!--<default>enGB</default>-->
+    <!--<default>zhTW</default>-->
+    <!--<default>frFR</default>-->
+    <!--<default>ruRU</default>-->
+    <!--<default>ptBR</default>-->
+    <!--<default>itIT</default>-->
+    <!--<default>plPL</default>-->
+  </language>
 
 </config>

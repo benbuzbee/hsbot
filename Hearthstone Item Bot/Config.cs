@@ -28,6 +28,7 @@ namespace HSBot
         public static String OnConnectAction { get; private set; }
         public static int AutoTriggerMatchRequirement { get; private set; }
         public static bool ControlCodes { get; private set; }
+        public static String DefaultLanguage { get; private set; }
 
         public static void Reload()
         {
@@ -65,6 +66,8 @@ namespace HSBot
             }
 
             ControlCodes = doc.DocumentElement.SelectSingleNode("/config/irc/nocontrolcodes") == null ? true : false;
+
+            DefaultLanguage = doc.DocumentElement.SelectSingleNode("/config/language/default").InnerText;
 
             AutoTriggerMatchRequirement = int.Parse(doc.DocumentElement.SelectSingleNode("/config/autotrigger/matchrequirement").InnerText);
 

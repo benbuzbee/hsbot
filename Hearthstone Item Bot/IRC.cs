@@ -391,7 +391,13 @@ namespace HSBot
         private void RefreshList()
         {
 
-            List<Card> list = CardParser.GetCards(CardParser.Extract(_cardDataFile)["enUS"]);
+            var cardDefs = CardParser.Extract(_cardDataFile);
+            if (!cardDefs.ContainsKey(Config.DefaultLanguage))
+            {
+                Console.Error.WriteLine("No card definitions found for language {0}", Config.DefaultLanguage);
+                return;
+            }
+            List<Card> list = CardParser.GetCards(cardDefs[Config.DefaultLanguage]);
             lock (_cards)
             {
                 _cards.Clear();
