@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using benbuzbee.LRTIRC;
 using System.Text.RegularExpressions;
 using HSBot.Cards;
+using System.Threading;
 
 namespace HSBot
 {
@@ -20,14 +21,15 @@ namespace HSBot
             Client = new IrcClient();
 
             Client.Encoding = new System.Text.UTF8Encoding(false);
-            Client.OutgoingPolicies = OutgoingMessagePolicy.NoDuplicates;
+
             Client.Timeout = TimeSpan.FromSeconds(30);
         }
         
         private DateTime startTime = DateTime.Now;
+        private Timer _flowRateTimer;
 
         /// <summary>
-        /// Connects the bot and registers events
+        /// Connects the bot and registers events. Call it only once.
         /// </summary>
         public void StartConnect()
         {
@@ -78,6 +80,35 @@ namespace HSBot
                     connectAction(c);
                 };
 
+            _flowRateTimer = new Timer((state) => {
+                lock (_flowRateMap)
+                {
+                    List<String> keysToRemove = new List<string>();
+                    foreach (var kvp in _flowRateMap)
+                    {
+                        var line = kvp.Value;
+                        lock (line)
+                        {
+                            if ((DateTime.Now - line.LastUpdated) >= TimeSpan.FromSeconds(Config.FlowRateSeconds))
+                            {
+                                --line.Messages;
+
+                            }
+                            if (line.Messages == 0)
+                            {
+                                keysToRemove.Add(kvp.Key);
+                            }
+                        }
+                    }
+                    foreach (String key in keysToRemove)
+                    {
+                        _flowRateMap.Remove(key);
+                    }
+                    keysToRemove.Clear();
+                }
+            } , null,0,1000);
+            
+
             connectAction(Client);
 
                 
@@ -106,7 +137,14 @@ namespace HSBot
  
         }
         Regex regex = new Regex(@"\[([^\]+\]]+)\](?=[^a-zA-Z]|$|s)");
-        private async void OnPrivmsg(IrcClient sender, String source, String target, String message)
+        /// <summary>
+        /// Event handlers for a privmsg from the server
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="source"></param>
+        /// <param name="target"></param>
+        /// <param name="message"></param>
+        private void OnPrivmsg(IrcClient sender, String source, String target, String message)
         {
             // If its to me (the bot), then respond to source. Otherwise, respond to target (channel)
             String responseTarget = target.Equals(Client.Nick, StringComparison.CurrentCultureIgnoreCase) ?
@@ -114,7 +152,7 @@ namespace HSBot
                 target;
 
             String lowerMessage = message.ToLower();
-
+            /*
             if (lowerMessage.StartsWith("!debug ") && message.Length > "!debug ".Length)
             {
                 
@@ -141,16 +179,22 @@ namespace HSBot
                 return;
                  
             }
+            */
 
-            else if (lowerMessage.StartsWith("!card ") && message.Length > "!card ".Length && message.Length <= (Config.MaxCardNameLength + "!card ".Length))
+
+            if (lowerMessage.StartsWith("!card ") && message.Length > "!card ".Length && message.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
-				// If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
-				// it's probably too long to be a card.
-                LookupCardNameFor(responseTarget, message.Substring("!card ".Length).ToLower());
+                if (CheckFlowRateLimiter(source))
+                {
+                    // If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
+                    // it's probably too long to be a card.
+                    LookupCardNameFor(responseTarget, message.Substring("!card ".Length).ToLower());
+                }
 			}
 
             // The check for manually triggered cards
             Match match = regex.Match(lowerMessage);
+            List<String> listMatchedCardNames = new List<String>();
 			for (int i = 0; i < Config.MaxCardsPerLine && match.Success; ++i, match = match.NextMatch())
             {
 				if (match.Groups[1].Length >= Config.MaxCardNameLength)
@@ -158,9 +202,13 @@ namespace HSBot
                     --i;
                     continue;
                 }
-
-                LookupCardNameFor(responseTarget, match.Groups[1].Value);
+                if (!listMatchedCardNames.Contains(match.Groups[1].Value) /* No duplicates */ && CheckFlowRateLimiter(source))
+                {
+                    listMatchedCardNames.Add(match.Groups[1].Value);
+                    LookupCardNameFor(responseTarget, match.Groups[1].Value);
+                }
             }
+            listMatchedCardNames.Clear();
             
             // Auto trigger check
 
@@ -234,10 +282,69 @@ namespace HSBot
                 {
                     var max = matches.First();
                     matches.Remove(max.Key);
-                    LookupCardNameFor(responseTarget, max.Key[0].Name);
+                    if (CheckFlowRateLimiter(source))
+                    {
+                        LookupCardNameFor(responseTarget, max.Key[0].Name);
+                    }
                 }
 
             }
+        }
+
+        private Dictionary<String, FlowRateEntry> _flowRateMap = new Dictionary<string, FlowRateEntry>();
+        /// <summary>
+        /// Given a sender full address, checks to see if he is spam filtered.  This works like a mutex in that it will 
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns>False if should be blocked, true if allowed</returns>
+        private bool CheckFlowRateLimiter(String source)
+        {
+            bool bResult = false;
+
+            // Try to filter based on host so nick change's don't get around it.  
+            String strKey = ChannelUser.GetHostFromFullAddress(source).ToLower();
+            if (strKey == null)
+            {
+                strKey = source.ToLower();
+            }
+
+            if (strKey != null)
+            {
+                // For speedyness, we lock the map to synchronize with the decrement timer but only long enough to get the SpamFilterLine
+                // After that we synchronize on the individual line. First we update the last modified time so we don't get cleaned up (probably)
+                FlowRateEntry spamFilterLine;
+                lock (_flowRateMap)
+                {
+                    
+                    if (!_flowRateMap.TryGetValue(strKey, out spamFilterLine))
+                    {
+                        spamFilterLine = new FlowRateEntry(strKey);
+                        _flowRateMap[strKey] = spamFilterLine;
+                        lock (spamFilterLine)
+                        {
+                            spamFilterLine.LastUpdated = DateTime.Now;
+                        }
+                    }
+                }
+
+                lock (spamFilterLine)
+                {
+                    if (spamFilterLine.Messages >= Config.FlowRateMax)
+                    {
+                        bResult = false;
+                        Console.WriteLine("{0} failed flow rate limiter check", source);
+                    }
+                    else
+                    {
+                        ++spamFilterLine.Messages;
+                        spamFilterLine.LastUpdated = DateTime.Now;
+                        bResult = true;
+                    }
+                }
+
+            }
+
+            return bResult;
         }
         /// <summary>
         /// Prints card information to a channel
@@ -267,9 +374,13 @@ namespace HSBot
 
             double m;
             CardSet cs = LookupCardSet(cardname, out m, 0.5);
-            if (cs == null || m < .5)
+            if (cs == null)
             {
-                this.Message(source, "The card was not found.");
+                Message(source, "The card was not found.");
+            }
+            else if (m < .75)
+            {
+                Message(source, "The card was not found, but {0} is a {1:F2}% match.", cs[0].Name, m * 100);
             }
             else
             {
@@ -289,16 +400,18 @@ namespace HSBot
 
 
 
-        private void Message(String target, String message, params String[] format)
+        private void Message(String target, String message, params Object[] format)
         {
             
             var responseTask = Client.SendRawMessage("PRIVMSG {0} :{1}", target, String.Format(message, format));
         }
 
         /// <summary>
-        /// Finds a card set by its name. Employs LevenshteinDistance to find the highest match per word length, adding 50% for substrings
+        /// Finds a card set by its name. Employs LevenshteinDistance to find the highest match per word length, boostSubstring for substring matches
         /// </summary>
         /// <param name="cardname"></param>
+        /// <param name="matchPct">The match % returned by the matching algorithm</param>
+        /// <param name="boostSubstring">If the given cardname is a substring of a card's name, artificially boosts its match percentage by the given amount</param>
         /// <returns></returns>
         private CardSet LookupCardSet(String cardname, out double matchPct, double boostSubstring = 0.0)
         {
@@ -320,9 +433,28 @@ namespace HSBot
             {
                 foreach (var kvp in _cards.AsEnumerable())
                 {
-                    
+                    // Match calculation
+                    // 1.) Levenshtien distance over size of the current card we're analyzing
+                    // 2.) If the card name given is a substring of this card name, boost the percentage to allow for lazy matching of long names
+                    // 3.) If the card name given is a close match to a subset of the cards words (in order) then boost the match
                     double percentMatch = 1 - (LevenshteinDistance(cardname.ToLower(), kvp.Key.ToLower()) / (double)kvp.Key.Length);
+
                     if (kvp.Key.ToLower().Contains(cardname.ToLower())) percentMatch += boostSubstring; // Abuse system a bit by boosting match rate if its a substring
+
+                    String[] astrWords = kvp.Key.ToLower().Split(' ');
+                    for (int iFirstWord = 0; iFirstWord < astrWords.Length; ++iFirstWord)
+                    {
+                        for (int iLastWord = iFirstWord; iLastWord < astrWords.Length; ++iLastWord)
+                        {
+                            String strSubPhrase = String.Join(" ", astrWords, iFirstWord, (iLastWord - iFirstWord) + 1);
+                            double dSubPhraseMatch = 1 - (LevenshteinDistance(cardname.ToLower(), strSubPhrase) / (double)strSubPhrase.Length);
+                            double dSubPhrasePercentOfWhole = (double)strSubPhrase.Length / kvp.Key.Length;
+                            percentMatch += dSubPhraseMatch * dSubPhrasePercentOfWhole;
+                            
+                        }
+                    }
+
+                    // If this is a bigger match than the last one we were considering, then use it
                     if (percentMatch > closestPercentMatch)
                     {
                         closestPercentMatch = percentMatch;
@@ -330,6 +462,15 @@ namespace HSBot
                     }
                 }
                 matchPct = closestPercentMatch;
+                // Since we boost, we may match greater than 100% which doesn't make sense. If the names aren't equal, call it 99%
+                if (matchPct >= 100 && !String.Equals(closestMatch[0].Name, cardname, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    matchPct = 99;
+                }
+                else if (matchPct > 100)
+                {
+                    matchPct = 100;
+                }
                 return closestMatch;
             }
         }
@@ -410,11 +551,32 @@ namespace HSBot
                         {
                             set = new CardSet();
                         }
-                        int insertPosition = 0;
-                        // These cards have a letter at the end and are a subpower so should go last
-                        // Or if they do not have text in hand they should go last
-                        if (char.IsLetter(c.ID[c.ID.Length - 1]) || c.Description == null)
-                            insertPosition = -1;
+                        int insertPosition = -1;
+      
+                        // if this card has flavor text and no one else in the set does, he goes first
+                        if (c.FlavorText != null)
+                        {
+                            insertPosition = 0;
+                            for (int iLoopIndex = 0; iLoopIndex < set.Count; ++iLoopIndex)
+                            {
+                                if (set[iLoopIndex].FlavorText != null)
+                                {
+                                    insertPosition = iLoopIndex + 1;
+                                }
+                            }
+                        }
+                        // Same story with description
+                        else if (c.Description != null)
+                        {
+                            insertPosition = 0;
+                            for (int iLoopIndex = 0; iLoopIndex < set.Count; ++iLoopIndex)
+                            {
+                                if (set[iLoopIndex].Description != null)
+                                {
+                                    insertPosition = iLoopIndex + 1;
+                                }
+                            }
+                        }
                         set.Insert(c, insertPosition);
                         _cards[c.Name.ToLower()] = set;
                     }
@@ -424,6 +586,18 @@ namespace HSBot
                     }
                 }
             }
+        }
+    }
+    class FlowRateEntry
+    {
+        public String Key { private set; get; }
+        public DateTime LastUpdated { set; get; }
+        public int Messages { get; set; }
+        public FlowRateEntry(String key)
+        {
+            Messages = 0;
+            LastUpdated = DateTime.Now;
+            Key = key;
         }
     }
 }

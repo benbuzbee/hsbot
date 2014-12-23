@@ -74,63 +74,6 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public IEnumerable<Channel> Channels { get { return _channels.Values; } }
         /// <summary>
-        /// Message policies (enum is Flags) enforced on outgoing messages
-        /// </summary>
-        public OutgoingMessagePolicy OutgoingPolicies { get; set; }
-        /// <summary>
-        /// A history of messages sent in chronological order.  Internally stored as a Stack.  Maximum size determiend by MaxHistoryStored property.
-        /// </summary>
-        public IEnumerable<String> OutgoingMessageHistory { 
-            get 
-            {
-                return _outgoingMessageHistory;
-            }
-        }
-           /// <summary>
-        /// Message policies (enum is Flags) enforced on outgoing messages
-        /// </summary>
-        public OutgoingMessagePolicy IncomingPolicies { get; set; }
-
-        /// <summary>
-        /// A history of messages sent in chronological order.  Internally stored as a Stack.  Maximum size determiend by MaxHistoryStored property.
-        /// </summary>
-        public IEnumerable<String> IncomingMessageHistory
-        {
-            get
-            {
-                return _incomingMessageHistory;
-
-            }
-        }
-
-        /// <summary>
-        /// The maximum number of outgoing/incoming messages stored in this client's history.
-        /// </summary>
-        public int MaxHistoryStored { 
-            get
-            {
-                return _maxHistoryStored;
-            } 
-            set
-            {
-                lock (_outgoingMessageHistory)
-                {
-                    lock (_incomingMessageHistory)
-                    {
-                        while (value < _outgoingMessageHistory.Count)
-                        {
-                            _outgoingMessageHistory.RemoveLast();
-                        }
-                        while (value < _incomingMessageHistory.Count)
-                        {
-                            _incomingMessageHistory.RemoveLast();
-                        }
-                        _maxHistoryStored = value;
-                    }
-                }
-            }
-        }
-        /// <summary>
         /// Information about the server sent on connection
         /// </summary>
         public ServerInfoType ServerInfo { get; private set; }
@@ -154,18 +97,6 @@ namespace benbuzbee.LRTIRC
         /// Used when writing so there are not concurrent attempts
         /// </summary>
         private SemaphoreSlim _writingSemaphore = new SemaphoreSlim(1, 1);
-        /// <summary>
-        /// How many messages we store in our history
-        /// </summary>
-        private int _maxHistoryStored = 50;
-        /// <summary>
-        /// Messages we've sent, up to _maxHistoryStored
-        /// </summary>
-        private LinkedList<String> _outgoingMessageHistory = new LinkedList<String>();
-        /// <summary>
-        /// Messages we've received, up to _maxHistoryStored
-        /// </summary>
-        private LinkedList<String> _incomingMessageHistory = new LinkedList<String>();
 
         /// <summary>
         /// These are channels which this user is in.  It is a map of channel name -> Channel Object for easy lookup
@@ -183,6 +114,14 @@ namespace benbuzbee.LRTIRC
         /// Thread that reads the socket's input stream. Initialized in the constructor and woken up on connect
         /// </summary>
         private IrcReader _thread;
+        /// <summary>
+        /// Ordered list of filters applied to outgoing messages before they are sent
+        /// </summary>
+        private List<IIrcMessageFilter> _filtersOutgoing = new List<IIrcMessageFilter>();
+        /// <summary>
+        /// Ordered list of filters applied to incoming messages before they are processed
+        /// </summary>
+        private List<IIrcMessageFilter> _filtersIncoming = new List<IIrcMessageFilter>();
         #endregion Private Members
 
 
@@ -238,6 +177,23 @@ namespace benbuzbee.LRTIRC
         /// <param name="message"></param>
         private void ieOnMessageReceived(IrcClient sender, String message)
         {
+            // Apply all incoming filters in order
+            lock (_filtersIncoming)
+            {
+                foreach (var filter in _filtersIncoming)
+                {
+                    try
+                    {
+                        message = filter.FilterMessage(sender, message);
+                    } catch (Exception e)
+                    {
+                        // Ok to ignore filter-side errors in release mode to increase robustness.  
+                        RaiseEvent(OnException, sender, e);
+                        Debug.Assert(false, "Incoming message filter threw exception", e.Message);
+                    }
+                }
+            }
+
             String[] tokens = message.Split(' ');
             LastMessageTime = DateTime.Now;
 
@@ -857,7 +813,7 @@ namespace benbuzbee.LRTIRC
                 await _writingSemaphore.WaitAsync();
                 try
                 {
-                    _streamWriter = new System.IO.StreamWriter(TCP.GetStream(), Encoding);
+                    _streamWriter = new StreamWriter(TCP.GetStream(), Encoding);
                 }
                 finally
                 {
@@ -890,21 +846,22 @@ namespace benbuzbee.LRTIRC
         /// <returns></returns>
         public async Task<bool> SendRawMessage(String message)
         {
-            try
+            // Apply all outgoing filters in order
+            lock (_filtersOutgoing)
             {
-                if ((OutgoingPolicies & OutgoingMessagePolicy.NoDuplicates) == OutgoingMessagePolicy.NoDuplicates)
+                foreach (var filter in _filtersOutgoing)
                 {
-                    lock (_outgoingMessageHistory)
+                    try
                     {
-                        if (_outgoingMessageHistory.Count > 0 && _outgoingMessageHistory.First((value) => !value.StartsWith("PONG")).Equals(message))
-                            return false;
+                        message = filter.FilterMessage(this, message);
+                    }
+                    catch (Exception e)
+                    {
+                        RaiseEvent(OnException, this, e);
+                        Debug.Assert(false, "Exception filtering outgoing message.", e.Message);
                     }
                 }
-            } catch (InvalidOperationException)
-            {
-                // No message history matching this value exists. In this case, continue unimpeded
             }
-
             try
             {
                 await _writingSemaphore.WaitAsync();
@@ -912,16 +869,6 @@ namespace benbuzbee.LRTIRC
                 await _streamWriter.WriteLineAsync(message);
 
                 await _streamWriter.FlushAsync();
-
-                lock (_outgoingMessageHistory)
-                {
-                    _outgoingMessageHistory.AddFirst(message);
-                    while (_outgoingMessageHistory.Count > _maxHistoryStored)
-                    {
-                        _outgoingMessageHistory.RemoveLast();
-                    }
-                }
-
 
             }
             catch (Exception e)
@@ -1055,6 +1002,7 @@ namespace benbuzbee.LRTIRC
                 catch (Exception) 
                 {
                     // Nothing
+                    Debug.Assert(false, "Exception in event handler");
                 }
             }
             else
@@ -1219,8 +1167,6 @@ namespace benbuzbee.LRTIRC
                 }
             }
         }
-
-
     }
     /// <summary>
     /// Represents a Channel on the iRC server
@@ -1470,17 +1416,6 @@ namespace benbuzbee.LRTIRC
         GRAY = 15
     }
 
-    /// <summary>
-    /// A policy governing an outgoing message.  This applies to any message (line of data) except PINGs.
-    /// </summary>
-    [Flags]
-    public enum OutgoingMessagePolicy
-    {
-        /// <summary>
-        /// When in effect, a message which is the same of the previously sent message will be dropped
-        /// </summary>
-        NoDuplicates = 0x00000001
-    }
 
     /// <summary>
     /// Manages the Irc thread which deals directly with the input stream. When signaled it begins trying to read from the input stream for the given IrcClient and raising events.  If it fails, it raises an exception and waits for another signal.
@@ -1584,5 +1519,19 @@ namespace benbuzbee.LRTIRC
                 return false;
             }
         }
+    }
+
+    /// <summary>
+    /// Implement to filter raw messages before they are processed or sent
+    /// </summary>
+    public interface IIrcMessageFilter
+    {
+        /// <summary>
+        /// Called before a message is processed, or before a message is sent, to allow implementers to modify the message
+        /// </summary>
+        /// <param name="sender">The client</param>
+        /// <param name="message"></param>
+        /// <returns>null to block message or a string with which to replace it</returns>
+        String FilterMessage(IrcClient sender, String message);
     }
 }

@@ -30,6 +30,9 @@ namespace HSBot
         public static bool ControlCodes { get; private set; }
         public static String DefaultLanguage { get; private set; }
 
+        public static int FlowRateMax { get; private set; }
+        public static int FlowRateSeconds { get; private set; }
+
         public static void Reload()
         {
             XmlDocument doc = new XmlDocument();
@@ -38,8 +41,8 @@ namespace HSBot
             
             // Parses known important options
 
-            MaxCardsPerLine = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardsperline").InnerText);
-            MaxCardNameLength = int.Parse(doc.DocumentElement.SelectSingleNode("/config/cards/maxcardnamelength").InnerText);
+            MaxCardsPerLine = int.Parse(doc.DocumentElement.SelectSingleNode("/config/spam/maxcardsperline").InnerText);
+            MaxCardNameLength = int.Parse(doc.DocumentElement.SelectSingleNode("/config/spam/maxcardnamelength").InnerText);
 
             IRCHost = doc.DocumentElement.SelectSingleNode("/config/irc/host").InnerText;
 
@@ -70,6 +73,9 @@ namespace HSBot
             DefaultLanguage = doc.DocumentElement.SelectSingleNode("/config/language/default").InnerText;
 
             AutoTriggerMatchRequirement = int.Parse(doc.DocumentElement.SelectSingleNode("/config/autotrigger/matchrequirement").InnerText);
+
+            FlowRateMax = int.Parse(doc.DocumentElement.SelectSingleNode("/config/spam/flowrate/max").InnerText);
+            FlowRateSeconds = int.Parse(doc.DocumentElement.SelectSingleNode("/config/spam/flowrate/seconds").InnerText);
 
         }
     }

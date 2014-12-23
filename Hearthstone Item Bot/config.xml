@@ -9,7 +9,7 @@
     <!-- It's port. If you don't know it, it's probably 6667 -->
     <port>6667</port>
     <!-- The channel you want the bot to join.  This is required. -->
-    <channel>#hearthstone</channel>
+    <channel>#hearthstone2</channel>
     
     
     
@@ -36,20 +36,27 @@
   </irc>
 
   
-  <!-- Some settings about how cards should be displayed.  This is optional. -->
-  <cards>
+  <!-- Some settings to control abuse. Optional -->
+  <spam>
     <!-- The maximum length a single card can be, if it is higher the lookup will be ignored -->
     <maxcardnamelength>30</maxcardnamelength>
     <!-- The maximum cards the bot will message in one go, not recommended to put higher than 3. -->
     <maxcardsperline>3</maxcardsperline>
 
-  </cards>
+    <!-- The flow limit feature restricts a user from to requesting at most MAX cards.  The number of cards he has requested gets decreased by 1 every SECONDS 
+         For example, with max=3 seconds=5, a user can request 3 cards immediately, then in 5 seconds he can request 1 more or in 15 seconds he can request 3 more.
+         To disable this feature just set max to an obscene number -->
+   
+    <flowrate>
+      <max>3</max>
+      <seconds>5</seconds>
+    </flowrate>
+  </spam>
 
   <!-- I wouldn't even bother turning this on... -->
   <autotrigger>
     <!-- Set to 0 to disable triggering without [ ] -->
     <matchrequirement>0</matchrequirement>
-
   </autotrigger>
 
   <language>

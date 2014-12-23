@@ -12,12 +12,19 @@ namespace HSBot
         {
 
             Console.Title = "HearthBot - Started " + DateTime.Now;
-            
-
-            
 
 
-            Config.Reload();
+
+
+            try
+            {
+                Config.Reload();
+            } catch (Exception)
+            {
+                Console.Error.WriteLine("Config file corrupt. Please makes sure all the values in config.xml make sense. If you just updated, the structure may have changed - please reconfigure.");
+                Console.ReadKey();
+                return;
+            }
             
             Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone","InstallLocation",null);
 
@@ -33,9 +40,13 @@ namespace HSBot
                 Console.WriteLine("Hearthstone installation not found. Enter the path to cardxml0.unity3d or enter to use the same directory as HSBot.exe");
                 String input = Console.ReadLine();
                 if (!String.IsNullOrEmpty(input) && System.IO.File.Exists(input))
+                {
                     cardData = input;
+                }
                 else
+                {
                     cardData = "cardxml0.unity3d";
+                }
             }
             if (cardData == null || !System.IO.File.Exists(cardData))
             {
