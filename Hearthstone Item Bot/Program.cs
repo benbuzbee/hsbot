@@ -26,44 +26,44 @@ namespace HSBot
                 return;
             }
             
-            Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone","InstallLocation",null);
+            Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software" + (IntPtr.Size == 8 ? @"\Wow6432Node" : "") + @"\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone","InstallLocation",null);
 
-            String cardData = null;
+            String szCardDataFile = null;
 
             if (hsInstall != null)
             {
-                cardData = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
+                szCardDataFile = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
             }
 
-            if (cardData == null || !System.IO.File.Exists(cardData))
+            if (szCardDataFile == null || !System.IO.File.Exists(szCardDataFile))
             {
                 Console.WriteLine("Hearthstone installation not found. Enter the path to cardxml0.unity3d or enter to use the same directory as HSBot.exe");
                 String input = Console.ReadLine();
                 if (!String.IsNullOrEmpty(input) && System.IO.File.Exists(input))
                 {
-                    cardData = input;
+                    szCardDataFile = input;
                 }
                 else
                 {
-                    cardData = "cardxml0.unity3d";
+                    szCardDataFile = "cardxml0.unity3d";
                 }
             }
-            if (cardData == null || !System.IO.File.Exists(cardData))
+            if (szCardDataFile == null || !System.IO.File.Exists(szCardDataFile))
             {
-                Console.WriteLine("Card data file not found: {0}", cardData);
+                Console.WriteLine("Card data file not found: {0}", szCardDataFile);
             }
             else
             {
-                Console.WriteLine("I will read card data from {0}", cardData);
+                Console.WriteLine("I will read card data from {0}", szCardDataFile);
                 try
                 {
-                    System.IO.File.Copy(cardData, "cardxml0.unity3d");
+                    System.IO.File.Copy(szCardDataFile, "cardxml0.unity3d");
                 }
                 catch (Exception) { }
                 
             }
 
-            IRC irc = new IRC(cardData);
+            IRC irc = new IRC(szCardDataFile);
             // Temp:
             irc.Client.OnRfcPrivmsg += (sender, source, target, message) =>
             {

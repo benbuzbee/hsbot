@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO; // For FileSystemWatcher
 using benbuzbee.LRTIRC;
 using System.Text.RegularExpressions;
 using HSBot.Cards;
@@ -13,11 +14,34 @@ namespace HSBot
     class IRC
     {
         public IrcClient Client { get; private set; }
-        private String _cardDataFile;
-        public IRC(String cardDataFile)
+        private String _szCardDataFile;
+        public IRC(String szCardDataFile)
         {
-            _cardDataFile = cardDataFile;
+            _szCardDataFile = szCardDataFile;
             RefreshList();
+
+            FileSystemWatcher fsw = new FileSystemWatcher(Path.GetDirectoryName(szCardDataFile), Path.GetFileName(szCardDataFile));
+
+            fsw.Changed += (sender, fileSystemEventArgs) =>
+                {
+                    Console.WriteLine("Detected a change to card data file - refreshing card list.");
+                    refresh:
+                    lock (_cards)
+                    {
+                        try
+                        {
+                            using (var fs = File.OpenRead(fileSystemEventArgs.FullPath)) { }
+                            RefreshList();
+                        } catch (IOException)
+                        {
+                            Console.WriteLine("File cannot be read: {0}", fileSystemEventArgs.FullPath);
+                            Thread.Sleep(1000);
+                            goto refresh;
+                        }
+                        
+                    }
+                };
+            fsw.EnableRaisingEvents = true;
             Client = new IrcClient();
 
             Client.Encoding = new System.Text.UTF8Encoding(false);
@@ -136,7 +160,7 @@ namespace HSBot
             }
  
         }
-        Regex regex = new Regex(@"\[([^\]+\]]+)\](?=[^a-zA-Z]|$|s)");
+        Regex rxInline = new Regex(@"(?:^|\s)\[([^\]+\]]+)\](?=[^a-zA-Z]|$|s)");
         /// <summary>
         /// Event handlers for a privmsg from the server
         /// </summary>
@@ -192,26 +216,39 @@ namespace HSBot
                 }
 			}
 
-            // The check for manually triggered cards
-            Match match = regex.Match(lowerMessage);
+            // The check for inlined card triggers
+            Match match = rxInline.Match(lowerMessage);
             List<String> listMatchedCardNames = new List<String>();
 			for (int i = 0; i < Config.MaxCardsPerLine && match.Success; ++i, match = match.NextMatch())
             {
-				if (match.Groups[1].Length >= Config.MaxCardNameLength)
+                String strTriggerText = match.Groups[1].Value;
+                if (strTriggerText.Length >= Config.MaxCardNameLength)
                 {
                     --i;
                     continue;
                 }
-                if (!listMatchedCardNames.Contains(match.Groups[1].Value) /* No duplicates */ && CheckFlowRateLimiter(source))
+                if (!listMatchedCardNames.Contains(strTriggerText) /* No duplicates */ && CheckFlowRateLimiter(source))
                 {
-                    listMatchedCardNames.Add(match.Groups[1].Value);
-                    LookupCardNameFor(responseTarget, match.Groups[1].Value);
+
+                    listMatchedCardNames.Add(strTriggerText);
+                    if (IsNickname(strTriggerText))
+                    {
+                        Console.WriteLine("Ignoring inline trigger because it appears to be a nickname: {0}", strTriggerText);
+                    }
+                    else if (IsTimestamp(strTriggerText))
+                    {
+                        Console.WriteLine("Ignoring inline trigger because it appears to be a timestamp: {0}", strTriggerText);
+                    }
+                    else
+                    {
+                        LookupCardNameFor(responseTarget, strTriggerText);
+                    }
                 }
             }
             listMatchedCardNames.Clear();
-            
-            // Auto trigger check
 
+            // Auto trigger check
+            #region Auto Trigger
             double atThreshold = Config.AutoTriggerMatchRequirement / 100.0;
             if (atThreshold > 0)
             {
@@ -287,8 +324,9 @@ namespace HSBot
                         LookupCardNameFor(responseTarget, max.Key[0].Name);
                     }
                 }
-
+                #endregion Auto Trigger
             }
+            
         }
 
         private Dictionary<String, FlowRateEntry> _flowRateMap = new Dictionary<string, FlowRateEntry>();
@@ -532,7 +570,7 @@ namespace HSBot
         private void RefreshList()
         {
 
-            var cardDefs = CardParser.Extract(_cardDataFile);
+            var cardDefs = CardParser.Extract(_szCardDataFile);
             if (!cardDefs.ContainsKey(Config.DefaultLanguage))
             {
                 Console.Error.WriteLine("No card definitions found for language {0}", Config.DefaultLanguage);
@@ -586,6 +624,26 @@ namespace HSBot
                     }
                 }
             }
+        }
+        bool IsTimestamp(String strTest)
+        {
+            DateTime dt;
+            if (DateTime.TryParse(strTest, out dt))
+            {
+                return true;
+            }
+            return false;
+        }
+        bool IsNickname(String strTest)
+        {
+            foreach (var channel in Client.Channels)
+            {
+                if (channel.Users.ContainsKey(strTest.ToLower()))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
     class FlowRateEntry
