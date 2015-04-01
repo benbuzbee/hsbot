@@ -38,7 +38,7 @@ namespace benbuzbee.LRTIRC
     /// <summary>
     /// A Client on an IRC server
     /// </summary>
-    public class IrcClient
+    public class IrcClient : IDisposable
     {
         #region Public Properties
         /// <summary>
@@ -96,7 +96,7 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// Channels which this client is currently in
         /// </summary>
-        public IEnumerable<Channel> Channels { get { return _channels.Values; } }
+        public IEnumerable<Channel> Channels { get { return m_channels.Values; } }
         /// <summary>
         /// Information about the server sent on connection
         /// </summary>
@@ -112,40 +112,44 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// Lock when registering the client with the server so nothing interferes
         /// </summary>
-        private Object _mutexRegistration = new Object();
+        private Object m_registrationMutex = new Object();
         /// <summary>
-        /// Used when connecting so there are not concurrent attempts.
+        /// Used when writing so there are not concurrent attempts to jumble our messages
         /// </summary>
-        private SemaphoreSlim _connectingSemaphore = new SemaphoreSlim(1, 1);
-        /// <summary>
-        /// Used when writing so there are not concurrent attempts
-        /// </summary>
-        private SemaphoreSlim _writingSemaphore = new SemaphoreSlim(1, 1);
+        private SemaphoreSlim m_writingSemaphore = new SemaphoreSlim(1, 1);
 
         /// <summary>
-        /// These are channels which this user is in.  It is a map of channel name -> Channel Object for easy lookup
+        /// These are channels which this user is in.  It is a map of lower(channel name) -> Channel Object for easy lookup
         /// </summary>
-        private IDictionary<String, Channel> _channels = new ConcurrentDictionary<String, Channel>();
+        private IDictionary<String, Channel> m_channels = new ConcurrentDictionary<String, Channel>();
         
-        private StreamWriter _streamWriter;
-        private System.Timers.Timer _timeoutTimer = new System.Timers.Timer();
-        private System.Timers.Timer _pingTimer = new System.Timers.Timer();
+        private StreamWriter m_streamWriter;
+
+        /// <summary>
+        /// Detects a timeout if it elapses and too much time has past since the last message
+        /// </summary>
+        private System.Timers.Timer m_timeoutTimer = new System.Timers.Timer();
+        /// <summary>
+        /// Proactively sends client PING requests. Some servers do not ping us if we're being active because they know we are still alive
+        /// We need a way to be sure they are too!
+        /// </summary>
+        private System.Timers.Timer m_pingTimer = new System.Timers.Timer();
         /// <summary>
         /// A map of: lower(Channel) -> (Nick -> Prefix List)
         /// </summary>
-        private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> _channelStatusMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
+        private ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>> m_channelPrefixMap = new ConcurrentDictionary<string, ConcurrentDictionary<string, StringBuilder>>();
         /// <summary>
         /// Thread that reads the socket's input stream. Initialized in the constructor and woken up on connect
         /// </summary>
-        private IrcReader _thread;
+        private IrcReader m_readingThread;
         /// <summary>
         /// Ordered list of filters applied to outgoing messages before they are sent
         /// </summary>
-        private List<IIrcMessageFilter> _filtersOutgoing = new List<IIrcMessageFilter>();
+        private List<IIrcMessageFilter> m_filtersOutgoing = new List<IIrcMessageFilter>();
         /// <summary>
         /// Ordered list of filters applied to incoming messages before they are processed
         /// </summary>
-        private List<IIrcMessageFilter> _filtersIncoming = new List<IIrcMessageFilter>();
+        private List<IIrcMessageFilter> m_filtersIncoming = new List<IIrcMessageFilter>();
         #endregion Private Members
 
 
@@ -155,11 +159,11 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public class ServerInfoType
         {
-            private String _PREFIX;
+            private String m_PREFIX;
             /// <summary>
             /// The PREFIX sent in numeric 005. Null until then.
             /// </summary>
-            public String PREFIX { internal set { _PREFIX = value; PREFIX_modes = value.Substring(1, value.IndexOf(')') - 1); PREFIX_symbols = value.Substring(value.IndexOf(')') + 1); } get { return _PREFIX; } }
+            public String PREFIX { internal set { m_PREFIX = value; PREFIX_modes = value.Substring(1, value.IndexOf(')') - 1); PREFIX_symbols = value.Substring(value.IndexOf(')') + 1); } get { return m_PREFIX; } }
             /// <summary>
             /// The modes portion of PREFIX (such as 'o' or 'v'). Null until PREFIX is set.
             /// </summary>
@@ -202,9 +206,9 @@ namespace benbuzbee.LRTIRC
         private void ieOnMessageReceived(IrcClient sender, String message)
         {
             // Apply all incoming filters in order
-            lock (_filtersIncoming)
+            lock (m_filtersIncoming)
             {
-                foreach (var filter in _filtersIncoming)
+                foreach (var filter in m_filtersIncoming)
                 {
                     try
                     {
@@ -292,7 +296,7 @@ namespace benbuzbee.LRTIRC
         {
 
             // Update ChannelUsers in all my chanels
-            String oldnick = ChannelUser.GetNickFromFullAddress(source);
+            String oldNick = ChannelUser.GetNickFromFullAddress(source);
             ChannelUser user = null;
 
             // When we change our nickname
@@ -301,11 +305,12 @@ namespace benbuzbee.LRTIRC
                 this.Nick = newNick;
             }
             bool fFoundUser = false;
-            lock (_channels)
+            lock (m_channels)
             {
-                foreach (Channel c in _channels.Values)
+                foreach (Channel c in m_channels.Values)
                 {
-                    if (!c.Users.TryGetValue(oldnick.ToLower(), out user))
+
+                    if (!c.Users.TryGetValue(oldNick.ToLower(), out user))
                     {
                         // If user is not in this channel, check next channel
                         continue;
@@ -314,13 +319,13 @@ namespace benbuzbee.LRTIRC
                     fFoundUser = true;
 
                     user.Nick = newNick;
-                    c.Users.Remove(oldnick.ToLower());
+                    c.Users.Remove(oldNick.ToLower());
                     c.Users[newNick.ToLower()] = user;
 
                 }
             }
 
-            Debug.Assert(fFoundUser, "A user changed his nickname but doesn't appear to be in our nick list. Nick change: {0} -> {1}", oldnick, newNick);
+            Debug.Assert(fFoundUser, "A user changed his nickname but doesn't appear to be in our nick list. Nick change: {0} -> {1}", oldNick, newNick);
             RaiseEvent(OnRfcNick, sender, source, newNick);
 
         }
@@ -336,14 +341,14 @@ namespace benbuzbee.LRTIRC
         private void ieOnKick(IrcClient sender, String source, String target, String channel, String reason)
         {
             Channel channelObject = null;
-            lock (_channels)
+            lock (m_channels)
             {
-                _channels.TryGetValue(channel.ToLower(), out channelObject);
+                m_channels.TryGetValue(channel.ToLower(), out channelObject);
                 Debug.Assert(channelObject != null, "Any channel on which we receive a KICK should be in our channel list", "Channel: {0}", channel);
 
                 if (Nick.Equals(target, StringComparison.CurrentCultureIgnoreCase)) // If it's us, remove the channel entirely
                 {    
-                    _channels.Remove(channel.ToLower());   
+                    m_channels.Remove(channel.ToLower());   
                 }
                 else // else remove the nick from the channel 
                 {
@@ -372,15 +377,15 @@ namespace benbuzbee.LRTIRC
         {
 
             // Remove user from nicklist
-            lock (_channels)
+            lock (m_channels)
             {
                 Channel channelObject = null;
 
-                if (_channels.TryGetValue(target.ToLower(), out channelObject))
+                if (m_channels.TryGetValue(target.ToLower(), out channelObject))
                 {
                     if (ChannelUser.GetNickFromFullAddress(source).Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
                     {
-                        _channels.Remove(target.ToLower());
+                        m_channels.Remove(target.ToLower());
                     }
                     else
                     {
@@ -413,9 +418,9 @@ namespace benbuzbee.LRTIRC
             Channel channel = null;
             String[] tokens = modes.Split(' ');
 
-            lock (_channels)
+            lock (m_channels)
             {
-                if (_channels.TryGetValue(target.ToLower(), out channel))
+                if (m_channels.TryGetValue(target.ToLower(), out channel))
                 {
                     // Set up some default values
                     if (ServerInfo.CHANMODES == null)
@@ -514,9 +519,9 @@ namespace benbuzbee.LRTIRC
         {
             //Remove this nick from all channels we are in
             String nick = ChannelUser.GetNickFromFullAddress(source);
-            lock (_channels)
+            lock (m_channels)
             {
-                foreach (Channel c in _channels.Values)
+                foreach (Channel c in m_channels.Values)
                 {
                     try { c.Users.Remove(nick.ToLower()); }
                     catch (Exception) { Debug.Assert(false, "User quit but he was not in our channel list. Nick: {0}", nick); }
@@ -541,9 +546,9 @@ namespace benbuzbee.LRTIRC
 
             if (numeric == 1)
             {
-                lock (_channels)
+                lock (m_channels)
                 {
-                    _channels.Clear(); 
+                    m_channels.Clear(); 
                 }
                 RaiseEvent(OnConnect, sender);
             }
@@ -583,13 +588,13 @@ namespace benbuzbee.LRTIRC
                 // If the server supports user-host names, request it
                 if (parameters.ContainsKey("UHNAMES"))
                 {
-                    var task = SendRawMessage("PROTOCTL UHNAMES");
+                    var task = SendRawMessageAsync("PROTOCTL UHNAMES");
                 }
 
                 // If the server supports extended names, request it
                 if (parameters.ContainsKey("NAMESX"))
                 {
-                    var task = SendRawMessage("PROTOCTL NAMESX");
+                    var task = SendRawMessageAsync("PROTOCTL NAMESX");
                 }
 
                 
@@ -620,10 +625,10 @@ namespace benbuzbee.LRTIRC
 
             // Parses names reply to fill ChannelUser list for Channel
             Channel channelObject = null;
-            lock (_channels)
+            lock (m_channels)
             {
                 // Get the channel object or create a new one.  Don't add it to the _channels map if it's new unless we're in it
-                if (!_channels.TryGetValue(channel.ToLower(), out channelObject))
+                if (!m_channels.TryGetValue(channel.ToLower(), out channelObject))
                     channelObject = new Channel(channel);
 
                 String[] namesArray = names.Split(' ');
@@ -653,7 +658,7 @@ namespace benbuzbee.LRTIRC
                     /// If we are in the NAMES reply for a channel, that means we are in that channel and should make sure it is in our list
                     if (user.Nick.Equals(Nick, StringComparison.CurrentCultureIgnoreCase))
                     {
-                        _channels[channelObject.Name.ToLower()] = channelObject;
+                        m_channels[channelObject.Name.ToLower()] = channelObject;
                     }
                 }
             }
@@ -675,13 +680,13 @@ namespace benbuzbee.LRTIRC
             foreach (String channelName in channellist.Split(','))
             {
                 
-                lock (_channels)
+                lock (m_channels)
                 {
                     Channel c = null;    
-                    if (!_channels.TryGetValue(channelName.ToLower(), out c))
+                    if (!m_channels.TryGetValue(channelName.ToLower(), out c))
                     {
                         c = new Channel(channelName);
-                        _channels[channelName.ToLower()] = c;
+                        m_channels[channelName.ToLower()] = c;
                     }
                     
                     ChannelUser u = new ChannelUser(source, c);
@@ -710,63 +715,74 @@ namespace benbuzbee.LRTIRC
             Connected = false;
             SingleThreadedEvents = false;
 
-            _thread = new IrcReader(this);
+            m_readingThread = new IrcReader(this);
 
-            // When a message is received on the reader
-            _thread.OnRawMessageReceived += (sender, msg) =>
+            // When a message is received on the reader, call internal onMessageReceived
+            // This is the real worker that calls the other internal events
+            m_readingThread.OnRawMessageReceived += (sender, msg) =>
             {
-
                 ieOnMessageReceived(this, msg);
-
             };
 
             // When the reader raises an exception
-            _thread.OnException += (sender, e) =>
+            m_readingThread.OnException += (sender, e) =>
             {
-
                 // Call to clean up resources and set flags
-                Disconnect();
+                // We cannot recover from a broken reader
+                DisconnectInternal();
 
+                // Notify clients
                 RaiseEvent(OnException, this, e);
-
                 RaiseEvent(OnDisconnect, this);
-
             };
-
         }
 
+        ~IrcClient()
+        {
+            Dispose();
+        }
 
         #region IO
         /// <summary>
+        /// Disconnects the client.
+        /// </summary>
+        public void Disconnect()
+        {
+            // We don't want callers to deal with the thread synchronization so this is just a wrapper
+            // around the internal function. External callers would not have the semaphore
+            DisconnectInternal();
+        }
+        /// <summary>
         /// Disconnects client and disposes of streams, disposes of timeout and ping timer and recreates them in an idle state
         /// </summary>
-        /// <param name="hasSemaphore">True if we have the _connectingSemaphore before entering</param>
-        private void Disconnect(bool hasSemaphore = false)
+        /// <param name="callerHasSemaphore">True if we have the m_writingSemaphore before entering</param>
+        private void DisconnectInternal(bool callerHasSemaphore = false)
         {
             try
             {
-                if (!hasSemaphore)
+                if (!callerHasSemaphore)
                 {
-                    _connectingSemaphore.Wait();
+                    m_writingSemaphore.Wait();
                 }
 
-                lock (_mutexRegistration)
+                lock (m_registrationMutex)
                 {
-                    lock (_timeoutTimer)
+                    lock (m_timeoutTimer)
                     {
-                        _timeoutTimer.Dispose();
-                        _timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
-                        _timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
+                        m_timeoutTimer.Dispose();
                     }
-                    lock (_pingTimer)
+
+                    lock (m_pingTimer)
                     {
-                        _pingTimer.Dispose();
-                        _pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
-                        _pingTimer.Elapsed += (sender, args) => { var task = SendRawMessage("PING :LRTIRC"); };
+                        m_pingTimer.Dispose();
                     }
 
                     Connected = false;
                     Registered = false;
+
+                    // Try a semi-graceful kick before closing the stream-behind
+                    m_readingThread.ReleaseStream();
+
                     if (TCP != null && TCP.Connected)
                     {
                         try
@@ -776,22 +792,25 @@ namespace benbuzbee.LRTIRC
                         }
                         catch (Exception) { } // Eat exceptions since this is just an attempt to clean up
                     }
-                    if (_streamWriter != null)
+
+                    if (m_streamWriter != null)
                     {
                         try
                         {
-                            _streamWriter.Dispose();
-                            _streamWriter = null;
+                            m_streamWriter.Dispose();
+                            m_streamWriter = null;
                         }
                         catch (Exception) { } // Eat exceptions since this is just an attempt to clean up
                     }
-
                 }
             } 
             finally
             {
-                if (!hasSemaphore)
-                    _connectingSemaphore.Release();
+                // If the caller doesn't have the semaphore, then we do
+                if (!callerHasSemaphore)
+                {
+                    m_writingSemaphore.Release();
+                }
             }
         }
         /// <summary>
@@ -804,76 +823,103 @@ namespace benbuzbee.LRTIRC
         /// <param name="port">Port on which to connect</param>
         /// <param name="password">Password to send on connect</param>
         /// <returns></returns>
-        public async Task Connect(String nick, String user, String realname, String host, int port = 6667, String password = null)
+        public async Task ConnectAsync(String nick, String user, String realname, String host, int port = 6667, String password = null)
         {
-            await _connectingSemaphore.WaitAsync();
-            // Dispose of existing connection
-            lock (_mutexRegistration)
-            {
-                Disconnect(true);
-                Nick = nick; Username = user; RealName = realname; Host = host; Port = port; Password = password;
-                TCP = new TcpClient();
-            }
-           
+            bool hasWritingSemaphore = false;
+
+            // Take the writing semaphore so writes do not proceed until the connection is stable
+            await m_writingSemaphore.WaitAsync();
+            hasWritingSemaphore = true;
 
             try
             {
-                
-                Task connectTask = TCP.ConnectAsync(host, port);
-                await connectTask;
-
-                if (connectTask.Exception != null)
+                // Reset state
+                lock (m_registrationMutex)
                 {
-                    Exception = connectTask.Exception;
-                    RaiseEvent(OnException, this, connectTask.Exception);
-                    throw connectTask.Exception; // If connect failed
+                    DisconnectInternal(hasWritingSemaphore); // Resets connection, resets timers, resets reading thread
+                    Nick = nick; 
+                    Username = user;
+                    RealName = realname; 
+                    Host = host;
+                    Port = port;
+                    Password = password;
+                    TCP = new TcpClient();
                 }
 
-                Connected = true;
-
-                // If connect succeeded
-
-                // Setup reader and writer
-                await _writingSemaphore.WaitAsync();
                 try
                 {
-                    _streamWriter = new StreamWriter(TCP.GetStream(), Encoding);
-                }
-                finally
+                    await TCP.ConnectAsync(host, port);
+                } catch (Exception ex)
                 {
-                    _writingSemaphore.Release();
+                    Exception = ex;
+                    RaiseEvent(OnException, this, ex);
+                    throw ex; // If connect failed
                 }
-                _thread.Signal();
 
-                RegisterWithServer();
+                lock (m_registrationMutex)
+                {
+                    // If connect succeeded
+                    Connected = true;
+                }
 
-                _timeoutTimer.Start();
-                _pingTimer.Start();
+                // Setup reader and writer
+                m_streamWriter = new StreamWriter(TCP.GetStream(), Encoding);
+                m_readingThread.Signal();
+
+                // Create timer for detecting a timeout
+                lock (m_timeoutTimer)
+                {
+                    m_timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
+                    m_timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
+                }
+                
+                // Create a proactive client-ping timer
+                lock (m_pingTimer)
+                {
+                    m_pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
+                    m_pingTimer.Elapsed += (sender, args) => { var task = SendRawMessageAsync("PING :LRTIRC"); };
+                }
 
             }
             finally
             {
-                _connectingSemaphore.Release();
+                if (hasWritingSemaphore)
+                {
+                    m_writingSemaphore.Release();
+                    hasWritingSemaphore = false;
+                }
             }
-
-
-        }
-        public async Task<bool> SendRawMessage(String format, params String[] formatParameters)
-        {
-            return await SendRawMessage(String.Format(format, formatParameters));
+            lock (m_registrationMutex)
+            {
+                if (Connected)
+                {
+                    RegisterWithServer();
+                    m_timeoutTimer.Start();
+                    m_pingTimer.Start();
+                }
+            }
         }
         /// <summary>
         /// Sends an EOL-terminated message to the server (\n is appended by this method)
         /// </summary>
         /// <param name="format">Format of message to send</param>
         /// <param name="formatParameters">Format parameters</param>
-        /// <returns></returns>
-        public async Task<bool> SendRawMessage(String message)
+        /// <returns>True if sending was successful, otherwise false - should only happen on a networking error</returns>
+        public async Task<bool> SendRawMessageAsync(String format, params String[] formatParameters)
+        {
+            return await SendRawMessageAsync(String.Format(format, formatParameters));
+        }
+        /// <summary>
+        /// Sends an EOL-terminated message to the server (\n is appended by this method)
+        /// </summary>
+        /// <param name="format">Message to send</param>
+        /// <returns>True if sending was successful, otherwise false - should only happen on a networking error</returns>
+        public async Task<bool> SendRawMessageAsync(String message)
         {
             // Apply all outgoing filters in order
-            lock (_filtersOutgoing)
+            lock (m_filtersOutgoing)
             {
-                foreach (var filter in _filtersOutgoing)
+                foreach (var filter in m_filtersOutgoing)
                 {
                     try
                     {
@@ -888,12 +934,11 @@ namespace benbuzbee.LRTIRC
             }
             try
             {
-                await _writingSemaphore.WaitAsync();
+                await m_writingSemaphore.WaitAsync();
 
-                await _streamWriter.WriteLineAsync(message);
+                await m_streamWriter.WriteLineAsync(message);
 
-                await _streamWriter.FlushAsync();
-
+                await m_streamWriter.FlushAsync();
             }
             catch (Exception e)
             {
@@ -903,15 +948,30 @@ namespace benbuzbee.LRTIRC
             }
             finally 
             { 
-                _writingSemaphore.Release(); 
+                m_writingSemaphore.Release(); 
             }
 
             RaiseEvent(OnRawMessageSent, this, message);
 
             return true;
+        }
 
-
-
+        /// <summary>
+        /// Registers with the server (sends PASS, NICK, USER) (synchronous)
+        /// </summary>
+        private void RegisterWithServer()
+        {
+            lock (m_registrationMutex)
+            {
+                if (Registered) return;
+                if (!String.IsNullOrEmpty(Password))
+                {
+                    SendRawMessageAsync("PASS {0}", Password).Wait();
+                }
+                SendRawMessageAsync("NICK {0}", Nick).Wait();
+                SendRawMessageAsync("USER {0} 0 * :{1}", Username, RealName).Wait();
+                Registered = true;
+            }
         }
         #endregion IO
 
@@ -919,11 +979,11 @@ namespace benbuzbee.LRTIRC
         #region Internal Handlers
         private void TimeoutTimerElapsedHandler(Object sender, System.Timers.ElapsedEventArgs e)
         {
-            lock (_timeoutTimer)
+            lock (m_timeoutTimer)
             {
                 if ((e.SignalTime - LastMessageTime) > Timeout)
                 {
-                    Disconnect();
+                    DisconnectInternal();
                     RaiseEvent(OnTimeout, this);
                 }
             }
@@ -950,44 +1010,33 @@ namespace benbuzbee.LRTIRC
         {
             if (OnRfcError != null && message.StartsWith("ERROR"))
             {
-                RaiseEvent(OnRfcError, this, message.Substring(message.IndexOf(":") + 1));
-                
+                RaiseEvent(OnRfcError, this, message.Substring(message.IndexOf(":") + 1));    
             }
-
         }
-
         /// <summary>
-        /// Registers with the server (sends PASS, NICK, USER)
+        /// Handler for PINGs from the servver
         /// </summary>
-        private void RegisterWithServer()
-        {
-            lock (_mutexRegistration)
-            {
-                if (Registered) return;
-            }
-            System.Threading.Thread.Sleep(1000);
-            if (!String.IsNullOrEmpty(Password))
-            {
-                SendRawMessage("PASS {0}", Password).Wait();
-            }
-            SendRawMessage("NICK {0}", Nick).Wait();
-            SendRawMessage("USER {0} 0 * :{1}", Username, RealName).Wait();
-
-            lock (_mutexRegistration)
-            {
-                Registered = true;
-            }
-        }
-
-
+        /// <param name="sender"></param>
+        /// <param name="message"></param>
         private void PingHandler(Object sender, String message)
         {
             if (message.StartsWith("PING"))
             {
-                var pongTask = SendRawMessage("PONG {0}", message.Substring("PING ".Length));
+                if (message.Length > "PING ".Length)
+                {
+                    var pongTask = SendRawMessageAsync("PONG {0}", message.Substring("PING ".Length));
+                }
+                else
+                {
+                    var pongTas = SendRawMessageAsync("PONG :No challenge was received");
+                }
             }
         }
-
+        /// <summary>
+        /// Handler for numeric events
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="message"></param>
         private void NumericHandler(Object sender, String message)
         {
             // FORMAT :<server name> <numeric> <target> :<other>
@@ -1012,11 +1061,11 @@ namespace benbuzbee.LRTIRC
         /// <param name="parameters">Parameters for the object</param>
         private void RaiseEvent(Delegate del, params object[] parameters)
         {
-           
             if (del == null)
             {
                 return;
             }
+
             if (SingleThreadedEvents)
             {
                 try
@@ -1025,7 +1074,7 @@ namespace benbuzbee.LRTIRC
                 }
                 catch (Exception) 
                 {
-                    // Nothing
+                    // Nothing, let's not break the reader thread because of some silly ass event handler
                     Debug.Assert(false, "Exception in event handler");
                 }
             }
@@ -1151,9 +1200,9 @@ namespace benbuzbee.LRTIRC
         public Channel GetChannel(String name)
         {
             Channel c = null;
-            lock (_channels)
+            lock (m_channels)
             {
-                if (!_channels.TryGetValue(name.ToLower(), out c))
+                if (!m_channels.TryGetValue(name.ToLower(), out c))
                 {
                     return null;
                 }
@@ -1174,7 +1223,7 @@ namespace benbuzbee.LRTIRC
 
             if (nick != null && user != null && host != null)
             {
-                lock (_channels)
+                lock (m_channels)
                 {
                     Channel c = GetChannel(channel);
                     // C could be null if our caller didn't check to see if it were really a channel
@@ -1189,6 +1238,36 @@ namespace benbuzbee.LRTIRC
                         }
                     }
                 }
+            }
+        }
+
+        public void Dispose()
+        {
+            DisconnectInternal(false);
+            if (m_readingThread != null)
+            {
+                m_readingThread.Kill();
+                m_readingThread = null;
+            }
+            if (m_channels != null)
+            {
+                m_channels.Clear();
+                m_channels = null;
+            }
+            if (m_channelPrefixMap != null)
+            {
+                m_channelPrefixMap.Clear();
+                m_channelPrefixMap = null;
+            }
+            if (m_filtersIncoming != null)
+            {
+                m_filtersIncoming.Clear();
+                m_filtersIncoming = null;
+            }
+            if (m_filtersOutgoing != null)
+            {
+                m_filtersOutgoing.Clear();
+                m_filtersOutgoing = null;
             }
         }
     }
@@ -1251,7 +1330,7 @@ namespace benbuzbee.LRTIRC
         }
     }
     /// <summary>
-    /// Represents a guest of a channel.  Useful for storing mode information - this represents a unique (User, Channel) pair
+    /// Represents a guest of a channel and their basic state. This represents a unique (User, Channel) pair and meant for reading only
     /// </summary>
     public class ChannelUser
     {
@@ -1292,13 +1371,13 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public String Prefixes
         {
-            get { lock (_prefixes) { return _prefixes.ToString(); } }
+            get { lock (m_prefixes) { return m_prefixes.ToString(); } }
         }
 
         /// <summary>
         /// The prefixes this user has on this channel
         /// </summary>
-        private StringBuilder _prefixes = new StringBuilder("");
+        private StringBuilder m_prefixes = new StringBuilder("");
 
         /// <summary>
         /// Creates a new Channel User
@@ -1368,30 +1447,30 @@ namespace benbuzbee.LRTIRC
         {
             Debug.Assert(svrInfo.PREFIX_symbols != null, "svrInfo.PREFIX_symbols is null - it should have been set when we received ISUPPORT from the server.  It is not possible to maintain a prefix list without this information");
             Debug.Assert(svrInfo.PREFIX_symbols.Contains(prefix), "svrInfo.PREFIX_symbols is non-null but does not contain the prefix that was inserted", "Prefix: {0}", prefix);
-            lock (_prefixes)
+            lock (m_prefixes)
             {
-                if (_prefixes.ToString().Contains(prefix))
+                if (m_prefixes.ToString().Contains(prefix))
                 {
                     return;
                 }
-                else if (_prefixes.Length == 0)
+                else if (m_prefixes.Length == 0)
                 {
-                    _prefixes.Append(prefix);
+                    m_prefixes.Append(prefix);
                 }
                 else
                 {
                     /// Find the first prefix in the current list (newList) whose value is less than this new prefix, and insert at that position
                     /// Or append it to the end if we never find one
-                    for (int i = 0; i < _prefixes.Length; ++i)
+                    for (int i = 0; i < m_prefixes.Length; ++i)
                     {
-                        if (svrInfo.PREFIX_symbols.IndexOf(prefix) < svrInfo.PREFIX_symbols.IndexOf(_prefixes[i]))
+                        if (svrInfo.PREFIX_symbols.IndexOf(prefix) < svrInfo.PREFIX_symbols.IndexOf(m_prefixes[i]))
                         {
-                            _prefixes.Insert(i, prefix);
+                            m_prefixes.Insert(i, prefix);
                             break;
                         }
-                        else if (i + 1 == _prefixes.Length) // If we've reached the end and still haven't found one of lower value, then this one belongs at the end
+                        else if (i + 1 == m_prefixes.Length) // If we've reached the end and still haven't found one of lower value, then this one belongs at the end
                         {
-                            _prefixes.Append(prefix);
+                            m_prefixes.Append(prefix);
                             return;
                         }
                     }
@@ -1406,12 +1485,12 @@ namespace benbuzbee.LRTIRC
         /// <param name="prefix"></param>
         internal void DeletePrefix(char prefix)
         {
-            lock (_prefixes)
+            lock (m_prefixes)
             {
-                int prefixPosition = _prefixes.ToString().IndexOf(prefix);
+                int prefixPosition = m_prefixes.ToString().IndexOf(prefix);
                 if (prefixPosition >= 0)
                 {
-                    _prefixes.Remove(prefixPosition, 1);
+                    m_prefixes.Remove(prefixPosition, 1);
                 }
 
             }
@@ -1440,17 +1519,20 @@ namespace benbuzbee.LRTIRC
         GRAY = 15
     }
 
-
     /// <summary>
     /// Manages the Irc thread which deals directly with the input stream. When signaled it begins trying to read from the input stream for the given IrcClient and raising events.  If it fails, it raises an exception and waits for another signal.
     /// </summary>
-    class IrcReader
+    internal class IrcReader
     {
         /// <summary>
         /// The IrcClient whose socket is being read
         /// </summary>
-        public IrcClient Client { get; private set; }
-        private SemaphoreSlim _semaphore = new SemaphoreSlim(0, 1);
+        private IrcClient Client { get; set; }
+        // The thread will always be active as long as reference remains
+        // This semaphore is used to block the thread while notthing can be read
+        private SemaphoreSlim m_semaphore = new SemaphoreSlim(0, 1);
+
+        private bool m_alive = true;
 
         /// <summary>
         /// Creates a new reader.  Only makes sense to do this once for each IRC instance.
@@ -1472,51 +1554,62 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public event Action<IrcReader, Exception> OnException;
 
+        private Thread m_thread = null;
 
         /// <summary>
         /// Thread body
         /// </summary>
         void ThreadStart()
         {
-            while (true)
+            m_thread = Thread.CurrentThread;
+            // Outter loop stays alive
+            while (m_alive)
             {
-                _semaphore.Wait();
-
-                if (Client == null || Client.TCP == null)
+                try
                 {
-                    // Nope, try again.
-                    continue;
-                }
-
-                using (StreamReader reader = new StreamReader(Client.TCP.GetStream()))
-                {
+                    m_semaphore.Wait();
+                    if (!m_alive)
+                    {
+                        break;
+                    }
+                  
+                    if (Client == null || Client.TCP == null)
+                    {
+                        // Nope, try again.
+                        continue;
+                    }
                     try
                     {
-                        while (Client.TCP.Connected)
+                        using (StreamReader reader = new StreamReader(Client.TCP.GetStream()))
                         {
-                            String line = reader.ReadLine();
-                            if (line != null && OnRawMessageReceived != null)
+                            while (Client.TCP.Connected)
                             {
-                                try
+                                String line = reader.ReadLine();
+                                if (line != null && OnRawMessageReceived != null)
                                 {
-                                    OnRawMessageReceived(this, line);
-                                } catch (Exception e)
-                                {
-                                    // For exceptions by event handlers, don't exit the loop but raise an exception
-                                    // If exception event handlers raise another exception...that's their own problem.
-                                    if (OnException != null)
+                                    try
                                     {
-                                        OnException(this, e);
+                                        OnRawMessageReceived(this, line);
+                                    }
+                                    catch (Exception e)
+                                    {
+                                        // For exceptions by event handlers, don't exit the loop but raise an exception
+                                        // If exception event handlers raise another exception...that's their own problem.
+                                        if (OnException != null)
+                                        {
+                                            OnException(this, e);
+                                        }
                                     }
                                 }
-                            }
-                            else if (line == null)
-                            {
-                                // Catch this outside the reader loop but inside the thread loop
-                                throw new EndOfStreamException();
+                                else if (line == null)
+                                {
+                                    // Catch this outside the reader loop but inside the thread loop
+                                    throw new EndOfStreamException();
+                                }
                             }
                         }
                     }
+                    catch (ThreadInterruptedException) { /* Allow interrupts to break us out of the read-wait loop but not the entire thread */ }
                     catch (Exception e)
                     {
                         if (OnException != null)
@@ -1525,6 +1618,39 @@ namespace benbuzbee.LRTIRC
                         }
                     }
                 }
+                catch (ThreadInterruptedException) {  /* If interrupted, it's either ReleaseStream (go back and wait) or its Kill (go back and find m_alive to be false) */ }
+            } 
+        }
+
+        /// <summary>
+        /// Allows the thread to die gracefully
+        /// If it is currently blocked waiting on information to read, it will stay until unblocked
+        /// </summary>
+        public void Die()
+        {
+            m_alive = false;
+        }
+
+        /// <summary>
+        /// Combines Die()'s graceful closure with raising an interruption to stop any current blocking task
+        /// </summary>
+        public void Kill()
+        {
+            Die();
+            if (m_thread != null)
+            {
+                m_thread.Interrupt();
+            }
+        }
+
+        /// <summary>
+        /// If the thread is currently blocked waiting on a read, this will stop it. 
+        /// </summary>
+        public void ReleaseStream()
+        {
+            if (m_thread != null && m_thread.ThreadState == System.Threading.ThreadState.WaitSleepJoin)
+            {
+                m_thread.Interrupt();
             }
         }
 
@@ -1536,7 +1662,7 @@ namespace benbuzbee.LRTIRC
         {
             try
             {
-                _semaphore.Release();
+                m_semaphore.Release();
                 return true;
             } catch (SemaphoreFullException)
             {

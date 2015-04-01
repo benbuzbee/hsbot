@@ -14,7 +14,7 @@
     
     
     <!-- The nickname yuou want the bot to use-->
-    <nick>HearthBot-dbg</nick>
+    <nick>HearthBot-Test</nick>
     <!-- The real name the bot should have.  This is optional -->
     <name>Hearthstone IRC Bot</name>
     <!-- The username you want the bot to have.  This is optional, and not the same as nickname -->
@@ -59,6 +59,13 @@
     <matchrequirement>0</matchrequirement>
   </autotrigger>
 
+  <!-- Youtube link parsing functionality. Remove or comment out to disable. -->
+  <youtube>
+    <!-- Use C# data binding format. To see all of the available data take a look at YoutubeSerialization.cs in source -->
+    <format>YouTube Video: {items[0].snippet.localized.title} - {items[0].contentDetails.duration} - [{items[0].contentDetails.definition}] {items[0].statistics.viewCount} views (&#0003;03{items[0].statistics.likeCount}&#0003; &#0003;04{items[0].statistics.dislikeCount}&#0003;)</format>
+    
+  </youtube>
+  
   <language>
     <!--<default>esES</default>-->
     <default>enUS</default>

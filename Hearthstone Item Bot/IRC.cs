@@ -8,25 +8,29 @@ using benbuzbee.LRTIRC;
 using System.Text.RegularExpressions;
 using HSBot.Cards;
 using System.Threading;
+using System.Diagnostics; // For Debug
+using System.Net.Http;
+using System.Runtime.Serialization.Json; // For json serializer
 
 namespace HSBot
 {
     class IRC
     {
         public IrcClient Client { get; private set; }
-        private String _szCardDataFile;
+        private String m_cardDataFilePath;
         public IRC(String szCardDataFile)
         {
-            _szCardDataFile = szCardDataFile;
+            m_cardDataFilePath = szCardDataFile;
             RefreshList();
 
+            Console.WriteLine("Registering for changes to {0}", szCardDataFile); 
             FileSystemWatcher fsw = new FileSystemWatcher(Path.GetDirectoryName(szCardDataFile), Path.GetFileName(szCardDataFile));
 
             fsw.Changed += (sender, fileSystemEventArgs) =>
                 {
                     Console.WriteLine("Detected a change to card data file - refreshing card list.");
                     refresh:
-                    lock (_cards)
+                    lock (m_cardMap)
                     {
                         try
                         {
@@ -49,16 +53,14 @@ namespace HSBot
             Client.Timeout = TimeSpan.FromSeconds(30);
         }
         
-        private DateTime startTime = DateTime.Now;
-        private Timer _flowRateTimer;
+        private DateTime m_startTime = DateTime.Now;
+        private Timer m_flowRateTimer;
 
         /// <summary>
         /// Connects the bot and registers events. Call it only once.
         /// </summary>
         public void StartConnect()
         {
-
-            
             Client.OnConnect += OnConnect;
             Client.OnRawMessageReceived += OnRawMessageReceived;
             Client.OnRawMessageSent += OnRawMessageSent;
@@ -79,7 +81,7 @@ namespace HSBot
                         try
                         {
                             Console.WriteLine("Trying to connect to IRC...");
-                            sender.Connect(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort, Config.IRCPass).Wait();
+                            sender.ConnectAsync(Config.IRCNick, Config.IRCUser, Config.IRCName, Config.IRCHost, Config.IRCPort, Config.IRCPass).Wait();
                             Console.WriteLine("Connection established");
                             break;
                         }
@@ -104,7 +106,7 @@ namespace HSBot
                     connectAction(c);
                 };
 
-            _flowRateTimer = new Timer((state) => {
+            m_flowRateTimer = new Timer((state) => {
                 lock (_flowRateMap)
                 {
                     List<String> keysToRemove = new List<string>();
@@ -151,16 +153,17 @@ namespace HSBot
         {
             if (Config.OnConnectAction != null)
             {
-                sender.SendRawMessage(Config.OnConnectAction).Wait();
+                sender.SendRawMessageAsync(Config.OnConnectAction).Wait();
             }
 
             foreach (String channel in Config.IRCChannels)
             {
-                sender.SendRawMessage("JOIN {0}", channel).Wait();
+                sender.SendRawMessageAsync("JOIN {0}", channel).Wait();
             }
  
         }
         Regex rxInline = new Regex(@"(?:^|\s)\[([^\]+\]]+)\](?=[^a-zA-Z]|$|s)");
+        Regex rxUrl = new Regex("(https?://[^ ]+)", RegexOptions.IgnoreCase);
         /// <summary>
         /// Event handlers for a privmsg from the server
         /// </summary>
@@ -176,35 +179,6 @@ namespace HSBot
                 target;
 
             String lowerMessage = message.ToLower();
-            /*
-            if (lowerMessage.StartsWith("!debug ") && message.Length > "!debug ".Length)
-            {
-                
-                double m;
-                CardSet cs = LookupCardSet(lowerMessage.Substring("!debug ".Length).ToLower(), out m);
-
-                if (cs == null) { Message(responseTarget, "Card not found."); return; }
-
-                foreach (Card c in cs)
-                {
-
-                    Console.WriteLine(c.XmlData);
-
-
-                    String pasteUrl = await DebugPaster.PasteCard(c);
-
-
-
-                    if (pasteUrl == null)
-                        Message(target, "Paste failed.");
-                    else
-                        Message(target, "Debug data posted: {0}", pasteUrl);
-                }
-                return;
-                 
-            }
-            */
-
 
             if (lowerMessage.StartsWith("!card ") && message.Length > "!card ".Length && message.Length <= (Config.MaxCardNameLength + "!card ".Length))
             {
@@ -212,7 +186,7 @@ namespace HSBot
                 {
                     // If the lookup request is longer than Config.MaxCardNameLength (default: 30) characters, 
                     // it's probably too long to be a card.
-                    LookupCardNameFor(responseTarget, message.Substring("!card ".Length).ToLower());
+                    FindAndPrintMatch(responseTarget, message.Substring("!card ".Length).ToLower());
                 }
 			}
 
@@ -241,11 +215,19 @@ namespace HSBot
                     }
                     else
                     {
-                        LookupCardNameFor(responseTarget, strTriggerText);
+                        FindAndPrintMatch(responseTarget, strTriggerText);
                     }
                 }
             }
             listMatchedCardNames.Clear();
+
+            Match urlMatch = rxUrl.Match(message);
+            if (urlMatch.Success)
+            {
+                String url = urlMatch.Groups[1].Value;
+                // Async
+                Task t = HandleUrlAndReply(url, target);
+            }
 
             // Auto trigger check
             #region Auto Trigger
@@ -321,7 +303,7 @@ namespace HSBot
                     matches.Remove(max.Key);
                     if (CheckFlowRateLimiter(source))
                     {
-                        LookupCardNameFor(responseTarget, max.Key[0].Name);
+                        FindAndPrintMatch(responseTarget, max.Key[0].Name);
                     }
                 }
                 #endregion Auto Trigger
@@ -387,38 +369,39 @@ namespace HSBot
         /// <summary>
         /// Prints card information to a channel
         /// </summary>
-        /// <param name="source"></param>
-        /// <param name="cardname"></param>
-        private void LookupCardNameFor(String source, String cardname)
+        /// <param name="source">Place to send the privmsg response</param>
+        /// <param name="cardname">Query string, e.g. "The Coin" or "Mark of the Wild 2"</param>
+        private void FindAndPrintMatch(String source, String query)
         {
-            System.Diagnostics.Debug.Assert(source != null);
-            System.Diagnostics.Debug.Assert(cardname != null);
+            Debug.Assert(source != null);
+            Debug.Assert(query != null);
 
-            cardname = cardname.Trim();
+            // Strip surrounding whitespace
+            query = query.Trim();
 
             // Check to see if an index was given
             int index = 0;
-            if (cardname.Length > 0)
+            if (query.Length > 0)
             {
-                char lastChar = cardname[cardname.Length - 1];
+                char lastChar = query[query.Length - 1];
                 if (char.IsDigit(lastChar))
                 {
                     index = lastChar - '0';
-                    cardname = cardname.Substring(0, cardname.Length - 1).Trim();
+                    query = query.Substring(0, query.Length - 1).Trim();
                 }
 
             }
 
 
-            double m;
-            CardSet cs = LookupCardSet(cardname, out m, 0.5);
+            double matchPct;
+            CardSet cs = LookupCardSet(query, out matchPct, 0.5);
             if (cs == null)
             {
                 Message(source, "The card was not found.");
             }
-            else if (m < .75)
+            else if (matchPct < .75)
             {
-                Message(source, "The card was not found, but {0} is a {1:F2}% match.", cs[0].Name, m * 100);
+                Message(source, "The card was not found, but {0} is a {1:F2}% match.", cs[0].Name, matchPct * 100);
             }
             else
             {
@@ -436,12 +419,186 @@ namespace HSBot
             }
         }
 
-
-
         private void Message(String target, String message, params Object[] format)
         {
             
-            var responseTask = Client.SendRawMessage("PRIVMSG {0} :{1}", target, String.Format(message, format));
+            var responseTask = Client.SendRawMessageAsync("PRIVMSG {0} :{1}", target, String.Format(message, format));
+        }
+
+
+        HttpClient m_httpClient = new HttpClient();
+        /// <summary>
+        /// Tries to get the youtube video ID from any URI. This function will make HTTP requests as necessary to follow redirects
+        /// </summary>
+        /// <param name="uri">A URI to test</param>
+        /// <returns>The video ID as a string, or null/empty</returns>
+        private async Task<String> GetYoutubeVideoIDFromUriAsync(Uri uri)
+        {
+            // Test if this is a valid youtube uri with a video ID
+            String videoID = GetVideoIDFromYoutubeUri(uri);
+            if (videoID != null)
+            {
+                return videoID;
+            }
+
+
+            // If not, connect with HEAD to see if this redirects to a youtube URI
+
+            m_httpClient.DefaultRequestHeaders.Accept.Clear();
+            m_httpClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("text/html", 1.0));
+            DateTime perfStart = DateTime.Now;
+            try {
+                Uri finalUri = null;
+                using (var response = await m_httpClient.GetAsync(uri, HttpCompletionOption.ResponseHeadersRead))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        finalUri = response.RequestMessage.RequestUri;
+                    }
+                }
+
+                if (finalUri != null)
+                {
+                    Console.WriteLine("GetYoutubeVideoIDFromUriAsync TTR: {0}", DateTime.Now - perfStart);
+                    return GetVideoIDFromYoutubeUri(finalUri);
+
+                }
+                
+            }
+          
+            catch (TaskCanceledException)
+            {
+                Console.Error.WriteLine("Youtube video ID lookup failed - timeout");
+            } 
+            catch (Exception e)
+            {
+                Console.Error.WriteLine("Youtube video ID lookup failed - unhandled exception: {0}", e.Message);
+
+            }
+         
+            return null;
+        }
+
+
+        /// <summary>
+        /// Tries to get the Video ID from a youtube URL.  This will simply parse the absolute URI string
+        /// </summary>
+        /// <param name="uri"></param>
+        /// <returns>The video ID as a string, or null/empty</returns>
+        private String GetVideoIDFromYoutubeUri(Uri uri)
+        {
+            // Only valid when the final destination is youtube.com. TODO: Other TLDs
+            bool isYoutube = uri.Host.EndsWith("youtube.com", StringComparison.CurrentCultureIgnoreCase);
+            if (isYoutube)
+            {
+                // Path should look like /watch?v=<ID>
+                if (uri.PathAndQuery.StartsWith("/watch"))
+                {
+                    if (uri.Query != null)
+                    {
+                        int vStart = uri.Query.IndexOf("v=");
+                        if (vStart >= 0 )
+                        {
+                            vStart += 2;
+                            int vEnd = uri.Query.IndexOf('&', vStart);
+                            if (vEnd < 0)
+                            {
+                                vEnd = uri.Query.Length - 1;
+                            }
+                            return uri.Query.Substring(vStart,vEnd - vStart + 1);
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Given an ID this function will query the Youtube API to get video statistics
+        /// </summary>
+        /// <param name="id">Video ID to lookup data for</param>
+        /// <returns></returns>
+        private async Task<YoutubeData> GetYoutubeDataFromIDAsync(String id)
+        {
+            if (id == null)
+            {
+                return null;
+            }
+
+            String url = String.Format("https://www.googleapis.com/youtube/v3/videos?id={0}&key=AIzaSyDWaA2OoArAjQTHqmN6r9XrpHYNkpKGyGw&part=snippet,contentDetails,statistics,status", id);
+            try
+            {
+                DateTime perfStart = DateTime.Now;
+                using (var response = await m_httpClient.GetAsync(url))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(YoutubeData));
+                        Console.WriteLine("GetYoutubeDataFromIDAsync TTD: {0}", DateTime.Now - perfStart);
+                        YoutubeData data = (YoutubeData)serializer.ReadObject(await response.Content.ReadAsStreamAsync());
+                        Console.WriteLine("GetYoutubeDataFromIDAsync TTR: {0}", DateTime.Now - perfStart);
+                        return data;
+                    }
+                }
+            }
+            catch (TaskCanceledException)
+            {
+                Console.Error.WriteLine("Youtube data lookup failed - timeout");
+            }
+            catch (Exception e)
+            {
+                Console.Error.WriteLine("Youtube data lookup failed - unhandled exception: {0}", e.Message);
+            }
+            return null;
+        }
+
+        // 
+        /// Given a URL, if it is youtube it replies to the target with the appropriate message from the configuration file 
+        /// </summary>
+        /// <param name="url">URL, hopefully youtube</param>
+        /// <param name="target">Destination of the reply message</param>
+        private async Task HandleUrlAndReply(String url, String target)
+        {
+            if (Config.YoutubeFormat == null)
+            {
+                return;
+            }
+            try
+            {
+                Uri uri = new Uri(url);
+                String videoId = await GetYoutubeVideoIDFromUriAsync(uri);
+                if (!String.IsNullOrEmpty(videoId))
+                {
+                    try
+                    {
+                        var data = await GetYoutubeDataFromIDAsync(videoId);
+                        if (data != null && data.items.Length > 0)
+                        {
+                            try
+                            {
+                                Message(target, Config.YoutubeFormat.FormatWith(data));
+                            }
+                            catch (Exception)
+                            {
+                                Console.Error.WriteLine("There was an error displaying youtube data. Please check your youtube formatting string.");
+                            }
+                        }
+                    }
+                    catch (HttpRequestException e)
+                    {
+                        Console.Error.WriteLine("Error connecting to get youtube data: {0}", e.Message);
+                    }
+                }
+            }
+            catch (UriFormatException)
+            {
+                // Ignore poorly formatted URIs
+            }
+            catch (HttpRequestException)
+            {
+                Console.Error.WriteLine("There was an error checking the URL {0}", url);
+            }
+            
         }
 
         /// <summary>
@@ -450,14 +607,14 @@ namespace HSBot
         /// <param name="cardname"></param>
         /// <param name="matchPct">The match % returned by the matching algorithm</param>
         /// <param name="boostSubstring">If the given cardname is a substring of a card's name, artificially boosts its match percentage by the given amount</param>
-        /// <returns></returns>
+        /// <returns>Best matching CardSet or null</returns>
         private CardSet LookupCardSet(String cardname, out double matchPct, double boostSubstring = 0.0)
         {
             // look for exact match
-            CardSet match;
-            lock (_cards)
+            CardSet match = null;
+            lock (m_cardMap)
             {
-                if (_cards.TryGetValue(cardname.ToLower(), out match))
+                if (m_cardMap.TryGetValue(cardname.ToLower(), out match))
                 {
                     matchPct = 100;
                     return match;
@@ -467,9 +624,9 @@ namespace HSBot
             // Otherwise search using contains
             CardSet closestMatch = null;
             double closestPercentMatch = 0;
-            lock (_cards)
+            lock (m_cardMap)
             {
-                foreach (var kvp in _cards.AsEnumerable())
+                foreach (var kvp in m_cardMap.AsEnumerable())
                 {
                     // Match calculation
                     // 1.) Levenshtien distance over size of the current card we're analyzing
@@ -563,29 +720,29 @@ namespace HSBot
             // Step 7
             return d[n, m];
         }
-        private System.Collections.Generic.Dictionary<String, CardSet> _cards = new System.Collections.Generic.Dictionary<String, CardSet>();
+        private System.Collections.Generic.Dictionary<String, CardSet> m_cardMap = new System.Collections.Generic.Dictionary<String, CardSet>();
         /// <summary>
         /// Refreshes the cache of cards from the carddata directory
         /// </summary>
         private void RefreshList()
         {
 
-            var cardDefs = CardParser.Extract(_szCardDataFile);
+            var cardDefs = CardParser.Extract(m_cardDataFilePath);
             if (!cardDefs.ContainsKey(Config.DefaultLanguage))
             {
                 Console.Error.WriteLine("No card definitions found for language {0}", Config.DefaultLanguage);
                 return;
             }
             List<Card> list = CardParser.GetCards(cardDefs[Config.DefaultLanguage]);
-            lock (_cards)
+            lock (m_cardMap)
             {
-                _cards.Clear();
+                m_cardMap.Clear();
                 foreach (Card c in list)
                 {
                     try
                     {
                         CardSet set;
-                        if (!_cards.TryGetValue(c.Name.ToLower(), out set))
+                        if (!m_cardMap.TryGetValue(c.Name.ToLower(), out set))
                         {
                             set = new CardSet();
                         }
@@ -616,7 +773,7 @@ namespace HSBot
                             }
                         }
                         set.Insert(c, insertPosition);
-                        _cards[c.Name.ToLower()] = set;
+                        m_cardMap[c.Name.ToLower()] = set;
                     }
                     catch (ArgumentException)
                     {

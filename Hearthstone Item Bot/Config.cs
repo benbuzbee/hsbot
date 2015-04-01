@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Text.RegularExpressions;
 
 namespace HSBot
 {
@@ -32,6 +33,12 @@ namespace HSBot
 
         public static int FlowRateMax { get; private set; }
         public static int FlowRateSeconds { get; private set; }
+
+        public static String YoutubeFormat
+        {
+            get;
+            private set;
+        }
 
         public static void Reload()
         {
@@ -77,6 +84,44 @@ namespace HSBot
             FlowRateMax = int.Parse(doc.DocumentElement.SelectSingleNode("/config/spam/flowrate/max").InnerText);
             FlowRateSeconds = int.Parse(doc.DocumentElement.SelectSingleNode("/config/spam/flowrate/seconds").InnerText);
 
+            var youtube = doc.DocumentElement.SelectSingleNode("/config/youtube");
+            if (youtube != null)
+            {
+                YoutubeFormat = youtube.SelectSingleNode("format").InnerText;
+            }
+
+        }
+
+        public static string FormatWith(this string format, object source)
+        {
+            return FormatWith(format, null, source);
+        }
+
+        public static string FormatWith(this string format, IFormatProvider provider, object source)
+        {
+            if (format == null)
+                throw new ArgumentNullException("format");
+
+            Regex r = new Regex(@"(?<start>\{)+(?<property>[\w\.\[\]]+)(?<format>:[^}]+)?(?<end>\})+",
+            RegexOptions.Compiled | RegexOptions.CultureInvariant | RegexOptions.IgnoreCase);
+
+            List<object> values = new List<object>();
+            string rewrittenFormat = r.Replace(format, delegate(Match m)
+            {
+                Group startGroup = m.Groups["start"];
+                Group propertyGroup = m.Groups["property"];
+                Group formatGroup = m.Groups["format"];
+                Group endGroup = m.Groups["end"];
+
+                values.Add((propertyGroup.Value == "0")
+                  ? source
+                  : System.Web.UI.DataBinder.Eval(source, propertyGroup.Value));
+
+                return new string('{', startGroup.Captures.Count) + (values.Count - 1) + formatGroup.Value
+                  + new string('}', endGroup.Captures.Count);
+            });
+
+            return string.Format(provider, rewrittenFormat, values.ToArray());
         }
     }
 }

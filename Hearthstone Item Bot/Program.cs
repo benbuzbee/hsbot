@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
+using System.IO;
 
 namespace HSBot
 {
@@ -10,12 +12,9 @@ namespace HSBot
     {
         static void Main(string[] args)
         {
-
             Console.Title = "HearthBot - Started " + DateTime.Now;
-
-
-
-
+            ThreadPool.SetMaxThreads(100, 100);
+            ThreadPool.SetMinThreads(100, 100);
             try
             {
                 Config.Reload();
@@ -28,58 +27,62 @@ namespace HSBot
             
             Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software" + (IntPtr.Size == 8 ? @"\Wow6432Node" : "") + @"\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone","InstallLocation",null);
 
-            String szCardDataFile = null;
+            String cardDataFile = null;
 
             if (hsInstall != null)
             {
-                szCardDataFile = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
+                cardDataFile = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
             }
 
-            if (szCardDataFile == null || !System.IO.File.Exists(szCardDataFile))
+            if (cardDataFile == null || !System.IO.File.Exists(cardDataFile))
             {
-                Console.WriteLine("Hearthstone installation not found. Enter the path to cardxml0.unity3d or enter to use the same directory as HSBot.exe");
-                String input = Console.ReadLine();
-                if (!String.IsNullOrEmpty(input) && System.IO.File.Exists(input))
+                // Wait 20 seconds on input or proceed in case we are unattended
+                Console.WriteLine("Hearthstone installation not found. Enter the absolute path to cardxml0.unity3d or nothing to use the same directory as HSBot.exe");
+                String input = null;
+                AutoResetEvent inputReceivedEvent = new AutoResetEvent(false);
+                Thread getInputThread = new Thread(() => {
+                    input = Console.ReadLine();
+                    inputReceivedEvent.Set();
+                });
+                getInputThread.Start();
+                inputReceivedEvent.WaitOne(20000);
+                if (input == null)
                 {
-                    szCardDataFile = input;
+                    // GTFO
+                    getInputThread.Interrupt();
+                }
+                
+                if (!String.IsNullOrEmpty(input) && File.Exists(input) && Path.IsPathRooted(input))
+                {
+                    cardDataFile = input;
                 }
                 else
                 {
-                    szCardDataFile = "cardxml0.unity3d";
+                    Console.WriteLine("No or invalid path entered. Defaulting to local cardxml0.unity3d.");
+                    cardDataFile = Path.Combine(System.Environment.CurrentDirectory,"cardxml0.unity3d");
                 }
             }
-            if (szCardDataFile == null || !System.IO.File.Exists(szCardDataFile))
+            if (cardDataFile == null || !File.Exists(cardDataFile))
             {
-                Console.WriteLine("Card data file not found: {0}", szCardDataFile);
+                Console.WriteLine("Card data file not found: {0}", cardDataFile);
             }
             else
             {
-                Console.WriteLine("I will read card data from {0}", szCardDataFile);
+                Console.WriteLine("I will read card data from {0}", cardDataFile);
                 try
                 {
-                    System.IO.File.Copy(szCardDataFile, "cardxml0.unity3d");
+                    File.Copy(cardDataFile, "cardxml0.unity3d", true);
                 }
                 catch (Exception) { }
                 
             }
 
-            IRC irc = new IRC(szCardDataFile);
-            // Temp:
-            irc.Client.OnRfcPrivmsg += (sender, source, target, message) =>
-            {
-                if (message.StartsWith("@dumpusers "))
-                {
-                    benbuzbee.LRTIRC.Channel channel = sender.GetChannel(message.Split(' ')[1]);
-                    IEnumerable<benbuzbee.LRTIRC.ChannelUser> users = channel.Users.Values.OrderBy<benbuzbee.LRTIRC.ChannelUser, String>((usr) => usr.Prefixes + usr.Nick);
-                    foreach (var usr in users)
-                    {
-                        Console.WriteLine("{0}{1}", usr.Prefixes, usr.Nick);
-                    }
-                }
-            };
+            IRC irc = new IRC(cardDataFile);
+         
             irc.StartConnect();
+
             Console.CancelKeyPress += (s, e) => {
-                irc.Client.SendRawMessage("QUIT :Be right back!").Wait(5000);
+                irc.Client.SendRawMessageAsync("QUIT :Be right back!").Wait(5000);
             };
 
             while (true)
