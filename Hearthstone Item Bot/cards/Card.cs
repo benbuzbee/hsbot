@@ -140,6 +140,27 @@ namespace HSBot.Cards
             }
 
             if (Type == (int)CardType.WEAPON) { sb.Append("- Weapon "); }
+            
+            // Print the release of the card from the card ID
+            // Format some known ones a little more nicely
+            if (ID.Contains("_"))
+            {
+                String release = ID.Substring(0, ID.IndexOf('_'));
+ 
+                if (release.StartsWith("NAX"))
+                {
+                    sb.Append("- Naxxramas ");
+                }
+                else if (release.StartsWith("BRMA"))
+                {
+                    sb.Append("- BRM (AI) ");
+                }
+                else 
+                {
+                    sb.AppendFormat("- {0} ",release);
+                }
+                
+            }
 
             if (Family != CardFamily.UNKNOWN)
             {

@@ -8,9 +8,9 @@
  * Some general design principals:
  * 1.) Use as few classes as necessary
  * 2.) Implement the IRC RFC to spec where possible
- * 3.) Support server-specific compaibility without comprromising #2
- * 4.) Require as little programmer-input as possible to function as expected
- * 5.) Use smart threadding
+ * 3.) Support server-specific compaibility without compromising #2
+ * 4.) Require as little programmer input as possible to function as expected
+ * 5.) Use smart multithreading techniques
  * And most importantly, WORK. Always.
  * 
  * Tips for reading the code:
@@ -23,15 +23,15 @@
  * If this class doesn't work with an IRC server or obvious scenario, let me know! Ben@St0rm.Net
  **/
 using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
-using System.Diagnostics;
-using System.Threading;
-using System.Net.Sockets;
 using System.IO;
+using System.Net.Sockets;
 
 namespace benbuzbee.LRTIRC
 {
@@ -128,12 +128,12 @@ namespace benbuzbee.LRTIRC
         /// <summary>
         /// Detects a timeout if it elapses and too much time has past since the last message
         /// </summary>
-        private System.Timers.Timer m_timeoutTimer = new System.Timers.Timer();
+        private Timer m_timeoutTimer;
         /// <summary>
         /// Proactively sends client PING requests. Some servers do not ping us if we're being active because they know we are still alive
         /// We need a way to be sure they are too!
         /// </summary>
-        private System.Timers.Timer m_pingTimer = new System.Timers.Timer();
+        private Timer m_pingTimer;
         /// <summary>
         /// A map of: lower(Channel) -> (Nick -> Prefix List)
         /// </summary>
@@ -151,7 +151,6 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         private List<IIrcMessageFilter> m_filtersIncoming = new List<IIrcMessageFilter>();
         #endregion Private Members
-
 
         /// <summary>
         /// Structure containing general information about the server - only that which is needed by the IrcClient for further action.
@@ -735,6 +734,9 @@ namespace benbuzbee.LRTIRC
                 RaiseEvent(OnException, this, e);
                 RaiseEvent(OnDisconnect, this);
             };
+
+            m_timeoutTimer = new Timer(TimeoutTimerElapsedHandler, null, System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
+            m_pingTimer = new Timer((state) => { var task = SendRawMessageAsync("PING :LRTIRC"); }, null, System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
         }
 
         ~IrcClient()
@@ -769,12 +771,14 @@ namespace benbuzbee.LRTIRC
                 {
                     lock (m_timeoutTimer)
                     {
-                        m_timeoutTimer.Dispose();
+                        // Suspend timer
+                        m_timeoutTimer.Change(System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
                     }
 
                     lock (m_pingTimer)
                     {
-                        m_pingTimer.Dispose();
+                        // Suspend timer
+                        m_pingTimer.Change(System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
                     }
 
                     Connected = false;
@@ -866,20 +870,6 @@ namespace benbuzbee.LRTIRC
                 m_streamWriter = new StreamWriter(TCP.GetStream(), Encoding);
                 m_readingThread.Signal();
 
-                // Create timer for detecting a timeout
-                lock (m_timeoutTimer)
-                {
-                    m_timeoutTimer = new System.Timers.Timer(Timeout.TotalMilliseconds);
-                    m_timeoutTimer.Elapsed += TimeoutTimerElapsedHandler;
-                }
-                
-                // Create a proactive client-ping timer
-                lock (m_pingTimer)
-                {
-                    m_pingTimer = new System.Timers.Timer(Timeout.TotalMilliseconds / 2);
-                    m_pingTimer.Elapsed += (sender, args) => { var task = SendRawMessageAsync("PING :LRTIRC"); };
-                }
-
             }
             finally
             {
@@ -894,8 +884,19 @@ namespace benbuzbee.LRTIRC
                 if (Connected)
                 {
                     RegisterWithServer();
-                    m_timeoutTimer.Start();
-                    m_pingTimer.Start();
+                    // Restart the timer for detecting timeout
+                    lock (m_timeoutTimer)
+                    {
+                        // 0 in first parameter means reset it immediately
+                        m_timeoutTimer.Change(TimeSpan.FromMilliseconds(0), Timeout);
+                    }
+
+                    // Restart the itmer for sending PINGs
+                    lock (m_pingTimer)
+                    {
+                        // 0 in first parameter means reset it immediately
+                        m_pingTimer.Change(TimeSpan.FromMilliseconds(0), TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2));
+                    }
                 }
             }
         }
@@ -977,11 +978,11 @@ namespace benbuzbee.LRTIRC
 
 
         #region Internal Handlers
-        private void TimeoutTimerElapsedHandler(Object sender, System.Timers.ElapsedEventArgs e)
+        private void TimeoutTimerElapsedHandler(Object state)
         {
             lock (m_timeoutTimer)
             {
-                if ((e.SignalTime - LastMessageTime) > Timeout)
+                if ((DateTime.Now - LastMessageTime) > Timeout)
                 {
                     DisconnectInternal();
                     RaiseEvent(OnTimeout, this);
@@ -1393,7 +1394,7 @@ namespace benbuzbee.LRTIRC
                 Host = GetHostFromFullAddress(nickOrFullAddress);
 
             }
-            else Nick = nickOrFullAddress;
+            else { Nick = nickOrFullAddress; }
         }
         /// <summary>
         /// Gets the nickname portion of a fulladdress, such as NICK!user@host

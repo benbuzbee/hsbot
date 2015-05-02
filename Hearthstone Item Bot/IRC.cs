@@ -45,27 +45,34 @@ namespace HSBot
                         
                     }
                 };
+
             fsw.EnableRaisingEvents = true;
+
+            // Initialize the client
             Client = new IrcClient();
-
             Client.Encoding = new System.Text.UTF8Encoding(false);
-
-            Client.Timeout = TimeSpan.FromSeconds(30);
         }
         
         private DateTime m_startTime = DateTime.Now;
         private Timer m_flowRateTimer;
-
+        private bool m_hasConnected = false;
+        private bool m_connecting = false;
         /// <summary>
         /// Connects the bot and registers events. Call it only once.
         /// </summary>
         public void StartConnect()
         {
+            if (m_hasConnected)
+            {
+                throw new Exception("Only call StartConnect once per instance");
+            }
+            m_hasConnected = true;
+
+            // Register events
             Client.OnConnect += OnConnect;
             Client.OnRawMessageReceived += OnRawMessageReceived;
             Client.OnRawMessageSent += OnRawMessageSent;
             Client.OnRfcPrivmsg += OnPrivmsg;
-
 
             Client.Timeout = new TimeSpan(0,0,0,0,Config.IRCReconnectTime);
 
@@ -95,22 +102,36 @@ namespace HSBot
             };
             Client.OnTimeout += (c) =>
             {
-                Console.WriteLine("Server timed out, reconnecting in 30 seconds...");
-                System.Threading.Thread.Sleep(30000);
-                connectAction(c);
+                if (!m_connecting)
+                {
+                    m_connecting = true;
+                    Console.WriteLine("Server timed out, reconnecting in 30 seconds...");
+                    System.Threading.Thread.Sleep(30000);
+
+                    connectAction(c);
+                    m_connecting = false;
+                }
             };
             Client.OnDisconnect += (c) =>
+            {
+                if (!m_connecting)
                 {
+                    m_connecting = true;
                     Console.WriteLine("Disconnected from server, reconnecting in 60 seconds...");
                     System.Threading.Thread.Sleep(60000);
+                    
                     connectAction(c);
-                };
+                    m_connecting = false;
+                }
+            };
 
             m_flowRateTimer = new Timer((state) => {
-                lock (_flowRateMap)
+                lock (m_flowRateMap)
                 {
+                    // Decrement the message count of everyone who hasn't spoken in FlowRateSeconds
+                    // If we get to 0, remove them from the map
                     List<String> keysToRemove = new List<string>();
-                    foreach (var kvp in _flowRateMap)
+                    foreach (var kvp in m_flowRateMap)
                     {
                         var line = kvp.Value;
                         lock (line)
@@ -118,9 +139,8 @@ namespace HSBot
                             if ((DateTime.Now - line.LastUpdated) >= TimeSpan.FromSeconds(Config.FlowRateSeconds))
                             {
                                 --line.Messages;
-
                             }
-                            if (line.Messages == 0)
+                            if (line.Messages <= 0)
                             {
                                 keysToRemove.Add(kvp.Key);
                             }
@@ -128,25 +148,20 @@ namespace HSBot
                     }
                     foreach (String key in keysToRemove)
                     {
-                        _flowRateMap.Remove(key);
+                        m_flowRateMap.Remove(key);
                     }
                     keysToRemove.Clear();
                 }
             } , null,0,1000);
             
-
-            connectAction(Client);
-
-                
+            connectAction(Client);       
         }
         private void OnRawMessageReceived(IrcClient sender, String message)
         {
-         
             Console.WriteLine("{0} <-- {1}",DateTime.Now, message);
         }
         private void OnRawMessageSent(IrcClient sender, String message)
         {
-
             Console.WriteLine("{0} --> {1}", DateTime.Now, message);
         }
         private void OnConnect(IrcClient sender)
@@ -311,7 +326,7 @@ namespace HSBot
             
         }
 
-        private Dictionary<String, FlowRateEntry> _flowRateMap = new Dictionary<string, FlowRateEntry>();
+        private Dictionary<String, FlowRateEntry> m_flowRateMap = new Dictionary<string, FlowRateEntry>();
         /// <summary>
         /// Given a sender full address, checks to see if he is spam filtered.  This works like a mutex in that it will 
         /// </summary>
@@ -333,13 +348,13 @@ namespace HSBot
                 // For speedyness, we lock the map to synchronize with the decrement timer but only long enough to get the SpamFilterLine
                 // After that we synchronize on the individual line. First we update the last modified time so we don't get cleaned up (probably)
                 FlowRateEntry spamFilterLine;
-                lock (_flowRateMap)
+                lock (m_flowRateMap)
                 {
                     
-                    if (!_flowRateMap.TryGetValue(strKey, out spamFilterLine))
+                    if (!m_flowRateMap.TryGetValue(strKey, out spamFilterLine))
                     {
                         spamFilterLine = new FlowRateEntry(strKey);
-                        _flowRateMap[strKey] = spamFilterLine;
+                        m_flowRateMap[strKey] = spamFilterLine;
                         lock (spamFilterLine)
                         {
                             spamFilterLine.LastUpdated = DateTime.Now;
@@ -441,9 +456,7 @@ namespace HSBot
                 return videoID;
             }
 
-
             // If not, connect with HEAD to see if this redirects to a youtube URI
-
             m_httpClient.DefaultRequestHeaders.Accept.Clear();
             m_httpClient.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("text/html", 1.0));
             DateTime perfStart = DateTime.Now;
@@ -461,9 +474,7 @@ namespace HSBot
                 {
                     Console.WriteLine("GetYoutubeVideoIDFromUriAsync TTR: {0}", DateTime.Now - perfStart);
                     return GetVideoIDFromYoutubeUri(finalUri);
-
                 }
-                
             }
           
             catch (TaskCanceledException)
@@ -473,12 +484,10 @@ namespace HSBot
             catch (Exception e)
             {
                 Console.Error.WriteLine("Youtube video ID lookup failed - unhandled exception: {0}", e.Message);
-
             }
          
             return null;
         }
-
 
         /// <summary>
         /// Tries to get the Video ID from a youtube URL.  This will simply parse the absolute URI string

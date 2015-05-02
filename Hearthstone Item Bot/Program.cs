@@ -13,8 +13,7 @@ namespace HSBot
         static void Main(string[] args)
         {
             Console.Title = "HearthBot - Started " + DateTime.Now;
-            ThreadPool.SetMaxThreads(100, 100);
-            ThreadPool.SetMinThreads(100, 100);
+
             try
             {
                 Config.Reload();
