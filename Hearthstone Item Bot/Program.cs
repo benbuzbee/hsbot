@@ -88,7 +88,6 @@ namespace HSBot
             {
                 new System.Threading.EventWaitHandle(false, System.Threading.EventResetMode.ManualReset).WaitOne();
             }
-    
         }
     }
 }

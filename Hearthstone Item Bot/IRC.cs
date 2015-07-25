@@ -106,6 +106,7 @@ namespace HSBot
                 {
                     m_connecting = true;
                     Console.WriteLine("Server timed out, reconnecting in 30 seconds...");
+                    Client.Disconnect();
                     System.Threading.Thread.Sleep(30000);
 
                     connectAction(c);
@@ -118,6 +119,7 @@ namespace HSBot
                 {
                     m_connecting = true;
                     Console.WriteLine("Disconnected from server, reconnecting in 60 seconds...");
+                    Client.Disconnect();
                     System.Threading.Thread.Sleep(60000);
                     
                     connectAction(c);
@@ -220,7 +222,7 @@ namespace HSBot
                 {
 
                     listMatchedCardNames.Add(strTriggerText);
-                    if (IsNickname(strTriggerText))
+                    if (IsNickname(strTriggerText) && !strTriggerText.Equals("HearthBot",StringComparison.CurrentCultureIgnoreCase))
                     {
                         Console.WriteLine("Ignoring inline trigger because it appears to be a nickname: {0}", strTriggerText);
                     }

@@ -857,7 +857,7 @@ namespace benbuzbee.LRTIRC
                 {
                     Exception = ex;
                     RaiseEvent(OnException, this, ex);
-                    throw ex; // If connect failed
+                    throw ex; // If connect failed, we want to make sure the caller knows about it
                 }
 
                 lock (m_registrationMutex)
@@ -870,6 +870,33 @@ namespace benbuzbee.LRTIRC
                 m_streamWriter = new StreamWriter(TCP.GetStream(), Encoding);
                 m_readingThread.Signal();
 
+                if (hasWritingSemaphore)
+                {
+                    m_writingSemaphore.Release();
+                    hasWritingSemaphore = false;
+                }
+
+                lock (m_registrationMutex)
+                {
+                    if (Connected)
+                    {
+                        RegisterWithServer();
+                        // Restart the timer for detecting timeout
+                        lock (m_timeoutTimer)
+                        {
+                            // 0 in first parameter means reset it immediately
+                            m_timeoutTimer.Change(TimeSpan.FromMilliseconds(0), Timeout);
+                        }
+
+                        // Restart the itmer for sending PINGs
+                        lock (m_pingTimer)
+                        {
+                            // 0 in first parameter means reset it immediately
+                            m_pingTimer.Change(TimeSpan.FromMilliseconds(0), TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2));
+                        }
+                    }
+                }
+
             }
             finally
             {
@@ -877,26 +904,6 @@ namespace benbuzbee.LRTIRC
                 {
                     m_writingSemaphore.Release();
                     hasWritingSemaphore = false;
-                }
-            }
-            lock (m_registrationMutex)
-            {
-                if (Connected)
-                {
-                    RegisterWithServer();
-                    // Restart the timer for detecting timeout
-                    lock (m_timeoutTimer)
-                    {
-                        // 0 in first parameter means reset it immediately
-                        m_timeoutTimer.Change(TimeSpan.FromMilliseconds(0), Timeout);
-                    }
-
-                    // Restart the itmer for sending PINGs
-                    lock (m_pingTimer)
-                    {
-                        // 0 in first parameter means reset it immediately
-                        m_pingTimer.Change(TimeSpan.FromMilliseconds(0), TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2));
-                    }
                 }
             }
         }
@@ -1476,7 +1483,6 @@ namespace benbuzbee.LRTIRC
                         }
                     }
                 }
-
             }
         }
         /// <summary>
@@ -1493,7 +1499,6 @@ namespace benbuzbee.LRTIRC
                 {
                     m_prefixes.Remove(prefixPosition, 1);
                 }
-
             }
         }
     }
@@ -1517,7 +1522,7 @@ namespace benbuzbee.LRTIRC
         BLUE = 12,
         PINK = 13,
         DARK_GRAY = 14,
-        GRAY = 15
+        GRAY = 15,
     }
 
     /// <summary>
@@ -1534,6 +1539,9 @@ namespace benbuzbee.LRTIRC
         private SemaphoreSlim m_semaphore = new SemaphoreSlim(0, 1);
 
         private bool m_alive = true;
+
+        // When set to false, will stop trying to read but the thread will persist.
+        private bool m_reading = true;
 
         /// <summary>
         /// Creates a new reader.  Only makes sense to do this once for each IRC instance.
@@ -1579,11 +1587,13 @@ namespace benbuzbee.LRTIRC
                         // Nope, try again.
                         continue;
                     }
+
                     try
                     {
                         using (StreamReader reader = new StreamReader(Client.TCP.GetStream()))
                         {
-                            while (Client.TCP.Connected)
+                            m_reading = true;
+                            while (Client.TCP.Connected && m_reading)
                             {
                                 String line = reader.ReadLine();
                                 if (line != null && OnRawMessageReceived != null)
@@ -1651,6 +1661,7 @@ namespace benbuzbee.LRTIRC
         {
             if (m_thread != null && m_thread.ThreadState == System.Threading.ThreadState.WaitSleepJoin)
             {
+                m_reading = false;
                 m_thread.Interrupt();
             }
         }
