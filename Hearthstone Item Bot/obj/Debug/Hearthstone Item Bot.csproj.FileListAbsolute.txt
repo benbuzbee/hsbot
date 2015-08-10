@@ -17,3 +17,45 @@ D:\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item B
 D:\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
 D:\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
 D:\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe.config
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.pdb
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
+C:\Users\benbu\Documents\Visual Studio 2013\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe.config
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.pdb
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.dll
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.xml
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.SelfHost.xml
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
+C:\Users\benbu\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe.config
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.exe
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\hsbot.pdb
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\config.xml
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.exe
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\hsbot.pdb
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.dll
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.SelfHost.dll
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Net.Http.Formatting.dll
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.xml
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Web.Http.SelfHost.xml
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\bin\Debug\System.Net.Http.Formatting.xml
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\HSBot.Properties.Resources.resources
+D:\Documents\Visual Studio 2015\Projects\Hearthstone Item Bot\Hearthstone Item Bot\obj\Debug\Hearthstone Item Bot.csproj.GenerateResource.Cache

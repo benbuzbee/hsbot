@@ -179,7 +179,7 @@ namespace HSBot
             }
  
         }
-        Regex rxInline = new Regex(@"(?:^|\s)\[([^\]+\]]+)\](?=[^a-zA-Z]|$|s)");
+        Regex rxInline = new Regex(@"(?:^|\s)\[([^\]+\]]+)\](?=[^a-zA-Z]|$|e?s[ $,;.!?])");
         Regex rxUrl = new Regex("(https?://[^ ]+)", RegexOptions.IgnoreCase);
         /// <summary>
         /// Event handlers for a privmsg from the server
