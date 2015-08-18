@@ -43,7 +43,7 @@
     <!-- The maximum cards the bot will message in one go, not recommended to put higher than 3. -->
     <maxcardsperline>3</maxcardsperline>
 
-    <!-- The flow limit feature restricts a user from to requesting at most MAX cards.  The number of cards he has requested gets decreased by 1 every SECONDS 
+    <!-- The flow limit feature restricts a user to requesting at most MAX cards (or other commands).  The number of cards he has requested gets decreased by 1 every SECONDS 
          For example, with max=3 seconds=5, a user can request 3 cards immediately, then in 5 seconds he can request 1 more or in 15 seconds he can request 3 more.
          To disable this feature just set max to an obscene number -->
    
@@ -62,7 +62,7 @@
   <!-- Youtube link parsing functionality. Remove or comment out to disable. -->
   <youtube>
     <!-- Use C# data binding format. To see all of the available data take a look at YoutubeSerialization.cs in source -->
-    <format>YouTube Video: {items[0].snippet.localized.title} - {items[0].contentDetails.duration} - [{items[0].contentDetails.definition}] {items[0].statistics.viewCount} views (&#0003;03{items[0].statistics.likeCount}&#0003; &#0003;04{items[0].statistics.dislikeCount}&#0003;)</format>
+    <format>YouTube Video: {items[0].snippet.localized.title} - {items[0].contentDetails.FormattedDuration} - [{items[0].contentDetails.definition}] {items[0].statistics.viewCount} views (&#0003;03{items[0].statistics.likeCount}&#0003; &#0003;04{items[0].statistics.dislikeCount}&#0003;)</format>
     
   </youtube>
   

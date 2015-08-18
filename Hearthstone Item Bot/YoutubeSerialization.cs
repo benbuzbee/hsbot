@@ -99,6 +99,44 @@ public class Contentdetails
     public string definition { get; set; }
     public string caption { get; set; }
     public bool licensedContent { get; set; }
+    [System.Runtime.Serialization.IgnoreDataMember]
+    public string FormattedDuration
+    {
+        get
+        {
+            // Example of "duration" value PT43M42S
+            if (duration.StartsWith("PT"))
+            {
+                try
+                {
+                    int hours = 0, minutes = 0, seconds = 0;
+                    int startIndex = 2; // Start after "PI"
+                    if (duration.IndexOf('H') > 0)
+                    {
+                        hours = int.Parse(duration.Substring(startIndex, duration.IndexOf('H') - startIndex));
+                        startIndex = duration.IndexOf('H') + 1;
+                    }
+                    if (duration.IndexOf('M') > 0)
+                    {
+                        minutes = int.Parse(duration.Substring(startIndex, duration.IndexOf('M') - startIndex));
+                        startIndex = duration.IndexOf('M') + 1;
+                    }
+                    if (duration.IndexOf('S') > 0)
+                    {
+                        seconds = int.Parse(duration.Substring(startIndex, duration.IndexOf('S') - startIndex));
+                        startIndex = duration.IndexOf('S') + 1;
+                    }
+
+                    return String.Format("{0}:{1:D2}:{2:D2}", hours, minutes, seconds);
+                }
+                catch (Exception)
+                {
+                    // Fall down and return duration
+                }
+            }
+            return duration;
+        }
+    }
 }
 
 public class Status

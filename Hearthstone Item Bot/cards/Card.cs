@@ -90,17 +90,28 @@ namespace HSBot.Cards
             }
         }
 
-        public String GetFullText(bool fControlCodes = true)
+        /// <summary>
+        /// Gets an mIRC printable and marked up name
+        /// </summary>
+        /// <returns></returns>
+        public String GetmIRCName(bool fControlCodes = true)
         {
-            StringBuilder sb = new StringBuilder(2048);
             if (fControlCodes)
             {
-                sb.AppendFormat("[{0}{1}]: ", GetmIRCColor(), HTML2mIRC(Name));
+                return String.Format("[{0}{1}]", GetmIRCColor(), HTML2mIRC(Name));
             }
             else
             {
-                sb.AppendFormat("[{0}]: ", NoHTML(Name));
+                return String.Format("[{0}]", NoHTML(Name));
             }
+        }
+
+
+        public String GetFullText(bool fControlCodes = true)
+        {
+            StringBuilder sb = new StringBuilder(2048);
+            sb.AppendFormat("{0}: ", GetmIRCName(fControlCodes));
+
             if (Attack != 0 || Health != 0)
                 sb.AppendFormat("{0}/{1}: ", Attack, Health);
             sb.AppendFormat("Cost: {0} ", Cost);

@@ -24,43 +24,9 @@ namespace HSBot
                 return;
             }
             
-            Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software" + (IntPtr.Size == 8 ? @"\Wow6432Node" : "") + @"\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone","InstallLocation",null);
 
-            String cardDataFile = null;
+            String cardDataFile = GetCardDataFile();
 
-            if (hsInstall != null)
-            {
-                cardDataFile = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
-            }
-
-            if (cardDataFile == null || !System.IO.File.Exists(cardDataFile))
-            {
-                // Wait 20 seconds on input or proceed in case we are unattended
-                Console.WriteLine("Hearthstone installation not found. Enter the absolute path to cardxml0.unity3d or nothing to use the same directory as HSBot.exe");
-                String input = null;
-                AutoResetEvent inputReceivedEvent = new AutoResetEvent(false);
-                Thread getInputThread = new Thread(() => {
-                    input = Console.ReadLine();
-                    inputReceivedEvent.Set();
-                });
-                getInputThread.Start();
-                inputReceivedEvent.WaitOne(20000);
-                if (input == null)
-                {
-                    // GTFO
-                    getInputThread.Interrupt();
-                }
-                
-                if (!String.IsNullOrEmpty(input) && File.Exists(input) && Path.IsPathRooted(input))
-                {
-                    cardDataFile = input;
-                }
-                else
-                {
-                    Console.WriteLine("No or invalid path entered. Defaulting to local cardxml0.unity3d.");
-                    cardDataFile = Path.Combine(System.Environment.CurrentDirectory,"cardxml0.unity3d");
-                }
-            }
             if (cardDataFile == null || !File.Exists(cardDataFile))
             {
                 Console.WriteLine("Card data file not found: {0}", cardDataFile);
@@ -88,6 +54,45 @@ namespace HSBot
             {
                 new System.Threading.EventWaitHandle(false, System.Threading.EventResetMode.ManualReset).WaitOne();
             }
+        }
+        static String GetCardDataFile()
+        {
+            String cardDataFile = null;
+            Object hsInstall = Microsoft.Win32.Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software" + (IntPtr.Size == 8 ? @"\Wow6432Node" : "") + @"\Microsoft\Windows\CurrentVersion\Uninstall\Hearthstone", "InstallLocation", null);
+            if (hsInstall != null)
+            {
+                cardDataFile = System.IO.Path.Combine((String)hsInstall, "Data", "Win", "cardxml0.unity3d");
+            }
+
+            if (cardDataFile == null || !System.IO.File.Exists(cardDataFile))
+            {
+                // Wait 20 seconds on input or proceed in case we are unattended
+                Console.WriteLine("Hearthstone installation not found. Enter the absolute path to cardxml0.unity3d or nothing to use the same directory as HSBot.exe");
+                String input = null;
+                AutoResetEvent inputReceivedEvent = new AutoResetEvent(false);
+                Thread getInputThread = new Thread(() => {
+                    input = Console.ReadLine();
+                    inputReceivedEvent.Set();
+                });
+                getInputThread.Start();
+                inputReceivedEvent.WaitOne(20000);
+                if (input == null)
+                {
+                    // GTFO
+                    getInputThread.Interrupt();
+                }
+
+                if (!String.IsNullOrEmpty(input) && File.Exists(input) && Path.IsPathRooted(input))
+                {
+                    cardDataFile = input;
+                }
+                else
+                {
+                    Console.WriteLine("No or invalid path entered. Defaulting to local cardxml0.unity3d.");
+                    cardDataFile = Path.Combine(System.Environment.CurrentDirectory, "cardxml0.unity3d");
+                }
+            }
+            return cardDataFile;
         }
     }
 }

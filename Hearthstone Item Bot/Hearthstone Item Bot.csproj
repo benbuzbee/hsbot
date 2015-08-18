@@ -65,7 +65,7 @@
     <Compile Include="Cards\CardSet.cs" />
     <Compile Include="Cards\DebugPaster.cs" />
     <Compile Include="Cards\CardParser.cs" />
-    <Compile Include="Cards\YoutubeSerialization.cs" />
+    <Compile Include="YoutubeSerialization.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="IRC.cs" />
     <Compile Include="IrcClient.cs" />
