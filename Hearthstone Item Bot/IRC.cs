@@ -612,11 +612,13 @@ namespace HSBot
         {
             public MatchItem Item { get; set; }
             public double MatchPercentage { get; set; }
+            public bool IsValid { get; set; }
 
             public MatchResult(MatchItem item, double matchPercentage)
             {
                 Item = item;
                 MatchPercentage = matchPercentage;
+                IsValid = true;
             }
 
             public int CompareTo(MatchResult<MatchItem> other)
@@ -692,6 +694,7 @@ namespace HSBot
                             double match = 1 - (LevenshteinDistance(searchWordsKvp.Key, testCardNameWord) / (double)Math.Max(searchWordsKvp.Key.Length, testCardNameWord.Length));
                             searchWordsKvp.Value.Add(new MatchResult<string>(testCardNameWord,match));
                         }
+                        
                     }
 
                     // Match all the search words off
@@ -706,34 +709,50 @@ namespace HSBot
                                 Debug.Assert(false);
                                 return resultList;
                             }
-                            if (searchWordsKvp.Value.Max.MatchPercentage > highest.Value.Max.MatchPercentage)
+                            if (searchWordsKvp.Value.Reverse().First((t) => t.IsValid).MatchPercentage > highest.Value.Reverse().First((t) => t.IsValid).MatchPercentage)
                             {
                                 highest = searchWordsKvp;
                             }
                         }
 
+                        var maxValue = highest.Value.Reverse().First((t) => t.IsValid);
                         // Remove the match from words so we track that we have already matched this word
-                        testCardNameWords.Remove(highest.Value.Max.Item);
+                        testCardNameWords.Remove(maxValue.Item);
 
                         // Remove the matching search word from searchWords so we don't match it against more test words
                         searchWords.Remove(highest.Key);
 
+                        //if (testCardName.Equals("do nothing")) Debugger.Break();
+
                         // Remove one instance of this test word from the match sets of all the search words so we dont consider it in the next iterations
                         foreach (var searchWordsKvp in searchWords)
                         {
-                            int i = 0; // So we only remove one
-                            searchWordsKvp.Value.RemoveWhere((result) => { return result.Item.Equals(highest.Value.Max.Item) && i++ == 0; });
+                            searchWordsKvp.Value.Reverse().First<MatchResult<string>> ((test) => { return test.IsValid && test.Item.Equals(maxValue.Item); }).IsValid = false;
                         }
 
                         // Ignore spaces since we parse on words
-                        double percentOfTestStringMatched = ((double)highest.Value.Max.Item.Length / testCardName.Replace(" ", "").Length);
+                        double percentOfTestStringMatched = ((double)maxValue.Item.Length / testCardName.Replace(" ", "").Length);
                         double percentOfSearchStringMatched = (double)highest.Key.Length / searchString.Replace(" ", "").Length;
-                        //double weightOfTestString = (double)testCardName.Replace(" ", "").Length / (testCardName.Replace(" ", "").Length + searchString.Replace(" ", "").Length);
-                        double weightOfTestString = .5;
-                        double weightOfSearchString = 1 - weightOfTestString;
 
-                        percentMatch += percentOfSearchStringMatched * highest.Value.Max.MatchPercentage * weightOfSearchString
-                            + percentOfTestStringMatched * highest.Value.Max.MatchPercentage * weightOfTestString;
+                        // A manual knob - how much weight should the (already relative to size) search string match have vs the test string?
+                        // A heavier search string means  we assume the input is more likely to be what the user wanted
+                        double weightOfSearchString = .75;
+                        double weightOfTestString = 1 - weightOfSearchString;
+
+                        /*
+                        // Intense debugging
+                        if (testCardName.Equals("harvest"))
+                        {
+                            Console.WriteLine("{0} matches {1} {2}%",highest.Key, maxValue.Item, maxValue.MatchPercentage * 100);
+                            Console.WriteLine("\tTest string percent: {0}% has weight {1}%", percentOfTestStringMatched * 100, weightOfSearchString * 100);
+                            Console.WriteLine("\tSearch string percent: {0}% has weight {1}%", percentOfSearchStringMatched * 100, weightOfTestString * 100);
+                            Console.WriteLine("\tTotal added contribution: {0}%", percentOfSearchStringMatched * maxValue.MatchPercentage * weightOfSearchString + percentOfTestStringMatched * maxValue.MatchPercentage * weightOfTestString);
+
+                        }
+                        */
+
+                        percentMatch += percentOfSearchStringMatched * maxValue.MatchPercentage * weightOfSearchString
+                                        + percentOfTestStringMatched * maxValue.MatchPercentage * weightOfTestString;
 
                     }
 
@@ -741,7 +760,7 @@ namespace HSBot
                     // Boost the match percentage if the search string is a subtring of the card name
                     // This allows lazy searches like "rag" to match "ragnarous" even though it is really a small percentage of the whole card
                     // The caller sets the amount by which we boost these matches
-                    if (percentMatch < 1 && testCardName.Contains(searchString)) percentMatch += boostSubstring;
+                    //if (percentMatch < 1 && testCardName.Contains(searchString)) percentMatch += boostSubstring;
 
                     if (percentMatch >= minMatchPct)
                     {
