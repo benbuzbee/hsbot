@@ -118,7 +118,7 @@ namespace HSBot
             Client.OnDisconnect += (c) =>
             {
                
-               m_isConnecting = true; lock (mutexConnect) { if (m_isConnecting) return; m_isConnecting = true; }
+               lock (mutexConnect) { if (m_isConnecting) return; m_isConnecting = true; }
 
                 Console.WriteLine("Disconnected from server, reconnecting in 60 seconds...");
                 Client.Disconnect();
@@ -674,7 +674,7 @@ namespace HSBot
                     // Explanation:
                     // We find the best matching word in the testCardString for each given word in the search string
                     // When we find a match, we remove that test and search word from future consideration
-                    // We give 50% of the match as weight of the search string which matches, and 50% as weight of the test string matched
+                    // We give 75% of the match as weight of the search string which matches, and 25% as weight of the test string matched
                     // We repeat this until search words or all test words have been matched off
 
                     // This map will have an entry for each search word
@@ -722,16 +722,14 @@ namespace HSBot
                         // Remove the matching search word from searchWords so we don't match it against more test words
                         searchWords.Remove(highest.Key);
 
-                        //if (testCardName.Equals("do nothing")) Debugger.Break();
-
                         // Remove one instance of this test word from the match sets of all the search words so we dont consider it in the next iterations
                         foreach (var searchWordsKvp in searchWords)
                         {
-                            searchWordsKvp.Value.Reverse().First<MatchResult<string>> ((test) => { return test.IsValid && test.Item.Equals(maxValue.Item); }).IsValid = false;
+                            searchWordsKvp.Value.Reverse().First<MatchResult<string>> ((test) => test.IsValid && test.Item.Equals(maxValue.Item)).IsValid = false;
                         }
 
                         // Ignore spaces since we parse on words
-                        double percentOfTestStringMatched = ((double)maxValue.Item.Length / testCardName.Replace(" ", "").Length);
+                        double percentOfTestStringMatched = (double)maxValue.Item.Length / testCardName.Replace(" ", "").Length;
                         double percentOfSearchStringMatched = (double)highest.Key.Length / searchString.Replace(" ", "").Length;
 
                         // A manual knob - how much weight should the (already relative to size) search string match have vs the test string?
@@ -750,7 +748,6 @@ namespace HSBot
 
                         }
                         */
-
                         percentMatch += percentOfSearchStringMatched * maxValue.MatchPercentage * weightOfSearchString
                                         + percentOfTestStringMatched * maxValue.MatchPercentage * weightOfTestString;
 

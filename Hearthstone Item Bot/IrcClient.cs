@@ -726,6 +726,7 @@ namespace benbuzbee.LRTIRC
             // When the reader raises an exception
             m_readingThread.OnException += (sender, e) =>
             {
+                Log.Info("Exception detected, exception message is \"{0}\"",e.Message);
                 // Call to clean up resources and set flags
                 // We cannot recover from a broken reader
                 DisconnectInternal();
@@ -760,6 +761,7 @@ namespace benbuzbee.LRTIRC
         /// <param name="callerHasSemaphore">True if we have the m_writingSemaphore before entering</param>
         private void DisconnectInternal(bool callerHasSemaphore = false)
         {
+            Log.Info("DisconnectInternal(callerHasSemaphore = {0})",callerHasSemaphore);
             try
             {
                 if (!callerHasSemaphore)
@@ -771,12 +773,14 @@ namespace benbuzbee.LRTIRC
                 {
                     lock (m_timeoutTimer)
                     {
+                        Log.Info("Timeout timer is suspended by DisconnectInternal()");
                         // Suspend timer
                         m_timeoutTimer.Change(System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
                     }
 
                     lock (m_pingTimer)
                     {
+                        Log.Info("Ping timer is suspended by DisconnectInternal()");
                         // Suspend timer
                         m_pingTimer.Change(System.Threading.Timeout.Infinite, System.Threading.Timeout.Infinite);
                     }
@@ -813,6 +817,7 @@ namespace benbuzbee.LRTIRC
                 // If the caller doesn't have the semaphore, then we do
                 if (!callerHasSemaphore)
                 {
+                    Log.Info("Done with DisconnectInternal(), relasing writing semaphore");
                     m_writingSemaphore.Release();
                 }
             }
@@ -829,6 +834,7 @@ namespace benbuzbee.LRTIRC
         /// <returns></returns>
         public async Task ConnectAsync(String nick, String user, String realname, String host, int port = 6667, String password = null)
         {
+            Log.Info("Beginning connect");
             bool hasWritingSemaphore = false;
 
             // Take the writing semaphore so writes do not proceed until the connection is stable
@@ -863,13 +869,16 @@ namespace benbuzbee.LRTIRC
                 lock (m_registrationMutex)
                 {
                     // If connect succeeded
+                    Log.Info("TCP connect succeeded.");
                     Connected = true;
                 }
 
                 // Setup reader and writer
+                Log.Info("Creating stream writing and signalling reader. Have writing semaphore = {0}", hasWritingSemaphore);
                 m_streamWriter = new StreamWriter(TCP.GetStream(), Encoding);
                 m_readingThread.Signal();
 
+                // We must release writing semaphore so that the registration functions can write
                 if (hasWritingSemaphore)
                 {
                     m_writingSemaphore.Release();
@@ -878,12 +887,14 @@ namespace benbuzbee.LRTIRC
 
                 lock (m_registrationMutex)
                 {
+                    Debug.Assert(Connected); 
                     if (Connected)
                     {
                         RegisterWithServer();
                         // Restart the timer for detecting timeout
                         lock (m_timeoutTimer)
                         {
+                            Log.Info("Starting timeout timer");
                             // 0 in first parameter means reset it immediately
                             m_timeoutTimer.Change(TimeSpan.FromMilliseconds(0), Timeout);
                         }
@@ -891,6 +902,7 @@ namespace benbuzbee.LRTIRC
                         // Restart the itmer for sending PINGs
                         lock (m_pingTimer)
                         {
+                            Log.Info("Starting ping timer");
                             // 0 in first parameter means reset it immediately
                             m_pingTimer.Change(TimeSpan.FromMilliseconds(0), TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2));
                         }
@@ -900,6 +912,7 @@ namespace benbuzbee.LRTIRC
             }
             finally
             {
+                Log.Info("Done with connection, Connected={0} hasWritingSemaphore={1}", Connected, hasWritingSemaphore);
                 if (hasWritingSemaphore)
                 {
                     m_writingSemaphore.Release();
@@ -969,8 +982,11 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         private void RegisterWithServer()
         {
+            Debug.Assert(Connected);
+            Log.Info("Registering synchronously with the server");
             lock (m_registrationMutex)
             {
+                Log.Info("Registered={0}", Registered);
                 if (Registered) return;
                 if (!String.IsNullOrEmpty(Password))
                 {
@@ -1576,14 +1592,18 @@ namespace benbuzbee.LRTIRC
             {
                 try
                 {
+                    Log.Info("Reader thread is waiting to run");
                     m_semaphore.Wait();
+                    Log.Info("Reader thread has been unblocked");
                     if (!m_alive)
                     {
+                        Log.Info("Reader thread is exiting gracefully");
                         break;
                     }
                   
                     if (Client == null || Client.TCP == null)
                     {
+                        Log.Info("Reader thread was unblocked but clien is not read to read");
                         // Nope, try again.
                         continue;
                     }
@@ -1614,22 +1634,24 @@ namespace benbuzbee.LRTIRC
                                 }
                                 else if (line == null)
                                 {
+                                    Log.Info("Reader encountered EOF");
                                     // Catch this outside the reader loop but inside the thread loop
                                     throw new EndOfStreamException();
                                 }
                             }
                         }
                     }
-                    catch (ThreadInterruptedException) { /* Allow interrupts to break us out of the read-wait loop but not the entire thread */ }
+                    catch (ThreadInterruptedException) { Log.Info("Reader thread was interrupted."); /* Allow interrupts to break us out of the read-wait loop but not the entire thread */ }
                     catch (Exception e)
                     {
+                        Log.Info("Reader thread encountered an unexpected exception");
                         if (OnException != null)
                         {
                             OnException(this, e);
                         }
                     }
                 }
-                catch (ThreadInterruptedException) {  /* If interrupted, it's either ReleaseStream (go back and wait) or its Kill (go back and find m_alive to be false) */ }
+                catch (ThreadInterruptedException) { Log.Info("Reader thread was interrupted while blocked. m_alive={0}",m_alive); /* If interrupted, it's either ReleaseStream (go back and wait) or its Kill (go back and find m_alive to be false) */ }
             } 
         }
 
@@ -1639,6 +1661,7 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public void Die()
         {
+            Log.Info("Request to die.");
             m_alive = false;
         }
 
@@ -1647,9 +1670,11 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public void Kill()
         {
+            Log.Info("Killing reader thread");
             Die();
             if (m_thread != null)
             {
+                Log.Info("Interrupting reader thread");
                 m_thread.Interrupt();
             }
         }
@@ -1659,10 +1684,16 @@ namespace benbuzbee.LRTIRC
         /// </summary>
         public void ReleaseStream()
         {
+            Log.Info("Interruping reader");
             if (m_thread != null && m_thread.ThreadState == System.Threading.ThreadState.WaitSleepJoin)
             {
+                Log.Info("Blocked reader found, interrupting...");
                 m_reading = false;
                 m_thread.Interrupt();
+            }
+            else
+            {
+                Log.Info("Reader is not busy");
             }
         }
 
@@ -1674,10 +1705,12 @@ namespace benbuzbee.LRTIRC
         {
             try
             {
+                Log.Info("Signalling reader thread.");
                 m_semaphore.Release();
                 return true;
             } catch (SemaphoreFullException)
             {
+                Log.Info("Reader is not blocked");
                 return false;
             }
         }
@@ -1695,5 +1728,22 @@ namespace benbuzbee.LRTIRC
         /// <param name="message"></param>
         /// <returns>null to block message or a string with which to replace it</returns>
         String FilterMessage(IrcClient sender, String message);
+    }
+
+    public class Log
+    {
+        private static Object m_Lock = new Object();
+        public static void Info(String format, params object[] parms)
+        {
+            lock (m_Lock)
+            {
+                // TODO Modular logging
+                var color = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine(format, parms);
+                Console.ForegroundColor = color;
+            }
+            
+        }
     }
 }
