@@ -895,16 +895,14 @@ namespace benbuzbee.LRTIRC
                         lock (m_timeoutTimer)
                         {
                             Log.Info("Starting timeout timer");
-                            // 0 in first parameter means reset it immediately
-                            m_timeoutTimer.Change(TimeSpan.FromMilliseconds(0), Timeout);
+                            m_timeoutTimer.Change(Timeout, Timeout);
                         }
 
                         // Restart the itmer for sending PINGs
                         lock (m_pingTimer)
                         {
                             Log.Info("Starting ping timer");
-                            // 0 in first parameter means reset it immediately
-                            m_pingTimer.Change(TimeSpan.FromMilliseconds(0), TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2));
+                            m_pingTimer.Change(TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2), TimeSpan.FromMilliseconds(Timeout.TotalMilliseconds / 2));
                         }
                     }
                 }
@@ -1740,7 +1738,7 @@ namespace benbuzbee.LRTIRC
                 // TODO Modular logging
                 var color = Console.ForegroundColor;
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine(format, parms);
+                Console.WriteLine(DateTime.Now + " " + format, parms);
                 Console.ForegroundColor = color;
             }
             
